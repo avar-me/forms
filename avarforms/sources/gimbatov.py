@@ -73,15 +73,23 @@ class DictionaryIndex:
             lemmas = self.form_to_lemmas[token]
             if len(lemmas) == 1:
                 lemma = next(iter(lemmas))
+                relation = ""
+                if lemma == token and token in self.word_to_entry and token not in self.word_relations:
+                    relation = _gram_form_relation(self.word_to_entry[token][0])
                 pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
-                return lemma, "", pos, "medium"
+                return lemma, relation, pos, "medium" if relation else "medium"
             if context_lemma and context_lemma in lemmas:
                 pos = token_pos or (_entry_pos(self.word_to_entry[context_lemma][0]) if context_lemma in self.word_to_entry else "")
-                return context_lemma, "", pos, "medium"
+                relation = ""
+                if context_lemma == token and token in self.word_to_entry:
+                    relation = _gram_form_relation(self.word_to_entry[token][0])
+                return context_lemma, relation, pos, "medium"
             return "", "", token_pos, "low"
 
-        if token in self.word_to_entry:
-            return token, "", token_pos, "medium"
+        if token in self.word_to_entry and token not in self.word_relations:
+            entry = self.word_to_entry[token][0]
+            relation = _gram_form_relation(entry)
+            return token, relation, token_pos, "high"
 
         return "", "", "", "low"
 
@@ -96,6 +104,13 @@ def _extract_relation_from_entry(entry: dict[str, Any]) -> tuple[str, str] | Non
 
 def _entry_pos(entry: dict[str, Any]) -> str:
     return entry.get("pos", "") or ""
+
+
+def _gram_form_relation(entry: dict[str, Any]) -> str:
+    gram_form = entry.get("form", "") or ""
+    if gram_form in ("", "—"):
+        return ""
+    return gram_form
 
 
 def _load_entries(path: Path) -> list[dict[str, Any]]:
@@ -125,6 +140,7 @@ class GimbatovExtractor(SourceExtractor):
     SUB_FORMS = "forms"
     SUB_GENDER = "gender_forms"
     SUB_EXPLICIT = "explicit_relation"
+    SUB_HEADWORD = "headword"
     SUB_EXAMPLES = "examples"
 
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
@@ -149,10 +165,12 @@ class GimbatovExtractor(SourceExtractor):
         subsource: str,
         confidence: str = "high",
         mappings: MappingTable,
+        allow_self: bool = False,
     ) -> WordFormRecord | None:
-        if not wordform or wordform == lemma:
-            if not relation:
-                return None
+        if not wordform:
+            return None
+        if wordform == lemma and not relation and not allow_self:
+            return None
 
         if wordform in mappings:
             override = mappings[wordform]
@@ -195,6 +213,18 @@ class GimbatovExtractor(SourceExtractor):
         headword = word
         if relation_info:
             headword = relation_info[0]
+        else:
+            rec = self._record(
+                wordform=word,
+                lemma=word,
+                relation=_gram_form_relation(entry),
+                pos=pos,
+                subsource=self.SUB_HEADWORD,
+                allow_self=True,
+                mappings=mappings,
+            )
+            if rec:
+                yield rec
 
         forms = entry.get("forms", [])
         for form in forms:
@@ -267,6 +297,8 @@ class GimbatovExtractor(SourceExtractor):
                     if not lemma and not relation:
                         if token in index.word_to_entry or token in index.form_to_lemmas:
                             lemma = token
+                            if token in index.word_to_entry and token not in index.word_relations:
+                                relation = _gram_form_relation(index.word_to_entry[token][0])
                             confidence = "medium"
                         else:
                             continue
