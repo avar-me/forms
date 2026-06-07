@@ -11,7 +11,7 @@ from typing import Any, Callable, Iterator
 from avarforms.core.extractor import SourceExtractor
 from avarforms.core.models import MappingTable, WordFormRecord
 
-from .class_prefix import class_prefix_base_candidates
+from .class_prefix import class_prefix_matches
 
 RELATION_FROM_KEYS: dict[str, str] = {
     "masdarfrom": "масдар",
@@ -551,10 +551,12 @@ class DictionaryIndex:
 
     def _lookup_class_prefix(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
         """Map class/gender surface forms (в/р/й/я/е) to б-class verb lemmas."""
-        for candidate in class_prefix_base_candidates(token):
+        for candidate, relation in class_prefix_matches(token):
             resolved = self._resolve_lemma_from_surface(candidate, token_pos)
-            if resolved:
-                return resolved
+            if not resolved:
+                continue
+            lemma, _old_relation, pos, confidence = resolved
+            return lemma, relation, pos, confidence
         return None
 
     def _lookup_sentence_case(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
