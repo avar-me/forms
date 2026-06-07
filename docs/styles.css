@@ -162,7 +162,8 @@ a:hover {
   background: var(--accent-light);
 }
 
-.lemma-link {
+.lemma-link,
+.lemma-local-link {
   color: var(--link);
   cursor: pointer;
   text-decoration: none;
@@ -170,9 +171,30 @@ a:hover {
   white-space: nowrap;
 }
 
-.lemma-link:hover {
+.lemma-link:hover,
+.lemma-local-link:hover {
   color: var(--link-hover);
   border-bottom-color: var(--link-hover);
+}
+
+.lemma-dict-link {
+  color: var(--text-muted);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.lemma-dict-link:hover {
+  color: var(--link);
+}
+
+.word-list .col-dict,
+.word-list th.col-dict {
+  width: 1%;
+  white-space: nowrap;
 }
 
 .lemma-link-icon {

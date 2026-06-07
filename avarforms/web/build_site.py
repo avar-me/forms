@@ -117,6 +117,19 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
     with (data_dir / "browse.json").open("w", encoding="utf-8") as fh:
         json.dump(browse, fh, ensure_ascii=False, separators=(",", ":"))
 
+    by_lemma: dict[str, set[str]] = defaultdict(set)
+    for wordform, records in grouped.items():
+        for record in records:
+            lemma = record.get("lemma", "")
+            if lemma:
+                by_lemma[lemma].add(wordform)
+    lemma_index = {
+        lemma: sorted(wordforms, key=normalize_word)
+        for lemma, wordforms in sorted(by_lemma.items())
+    }
+    with (data_dir / "lemma_index.json").open("w", encoding="utf-8") as fh:
+        json.dump(lemma_index, fh, ensure_ascii=False, separators=(",", ":"))
+
     chunk_info: list[dict[str, Any]] = []
     for chunk_name, chunk_data in sorted(chunks.items()):
         safe = _safe_chunk_filename(chunk_name)

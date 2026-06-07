@@ -24,7 +24,9 @@ const state = {
     isLoading: false,
     activeFilter: null,
     gapFilterManifest: null,
-    gapWordforms: null
+    gapWordforms: null,
+    lemmaIndex: null,
+    activeLemma: null
 };
 
 function debounce(func, delay) {
@@ -177,17 +179,38 @@ function getBrowseEntry(wordform) {
     return state.browse?.[wordform] || { lemma: '', relation: '', pos: '', count: 0 };
 }
 
+async function loadLemmaIndex() {
+    if (state.lemmaIndex) return;
+    const response = await fetch(`${CONFIG.DATA_PREFIX}/lemma_index.json`);
+    if (!response.ok) throw new Error('Не удалось загрузить индекс лемм');
+    state.lemmaIndex = await response.json();
+}
+
+function lemmaLocalUrl(lemma) {
+    return `index.html?lemma=${encodeURIComponent(lemma)}`;
+}
+
 function dictLemmaUrl(lemma) {
     return `${CONFIG.DICT_BASE}#word=${encodeURIComponent(lemma)}`;
 }
 
+function renderLemmaCells(lemma) {
+    if (!lemma) {
+        return { lemma: '—', dict: '—' };
+    }
+    return {
+        lemma:
+            `<a href="${lemmaLocalUrl(lemma)}" class="lemma-local-link"` +
+            ` title="Словоформы этой леммы">${escapeHtml(lemma)}</a>`,
+        dict:
+            `<a href="${dictLemmaUrl(lemma)}" class="lemma-dict-link" target="_blank" rel="noopener"` +
+            ` title="Словарная статья на dev.avar.me">avar.me` +
+            `<span class="lemma-link-icon" aria-hidden="true">↗</span></a>`
+    };
+}
+
 function renderLemmaLink(lemma) {
-    const url = dictLemmaUrl(lemma);
-    return (
-        `<a href="${escapeHtml(url)}" class="lemma-link" target="_blank" rel="noopener"` +
-        ` title="Словарная статья на dev.avar.me">${escapeHtml(lemma)}` +
-        `<span class="lemma-link-icon" aria-hidden="true">↗</span></a>`
-    );
+    return renderLemmaCells(lemma).lemma;
 }
 
 function renderSuggestions(suggestions) {
@@ -212,14 +235,16 @@ function renderWordformCard(data) {
 
     html += '<div class="result-block">';
     html += '<div class="word-list-scroll"><table class="word-list"><thead><tr>';
-    html += '<th>Словоформа</th><th>Лемма</th><th>Связь</th><th>Часть речи</th><th>Источник</th><th>×</th>';
+    html += '<th>Словоформа</th><th>Лемма</th><th class="col-dict">avar.me</th>';
+    html += '<th>Связь</th><th>Часть речи</th><th>Источник</th><th>×</th>';
     html += '</tr></thead><tbody>';
 
     for (const entry of entries) {
-        const lemmaCell = entry.lemma ? renderLemmaLink(entry.lemma) : '—';
+        const lemmaCells = renderLemmaCells(entry.lemma);
         html += `<tr class="word-list-row" tabindex="0">`;
         html += `<td class="word-list-word">${escapeHtml(data.wordform)}</td>`;
-        html += `<td>${lemmaCell}</td>`;
+        html += `<td>${lemmaCells.lemma}</td>`;
+        html += `<td class="col-dict">${lemmaCells.dict}</td>`;
         html += `<td>${entry.relation ? `<span class="relation-badge">${escapeHtml(entry.relation)}</span>` : '—'}</td>`;
         html += `<td>${entry.pos ? escapeHtml(entry.pos) : '—'}</td>`;
         html += `<td>${entry.source ? escapeHtml(entry.source) : '—'}</td>`;
@@ -235,14 +260,15 @@ function renderWordListTable(wordforms, options = {}) {
     const { caption = '' } = options;
     const rows = wordforms.map(wordform => {
         const b = getBrowseEntry(wordform);
-        const lemma = b.lemma ? renderLemmaLink(b.lemma) : '—';
+        const lemmaCells = renderLemmaCells(b.lemma);
         const relation = b.relation
             ? `<span class="relation-badge">${escapeHtml(b.relation)}</span>`
             : '—';
         return `
             <tr class="word-list-row" data-word="${escapeHtml(wordform)}" tabindex="0" role="button">
                 <td class="word-list-word">${escapeHtml(wordform)}</td>
-                <td>${lemma}</td>
+                <td>${lemmaCells.lemma}</td>
+                <td class="col-dict">${lemmaCells.dict}</td>
                 <td>${relation}</td>
                 <td>${b.pos ? escapeHtml(b.pos) : '—'}</td>
                 <td class="count-badge">${b.count || ''}</td>
@@ -259,6 +285,7 @@ function renderWordListTable(wordforms, options = {}) {
                     <tr>
                         <th>Словоформа</th>
                         <th>Лемма</th>
+                        <th class="col-dict">avar.me</th>
                         <th>Связь</th>
                         <th>Часть речи</th>
                         <th>×</th>
@@ -273,19 +300,84 @@ function renderWordListTable(wordforms, options = {}) {
 function bindWordListClicks(container) {
     container.querySelectorAll('.word-list-row[data-word]').forEach(row => {
         row.addEventListener('click', e => {
-            if (e.target.closest('.lemma-link')) return;
+            if (e.target.closest('.lemma-local-link, .lemma-dict-link, .lemma-link')) return;
             const word = row.dataset.word;
             document.getElementById('searchInput').value = word;
             loadAndDisplayWordform(word);
         });
         row.addEventListener('keydown', e => {
             if (e.key === 'Enter' || e.key === ' ') {
-                if (e.target.closest('.lemma-link')) return;
+                if (e.target.closest('.lemma-local-link, .lemma-dict-link, .lemma-link')) return;
                 e.preventDefault();
                 row.click();
             }
         });
     });
+}
+
+function syncUrl(params) {
+    const url = new URL(window.location);
+    url.search = '';
+    for (const [key, value] of Object.entries(params)) {
+        if (value) url.searchParams.set(key, value);
+    }
+    history.pushState(null, '', url);
+}
+
+function clearViewState() {
+    state.activeLemma = null;
+    state.activeFilter = null;
+}
+
+function showLemmaBanner(lemma, count) {
+    const statsEl = document.getElementById('searchStats');
+    statsEl.innerHTML = `
+        Лемма: <strong>${escapeHtml(lemma)}</strong>
+        · ${count} ${count === 1 ? 'словоформа' : count < 5 ? 'словоформы' : 'словоформ'}
+        · <a href="index.html">сбросить</a>`;
+}
+
+function displayLemmaForms(lemma, { updateUrl = true } = {}) {
+    const wordforms = state.lemmaIndex?.[lemma] || [];
+    const resultsEl = document.getElementById('results');
+    const randomSection = document.getElementById('randomWordsSection');
+    const suggestionsEl = document.getElementById('suggestions');
+
+    state.activeLemma = lemma;
+    state.activeFilter = null;
+    suggestionsEl.style.display = 'none';
+
+    if (!wordforms.length) {
+        resultsEl.innerHTML = `
+            <div class="no-results">
+                <p>Нет словоформ для леммы «${escapeHtml(lemma)}»</p>
+            </div>`;
+        resultsEl.style.display = 'block';
+        if (randomSection) randomSection.style.display = 'none';
+        showLemmaBanner(lemma, 0);
+        if (updateUrl) syncUrl({ lemma });
+        return;
+    }
+
+    const caption = `Словоформы леммы «${lemma}» — ${wordforms.length}`;
+    resultsEl.innerHTML = renderWordListTable(wordforms, { caption });
+    resultsEl.style.display = 'block';
+    bindWordListClicks(resultsEl);
+    if (randomSection) randomSection.style.display = 'none';
+    showLemmaBanner(lemma, wordforms.length);
+    if (updateUrl) syncUrl({ lemma });
+}
+
+async function loadAndDisplayLemmaForms(lemma) {
+    showLoading(true);
+    try {
+        await loadLemmaIndex();
+        showLoading(false);
+        displayLemmaForms(lemma);
+    } catch (err) {
+        showLoading(false);
+        showError(err.message || 'Ошибка загрузки леммы');
+    }
 }
 
 function renderHomeSamples() {
@@ -416,6 +508,7 @@ async function loadAndDisplayWordform(wordform) {
         resultsEl.style.display = 'block';
         bindWordListClicks(resultsEl);
         if (randomSection) randomSection.style.display = 'none';
+        syncUrl({ q: wordform });
         updateSearchStats(wordform, 1);
     } catch (err) {
         showLoading(false);
@@ -436,11 +529,15 @@ function handleSearchInput(query) {
         document.getElementById('suggestions').style.display = 'none';
         resultsEl.style.display = 'none';
         resultsEl.innerHTML = '';
+        clearViewState();
+        syncUrl({});
         if (randomSection) randomSection.style.display = 'block';
         renderHomeSamples();
         updateSearchStats('', 0);
         return;
     }
+
+    clearViewState();
 
     const suggestions = binarySearchPrefix(state.wordformsIndex, q);
     renderSuggestions(suggestions);
@@ -476,19 +573,25 @@ async function init() {
     try {
         const params = new URLSearchParams(window.location.search);
         const filter = params.get('filter');
+        const lemma = params.get('lemma');
         const q = params.get('q');
 
         await Promise.all([loadWordformsIndex(), loadBrowse(), loadManifest()]);
 
-        if (filter) {
+        showLoading(false);
+
+        if (lemma) {
+            await loadLemmaIndex();
+            displayLemmaForms(lemma, { updateUrl: false });
+        } else if (filter) {
             await loadGapFilter(filter);
             showFilterBanner(filter);
+            renderHomeSamples();
+        } else {
+            renderHomeSamples();
         }
 
-        showLoading(false);
-        renderHomeSamples();
-
-        if (q) {
+        if (q && !lemma) {
             document.getElementById('searchInput').value = q;
             handleSearchInput(q);
         }
@@ -533,6 +636,44 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!e.target.closest('.search-container')) {
             suggestionsEl.style.display = 'none';
         }
+    });
+
+    document.addEventListener('click', e => {
+        const link = e.target.closest('.lemma-local-link');
+        if (!link) return;
+        e.preventDefault();
+        const href = link.getAttribute('href') || '';
+        const lemma = new URL(href, window.location.href).searchParams.get('lemma');
+        if (!lemma) return;
+        document.getElementById('searchInput').value = '';
+        document.getElementById('clearBtn').style.display = 'none';
+        loadAndDisplayLemmaForms(lemma);
+    });
+
+    window.addEventListener('popstate', () => {
+        const params = new URLSearchParams(window.location.search);
+        const lemma = params.get('lemma');
+        const filter = params.get('filter');
+        const q = params.get('q');
+        const searchInput = document.getElementById('searchInput');
+
+        if (lemma) {
+            searchInput.value = '';
+            loadAndDisplayLemmaForms(lemma);
+            return;
+        }
+
+        clearViewState();
+        if (filter) {
+            loadGapFilter(filter).then(() => {
+                showFilterBanner(filter);
+                renderHomeSamples();
+            });
+            return;
+        }
+
+        searchInput.value = q || '';
+        handleSearchInput(searchInput.value);
     });
 
     init();
