@@ -1,25 +1,25 @@
 /**
- * Аварско-русский словарь — Стили
- * Дизайн-система согласована с index.avar.me
+ * Словоформы аварского языка — forms.avar.me
+ * Палитра: слегка смещена от dev.avar.me (шалфей вместо золота)
  */
 
 /* ============================================================================
-   CSS VARIABLES (взяты из index.avar.me)
+   CSS VARIABLES
    ============================================================================ */
 
 :root {
-  --bg-deep:        #f4f1ea;
+  --bg-deep:        #eef1ec;
   --bg-card:        #ffffff;
-  --bg-card-hover:  #faf8f4;
-  --bg-secondary:   #f0ece2;
+  --bg-card-hover:  #f6f8f5;
+  --bg-secondary:   #e6ebe5;
 
   --text:           #1c2229;
   --text-muted:     #5a6570;
   --text-light:     #8a9099;
 
-  --accent:         #9a7b1a;
-  --accent-glow:    rgba(154, 123, 26, 0.25);
-  --accent-light:   rgba(154, 123, 26, 0.12);
+  --accent:         #5e7a6f;
+  --accent-glow:    rgba(94, 122, 111, 0.25);
+  --accent-light:   rgba(94, 122, 111, 0.12);
 
   --link:           #1a5f8a;
   --link-hover:     #0d4a6e;
@@ -76,9 +76,9 @@ body {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(201, 162, 39, 0.14), transparent),
-    radial-gradient(ellipse 60% 40% at 100% 80%, rgba(94, 140, 180, 0.08), transparent),
-    linear-gradient(180deg, #faf8f4 0%, var(--bg-deep) 50%);
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(94, 122, 111, 0.13), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 80%, rgba(70, 130, 120, 0.09), transparent),
+    linear-gradient(180deg, #f5f7f4 0%, var(--bg-deep) 50%);
   pointer-events: none;
 }
 
@@ -158,7 +158,7 @@ a:hover {
 
 .nav-link-active {
   color: var(--accent);
-  border-color: rgba(154, 123, 26, 0.35);
+  border-color: rgba(94, 122, 111, 0.35);
   background: var(--accent-light);
 }
 
@@ -167,11 +167,21 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
   border-bottom: 1px dashed rgba(26, 95, 138, 0.35);
+  white-space: nowrap;
 }
 
 .lemma-link:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+.lemma-link-icon {
+  display: inline-block;
+  margin-left: 0.15em;
+  font-size: 0.72em;
+  opacity: 0.55;
+  vertical-align: super;
+  line-height: 1;
 }
 
 .relation-badge {

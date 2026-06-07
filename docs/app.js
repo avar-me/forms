@@ -9,7 +9,8 @@ const CONFIG = {
     HOME_SAMPLES: 10,
     DEBOUNCE_DELAY: 150,
     CHUNK_CACHE_SIZE: 50,
-    DATA_PREFIX: 'data/wordforms'
+    DATA_PREFIX: 'data/wordforms',
+    DICT_BASE: 'https://dev.avar.me/'
 };
 
 const state = {
@@ -171,6 +172,19 @@ function getBrowseEntry(wordform) {
     return state.browse?.[wordform] || { lemma: '', relation: '', pos: '', count: 0 };
 }
 
+function dictLemmaUrl(lemma) {
+    return `${CONFIG.DICT_BASE}#word=${encodeURIComponent(lemma)}`;
+}
+
+function renderLemmaLink(lemma) {
+    const url = dictLemmaUrl(lemma);
+    return (
+        `<a href="${escapeHtml(url)}" class="lemma-link" target="_blank" rel="noopener"` +
+        ` title="Словарная статья на dev.avar.me">${escapeHtml(lemma)}` +
+        `<span class="lemma-link-icon" aria-hidden="true">↗</span></a>`
+    );
+}
+
 function renderSuggestions(suggestions) {
     const el = document.getElementById('suggestions');
     if (!suggestions.length) {
@@ -197,9 +211,7 @@ function renderWordformCard(data) {
     html += '</tr></thead><tbody>';
 
     for (const entry of entries) {
-        const lemmaCell = entry.lemma
-            ? `<a href="#" class="lemma-link" data-word="${escapeHtml(entry.lemma)}">${escapeHtml(entry.lemma)}</a>`
-            : '—';
+        const lemmaCell = entry.lemma ? renderLemmaLink(entry.lemma) : '—';
         html += `<tr class="word-list-row" tabindex="0">`;
         html += `<td class="word-list-word">${escapeHtml(data.wordform)}</td>`;
         html += `<td>${lemmaCell}</td>`;
@@ -218,9 +230,7 @@ function renderWordListTable(wordforms, options = {}) {
     const { caption = '' } = options;
     const rows = wordforms.map(wordform => {
         const b = getBrowseEntry(wordform);
-        const lemma = b.lemma
-            ? `<a href="#" class="lemma-link" data-word="${escapeHtml(b.lemma)}">${escapeHtml(b.lemma)}</a>`
-            : '—';
+        const lemma = b.lemma ? renderLemmaLink(b.lemma) : '—';
         const relation = b.relation
             ? `<span class="relation-badge">${escapeHtml(b.relation)}</span>`
             : '—';
@@ -257,26 +267,18 @@ function renderWordListTable(wordforms, options = {}) {
 
 function bindWordListClicks(container) {
     container.querySelectorAll('.word-list-row[data-word]').forEach(row => {
-        row.addEventListener('click', () => {
+        row.addEventListener('click', e => {
+            if (e.target.closest('.lemma-link')) return;
             const word = row.dataset.word;
             document.getElementById('searchInput').value = word;
             loadAndDisplayWordform(word);
         });
         row.addEventListener('keydown', e => {
             if (e.key === 'Enter' || e.key === ' ') {
+                if (e.target.closest('.lemma-link')) return;
                 e.preventDefault();
                 row.click();
             }
-        });
-    });
-
-    container.querySelectorAll('.lemma-link').forEach(link => {
-        link.addEventListener('click', e => {
-            e.preventDefault();
-            e.stopPropagation();
-            const word = link.dataset.word;
-            document.getElementById('searchInput').value = word;
-            loadAndDisplayWordform(word);
         });
     });
 }

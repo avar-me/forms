@@ -3,8 +3,8 @@
  */
 
 const CHART_COLORS = [
-    '#9a7b1a', '#1a5f8a', '#5e8cb4', '#c9a227', '#6b7280',
-    '#b45309', '#047857', '#7c3aed', '#be123c', '#0f766e'
+    '#5e7a6f', '#1a5f8a', '#6b9080', '#4a6670', '#7a9e8e',
+    '#3d6b5e', '#047857', '#5c7a6b', '#2d6a6a', '#0f766e'
 ];
 
 const chartDefaults = {
