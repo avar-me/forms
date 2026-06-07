@@ -1,6 +1,6 @@
 {
   "total_raw_records": 171465,
-  "total_aggregated_records": 77967,
+  "total_aggregated_records": 77969,
   "per_source_raw": {
     "AV-RU словарь Гимбатова": 171465
   },
@@ -11,19 +11,19 @@
     "explicit_relation": 5828,
     "gender_forms": 654
   },
-  "needs_work_mentions": 6224,
+  "needs_work_mentions": 6039,
   "gap_wordforms": {
-    "needs_work": 3470,
-    "fully_unmapped": 3361,
+    "needs_work": 3419,
+    "fully_unmapped": 3310,
     "partial": 109,
-    "homograph": 1018,
+    "homograph": 1020,
     "strange": 0
   },
   "gap_mentions": {
-    "needs_work": 6224,
-    "fully_unmapped": 6049,
+    "needs_work": 6039,
+    "fully_unmapped": 5864,
     "partial": 175,
-    "homograph": 7825,
+    "homograph": 7851,
     "strange": 0
   },
   "top_lemmas": [
@@ -84,6 +84,10 @@
       473
     ],
     [
+      "бугеб",
+      458
+    ],
+    [
       "бачӏине",
       441
     ],
@@ -102,10 +106,6 @@
     [
       "ине",
       401
-    ],
-    [
-      "чӏвазе",
-      389
     ]
   ],
   "top_wordforms": [
@@ -209,7 +209,7 @@
     ],
     [
       "множественное число",
-      3136
+      3227
     ],
     [
       "понудительная форма",
@@ -217,7 +217,7 @@
     ],
     [
       "мужской род",
-      1260
+      1414
     ],
     [
       "масдар (понудительная)",
@@ -244,12 +244,12 @@
       348
     ],
     [
-      "эргативный падеж",
-      288
+      "женский род",
+      301
     ],
     [
-      "женский род",
-      274
+      "эргативный падеж",
+      288
     ],
     [
       "дательный падеж",

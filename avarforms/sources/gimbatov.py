@@ -549,10 +549,35 @@ class DictionaryIndex:
         pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
         return lemma, "", pos, "medium"
 
+    def _resolve_class_affix_surface(self, surface: str, token_pos: str) -> tuple[str, str, str, str] | None:
+        """Resolve class-affix candidate to any dictionary headword or form (not verbs only)."""
+        if surface in self.headwords:
+            entry = self.word_to_entry[surface][0]
+            pos = token_pos or _entry_pos(entry)
+            relation = _gram_form_relation(entry)
+            return surface, relation, pos, "medium"
+
+        if surface not in self.form_to_lemmas:
+            return None
+
+        lemmas = self.form_to_lemmas[surface]
+        verb_lemmas = {
+            lemma
+            for lemma in lemmas
+            if lemma in self.word_to_entry and _entry_pos(self.word_to_entry[lemma][0]) == "глагол"
+        }
+        pick_from = verb_lemmas if verb_lemmas else lemmas
+        if len(pick_from) == 1:
+            lemma = next(iter(pick_from))
+        else:
+            lemma = self._pick_ambiguous_lemma(pick_from)
+        pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
+        return lemma, "", pos, "medium"
+
     def _lookup_class_prefix(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
-        """Map class/gender surface forms (в/р/й/я/е) to б-class verb lemmas."""
+        """Map class/gender surface forms (в/р/й/я/е, including suffix ев/ей/ер) to б-class lemmas."""
         for candidate, relation in class_prefix_matches(token):
-            resolved = self._resolve_lemma_from_surface(candidate, token_pos)
+            resolved = self._resolve_class_affix_surface(candidate, token_pos)
             if not resolved:
                 continue
             lemma, _old_relation, pos, confidence = resolved

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Class/gender prefix alternation for Avar verb forms (б/в/р/й/я/е)."""
+"""Class/gender affix alternation for Avar (б/в/р/й/я/е at word start and end)."""
 
 from typing import Iterator
 
@@ -14,6 +14,22 @@ CLASS_PREFIX_RULES: tuple[tuple[str, str, str], ...] = (
     ("е", "бе", "женский род"),
 )
 
+_CLASS_SUFFIX_CANONICAL = "еб"
+_CLASS_SUFFIX_ALTERNATES = frozenset({"ев", "ей", "ер"})
+
+
+def _class_suffix_variants(form: str) -> Iterator[str]:
+    """Yield surface form and б-class canonical suffix (ев/ей/ер → eb)."""
+    yield form
+    if len(form) < 2:
+        return
+    ending = form[-2:]
+    if ending not in _CLASS_SUFFIX_ALTERNATES:
+        return
+    canonical = form[:-2] + _CLASS_SUFFIX_CANONICAL
+    if canonical != form:
+        yield canonical
+
 
 def class_prefix_matches(token: str) -> Iterator[tuple[str, str]]:
     """Yield (base_candidate, relation) for a conjugated surface token."""
@@ -26,9 +42,9 @@ def class_prefix_matches(token: str) -> Iterator[tuple[str, str]]:
         suffix = token[len(surface_prefix) :]
         if not suffix:
             continue
-        candidate = base_prefix + suffix
-        if candidate != token:
-            yield candidate, relation
+        for candidate in _class_suffix_variants(base_prefix + suffix):
+            if candidate != token:
+                yield candidate, relation
 
 
 def class_prefix_base_candidates(token: str) -> Iterator[str]:
