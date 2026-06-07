@@ -2,6 +2,8 @@
  * Statistics page — charts and numbers
  */
 
+const GAP_LINK_BASE = 'index.html?filter=';
+
 const CHART_COLORS = [
     '#5e7a6f', '#1a5f8a', '#6b9080', '#4a6670', '#7a9e8e',
     '#3d6b5e', '#047857', '#5c7a6b', '#2d6a6a', '#0f766e'
@@ -33,6 +35,10 @@ function formatNumber(n) {
 function pct(part, total) {
     if (!total) return '0%';
     return `${((part / total) * 100).toFixed(1)}%`;
+}
+
+function gapLink(filterId) {
+    return `${GAP_LINK_BASE}${encodeURIComponent(filterId)}`;
 }
 
 function renderStatCards(stats, meta) {
@@ -119,37 +125,62 @@ function makeHorizontalBar(canvasId, labels, data, title) {
     });
 }
 
-function renderCoverageDetails(stats) {
+function renderCoverageDetails(stats, gapManifest) {
     const total = stats.total_raw_records || 1;
+    const filters = gapManifest?.filters || {};
+
     const items = [
         {
+            filter: 'missing_relation',
             strong: formatNumber(stats.missing_relation),
             span: `Без указания связи (${pct(stats.missing_relation, total)} от упоминаний)`
         },
         {
+            filter: 'missing_lemma',
             strong: formatNumber(stats.missing_lemma),
-            span: 'Без леммы (в агрегате — 0 после фильтрации примеров)'
+            span: 'Записей без леммы'
         },
         {
+            filter: 'missing_pos',
             strong: formatNumber(stats.missing_pos),
             span: `Без части речи (${pct(stats.missing_pos, total)})`
         },
         {
+            filter: 'missing_lemma_and_relation',
+            strong: formatNumber(stats.missing_lemma_and_relation),
+            span: 'Без леммы и связи одновременно'
+        },
+        {
+            filter: 'ambiguous_examples',
             strong: formatNumber(stats.ambiguous_examples),
             span: 'Неоднозначных матчей в примерах'
         },
         {
+            filter: 'low_confidence',
+            strong: formatNumber(stats.low_confidence),
+            span: 'С низкой уверенностью маппинга'
+        },
+        {
+            filter: 'strange',
             strong: formatNumber((stats.strange_records || []).length),
             span: 'Аномалий для ручной проверки'
         }
     ];
 
-    document.getElementById('coverageDetails').innerHTML = items.map(i => `
-        <div class="coverage-item">
+    document.getElementById('coverageDetails').innerHTML = items.map(i => {
+        const meta = filters[i.filter];
+        const wordformCount = meta ? formatNumber(meta.count) : '';
+        const hint = wordformCount ? `${wordformCount} словоформ · показать 30 случайных` : 'Показать словоформы';
+        const inner = `
             <strong>${escapeHtml(i.strong)}</strong>
             <span>${escapeHtml(i.span)}</span>
-        </div>
-    `).join('');
+            <span class="coverage-link-hint">${escapeHtml(hint)}</span>
+        `;
+        if (meta?.count) {
+            return `<a class="coverage-item coverage-item-link" href="${gapLink(i.filter)}">${inner}</a>`;
+        }
+        return `<div class="coverage-item">${inner}</div>`;
+    }).join('');
 }
 
 async function initStats() {
@@ -158,14 +189,16 @@ async function initStats() {
     const errorEl = document.getElementById('statsError');
 
     try {
-        const [statsRes, metaRes] = await Promise.all([
+        const [statsRes, metaRes, gapsRes] = await Promise.all([
             fetch('data/stats.json'),
-            fetch('data/site-meta.json')
+            fetch('data/site-meta.json'),
+            fetch('data/gaps/manifest.json')
         ]);
 
         if (!statsRes.ok) throw new Error('Не удалось загрузить stats.json');
         const stats = await statsRes.json();
         const meta = metaRes.ok ? await metaRes.json() : {};
+        const gapManifest = gapsRes.ok ? await gapsRes.json() : null;
 
         loading.style.display = 'none';
         content.style.display = 'block';
@@ -208,7 +241,7 @@ async function initStats() {
             'Топ-12 словоформ по частоте'
         );
 
-        renderCoverageDetails(stats);
+        renderCoverageDetails(stats, gapManifest);
     } catch (err) {
         loading.style.display = 'none';
         errorEl.textContent = err.message || 'Ошибка загрузки';

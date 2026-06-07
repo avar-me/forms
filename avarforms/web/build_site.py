@@ -155,6 +155,16 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
     else:
         stats_dest.write_text("{}", encoding="utf-8")
 
+    gaps_src = root / "output" / "gaps"
+    gaps_dest = docs_dir / "data" / "gaps"
+    if gaps_src.is_dir():
+        gaps_dest.mkdir(parents=True, exist_ok=True)
+        for path in gaps_src.iterdir():
+            if path.is_file():
+                gaps_dest.joinpath(path.name).write_text(
+                    path.read_text(encoding="utf-8"), encoding="utf-8"
+                )
+
     site_meta = {
         "build_id": build_id,
         "total_wordforms": len(wordforms),

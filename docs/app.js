@@ -7,9 +7,11 @@ const CONFIG = {
     MAX_PREFIX_LIST: 100,
     MIN_PREFIX_LIST: 2,
     HOME_SAMPLES: 10,
+    GAP_SAMPLES: 30,
     DEBOUNCE_DELAY: 150,
     CHUNK_CACHE_SIZE: 50,
     DATA_PREFIX: 'data/wordforms',
+    GAPS_PREFIX: 'data/gaps',
     DICT_BASE: 'https://dev.avar.me/'
 };
 
@@ -19,7 +21,10 @@ const state = {
     manifest: null,
     chunkCache: new Map(),
     currentQuery: '',
-    isLoading: false
+    isLoading: false,
+    activeFilter: null,
+    gapFilterManifest: null,
+    gapWordforms: null
 };
 
 function debounce(func, delay) {
@@ -285,21 +290,67 @@ function bindWordListClicks(container) {
 
 function renderHomeSamples() {
     const container = document.getElementById('homeSamples');
+    const captionEl = document.getElementById('homeSamplesCaption');
     if (!container || !state.wordformsIndex?.length) return;
 
-    const picks = [];
-    const used = new Set();
-    const n = Math.min(CONFIG.HOME_SAMPLES, state.wordformsIndex.length);
+    let pool = state.wordformsIndex;
+    let sampleSize = CONFIG.HOME_SAMPLES;
+    let caption = `${CONFIG.HOME_SAMPLES} случайных словоформ`;
 
-    while (picks.length < n) {
-        const idx = Math.floor(Math.random() * state.wordformsIndex.length);
-        if (used.has(idx)) continue;
-        used.add(idx);
-        picks.push(state.wordformsIndex[idx]);
+    if (state.activeFilter && state.gapWordforms?.length) {
+        pool = state.gapWordforms;
+        sampleSize = CONFIG.GAP_SAMPLES;
+        const meta = state.gapFilterManifest?.filters?.[state.activeFilter];
+        const label = meta?.label || state.activeFilter;
+        const total = state.gapWordforms.length;
+        caption = `${Math.min(sampleSize, total)} из ${total}: ${label}`;
     }
 
+    const picks = pickRandom(pool, sampleSize);
+
+    if (captionEl) captionEl.textContent = caption;
     container.innerHTML = renderWordListTable(picks);
     bindWordListClicks(container);
+}
+
+function pickRandom(items, count) {
+    const picks = [];
+    const used = new Set();
+    const n = Math.min(count, items.length);
+    while (picks.length < n) {
+        const idx = Math.floor(Math.random() * items.length);
+        if (used.has(idx)) continue;
+        used.add(idx);
+        picks.push(items[idx]);
+    }
+    return picks;
+}
+
+async function loadGapFilter(filterId) {
+    if (!state.gapFilterManifest) {
+        const response = await fetch(`${CONFIG.GAPS_PREFIX}/manifest.json`);
+        if (!response.ok) throw new Error('Не удалось загрузить фильтры пробелов');
+        state.gapFilterManifest = await response.json();
+    }
+
+    const meta = state.gapFilterManifest.filters?.[filterId];
+    if (!meta) throw new Error(`Неизвестный фильтр: ${filterId}`);
+
+    const response = await fetch(`${CONFIG.GAPS_PREFIX}/${meta.file}`);
+    if (!response.ok) throw new Error(`Не удалось загрузить ${meta.file}`);
+    const text = await response.text();
+    state.gapWordforms = text.split('\n').filter(Boolean);
+    state.activeFilter = filterId;
+}
+
+function showFilterBanner(filterId) {
+    const meta = state.gapFilterManifest?.filters?.[filterId];
+    if (!meta) return;
+    const statsEl = document.getElementById('searchStats');
+    statsEl.innerHTML = `
+        Фильтр: <strong>${escapeHtml(meta.label)}</strong>
+        · <a href="index.html">сбросить</a>
+        · <a href="index.html?filter=${encodeURIComponent(filterId)}">другие 30</a>`;
 }
 
 function renderPrefixList(query, wordforms) {
@@ -386,6 +437,7 @@ function handleSearchInput(query) {
         resultsEl.style.display = 'none';
         resultsEl.innerHTML = '';
         if (randomSection) randomSection.style.display = 'block';
+        renderHomeSamples();
         updateSearchStats('', 0);
         return;
     }
@@ -422,12 +474,20 @@ const debouncedSearch = debounce(handleSearchInput, CONFIG.DEBOUNCE_DELAY);
 async function init() {
     showLoading(true);
     try {
+        const params = new URLSearchParams(window.location.search);
+        const filter = params.get('filter');
+        const q = params.get('q');
+
         await Promise.all([loadWordformsIndex(), loadBrowse(), loadManifest()]);
+
+        if (filter) {
+            await loadGapFilter(filter);
+            showFilterBanner(filter);
+        }
+
         showLoading(false);
         renderHomeSamples();
 
-        const params = new URLSearchParams(window.location.search);
-        const q = params.get('q');
         if (q) {
             document.getElementById('searchInput').value = q;
             handleSearchInput(q);

@@ -28,6 +28,52 @@ TOKEN_SPLIT_RE = re.compile(r"[\s,;:!?«»\"()\[\]{}]+")
 PUNCT_STRIP = ".,;:!?«»\"()[]{}—–-"
 
 
+def _entry_headword(entry: dict[str, Any]) -> str:
+    relation = _extract_relation_from_entry(entry)
+    if relation:
+        return relation[0]
+    return entry.get("word", "") or ""
+
+
+def _iter_entry_form_lemmas(entry: dict[str, Any]) -> Iterator[tuple[str, str]]:
+    """Yield (surface_form, lemma) pairs declared in a dictionary entry."""
+    headword = _entry_headword(entry)
+    word = entry.get("word", "")
+    if word:
+        yield word, headword
+    for form in entry.get("forms", []):
+        yield form, headword
+    for form in entry.get("gender_forms", []):
+        yield form, headword
+    for sense in entry.get("senses", []):
+        for form in sense.get("forms", []):
+            yield form, headword
+
+
+def _suffix_match_lemma(
+    token: str,
+    form_lemmas: Iterator[tuple[str, str]],
+) -> str | None:
+    """Longest base form where token = base + suffix."""
+    best_lemma: str | None = None
+    best_len = 0
+    ambiguous = False
+    for form, lemma in form_lemmas:
+        if not form or len(form) >= len(token):
+            continue
+        if not token.startswith(form):
+            continue
+        if len(form) > best_len:
+            best_len = len(form)
+            best_lemma = lemma
+            ambiguous = False
+        elif len(form) == best_len and lemma != best_lemma:
+            ambiguous = True
+    if best_lemma and not ambiguous:
+        return best_lemma
+    return None
+
+
 @dataclass
 class DictionaryIndex:
     word_to_entry: dict[str, list[dict[str, Any]]] = field(default_factory=dict)
@@ -53,15 +99,73 @@ class DictionaryIndex:
 
         return index
 
+    def _lookup_in_article(self, entry: dict[str, Any], token: str) -> tuple[str, str] | None:
+        form_lemmas = list(_iter_entry_form_lemmas(entry))
+        for form, lemma in form_lemmas:
+            if token == form:
+                return lemma, ""
+        lemma = _suffix_match_lemma(token, iter(form_lemmas))
+        if lemma:
+            return lemma, ""
+        return None
+
+    def _lookup_global_suffix(
+        self,
+        token: str,
+        context_lemma: str | None,
+        token_pos: str,
+    ) -> tuple[str, str, str, str] | None:
+        best_len = 0
+        lemmas_at_best: set[str] = set()
+        for form, lemmas in self.form_to_lemmas.items():
+            if not form or len(form) >= len(token) or not token.startswith(form):
+                continue
+            form_len = len(form)
+            if form_len > best_len:
+                best_len = form_len
+                lemmas_at_best = set(lemmas)
+            elif form_len == best_len:
+                lemmas_at_best |= lemmas
+
+        if best_len == 0:
+            return None
+
+        if len(lemmas_at_best) == 1:
+            lemma = next(iter(lemmas_at_best))
+            pos = token_pos or (
+                _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
+            )
+            return lemma, "", pos, "medium"
+
+        if context_lemma and context_lemma in lemmas_at_best:
+            pos = token_pos or (
+                _entry_pos(self.word_to_entry[context_lemma][0])
+                if context_lemma in self.word_to_entry
+                else ""
+            )
+            return context_lemma, "", pos, "medium"
+
+        return "", "", token_pos, "low"
+
     def lookup_lemma(
         self,
         token: str,
         context_lemma: str | None = None,
+        context_entry: dict[str, Any] | None = None,
     ) -> tuple[str, str, str, str]:
         """Return (lemma, relation, pos, confidence)."""
         token_pos = ""
         if token in self.word_to_entry:
             token_pos = _entry_pos(self.word_to_entry[token][0])
+
+        if context_entry:
+            local = self._lookup_in_article(context_entry, token)
+            if local:
+                lemma, relation = local
+                pos = token_pos or (
+                    _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
+                )
+                return lemma, relation, pos, "medium"
 
         if token in self.word_relations:
             lemma, relation = self.word_relations[token]
@@ -85,6 +189,10 @@ class DictionaryIndex:
                     relation = _gram_form_relation(self.word_to_entry[token][0])
                 return context_lemma, relation, pos, "medium"
             return "", "", token_pos, "low"
+
+        suffix = self._lookup_global_suffix(token, context_lemma, token_pos)
+        if suffix:
+            return suffix
 
         if token in self.word_to_entry and token not in self.word_relations:
             entry = self.word_to_entry[token][0]
@@ -261,7 +369,6 @@ class GimbatovExtractor(SourceExtractor):
         mappings: MappingTable,
     ) -> Iterator[WordFormRecord]:
         context_lemma = entry.get("word", "")
-        context_pos = _entry_pos(entry)
 
         for sense in entry.get("senses", []):
             for example in sense.get("examples", []):
@@ -272,7 +379,6 @@ class GimbatovExtractor(SourceExtractor):
                     if token in mappings:
                         rec = self._record(
                             wordform=token,
-                            pos=context_pos,
                             subsource=self.SUB_EXAMPLES,
                             mappings=mappings,
                         )
@@ -281,17 +387,20 @@ class GimbatovExtractor(SourceExtractor):
                         continue
 
                     lemma, relation, token_pos, confidence = index.lookup_lemma(
-                        token, context_lemma=context_lemma
+                        token,
+                        context_lemma=context_lemma,
+                        context_entry=entry,
                     )
 
                     if confidence == "low":
                         lemma, relation = "", ""
+                        token_pos = ""
 
                     rec = self._record(
                         wordform=token,
                         lemma=lemma,
                         relation=relation,
-                        pos=token_pos or context_pos,
+                        pos=token_pos if lemma else "",
                         subsource=self.SUB_EXAMPLES,
                         confidence=confidence if lemma or relation else "low",
                         mappings=mappings,

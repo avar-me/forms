@@ -1,12 +1,45 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any
 
 from .models import AggregatedRecord, WordFormRecord
+
+
+GAP_FILTER_META: dict[str, dict[str, str]] = {
+    "missing_lemma": {
+        "label": "Без леммы",
+        "description": "Хотя бы одна запись без леммы",
+    },
+    "missing_relation": {
+        "label": "Без связи",
+        "description": "Хотя бы одна запись без грамматической связи",
+    },
+    "missing_pos": {
+        "label": "Без части речи",
+        "description": "Хотя бы одна запись без части речи",
+    },
+    "missing_lemma_and_relation": {
+        "label": "Без леммы и связи",
+        "description": "Хотя бы одна запись без леммы и без связи",
+    },
+    "ambiguous_examples": {
+        "label": "Неоднозначные примеры",
+        "description": "Из примеров av: низкая или средняя уверенность маппинга",
+    },
+    "low_confidence": {
+        "label": "Низкая уверенность",
+        "description": "Маппинг не найден или неоднозначен",
+    },
+    "strange": {
+        "label": "Аномалии",
+        "description": "Подозрительные записи для ручной проверки",
+    },
+}
 
 
 @dataclass
@@ -88,6 +121,67 @@ def build_stats(
     stats.top_wordforms = wordform_counter.most_common(20)
     stats.top_relations = relation_counter.most_common(20)
     return stats
+
+
+def _normalize_sort_key(word: str) -> str:
+    return re.sub(r"[1IiｌlL|!ǀӀІ]", "ӏ", word.lower().strip())
+
+
+def build_gap_filters(
+    raw_records: list[WordFormRecord],
+    strange_records: list[dict[str, Any]],
+) -> dict[str, list[str]]:
+    buckets: dict[str, set[str]] = {key: set() for key in GAP_FILTER_META}
+
+    for record in raw_records:
+        wf = record.wordform
+        if _is_missing(record.lemma):
+            buckets["missing_lemma"].add(wf)
+        if _is_missing(record.relation):
+            buckets["missing_relation"].add(wf)
+        if _is_missing(record.pos):
+            buckets["missing_pos"].add(wf)
+        if _is_missing(record.lemma) and _is_missing(record.relation):
+            buckets["missing_lemma_and_relation"].add(wf)
+        if record.subsource == "examples" and record.confidence in {"low", "medium"}:
+            buckets["ambiguous_examples"].add(wf)
+        if record.confidence == "low":
+            buckets["low_confidence"].add(wf)
+
+    for item in strange_records:
+        wf = item.get("wordform", "")
+        if wf:
+            buckets["strange"].add(wf)
+
+    return {
+        key: sorted(words, key=_normalize_sort_key)
+        for key, words in buckets.items()
+    }
+
+
+def write_gap_filters(gap_filters: dict[str, list[str]], output_dir: Path) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    manifest_filters: dict[str, dict[str, Any]] = {}
+
+    for filter_id, meta in GAP_FILTER_META.items():
+        wordforms = gap_filters.get(filter_id, [])
+        filename = f"{filter_id}.txt"
+        with (output_dir / filename).open("w", encoding="utf-8") as fh:
+            for wordform in wordforms:
+                fh.write(wordform + "\n")
+        manifest_filters[filter_id] = {
+            "id": filter_id,
+            "label": meta["label"],
+            "description": meta["description"],
+            "count": len(wordforms),
+            "file": filename,
+        }
+
+    manifest = {"filters": manifest_filters}
+    manifest_path = output_dir / "manifest.json"
+    with manifest_path.open("w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest_path
 
 
 def write_stats(stats: BuildStats, json_path: Path, txt_path: Path) -> None:
