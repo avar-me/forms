@@ -2,6 +2,12 @@
 
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/).
 
+## [0.1.3] — 2026-06-07
+
+### Исправлено
+
+- Спряжения связки **буго** (`вуго`, `руго`, `йиго`) — в словаре они только в примерах статьи, не в `forms[]`, поэтому раньше не попадали в корпус
+
 ## [0.1.2] — 2026-06-07
 
 ### Исправлено
@@ -41,6 +47,7 @@
 | Уникальных словоформ на сайте | 47 547 |
 | Чанков для поиска | 644 |
 
+[0.1.3]: https://github.com/avar-me/forms/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/avar-me/forms/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/avar-me/forms/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/avar-me/forms/releases/tag/v0.1.0

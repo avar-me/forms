@@ -27,6 +27,9 @@ RELATION_FROM_KEYS: dict[str, str] = {
 TOKEN_SPLIT_RE = re.compile(r"[\s,;:!?«»\"()\[\]{}]+")
 PUNCT_STRIP = ".,;:!?«»\"()[]{}—–-"
 
+# Спряжения связки буго документированы в примерах статьи, но не в forms[].
+BUGO_COPULA_RE = re.compile(r"^[бврй][уи]го$")
+
 
 @dataclass
 class DictionaryIndex:
@@ -51,7 +54,21 @@ class DictionaryIndex:
             if relation:
                 index.word_relations[word] = relation
 
+        cls._supplement_copula_forms(index, entries)
         return index
+
+    @staticmethod
+    def _supplement_copula_forms(index: DictionaryIndex, entries: list[dict[str, Any]]) -> None:
+        for entry in entries:
+            if entry.get("word") != "буго":
+                continue
+            lemma = entry["word"]
+            for sense in entry.get("senses", []):
+                for example in sense.get("examples", []):
+                    for token in _iter_example_tokens(example.get("av", "")):
+                        if not BUGO_COPULA_RE.match(token) or token == lemma:
+                            continue
+                        index.form_to_lemmas.setdefault(token, set()).add(lemma)
 
     def lookup_lemma(
         self,
@@ -141,6 +158,7 @@ class GimbatovExtractor(SourceExtractor):
     SUB_GENDER = "gender_forms"
     SUB_EXPLICIT = "explicit_relation"
     SUB_HEADWORD = "headword"
+    SUB_PARADIGM = "paradigm"
     SUB_EXAMPLES = "examples"
 
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
@@ -151,6 +169,8 @@ class GimbatovExtractor(SourceExtractor):
 
         for entry in entries:
             yield from self._extract_entry(entry, mappings)
+
+        yield from self._extract_paradigm_supplements(entries, mappings)
 
         for entry in entries:
             yield from self._extract_examples(entry, index, mappings)
@@ -257,6 +277,33 @@ class GimbatovExtractor(SourceExtractor):
                 )
                 if rec:
                     yield rec
+
+    def _extract_paradigm_supplements(
+        self,
+        entries: list[dict[str, Any]],
+        mappings: MappingTable,
+    ) -> Iterator[WordFormRecord]:
+        for entry in entries:
+            if entry.get("word") != "буго":
+                continue
+            pos = _entry_pos(entry)
+            seen: set[str] = set()
+            for sense in entry.get("senses", []):
+                for example in sense.get("examples", []):
+                    for token in _iter_example_tokens(example.get("av", "")):
+                        if not BUGO_COPULA_RE.match(token) or token in seen:
+                            continue
+                        seen.add(token)
+                        rec = self._record(
+                            wordform=token,
+                            lemma="буго",
+                            relation="",
+                            pos=pos,
+                            subsource=self.SUB_PARADIGM,
+                            mappings=mappings,
+                        )
+                        if rec:
+                            yield rec
 
     def _extract_examples(
         self,

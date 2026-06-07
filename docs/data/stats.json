@@ -1,25 +1,26 @@
 {
-  "total_raw_records": 110932,
-  "total_aggregated_records": 67428,
+  "total_raw_records": 111878,
+  "total_aggregated_records": 67431,
   "per_source_raw": {
-    "AV-RU словарь Гимбатова": 110932
+    "AV-RU словарь Гимбатова": 111878
   },
   "per_subsource_raw": {
     "headword": 17014,
     "forms": 44397,
     "explicit_relation": 5828,
     "gender_forms": 662,
-    "examples": 43031
+    "paradigm": 3,
+    "examples": 43974
   },
   "missing_lemma": 0,
-  "missing_relation": 60483,
+  "missing_relation": 61429,
   "missing_pos": 92,
   "missing_lemma_and_relation": 0,
   "low_confidence": 0,
   "top_lemmas": [
     [
       "буго",
-      1551
+      2497
     ],
     [
       "гьабизе",
@@ -112,6 +113,14 @@
       766
     ],
     [
+      "вуго",
+      463
+    ],
+    [
+      "руго",
+      338
+    ],
+    [
       "дир",
       318
     ],
@@ -170,14 +179,6 @@
     [
       "гьаб",
       201
-    ],
-    [
-      "дос",
-      200
-    ],
-    [
-      "дида",
-      196
     ]
   ],
   "top_relations": [
@@ -258,7 +259,7 @@
       2
     ]
   ],
-  "ambiguous_examples": 35237,
+  "ambiguous_examples": 36180,
   "unmatched_example_tokens": 0,
   "strange_records": [
     {
