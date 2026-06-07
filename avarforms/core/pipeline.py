@@ -81,22 +81,14 @@ def _merge_resolved_duplicates(records: list[WordFormRecord]) -> list[WordFormRe
 
 
 def _merge_case_variants(records: list[WordFormRecord]) -> list[WordFormRecord]:
-    """Fold wordforms that differ only by case into one canonical surface."""
+    """Fold wordforms that differ only by case/palochka into one canonical surface."""
     grouped: dict[tuple[str, str], list[WordFormRecord]] = {}
     for record in records:
         grouped.setdefault((normalize_word(record.wordform), record.source), []).append(record)
 
     merged: list[WordFormRecord] = []
     for group in grouped.values():
-        surfaces = {record.wordform for record in group}
-        if len(surfaces) <= 1:
-            merged.extend(group)
-            continue
-
-        canonical = min(
-            surfaces,
-            key=lambda word: (word != word.lower(), sum(ch.isupper() for ch in word), word),
-        )
+        canonical = normalize_word(group[0].wordform)
         for record in group:
             if record.wordform == canonical:
                 merged.append(record)
@@ -162,8 +154,8 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
         all_records.extend(source_records)
         per_source_counts[spec["name"]] += len(source_records)
 
-    all_records = _merge_resolved_duplicates(all_records)
     all_records = _merge_case_variants(all_records)
+    all_records = _merge_resolved_duplicates(all_records)
     aggregated = _aggregate(all_records)
     output_cfg = config.get("output", {})
     csv_path = root / output_cfg.get("csv", "output/wordforms.csv")

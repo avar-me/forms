@@ -4,24 +4,24 @@
       "id": "needs_work",
       "label": "Нужна ручная работа",
       "description": "Есть упоминания без уверенного маппинга",
-      "count": 3419,
-      "mention_count": 6039,
+      "count": 3325,
+      "mention_count": 5907,
       "file": "needs_work.txt"
     },
     "fully_unmapped": {
       "id": "fully_unmapped",
       "label": "Без маппинга",
       "description": "Нет ни одной записи с найденной леммой",
-      "count": 3310,
-      "mention_count": 5864,
+      "count": 3309,
+      "mention_count": 5863,
       "file": "fully_unmapped.txt"
     },
     "partial": {
       "id": "partial",
       "label": "Частичный маппинг",
       "description": "Есть и ясные записи, и пробелы в других упоминаниях",
-      "count": 109,
-      "mention_count": 175,
+      "count": 16,
+      "mention_count": 44,
       "file": "partial.txt"
     },
     "homograph": {

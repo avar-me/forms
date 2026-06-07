@@ -175,7 +175,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сибир",
+            "pos": "выражение",
+            "confidence": "medium",
             "entry": "буссине",
             "av": "вуссунареб Сибиралде витӏаги мун",
             "ru": "да отправят тебя в Сибирь, откуда не возвращаются",
@@ -310,8 +312,8 @@
       }
     }
   },
-  "Сибирь": {
-    "wordform": "Сибирь",
+  "сибирь": {
+    "wordform": "сибирь",
     "sources": {
       "gimbatov": {
         "id": "gimbatov",
