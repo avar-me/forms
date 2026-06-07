@@ -533,7 +533,10 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бетӏаризе",
+            "relation": "учащательная форма",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "бетӏаризе",
             "av": "колхозчагӏи жакъа ахикье ретӏаризе рахъун руго",
             "ru": "колхозники сегодня вышли в сад собирать фрукты",
@@ -1791,7 +1794,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ретӏине",
+            "lemma": "бетӏизе",
+            "relation": "инфинитив",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "охцер",

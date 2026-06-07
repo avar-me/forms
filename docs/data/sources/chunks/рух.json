@@ -292,7 +292,10 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бухъизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "хандакъ",
             "av": "хандакъал рухъизе",
             "ru": "рыть окопы",
@@ -470,8 +473,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рухьад",
-            "pos": "существительное",
+            "lemma": "бухьине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гъабарта",
             "av": "Чергесалда рищун кьалалги тӏад лъун, Гъабарта буртаби нахъа рухьана",
@@ -886,7 +889,10 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бухьине",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "мичил",
             "av": "гъабудул чӏорал мичилалде рухьине",
             "ru": "подвязывать побеги винограда к таркалам",

@@ -8,7 +8,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бегизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "кӏкӏалахъ",
             "av": "ниж цо гъваридаб кӏкӏалахъе регана",
             "ru": "мы направились к глубокому ущелью",
@@ -109,8 +111,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "регион",
-            "pos": "существительное",
+            "lemma": "бегизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "хӏетӏе-бетӏер",
             "av": "хӏетӏе-бетӏер гьабун регизе",

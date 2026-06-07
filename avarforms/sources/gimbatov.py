@@ -11,6 +11,8 @@ from typing import Any, Callable, Iterator
 from avarforms.core.extractor import SourceExtractor
 from avarforms.core.models import MappingTable, WordFormRecord
 
+from .class_prefix import class_prefix_base_candidates
+
 RELATION_FROM_KEYS: dict[str, str] = {
     "masdarfrom": "масдар",
     "masdarforceto": "масдар (понудительная)",
@@ -520,6 +522,41 @@ class DictionaryIndex:
         relation = _gram_form_relation(entry)
         return token, relation, pos, "high"
 
+    def _resolve_lemma_from_surface(self, surface: str, token_pos: str) -> tuple[str, str, str, str] | None:
+        if surface in self.headwords:
+            entry = self.word_to_entry[surface][0]
+            if _entry_pos(entry) != "глагол":
+                return None
+            pos = token_pos or _entry_pos(entry)
+            relation = _gram_form_relation(entry)
+            return surface, relation, pos, "medium"
+
+        if surface not in self.form_to_lemmas:
+            return None
+
+        lemmas = self.form_to_lemmas[surface]
+        verb_lemmas = {
+            lemma
+            for lemma in lemmas
+            if lemma in self.word_to_entry and _entry_pos(self.word_to_entry[lemma][0]) == "глагол"
+        }
+        if not verb_lemmas:
+            return None
+        if len(verb_lemmas) == 1:
+            lemma = next(iter(verb_lemmas))
+        else:
+            lemma = self._pick_ambiguous_lemma(verb_lemmas)
+        pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
+        return lemma, "", pos, "medium"
+
+    def _lookup_class_prefix(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
+        """Map class/gender surface forms (в/р/й/я/е) to б-class verb lemmas."""
+        for candidate in class_prefix_base_candidates(token):
+            resolved = self._resolve_lemma_from_surface(candidate, token_pos)
+            if resolved:
+                return resolved
+        return None
+
     def lookup_lemma(
         self,
         token: str,
@@ -590,6 +627,10 @@ class DictionaryIndex:
             lemma = self._pick_ambiguous_lemma(lemmas)
             pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
             return lemma, "", pos, "medium"
+
+        class_prefix = self._lookup_class_prefix(token, token_pos)
+        if class_prefix:
+            return class_prefix
 
         suffix = self._lookup_global_suffix(token, context_lemma, token_pos)
         if suffix:

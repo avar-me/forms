@@ -307,8 +307,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ритм",
-            "pos": "существительное",
+            "lemma": "битӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьал",
             "av": "гьал лъимал рокъоре ритӏе",
@@ -317,8 +317,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ритм",
-            "pos": "существительное",
+            "lemma": "битӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "лъойго",
             "av": "лъойго ясалъухъ ритӏе дие тӏахьал",
@@ -528,7 +528,10 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "битӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "рокъоб",
             "av": "рокъоре кагътал ритӏизе",
             "ru": "отправить письма домой",
@@ -536,7 +539,10 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "битӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "санчасть",
             "av": "лъукъарал санчасталде ритӏизе",
             "ru": "отправить раненых в санчасть",
@@ -544,7 +550,10 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "битӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "ятаб",
             "av": "туснахъал ятабалъ ритӏизе",
             "ru": "этапировать заключённых",
@@ -563,8 +572,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ритӏухъ",
-            "pos": "наречие",
+            "lemma": "битӏун",
+            "relation": "деепричастие",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ячарай",
             "av": "Итни сордоялъ ритӏун эй абизе чи ана, Цинги рузман сордоялъ эй ячарай лъугьана",
