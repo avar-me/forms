@@ -126,58 +126,30 @@ function makeHorizontalBar(canvasId, labels, data, title) {
 }
 
 function renderCoverageDetails(stats, gapManifest) {
-    const total = stats.total_raw_records || 1;
+    const totalMentions = stats.total_raw_records || 1;
     const filters = gapManifest?.filters || {};
+    const filterOrder = ['needs_work', 'fully_unmapped', 'partial', 'homograph', 'strange'];
 
-    const items = [
-        {
-            filter: 'missing_relation',
-            strong: formatNumber(stats.missing_relation),
-            span: `Без указания связи (${pct(stats.missing_relation, total)} от упоминаний)`
-        },
-        {
-            filter: 'missing_lemma',
-            strong: formatNumber(stats.missing_lemma),
-            span: 'Записей без леммы'
-        },
-        {
-            filter: 'missing_pos',
-            strong: formatNumber(stats.missing_pos),
-            span: `Без части речи (${pct(stats.missing_pos, total)})`
-        },
-        {
-            filter: 'missing_lemma_and_relation',
-            strong: formatNumber(stats.missing_lemma_and_relation),
-            span: 'Без леммы и связи одновременно'
-        },
-        {
-            filter: 'ambiguous_examples',
-            strong: formatNumber(stats.ambiguous_examples),
-            span: 'Неоднозначных матчей в примерах'
-        },
-        {
-            filter: 'low_confidence',
-            strong: formatNumber(stats.low_confidence),
-            span: 'С низкой уверенностью маппинга'
-        },
-        {
-            filter: 'strange',
-            strong: formatNumber((stats.strange_records || []).length),
-            span: 'Аномалий для ручной проверки'
-        }
-    ];
+    const items = filterOrder
+        .map((filterId) => {
+            const meta = filters[filterId];
+            if (!meta) return null;
+            const wordforms = meta.count || 0;
+            const mentions = meta.mention_count ?? stats.gap_mentions?.[filterId] ?? 0;
+            return { filterId, meta, wordforms, mentions };
+        })
+        .filter(Boolean);
 
-    document.getElementById('coverageDetails').innerHTML = items.map(i => {
-        const meta = filters[i.filter];
-        const wordformCount = meta ? formatNumber(meta.count) : '';
-        const hint = wordformCount ? `${wordformCount} словоформ · показать 30 случайных` : 'Показать словоформы';
+    document.getElementById('coverageDetails').innerHTML = items.map(({ filterId, meta, wordforms, mentions }) => {
+        const mentionPct = pct(mentions, totalMentions);
         const inner = `
-            <strong>${escapeHtml(i.strong)}</strong>
-            <span>${escapeHtml(i.span)}</span>
-            <span class="coverage-link-hint">${escapeHtml(hint)}</span>
+            <strong>${escapeHtml(formatNumber(wordforms))}</strong>
+            <span>${escapeHtml(meta.label)}</span>
+            <span class="coverage-item-meta">${escapeHtml(meta.description)}</span>
+            <span class="coverage-link-hint">${escapeHtml(formatNumber(mentions))} упоминаний (${mentionPct}) · показать 30 случайных</span>
         `;
-        if (meta?.count) {
-            return `<a class="coverage-item coverage-item-link" href="${gapLink(i.filter)}">${inner}</a>`;
+        if (wordforms > 0) {
+            return `<a class="coverage-item coverage-item-link" href="${gapLink(filterId)}">${inner}</a>`;
         }
         return `<div class="coverage-item">${inner}</div>`;
     }).join('');
@@ -209,12 +181,15 @@ async function initStats() {
         const subData = Object.values(stats.per_subsource_raw || {});
         makeDoughnut('chartSubsources', subLabels, subData, 'По подисточникам');
 
-        const withRelation = stats.total_raw_records - stats.missing_relation;
+        const needsWorkMentions = stats.needs_work_mentions
+            ?? stats.gap_mentions?.needs_work
+            ?? 0;
+        const withMapping = stats.total_raw_records - needsWorkMentions;
         makeDoughnut(
             'chartCoverage',
-            ['Со связью', 'Без связи'],
-            [withRelation, stats.missing_relation],
-            'Покрытие связями'
+            ['С маппингом', 'Нужна работа'],
+            [withMapping, needsWorkMentions],
+            'Покрытие маппингом'
         );
 
         const topLemmas = (stats.top_lemmas || []).slice(0, 12);

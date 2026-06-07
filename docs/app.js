@@ -425,24 +425,30 @@ async function loadGapFilter(filterId) {
         state.gapFilterManifest = await response.json();
     }
 
-    const meta = state.gapFilterManifest.filters?.[filterId];
+    const resolvedId = state.gapFilterManifest.legacy_filters?.[filterId] || filterId;
+    const meta = state.gapFilterManifest.filters?.[resolvedId];
     if (!meta) throw new Error(`Неизвестный фильтр: ${filterId}`);
 
     const response = await fetch(`${CONFIG.GAPS_PREFIX}/${meta.file}`);
     if (!response.ok) throw new Error(`Не удалось загрузить ${meta.file}`);
     const text = await response.text();
     state.gapWordforms = text.split('\n').filter(Boolean);
-    state.activeFilter = filterId;
+    state.activeFilter = resolvedId;
 }
 
 function showFilterBanner(filterId) {
-    const meta = state.gapFilterManifest?.filters?.[filterId];
+    const resolvedId = state.gapFilterManifest?.legacy_filters?.[filterId] || filterId;
+    const meta = state.gapFilterManifest?.filters?.[resolvedId];
     if (!meta) return;
     const statsEl = document.getElementById('searchStats');
+    const mentionHint = meta.mention_count
+        ? ` · ${meta.mention_count.toLocaleString('ru-RU')} упоминаний`
+        : '';
     statsEl.innerHTML = `
         Фильтр: <strong>${escapeHtml(meta.label)}</strong>
+        · ${meta.count.toLocaleString('ru-RU')} словоформ${mentionHint}
         · <a href="index.html">сбросить</a>
-        · <a href="index.html?filter=${encodeURIComponent(filterId)}">другие 30</a>`;
+        · <a href="index.html?filter=${encodeURIComponent(resolvedId)}">другие 30</a>`;
 }
 
 function renderPrefixList(query, wordforms) {

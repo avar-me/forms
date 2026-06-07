@@ -9,7 +9,7 @@ from typing import Any
 
 from .extractor import SourceExtractor, load_mappings
 from .models import AggregatedRecord, WordFormRecord
-from .stats import build_gap_filters, build_stats, write_gap_filters, write_stats
+from .stats import build_gaps, build_stats, write_gap_filters, write_stats
 
 
 CSV_COLUMNS = ["wordform", "lemma", "relation", "pos", "source", "count"]
@@ -84,12 +84,18 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
     stats_txt_path = root / output_cfg.get("stats_txt", "output/stats.txt")
 
     write_csv(csv_path, aggregated)
-    stats = build_stats(all_records, aggregated, per_source_counts)
+    gap_filters, gap_mentions = build_gaps(all_records)
+    stats = build_stats(
+        all_records,
+        aggregated,
+        per_source_counts,
+        gap_filters=gap_filters,
+        gap_mentions=gap_mentions,
+    )
     write_stats(stats, stats_json_path, stats_txt_path)
 
     gaps_dir = root / output_cfg.get("gaps_dir", "output/gaps")
-    gap_filters = build_gap_filters(all_records)
-    write_gap_filters(gap_filters, gaps_dir)
+    write_gap_filters(gap_filters, gaps_dir, gap_mentions)
 
     return {
         "records_raw": len(all_records),

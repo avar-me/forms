@@ -12,36 +12,36 @@ from .models import AggregatedRecord, WordFormRecord
 
 STRUCTURED_SUBSOURCES = frozenset({"headword", "explicit_relation", "forms", "gender_forms"})
 
-
 GAP_FILTER_META: dict[str, dict[str, str]] = {
-    "missing_lemma": {
-        "label": "Без леммы",
-        "description": "Нет леммы — нужен маппинг",
+    "needs_work": {
+        "label": "Нужна ручная работа",
+        "description": "Есть упоминания без уверенного маппинга",
     },
-    "missing_relation": {
-        "label": "Без связи",
-        "description": "Нет связи и нет уверенного контекста",
+    "fully_unmapped": {
+        "label": "Без маппинга",
+        "description": "Нет ни одной записи с найденной леммой",
     },
-    "missing_pos": {
-        "label": "Без части речи",
-        "description": "Нет части речи и нет уверенного контекста",
+    "partial": {
+        "label": "Частичный маппинг",
+        "description": "Есть и ясные записи, и пробелы в других упоминаниях",
     },
-    "missing_lemma_and_relation": {
-        "label": "Без леммы и связи",
-        "description": "Нет ни леммы, ни связи — приоритет для ручной работы",
-    },
-    "ambiguous_examples": {
-        "label": "Неоднозначные примеры",
-        "description": "Токен из av без найденного маппинга",
-    },
-    "low_confidence": {
-        "label": "Низкая уверенность",
-        "description": "Маппинг не найден или неоднозначен",
+    "homograph": {
+        "label": "Омонимы",
+        "description": "Несколько лемм для одной словоформы — обычно норма",
     },
     "strange": {
         "label": "Аномалии",
         "description": "Подозрительные записи без ясного контекста",
     },
+}
+
+LEGACY_GAP_FILTERS: dict[str, str] = {
+    "missing_lemma": "needs_work",
+    "missing_relation": "needs_work",
+    "missing_pos": "needs_work",
+    "missing_lemma_and_relation": "needs_work",
+    "ambiguous_examples": "needs_work",
+    "low_confidence": "needs_work",
 }
 
 
@@ -51,16 +51,12 @@ class BuildStats:
     total_aggregated_records: int = 0
     per_source_raw: dict[str, int] = field(default_factory=dict)
     per_subsource_raw: dict[str, int] = field(default_factory=dict)
-    missing_lemma: int = 0
-    missing_relation: int = 0
-    missing_pos: int = 0
-    missing_lemma_and_relation: int = 0
-    low_confidence: int = 0
+    needs_work_mentions: int = 0
+    gap_wordforms: dict[str, int] = field(default_factory=dict)
+    gap_mentions: dict[str, int] = field(default_factory=dict)
     top_lemmas: list[tuple[str, int]] = field(default_factory=list)
     top_wordforms: list[tuple[str, int]] = field(default_factory=list)
     top_relations: list[tuple[str, int]] = field(default_factory=list)
-    ambiguous_examples: int = 0
-    unmatched_example_tokens: int = 0
     strange_records: list[dict[str, Any]] = field(default_factory=list)
 
 
@@ -90,10 +86,75 @@ def is_strange_record(record: WordFormRecord) -> bool:
     )
 
 
+def _group_by_wordform(records: list[WordFormRecord]) -> dict[str, list[WordFormRecord]]:
+    grouped: dict[str, list[WordFormRecord]] = defaultdict(list)
+    for record in records:
+        grouped[record.wordform].append(record)
+    return grouped
+
+
+def _normalize_sort_key(word: str) -> str:
+    return re.sub(r"[1IiｌlL|!ǀӀІ]", "ӏ", word.lower().strip())
+
+
+def build_gaps(raw_records: list[WordFormRecord]) -> tuple[dict[str, list[str]], dict[str, int]]:
+    """Build gap wordform lists and mention counts in one pass over grouped records."""
+    buckets: dict[str, set[str]] = {key: set() for key in GAP_FILTER_META}
+    mention_counts = {key: 0 for key in GAP_FILTER_META}
+    grouped = _group_by_wordform(raw_records)
+
+    for wordform, records in grouped.items():
+        clear = [record for record in records if is_clear_record(record)]
+        unclear = [record for record in records if not is_clear_record(record)]
+        clear_lemmas = {record.lemma for record in clear if record.lemma}
+        unclear_count = len(unclear)
+
+        if unclear:
+            buckets["needs_work"].add(wordform)
+            mention_counts["needs_work"] += unclear_count
+            if clear:
+                buckets["partial"].add(wordform)
+                mention_counts["partial"] += unclear_count
+            else:
+                buckets["fully_unmapped"].add(wordform)
+                mention_counts["fully_unmapped"] += unclear_count
+
+        if len(clear_lemmas) > 1:
+            buckets["homograph"].add(wordform)
+            mention_counts["homograph"] += len(records)
+
+        if any(is_strange_record(record) for record in records):
+            buckets["strange"].add(wordform)
+
+    mention_counts["strange"] = sum(1 for record in raw_records if is_strange_record(record))
+
+    gap_filters = {
+        key: sorted(words, key=_normalize_sort_key)
+        for key, words in buckets.items()
+    }
+    return gap_filters, mention_counts
+
+
+def build_gap_filters(raw_records: list[WordFormRecord]) -> dict[str, list[str]]:
+    gap_filters, _ = build_gaps(raw_records)
+    return gap_filters
+
+
+def build_gap_mentions(
+    raw_records: list[WordFormRecord],
+    gap_filters: dict[str, list[str]],
+) -> dict[str, int]:
+    _, mention_counts = build_gaps(raw_records)
+    return mention_counts
+
+
 def build_stats(
     raw_records: list[WordFormRecord],
     aggregated: list[AggregatedRecord],
     per_source_counts: Counter[str],
+    *,
+    gap_filters: dict[str, list[str]] | None = None,
+    gap_mentions: dict[str, int] | None = None,
 ) -> BuildStats:
     stats = BuildStats(
         total_raw_records=len(raw_records),
@@ -106,22 +167,14 @@ def build_stats(
     relation_counter: Counter[str] = Counter()
     subsource_counter: Counter[str] = Counter()
 
+    if gap_filters is None or gap_mentions is None:
+        gap_filters, gap_mentions = build_gaps(raw_records)
+    stats.gap_wordforms = {key: len(gap_filters.get(key, [])) for key in GAP_FILTER_META}
+    stats.gap_mentions = gap_mentions
+    stats.needs_work_mentions = gap_mentions.get("needs_work", 0)
+
     for record in raw_records:
         subsource_counter[record.subsource or "unknown"] += 1
-        if _is_missing(record.lemma):
-            stats.missing_lemma += 1
-        if _is_missing(record.relation) and not is_clear_record(record):
-            stats.missing_relation += 1
-        if _is_missing(record.pos) and not is_clear_record(record):
-            stats.missing_pos += 1
-        if _is_missing(record.lemma) and _is_missing(record.relation):
-            stats.missing_lemma_and_relation += 1
-        if record.confidence == "low":
-            stats.low_confidence += 1
-        if record.subsource == "examples" and record.confidence == "low":
-            stats.ambiguous_examples += 1
-        if record.subsource == "examples" and _is_missing(record.lemma):
-            stats.unmatched_example_tokens += 1
 
         if record.lemma:
             lemma_counter[record.lemma] += 1
@@ -148,42 +201,18 @@ def build_stats(
     return stats
 
 
-def _normalize_sort_key(word: str) -> str:
-    return re.sub(r"[1IiｌlL|!ǀӀІ]", "ӏ", word.lower().strip())
-
-
-def build_gap_filters(
-    raw_records: list[WordFormRecord],
-    strange_records: list[dict[str, Any]] | None = None,
-) -> dict[str, list[str]]:
-    buckets: dict[str, set[str]] = {key: set() for key in GAP_FILTER_META}
-
-    for record in raw_records:
-        wf = record.wordform
-        clear = is_clear_record(record)
-        if _is_missing(record.lemma):
-            buckets["missing_lemma"].add(wf)
-        if _is_missing(record.relation) and not clear:
-            buckets["missing_relation"].add(wf)
-        if _is_missing(record.pos) and not clear:
-            buckets["missing_pos"].add(wf)
-        if _is_missing(record.lemma) and _is_missing(record.relation):
-            buckets["missing_lemma_and_relation"].add(wf)
-        if record.subsource == "examples" and record.confidence == "low":
-            buckets["ambiguous_examples"].add(wf)
-        if record.confidence == "low":
-            buckets["low_confidence"].add(wf)
-        if is_strange_record(record):
-            buckets["strange"].add(wf)
-
-    return {
-        key: sorted(words, key=_normalize_sort_key)
-        for key, words in buckets.items()
-    }
-
-
-def write_gap_filters(gap_filters: dict[str, list[str]], output_dir: Path) -> Path:
+def write_gap_filters(
+    gap_filters: dict[str, list[str]],
+    output_dir: Path,
+    gap_mentions: dict[str, int] | None = None,
+) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
+    gap_mentions = gap_mentions or {}
+
+    for path in output_dir.glob("*.txt"):
+        if path.name not in {f"{key}.txt" for key in GAP_FILTER_META}:
+            path.unlink()
+
     manifest_filters: dict[str, dict[str, Any]] = {}
 
     for filter_id, meta in GAP_FILTER_META.items():
@@ -197,10 +226,14 @@ def write_gap_filters(gap_filters: dict[str, list[str]], output_dir: Path) -> Pa
             "label": meta["label"],
             "description": meta["description"],
             "count": len(wordforms),
+            "mention_count": gap_mentions.get(filter_id, 0),
             "file": filename,
         }
 
-    manifest = {"filters": manifest_filters}
+    manifest = {
+        "filters": manifest_filters,
+        "legacy_filters": LEGACY_GAP_FILTERS,
+    }
     manifest_path = output_dir / "manifest.json"
     with manifest_path.open("w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
@@ -233,14 +266,15 @@ def write_stats(stats: BuildStats, json_path: Path, txt_path: Path) -> None:
     lines.extend(
         [
             "",
-            "Coverage gaps:",
-            f"  Missing lemma:              {stats.missing_lemma}",
-            f"  Missing relation:           {stats.missing_relation}",
-            f"  Missing POS:                {stats.missing_pos}",
-            f"  Missing lemma & relation:   {stats.missing_lemma_and_relation}",
-            f"  Low confidence:             {stats.low_confidence}",
-            f"  Ambiguous examples:         {stats.ambiguous_examples}",
-            f"  Unmatched example tokens:   {stats.unmatched_example_tokens}",
+            "Coverage gaps (wordforms / mentions):",
+        ]
+    )
+    for filter_id, meta in GAP_FILTER_META.items():
+        wf = stats.gap_wordforms.get(filter_id, 0)
+        mentions = stats.gap_mentions.get(filter_id, 0)
+        lines.append(f"  {meta['label']}: {wf} / {mentions}")
+    lines.extend(
+        [
             "",
             "Top lemmas:",
         ]

@@ -319,6 +319,11 @@ a:hover {
   color: var(--text-muted);
 }
 
+.coverage-item-meta {
+  display: block;
+  margin-top: 0.15rem;
+}
+
 .coverage-item-link {
   display: block;
   text-decoration: none;

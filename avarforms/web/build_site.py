@@ -172,6 +172,9 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
     gaps_dest = docs_dir / "data" / "gaps"
     if gaps_src.is_dir():
         gaps_dest.mkdir(parents=True, exist_ok=True)
+        for old in gaps_dest.iterdir():
+            if old.is_file():
+                old.unlink()
         for path in gaps_src.iterdir():
             if path.is_file():
                 gaps_dest.joinpath(path.name).write_text(
