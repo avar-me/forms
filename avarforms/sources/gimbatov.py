@@ -68,6 +68,36 @@ def _iter_article_morph_bases(entry: dict[str, Any]) -> Iterator[str]:
                 yield text
 
 
+def _iter_entry_example_tokens(entry: dict[str, Any]) -> Iterator[str]:
+    for sense in entry.get("senses", []):
+        for example in sense.get("examples", []):
+            yield from _iter_example_tokens(example.get("av", ""))
+
+
+def _has_strict_attested_prefix(entry: dict[str, Any], token: str) -> bool:
+    """True when examples attest a shorter token that is not a declared form."""
+    declared = set(_iter_article_morph_bases(entry))
+    for example_token in _iter_entry_example_tokens(entry):
+        if example_token == token or example_token in declared:
+            continue
+        if token.startswith(example_token) and len(example_token) < len(token):
+            return True
+    return False
+
+
+def _token_declared_for_entry(entry: dict[str, Any], token: str) -> bool:
+    if token == entry.get("word"):
+        return True
+    if token in entry.get("forms", []):
+        return True
+    if token in entry.get("gender_forms", []):
+        return True
+    for sense in entry.get("senses", []):
+        if token in sense.get("forms", []):
+            return True
+    return False
+
+
 def _lookup_article_morphology(entry: dict[str, Any], token: str) -> str | None:
     """Map example token to article headword via stem or shared prefix."""
     headword = _entry_headword(entry)
@@ -84,8 +114,14 @@ def _lookup_article_morphology(entry: dict[str, Any], token: str) -> str | None:
         return headword
 
     best_prefix = 0
+    via_startswith = False
     for base in _iter_article_morph_bases(entry):
         if base == stem:
+            continue
+        if token.startswith(base) and len(token) > len(base):
+            if len(base) > best_prefix:
+                best_prefix = len(base)
+                via_startswith = True
             continue
         prefix_len = _common_prefix_len(token, base)
         if (
@@ -95,10 +131,13 @@ def _lookup_article_morphology(entry: dict[str, Any], token: str) -> str | None:
             and prefix_len > best_prefix
         ):
             best_prefix = prefix_len
+            via_startswith = False
 
-    if best_prefix >= MIN_MORPH_PREFIX_LEN:
-        return headword
-    return None
+    if best_prefix < MIN_MORPH_PREFIX_LEN:
+        return None
+    if not via_startswith and _has_strict_attested_prefix(entry, token):
+        return None
+    return headword
 
 
 def _entry_headword(entry: dict[str, Any]) -> str:
@@ -108,18 +147,27 @@ def _entry_headword(entry: dict[str, Any]) -> str:
     return entry.get("word", "") or ""
 
 
-def _iter_entry_form_lemmas(entry: dict[str, Any]) -> Iterator[tuple[str, str]]:
+def _iter_entry_form_lemmas(
+    entry: dict[str, Any],
+    headwords: set[str] | None = None,
+) -> Iterator[tuple[str, str]]:
     """Yield (surface_form, lemma) pairs declared in a dictionary entry."""
     headword = _entry_headword(entry)
     word = entry.get("word", "")
-    if word:
+    if word and not (headwords and _should_skip_cross_headword_form(word, headword, headwords)):
         yield word, headword
     for form in entry.get("forms", []):
+        if headwords and _should_skip_cross_headword_form(form, headword, headwords):
+            continue
         yield form, headword
     for form in entry.get("gender_forms", []):
+        if headwords and _should_skip_cross_headword_form(form, headword, headwords):
+            continue
         yield form, headword
     for sense in entry.get("senses", []):
         for form in sense.get("forms", []):
+            if headwords and _should_skip_cross_headword_form(form, headword, headwords):
+                continue
             yield form, headword
 
 
@@ -147,23 +195,34 @@ def _suffix_match_lemma(
     return None
 
 
+def _should_skip_cross_headword_form(form: str, lemma: str, headwords: set[str]) -> bool:
+    """Form is its own dictionary entry — do not attach it to another lemma."""
+    return bool(form and form in headwords and form != lemma)
+
+
 @dataclass
 class DictionaryIndex:
     word_to_entry: dict[str, list[dict[str, Any]]] = field(default_factory=dict)
     form_to_lemmas: dict[str, set[str]] = field(default_factory=dict)
     word_relations: dict[str, tuple[str, str]] = field(default_factory=dict)
+    headwords: set[str] = field(default_factory=set)
 
     @classmethod
     def from_entries(cls, entries: list[dict[str, Any]]) -> DictionaryIndex:
         index = cls()
+        index.headwords = {entry.get("word", "") for entry in entries if entry.get("word", "")}
         for entry in entries:
             word = entry.get("word", "")
             if not word:
                 continue
             index.word_to_entry.setdefault(word, []).append(entry)
             for form in entry.get("forms", []):
+                if _should_skip_cross_headword_form(form, word, index.headwords):
+                    continue
                 index.form_to_lemmas.setdefault(form, set()).add(word)
             for form in entry.get("gender_forms", []):
+                if _should_skip_cross_headword_form(form, word, index.headwords):
+                    continue
                 index.form_to_lemmas.setdefault(form, set()).add(word)
 
             relation = _extract_relation_from_entry(entry)
@@ -172,8 +231,25 @@ class DictionaryIndex:
 
         return index
 
+    def _token_declared_for_lemma(self, token: str, lemma: str) -> bool:
+        for entry in self.word_to_entry.get(lemma, []):
+            if _token_declared_for_entry(entry, token):
+                return True
+        return False
+
+    def _reject_attested_undeclared(self, token: str, lemma: str) -> bool:
+        for entry in self.word_to_entry.get(lemma, []):
+            if _has_strict_attested_prefix(entry, token):
+                return True
+        return False
+
+    def _suffix_form_applies(self, token: str, form: str, lemmas: set[str]) -> bool:
+        if form not in self.headwords:
+            return True
+        return any(self._token_declared_for_lemma(token, lemma) for lemma in lemmas)
+
     def _lookup_in_article(self, entry: dict[str, Any], token: str) -> tuple[str, str] | None:
-        form_lemmas = list(_iter_entry_form_lemmas(entry))
+        form_lemmas = list(_iter_entry_form_lemmas(entry, self.headwords))
         for form, lemma in form_lemmas:
             if token == form:
                 return lemma, ""
@@ -195,6 +271,8 @@ class DictionaryIndex:
         lemmas_at_best: set[str] = set()
         for form, lemmas in self.form_to_lemmas.items():
             if not form or len(form) >= len(token) or not token.startswith(form):
+                continue
+            if not self._suffix_form_applies(token, form, set(lemmas)):
                 continue
             form_len = len(form)
             if form_len > best_len:
@@ -257,6 +335,10 @@ class DictionaryIndex:
                 or len(form) <= prefix_len
             ):
                 continue
+            if not (token.startswith(form) or form.startswith(token)):
+                tail = max(len(token) - prefix_len, len(form) - prefix_len)
+                if tail > 2:
+                    continue
             if prefix_len > best_len:
                 best_len = prefix_len
                 forms_at_best = [(form, set(lemmas))]
@@ -288,13 +370,38 @@ class DictionaryIndex:
             if not lemma and context_lemma and context_lemma in lemmas_at_best:
                 lemma = context_lemma
 
-        if not lemma:
+        if not lemma or self._reject_attested_undeclared(token, lemma):
             return "", "", token_pos, "low"
 
         pos = token_pos or (
             _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
         )
         return lemma, "", pos, "medium"
+
+    def _main_paradigm_entry(self, lemma: str) -> dict[str, Any] | None:
+        for entry in self.word_to_entry.get(lemma, []):
+            if entry.get("word") == lemma and not _extract_relation_from_entry(entry):
+                return entry
+        entries = self.word_to_entry.get(lemma)
+        return entries[0] if entries else None
+
+    def _pick_ambiguous_lemma(self, lemmas: set[str]) -> str:
+        """Choose one lemma when the same surface form maps to several headwords."""
+
+        def score(lemma: str) -> tuple[int, int, str]:
+            entry = self._main_paradigm_entry(lemma)
+            if not entry:
+                return (0, 0, lemma)
+            examples = sum(
+                1
+                for sense in entry.get("senses", [])
+                for ex in sense.get("examples", [])
+                if ex.get("av")
+            )
+            forms = len(entry.get("forms", []) or [])
+            return (examples, forms, lemma)
+
+        return max(lemmas, key=score)
 
     def lookup_lemma(
         self,
@@ -337,7 +444,9 @@ class DictionaryIndex:
                 if context_lemma == token and token in self.word_to_entry:
                     relation = _gram_form_relation(self.word_to_entry[token][0])
                 return context_lemma, relation, pos, "medium"
-            return "", "", token_pos, "low"
+            lemma = self._pick_ambiguous_lemma(lemmas)
+            pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
+            return lemma, "", pos, "medium"
 
         suffix = self._lookup_global_suffix(token, context_lemma, token_pos)
         if suffix:
@@ -407,7 +516,7 @@ class GimbatovExtractor(SourceExtractor):
         index = DictionaryIndex.from_entries(entries)
 
         for entry in entries:
-            yield from self._extract_entry(entry, mappings)
+            yield from self._extract_entry(entry, mappings, index.headwords)
 
         for entry in entries:
             yield from self._extract_examples(entry, index, mappings)
@@ -446,7 +555,12 @@ class GimbatovExtractor(SourceExtractor):
             confidence=confidence,
         )
 
-    def _extract_entry(self, entry: dict[str, Any], mappings: MappingTable) -> Iterator[WordFormRecord]:
+    def _extract_entry(
+        self,
+        entry: dict[str, Any],
+        mappings: MappingTable,
+        headwords: set[str],
+    ) -> Iterator[WordFormRecord]:
         word = entry.get("word", "")
         if not word:
             return
@@ -487,6 +601,8 @@ class GimbatovExtractor(SourceExtractor):
         for form in forms:
             if form == word:
                 continue
+            if _should_skip_cross_headword_form(form, headword, headwords):
+                continue
             rec = self._record(
                 wordform=form,
                 lemma=headword,
@@ -503,6 +619,8 @@ class GimbatovExtractor(SourceExtractor):
         if gender_forms:
             for gform in gender_forms:
                 if gform == word:
+                    continue
+                if _should_skip_cross_headword_form(gform, headword, headwords):
                     continue
                 rec = self._record(
                     wordform=gform,
