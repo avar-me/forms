@@ -1,35 +1,35 @@
 {
   "total_raw_records": 171465,
-  "total_aggregated_records": 78526,
+  "total_aggregated_records": 78220,
   "per_source_raw": {
     "AV-RU словарь Гимбатова": 171465
   },
   "per_subsource_raw": {
     "headword": 17014,
+    "examples": 106090,
     "forms": 41879,
     "explicit_relation": 5828,
-    "gender_forms": 654,
-    "examples": 106090
+    "gender_forms": 654
   },
-  "needs_work_mentions": 9265,
+  "needs_work_mentions": 8332,
   "gap_wordforms": {
-    "needs_work": 4306,
-    "fully_unmapped": 3994,
-    "partial": 312,
+    "needs_work": 4001,
+    "fully_unmapped": 3995,
+    "partial": 6,
     "homograph": 978,
     "strange": 0
   },
   "gap_mentions": {
-    "needs_work": 9265,
-    "fully_unmapped": 8298,
-    "partial": 967,
+    "needs_work": 8332,
+    "fully_unmapped": 8299,
+    "partial": 33,
     "homograph": 6479,
     "strange": 0
   },
   "top_lemmas": [
     [
       "гьабизе",
-      1815
+      1821
     ],
     [
       "буго",
@@ -45,19 +45,23 @@
     ],
     [
       "чи",
-      893
-    ],
-    [
-      "базе",
-      556
+      899
     ],
     [
       "букӏине",
-      546
+      583
     ],
     [
       "мун",
-      545
+      563
+    ],
+    [
+      "базе",
+      558
+    ],
+    [
+      "хӏалтӏизе",
+      534
     ],
     [
       "бахъизе",
@@ -65,11 +69,7 @@
     ],
     [
       "чӏезе",
-      521
-    ],
-    [
-      "хӏалтӏизе",
-      518
+      522
     ],
     [
       "ккезе",
@@ -81,7 +81,7 @@
     ],
     [
       "босизе",
-      435
+      436
     ],
     [
       "ниж",

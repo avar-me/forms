@@ -9,7 +9,7 @@ from typing import Any
 
 from .extractor import SourceExtractor, load_mappings
 from .models import AggregatedRecord, WordFormRecord
-from .stats import build_gaps, build_stats, write_gap_filters, write_stats
+from .stats import build_gaps, build_stats, is_clear_record, write_gap_filters, write_stats
 
 
 CSV_COLUMNS = ["wordform", "lemma", "relation", "pos", "source", "count"]
@@ -30,6 +30,50 @@ def _instantiate_extractor(root: Path, spec: dict[str, Any]) -> SourceExtractor:
         config=spec.get("config", {}),
         root=root,
     )
+
+
+def _record_template_rank(record: WordFormRecord) -> tuple[int, int, int]:
+    confidence_rank = {"high": 2, "medium": 1, "low": 0}.get(record.confidence, 0)
+    meta_rank = int(bool(record.relation)) + int(bool(record.pos))
+    return (int(is_clear_record(record)), confidence_rank, meta_rank)
+
+
+def _merge_resolved_duplicates(records: list[WordFormRecord]) -> list[WordFormRecord]:
+    """Propagate a single known lemma to unmapped rows of the same wordform."""
+    grouped: dict[tuple[str, str], list[WordFormRecord]] = {}
+    for record in records:
+        grouped.setdefault((record.wordform, record.source), []).append(record)
+
+    merged: list[WordFormRecord] = []
+    for group in grouped.values():
+        mapped = [record for record in group if record.lemma]
+        unmapped = [record for record in group if not record.lemma]
+        if not unmapped or not mapped:
+            merged.extend(group)
+            continue
+
+        lemmas = {record.lemma for record in mapped}
+        if len(lemmas) != 1:
+            merged.extend(group)
+            continue
+
+        template = max(mapped, key=_record_template_rank)
+        for record in group:
+            if record.lemma:
+                merged.append(record)
+                continue
+            merged.append(
+                WordFormRecord(
+                    wordform=record.wordform,
+                    lemma=template.lemma,
+                    relation=template.relation,
+                    pos=template.pos,
+                    source=record.source,
+                    subsource=record.subsource,
+                    confidence="medium",
+                )
+            )
+    return merged
 
 
 def _aggregate(records: list[WordFormRecord]) -> list[AggregatedRecord]:
@@ -77,6 +121,7 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
         all_records.extend(source_records)
         per_source_counts[spec["name"]] += len(source_records)
 
+    all_records = _merge_resolved_duplicates(all_records)
     aggregated = _aggregate(all_records)
     output_cfg = config.get("output", {})
     csv_path = root / output_cfg.get("csv", "output/wordforms.csv")

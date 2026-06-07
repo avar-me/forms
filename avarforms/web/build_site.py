@@ -85,6 +85,17 @@ def split_into_chunks(entries: dict[str, dict[str, Any]], wordforms: list[str]) 
     return chunks
 
 
+def _apply_script_cache_bust(docs_dir: Path, build_id: str) -> None:
+    pattern = re.compile(r'(src="(?:app|stats)\.js)(?:\?[^"]*)?"')
+    replacement = rf'\1?v={build_id}"'
+    for name in ("index.html", "stats.html"):
+        path = docs_dir / name
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8")
+        path.write_text(pattern.sub(replacement, text), encoding="utf-8")
+
+
 def build_site(root: Path | None = None) -> dict[str, Any]:
     root = root or Path(__file__).resolve().parents[2]
     csv_path = root / "output" / "wordforms.csv"
@@ -189,6 +200,8 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
     }
     with (docs_dir / "data" / "site-meta.json").open("w", encoding="utf-8") as fh:
         json.dump(site_meta, fh, ensure_ascii=False, indent=2)
+
+    _apply_script_cache_bust(docs_dir, build_id)
 
     return {
         "wordforms": len(wordforms),

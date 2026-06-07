@@ -4,6 +4,31 @@
 
 const GAP_LINK_BASE = 'index.html?filter=';
 
+const GAP_LABELS = {
+    needs_work: {
+        label: 'Нужна ручная работа',
+        description: 'Есть упоминания без уверенного маппинга',
+    },
+    fully_unmapped: {
+        label: 'Без маппинга',
+        description: 'Нет ни одной записи с найденной леммой',
+    },
+    partial: {
+        label: 'Частичный маппинг',
+        description: 'Есть и ясные записи, и пробелы в других упоминаниях',
+    },
+    homograph: {
+        label: 'Омонимы',
+        description: 'Несколько лемм для одной словоформы — обычно норма',
+    },
+    strange: {
+        label: 'Аномалии',
+        description: 'Подозрительные записи без ясного контекста',
+    },
+};
+
+const GAP_FILTER_ORDER = ['needs_work', 'fully_unmapped', 'partial', 'homograph', 'strange'];
+
 const CHART_COLORS = [
     '#5e7a6f', '#1a5f8a', '#6b9080', '#4a6670', '#7a9e8e',
     '#3d6b5e', '#047857', '#5c7a6b', '#2d6a6a', '#0f766e'
@@ -29,12 +54,20 @@ function escapeHtml(text) {
 }
 
 function formatNumber(n) {
-    return new Intl.NumberFormat('ru-RU').format(n);
+    const value = Number(n);
+    if (!Number.isFinite(value)) {
+        return '0';
+    }
+    return new Intl.NumberFormat('ru-RU').format(value);
 }
 
 function pct(part, total) {
-    if (!total) return '0%';
-    return `${((part / total) * 100).toFixed(1)}%`;
+    const p = Number(part);
+    const t = Number(total);
+    if (!Number.isFinite(p) || !Number.isFinite(t) || t <= 0) {
+        return '0%';
+    }
+    return `${((p / t) * 100).toFixed(1)}%`;
 }
 
 function gapLink(filterId) {
@@ -127,18 +160,19 @@ function makeHorizontalBar(canvasId, labels, data, title) {
 
 function renderCoverageDetails(stats, gapManifest) {
     const totalMentions = stats.total_raw_records || 1;
-    const filters = gapManifest?.filters || {};
-    const filterOrder = ['needs_work', 'fully_unmapped', 'partial', 'homograph', 'strange'];
+    const manifestFilters = gapManifest?.filters || {};
 
-    const items = filterOrder
-        .map((filterId) => {
-            const meta = filters[filterId];
-            if (!meta) return null;
-            const wordforms = meta.count || 0;
-            const mentions = meta.mention_count ?? stats.gap_mentions?.[filterId] ?? 0;
-            return { filterId, meta, wordforms, mentions };
-        })
-        .filter(Boolean);
+    const items = GAP_FILTER_ORDER.map((filterId) => {
+        const fromManifest = manifestFilters[filterId];
+        const labels = GAP_LABELS[filterId] || { label: filterId, description: '' };
+        const wordforms = fromManifest?.count ?? stats.gap_wordforms?.[filterId] ?? 0;
+        const mentions = fromManifest?.mention_count ?? stats.gap_mentions?.[filterId] ?? 0;
+        const meta = {
+            label: fromManifest?.label || labels.label,
+            description: fromManifest?.description || labels.description,
+        };
+        return { filterId, meta, wordforms, mentions };
+    });
 
     document.getElementById('coverageDetails').innerHTML = items.map(({ filterId, meta, wordforms, mentions }) => {
         const mentionPct = pct(mentions, totalMentions);
