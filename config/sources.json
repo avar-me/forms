@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "gimbatov",
+      "name": "AV-RU словарь Гимбатова",
+      "enabled": true,
+      "module": "avarforms.sources.gimbatov",
+      "class": "GimbatovExtractor",
+      "config": {
+        "path": "sources/gimbatov.av-ru.enriched.jsonl"
+      }
+    }
+  ],
+  "mappings": [
+    "mappings/gimbatov.overrides.json"
+  ],
+  "output": {
+    "csv": "output/wordforms.csv",
+    "stats_json": "output/stats.json",
+    "stats_txt": "output/stats.txt"
+  }
+}

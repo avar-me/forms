@@ -1,0 +1,219 @@
+/**
+ * Statistics page — charts and numbers
+ */
+
+const CHART_COLORS = [
+    '#9a7b1a', '#1a5f8a', '#5e8cb4', '#c9a227', '#6b7280',
+    '#b45309', '#047857', '#7c3aed', '#be123c', '#0f766e'
+];
+
+const chartDefaults = {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+        legend: {
+            labels: {
+                font: { family: '"Onest", system-ui, sans-serif', size: 12 },
+                color: '#5a6570'
+            }
+        }
+    }
+};
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function formatNumber(n) {
+    return new Intl.NumberFormat('ru-RU').format(n);
+}
+
+function pct(part, total) {
+    if (!total) return '0%';
+    return `${((part / total) * 100).toFixed(1)}%`;
+}
+
+function renderStatCards(stats, meta) {
+    const el = document.getElementById('statCards');
+    const cards = [
+        { value: formatNumber(meta.total_wordforms || stats.total_aggregated_records), label: 'Уникальных словоформ' },
+        { value: formatNumber(stats.total_raw_records), label: 'Всего упоминаний' },
+        { value: formatNumber(stats.total_aggregated_records), label: 'Агрегированных записей' },
+        { value: formatNumber(Object.keys(stats.per_source_raw || {}).length), label: 'Источников' },
+    ];
+    el.innerHTML = cards.map(c => `
+        <div class="stat-card">
+            <div class="stat-card-value">${escapeHtml(String(c.value))}</div>
+            <div class="stat-card-label">${escapeHtml(c.label)}</div>
+        </div>
+    `).join('');
+}
+
+function makeDoughnut(canvasId, labels, data, title) {
+    const ctx = document.getElementById(canvasId);
+    return new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels,
+            datasets: [{
+                data,
+                backgroundColor: CHART_COLORS.slice(0, labels.length),
+                borderWidth: 2,
+                borderColor: '#ffffff'
+            }]
+        },
+        options: {
+            ...chartDefaults,
+            plugins: {
+                ...chartDefaults.plugins,
+                title: {
+                    display: !!title,
+                    text: title,
+                    font: { family: '"Literata", Georgia, serif', size: 14, weight: '600' },
+                    color: '#1c2229',
+                    padding: { bottom: 12 }
+                }
+            }
+        }
+    });
+}
+
+function makeHorizontalBar(canvasId, labels, data, title) {
+    const ctx = document.getElementById(canvasId);
+    return new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels,
+            datasets: [{
+                data,
+                backgroundColor: CHART_COLORS[0],
+                borderRadius: 4
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: !!title,
+                    text: title,
+                    font: { family: '"Literata", Georgia, serif', size: 14, weight: '600' },
+                    color: '#1c2229'
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: 'rgba(28,34,41,0.06)' },
+                    ticks: { font: { family: '"Onest", sans-serif' }, color: '#5a6570' }
+                },
+                y: {
+                    grid: { display: false },
+                    ticks: { font: { family: '"Onest", sans-serif', size: 11 }, color: '#1c2229' }
+                }
+            }
+        }
+    });
+}
+
+function renderCoverageDetails(stats) {
+    const total = stats.total_raw_records || 1;
+    const items = [
+        {
+            strong: formatNumber(stats.missing_relation),
+            span: `Без указания связи (${pct(stats.missing_relation, total)} от упоминаний)`
+        },
+        {
+            strong: formatNumber(stats.missing_lemma),
+            span: 'Без леммы (в агрегате — 0 после фильтрации примеров)'
+        },
+        {
+            strong: formatNumber(stats.missing_pos),
+            span: `Без части речи (${pct(stats.missing_pos, total)})`
+        },
+        {
+            strong: formatNumber(stats.ambiguous_examples),
+            span: 'Неоднозначных матчей в примерах'
+        },
+        {
+            strong: formatNumber((stats.strange_records || []).length),
+            span: 'Аномалий для ручной проверки'
+        }
+    ];
+
+    document.getElementById('coverageDetails').innerHTML = items.map(i => `
+        <div class="coverage-item">
+            <strong>${escapeHtml(i.strong)}</strong>
+            <span>${escapeHtml(i.span)}</span>
+        </div>
+    `).join('');
+}
+
+async function initStats() {
+    const loading = document.getElementById('statsLoading');
+    const content = document.getElementById('statsContent');
+    const errorEl = document.getElementById('statsError');
+
+    try {
+        const [statsRes, metaRes] = await Promise.all([
+            fetch('data/stats.json'),
+            fetch('data/site-meta.json')
+        ]);
+
+        if (!statsRes.ok) throw new Error('Не удалось загрузить stats.json');
+        const stats = await statsRes.json();
+        const meta = metaRes.ok ? await metaRes.json() : {};
+
+        loading.style.display = 'none';
+        content.style.display = 'block';
+
+        renderStatCards(stats, meta);
+
+        const subLabels = Object.keys(stats.per_subsource_raw || {});
+        const subData = Object.values(stats.per_subsource_raw || {});
+        makeDoughnut('chartSubsources', subLabels, subData, 'По подисточникам');
+
+        const withRelation = stats.total_raw_records - stats.missing_relation;
+        makeDoughnut(
+            'chartCoverage',
+            ['Со связью', 'Без связи'],
+            [withRelation, stats.missing_relation],
+            'Покрытие связями'
+        );
+
+        const topLemmas = (stats.top_lemmas || []).slice(0, 12);
+        makeHorizontalBar(
+            'chartTopLemmas',
+            topLemmas.map(([w]) => w),
+            topLemmas.map(([, c]) => c),
+            'Топ-12 лемм по числу словоформ'
+        );
+
+        const topRelations = (stats.top_relations || []).slice(0, 10);
+        makeHorizontalBar(
+            'chartRelations',
+            topRelations.map(([r]) => r),
+            topRelations.map(([, c]) => c),
+            'Типы грамматических связей'
+        );
+
+        const topWordforms = (stats.top_wordforms || []).slice(0, 12);
+        makeHorizontalBar(
+            'chartTopWordforms',
+            topWordforms.map(([w]) => w),
+            topWordforms.map(([, c]) => c),
+            'Топ-12 словоформ по частоте'
+        );
+
+        renderCoverageDetails(stats);
+    } catch (err) {
+        loading.style.display = 'none';
+        errorEl.textContent = err.message || 'Ошибка загрузки';
+        errorEl.style.display = 'block';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initStats);

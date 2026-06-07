@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Словоформы аварского языка — forms.avar.me">
+    <meta name="author" content="avar.me">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Словоформы аварского языка">
+    <meta property="og:description" content="Поиск словоформ аварского языка из корпусов и словарей">
+    <meta property="og:url" content="https://avar-me.github.io/forms/">
+
+    <title>Словоформы — avar.me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀</text></svg>">
+
+    <link rel="preload" href="data/wordforms/index.wordforms.txt" as="fetch" crossorigin>
+</head>
+<body>
+    <div class="bg-pattern" aria-hidden="true"></div>
+
+    <div class="container">
+        <header class="header">
+            <p class="header-tag">avar.me · forms</p>
+            <h1 class="title">Словоформы<br><span class="dot">аварского языка</span></h1>
+            <nav class="site-nav">
+                <a href="index.html" class="nav-link nav-link-active">Поиск</a>
+                <a href="stats.html" class="nav-link">Статистика</a>
+            </nav>
+        </header>
+
+        <div class="search-section">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                        <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM19 19l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        class="search-input"
+                        placeholder="Введите словоформу…"
+                        autocomplete="off"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        spellcheck="false"
+                    >
+                    <button id="clearBtn" class="clear-btn" aria-label="Очистить">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                            <path d="M12 4L4 12M4 4l8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="suggestions" class="suggestions"></div>
+            </div>
+            <div id="searchStats" class="search-stats"></div>
+        </div>
+
+        <div id="results" class="results-section"></div>
+
+        <div id="randomWordsSection" class="home-samples-section">
+            <p class="word-list-caption">10 случайных словоформ</p>
+            <div id="homeSamples"></div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Загрузка…</p>
+        </div>
+
+        <div id="error" class="error-message"></div>
+
+        <footer class="footer">
+            <p>
+                Проект <a href="https://avar.me" target="_blank" rel="noopener">avar.me</a>
+                · <a href="mailto:admin@avar.me">admin@avar.me</a>
+            </p>
+            <p>
+                <a href="https://github.com/avar-me/forms" target="_blank" rel="noopener">github.com/avar-me/forms</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

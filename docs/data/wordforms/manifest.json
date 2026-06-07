@@ -1,0 +1,4519 @@
+{
+  "version": "1.0.0",
+  "source": "wordforms.csv",
+  "build_date": "2026-06-07T15:09:56.072415+00:00",
+  "build_id": "0d1a8e44901c",
+  "total_wordforms": 47547,
+  "total_records": 50646,
+  "total_chunks": 644,
+  "chunks": [
+    {
+      "prefix": "-а",
+      "file": "-а.json",
+      "wordforms_count": 2,
+      "size": 548,
+      "hash": "efc6f4de"
+    },
+    {
+      "prefix": "-г",
+      "file": "-г.json",
+      "wordforms_count": 2,
+      "size": 578,
+      "hash": "cf1cd836"
+    },
+    {
+      "prefix": "-д",
+      "file": "-д.json",
+      "wordforms_count": 2,
+      "size": 564,
+      "hash": "df4142d0"
+    },
+    {
+      "prefix": "а",
+      "file": "а.json",
+      "wordforms_count": 1,
+      "size": 240,
+      "hash": "73ddf0ad"
+    },
+    {
+      "prefix": "аб",
+      "file": "аб.json",
+      "wordforms_count": 91,
+      "size": 27511,
+      "hash": "eaa9d968"
+    },
+    {
+      "prefix": "ав",
+      "file": "ав.json",
+      "wordforms_count": 153,
+      "size": 48924,
+      "hash": "b542b74f"
+    },
+    {
+      "prefix": "аг",
+      "file": "аг.json",
+      "wordforms_count": 85,
+      "size": 26711,
+      "hash": "81dfc19a"
+    },
+    {
+      "prefix": "ад",
+      "file": "ад.json",
+      "wordforms_count": 55,
+      "size": 17502,
+      "hash": "3b65e224"
+    },
+    {
+      "prefix": "аж",
+      "file": "аж.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "378a783b"
+    },
+    {
+      "prefix": "аз",
+      "file": "аз.json",
+      "wordforms_count": 66,
+      "size": 21186,
+      "hash": "0d042524"
+    },
+    {
+      "prefix": "ай",
+      "file": "ай.json",
+      "wordforms_count": 28,
+      "size": 8491,
+      "hash": "ec60c445"
+    },
+    {
+      "prefix": "ак",
+      "file": "ак.json",
+      "wordforms_count": 62,
+      "size": 19546,
+      "hash": "acb3bfcb"
+    },
+    {
+      "prefix": "ал",
+      "file": "ал.json",
+      "wordforms_count": 120,
+      "size": 39490,
+      "hash": "950fac2e"
+    },
+    {
+      "prefix": "ам",
+      "file": "ам.json",
+      "wordforms_count": 57,
+      "size": 17950,
+      "hash": "c60c89f6"
+    },
+    {
+      "prefix": "ан",
+      "file": "ан.json",
+      "wordforms_count": 130,
+      "size": 40697,
+      "hash": "3cac4834"
+    },
+    {
+      "prefix": "ап",
+      "file": "ап.json",
+      "wordforms_count": 33,
+      "size": 10768,
+      "hash": "c28e9526"
+    },
+    {
+      "prefix": "ар",
+      "file": "ар.json",
+      "wordforms_count": 89,
+      "size": 29585,
+      "hash": "6b0ae15c"
+    },
+    {
+      "prefix": "ас",
+      "file": "ас.json",
+      "wordforms_count": 97,
+      "size": 31304,
+      "hash": "9b903c8d"
+    },
+    {
+      "prefix": "ат",
+      "file": "ат.json",
+      "wordforms_count": 16,
+      "size": 5268,
+      "hash": "eab1c61f"
+    },
+    {
+      "prefix": "аф",
+      "file": "аф.json",
+      "wordforms_count": 12,
+      "size": 3838,
+      "hash": "14683a18"
+    },
+    {
+      "prefix": "ах",
+      "file": "ах.json",
+      "wordforms_count": 142,
+      "size": 42725,
+      "hash": "ee5f4f72"
+    },
+    {
+      "prefix": "ач",
+      "file": "ач.json",
+      "wordforms_count": 11,
+      "size": 3152,
+      "hash": "e48d0554"
+    },
+    {
+      "prefix": "аш",
+      "file": "аш.json",
+      "wordforms_count": 14,
+      "size": 4266,
+      "hash": "abf1bfea"
+    },
+    {
+      "prefix": "аэ",
+      "file": "аэ.json",
+      "wordforms_count": 11,
+      "size": 3388,
+      "hash": "9139c46e"
+    },
+    {
+      "prefix": "ая",
+      "file": "ая.json",
+      "wordforms_count": 11,
+      "size": 3062,
+      "hash": "d87e70cb"
+    },
+    {
+      "prefix": "баа",
+      "file": "баа.json",
+      "wordforms_count": 1,
+      "size": 266,
+      "hash": "f6f52b49"
+    },
+    {
+      "prefix": "баб",
+      "file": "баб.json",
+      "wordforms_count": 19,
+      "size": 5917,
+      "hash": "24c6a098"
+    },
+    {
+      "prefix": "бав",
+      "file": "бав.json",
+      "wordforms_count": 2,
+      "size": 610,
+      "hash": "92438272"
+    },
+    {
+      "prefix": "баг",
+      "file": "баг.json",
+      "wordforms_count": 255,
+      "size": 80586,
+      "hash": "c04c9aa5"
+    },
+    {
+      "prefix": "бад",
+      "file": "бад.json",
+      "wordforms_count": 40,
+      "size": 12676,
+      "hash": "c9edf83d"
+    },
+    {
+      "prefix": "баж",
+      "file": "баж.json",
+      "wordforms_count": 24,
+      "size": 7131,
+      "hash": "8b8a29eb"
+    },
+    {
+      "prefix": "баз",
+      "file": "баз.json",
+      "wordforms_count": 49,
+      "size": 15110,
+      "hash": "6189bd31"
+    },
+    {
+      "prefix": "баи",
+      "file": "баи.json",
+      "wordforms_count": 8,
+      "size": 2242,
+      "hash": "9fb44351"
+    },
+    {
+      "prefix": "бай",
+      "file": "бай.json",
+      "wordforms_count": 50,
+      "size": 16702,
+      "hash": "50dfcd1b"
+    },
+    {
+      "prefix": "бак",
+      "file": "бак.json",
+      "wordforms_count": 276,
+      "size": 88274,
+      "hash": "eb34ba5d"
+    },
+    {
+      "prefix": "бал",
+      "file": "бал.json",
+      "wordforms_count": 134,
+      "size": 42786,
+      "hash": "d2cbfbbf"
+    },
+    {
+      "prefix": "бан",
+      "file": "бан.json",
+      "wordforms_count": 31,
+      "size": 10019,
+      "hash": "820f8b87"
+    },
+    {
+      "prefix": "бар",
+      "file": "бар.json",
+      "wordforms_count": 111,
+      "size": 32981,
+      "hash": "3570158d"
+    },
+    {
+      "prefix": "бас",
+      "file": "бас.json",
+      "wordforms_count": 68,
+      "size": 20759,
+      "hash": "33b9b1c1"
+    },
+    {
+      "prefix": "бат",
+      "file": "бат.json",
+      "wordforms_count": 71,
+      "size": 21963,
+      "hash": "336524ca"
+    },
+    {
+      "prefix": "бау",
+      "file": "бау.json",
+      "wordforms_count": 1,
+      "size": 266,
+      "hash": "10d308d3"
+    },
+    {
+      "prefix": "бах",
+      "file": "бах.json",
+      "wordforms_count": 244,
+      "size": 78283,
+      "hash": "8fb05a94"
+    },
+    {
+      "prefix": "бац",
+      "file": "бац.json",
+      "wordforms_count": 76,
+      "size": 22994,
+      "hash": "e5bcf748"
+    },
+    {
+      "prefix": "бач",
+      "file": "бач.json",
+      "wordforms_count": 88,
+      "size": 26341,
+      "hash": "173fe16a"
+    },
+    {
+      "prefix": "баш",
+      "file": "баш.json",
+      "wordforms_count": 22,
+      "size": 6818,
+      "hash": "d1e73e90"
+    },
+    {
+      "prefix": "бащ",
+      "file": "бащ.json",
+      "wordforms_count": 26,
+      "size": 8214,
+      "hash": "c693d0eb"
+    },
+    {
+      "prefix": "баэ",
+      "file": "баэ.json",
+      "wordforms_count": 1,
+      "size": 258,
+      "hash": "6658b876"
+    },
+    {
+      "prefix": "бая",
+      "file": "бая.json",
+      "wordforms_count": 25,
+      "size": 7404,
+      "hash": "9afd7899"
+    },
+    {
+      "prefix": "беб",
+      "file": "беб.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "5662f81a"
+    },
+    {
+      "prefix": "бег",
+      "file": "бег.json",
+      "wordforms_count": 136,
+      "size": 42066,
+      "hash": "8570c9f8"
+    },
+    {
+      "prefix": "беж",
+      "file": "беж.json",
+      "wordforms_count": 43,
+      "size": 12611,
+      "hash": "2c7a901d"
+    },
+    {
+      "prefix": "бек",
+      "file": "бек.json",
+      "wordforms_count": 79,
+      "size": 23091,
+      "hash": "0fe59dac"
+    },
+    {
+      "prefix": "бел",
+      "file": "бел.json",
+      "wordforms_count": 69,
+      "size": 22462,
+      "hash": "64534406"
+    },
+    {
+      "prefix": "бен",
+      "file": "бен.json",
+      "wordforms_count": 2,
+      "size": 834,
+      "hash": "1593d53b"
+    },
+    {
+      "prefix": "бер",
+      "file": "бер.json",
+      "wordforms_count": 204,
+      "size": 62221,
+      "hash": "be0ea6a9"
+    },
+    {
+      "prefix": "бес",
+      "file": "бес.json",
+      "wordforms_count": 65,
+      "size": 21153,
+      "hash": "ec240a54"
+    },
+    {
+      "prefix": "бет",
+      "file": "бет.json",
+      "wordforms_count": 103,
+      "size": 31840,
+      "hash": "34568c08"
+    },
+    {
+      "prefix": "бех",
+      "file": "бех.json",
+      "wordforms_count": 16,
+      "size": 4714,
+      "hash": "55235875"
+    },
+    {
+      "prefix": "бец",
+      "file": "бец.json",
+      "wordforms_count": 171,
+      "size": 52739,
+      "hash": "bbb6e723"
+    },
+    {
+      "prefix": "беч",
+      "file": "беч.json",
+      "wordforms_count": 67,
+      "size": 20635,
+      "hash": "2a04437e"
+    },
+    {
+      "prefix": "беэ",
+      "file": "беэ.json",
+      "wordforms_count": 18,
+      "size": 5969,
+      "hash": "c8e05166"
+    },
+    {
+      "prefix": "биа",
+      "file": "биа.json",
+      "wordforms_count": 13,
+      "size": 3696,
+      "hash": "f7395e98"
+    },
+    {
+      "prefix": "биб",
+      "file": "биб.json",
+      "wordforms_count": 20,
+      "size": 6724,
+      "hash": "0c89f1cb"
+    },
+    {
+      "prefix": "биг",
+      "file": "биг.json",
+      "wordforms_count": 59,
+      "size": 18581,
+      "hash": "12854b9a"
+    },
+    {
+      "prefix": "бид",
+      "file": "бид.json",
+      "wordforms_count": 41,
+      "size": 12958,
+      "hash": "765de34f"
+    },
+    {
+      "prefix": "биж",
+      "file": "биж.json",
+      "wordforms_count": 16,
+      "size": 4546,
+      "hash": "d60d6d22"
+    },
+    {
+      "prefix": "биз",
+      "file": "биз.json",
+      "wordforms_count": 29,
+      "size": 8750,
+      "hash": "06d8a6f2"
+    },
+    {
+      "prefix": "бии",
+      "file": "бии.json",
+      "wordforms_count": 7,
+      "size": 1967,
+      "hash": "1a63c467"
+    },
+    {
+      "prefix": "бик",
+      "file": "бик.json",
+      "wordforms_count": 136,
+      "size": 41562,
+      "hash": "a54b662a"
+    },
+    {
+      "prefix": "бил",
+      "file": "бил.json",
+      "wordforms_count": 65,
+      "size": 19780,
+      "hash": "d2d6a41a"
+    },
+    {
+      "prefix": "био",
+      "file": "био.json",
+      "wordforms_count": 12,
+      "size": 3892,
+      "hash": "890d3d06"
+    },
+    {
+      "prefix": "бир",
+      "file": "бир.json",
+      "wordforms_count": 9,
+      "size": 2906,
+      "hash": "5fe1360a"
+    },
+    {
+      "prefix": "бис",
+      "file": "бис.json",
+      "wordforms_count": 6,
+      "size": 1714,
+      "hash": "32e776cd"
+    },
+    {
+      "prefix": "бит",
+      "file": "бит.json",
+      "wordforms_count": 45,
+      "size": 14062,
+      "hash": "6f7babc8"
+    },
+    {
+      "prefix": "биу",
+      "file": "биу.json",
+      "wordforms_count": 1,
+      "size": 266,
+      "hash": "3dda4e5e"
+    },
+    {
+      "prefix": "бих",
+      "file": "бих.json",
+      "wordforms_count": 135,
+      "size": 42199,
+      "hash": "a3064d4c"
+    },
+    {
+      "prefix": "биц",
+      "file": "биц.json",
+      "wordforms_count": 52,
+      "size": 15294,
+      "hash": "9eb0f5e4"
+    },
+    {
+      "prefix": "бич",
+      "file": "бич.json",
+      "wordforms_count": 78,
+      "size": 23116,
+      "hash": "317ee4d3"
+    },
+    {
+      "prefix": "биш",
+      "file": "биш.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "45956a34"
+    },
+    {
+      "prefix": "бищ",
+      "file": "бищ.json",
+      "wordforms_count": 22,
+      "size": 6202,
+      "hash": "78620527"
+    },
+    {
+      "prefix": "бия",
+      "file": "бия.json",
+      "wordforms_count": 3,
+      "size": 979,
+      "hash": "fed759fc"
+    },
+    {
+      "prefix": "бл",
+      "file": "бл.json",
+      "wordforms_count": 12,
+      "size": 3528,
+      "hash": "28cd506c"
+    },
+    {
+      "prefix": "бог",
+      "file": "бог.json",
+      "wordforms_count": 56,
+      "size": 17718,
+      "hash": "43365402"
+    },
+    {
+      "prefix": "бод",
+      "file": "бод.json",
+      "wordforms_count": 7,
+      "size": 1984,
+      "hash": "be15b36a"
+    },
+    {
+      "prefix": "бож",
+      "file": "бож.json",
+      "wordforms_count": 23,
+      "size": 6957,
+      "hash": "2be022ba"
+    },
+    {
+      "prefix": "боз",
+      "file": "боз.json",
+      "wordforms_count": 2,
+      "size": 780,
+      "hash": "ccced90f"
+    },
+    {
+      "prefix": "бок",
+      "file": "бок.json",
+      "wordforms_count": 70,
+      "size": 20998,
+      "hash": "cfd769df"
+    },
+    {
+      "prefix": "бол",
+      "file": "бол.json",
+      "wordforms_count": 73,
+      "size": 23654,
+      "hash": "41ea7e9d"
+    },
+    {
+      "prefix": "бом",
+      "file": "бом.json",
+      "wordforms_count": 6,
+      "size": 1900,
+      "hash": "e50f6031"
+    },
+    {
+      "prefix": "бор",
+      "file": "бор.json",
+      "wordforms_count": 217,
+      "size": 65224,
+      "hash": "4c631395"
+    },
+    {
+      "prefix": "бос",
+      "file": "бос.json",
+      "wordforms_count": 37,
+      "size": 10759,
+      "hash": "0083cd28"
+    },
+    {
+      "prefix": "бот",
+      "file": "бот.json",
+      "wordforms_count": 27,
+      "size": 8687,
+      "hash": "12fd3c3c"
+    },
+    {
+      "prefix": "бох",
+      "file": "бох.json",
+      "wordforms_count": 51,
+      "size": 15272,
+      "hash": "9c851022"
+    },
+    {
+      "prefix": "боц",
+      "file": "боц.json",
+      "wordforms_count": 20,
+      "size": 6198,
+      "hash": "53bff331"
+    },
+    {
+      "prefix": "боч",
+      "file": "боч.json",
+      "wordforms_count": 4,
+      "size": 1154,
+      "hash": "6a6caad9"
+    },
+    {
+      "prefix": "бош",
+      "file": "бош.json",
+      "wordforms_count": 16,
+      "size": 4659,
+      "hash": "46ae803d"
+    },
+    {
+      "prefix": "боя",
+      "file": "боя.json",
+      "wordforms_count": 2,
+      "size": 514,
+      "hash": "d9c02c78"
+    },
+    {
+      "prefix": "бр",
+      "file": "бр.json",
+      "wordforms_count": 27,
+      "size": 9022,
+      "hash": "4d817c1a"
+    },
+    {
+      "prefix": "буб",
+      "file": "буб.json",
+      "wordforms_count": 14,
+      "size": 4018,
+      "hash": "a470f4cc"
+    },
+    {
+      "prefix": "буг",
+      "file": "буг.json",
+      "wordforms_count": 97,
+      "size": 30670,
+      "hash": "fcf80ada"
+    },
+    {
+      "prefix": "буд",
+      "file": "буд.json",
+      "wordforms_count": 12,
+      "size": 3572,
+      "hash": "8c4dab6e"
+    },
+    {
+      "prefix": "буз",
+      "file": "буз.json",
+      "wordforms_count": 5,
+      "size": 1478,
+      "hash": "962d29f5"
+    },
+    {
+      "prefix": "буй",
+      "file": "буй.json",
+      "wordforms_count": 1,
+      "size": 443,
+      "hash": "cd44e9b4"
+    },
+    {
+      "prefix": "бук",
+      "file": "бук.json",
+      "wordforms_count": 97,
+      "size": 30444,
+      "hash": "92da0533"
+    },
+    {
+      "prefix": "бул",
+      "file": "бул.json",
+      "wordforms_count": 41,
+      "size": 13664,
+      "hash": "e18755c8"
+    },
+    {
+      "prefix": "бум",
+      "file": "бум.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "0f7a2bca"
+    },
+    {
+      "prefix": "бун",
+      "file": "бун.json",
+      "wordforms_count": 9,
+      "size": 2620,
+      "hash": "2645f072"
+    },
+    {
+      "prefix": "бур",
+      "file": "бур.json",
+      "wordforms_count": 138,
+      "size": 44434,
+      "hash": "3db14439"
+    },
+    {
+      "prefix": "бус",
+      "file": "бус.json",
+      "wordforms_count": 86,
+      "size": 26914,
+      "hash": "186e7631"
+    },
+    {
+      "prefix": "бут",
+      "file": "бут.json",
+      "wordforms_count": 27,
+      "size": 8218,
+      "hash": "e1038c9b"
+    },
+    {
+      "prefix": "буу",
+      "file": "буу.json",
+      "wordforms_count": 1,
+      "size": 258,
+      "hash": "fb25a27a"
+    },
+    {
+      "prefix": "буф",
+      "file": "буф.json",
+      "wordforms_count": 6,
+      "size": 1738,
+      "hash": "cfa355a9"
+    },
+    {
+      "prefix": "бух",
+      "file": "бух.json",
+      "wordforms_count": 224,
+      "size": 69125,
+      "hash": "dae771ff"
+    },
+    {
+      "prefix": "буц",
+      "file": "буц.json",
+      "wordforms_count": 57,
+      "size": 18190,
+      "hash": "f5d11f44"
+    },
+    {
+      "prefix": "буч",
+      "file": "буч.json",
+      "wordforms_count": 22,
+      "size": 6409,
+      "hash": "1063deff"
+    },
+    {
+      "prefix": "бущ",
+      "file": "бущ.json",
+      "wordforms_count": 11,
+      "size": 3072,
+      "hash": "1ca8cc80"
+    },
+    {
+      "prefix": "бую",
+      "file": "бую.json",
+      "wordforms_count": 11,
+      "size": 3102,
+      "hash": "3bf132ec"
+    },
+    {
+      "prefix": "бю",
+      "file": "бю.json",
+      "wordforms_count": 17,
+      "size": 5458,
+      "hash": "66dfb4b0"
+    },
+    {
+      "prefix": "ва",
+      "file": "ва.json",
+      "wordforms_count": 256,
+      "size": 78235,
+      "hash": "c1da3b2f"
+    },
+    {
+      "prefix": "ве",
+      "file": "ве.json",
+      "wordforms_count": 83,
+      "size": 25929,
+      "hash": "7d95465c"
+    },
+    {
+      "prefix": "вз",
+      "file": "вз.json",
+      "wordforms_count": 6,
+      "size": 1738,
+      "hash": "07993635"
+    },
+    {
+      "prefix": "ви",
+      "file": "ви.json",
+      "wordforms_count": 29,
+      "size": 8618,
+      "hash": "b630c5b0"
+    },
+    {
+      "prefix": "вл",
+      "file": "вл.json",
+      "wordforms_count": 3,
+      "size": 876,
+      "hash": "ee2d22c3"
+    },
+    {
+      "prefix": "во",
+      "file": "во.json",
+      "wordforms_count": 33,
+      "size": 10898,
+      "hash": "df87c696"
+    },
+    {
+      "prefix": "ву",
+      "file": "ву.json",
+      "wordforms_count": 12,
+      "size": 3770,
+      "hash": "6ca9973b"
+    },
+    {
+      "prefix": "вь",
+      "file": "вь.json",
+      "wordforms_count": 6,
+      "size": 2080,
+      "hash": "bc4fabf4"
+    },
+    {
+      "prefix": "га",
+      "file": "га.json",
+      "wordforms_count": 405,
+      "size": 129306,
+      "hash": "c0bcf0ed"
+    },
+    {
+      "prefix": "гв",
+      "file": "гв.json",
+      "wordforms_count": 125,
+      "size": 39370,
+      "hash": "6b1eed81"
+    },
+    {
+      "prefix": "ге",
+      "file": "ге.json",
+      "wordforms_count": 191,
+      "size": 60444,
+      "hash": "a690842c"
+    },
+    {
+      "prefix": "ги",
+      "file": "ги.json",
+      "wordforms_count": 129,
+      "size": 39289,
+      "hash": "0d5031ae"
+    },
+    {
+      "prefix": "гл",
+      "file": "гл.json",
+      "wordforms_count": 16,
+      "size": 4984,
+      "hash": "eae4c97a"
+    },
+    {
+      "prefix": "го",
+      "file": "го.json",
+      "wordforms_count": 206,
+      "size": 63596,
+      "hash": "98f2dcc8"
+    },
+    {
+      "prefix": "гр",
+      "file": "гр.json",
+      "wordforms_count": 71,
+      "size": 22700,
+      "hash": "353092dd"
+    },
+    {
+      "prefix": "гу",
+      "file": "гу.json",
+      "wordforms_count": 276,
+      "size": 87699,
+      "hash": "9966e269"
+    },
+    {
+      "prefix": "гъа",
+      "file": "гъа.json",
+      "wordforms_count": 485,
+      "size": 151753,
+      "hash": "2bbebd04"
+    },
+    {
+      "prefix": "гъв",
+      "file": "гъв.json",
+      "wordforms_count": 111,
+      "size": 35901,
+      "hash": "082e69ef"
+    },
+    {
+      "prefix": "гъе",
+      "file": "гъе.json",
+      "wordforms_count": 48,
+      "size": 14643,
+      "hash": "890c46ac"
+    },
+    {
+      "prefix": "гъи",
+      "file": "гъи.json",
+      "wordforms_count": 66,
+      "size": 19737,
+      "hash": "eccacdc5"
+    },
+    {
+      "prefix": "гъо",
+      "file": "гъо.json",
+      "wordforms_count": 176,
+      "size": 61978,
+      "hash": "a9740036"
+    },
+    {
+      "prefix": "гъу",
+      "file": "гъу.json",
+      "wordforms_count": 211,
+      "size": 68021,
+      "hash": "741e015a"
+    },
+    {
+      "prefix": "гьа",
+      "file": "гьа.json",
+      "wordforms_count": 579,
+      "size": 189431,
+      "hash": "156221e2"
+    },
+    {
+      "prefix": "гьв",
+      "file": "гьв.json",
+      "wordforms_count": 27,
+      "size": 8809,
+      "hash": "ce75a82b"
+    },
+    {
+      "prefix": "гье",
+      "file": "гье.json",
+      "wordforms_count": 315,
+      "size": 96801,
+      "hash": "4d5b7cd0"
+    },
+    {
+      "prefix": "гьи",
+      "file": "гьи.json",
+      "wordforms_count": 123,
+      "size": 38109,
+      "hash": "394b6410"
+    },
+    {
+      "prefix": "гьо",
+      "file": "гьо.json",
+      "wordforms_count": 185,
+      "size": 58634,
+      "hash": "1f1bfa91"
+    },
+    {
+      "prefix": "гьу",
+      "file": "гьу.json",
+      "wordforms_count": 232,
+      "size": 72206,
+      "hash": "68062747"
+    },
+    {
+      "prefix": "гӏа",
+      "file": "гӏа.json",
+      "wordforms_count": 1008,
+      "size": 328074,
+      "hash": "8acb3b32"
+    },
+    {
+      "prefix": "гӏе",
+      "file": "гӏе.json",
+      "wordforms_count": 242,
+      "size": 75681,
+      "hash": "bb7bba35"
+    },
+    {
+      "prefix": "гӏи",
+      "file": "гӏи.json",
+      "wordforms_count": 184,
+      "size": 58289,
+      "hash": "e125215e"
+    },
+    {
+      "prefix": "гӏо",
+      "file": "гӏо.json",
+      "wordforms_count": 297,
+      "size": 97257,
+      "hash": "59afecec"
+    },
+    {
+      "prefix": "гӏу",
+      "file": "гӏу.json",
+      "wordforms_count": 287,
+      "size": 92622,
+      "hash": "bd998d38"
+    },
+    {
+      "prefix": "да",
+      "file": "да.json",
+      "wordforms_count": 431,
+      "size": 134208,
+      "hash": "94bd527b"
+    },
+    {
+      "prefix": "дв",
+      "file": "дв.json",
+      "wordforms_count": 43,
+      "size": 13338,
+      "hash": "fb79ab78"
+    },
+    {
+      "prefix": "де",
+      "file": "де.json",
+      "wordforms_count": 142,
+      "size": 45216,
+      "hash": "b1b594e1"
+    },
+    {
+      "prefix": "дж",
+      "file": "дж.json",
+      "wordforms_count": 9,
+      "size": 2866,
+      "hash": "8bc422b3"
+    },
+    {
+      "prefix": "дз",
+      "file": "дз.json",
+      "wordforms_count": 5,
+      "size": 1500,
+      "hash": "6c6e54b1"
+    },
+    {
+      "prefix": "ди",
+      "file": "ди.json",
+      "wordforms_count": 191,
+      "size": 61323,
+      "hash": "0d8e8b0a"
+    },
+    {
+      "prefix": "дн",
+      "file": "дн.json",
+      "wordforms_count": 3,
+      "size": 906,
+      "hash": "37d698e9"
+    },
+    {
+      "prefix": "до",
+      "file": "до.json",
+      "wordforms_count": 131,
+      "size": 42150,
+      "hash": "2466c989"
+    },
+    {
+      "prefix": "др",
+      "file": "др.json",
+      "wordforms_count": 14,
+      "size": 4788,
+      "hash": "cc02bad0"
+    },
+    {
+      "prefix": "ду",
+      "file": "ду.json",
+      "wordforms_count": 152,
+      "size": 45192,
+      "hash": "aac20d55"
+    },
+    {
+      "prefix": "ев",
+      "file": "ев.json",
+      "wordforms_count": 6,
+      "size": 2038,
+      "hash": "2c819427"
+    },
+    {
+      "prefix": "ег",
+      "file": "ег.json",
+      "wordforms_count": 6,
+      "size": 2000,
+      "hash": "34b06cd9"
+    },
+    {
+      "prefix": "ек",
+      "file": "ек.json",
+      "wordforms_count": 4,
+      "size": 1278,
+      "hash": "8726e606"
+    },
+    {
+      "prefix": "ес",
+      "file": "ес.json",
+      "wordforms_count": 7,
+      "size": 2126,
+      "hash": "437738c7"
+    },
+    {
+      "prefix": "ет",
+      "file": "ет.json",
+      "wordforms_count": 2,
+      "size": 646,
+      "hash": "b47c1ec9"
+    },
+    {
+      "prefix": "еф",
+      "file": "еф.json",
+      "wordforms_count": 5,
+      "size": 1580,
+      "hash": "54c169cd"
+    },
+    {
+      "prefix": "ец",
+      "file": "ец.json",
+      "wordforms_count": 4,
+      "size": 1278,
+      "hash": "15aabccc"
+    },
+    {
+      "prefix": "еч",
+      "file": "еч.json",
+      "wordforms_count": 2,
+      "size": 670,
+      "hash": "b0ea3914"
+    },
+    {
+      "prefix": "жа",
+      "file": "жа.json",
+      "wordforms_count": 228,
+      "size": 72322,
+      "hash": "eec0e799"
+    },
+    {
+      "prefix": "жв",
+      "file": "жв.json",
+      "wordforms_count": 16,
+      "size": 4762,
+      "hash": "92fb6935"
+    },
+    {
+      "prefix": "же",
+      "file": "же.json",
+      "wordforms_count": 51,
+      "size": 14951,
+      "hash": "7d91f145"
+    },
+    {
+      "prefix": "жи",
+      "file": "жи.json",
+      "wordforms_count": 79,
+      "size": 25688,
+      "hash": "31e13bfd"
+    },
+    {
+      "prefix": "жо",
+      "file": "жо.json",
+      "wordforms_count": 29,
+      "size": 8648,
+      "hash": "5b0ea8a9"
+    },
+    {
+      "prefix": "жу",
+      "file": "жу.json",
+      "wordforms_count": 134,
+      "size": 42090,
+      "hash": "251c5c8a"
+    },
+    {
+      "prefix": "жю",
+      "file": "жю.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "9fcff4ef"
+    },
+    {
+      "prefix": "за",
+      "file": "за.json",
+      "wordforms_count": 309,
+      "size": 95757,
+      "hash": "42f4f163"
+    },
+    {
+      "prefix": "зв",
+      "file": "зв.json",
+      "wordforms_count": 69,
+      "size": 21421,
+      "hash": "d9f82277"
+    },
+    {
+      "prefix": "зе",
+      "file": "зе.json",
+      "wordforms_count": 24,
+      "size": 7220,
+      "hash": "52b82fa6"
+    },
+    {
+      "prefix": "зи",
+      "file": "зи.json",
+      "wordforms_count": 101,
+      "size": 29446,
+      "hash": "bf168bc9"
+    },
+    {
+      "prefix": "зн",
+      "file": "зн.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "f9025b8e"
+    },
+    {
+      "prefix": "зо",
+      "file": "зо.json",
+      "wordforms_count": 68,
+      "size": 21240,
+      "hash": "cf4c36bc"
+    },
+    {
+      "prefix": "зу",
+      "file": "зу.json",
+      "wordforms_count": 112,
+      "size": 33458,
+      "hash": "bfd730e9"
+    },
+    {
+      "prefix": "иб",
+      "file": "иб.json",
+      "wordforms_count": 6,
+      "size": 1814,
+      "hash": "c4ea335d"
+    },
+    {
+      "prefix": "ив",
+      "file": "ив.json",
+      "wordforms_count": 4,
+      "size": 1130,
+      "hash": "01a70efa"
+    },
+    {
+      "prefix": "иг",
+      "file": "иг.json",
+      "wordforms_count": 19,
+      "size": 5560,
+      "hash": "42203855"
+    },
+    {
+      "prefix": "ид",
+      "file": "ид.json",
+      "wordforms_count": 23,
+      "size": 6926,
+      "hash": "7a5a0376"
+    },
+    {
+      "prefix": "иж",
+      "file": "иж.json",
+      "wordforms_count": 10,
+      "size": 3050,
+      "hash": "d0cb86da"
+    },
+    {
+      "prefix": "из",
+      "file": "из.json",
+      "wordforms_count": 18,
+      "size": 5751,
+      "hash": "9c12095f"
+    },
+    {
+      "prefix": "ик",
+      "file": "ик.json",
+      "wordforms_count": 19,
+      "size": 5558,
+      "hash": "dcebed19"
+    },
+    {
+      "prefix": "ил",
+      "file": "ил.json",
+      "wordforms_count": 28,
+      "size": 8304,
+      "hash": "cedc5855"
+    },
+    {
+      "prefix": "им",
+      "file": "им.json",
+      "wordforms_count": 55,
+      "size": 17048,
+      "hash": "14441450"
+    },
+    {
+      "prefix": "ин",
+      "file": "ин.json",
+      "wordforms_count": 196,
+      "size": 62898,
+      "hash": "9f496e88"
+    },
+    {
+      "prefix": "ип",
+      "file": "ип.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "72ce994b"
+    },
+    {
+      "prefix": "ир",
+      "file": "ир.json",
+      "wordforms_count": 31,
+      "size": 9691,
+      "hash": "9eff00cb"
+    },
+    {
+      "prefix": "ис",
+      "file": "ис.json",
+      "wordforms_count": 70,
+      "size": 21536,
+      "hash": "c18ad6fd"
+    },
+    {
+      "prefix": "ит",
+      "file": "ит.json",
+      "wordforms_count": 26,
+      "size": 7882,
+      "hash": "abfd231b"
+    },
+    {
+      "prefix": "их",
+      "file": "их.json",
+      "wordforms_count": 37,
+      "size": 10702,
+      "hash": "da05cd2a"
+    },
+    {
+      "prefix": "иц",
+      "file": "иц.json",
+      "wordforms_count": 24,
+      "size": 6947,
+      "hash": "9213c69e"
+    },
+    {
+      "prefix": "ич",
+      "file": "ич.json",
+      "wordforms_count": 28,
+      "size": 9208,
+      "hash": "c759c729"
+    },
+    {
+      "prefix": "иш",
+      "file": "иш.json",
+      "wordforms_count": 31,
+      "size": 9084,
+      "hash": "7288beb6"
+    },
+    {
+      "prefix": "ию",
+      "file": "ию.json",
+      "wordforms_count": 8,
+      "size": 2499,
+      "hash": "5a033082"
+    },
+    {
+      "prefix": "ия",
+      "file": "ия.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "01dc167c"
+    },
+    {
+      "prefix": "йи",
+      "file": "йи.json",
+      "wordforms_count": 2,
+      "size": 646,
+      "hash": "e4ce1a35"
+    },
+    {
+      "prefix": "йо",
+      "file": "йо.json",
+      "wordforms_count": 13,
+      "size": 3938,
+      "hash": "a3d891ac"
+    },
+    {
+      "prefix": "каб",
+      "file": "каб.json",
+      "wordforms_count": 18,
+      "size": 6082,
+      "hash": "18b37687"
+    },
+    {
+      "prefix": "кав",
+      "file": "кав.json",
+      "wordforms_count": 22,
+      "size": 6906,
+      "hash": "96d62e1b"
+    },
+    {
+      "prefix": "каг",
+      "file": "каг.json",
+      "wordforms_count": 33,
+      "size": 11248,
+      "hash": "c48dd680"
+    },
+    {
+      "prefix": "кад",
+      "file": "кад.json",
+      "wordforms_count": 5,
+      "size": 1686,
+      "hash": "7076026a"
+    },
+    {
+      "prefix": "каз",
+      "file": "каз.json",
+      "wordforms_count": 12,
+      "size": 3978,
+      "hash": "59c29fd1"
+    },
+    {
+      "prefix": "как",
+      "file": "как.json",
+      "wordforms_count": 45,
+      "size": 13034,
+      "hash": "c9a5e724"
+    },
+    {
+      "prefix": "кал",
+      "file": "кал.json",
+      "wordforms_count": 32,
+      "size": 10930,
+      "hash": "0706f026"
+    },
+    {
+      "prefix": "кам",
+      "file": "кам.json",
+      "wordforms_count": 35,
+      "size": 10404,
+      "hash": "c1694b42"
+    },
+    {
+      "prefix": "кан",
+      "file": "кан.json",
+      "wordforms_count": 174,
+      "size": 57451,
+      "hash": "1971251e"
+    },
+    {
+      "prefix": "кап",
+      "file": "кап.json",
+      "wordforms_count": 74,
+      "size": 23500,
+      "hash": "9c53d59d"
+    },
+    {
+      "prefix": "кар",
+      "file": "кар.json",
+      "wordforms_count": 160,
+      "size": 51869,
+      "hash": "a06544e5"
+    },
+    {
+      "prefix": "кас",
+      "file": "кас.json",
+      "wordforms_count": 14,
+      "size": 4382,
+      "hash": "d5eb4256"
+    },
+    {
+      "prefix": "кат",
+      "file": "кат.json",
+      "wordforms_count": 22,
+      "size": 6970,
+      "hash": "15453eab"
+    },
+    {
+      "prefix": "кау",
+      "file": "кау.json",
+      "wordforms_count": 2,
+      "size": 834,
+      "hash": "a3a7e927"
+    },
+    {
+      "prefix": "кач",
+      "file": "кач.json",
+      "wordforms_count": 2,
+      "size": 622,
+      "hash": "10b74eb9"
+    },
+    {
+      "prefix": "каш",
+      "file": "каш.json",
+      "wordforms_count": 18,
+      "size": 5644,
+      "hash": "69f26427"
+    },
+    {
+      "prefix": "каю",
+      "file": "каю.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "2adc6200"
+    },
+    {
+      "prefix": "кв",
+      "file": "кв.json",
+      "wordforms_count": 360,
+      "size": 112174,
+      "hash": "72976cae"
+    },
+    {
+      "prefix": "ке",
+      "file": "ке.json",
+      "wordforms_count": 97,
+      "size": 29823,
+      "hash": "b6a6b614"
+    },
+    {
+      "prefix": "ки",
+      "file": "ки.json",
+      "wordforms_count": 181,
+      "size": 58381,
+      "hash": "b2d7d9c1"
+    },
+    {
+      "prefix": "кк",
+      "file": "кк.json",
+      "wordforms_count": 51,
+      "size": 16426,
+      "hash": "f7870ea4"
+    },
+    {
+      "prefix": "кл",
+      "file": "кл.json",
+      "wordforms_count": 42,
+      "size": 13445,
+      "hash": "760cab1c"
+    },
+    {
+      "prefix": "кн",
+      "file": "кн.json",
+      "wordforms_count": 12,
+      "size": 3754,
+      "hash": "0d15ea65"
+    },
+    {
+      "prefix": "коа",
+      "file": "коа.json",
+      "wordforms_count": 2,
+      "size": 614,
+      "hash": "878e2431"
+    },
+    {
+      "prefix": "код",
+      "file": "код.json",
+      "wordforms_count": 18,
+      "size": 5624,
+      "hash": "986b5625"
+    },
+    {
+      "prefix": "кож",
+      "file": "кож.json",
+      "wordforms_count": 6,
+      "size": 1824,
+      "hash": "aa6aebec"
+    },
+    {
+      "prefix": "кой",
+      "file": "кой.json",
+      "wordforms_count": 6,
+      "size": 1774,
+      "hash": "18706f47"
+    },
+    {
+      "prefix": "кок",
+      "file": "кок.json",
+      "wordforms_count": 11,
+      "size": 3818,
+      "hash": "41e318ef"
+    },
+    {
+      "prefix": "кол",
+      "file": "кол.json",
+      "wordforms_count": 46,
+      "size": 15404,
+      "hash": "54004396"
+    },
+    {
+      "prefix": "ком",
+      "file": "ком.json",
+      "wordforms_count": 141,
+      "size": 46149,
+      "hash": "a0502024"
+    },
+    {
+      "prefix": "кон",
+      "file": "кон.json",
+      "wordforms_count": 144,
+      "size": 49140,
+      "hash": "9f812885"
+    },
+    {
+      "prefix": "коо",
+      "file": "коо.json",
+      "wordforms_count": 5,
+      "size": 1840,
+      "hash": "8b452e69"
+    },
+    {
+      "prefix": "коп",
+      "file": "коп.json",
+      "wordforms_count": 7,
+      "size": 2236,
+      "hash": "b9ec8a7c"
+    },
+    {
+      "prefix": "кор",
+      "file": "кор.json",
+      "wordforms_count": 42,
+      "size": 13258,
+      "hash": "a60db9b5"
+    },
+    {
+      "prefix": "кос",
+      "file": "кос.json",
+      "wordforms_count": 12,
+      "size": 4158,
+      "hash": "0e6187e2"
+    },
+    {
+      "prefix": "коф",
+      "file": "коф.json",
+      "wordforms_count": 5,
+      "size": 1674,
+      "hash": "3fb29800"
+    },
+    {
+      "prefix": "коц",
+      "file": "коц.json",
+      "wordforms_count": 17,
+      "size": 5414,
+      "hash": "aae7cb3a"
+    },
+    {
+      "prefix": "коч",
+      "file": "коч.json",
+      "wordforms_count": 8,
+      "size": 2741,
+      "hash": "dcf99aee"
+    },
+    {
+      "prefix": "кр",
+      "file": "кр.json",
+      "wordforms_count": 40,
+      "size": 12725,
+      "hash": "d421dd65"
+    },
+    {
+      "prefix": "ку",
+      "file": "ку.json",
+      "wordforms_count": 285,
+      "size": 90811,
+      "hash": "5e7deca1"
+    },
+    {
+      "prefix": "къа",
+      "file": "къа.json",
+      "wordforms_count": 598,
+      "size": 186900,
+      "hash": "2b490fe8"
+    },
+    {
+      "prefix": "къв",
+      "file": "къв.json",
+      "wordforms_count": 210,
+      "size": 67264,
+      "hash": "65d0c753"
+    },
+    {
+      "prefix": "къе",
+      "file": "къе.json",
+      "wordforms_count": 131,
+      "size": 38733,
+      "hash": "963fdf04"
+    },
+    {
+      "prefix": "къи",
+      "file": "къи.json",
+      "wordforms_count": 140,
+      "size": 42287,
+      "hash": "e085687c"
+    },
+    {
+      "prefix": "къо",
+      "file": "къо.json",
+      "wordforms_count": 232,
+      "size": 72888,
+      "hash": "13d33f74"
+    },
+    {
+      "prefix": "къу",
+      "file": "къу.json",
+      "wordforms_count": 226,
+      "size": 70431,
+      "hash": "9e7344bb"
+    },
+    {
+      "prefix": "кьа",
+      "file": "кьа.json",
+      "wordforms_count": 161,
+      "size": 50908,
+      "hash": "4e8f9374"
+    },
+    {
+      "prefix": "кьв",
+      "file": "кьв.json",
+      "wordforms_count": 141,
+      "size": 44744,
+      "hash": "e6aaa8d7"
+    },
+    {
+      "prefix": "кье",
+      "file": "кье.json",
+      "wordforms_count": 113,
+      "size": 34507,
+      "hash": "89051c2f"
+    },
+    {
+      "prefix": "кьи",
+      "file": "кьи.json",
+      "wordforms_count": 77,
+      "size": 23807,
+      "hash": "582642e6"
+    },
+    {
+      "prefix": "кьо",
+      "file": "кьо.json",
+      "wordforms_count": 72,
+      "size": 23165,
+      "hash": "b880be92"
+    },
+    {
+      "prefix": "кьу",
+      "file": "кьу.json",
+      "wordforms_count": 132,
+      "size": 41388,
+      "hash": "c7f1d91c"
+    },
+    {
+      "prefix": "кӏа",
+      "file": "кӏа.json",
+      "wordforms_count": 354,
+      "size": 112386,
+      "hash": "645e63aa"
+    },
+    {
+      "prefix": "кӏв",
+      "file": "кӏв.json",
+      "wordforms_count": 97,
+      "size": 29904,
+      "hash": "fe0e2099"
+    },
+    {
+      "prefix": "кӏе",
+      "file": "кӏе.json",
+      "wordforms_count": 41,
+      "size": 12876,
+      "hash": "1b48ae2c"
+    },
+    {
+      "prefix": "кӏи",
+      "file": "кӏи.json",
+      "wordforms_count": 225,
+      "size": 70228,
+      "hash": "f1bbff88"
+    },
+    {
+      "prefix": "кӏк",
+      "file": "кӏк.json",
+      "wordforms_count": 119,
+      "size": 39331,
+      "hash": "cd0d6832"
+    },
+    {
+      "prefix": "кӏо",
+      "file": "кӏо.json",
+      "wordforms_count": 174,
+      "size": 54307,
+      "hash": "ed242512"
+    },
+    {
+      "prefix": "кӏу",
+      "file": "кӏу.json",
+      "wordforms_count": 167,
+      "size": 51546,
+      "hash": "2f38abea"
+    },
+    {
+      "prefix": "ла",
+      "file": "ла.json",
+      "wordforms_count": 289,
+      "size": 88663,
+      "hash": "454fb329"
+    },
+    {
+      "prefix": "ле",
+      "file": "ле.json",
+      "wordforms_count": 68,
+      "size": 20370,
+      "hash": "85c5675e"
+    },
+    {
+      "prefix": "ли",
+      "file": "ли.json",
+      "wordforms_count": 115,
+      "size": 36669,
+      "hash": "c7475f33"
+    },
+    {
+      "prefix": "ло",
+      "file": "ло.json",
+      "wordforms_count": 34,
+      "size": 10468,
+      "hash": "35f894ad"
+    },
+    {
+      "prefix": "лу",
+      "file": "лу.json",
+      "wordforms_count": 29,
+      "size": 9716,
+      "hash": "74a56d00"
+    },
+    {
+      "prefix": "лъа",
+      "file": "лъа.json",
+      "wordforms_count": 251,
+      "size": 80291,
+      "hash": "c7702366"
+    },
+    {
+      "prefix": "лъв",
+      "file": "лъв.json",
+      "wordforms_count": 11,
+      "size": 3335,
+      "hash": "052f5a43"
+    },
+    {
+      "prefix": "лъе",
+      "file": "лъе.json",
+      "wordforms_count": 91,
+      "size": 28152,
+      "hash": "acc40644"
+    },
+    {
+      "prefix": "лъи",
+      "file": "лъи.json",
+      "wordforms_count": 81,
+      "size": 28129,
+      "hash": "9ada922b"
+    },
+    {
+      "prefix": "лъл",
+      "file": "лъл.json",
+      "wordforms_count": 26,
+      "size": 8859,
+      "hash": "79665eac"
+    },
+    {
+      "prefix": "лъо",
+      "file": "лъо.json",
+      "wordforms_count": 44,
+      "size": 14444,
+      "hash": "84781e78"
+    },
+    {
+      "prefix": "лъу",
+      "file": "лъу.json",
+      "wordforms_count": 145,
+      "size": 43558,
+      "hash": "21f88a23"
+    },
+    {
+      "prefix": "лы",
+      "file": "лы.json",
+      "wordforms_count": 3,
+      "size": 905,
+      "hash": "b4ad49a4"
+    },
+    {
+      "prefix": "лю",
+      "file": "лю.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "86ad95bf"
+    },
+    {
+      "prefix": "лё",
+      "file": "лё.json",
+      "wordforms_count": 8,
+      "size": 2416,
+      "hash": "1afcd9d2"
+    },
+    {
+      "prefix": "мав",
+      "file": "мав.json",
+      "wordforms_count": 6,
+      "size": 1762,
+      "hash": "6b76006f"
+    },
+    {
+      "prefix": "маг",
+      "file": "маг.json",
+      "wordforms_count": 134,
+      "size": 43286,
+      "hash": "318258ef"
+    },
+    {
+      "prefix": "мад",
+      "file": "мад.json",
+      "wordforms_count": 35,
+      "size": 11106,
+      "hash": "52fcbc9e"
+    },
+    {
+      "prefix": "маж",
+      "file": "маж.json",
+      "wordforms_count": 36,
+      "size": 10746,
+      "hash": "79491148"
+    },
+    {
+      "prefix": "маз",
+      "file": "маз.json",
+      "wordforms_count": 36,
+      "size": 10807,
+      "hash": "36885562"
+    },
+    {
+      "prefix": "май",
+      "file": "май.json",
+      "wordforms_count": 33,
+      "size": 10104,
+      "hash": "a5b78df6"
+    },
+    {
+      "prefix": "мак",
+      "file": "мак.json",
+      "wordforms_count": 117,
+      "size": 37231,
+      "hash": "a2d239b9"
+    },
+    {
+      "prefix": "мал",
+      "file": "мал.json",
+      "wordforms_count": 92,
+      "size": 28585,
+      "hash": "3bd92270"
+    },
+    {
+      "prefix": "мам",
+      "file": "мам.json",
+      "wordforms_count": 11,
+      "size": 3412,
+      "hash": "7e09af34"
+    },
+    {
+      "prefix": "ман",
+      "file": "ман.json",
+      "wordforms_count": 43,
+      "size": 13670,
+      "hash": "1e6e30c1"
+    },
+    {
+      "prefix": "мар",
+      "file": "мар.json",
+      "wordforms_count": 98,
+      "size": 32089,
+      "hash": "1d5d6c02"
+    },
+    {
+      "prefix": "мас",
+      "file": "мас.json",
+      "wordforms_count": 81,
+      "size": 25075,
+      "hash": "af108ca8"
+    },
+    {
+      "prefix": "мат",
+      "file": "мат.json",
+      "wordforms_count": 45,
+      "size": 14275,
+      "hash": "273acc5a"
+    },
+    {
+      "prefix": "мау",
+      "file": "мау.json",
+      "wordforms_count": 7,
+      "size": 2140,
+      "hash": "6ac637e0"
+    },
+    {
+      "prefix": "мах",
+      "file": "мах.json",
+      "wordforms_count": 205,
+      "size": 65114,
+      "hash": "91ef14c7"
+    },
+    {
+      "prefix": "мац",
+      "file": "мац.json",
+      "wordforms_count": 32,
+      "size": 10564,
+      "hash": "c428423f"
+    },
+    {
+      "prefix": "мач",
+      "file": "мач.json",
+      "wordforms_count": 53,
+      "size": 18584,
+      "hash": "757204c4"
+    },
+    {
+      "prefix": "маш",
+      "file": "маш.json",
+      "wordforms_count": 45,
+      "size": 14065,
+      "hash": "f683ab26"
+    },
+    {
+      "prefix": "мащ",
+      "file": "мащ.json",
+      "wordforms_count": 3,
+      "size": 852,
+      "hash": "93985a16"
+    },
+    {
+      "prefix": "маъ",
+      "file": "маъ.json",
+      "wordforms_count": 6,
+      "size": 1786,
+      "hash": "015bdd94"
+    },
+    {
+      "prefix": "мая",
+      "file": "мая.json",
+      "wordforms_count": 10,
+      "size": 3098,
+      "hash": "3ac91a33"
+    },
+    {
+      "prefix": "маё",
+      "file": "маё.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "75e627e1"
+    },
+    {
+      "prefix": "ме",
+      "file": "ме.json",
+      "wordforms_count": 224,
+      "size": 70044,
+      "hash": "2dac523a"
+    },
+    {
+      "prefix": "ми",
+      "file": "ми.json",
+      "wordforms_count": 355,
+      "size": 111490,
+      "hash": "b7d660fa"
+    },
+    {
+      "prefix": "мо",
+      "file": "мо.json",
+      "wordforms_count": 175,
+      "size": 57588,
+      "hash": "4855c7ea"
+    },
+    {
+      "prefix": "му",
+      "file": "му.json",
+      "wordforms_count": 363,
+      "size": 113032,
+      "hash": "d0bb86d4"
+    },
+    {
+      "prefix": "наб",
+      "file": "наб.json",
+      "wordforms_count": 16,
+      "size": 4770,
+      "hash": "4156aee4"
+    },
+    {
+      "prefix": "нав",
+      "file": "нав.json",
+      "wordforms_count": 12,
+      "size": 3796,
+      "hash": "fc37ab3e"
+    },
+    {
+      "prefix": "наг",
+      "file": "наг.json",
+      "wordforms_count": 28,
+      "size": 8604,
+      "hash": "0485841d"
+    },
+    {
+      "prefix": "над",
+      "file": "над.json",
+      "wordforms_count": 16,
+      "size": 5262,
+      "hash": "abd222c2"
+    },
+    {
+      "prefix": "наж",
+      "file": "наж.json",
+      "wordforms_count": 17,
+      "size": 4944,
+      "hash": "f9359763"
+    },
+    {
+      "prefix": "наз",
+      "file": "наз.json",
+      "wordforms_count": 47,
+      "size": 14181,
+      "hash": "e9791610"
+    },
+    {
+      "prefix": "наи",
+      "file": "наи.json",
+      "wordforms_count": 7,
+      "size": 2010,
+      "hash": "1ec56dd6"
+    },
+    {
+      "prefix": "най",
+      "file": "най.json",
+      "wordforms_count": 19,
+      "size": 6661,
+      "hash": "aff1cc4e"
+    },
+    {
+      "prefix": "нак",
+      "file": "нак.json",
+      "wordforms_count": 63,
+      "size": 20847,
+      "hash": "f11750e6"
+    },
+    {
+      "prefix": "нал",
+      "file": "нал.json",
+      "wordforms_count": 28,
+      "size": 8935,
+      "hash": "d52e3298"
+    },
+    {
+      "prefix": "нам",
+      "file": "нам.json",
+      "wordforms_count": 21,
+      "size": 6397,
+      "hash": "3e4155d7"
+    },
+    {
+      "prefix": "нан",
+      "file": "нан.json",
+      "wordforms_count": 13,
+      "size": 4100,
+      "hash": "67fee2ef"
+    },
+    {
+      "prefix": "нап",
+      "file": "нап.json",
+      "wordforms_count": 13,
+      "size": 3940,
+      "hash": "391c9b57"
+    },
+    {
+      "prefix": "нар",
+      "file": "нар.json",
+      "wordforms_count": 45,
+      "size": 14458,
+      "hash": "0e5c7edc"
+    },
+    {
+      "prefix": "нас",
+      "file": "нас.json",
+      "wordforms_count": 48,
+      "size": 15076,
+      "hash": "873e814f"
+    },
+    {
+      "prefix": "нат",
+      "file": "нат.json",
+      "wordforms_count": 24,
+      "size": 7420,
+      "hash": "a7803850"
+    },
+    {
+      "prefix": "нау",
+      "file": "нау.json",
+      "wordforms_count": 3,
+      "size": 906,
+      "hash": "5738e401"
+    },
+    {
+      "prefix": "нах",
+      "file": "нах.json",
+      "wordforms_count": 263,
+      "size": 82963,
+      "hash": "1c721f3e"
+    },
+    {
+      "prefix": "нац",
+      "file": "нац.json",
+      "wordforms_count": 12,
+      "size": 3544,
+      "hash": "fad5b668"
+    },
+    {
+      "prefix": "нач",
+      "file": "нач.json",
+      "wordforms_count": 7,
+      "size": 2234,
+      "hash": "21e8cf3d"
+    },
+    {
+      "prefix": "нащ",
+      "file": "нащ.json",
+      "wordforms_count": 3,
+      "size": 834,
+      "hash": "fbea82e7"
+    },
+    {
+      "prefix": "не",
+      "file": "не.json",
+      "wordforms_count": 84,
+      "size": 25974,
+      "hash": "64c28bb7"
+    },
+    {
+      "prefix": "ни",
+      "file": "ни.json",
+      "wordforms_count": 128,
+      "size": 41400,
+      "hash": "c7b73a4a"
+    },
+    {
+      "prefix": "но",
+      "file": "но.json",
+      "wordforms_count": 112,
+      "size": 35217,
+      "hash": "289c77f6"
+    },
+    {
+      "prefix": "ну",
+      "file": "ну.json",
+      "wordforms_count": 177,
+      "size": 55763,
+      "hash": "9ec9cab2"
+    },
+    {
+      "prefix": "ня",
+      "file": "ня.json",
+      "wordforms_count": 3,
+      "size": 844,
+      "hash": "89b353f0"
+    },
+    {
+      "prefix": "оа",
+      "file": "оа.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "90691dfe"
+    },
+    {
+      "prefix": "об",
+      "file": "об.json",
+      "wordforms_count": 88,
+      "size": 28732,
+      "hash": "5ef87fbe"
+    },
+    {
+      "prefix": "ог",
+      "file": "ог.json",
+      "wordforms_count": 12,
+      "size": 3664,
+      "hash": "6e3ae24c"
+    },
+    {
+      "prefix": "од",
+      "file": "од.json",
+      "wordforms_count": 11,
+      "size": 3286,
+      "hash": "20b77522"
+    },
+    {
+      "prefix": "оз",
+      "file": "оз.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "a3700cf9"
+    },
+    {
+      "prefix": "ок",
+      "file": "ок.json",
+      "wordforms_count": 53,
+      "size": 17004,
+      "hash": "919f4a83"
+    },
+    {
+      "prefix": "ол",
+      "file": "ол.json",
+      "wordforms_count": 7,
+      "size": 2134,
+      "hash": "b2e837b6"
+    },
+    {
+      "prefix": "ом",
+      "file": "ом.json",
+      "wordforms_count": 21,
+      "size": 6056,
+      "hash": "a729c1f2"
+    },
+    {
+      "prefix": "он",
+      "file": "он.json",
+      "wordforms_count": 16,
+      "size": 5374,
+      "hash": "e5e1efce"
+    },
+    {
+      "prefix": "оп",
+      "file": "оп.json",
+      "wordforms_count": 47,
+      "size": 15266,
+      "hash": "8009c3a1"
+    },
+    {
+      "prefix": "ор",
+      "file": "ор.json",
+      "wordforms_count": 116,
+      "size": 37606,
+      "hash": "0811ec03"
+    },
+    {
+      "prefix": "ос",
+      "file": "ос.json",
+      "wordforms_count": 14,
+      "size": 4654,
+      "hash": "bb2d23d1"
+    },
+    {
+      "prefix": "от",
+      "file": "от.json",
+      "wordforms_count": 50,
+      "size": 16280,
+      "hash": "4f5c7e12"
+    },
+    {
+      "prefix": "оф",
+      "file": "оф.json",
+      "wordforms_count": 19,
+      "size": 6378,
+      "hash": "76b6b04e"
+    },
+    {
+      "prefix": "ох",
+      "file": "ох.json",
+      "wordforms_count": 9,
+      "size": 2892,
+      "hash": "6e5abdd1"
+    },
+    {
+      "prefix": "оц",
+      "file": "оц.json",
+      "wordforms_count": 21,
+      "size": 5983,
+      "hash": "2e2edba3"
+    },
+    {
+      "prefix": "оч",
+      "file": "оч.json",
+      "wordforms_count": 14,
+      "size": 4052,
+      "hash": "8bbe37dc"
+    },
+    {
+      "prefix": "оя",
+      "file": "оя.json",
+      "wordforms_count": 1,
+      "size": 270,
+      "hash": "80e14d64"
+    },
+    {
+      "prefix": "пав",
+      "file": "пав.json",
+      "wordforms_count": 6,
+      "size": 1810,
+      "hash": "1ae1b444"
+    },
+    {
+      "prefix": "паг",
+      "file": "паг.json",
+      "wordforms_count": 22,
+      "size": 6478,
+      "hash": "6e40e5aa"
+    },
+    {
+      "prefix": "пад",
+      "file": "пад.json",
+      "wordforms_count": 14,
+      "size": 4366,
+      "hash": "147c9e30"
+    },
+    {
+      "prefix": "паж",
+      "file": "паж.json",
+      "wordforms_count": 3,
+      "size": 834,
+      "hash": "bfedd28d"
+    },
+    {
+      "prefix": "паз",
+      "file": "паз.json",
+      "wordforms_count": 6,
+      "size": 1790,
+      "hash": "385cc90d"
+    },
+    {
+      "prefix": "пай",
+      "file": "пай.json",
+      "wordforms_count": 7,
+      "size": 2082,
+      "hash": "b7edd2e8"
+    },
+    {
+      "prefix": "пак",
+      "file": "пак.json",
+      "wordforms_count": 25,
+      "size": 7539,
+      "hash": "37775b67"
+    },
+    {
+      "prefix": "пал",
+      "file": "пал.json",
+      "wordforms_count": 72,
+      "size": 22733,
+      "hash": "ce0bae1f"
+    },
+    {
+      "prefix": "пам",
+      "file": "пам.json",
+      "wordforms_count": 17,
+      "size": 5198,
+      "hash": "ffef89fc"
+    },
+    {
+      "prefix": "пан",
+      "file": "пан.json",
+      "wordforms_count": 76,
+      "size": 23174,
+      "hash": "bd30c593"
+    },
+    {
+      "prefix": "пап",
+      "file": "пап.json",
+      "wordforms_count": 23,
+      "size": 7136,
+      "hash": "1d555461"
+    },
+    {
+      "prefix": "пар",
+      "file": "пар.json",
+      "wordforms_count": 296,
+      "size": 92118,
+      "hash": "f3facd05"
+    },
+    {
+      "prefix": "пас",
+      "file": "пас.json",
+      "wordforms_count": 67,
+      "size": 20325,
+      "hash": "e2f879e5"
+    },
+    {
+      "prefix": "пат",
+      "file": "пат.json",
+      "wordforms_count": 47,
+      "size": 14464,
+      "hash": "7955eb4e"
+    },
+    {
+      "prefix": "пах",
+      "file": "пах.json",
+      "wordforms_count": 28,
+      "size": 9068,
+      "hash": "65506a8f"
+    },
+    {
+      "prefix": "пац",
+      "file": "пац.json",
+      "wordforms_count": 12,
+      "size": 3660,
+      "hash": "c78118f5"
+    },
+    {
+      "prefix": "пач",
+      "file": "пач.json",
+      "wordforms_count": 15,
+      "size": 4720,
+      "hash": "5aef06f6"
+    },
+    {
+      "prefix": "паш",
+      "file": "паш.json",
+      "wordforms_count": 18,
+      "size": 5664,
+      "hash": "1c519f78"
+    },
+    {
+      "prefix": "пая",
+      "file": "пая.json",
+      "wordforms_count": 5,
+      "size": 1476,
+      "hash": "ea3b153b"
+    },
+    {
+      "prefix": "паё",
+      "file": "паё.json",
+      "wordforms_count": 3,
+      "size": 852,
+      "hash": "d38b60df"
+    },
+    {
+      "prefix": "пе",
+      "file": "пе.json",
+      "wordforms_count": 167,
+      "size": 50890,
+      "hash": "825ea37a"
+    },
+    {
+      "prefix": "пи",
+      "file": "пи.json",
+      "wordforms_count": 221,
+      "size": 67470,
+      "hash": "fbc6a51d"
+    },
+    {
+      "prefix": "пл",
+      "file": "пл.json",
+      "wordforms_count": 84,
+      "size": 26924,
+      "hash": "e158e02e"
+    },
+    {
+      "prefix": "по",
+      "file": "по.json",
+      "wordforms_count": 249,
+      "size": 80883,
+      "hash": "51f04b40"
+    },
+    {
+      "prefix": "пра",
+      "file": "пра.json",
+      "wordforms_count": 26,
+      "size": 8518,
+      "hash": "8d2e2900"
+    },
+    {
+      "prefix": "пре",
+      "file": "пре.json",
+      "wordforms_count": 87,
+      "size": 28878,
+      "hash": "75885fd0"
+    },
+    {
+      "prefix": "при",
+      "file": "при.json",
+      "wordforms_count": 72,
+      "size": 22132,
+      "hash": "bceaa4a5"
+    },
+    {
+      "prefix": "про",
+      "file": "про.json",
+      "wordforms_count": 254,
+      "size": 83114,
+      "hash": "969992cc"
+    },
+    {
+      "prefix": "пру",
+      "file": "пру.json",
+      "wordforms_count": 3,
+      "size": 906,
+      "hash": "05baabff"
+    },
+    {
+      "prefix": "пря",
+      "file": "пря.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "4e0a972d"
+    },
+    {
+      "prefix": "пс",
+      "file": "пс.json",
+      "wordforms_count": 23,
+      "size": 7684,
+      "hash": "7c8c5b93"
+    },
+    {
+      "prefix": "пу",
+      "file": "пу.json",
+      "wordforms_count": 262,
+      "size": 81175,
+      "hash": "11f15274"
+    },
+    {
+      "prefix": "пы",
+      "file": "пы.json",
+      "wordforms_count": 3,
+      "size": 906,
+      "hash": "eab6631f"
+    },
+    {
+      "prefix": "пь",
+      "file": "пь.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "50612c19"
+    },
+    {
+      "prefix": "пю",
+      "file": "пю.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "9b308001"
+    },
+    {
+      "prefix": "раг",
+      "file": "раг.json",
+      "wordforms_count": 140,
+      "size": 44550,
+      "hash": "e380e3c1"
+    },
+    {
+      "prefix": "рад",
+      "file": "рад.json",
+      "wordforms_count": 100,
+      "size": 32207,
+      "hash": "06ab373b"
+    },
+    {
+      "prefix": "раж",
+      "file": "раж.json",
+      "wordforms_count": 13,
+      "size": 4094,
+      "hash": "44c149ab"
+    },
+    {
+      "prefix": "раз",
+      "file": "раз.json",
+      "wordforms_count": 45,
+      "size": 13869,
+      "hash": "2097d0b0"
+    },
+    {
+      "prefix": "раи",
+      "file": "раи.json",
+      "wordforms_count": 3,
+      "size": 808,
+      "hash": "0b44a25b"
+    },
+    {
+      "prefix": "рай",
+      "file": "рай.json",
+      "wordforms_count": 18,
+      "size": 5797,
+      "hash": "d545bd9c"
+    },
+    {
+      "prefix": "рак",
+      "file": "рак.json",
+      "wordforms_count": 568,
+      "size": 180749,
+      "hash": "0e7e1ff8"
+    },
+    {
+      "prefix": "рал",
+      "file": "рал.json",
+      "wordforms_count": 34,
+      "size": 11743,
+      "hash": "b93d7f21"
+    },
+    {
+      "prefix": "рам",
+      "file": "рам.json",
+      "wordforms_count": 7,
+      "size": 2056,
+      "hash": "7042a90e"
+    },
+    {
+      "prefix": "ран",
+      "file": "ран.json",
+      "wordforms_count": 3,
+      "size": 852,
+      "hash": "9d0d0687"
+    },
+    {
+      "prefix": "рап",
+      "file": "рап.json",
+      "wordforms_count": 14,
+      "size": 4302,
+      "hash": "9157148f"
+    },
+    {
+      "prefix": "рас",
+      "file": "рас.json",
+      "wordforms_count": 87,
+      "size": 27323,
+      "hash": "30f0b337"
+    },
+    {
+      "prefix": "рат",
+      "file": "рат.json",
+      "wordforms_count": 30,
+      "size": 9870,
+      "hash": "668eee3a"
+    },
+    {
+      "prefix": "рау",
+      "file": "рау.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "c661afed"
+    },
+    {
+      "prefix": "раф",
+      "file": "раф.json",
+      "wordforms_count": 2,
+      "size": 610,
+      "hash": "7cb75d43"
+    },
+    {
+      "prefix": "рах",
+      "file": "рах.json",
+      "wordforms_count": 149,
+      "size": 46810,
+      "hash": "f57e61de"
+    },
+    {
+      "prefix": "рац",
+      "file": "рац.json",
+      "wordforms_count": 39,
+      "size": 14223,
+      "hash": "ae3ce731"
+    },
+    {
+      "prefix": "рач",
+      "file": "рач.json",
+      "wordforms_count": 29,
+      "size": 9366,
+      "hash": "c9b39876"
+    },
+    {
+      "prefix": "ращ",
+      "file": "ращ.json",
+      "wordforms_count": 2,
+      "size": 610,
+      "hash": "1d09b0c6"
+    },
+    {
+      "prefix": "реа",
+      "file": "реа.json",
+      "wordforms_count": 29,
+      "size": 9268,
+      "hash": "fea09075"
+    },
+    {
+      "prefix": "рев",
+      "file": "рев.json",
+      "wordforms_count": 43,
+      "size": 14232,
+      "hash": "c078fac3"
+    },
+    {
+      "prefix": "рег",
+      "file": "рег.json",
+      "wordforms_count": 64,
+      "size": 19348,
+      "hash": "b9328e46"
+    },
+    {
+      "prefix": "ред",
+      "file": "ред.json",
+      "wordforms_count": 18,
+      "size": 6084,
+      "hash": "c0fdd697"
+    },
+    {
+      "prefix": "рее",
+      "file": "рее.json",
+      "wordforms_count": 3,
+      "size": 1124,
+      "hash": "54157b0b"
+    },
+    {
+      "prefix": "реж",
+      "file": "реж.json",
+      "wordforms_count": 10,
+      "size": 3300,
+      "hash": "4b2203fe"
+    },
+    {
+      "prefix": "рез",
+      "file": "рез.json",
+      "wordforms_count": 33,
+      "size": 11152,
+      "hash": "fe003534"
+    },
+    {
+      "prefix": "рей",
+      "file": "рей.json",
+      "wordforms_count": 8,
+      "size": 2530,
+      "hash": "b3cd854f"
+    },
+    {
+      "prefix": "рек",
+      "file": "рек.json",
+      "wordforms_count": 154,
+      "size": 47892,
+      "hash": "817cb0ed"
+    },
+    {
+      "prefix": "рел",
+      "file": "рел.json",
+      "wordforms_count": 56,
+      "size": 17935,
+      "hash": "55e9aaaa"
+    },
+    {
+      "prefix": "рем",
+      "file": "рем.json",
+      "wordforms_count": 16,
+      "size": 5174,
+      "hash": "5b8eff83"
+    },
+    {
+      "prefix": "рен",
+      "file": "рен.json",
+      "wordforms_count": 15,
+      "size": 4802,
+      "hash": "7d2b2ef4"
+    },
+    {
+      "prefix": "реп",
+      "file": "реп.json",
+      "wordforms_count": 41,
+      "size": 13670,
+      "hash": "5ff1f3fe"
+    },
+    {
+      "prefix": "рес",
+      "file": "рес.json",
+      "wordforms_count": 36,
+      "size": 12167,
+      "hash": "74a85a23"
+    },
+    {
+      "prefix": "рет",
+      "file": "рет.json",
+      "wordforms_count": 28,
+      "size": 8906,
+      "hash": "e2c5d9fd"
+    },
+    {
+      "prefix": "реф",
+      "file": "реф.json",
+      "wordforms_count": 32,
+      "size": 10558,
+      "hash": "e6f51913"
+    },
+    {
+      "prefix": "рех",
+      "file": "рех.json",
+      "wordforms_count": 62,
+      "size": 18404,
+      "hash": "17978fc7"
+    },
+    {
+      "prefix": "рец",
+      "file": "рец.json",
+      "wordforms_count": 51,
+      "size": 16053,
+      "hash": "3d5fed9f"
+    },
+    {
+      "prefix": "реч",
+      "file": "реч.json",
+      "wordforms_count": 79,
+      "size": 25228,
+      "hash": "f23a6892"
+    },
+    {
+      "prefix": "рещ",
+      "file": "рещ.json",
+      "wordforms_count": 17,
+      "size": 5182,
+      "hash": "8cab212b"
+    },
+    {
+      "prefix": "ри",
+      "file": "ри.json",
+      "wordforms_count": 280,
+      "size": 87847,
+      "hash": "159edb1b"
+    },
+    {
+      "prefix": "ро",
+      "file": "ро.json",
+      "wordforms_count": 357,
+      "size": 116562,
+      "hash": "5c290742"
+    },
+    {
+      "prefix": "ру",
+      "file": "ру.json",
+      "wordforms_count": 356,
+      "size": 119251,
+      "hash": "675f0d04"
+    },
+    {
+      "prefix": "са",
+      "file": "са.json",
+      "wordforms_count": 329,
+      "size": 103030,
+      "hash": "d151e27c"
+    },
+    {
+      "prefix": "сб",
+      "file": "сб.json",
+      "wordforms_count": 15,
+      "size": 4576,
+      "hash": "b3c6b0b6"
+    },
+    {
+      "prefix": "св",
+      "file": "св.json",
+      "wordforms_count": 218,
+      "size": 67110,
+      "hash": "48c29250"
+    },
+    {
+      "prefix": "се",
+      "file": "се.json",
+      "wordforms_count": 227,
+      "size": 71164,
+      "hash": "11a69a43"
+    },
+    {
+      "prefix": "си",
+      "file": "си.json",
+      "wordforms_count": 286,
+      "size": 89779,
+      "hash": "cc742bb0"
+    },
+    {
+      "prefix": "ск",
+      "file": "ск.json",
+      "wordforms_count": 57,
+      "size": 18054,
+      "hash": "11a1b9c1"
+    },
+    {
+      "prefix": "сл",
+      "file": "сл.json",
+      "wordforms_count": 46,
+      "size": 15124,
+      "hash": "ed6887a4"
+    },
+    {
+      "prefix": "см",
+      "file": "см.json",
+      "wordforms_count": 6,
+      "size": 1972,
+      "hash": "624c348a"
+    },
+    {
+      "prefix": "сн",
+      "file": "сн.json",
+      "wordforms_count": 6,
+      "size": 1774,
+      "hash": "995f24e4"
+    },
+    {
+      "prefix": "со",
+      "file": "со.json",
+      "wordforms_count": 241,
+      "size": 77045,
+      "hash": "1552477d"
+    },
+    {
+      "prefix": "сп",
+      "file": "сп.json",
+      "wordforms_count": 60,
+      "size": 19301,
+      "hash": "974dbd20"
+    },
+    {
+      "prefix": "сс",
+      "file": "сс.json",
+      "wordforms_count": 19,
+      "size": 5865,
+      "hash": "0657b07a"
+    },
+    {
+      "prefix": "ст",
+      "file": "ст.json",
+      "wordforms_count": 162,
+      "size": 52203,
+      "hash": "66085da3"
+    },
+    {
+      "prefix": "су",
+      "file": "су.json",
+      "wordforms_count": 401,
+      "size": 127705,
+      "hash": "780699d5"
+    },
+    {
+      "prefix": "сф",
+      "file": "сф.json",
+      "wordforms_count": 2,
+      "size": 586,
+      "hash": "0b1a397f"
+    },
+    {
+      "prefix": "сх",
+      "file": "сх.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "2506f68f"
+    },
+    {
+      "prefix": "сц",
+      "file": "сц.json",
+      "wordforms_count": 13,
+      "size": 4012,
+      "hash": "b0736a5e"
+    },
+    {
+      "prefix": "сч",
+      "file": "сч.json",
+      "wordforms_count": 13,
+      "size": 3946,
+      "hash": "2d46ae48"
+    },
+    {
+      "prefix": "съ",
+      "file": "съ.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "8239333e"
+    },
+    {
+      "prefix": "сю",
+      "file": "сю.json",
+      "wordforms_count": 6,
+      "size": 1738,
+      "hash": "005a6250"
+    },
+    {
+      "prefix": "сё",
+      "file": "сё.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "b2a1a9df"
+    },
+    {
+      "prefix": "таб",
+      "file": "таб.json",
+      "wordforms_count": 27,
+      "size": 8386,
+      "hash": "66246d39"
+    },
+    {
+      "prefix": "тав",
+      "file": "тав.json",
+      "wordforms_count": 30,
+      "size": 9280,
+      "hash": "c1a458a4"
+    },
+    {
+      "prefix": "таг",
+      "file": "таг.json",
+      "wordforms_count": 6,
+      "size": 1806,
+      "hash": "f740ac9d"
+    },
+    {
+      "prefix": "тад",
+      "file": "тад.json",
+      "wordforms_count": 6,
+      "size": 1806,
+      "hash": "fa0a1325"
+    },
+    {
+      "prefix": "таж",
+      "file": "таж.json",
+      "wordforms_count": 13,
+      "size": 4048,
+      "hash": "9dd21d3f"
+    },
+    {
+      "prefix": "таз",
+      "file": "таз.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "5da590fc"
+    },
+    {
+      "prefix": "тай",
+      "file": "тай.json",
+      "wordforms_count": 26,
+      "size": 8078,
+      "hash": "9efbbafc"
+    },
+    {
+      "prefix": "так",
+      "file": "так.json",
+      "wordforms_count": 51,
+      "size": 15720,
+      "hash": "7787d0bf"
+    },
+    {
+      "prefix": "тал",
+      "file": "тал.json",
+      "wordforms_count": 73,
+      "size": 23044,
+      "hash": "5c693664"
+    },
+    {
+      "prefix": "там",
+      "file": "там.json",
+      "wordforms_count": 44,
+      "size": 13546,
+      "hash": "a48c9d53"
+    },
+    {
+      "prefix": "тан",
+      "file": "тан.json",
+      "wordforms_count": 54,
+      "size": 16210,
+      "hash": "4a374f9a"
+    },
+    {
+      "prefix": "тап",
+      "file": "тап.json",
+      "wordforms_count": 14,
+      "size": 4124,
+      "hash": "2782ec40"
+    },
+    {
+      "prefix": "тар",
+      "file": "тар.json",
+      "wordforms_count": 95,
+      "size": 29816,
+      "hash": "dbf70bfc"
+    },
+    {
+      "prefix": "тас",
+      "file": "тас.json",
+      "wordforms_count": 16,
+      "size": 5008,
+      "hash": "8c9a113a"
+    },
+    {
+      "prefix": "тат",
+      "file": "тат.json",
+      "wordforms_count": 18,
+      "size": 5862,
+      "hash": "3eac29cb"
+    },
+    {
+      "prefix": "тах",
+      "file": "тах.json",
+      "wordforms_count": 18,
+      "size": 5804,
+      "hash": "a729205d"
+    },
+    {
+      "prefix": "тач",
+      "file": "тач.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "31b2d2c5"
+    },
+    {
+      "prefix": "таш",
+      "file": "таш.json",
+      "wordforms_count": 6,
+      "size": 2020,
+      "hash": "576b4608"
+    },
+    {
+      "prefix": "тая",
+      "file": "тая.json",
+      "wordforms_count": 3,
+      "size": 822,
+      "hash": "da0d6512"
+    },
+    {
+      "prefix": "тв",
+      "file": "тв.json",
+      "wordforms_count": 7,
+      "size": 2394,
+      "hash": "612bb536"
+    },
+    {
+      "prefix": "те",
+      "file": "те.json",
+      "wordforms_count": 280,
+      "size": 88321,
+      "hash": "a4a9e086"
+    },
+    {
+      "prefix": "ти",
+      "file": "ти.json",
+      "wordforms_count": 123,
+      "size": 36791,
+      "hash": "541529e4"
+    },
+    {
+      "prefix": "то",
+      "file": "то.json",
+      "wordforms_count": 90,
+      "size": 28417,
+      "hash": "eaf80995"
+    },
+    {
+      "prefix": "тр",
+      "file": "тр.json",
+      "wordforms_count": 98,
+      "size": 31767,
+      "hash": "9a374b4a"
+    },
+    {
+      "prefix": "ту",
+      "file": "ту.json",
+      "wordforms_count": 287,
+      "size": 90832,
+      "hash": "ab394897"
+    },
+    {
+      "prefix": "тӏа",
+      "file": "тӏа.json",
+      "wordforms_count": 931,
+      "size": 299240,
+      "hash": "7bd77af3"
+    },
+    {
+      "prefix": "тӏв",
+      "file": "тӏв.json",
+      "wordforms_count": 11,
+      "size": 3350,
+      "hash": "e89f6abb"
+    },
+    {
+      "prefix": "тӏе",
+      "file": "тӏе.json",
+      "wordforms_count": 196,
+      "size": 61445,
+      "hash": "1581673a"
+    },
+    {
+      "prefix": "тӏи",
+      "file": "тӏи.json",
+      "wordforms_count": 171,
+      "size": 54403,
+      "hash": "fc31850d"
+    },
+    {
+      "prefix": "тӏо",
+      "file": "тӏо.json",
+      "wordforms_count": 210,
+      "size": 68495,
+      "hash": "2a07c095"
+    },
+    {
+      "prefix": "тӏу",
+      "file": "тӏу.json",
+      "wordforms_count": 199,
+      "size": 63216,
+      "hash": "c1779544"
+    },
+    {
+      "prefix": "уа",
+      "file": "уа.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "88e04b32"
+    },
+    {
+      "prefix": "уб",
+      "file": "уб.json",
+      "wordforms_count": 11,
+      "size": 3262,
+      "hash": "4558ae88"
+    },
+    {
+      "prefix": "ув",
+      "file": "ув.json",
+      "wordforms_count": 6,
+      "size": 1870,
+      "hash": "cd386989"
+    },
+    {
+      "prefix": "уг",
+      "file": "уг.json",
+      "wordforms_count": 80,
+      "size": 24147,
+      "hash": "2fbe28d2"
+    },
+    {
+      "prefix": "уд",
+      "file": "уд.json",
+      "wordforms_count": 27,
+      "size": 8434,
+      "hash": "d17f05bf"
+    },
+    {
+      "prefix": "уе",
+      "file": "уе.json",
+      "wordforms_count": 3,
+      "size": 1084,
+      "hash": "35568182"
+    },
+    {
+      "prefix": "уж",
+      "file": "уж.json",
+      "wordforms_count": 5,
+      "size": 1446,
+      "hash": "64cdcbbb"
+    },
+    {
+      "prefix": "уз",
+      "file": "уз.json",
+      "wordforms_count": 44,
+      "size": 13857,
+      "hash": "841a94a9"
+    },
+    {
+      "prefix": "ук",
+      "file": "ук.json",
+      "wordforms_count": 18,
+      "size": 5552,
+      "hash": "6e2a1c49"
+    },
+    {
+      "prefix": "ул",
+      "file": "ул.json",
+      "wordforms_count": 28,
+      "size": 8257,
+      "hash": "0e97350b"
+    },
+    {
+      "prefix": "ум",
+      "file": "ум.json",
+      "wordforms_count": 9,
+      "size": 2915,
+      "hash": "da0f9efe"
+    },
+    {
+      "prefix": "ун",
+      "file": "ун.json",
+      "wordforms_count": 80,
+      "size": 26085,
+      "hash": "5ebe2cc0"
+    },
+    {
+      "prefix": "уп",
+      "file": "уп.json",
+      "wordforms_count": 8,
+      "size": 2478,
+      "hash": "c92fc525"
+    },
+    {
+      "prefix": "ур",
+      "file": "ур.json",
+      "wordforms_count": 60,
+      "size": 18504,
+      "hash": "ea4a5904"
+    },
+    {
+      "prefix": "ус",
+      "file": "ус.json",
+      "wordforms_count": 13,
+      "size": 4105,
+      "hash": "c20438cc"
+    },
+    {
+      "prefix": "ут",
+      "file": "ут.json",
+      "wordforms_count": 8,
+      "size": 2424,
+      "hash": "551552ac"
+    },
+    {
+      "prefix": "ух",
+      "file": "ух.json",
+      "wordforms_count": 33,
+      "size": 9356,
+      "hash": "744d072e"
+    },
+    {
+      "prefix": "уц",
+      "file": "уц.json",
+      "wordforms_count": 5,
+      "size": 1426,
+      "hash": "be1c3a7f"
+    },
+    {
+      "prefix": "уч",
+      "file": "уч.json",
+      "wordforms_count": 56,
+      "size": 17240,
+      "hash": "dc7a5d70"
+    },
+    {
+      "prefix": "уш",
+      "file": "уш.json",
+      "wordforms_count": 7,
+      "size": 2838,
+      "hash": "e100f79e"
+    },
+    {
+      "prefix": "фа",
+      "file": "фа.json",
+      "wordforms_count": 65,
+      "size": 20714,
+      "hash": "c821111d"
+    },
+    {
+      "prefix": "фе",
+      "file": "фе.json",
+      "wordforms_count": 63,
+      "size": 21217,
+      "hash": "63c01e5d"
+    },
+    {
+      "prefix": "фи",
+      "file": "фи.json",
+      "wordforms_count": 95,
+      "size": 31969,
+      "hash": "dfeb7c65"
+    },
+    {
+      "prefix": "фл",
+      "file": "фл.json",
+      "wordforms_count": 15,
+      "size": 4992,
+      "hash": "aafda873"
+    },
+    {
+      "prefix": "фо",
+      "file": "фо.json",
+      "wordforms_count": 155,
+      "size": 50290,
+      "hash": "f7908e5f"
+    },
+    {
+      "prefix": "фр",
+      "file": "фр.json",
+      "wordforms_count": 39,
+      "size": 12362,
+      "hash": "edcb0e83"
+    },
+    {
+      "prefix": "фт",
+      "file": "фт.json",
+      "wordforms_count": 11,
+      "size": 3876,
+      "hash": "940bd332"
+    },
+    {
+      "prefix": "фу",
+      "file": "фу.json",
+      "wordforms_count": 44,
+      "size": 13682,
+      "hash": "c2a1884b"
+    },
+    {
+      "prefix": "фю",
+      "file": "фю.json",
+      "wordforms_count": 8,
+      "size": 2386,
+      "hash": "a6bd73fd"
+    },
+    {
+      "prefix": "хаб",
+      "file": "хаб.json",
+      "wordforms_count": 33,
+      "size": 10845,
+      "hash": "68e0cfae"
+    },
+    {
+      "prefix": "хаг",
+      "file": "хаг.json",
+      "wordforms_count": 10,
+      "size": 2996,
+      "hash": "3576ab91"
+    },
+    {
+      "prefix": "хад",
+      "file": "хад.json",
+      "wordforms_count": 99,
+      "size": 31391,
+      "hash": "e1e6cf0c"
+    },
+    {
+      "prefix": "хаз",
+      "file": "хаз.json",
+      "wordforms_count": 9,
+      "size": 2796,
+      "hash": "0ed527d2"
+    },
+    {
+      "prefix": "хаи",
+      "file": "хаи.json",
+      "wordforms_count": 3,
+      "size": 820,
+      "hash": "5321f72b"
+    },
+    {
+      "prefix": "хай",
+      "file": "хай.json",
+      "wordforms_count": 19,
+      "size": 6313,
+      "hash": "2162ad81"
+    },
+    {
+      "prefix": "хак",
+      "file": "хак.json",
+      "wordforms_count": 9,
+      "size": 2842,
+      "hash": "52d2526b"
+    },
+    {
+      "prefix": "хал",
+      "file": "хал.json",
+      "wordforms_count": 88,
+      "size": 26792,
+      "hash": "2e449e5a"
+    },
+    {
+      "prefix": "хам",
+      "file": "хам.json",
+      "wordforms_count": 18,
+      "size": 5254,
+      "hash": "8d24abf1"
+    },
+    {
+      "prefix": "хан",
+      "file": "хан.json",
+      "wordforms_count": 43,
+      "size": 13917,
+      "hash": "28249012"
+    },
+    {
+      "prefix": "хап",
+      "file": "хап.json",
+      "wordforms_count": 23,
+      "size": 6726,
+      "hash": "b9720afb"
+    },
+    {
+      "prefix": "хар",
+      "file": "хар.json",
+      "wordforms_count": 112,
+      "size": 34510,
+      "hash": "3864bb85"
+    },
+    {
+      "prefix": "хас",
+      "file": "хас.json",
+      "wordforms_count": 44,
+      "size": 14624,
+      "hash": "a2d3504a"
+    },
+    {
+      "prefix": "хат",
+      "file": "хат.json",
+      "wordforms_count": 27,
+      "size": 8054,
+      "hash": "433f3e02"
+    },
+    {
+      "prefix": "хах",
+      "file": "хах.json",
+      "wordforms_count": 19,
+      "size": 5301,
+      "hash": "35aaf8bb"
+    },
+    {
+      "prefix": "хач",
+      "file": "хач.json",
+      "wordforms_count": 28,
+      "size": 8414,
+      "hash": "e6328e96"
+    },
+    {
+      "prefix": "хаш",
+      "file": "хаш.json",
+      "wordforms_count": 13,
+      "size": 4538,
+      "hash": "802dbbc2"
+    },
+    {
+      "prefix": "хв",
+      "file": "хв.json",
+      "wordforms_count": 99,
+      "size": 31609,
+      "hash": "1bf7e709"
+    },
+    {
+      "prefix": "хе",
+      "file": "хе.json",
+      "wordforms_count": 107,
+      "size": 32009,
+      "hash": "06e621b2"
+    },
+    {
+      "prefix": "хи",
+      "file": "хи.json",
+      "wordforms_count": 181,
+      "size": 55340,
+      "hash": "28586d51"
+    },
+    {
+      "prefix": "хл",
+      "file": "хл.json",
+      "wordforms_count": 6,
+      "size": 1838,
+      "hash": "ceaf9dc5"
+    },
+    {
+      "prefix": "хо",
+      "file": "хо.json",
+      "wordforms_count": 88,
+      "size": 27965,
+      "hash": "fb83d528"
+    },
+    {
+      "prefix": "хр",
+      "file": "хр.json",
+      "wordforms_count": 20,
+      "size": 7076,
+      "hash": "43282972"
+    },
+    {
+      "prefix": "ху",
+      "file": "ху.json",
+      "wordforms_count": 204,
+      "size": 62561,
+      "hash": "40e3dd30"
+    },
+    {
+      "prefix": "хх",
+      "file": "хх.json",
+      "wordforms_count": 40,
+      "size": 12648,
+      "hash": "3e022656"
+    },
+    {
+      "prefix": "хъа",
+      "file": "хъа.json",
+      "wordforms_count": 474,
+      "size": 150352,
+      "hash": "248330ec"
+    },
+    {
+      "prefix": "хъв",
+      "file": "хъв.json",
+      "wordforms_count": 208,
+      "size": 64715,
+      "hash": "b3b902cd"
+    },
+    {
+      "prefix": "хъе",
+      "file": "хъе.json",
+      "wordforms_count": 127,
+      "size": 37454,
+      "hash": "48f4ac14"
+    },
+    {
+      "prefix": "хъи",
+      "file": "хъи.json",
+      "wordforms_count": 171,
+      "size": 52195,
+      "hash": "b8f01eb1"
+    },
+    {
+      "prefix": "хъо",
+      "file": "хъо.json",
+      "wordforms_count": 26,
+      "size": 8836,
+      "hash": "4ef856cc"
+    },
+    {
+      "prefix": "хъу",
+      "file": "хъу.json",
+      "wordforms_count": 304,
+      "size": 96493,
+      "hash": "3446225c"
+    },
+    {
+      "prefix": "хьа",
+      "file": "хьа.json",
+      "wordforms_count": 76,
+      "size": 22801,
+      "hash": "c8a490a1"
+    },
+    {
+      "prefix": "хьв",
+      "file": "хьв.json",
+      "wordforms_count": 141,
+      "size": 43976,
+      "hash": "9ab9adc3"
+    },
+    {
+      "prefix": "хье",
+      "file": "хье.json",
+      "wordforms_count": 14,
+      "size": 4107,
+      "hash": "cdd9019f"
+    },
+    {
+      "prefix": "хьи",
+      "file": "хьи.json",
+      "wordforms_count": 87,
+      "size": 27526,
+      "hash": "e8b25850"
+    },
+    {
+      "prefix": "хьо",
+      "file": "хьо.json",
+      "wordforms_count": 71,
+      "size": 23656,
+      "hash": "df268e5f"
+    },
+    {
+      "prefix": "хьу",
+      "file": "хьу.json",
+      "wordforms_count": 130,
+      "size": 40988,
+      "hash": "d47ff428"
+    },
+    {
+      "prefix": "хӏа",
+      "file": "хӏа.json",
+      "wordforms_count": 907,
+      "size": 291749,
+      "hash": "0cde9fb6"
+    },
+    {
+      "prefix": "хӏе",
+      "file": "хӏе.json",
+      "wordforms_count": 183,
+      "size": 57181,
+      "hash": "dd95cfa7"
+    },
+    {
+      "prefix": "хӏи",
+      "file": "хӏи.json",
+      "wordforms_count": 108,
+      "size": 34108,
+      "hash": "dab0933e"
+    },
+    {
+      "prefix": "хӏо",
+      "file": "хӏо.json",
+      "wordforms_count": 62,
+      "size": 19782,
+      "hash": "13274878"
+    },
+    {
+      "prefix": "хӏу",
+      "file": "хӏу.json",
+      "wordforms_count": 185,
+      "size": 57754,
+      "hash": "20e49896"
+    },
+    {
+      "prefix": "ца",
+      "file": "ца.json",
+      "wordforms_count": 73,
+      "size": 23333,
+      "hash": "10dca040"
+    },
+    {
+      "prefix": "це",
+      "file": "це.json",
+      "wordforms_count": 156,
+      "size": 51391,
+      "hash": "65b1fbeb"
+    },
+    {
+      "prefix": "ци",
+      "file": "ци.json",
+      "wordforms_count": 65,
+      "size": 20658,
+      "hash": "ff329cc4"
+    },
+    {
+      "prefix": "цо",
+      "file": "цо.json",
+      "wordforms_count": 52,
+      "size": 17162,
+      "hash": "939e71f2"
+    },
+    {
+      "prefix": "цу",
+      "file": "цу.json",
+      "wordforms_count": 49,
+      "size": 15178,
+      "hash": "7d290ff2"
+    },
+    {
+      "prefix": "цц",
+      "file": "цц.json",
+      "wordforms_count": 20,
+      "size": 6177,
+      "hash": "6b0831b4"
+    },
+    {
+      "prefix": "цӏа",
+      "file": "цӏа.json",
+      "wordforms_count": 269,
+      "size": 84687,
+      "hash": "ae3ab33c"
+    },
+    {
+      "prefix": "цӏв",
+      "file": "цӏв.json",
+      "wordforms_count": 45,
+      "size": 13791,
+      "hash": "52f61978"
+    },
+    {
+      "prefix": "цӏе",
+      "file": "цӏе.json",
+      "wordforms_count": 78,
+      "size": 23689,
+      "hash": "168c43d0"
+    },
+    {
+      "prefix": "цӏи",
+      "file": "цӏи.json",
+      "wordforms_count": 137,
+      "size": 42501,
+      "hash": "a6ac4aad"
+    },
+    {
+      "prefix": "цӏо",
+      "file": "цӏо.json",
+      "wordforms_count": 93,
+      "size": 30738,
+      "hash": "b9fffe1d"
+    },
+    {
+      "prefix": "цӏу",
+      "file": "цӏу.json",
+      "wordforms_count": 159,
+      "size": 51866,
+      "hash": "e6f66dd0"
+    },
+    {
+      "prefix": "цӏц",
+      "file": "цӏц.json",
+      "wordforms_count": 17,
+      "size": 5995,
+      "hash": "1acf1c2c"
+    },
+    {
+      "prefix": "ча",
+      "file": "ча.json",
+      "wordforms_count": 361,
+      "size": 114986,
+      "hash": "dffacdd5"
+    },
+    {
+      "prefix": "чв",
+      "file": "чв.json",
+      "wordforms_count": 105,
+      "size": 32097,
+      "hash": "9a323bfe"
+    },
+    {
+      "prefix": "че",
+      "file": "че.json",
+      "wordforms_count": 136,
+      "size": 41964,
+      "hash": "45f56a76"
+    },
+    {
+      "prefix": "чи",
+      "file": "чи.json",
+      "wordforms_count": 145,
+      "size": 45280,
+      "hash": "8d44c4f3"
+    },
+    {
+      "prefix": "чл",
+      "file": "чл.json",
+      "wordforms_count": 9,
+      "size": 2889,
+      "hash": "be36c1b5"
+    },
+    {
+      "prefix": "чо",
+      "file": "чо.json",
+      "wordforms_count": 107,
+      "size": 34392,
+      "hash": "8f05170b"
+    },
+    {
+      "prefix": "чу",
+      "file": "чу.json",
+      "wordforms_count": 212,
+      "size": 65239,
+      "hash": "9b236e5c"
+    },
+    {
+      "prefix": "чч",
+      "file": "чч.json",
+      "wordforms_count": 121,
+      "size": 38754,
+      "hash": "169f41f9"
+    },
+    {
+      "prefix": "чӏа",
+      "file": "чӏа.json",
+      "wordforms_count": 290,
+      "size": 91026,
+      "hash": "a4f71795"
+    },
+    {
+      "prefix": "чӏв",
+      "file": "чӏв.json",
+      "wordforms_count": 149,
+      "size": 46728,
+      "hash": "4c9a9536"
+    },
+    {
+      "prefix": "чӏе",
+      "file": "чӏе.json",
+      "wordforms_count": 128,
+      "size": 40940,
+      "hash": "9eab0df7"
+    },
+    {
+      "prefix": "чӏи",
+      "file": "чӏи.json",
+      "wordforms_count": 158,
+      "size": 50174,
+      "hash": "aad5544f"
+    },
+    {
+      "prefix": "чӏо",
+      "file": "чӏо.json",
+      "wordforms_count": 107,
+      "size": 34348,
+      "hash": "64f21b05"
+    },
+    {
+      "prefix": "чӏу",
+      "file": "чӏу.json",
+      "wordforms_count": 233,
+      "size": 71771,
+      "hash": "ce1a7e61"
+    },
+    {
+      "prefix": "чӏч",
+      "file": "чӏч.json",
+      "wordforms_count": 20,
+      "size": 6709,
+      "hash": "d7c4f574"
+    },
+    {
+      "prefix": "ша",
+      "file": "ша.json",
+      "wordforms_count": 223,
+      "size": 69943,
+      "hash": "7860c71a"
+    },
+    {
+      "prefix": "шв",
+      "file": "шв.json",
+      "wordforms_count": 14,
+      "size": 4608,
+      "hash": "9ddf6d9d"
+    },
+    {
+      "prefix": "ше",
+      "file": "ше.json",
+      "wordforms_count": 24,
+      "size": 7123,
+      "hash": "5fc23958"
+    },
+    {
+      "prefix": "ши",
+      "file": "ши.json",
+      "wordforms_count": 39,
+      "size": 11844,
+      "hash": "ae61487b"
+    },
+    {
+      "prefix": "шк",
+      "file": "шк.json",
+      "wordforms_count": 6,
+      "size": 1943,
+      "hash": "f93548cc"
+    },
+    {
+      "prefix": "шл",
+      "file": "шл.json",
+      "wordforms_count": 9,
+      "size": 3308,
+      "hash": "45f98003"
+    },
+    {
+      "prefix": "шн",
+      "file": "шн.json",
+      "wordforms_count": 3,
+      "size": 894,
+      "hash": "e3831621"
+    },
+    {
+      "prefix": "шо",
+      "file": "шо.json",
+      "wordforms_count": 32,
+      "size": 10810,
+      "hash": "94b0a9f8"
+    },
+    {
+      "prefix": "шп",
+      "file": "шп.json",
+      "wordforms_count": 17,
+      "size": 5008,
+      "hash": "ded58a25"
+    },
+    {
+      "prefix": "шр",
+      "file": "шр.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "e77b9860"
+    },
+    {
+      "prefix": "шт",
+      "file": "шт.json",
+      "wordforms_count": 33,
+      "size": 10308,
+      "hash": "945ef510"
+    },
+    {
+      "prefix": "шу",
+      "file": "шу.json",
+      "wordforms_count": 42,
+      "size": 12389,
+      "hash": "b785fd88"
+    },
+    {
+      "prefix": "шё",
+      "file": "шё.json",
+      "wordforms_count": 1,
+      "size": 272,
+      "hash": "666c2412"
+    },
+    {
+      "prefix": "ща",
+      "file": "ща.json",
+      "wordforms_count": 103,
+      "size": 32516,
+      "hash": "86ab158b"
+    },
+    {
+      "prefix": "щв",
+      "file": "щв.json",
+      "wordforms_count": 64,
+      "size": 19097,
+      "hash": "d582e750"
+    },
+    {
+      "prefix": "ще",
+      "file": "ще.json",
+      "wordforms_count": 15,
+      "size": 4554,
+      "hash": "0dad2779"
+    },
+    {
+      "prefix": "щи",
+      "file": "щи.json",
+      "wordforms_count": 23,
+      "size": 6616,
+      "hash": "12b33885"
+    },
+    {
+      "prefix": "що",
+      "file": "що.json",
+      "wordforms_count": 26,
+      "size": 7978,
+      "hash": "9f4ba238"
+    },
+    {
+      "prefix": "щу",
+      "file": "щу.json",
+      "wordforms_count": 85,
+      "size": 26720,
+      "hash": "7ea26e29"
+    },
+    {
+      "prefix": "щё",
+      "file": "щё.json",
+      "wordforms_count": 3,
+      "size": 870,
+      "hash": "5c335bfb"
+    },
+    {
+      "prefix": "эб",
+      "file": "эб.json",
+      "wordforms_count": 23,
+      "size": 7430,
+      "hash": "3fedb517"
+    },
+    {
+      "prefix": "эв",
+      "file": "эв.json",
+      "wordforms_count": 11,
+      "size": 3702,
+      "hash": "1a5bb7a7"
+    },
+    {
+      "prefix": "эг",
+      "file": "эг.json",
+      "wordforms_count": 3,
+      "size": 942,
+      "hash": "7b7eba63"
+    },
+    {
+      "prefix": "эз",
+      "file": "эз.json",
+      "wordforms_count": 8,
+      "size": 2362,
+      "hash": "ea704d7f"
+    },
+    {
+      "prefix": "эй",
+      "file": "эй.json",
+      "wordforms_count": 3,
+      "size": 1092,
+      "hash": "28ded81f"
+    },
+    {
+      "prefix": "эк",
+      "file": "эк.json",
+      "wordforms_count": 84,
+      "size": 26818,
+      "hash": "ad098624"
+    },
+    {
+      "prefix": "эл",
+      "file": "эл.json",
+      "wordforms_count": 62,
+      "size": 21672,
+      "hash": "699e48a6"
+    },
+    {
+      "prefix": "эм",
+      "file": "эм.json",
+      "wordforms_count": 17,
+      "size": 5082,
+      "hash": "477b0baa"
+    },
+    {
+      "prefix": "эн",
+      "file": "эн.json",
+      "wordforms_count": 12,
+      "size": 3812,
+      "hash": "c003ef2f"
+    },
+    {
+      "prefix": "эп",
+      "file": "эп.json",
+      "wordforms_count": 18,
+      "size": 5354,
+      "hash": "e7ae58c8"
+    },
+    {
+      "prefix": "эр",
+      "file": "эр.json",
+      "wordforms_count": 28,
+      "size": 8461,
+      "hash": "aba664a0"
+    },
+    {
+      "prefix": "эс",
+      "file": "эс.json",
+      "wordforms_count": 46,
+      "size": 14532,
+      "hash": "72b35e1b"
+    },
+    {
+      "prefix": "эт",
+      "file": "эт.json",
+      "wordforms_count": 23,
+      "size": 7192,
+      "hash": "a9f64d01"
+    },
+    {
+      "prefix": "эх",
+      "file": "эх.json",
+      "wordforms_count": 26,
+      "size": 8241,
+      "hash": "c2c88073"
+    },
+    {
+      "prefix": "эш",
+      "file": "эш.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "fed5eafa"
+    },
+    {
+      "prefix": "эщ",
+      "file": "эщ.json",
+      "wordforms_count": 12,
+      "size": 3424,
+      "hash": "c7ecff15"
+    },
+    {
+      "prefix": "ээ",
+      "file": "ээ.json",
+      "wordforms_count": 7,
+      "size": 1862,
+      "hash": "7b532960"
+    },
+    {
+      "prefix": "юб",
+      "file": "юб.json",
+      "wordforms_count": 11,
+      "size": 3436,
+      "hash": "02bb580b"
+    },
+    {
+      "prefix": "юв",
+      "file": "юв.json",
+      "wordforms_count": 3,
+      "size": 880,
+      "hash": "e9f9d689"
+    },
+    {
+      "prefix": "юг",
+      "file": "юг.json",
+      "wordforms_count": 8,
+      "size": 2852,
+      "hash": "3f6ad307"
+    },
+    {
+      "prefix": "юк",
+      "file": "юк.json",
+      "wordforms_count": 10,
+      "size": 2990,
+      "hash": "405d1008"
+    },
+    {
+      "prefix": "юм",
+      "file": "юм.json",
+      "wordforms_count": 2,
+      "size": 574,
+      "hash": "4192420a"
+    },
+    {
+      "prefix": "юн",
+      "file": "юн.json",
+      "wordforms_count": 5,
+      "size": 1684,
+      "hash": "446ec1ad"
+    },
+    {
+      "prefix": "юр",
+      "file": "юр.json",
+      "wordforms_count": 34,
+      "size": 10287,
+      "hash": "9ed0284f"
+    },
+    {
+      "prefix": "юс",
+      "file": "юс.json",
+      "wordforms_count": 2,
+      "size": 602,
+      "hash": "64060e55"
+    },
+    {
+      "prefix": "юх",
+      "file": "юх.json",
+      "wordforms_count": 2,
+      "size": 642,
+      "hash": "d5db3b9e"
+    },
+    {
+      "prefix": "юш",
+      "file": "юш.json",
+      "wordforms_count": 2,
+      "size": 570,
+      "hash": "423be0a5"
+    },
+    {
+      "prefix": "яб",
+      "file": "яб.json",
+      "wordforms_count": 12,
+      "size": 3440,
+      "hash": "773212e1"
+    },
+    {
+      "prefix": "яв",
+      "file": "яв.json",
+      "wordforms_count": 3,
+      "size": 888,
+      "hash": "ea521cba"
+    },
+    {
+      "prefix": "яг",
+      "file": "яг.json",
+      "wordforms_count": 16,
+      "size": 4873,
+      "hash": "939d79c3"
+    },
+    {
+      "prefix": "яд",
+      "file": "яд.json",
+      "wordforms_count": 3,
+      "size": 852,
+      "hash": "15a40bee"
+    },
+    {
+      "prefix": "яз",
+      "file": "яз.json",
+      "wordforms_count": 14,
+      "size": 4192,
+      "hash": "f84c2d8e"
+    },
+    {
+      "prefix": "як",
+      "file": "як.json",
+      "wordforms_count": 40,
+      "size": 12320,
+      "hash": "08f9a04e"
+    },
+    {
+      "prefix": "ял",
+      "file": "ял.json",
+      "wordforms_count": 17,
+      "size": 5123,
+      "hash": "8fe2e974"
+    },
+    {
+      "prefix": "ям",
+      "file": "ям.json",
+      "wordforms_count": 9,
+      "size": 2500,
+      "hash": "959a501d"
+    },
+    {
+      "prefix": "ян",
+      "file": "ян.json",
+      "wordforms_count": 17,
+      "size": 5406,
+      "hash": "1819f55a"
+    },
+    {
+      "prefix": "яп",
+      "file": "яп.json",
+      "wordforms_count": 6,
+      "size": 2000,
+      "hash": "9f03609a"
+    },
+    {
+      "prefix": "яр",
+      "file": "яр.json",
+      "wordforms_count": 35,
+      "size": 10691,
+      "hash": "dd74da65"
+    },
+    {
+      "prefix": "яс",
+      "file": "яс.json",
+      "wordforms_count": 29,
+      "size": 9444,
+      "hash": "b3582cd4"
+    },
+    {
+      "prefix": "ят",
+      "file": "ят.json",
+      "wordforms_count": 21,
+      "size": 5985,
+      "hash": "861a7e62"
+    },
+    {
+      "prefix": "ях",
+      "file": "ях.json",
+      "wordforms_count": 14,
+      "size": 4230,
+      "hash": "1de8d407"
+    },
+    {
+      "prefix": "яц",
+      "file": "яц.json",
+      "wordforms_count": 21,
+      "size": 6218,
+      "hash": "8ebc1274"
+    },
+    {
+      "prefix": "яч",
+      "file": "яч.json",
+      "wordforms_count": 9,
+      "size": 2492,
+      "hash": "84586975"
+    },
+    {
+      "prefix": "яш",
+      "file": "яш.json",
+      "wordforms_count": 4,
+      "size": 1146,
+      "hash": "132fa4b0"
+    },
+    {
+      "prefix": "ящ",
+      "file": "ящ.json",
+      "wordforms_count": 5,
+      "size": 1424,
+      "hash": "4a19bbc4"
+    },
+    {
+      "prefix": "ёл",
+      "file": "ёл.json",
+      "wordforms_count": 3,
+      "size": 852,
+      "hash": "e4803469"
+    },
+    {
+      "prefix": "ёр",
+      "file": "ёр.json",
+      "wordforms_count": 4,
+      "size": 1142,
+      "hash": "3fa85e00"
+    }
+  ]
+}
