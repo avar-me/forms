@@ -557,6 +557,38 @@ class DictionaryIndex:
                 return resolved
         return None
 
+    def _lookup_sentence_case(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
+        """Map sentence-capitalized tokens when the lowercase form is an exact dictionary hit."""
+        folded = _sentence_case_fold(token)
+        if not folded:
+            return None
+
+        if folded in self.headwords:
+            entry = self.word_to_entry[folded][0]
+            pos = token_pos or _entry_pos(entry)
+            relation = _gram_form_relation(entry)
+            return folded, relation, pos, "high"
+
+        if folded not in self.form_to_lemmas:
+            return None
+
+        lemmas = self.form_to_lemmas[folded]
+        if len(lemmas) == 1:
+            lemma = next(iter(lemmas))
+        else:
+            lemma = self._pick_ambiguous_lemma(lemmas)
+        pos = token_pos or (_entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else "")
+        relation = ""
+        if lemma == folded and folded in self.word_to_entry and folded not in self.word_relations:
+            relation = _gram_form_relation(self.word_to_entry[folded][0])
+        return lemma, relation, pos, "medium"
+
+    def _canonical_example_wordform(self, token: str) -> str:
+        folded = _sentence_case_fold(token)
+        if folded and (folded in self.headwords or folded in self.form_to_lemmas):
+            return folded
+        return token
+
     def lookup_lemma(
         self,
         token: str,
@@ -595,6 +627,10 @@ class DictionaryIndex:
         headword = self._lookup_headword_self(token, token_pos)
         if headword:
             return headword
+
+        sentence_case = self._lookup_sentence_case(token, token_pos)
+        if sentence_case:
+            return sentence_case
 
         if context_entry is not None:
             local = self._lookup_in_article(context_entry, token, cache=entry_cache)
@@ -670,6 +706,14 @@ def _load_entries(path: Path) -> list[dict[str, Any]]:
             if line:
                 entries.append(json.loads(line))
     return entries
+
+
+def _sentence_case_fold(token: str) -> str | None:
+    """Fold sentence-initial uppercase: «Хъахӏилаб» → «хъахӏилаб»."""
+    if len(token) < 2 or not token[0].isupper():
+        return None
+    folded = token[0].lower() + token[1:]
+    return folded if folded != token else None
 
 
 def _normalize_example_token(raw: str) -> str:
@@ -863,9 +907,10 @@ class GimbatovExtractor(SourceExtractor):
                 if sense_text:
                     example_detail["sense"] = sense_text
                 for token in _iter_example_tokens(av_text):
+                    wordform = index._canonical_example_wordform(token)
                     if token in mappings:
                         rec = self._record(
-                            wordform=token,
+                            wordform=wordform,
                             subsource=self.SUB_EXAMPLES,
                             mappings=mappings,
                             detail=example_detail,
@@ -885,7 +930,7 @@ class GimbatovExtractor(SourceExtractor):
                         token_pos = ""
 
                     rec = self._record(
-                        wordform=token,
+                        wordform=wordform,
                         lemma=lemma,
                         relation=relation,
                         pos=token_pos if lemma else "",

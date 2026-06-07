@@ -268,21 +268,12 @@
               "алмасица",
               "алмасил"
             ]
-          }
-        ]
-      }
-    }
-  },
-  "Алмасица": {
-    "wordform": "Алмасица",
-    "sources": {
-      "gimbatov": {
-        "id": "gimbatov",
-        "name": "AV-RU словарь Гимбатова",
-        "mentions": [
+          },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "алмас",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "алмас",
             "av": "Алмасица чахъу гӏадин",
             "ru": "[выдрать] как сидорову козу; как Алмас овцу"

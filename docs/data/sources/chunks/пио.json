@@ -154,6 +154,14 @@
           },
           {
             "subsource": "examples",
+            "confidence": "low",
+            "entry": "рукъ",
+            "av": "Пионеразул рукъ",
+            "ru": "Дом пионеров",
+            "sense": "дом"
+          },
+          {
+            "subsource": "examples",
             "lemma": "пионер",
             "pos": "существительное",
             "confidence": "medium",
@@ -181,25 +189,6 @@
             "av": "пионеразул слёт",
             "ru": "пионерский слёт",
             "sense": "слёт"
-          }
-        ]
-      }
-    }
-  },
-  "Пионеразул": {
-    "wordform": "Пионеразул",
-    "sources": {
-      "gimbatov": {
-        "id": "gimbatov",
-        "name": "AV-RU словарь Гимбатова",
-        "mentions": [
-          {
-            "subsource": "examples",
-            "confidence": "low",
-            "entry": "рукъ",
-            "av": "Пионеразул рукъ",
-            "ru": "Дом пионеров",
-            "sense": "дом"
           }
         ]
       }

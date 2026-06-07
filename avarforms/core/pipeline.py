@@ -11,6 +11,7 @@ from .extractor import SourceExtractor, load_mappings
 from .models import AggregatedRecord, WordFormRecord
 from .provenance import write_provenance
 from .stats import build_gaps, build_stats, is_clear_record, write_gap_filters, write_stats
+from avarforms.web.chunking import normalize_word
 
 
 CSV_COLUMNS = ["wordform", "lemma", "relation", "pos", "source", "count"]
@@ -79,6 +80,43 @@ def _merge_resolved_duplicates(records: list[WordFormRecord]) -> list[WordFormRe
     return merged
 
 
+def _merge_case_variants(records: list[WordFormRecord]) -> list[WordFormRecord]:
+    """Fold wordforms that differ only by case into one canonical surface."""
+    grouped: dict[tuple[str, str], list[WordFormRecord]] = {}
+    for record in records:
+        grouped.setdefault((normalize_word(record.wordform), record.source), []).append(record)
+
+    merged: list[WordFormRecord] = []
+    for group in grouped.values():
+        surfaces = {record.wordform for record in group}
+        if len(surfaces) <= 1:
+            merged.extend(group)
+            continue
+
+        canonical = min(
+            surfaces,
+            key=lambda word: (word != word.lower(), sum(ch.isupper() for ch in word), word),
+        )
+        for record in group:
+            if record.wordform == canonical:
+                merged.append(record)
+                continue
+            merged.append(
+                WordFormRecord(
+                    wordform=canonical,
+                    lemma=record.lemma,
+                    relation=record.relation,
+                    pos=record.pos,
+                    source=record.source,
+                    source_id=record.source_id,
+                    subsource=record.subsource,
+                    confidence=record.confidence,
+                    detail=record.detail,
+                )
+            )
+    return merged
+
+
 def _aggregate(records: list[WordFormRecord]) -> list[AggregatedRecord]:
     buckets: dict[tuple[str, str, str, str, str], AggregatedRecord] = {}
     for record in records:
@@ -125,6 +163,7 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
         per_source_counts[spec["name"]] += len(source_records)
 
     all_records = _merge_resolved_duplicates(all_records)
+    all_records = _merge_case_variants(all_records)
     aggregated = _aggregate(all_records)
     output_cfg = config.get("output", {})
     csv_path = root / output_cfg.get("csv", "output/wordforms.csv")
