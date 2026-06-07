@@ -1,0 +1,102 @@
+{
+  "боз": {
+    "wordform": "боз",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "боз",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "боз",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "боз",
+              "бозица",
+              "бозил"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "бозил": {
+    "wordform": "бозил",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "боз",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "бозил",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "бозил"
+            ],
+            "from_lemma": "боз"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "боз",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "боз",
+            "av": "бозил натӏ",
+            "ru": "полметра бязи",
+            "sense": "бязь"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "боз",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "бозил",
+            "av": "бозил гурде",
+            "ru": "бязевая рубашка",
+            "sense": "бязевый"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "боз",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "мусру",
+            "av": "бозил мусру",
+            "ru": "саван из бязи",
+            "sense": "саван"
+          }
+        ]
+      }
+    }
+  },
+  "бозица": {
+    "wordform": "бозица",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "боз",
+            "pos": "существительное",
+            "entry": "боз",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "боз",
+              "бозица",
+              "бозил"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

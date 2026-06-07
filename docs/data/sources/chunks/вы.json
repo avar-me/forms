@@ -1,0 +1,75 @@
+{
+  "выставка": {
+    "wordform": "выставка",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "санайилаб",
+            "av": "санайилаб выставка",
+            "ru": "ежегодная выставка",
+            "sense": "ежегодный"
+          },
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "тӏахьазул",
+            "av": "тӏахьазул выставка",
+            "ru": "книжная выставка",
+            "sense": "книжный"
+          },
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "филателиялъул",
+            "av": "филателиялъул выставка",
+            "ru": "филателистическая выставка",
+            "sense": "филателистический"
+          }
+        ]
+      }
+    }
+  },
+  "выставкаялда": {
+    "wordform": "выставкаялда",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "павильон",
+            "av": "ТӀолгодунялалъул выставкаялда Россиялъул павильон",
+            "ru": "Российский павильон на Всемирной выставке",
+            "sense": "павильон"
+          }
+        ]
+      }
+    }
+  },
+  "выставкаялъул": {
+    "wordform": "выставкаялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "стенд",
+            "av": "выставкаялъул стенд",
+            "ru": "выставочный стенд",
+            "sense": "стенд"
+          }
+        ]
+      }
+    }
+  }
+}

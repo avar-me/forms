@@ -1,0 +1,9608 @@
+{
+  "version": "1.0.0",
+  "build_date": "2026-06-07T21:08:49.393595+00:00",
+  "total_wordforms": 76830,
+  "total_mentions": 171465,
+  "sources": [
+    {
+      "id": "gimbatov",
+      "name": "AV-RU словарь Гимбатова"
+    }
+  ],
+  "chunks": [
+    {
+      "prefix": "-а",
+      "file": "-а.json",
+      "wordforms_count": 4,
+      "size": 2272
+    },
+    {
+      "prefix": "-г",
+      "file": "-г.json",
+      "wordforms_count": 8,
+      "size": 4171
+    },
+    {
+      "prefix": "-д",
+      "file": "-д.json",
+      "wordforms_count": 3,
+      "size": 1837
+    },
+    {
+      "prefix": "-к",
+      "file": "-к.json",
+      "wordforms_count": 1,
+      "size": 499
+    },
+    {
+      "prefix": "-л",
+      "file": "-л.json",
+      "wordforms_count": 1,
+      "size": 509
+    },
+    {
+      "prefix": "-н",
+      "file": "-н.json",
+      "wordforms_count": 2,
+      "size": 980
+    },
+    {
+      "prefix": "-т",
+      "file": "-т.json",
+      "wordforms_count": 1,
+      "size": 557
+    },
+    {
+      "prefix": "-у",
+      "file": "-у.json",
+      "wordforms_count": 1,
+      "size": 497
+    },
+    {
+      "prefix": "-х",
+      "file": "-х.json",
+      "wordforms_count": 3,
+      "size": 1525
+    },
+    {
+      "prefix": "-ц",
+      "file": "-ц.json",
+      "wordforms_count": 2,
+      "size": 1044
+    },
+    {
+      "prefix": "-ч",
+      "file": "-ч.json",
+      "wordforms_count": 1,
+      "size": 511
+    },
+    {
+      "prefix": "-щ",
+      "file": "-щ.json",
+      "wordforms_count": 1,
+      "size": 537
+    },
+    {
+      "prefix": "а",
+      "file": "а.json",
+      "wordforms_count": 1,
+      "size": 13888
+    },
+    {
+      "prefix": "аб",
+      "file": "аб.json",
+      "wordforms_count": 1,
+      "size": 3694
+    },
+    {
+      "prefix": "аб-",
+      "file": "аб-.json",
+      "wordforms_count": 9,
+      "size": 7050
+    },
+    {
+      "prefix": "аба",
+      "file": "аба.json",
+      "wordforms_count": 36,
+      "size": 28792
+    },
+    {
+      "prefix": "абб",
+      "file": "абб.json",
+      "wordforms_count": 4,
+      "size": 3554
+    },
+    {
+      "prefix": "абг",
+      "file": "абг.json",
+      "wordforms_count": 18,
+      "size": 19774
+    },
+    {
+      "prefix": "абе",
+      "file": "абе.json",
+      "wordforms_count": 1,
+      "size": 7460
+    },
+    {
+      "prefix": "абз",
+      "file": "абз.json",
+      "wordforms_count": 5,
+      "size": 4916
+    },
+    {
+      "prefix": "аби",
+      "file": "аби.json",
+      "wordforms_count": 24,
+      "size": 35549
+    },
+    {
+      "prefix": "або",
+      "file": "або.json",
+      "wordforms_count": 7,
+      "size": 5106
+    },
+    {
+      "prefix": "абт",
+      "file": "абт.json",
+      "wordforms_count": 4,
+      "size": 2465
+    },
+    {
+      "prefix": "абу",
+      "file": "абу.json",
+      "wordforms_count": 48,
+      "size": 62674
+    },
+    {
+      "prefix": "абх",
+      "file": "абх.json",
+      "wordforms_count": 11,
+      "size": 7630
+    },
+    {
+      "prefix": "ав",
+      "file": "ав.json",
+      "wordforms_count": 1,
+      "size": 2527
+    },
+    {
+      "prefix": "ава",
+      "file": "ава.json",
+      "wordforms_count": 89,
+      "size": 104815
+    },
+    {
+      "prefix": "авв",
+      "file": "авв.json",
+      "wordforms_count": 1,
+      "size": 479
+    },
+    {
+      "prefix": "авг",
+      "file": "авг.json",
+      "wordforms_count": 21,
+      "size": 16256
+    },
+    {
+      "prefix": "ави",
+      "file": "ави.json",
+      "wordforms_count": 28,
+      "size": 25121
+    },
+    {
+      "prefix": "авл",
+      "file": "авл.json",
+      "wordforms_count": 15,
+      "size": 16694
+    },
+    {
+      "prefix": "авс",
+      "file": "авс.json",
+      "wordforms_count": 24,
+      "size": 16337
+    },
+    {
+      "prefix": "авт",
+      "file": "авт.json",
+      "wordforms_count": 88,
+      "size": 93917
+    },
+    {
+      "prefix": "аг",
+      "file": "аг.json",
+      "wordforms_count": 135,
+      "size": 122041
+    },
+    {
+      "prefix": "ад",
+      "file": "ад.json",
+      "wordforms_count": 92,
+      "size": 101287
+    },
+    {
+      "prefix": "аж",
+      "file": "аж.json",
+      "wordforms_count": 3,
+      "size": 1856
+    },
+    {
+      "prefix": "аз",
+      "file": "аз.json",
+      "wordforms_count": 132,
+      "size": 124825
+    },
+    {
+      "prefix": "ай",
+      "file": "ай.json",
+      "wordforms_count": 47,
+      "size": 35771
+    },
+    {
+      "prefix": "ак",
+      "file": "ак.json",
+      "wordforms_count": 95,
+      "size": 82821
+    },
+    {
+      "prefix": "ал",
+      "file": "ал.json",
+      "wordforms_count": 1,
+      "size": 3997
+    },
+    {
+      "prefix": "ала",
+      "file": "ала.json",
+      "wordforms_count": 20,
+      "size": 20952
+    },
+    {
+      "prefix": "алб",
+      "file": "алб.json",
+      "wordforms_count": 16,
+      "size": 11437
+    },
+    {
+      "prefix": "алг",
+      "file": "алг.json",
+      "wordforms_count": 13,
+      "size": 11795
+    },
+    {
+      "prefix": "алд",
+      "file": "алд.json",
+      "wordforms_count": 3,
+      "size": 2914
+    },
+    {
+      "prefix": "але",
+      "file": "але.json",
+      "wordforms_count": 3,
+      "size": 2079
+    },
+    {
+      "prefix": "алж",
+      "file": "алж.json",
+      "wordforms_count": 22,
+      "size": 22481
+    },
+    {
+      "prefix": "али",
+      "file": "али.json",
+      "wordforms_count": 15,
+      "size": 12926
+    },
+    {
+      "prefix": "алк",
+      "file": "алк.json",
+      "wordforms_count": 4,
+      "size": 3244
+    },
+    {
+      "prefix": "алл",
+      "file": "алл.json",
+      "wordforms_count": 33,
+      "size": 53681
+    },
+    {
+      "prefix": "алм",
+      "file": "алм.json",
+      "wordforms_count": 10,
+      "size": 8829
+    },
+    {
+      "prefix": "ало",
+      "file": "ало.json",
+      "wordforms_count": 4,
+      "size": 3069
+    },
+    {
+      "prefix": "алт",
+      "file": "алт.json",
+      "wordforms_count": 10,
+      "size": 6716
+    },
+    {
+      "prefix": "алф",
+      "file": "алф.json",
+      "wordforms_count": 7,
+      "size": 7062
+    },
+    {
+      "prefix": "алх",
+      "file": "алх.json",
+      "wordforms_count": 20,
+      "size": 17787
+    },
+    {
+      "prefix": "алч",
+      "file": "алч.json",
+      "wordforms_count": 4,
+      "size": 3410
+    },
+    {
+      "prefix": "алъ",
+      "file": "алъ.json",
+      "wordforms_count": 6,
+      "size": 7155
+    },
+    {
+      "prefix": "аль",
+      "file": "аль.json",
+      "wordforms_count": 23,
+      "size": 17921
+    },
+    {
+      "prefix": "алю",
+      "file": "алю.json",
+      "wordforms_count": 3,
+      "size": 3668
+    },
+    {
+      "prefix": "ам",
+      "file": "ам.json",
+      "wordforms_count": 104,
+      "size": 96336
+    },
+    {
+      "prefix": "ан",
+      "file": "ан.json",
+      "wordforms_count": 1,
+      "size": 482
+    },
+    {
+      "prefix": "ана",
+      "file": "ана.json",
+      "wordforms_count": 18,
+      "size": 113524
+    },
+    {
+      "prefix": "анб",
+      "file": "анб.json",
+      "wordforms_count": 3,
+      "size": 1935
+    },
+    {
+      "prefix": "анв",
+      "file": "анв.json",
+      "wordforms_count": 2,
+      "size": 1296
+    },
+    {
+      "prefix": "анг",
+      "file": "анг.json",
+      "wordforms_count": 7,
+      "size": 4938
+    },
+    {
+      "prefix": "анд",
+      "file": "анд.json",
+      "wordforms_count": 5,
+      "size": 3486
+    },
+    {
+      "prefix": "ане",
+      "file": "ане.json",
+      "wordforms_count": 4,
+      "size": 3154
+    },
+    {
+      "prefix": "анж",
+      "file": "анж.json",
+      "wordforms_count": 4,
+      "size": 2617
+    },
+    {
+      "prefix": "ани",
+      "file": "ани.json",
+      "wordforms_count": 44,
+      "size": 47259
+    },
+    {
+      "prefix": "анк",
+      "file": "анк.json",
+      "wordforms_count": 69,
+      "size": 80437
+    },
+    {
+      "prefix": "анл",
+      "file": "анл.json",
+      "wordforms_count": 52,
+      "size": 48168
+    },
+    {
+      "prefix": "анн",
+      "file": "анн.json",
+      "wordforms_count": 4,
+      "size": 3262
+    },
+    {
+      "prefix": "ано",
+      "file": "ано.json",
+      "wordforms_count": 5,
+      "size": 3667
+    },
+    {
+      "prefix": "анс",
+      "file": "анс.json",
+      "wordforms_count": 15,
+      "size": 12077
+    },
+    {
+      "prefix": "ант",
+      "file": "ант.json",
+      "wordforms_count": 20,
+      "size": 16508
+    },
+    {
+      "prefix": "ану",
+      "file": "ану.json",
+      "wordforms_count": 1,
+      "size": 566
+    },
+    {
+      "prefix": "анц",
+      "file": "анц.json",
+      "wordforms_count": 38,
+      "size": 57515
+    },
+    {
+      "prefix": "ап",
+      "file": "ап.json",
+      "wordforms_count": 53,
+      "size": 45998
+    },
+    {
+      "prefix": "ара",
+      "file": "ара.json",
+      "wordforms_count": 16,
+      "size": 30254
+    },
+    {
+      "prefix": "арб",
+      "file": "арб.json",
+      "wordforms_count": 17,
+      "size": 14319
+    },
+    {
+      "prefix": "арв",
+      "file": "арв.json",
+      "wordforms_count": 3,
+      "size": 1977
+    },
+    {
+      "prefix": "арг",
+      "file": "арг.json",
+      "wordforms_count": 20,
+      "size": 15614
+    },
+    {
+      "prefix": "аре",
+      "file": "аре.json",
+      "wordforms_count": 1,
+      "size": 864
+    },
+    {
+      "prefix": "ари",
+      "file": "ари.json",
+      "wordforms_count": 12,
+      "size": 10675
+    },
+    {
+      "prefix": "арк",
+      "file": "арк.json",
+      "wordforms_count": 4,
+      "size": 3344
+    },
+    {
+      "prefix": "арм",
+      "file": "арм.json",
+      "wordforms_count": 17,
+      "size": 21511
+    },
+    {
+      "prefix": "арт",
+      "file": "арт.json",
+      "wordforms_count": 28,
+      "size": 27670
+    },
+    {
+      "prefix": "арх",
+      "file": "арх.json",
+      "wordforms_count": 40,
+      "size": 35975
+    },
+    {
+      "prefix": "ас",
+      "file": "ас.json",
+      "wordforms_count": 1,
+      "size": 2964
+    },
+    {
+      "prefix": "ас-",
+      "file": "ас-.json",
+      "wordforms_count": 6,
+      "size": 4240
+    },
+    {
+      "prefix": "аса",
+      "file": "аса.json",
+      "wordforms_count": 29,
+      "size": 34569
+    },
+    {
+      "prefix": "асб",
+      "file": "асб.json",
+      "wordforms_count": 3,
+      "size": 3233
+    },
+    {
+      "prefix": "асг",
+      "file": "асг.json",
+      "wordforms_count": 3,
+      "size": 1952
+    },
+    {
+      "prefix": "асд",
+      "file": "асд.json",
+      "wordforms_count": 1,
+      "size": 575
+    },
+    {
+      "prefix": "аси",
+      "file": "аси.json",
+      "wordforms_count": 19,
+      "size": 18702
+    },
+    {
+      "prefix": "аск",
+      "file": "аск.json",
+      "wordforms_count": 25,
+      "size": 49604
+    },
+    {
+      "prefix": "асл",
+      "file": "асл.json",
+      "wordforms_count": 25,
+      "size": 29345
+    },
+    {
+      "prefix": "асм",
+      "file": "асм.json",
+      "wordforms_count": 4,
+      "size": 4681
+    },
+    {
+      "prefix": "асп",
+      "file": "асп.json",
+      "wordforms_count": 19,
+      "size": 14715
+    },
+    {
+      "prefix": "асс",
+      "file": "асс.json",
+      "wordforms_count": 17,
+      "size": 14108
+    },
+    {
+      "prefix": "аст",
+      "file": "аст.json",
+      "wordforms_count": 13,
+      "size": 11931
+    },
+    {
+      "prefix": "асу",
+      "file": "асу.json",
+      "wordforms_count": 2,
+      "size": 6310
+    },
+    {
+      "prefix": "асх",
+      "file": "асх.json",
+      "wordforms_count": 6,
+      "size": 4812
+    },
+    {
+      "prefix": "ат",
+      "file": "ат.json",
+      "wordforms_count": 25,
+      "size": 24675
+    },
+    {
+      "prefix": "аф",
+      "file": "аф.json",
+      "wordforms_count": 21,
+      "size": 13628
+    },
+    {
+      "prefix": "ах",
+      "file": "ах.json",
+      "wordforms_count": 1,
+      "size": 9724
+    },
+    {
+      "prefix": "ах-",
+      "file": "ах-.json",
+      "wordforms_count": 3,
+      "size": 2309
+    },
+    {
+      "prefix": "аха",
+      "file": "аха.json",
+      "wordforms_count": 22,
+      "size": 26187
+    },
+    {
+      "prefix": "ахб",
+      "file": "ахб.json",
+      "wordforms_count": 6,
+      "size": 20540
+    },
+    {
+      "prefix": "ахг",
+      "file": "ахг.json",
+      "wordforms_count": 1,
+      "size": 651
+    },
+    {
+      "prefix": "ахи",
+      "file": "ахи.json",
+      "wordforms_count": 59,
+      "size": 87498
+    },
+    {
+      "prefix": "ахт",
+      "file": "ахт.json",
+      "wordforms_count": 35,
+      "size": 27853
+    },
+    {
+      "prefix": "ахх",
+      "file": "ахх.json",
+      "wordforms_count": 2,
+      "size": 3051
+    },
+    {
+      "prefix": "ахц",
+      "file": "ахц.json",
+      "wordforms_count": 13,
+      "size": 9611
+    },
+    {
+      "prefix": "ахч",
+      "file": "ахч.json",
+      "wordforms_count": 4,
+      "size": 2585
+    },
+    {
+      "prefix": "ахъ",
+      "file": "ахъ.json",
+      "wordforms_count": 8,
+      "size": 6136
+    },
+    {
+      "prefix": "ахӏ",
+      "file": "ахӏ.json",
+      "wordforms_count": 108,
+      "size": 149620
+    },
+    {
+      "prefix": "ач",
+      "file": "ач.json",
+      "wordforms_count": 19,
+      "size": 15452
+    },
+    {
+      "prefix": "аш",
+      "file": "аш.json",
+      "wordforms_count": 23,
+      "size": 19418
+    },
+    {
+      "prefix": "аэ",
+      "file": "аэ.json",
+      "wordforms_count": 16,
+      "size": 11622
+    },
+    {
+      "prefix": "ая",
+      "file": "ая.json",
+      "wordforms_count": 17,
+      "size": 11265
+    },
+    {
+      "prefix": "б",
+      "file": "б.json",
+      "wordforms_count": 1,
+      "size": 535
+    },
+    {
+      "prefix": "баа",
+      "file": "баа.json",
+      "wordforms_count": 1,
+      "size": 1042
+    },
+    {
+      "prefix": "баб",
+      "file": "баб.json",
+      "wordforms_count": 33,
+      "size": 28462
+    },
+    {
+      "prefix": "бав",
+      "file": "бав.json",
+      "wordforms_count": 4,
+      "size": 2919
+    },
+    {
+      "prefix": "баг",
+      "file": "баг.json",
+      "wordforms_count": 394,
+      "size": 415635
+    },
+    {
+      "prefix": "бад",
+      "file": "бад.json",
+      "wordforms_count": 61,
+      "size": 79820
+    },
+    {
+      "prefix": "баж",
+      "file": "баж.json",
+      "wordforms_count": 39,
+      "size": 37031
+    },
+    {
+      "prefix": "баз",
+      "file": "баз.json",
+      "wordforms_count": 79,
+      "size": 240750
+    },
+    {
+      "prefix": "баи",
+      "file": "баи.json",
+      "wordforms_count": 9,
+      "size": 6989
+    },
+    {
+      "prefix": "бай",
+      "file": "бай.json",
+      "wordforms_count": 83,
+      "size": 109880
+    },
+    {
+      "prefix": "бак",
+      "file": "бак.json",
+      "wordforms_count": 463,
+      "size": 690917
+    },
+    {
+      "prefix": "бал",
+      "file": "бал.json",
+      "wordforms_count": 227,
+      "size": 323374
+    },
+    {
+      "prefix": "бан",
+      "file": "бан.json",
+      "wordforms_count": 55,
+      "size": 106924
+    },
+    {
+      "prefix": "бап",
+      "file": "бап.json",
+      "wordforms_count": 1,
+      "size": 771
+    },
+    {
+      "prefix": "бар",
+      "file": "бар.json",
+      "wordforms_count": 194,
+      "size": 222615
+    },
+    {
+      "prefix": "бас",
+      "file": "бас.json",
+      "wordforms_count": 113,
+      "size": 110593
+    },
+    {
+      "prefix": "бат",
+      "file": "бат.json",
+      "wordforms_count": 140,
+      "size": 226261
+    },
+    {
+      "prefix": "бау",
+      "file": "бау.json",
+      "wordforms_count": 1,
+      "size": 617
+    },
+    {
+      "prefix": "бах",
+      "file": "бах.json",
+      "wordforms_count": 417,
+      "size": 694632
+    },
+    {
+      "prefix": "бац",
+      "file": "бац.json",
+      "wordforms_count": 121,
+      "size": 181377
+    },
+    {
+      "prefix": "бач",
+      "file": "бач.json",
+      "wordforms_count": 172,
+      "size": 376090
+    },
+    {
+      "prefix": "баш",
+      "file": "баш.json",
+      "wordforms_count": 35,
+      "size": 25298
+    },
+    {
+      "prefix": "бащ",
+      "file": "бащ.json",
+      "wordforms_count": 49,
+      "size": 54581
+    },
+    {
+      "prefix": "баэ",
+      "file": "баэ.json",
+      "wordforms_count": 1,
+      "size": 609
+    },
+    {
+      "prefix": "бая",
+      "file": "бая.json",
+      "wordforms_count": 35,
+      "size": 33239
+    },
+    {
+      "prefix": "беб",
+      "file": "беб.json",
+      "wordforms_count": 4,
+      "size": 2701
+    },
+    {
+      "prefix": "бег",
+      "file": "бег.json",
+      "wordforms_count": 215,
+      "size": 247255
+    },
+    {
+      "prefix": "беж",
+      "file": "беж.json",
+      "wordforms_count": 66,
+      "size": 63400
+    },
+    {
+      "prefix": "бек",
+      "file": "бек.json",
+      "wordforms_count": 129,
+      "size": 166406
+    },
+    {
+      "prefix": "бел",
+      "file": "бел.json",
+      "wordforms_count": 100,
+      "size": 97721
+    },
+    {
+      "prefix": "бен",
+      "file": "бен.json",
+      "wordforms_count": 3,
+      "size": 4899
+    },
+    {
+      "prefix": "бер",
+      "file": "бер.json",
+      "wordforms_count": 333,
+      "size": 607491
+    },
+    {
+      "prefix": "бес",
+      "file": "бес.json",
+      "wordforms_count": 93,
+      "size": 87571
+    },
+    {
+      "prefix": "бет",
+      "file": "бет.json",
+      "wordforms_count": 171,
+      "size": 278518
+    },
+    {
+      "prefix": "бех",
+      "file": "бех.json",
+      "wordforms_count": 18,
+      "size": 15305
+    },
+    {
+      "prefix": "бец",
+      "file": "бец.json",
+      "wordforms_count": 239,
+      "size": 220407
+    },
+    {
+      "prefix": "беч",
+      "file": "беч.json",
+      "wordforms_count": 111,
+      "size": 122344
+    },
+    {
+      "prefix": "беэ",
+      "file": "беэ.json",
+      "wordforms_count": 25,
+      "size": 26496
+    },
+    {
+      "prefix": "би",
+      "file": "би.json",
+      "wordforms_count": 1,
+      "size": 18717
+    },
+    {
+      "prefix": "би-",
+      "file": "би-.json",
+      "wordforms_count": 1,
+      "size": 879
+    },
+    {
+      "prefix": "биа",
+      "file": "биа.json",
+      "wordforms_count": 21,
+      "size": 16028
+    },
+    {
+      "prefix": "биб",
+      "file": "биб.json",
+      "wordforms_count": 31,
+      "size": 33155
+    },
+    {
+      "prefix": "биг",
+      "file": "биг.json",
+      "wordforms_count": 84,
+      "size": 89166
+    },
+    {
+      "prefix": "бид",
+      "file": "бид.json",
+      "wordforms_count": 65,
+      "size": 64169
+    },
+    {
+      "prefix": "биж",
+      "file": "биж.json",
+      "wordforms_count": 29,
+      "size": 46043
+    },
+    {
+      "prefix": "биз",
+      "file": "биз.json",
+      "wordforms_count": 45,
+      "size": 35484
+    },
+    {
+      "prefix": "бии",
+      "file": "бии.json",
+      "wordforms_count": 10,
+      "size": 12857
+    },
+    {
+      "prefix": "бик",
+      "file": "бик.json",
+      "wordforms_count": 185,
+      "size": 173566
+    },
+    {
+      "prefix": "бил",
+      "file": "бил.json",
+      "wordforms_count": 99,
+      "size": 91193
+    },
+    {
+      "prefix": "био",
+      "file": "био.json",
+      "wordforms_count": 20,
+      "size": 17454
+    },
+    {
+      "prefix": "бир",
+      "file": "бир.json",
+      "wordforms_count": 17,
+      "size": 12151
+    },
+    {
+      "prefix": "бис",
+      "file": "бис.json",
+      "wordforms_count": 8,
+      "size": 8302
+    },
+    {
+      "prefix": "бит",
+      "file": "бит.json",
+      "wordforms_count": 78,
+      "size": 158790
+    },
+    {
+      "prefix": "биу",
+      "file": "биу.json",
+      "wordforms_count": 4,
+      "size": 7548
+    },
+    {
+      "prefix": "бих",
+      "file": "бих.json",
+      "wordforms_count": 250,
+      "size": 407621
+    },
+    {
+      "prefix": "биц",
+      "file": "биц.json",
+      "wordforms_count": 119,
+      "size": 178795
+    },
+    {
+      "prefix": "бич",
+      "file": "бич.json",
+      "wordforms_count": 139,
+      "size": 226553
+    },
+    {
+      "prefix": "биш",
+      "file": "биш.json",
+      "wordforms_count": 4,
+      "size": 2998
+    },
+    {
+      "prefix": "бищ",
+      "file": "бищ.json",
+      "wordforms_count": 27,
+      "size": 43206
+    },
+    {
+      "prefix": "бия",
+      "file": "бия.json",
+      "wordforms_count": 4,
+      "size": 3618
+    },
+    {
+      "prefix": "бк",
+      "file": "бк.json",
+      "wordforms_count": 1,
+      "size": 683
+    },
+    {
+      "prefix": "бл",
+      "file": "бл.json",
+      "wordforms_count": 18,
+      "size": 13925
+    },
+    {
+      "prefix": "бо",
+      "file": "бо.json",
+      "wordforms_count": 1,
+      "size": 9387
+    },
+    {
+      "prefix": "бог",
+      "file": "бог.json",
+      "wordforms_count": 84,
+      "size": 76180
+    },
+    {
+      "prefix": "бод",
+      "file": "бод.json",
+      "wordforms_count": 13,
+      "size": 14118
+    },
+    {
+      "prefix": "бож",
+      "file": "бож.json",
+      "wordforms_count": 46,
+      "size": 55476
+    },
+    {
+      "prefix": "боз",
+      "file": "боз.json",
+      "wordforms_count": 3,
+      "size": 2940
+    },
+    {
+      "prefix": "бок",
+      "file": "бок.json",
+      "wordforms_count": 133,
+      "size": 173903
+    },
+    {
+      "prefix": "бол",
+      "file": "бол.json",
+      "wordforms_count": 129,
+      "size": 124007
+    },
+    {
+      "prefix": "бом",
+      "file": "бом.json",
+      "wordforms_count": 9,
+      "size": 8377
+    },
+    {
+      "prefix": "бор",
+      "file": "бор.json",
+      "wordforms_count": 312,
+      "size": 332818
+    },
+    {
+      "prefix": "бос",
+      "file": "бос.json",
+      "wordforms_count": 73,
+      "size": 233613
+    },
+    {
+      "prefix": "бот",
+      "file": "бот.json",
+      "wordforms_count": 48,
+      "size": 48000
+    },
+    {
+      "prefix": "бох",
+      "file": "бох.json",
+      "wordforms_count": 81,
+      "size": 81135
+    },
+    {
+      "prefix": "боц",
+      "file": "боц.json",
+      "wordforms_count": 38,
+      "size": 57413
+    },
+    {
+      "prefix": "боч",
+      "file": "боч.json",
+      "wordforms_count": 8,
+      "size": 6835
+    },
+    {
+      "prefix": "бош",
+      "file": "бош.json",
+      "wordforms_count": 23,
+      "size": 16502
+    },
+    {
+      "prefix": "боя",
+      "file": "боя.json",
+      "wordforms_count": 2,
+      "size": 1521
+    },
+    {
+      "prefix": "бр",
+      "file": "бр.json",
+      "wordforms_count": 40,
+      "size": 39445
+    },
+    {
+      "prefix": "бу",
+      "file": "бу.json",
+      "wordforms_count": 1,
+      "size": 1144
+    },
+    {
+      "prefix": "буб",
+      "file": "буб.json",
+      "wordforms_count": 19,
+      "size": 14043
+    },
+    {
+      "prefix": "буг",
+      "file": "буг.json",
+      "wordforms_count": 161,
+      "size": 1004577
+    },
+    {
+      "prefix": "буд",
+      "file": "буд.json",
+      "wordforms_count": 18,
+      "size": 14958
+    },
+    {
+      "prefix": "буз",
+      "file": "буз.json",
+      "wordforms_count": 9,
+      "size": 6005
+    },
+    {
+      "prefix": "буй",
+      "file": "буй.json",
+      "wordforms_count": 2,
+      "size": 1334
+    },
+    {
+      "prefix": "бук",
+      "file": "бук.json",
+      "wordforms_count": 186,
+      "size": 423460
+    },
+    {
+      "prefix": "бул",
+      "file": "бул.json",
+      "wordforms_count": 57,
+      "size": 43197
+    },
+    {
+      "prefix": "бум",
+      "file": "бум.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "бун",
+      "file": "бун.json",
+      "wordforms_count": 14,
+      "size": 10425
+    },
+    {
+      "prefix": "бур",
+      "file": "бур.json",
+      "wordforms_count": 203,
+      "size": 183064
+    },
+    {
+      "prefix": "бус",
+      "file": "бус.json",
+      "wordforms_count": 128,
+      "size": 140598
+    },
+    {
+      "prefix": "бут",
+      "file": "бут.json",
+      "wordforms_count": 43,
+      "size": 46118
+    },
+    {
+      "prefix": "буу",
+      "file": "буу.json",
+      "wordforms_count": 1,
+      "size": 569
+    },
+    {
+      "prefix": "буф",
+      "file": "буф.json",
+      "wordforms_count": 10,
+      "size": 6952
+    },
+    {
+      "prefix": "бух",
+      "file": "бух.json",
+      "wordforms_count": 331,
+      "size": 328787
+    },
+    {
+      "prefix": "буц",
+      "file": "буц.json",
+      "wordforms_count": 80,
+      "size": 72847
+    },
+    {
+      "prefix": "буч",
+      "file": "буч.json",
+      "wordforms_count": 28,
+      "size": 20950
+    },
+    {
+      "prefix": "бущ",
+      "file": "бущ.json",
+      "wordforms_count": 12,
+      "size": 9269
+    },
+    {
+      "prefix": "буъ",
+      "file": "буъ.json",
+      "wordforms_count": 1,
+      "size": 885
+    },
+    {
+      "prefix": "бую",
+      "file": "бую.json",
+      "wordforms_count": 16,
+      "size": 15643
+    },
+    {
+      "prefix": "буя",
+      "file": "буя.json",
+      "wordforms_count": 1,
+      "size": 1272
+    },
+    {
+      "prefix": "бю",
+      "file": "бю.json",
+      "wordforms_count": 24,
+      "size": 22193
+    },
+    {
+      "prefix": "в",
+      "file": "в.json",
+      "wordforms_count": 1,
+      "size": 1294
+    },
+    {
+      "prefix": "ва",
+      "file": "ва.json",
+      "wordforms_count": 1,
+      "size": 13436
+    },
+    {
+      "prefix": "ваа",
+      "file": "ваа.json",
+      "wordforms_count": 1,
+      "size": 952
+    },
+    {
+      "prefix": "ваб",
+      "file": "ваб.json",
+      "wordforms_count": 6,
+      "size": 10391
+    },
+    {
+      "prefix": "вав",
+      "file": "вав.json",
+      "wordforms_count": 4,
+      "size": 2509
+    },
+    {
+      "prefix": "ваг",
+      "file": "ваг.json",
+      "wordforms_count": 70,
+      "size": 60629
+    },
+    {
+      "prefix": "вад",
+      "file": "вад.json",
+      "wordforms_count": 2,
+      "size": 1145
+    },
+    {
+      "prefix": "ваз",
+      "file": "ваз.json",
+      "wordforms_count": 13,
+      "size": 19732
+    },
+    {
+      "prefix": "вай",
+      "file": "вай.json",
+      "wordforms_count": 4,
+      "size": 11353
+    },
+    {
+      "prefix": "вак",
+      "file": "вак.json",
+      "wordforms_count": 87,
+      "size": 84420
+    },
+    {
+      "prefix": "вал",
+      "file": "вал.json",
+      "wordforms_count": 38,
+      "size": 57273
+    },
+    {
+      "prefix": "ван",
+      "file": "ван.json",
+      "wordforms_count": 8,
+      "size": 8528
+    },
+    {
+      "prefix": "вар",
+      "file": "вар.json",
+      "wordforms_count": 76,
+      "size": 69992
+    },
+    {
+      "prefix": "вас",
+      "file": "вас.json",
+      "wordforms_count": 78,
+      "size": 177348
+    },
+    {
+      "prefix": "ват",
+      "file": "ват.json",
+      "wordforms_count": 55,
+      "size": 69985
+    },
+    {
+      "prefix": "вах",
+      "file": "вах.json",
+      "wordforms_count": 109,
+      "size": 169904
+    },
+    {
+      "prefix": "вац",
+      "file": "вац.json",
+      "wordforms_count": 63,
+      "size": 87732
+    },
+    {
+      "prefix": "вач",
+      "file": "вач.json",
+      "wordforms_count": 67,
+      "size": 132382
+    },
+    {
+      "prefix": "ващ",
+      "file": "ващ.json",
+      "wordforms_count": 5,
+      "size": 3476
+    },
+    {
+      "prefix": "ве",
+      "file": "ве.json",
+      "wordforms_count": 1,
+      "size": 552
+    },
+    {
+      "prefix": "вег",
+      "file": "вег.json",
+      "wordforms_count": 11,
+      "size": 15982
+    },
+    {
+      "prefix": "вед",
+      "file": "вед.json",
+      "wordforms_count": 13,
+      "size": 11415
+    },
+    {
+      "prefix": "веж",
+      "file": "веж.json",
+      "wordforms_count": 3,
+      "size": 1816
+    },
+    {
+      "prefix": "век",
+      "file": "век.json",
+      "wordforms_count": 23,
+      "size": 21411
+    },
+    {
+      "prefix": "вел",
+      "file": "вел.json",
+      "wordforms_count": 24,
+      "size": 22165
+    },
+    {
+      "prefix": "вен",
+      "file": "вен.json",
+      "wordforms_count": 10,
+      "size": 6991
+    },
+    {
+      "prefix": "вер",
+      "file": "вер.json",
+      "wordforms_count": 20,
+      "size": 16826
+    },
+    {
+      "prefix": "вес",
+      "file": "вес.json",
+      "wordforms_count": 6,
+      "size": 4543
+    },
+    {
+      "prefix": "вет",
+      "file": "вет.json",
+      "wordforms_count": 29,
+      "size": 24561
+    },
+    {
+      "prefix": "вех",
+      "file": "вех.json",
+      "wordforms_count": 23,
+      "size": 40193
+    },
+    {
+      "prefix": "вец",
+      "file": "вец.json",
+      "wordforms_count": 19,
+      "size": 15724
+    },
+    {
+      "prefix": "веч",
+      "file": "веч.json",
+      "wordforms_count": 14,
+      "size": 10505
+    },
+    {
+      "prefix": "вещ",
+      "file": "вещ.json",
+      "wordforms_count": 1,
+      "size": 536
+    },
+    {
+      "prefix": "веэ",
+      "file": "веэ.json",
+      "wordforms_count": 1,
+      "size": 739
+    },
+    {
+      "prefix": "вз",
+      "file": "вз.json",
+      "wordforms_count": 8,
+      "size": 7989
+    },
+    {
+      "prefix": "виг",
+      "file": "виг.json",
+      "wordforms_count": 11,
+      "size": 7996
+    },
+    {
+      "prefix": "виж",
+      "file": "виж.json",
+      "wordforms_count": 4,
+      "size": 6011
+    },
+    {
+      "prefix": "виз",
+      "file": "виз.json",
+      "wordforms_count": 1,
+      "size": 639
+    },
+    {
+      "prefix": "вии",
+      "file": "вии.json",
+      "wordforms_count": 1,
+      "size": 687
+    },
+    {
+      "prefix": "вий",
+      "file": "вий.json",
+      "wordforms_count": 1,
+      "size": 1194
+    },
+    {
+      "prefix": "вик",
+      "file": "вик.json",
+      "wordforms_count": 8,
+      "size": 5416
+    },
+    {
+      "prefix": "вил",
+      "file": "вил.json",
+      "wordforms_count": 21,
+      "size": 18076
+    },
+    {
+      "prefix": "вир",
+      "file": "вир.json",
+      "wordforms_count": 6,
+      "size": 5159
+    },
+    {
+      "prefix": "вис",
+      "file": "вис.json",
+      "wordforms_count": 4,
+      "size": 3066
+    },
+    {
+      "prefix": "вит",
+      "file": "вит.json",
+      "wordforms_count": 28,
+      "size": 28405
+    },
+    {
+      "prefix": "виу",
+      "file": "виу.json",
+      "wordforms_count": 1,
+      "size": 638
+    },
+    {
+      "prefix": "вих",
+      "file": "вих.json",
+      "wordforms_count": 30,
+      "size": 31572
+    },
+    {
+      "prefix": "виц",
+      "file": "виц.json",
+      "wordforms_count": 3,
+      "size": 2605
+    },
+    {
+      "prefix": "вич",
+      "file": "вич.json",
+      "wordforms_count": 36,
+      "size": 33834
+    },
+    {
+      "prefix": "виш",
+      "file": "виш.json",
+      "wordforms_count": 1,
+      "size": 1101
+    },
+    {
+      "prefix": "вищ",
+      "file": "вищ.json",
+      "wordforms_count": 4,
+      "size": 7324
+    },
+    {
+      "prefix": "вл",
+      "file": "вл.json",
+      "wordforms_count": 4,
+      "size": 3425
+    },
+    {
+      "prefix": "во",
+      "file": "во.json",
+      "wordforms_count": 120,
+      "size": 127302
+    },
+    {
+      "prefix": "вр",
+      "file": "вр.json",
+      "wordforms_count": 1,
+      "size": 1084
+    },
+    {
+      "prefix": "ву",
+      "file": "ву.json",
+      "wordforms_count": 1,
+      "size": 486
+    },
+    {
+      "prefix": "вуг",
+      "file": "вуг.json",
+      "wordforms_count": 21,
+      "size": 209546
+    },
+    {
+      "prefix": "вуз",
+      "file": "вуз.json",
+      "wordforms_count": 1,
+      "size": 538
+    },
+    {
+      "prefix": "вуй",
+      "file": "вуй.json",
+      "wordforms_count": 1,
+      "size": 1281
+    },
+    {
+      "prefix": "вук",
+      "file": "вук.json",
+      "wordforms_count": 53,
+      "size": 122240
+    },
+    {
+      "prefix": "вус",
+      "file": "вус.json",
+      "wordforms_count": 21,
+      "size": 28034
+    },
+    {
+      "prefix": "вух",
+      "file": "вух.json",
+      "wordforms_count": 17,
+      "size": 16187
+    },
+    {
+      "prefix": "вуц",
+      "file": "вуц.json",
+      "wordforms_count": 6,
+      "size": 5798
+    },
+    {
+      "prefix": "вы",
+      "file": "вы.json",
+      "wordforms_count": 3,
+      "size": 2327
+    },
+    {
+      "prefix": "вь",
+      "file": "вь.json",
+      "wordforms_count": 10,
+      "size": 7148
+    },
+    {
+      "prefix": "га",
+      "file": "га.json",
+      "wordforms_count": 1,
+      "size": 644
+    },
+    {
+      "prefix": "габ",
+      "file": "габ.json",
+      "wordforms_count": 59,
+      "size": 70374
+    },
+    {
+      "prefix": "гав",
+      "file": "гав.json",
+      "wordforms_count": 11,
+      "size": 7344
+    },
+    {
+      "prefix": "гаг",
+      "file": "гаг.json",
+      "wordforms_count": 28,
+      "size": 25556
+    },
+    {
+      "prefix": "гад",
+      "file": "гад.json",
+      "wordforms_count": 9,
+      "size": 6082
+    },
+    {
+      "prefix": "гаж",
+      "file": "гаж.json",
+      "wordforms_count": 18,
+      "size": 15952
+    },
+    {
+      "prefix": "газ",
+      "file": "газ.json",
+      "wordforms_count": 47,
+      "size": 57510
+    },
+    {
+      "prefix": "гай",
+      "file": "гай.json",
+      "wordforms_count": 4,
+      "size": 5481
+    },
+    {
+      "prefix": "гал",
+      "file": "гал.json",
+      "wordforms_count": 83,
+      "size": 77668
+    },
+    {
+      "prefix": "гам",
+      "file": "гам.json",
+      "wordforms_count": 44,
+      "size": 74938
+    },
+    {
+      "prefix": "ган",
+      "file": "ган.json",
+      "wordforms_count": 64,
+      "size": 68548
+    },
+    {
+      "prefix": "гап",
+      "file": "гап.json",
+      "wordforms_count": 8,
+      "size": 6182
+    },
+    {
+      "prefix": "гар",
+      "file": "гар.json",
+      "wordforms_count": 177,
+      "size": 171079
+    },
+    {
+      "prefix": "гат",
+      "file": "гат.json",
+      "wordforms_count": 12,
+      "size": 9147
+    },
+    {
+      "prefix": "гау",
+      "file": "гау.json",
+      "wordforms_count": 5,
+      "size": 3631
+    },
+    {
+      "prefix": "гах",
+      "file": "гах.json",
+      "wordforms_count": 8,
+      "size": 5926
+    },
+    {
+      "prefix": "гач",
+      "file": "гач.json",
+      "wordforms_count": 24,
+      "size": 19678
+    },
+    {
+      "prefix": "гая",
+      "file": "гая.json",
+      "wordforms_count": 4,
+      "size": 2419
+    },
+    {
+      "prefix": "гва",
+      "file": "гва.json",
+      "wordforms_count": 175,
+      "size": 148504
+    },
+    {
+      "prefix": "гве",
+      "file": "гве.json",
+      "wordforms_count": 20,
+      "size": 22952
+    },
+    {
+      "prefix": "геб",
+      "file": "геб.json",
+      "wordforms_count": 21,
+      "size": 17392
+    },
+    {
+      "prefix": "гев",
+      "file": "гев.json",
+      "wordforms_count": 7,
+      "size": 4845
+    },
+    {
+      "prefix": "гед",
+      "file": "гед.json",
+      "wordforms_count": 1,
+      "size": 579
+    },
+    {
+      "prefix": "геж",
+      "file": "геж.json",
+      "wordforms_count": 3,
+      "size": 1814
+    },
+    {
+      "prefix": "гез",
+      "file": "гез.json",
+      "wordforms_count": 15,
+      "size": 11046
+    },
+    {
+      "prefix": "гей",
+      "file": "гей.json",
+      "wordforms_count": 6,
+      "size": 4084
+    },
+    {
+      "prefix": "гек",
+      "file": "гек.json",
+      "wordforms_count": 10,
+      "size": 7953
+    },
+    {
+      "prefix": "гел",
+      "file": "гел.json",
+      "wordforms_count": 43,
+      "size": 34799
+    },
+    {
+      "prefix": "гем",
+      "file": "гем.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "ген",
+      "file": "ген.json",
+      "wordforms_count": 53,
+      "size": 56732
+    },
+    {
+      "prefix": "гео",
+      "file": "гео.json",
+      "wordforms_count": 43,
+      "size": 39726
+    },
+    {
+      "prefix": "гер",
+      "file": "гер.json",
+      "wordforms_count": 67,
+      "size": 53251
+    },
+    {
+      "prefix": "гес",
+      "file": "гес.json",
+      "wordforms_count": 7,
+      "size": 5545
+    },
+    {
+      "prefix": "ги",
+      "file": "ги.json",
+      "wordforms_count": 180,
+      "size": 150529
+    },
+    {
+      "prefix": "гл",
+      "file": "гл.json",
+      "wordforms_count": 23,
+      "size": 24008
+    },
+    {
+      "prefix": "гоб",
+      "file": "гоб.json",
+      "wordforms_count": 4,
+      "size": 2963
+    },
+    {
+      "prefix": "гог",
+      "file": "гог.json",
+      "wordforms_count": 42,
+      "size": 39280
+    },
+    {
+      "prefix": "год",
+      "file": "год.json",
+      "wordforms_count": 11,
+      "size": 10104
+    },
+    {
+      "prefix": "гож",
+      "file": "гож.json",
+      "wordforms_count": 6,
+      "size": 4224
+    },
+    {
+      "prefix": "гоз",
+      "file": "гоз.json",
+      "wordforms_count": 28,
+      "size": 22584
+    },
+    {
+      "prefix": "гол",
+      "file": "гол.json",
+      "wordforms_count": 21,
+      "size": 15075
+    },
+    {
+      "prefix": "гом",
+      "file": "гом.json",
+      "wordforms_count": 12,
+      "size": 10781
+    },
+    {
+      "prefix": "гон",
+      "file": "гон.json",
+      "wordforms_count": 26,
+      "size": 22107
+    },
+    {
+      "prefix": "гор",
+      "file": "гор.json",
+      "wordforms_count": 99,
+      "size": 121231
+    },
+    {
+      "prefix": "гос",
+      "file": "гос.json",
+      "wordforms_count": 11,
+      "size": 9459
+    },
+    {
+      "prefix": "гот",
+      "file": "гот.json",
+      "wordforms_count": 5,
+      "size": 3629
+    },
+    {
+      "prefix": "гох",
+      "file": "гох.json",
+      "wordforms_count": 29,
+      "size": 34375
+    },
+    {
+      "prefix": "гоч",
+      "file": "гоч.json",
+      "wordforms_count": 55,
+      "size": 45356
+    },
+    {
+      "prefix": "гр",
+      "file": "гр.json",
+      "wordforms_count": 107,
+      "size": 88666
+    },
+    {
+      "prefix": "губ",
+      "file": "губ.json",
+      "wordforms_count": 9,
+      "size": 8004
+    },
+    {
+      "prefix": "гуг",
+      "file": "гуг.json",
+      "wordforms_count": 39,
+      "size": 40371
+    },
+    {
+      "prefix": "гуд",
+      "file": "гуд.json",
+      "wordforms_count": 35,
+      "size": 30008
+    },
+    {
+      "prefix": "гуж",
+      "file": "гуж.json",
+      "wordforms_count": 14,
+      "size": 12346
+    },
+    {
+      "prefix": "гуз",
+      "file": "гуз.json",
+      "wordforms_count": 13,
+      "size": 8830
+    },
+    {
+      "prefix": "гук",
+      "file": "гук.json",
+      "wordforms_count": 16,
+      "size": 14023
+    },
+    {
+      "prefix": "гул",
+      "file": "гул.json",
+      "wordforms_count": 45,
+      "size": 52891
+    },
+    {
+      "prefix": "гум",
+      "file": "гум.json",
+      "wordforms_count": 8,
+      "size": 8305
+    },
+    {
+      "prefix": "гун",
+      "file": "гун.json",
+      "wordforms_count": 32,
+      "size": 26399
+    },
+    {
+      "prefix": "гур",
+      "file": "гур.json",
+      "wordforms_count": 190,
+      "size": 309638
+    },
+    {
+      "prefix": "гус",
+      "file": "гус.json",
+      "wordforms_count": 4,
+      "size": 2613
+    },
+    {
+      "prefix": "гут",
+      "file": "гут.json",
+      "wordforms_count": 3,
+      "size": 2405
+    },
+    {
+      "prefix": "гуч",
+      "file": "гуч.json",
+      "wordforms_count": 25,
+      "size": 23394
+    },
+    {
+      "prefix": "гъа",
+      "file": "гъа.json",
+      "wordforms_count": 746,
+      "size": 661260
+    },
+    {
+      "prefix": "гъв",
+      "file": "гъв.json",
+      "wordforms_count": 181,
+      "size": 211284
+    },
+    {
+      "prefix": "гъе",
+      "file": "гъе.json",
+      "wordforms_count": 83,
+      "size": 101076
+    },
+    {
+      "prefix": "гъи",
+      "file": "гъи.json",
+      "wordforms_count": 105,
+      "size": 91076
+    },
+    {
+      "prefix": "гъо",
+      "file": "гъо.json",
+      "wordforms_count": 295,
+      "size": 447886
+    },
+    {
+      "prefix": "гъу",
+      "file": "гъу.json",
+      "wordforms_count": 310,
+      "size": 304984
+    },
+    {
+      "prefix": "гь",
+      "file": "гь.json",
+      "wordforms_count": 1,
+      "size": 479
+    },
+    {
+      "prefix": "гьа",
+      "file": "гьа.json",
+      "wordforms_count": 1087,
+      "size": 2263076
+    },
+    {
+      "prefix": "гьв",
+      "file": "гьв.json",
+      "wordforms_count": 49,
+      "size": 56189
+    },
+    {
+      "prefix": "гье",
+      "file": "гье.json",
+      "wordforms_count": 564,
+      "size": 1097137
+    },
+    {
+      "prefix": "гьи",
+      "file": "гьи.json",
+      "wordforms_count": 205,
+      "size": 234777
+    },
+    {
+      "prefix": "гьо",
+      "file": "гьо.json",
+      "wordforms_count": 323,
+      "size": 438468
+    },
+    {
+      "prefix": "гьу",
+      "file": "гьу.json",
+      "wordforms_count": 376,
+      "size": 464946
+    },
+    {
+      "prefix": "гӏа",
+      "file": "гӏа.json",
+      "wordforms_count": 1677,
+      "size": 2363147
+    },
+    {
+      "prefix": "гӏе",
+      "file": "гӏе.json",
+      "wordforms_count": 432,
+      "size": 603017
+    },
+    {
+      "prefix": "гӏи",
+      "file": "гӏи.json",
+      "wordforms_count": 313,
+      "size": 354767
+    },
+    {
+      "prefix": "гӏо",
+      "file": "гӏо.json",
+      "wordforms_count": 529,
+      "size": 669072
+    },
+    {
+      "prefix": "гӏу",
+      "file": "гӏу.json",
+      "wordforms_count": 473,
+      "size": 600732
+    },
+    {
+      "prefix": "даб",
+      "file": "даб.json",
+      "wordforms_count": 17,
+      "size": 15434
+    },
+    {
+      "prefix": "дав",
+      "file": "дав.json",
+      "wordforms_count": 32,
+      "size": 26117
+    },
+    {
+      "prefix": "даг",
+      "file": "даг.json",
+      "wordforms_count": 149,
+      "size": 177258
+    },
+    {
+      "prefix": "дад",
+      "file": "дад.json",
+      "wordforms_count": 27,
+      "size": 24259
+    },
+    {
+      "prefix": "даз",
+      "file": "даз.json",
+      "wordforms_count": 4,
+      "size": 2573
+    },
+    {
+      "prefix": "даи",
+      "file": "даи.json",
+      "wordforms_count": 17,
+      "size": 14312
+    },
+    {
+      "prefix": "дак",
+      "file": "дак.json",
+      "wordforms_count": 5,
+      "size": 3444
+    },
+    {
+      "prefix": "дал",
+      "file": "дал.json",
+      "wordforms_count": 75,
+      "size": 62793
+    },
+    {
+      "prefix": "дам",
+      "file": "дам.json",
+      "wordforms_count": 7,
+      "size": 5018
+    },
+    {
+      "prefix": "дан",
+      "file": "дан.json",
+      "wordforms_count": 185,
+      "size": 249748
+    },
+    {
+      "prefix": "дап",
+      "file": "дап.json",
+      "wordforms_count": 4,
+      "size": 2701
+    },
+    {
+      "prefix": "дар",
+      "file": "дар.json",
+      "wordforms_count": 128,
+      "size": 165237
+    },
+    {
+      "prefix": "дас",
+      "file": "дас.json",
+      "wordforms_count": 6,
+      "size": 3860
+    },
+    {
+      "prefix": "дах",
+      "file": "дах.json",
+      "wordforms_count": 25,
+      "size": 18506
+    },
+    {
+      "prefix": "дац",
+      "file": "дац.json",
+      "wordforms_count": 3,
+      "size": 4231
+    },
+    {
+      "prefix": "дач",
+      "file": "дач.json",
+      "wordforms_count": 7,
+      "size": 4316
+    },
+    {
+      "prefix": "даш",
+      "file": "даш.json",
+      "wordforms_count": 8,
+      "size": 5510
+    },
+    {
+      "prefix": "дв",
+      "file": "дв.json",
+      "wordforms_count": 71,
+      "size": 54696
+    },
+    {
+      "prefix": "деб",
+      "file": "деб.json",
+      "wordforms_count": 6,
+      "size": 7955
+    },
+    {
+      "prefix": "дег",
+      "file": "дег.json",
+      "wordforms_count": 6,
+      "size": 10545
+    },
+    {
+      "prefix": "дее",
+      "file": "дее.json",
+      "wordforms_count": 4,
+      "size": 4483
+    },
+    {
+      "prefix": "деж",
+      "file": "деж.json",
+      "wordforms_count": 10,
+      "size": 8234
+    },
+    {
+      "prefix": "дез",
+      "file": "дез.json",
+      "wordforms_count": 10,
+      "size": 8058
+    },
+    {
+      "prefix": "дек",
+      "file": "дек.json",
+      "wordforms_count": 52,
+      "size": 44004
+    },
+    {
+      "prefix": "дел",
+      "file": "дел.json",
+      "wordforms_count": 23,
+      "size": 19169
+    },
+    {
+      "prefix": "дем",
+      "file": "дем.json",
+      "wordforms_count": 34,
+      "size": 30902
+    },
+    {
+      "prefix": "ден",
+      "file": "ден.json",
+      "wordforms_count": 4,
+      "size": 3085
+    },
+    {
+      "prefix": "деп",
+      "file": "деп.json",
+      "wordforms_count": 22,
+      "size": 21936
+    },
+    {
+      "prefix": "дер",
+      "file": "дер.json",
+      "wordforms_count": 31,
+      "size": 22462
+    },
+    {
+      "prefix": "дес",
+      "file": "дес.json",
+      "wordforms_count": 8,
+      "size": 7336
+    },
+    {
+      "prefix": "деф",
+      "file": "деф.json",
+      "wordforms_count": 4,
+      "size": 3075
+    },
+    {
+      "prefix": "дец",
+      "file": "дец.json",
+      "wordforms_count": 4,
+      "size": 3646
+    },
+    {
+      "prefix": "дж",
+      "file": "дж.json",
+      "wordforms_count": 13,
+      "size": 9592
+    },
+    {
+      "prefix": "дз",
+      "file": "дз.json",
+      "wordforms_count": 7,
+      "size": 4701
+    },
+    {
+      "prefix": "диа",
+      "file": "диа.json",
+      "wordforms_count": 41,
+      "size": 35926
+    },
+    {
+      "prefix": "диб",
+      "file": "диб.json",
+      "wordforms_count": 16,
+      "size": 16720
+    },
+    {
+      "prefix": "див",
+      "file": "див.json",
+      "wordforms_count": 34,
+      "size": 35890
+    },
+    {
+      "prefix": "диг",
+      "file": "диг.json",
+      "wordforms_count": 10,
+      "size": 7546
+    },
+    {
+      "prefix": "дид",
+      "file": "дид.json",
+      "wordforms_count": 11,
+      "size": 126120
+    },
+    {
+      "prefix": "дие",
+      "file": "дие.json",
+      "wordforms_count": 7,
+      "size": 75500
+    },
+    {
+      "prefix": "диз",
+      "file": "диз.json",
+      "wordforms_count": 4,
+      "size": 3479
+    },
+    {
+      "prefix": "дии",
+      "file": "дии.json",
+      "wordforms_count": 1,
+      "size": 557
+    },
+    {
+      "prefix": "дий",
+      "file": "дий.json",
+      "wordforms_count": 1,
+      "size": 717
+    },
+    {
+      "prefix": "дик",
+      "file": "дик.json",
+      "wordforms_count": 29,
+      "size": 26664
+    },
+    {
+      "prefix": "дил",
+      "file": "дил.json",
+      "wordforms_count": 5,
+      "size": 4112
+    },
+    {
+      "prefix": "дин",
+      "file": "дин.json",
+      "wordforms_count": 38,
+      "size": 35949
+    },
+    {
+      "prefix": "дип",
+      "file": "дип.json",
+      "wordforms_count": 21,
+      "size": 18541
+    },
+    {
+      "prefix": "дир",
+      "file": "дир.json",
+      "wordforms_count": 75,
+      "size": 236030
+    },
+    {
+      "prefix": "дис",
+      "file": "дис.json",
+      "wordforms_count": 12,
+      "size": 13385
+    },
+    {
+      "prefix": "дит",
+      "file": "дит.json",
+      "wordforms_count": 1,
+      "size": 556
+    },
+    {
+      "prefix": "дих",
+      "file": "дих.json",
+      "wordforms_count": 6,
+      "size": 20897
+    },
+    {
+      "prefix": "диц",
+      "file": "диц.json",
+      "wordforms_count": 6,
+      "size": 73258
+    },
+    {
+      "prefix": "дия",
+      "file": "дия.json",
+      "wordforms_count": 3,
+      "size": 2821
+    },
+    {
+      "prefix": "дн",
+      "file": "дн.json",
+      "wordforms_count": 5,
+      "size": 4253
+    },
+    {
+      "prefix": "доб",
+      "file": "доб.json",
+      "wordforms_count": 25,
+      "size": 64557
+    },
+    {
+      "prefix": "дов",
+      "file": "дов.json",
+      "wordforms_count": 27,
+      "size": 257355
+    },
+    {
+      "prefix": "дог",
+      "file": "дог.json",
+      "wordforms_count": 19,
+      "size": 15488
+    },
+    {
+      "prefix": "дод",
+      "file": "дод.json",
+      "wordforms_count": 12,
+      "size": 12257
+    },
+    {
+      "prefix": "доз",
+      "file": "доз.json",
+      "wordforms_count": 9,
+      "size": 59931
+    },
+    {
+      "prefix": "дой",
+      "file": "дой.json",
+      "wordforms_count": 16,
+      "size": 73853
+    },
+    {
+      "prefix": "док",
+      "file": "док.json",
+      "wordforms_count": 28,
+      "size": 34691
+    },
+    {
+      "prefix": "дол",
+      "file": "дол.json",
+      "wordforms_count": 23,
+      "size": 123250
+    },
+    {
+      "prefix": "дом",
+      "file": "дом.json",
+      "wordforms_count": 14,
+      "size": 10069
+    },
+    {
+      "prefix": "дон",
+      "file": "дон.json",
+      "wordforms_count": 21,
+      "size": 15203
+    },
+    {
+      "prefix": "доп",
+      "file": "доп.json",
+      "wordforms_count": 4,
+      "size": 4176
+    },
+    {
+      "prefix": "дор",
+      "file": "дор.json",
+      "wordforms_count": 6,
+      "size": 5130
+    },
+    {
+      "prefix": "дос",
+      "file": "дос.json",
+      "wordforms_count": 23,
+      "size": 325755
+    },
+    {
+      "prefix": "дот",
+      "file": "дот.json",
+      "wordforms_count": 4,
+      "size": 3543
+    },
+    {
+      "prefix": "дох",
+      "file": "дох.json",
+      "wordforms_count": 7,
+      "size": 5085
+    },
+    {
+      "prefix": "доц",
+      "file": "доц.json",
+      "wordforms_count": 9,
+      "size": 7361
+    },
+    {
+      "prefix": "доя",
+      "file": "доя.json",
+      "wordforms_count": 5,
+      "size": 3221
+    },
+    {
+      "prefix": "др",
+      "file": "др.json",
+      "wordforms_count": 22,
+      "size": 17783
+    },
+    {
+      "prefix": "дуб",
+      "file": "дуб.json",
+      "wordforms_count": 4,
+      "size": 3735
+    },
+    {
+      "prefix": "дуг",
+      "file": "дуг.json",
+      "wordforms_count": 34,
+      "size": 31468
+    },
+    {
+      "prefix": "дуд",
+      "file": "дуд.json",
+      "wordforms_count": 25,
+      "size": 80800
+    },
+    {
+      "prefix": "дуе",
+      "file": "дуе.json",
+      "wordforms_count": 4,
+      "size": 47999
+    },
+    {
+      "prefix": "дуз",
+      "file": "дуз.json",
+      "wordforms_count": 2,
+      "size": 2279
+    },
+    {
+      "prefix": "дуй",
+      "file": "дуй.json",
+      "wordforms_count": 1,
+      "size": 1897
+    },
+    {
+      "prefix": "дук",
+      "file": "дук.json",
+      "wordforms_count": 1,
+      "size": 877
+    },
+    {
+      "prefix": "дул",
+      "file": "дул.json",
+      "wordforms_count": 4,
+      "size": 3103
+    },
+    {
+      "prefix": "дум",
+      "file": "дум.json",
+      "wordforms_count": 28,
+      "size": 21382
+    },
+    {
+      "prefix": "дун",
+      "file": "дун.json",
+      "wordforms_count": 59,
+      "size": 227170
+    },
+    {
+      "prefix": "дур",
+      "file": "дур.json",
+      "wordforms_count": 74,
+      "size": 162871
+    },
+    {
+      "prefix": "дух",
+      "file": "дух.json",
+      "wordforms_count": 15,
+      "size": 20673
+    },
+    {
+      "prefix": "дуц",
+      "file": "дуц.json",
+      "wordforms_count": 6,
+      "size": 50279
+    },
+    {
+      "prefix": "душ",
+      "file": "душ.json",
+      "wordforms_count": 9,
+      "size": 6109
+    },
+    {
+      "prefix": "дуъ",
+      "file": "дуъ.json",
+      "wordforms_count": 1,
+      "size": 924
+    },
+    {
+      "prefix": "дуэ",
+      "file": "дуэ.json",
+      "wordforms_count": 5,
+      "size": 3191
+    },
+    {
+      "prefix": "ев",
+      "file": "ев.json",
+      "wordforms_count": 12,
+      "size": 7654
+    },
+    {
+      "prefix": "ег",
+      "file": "ег.json",
+      "wordforms_count": 14,
+      "size": 9101
+    },
+    {
+      "prefix": "ек",
+      "file": "ек.json",
+      "wordforms_count": 8,
+      "size": 5509
+    },
+    {
+      "prefix": "ел",
+      "file": "ел.json",
+      "wordforms_count": 4,
+      "size": 2907
+    },
+    {
+      "prefix": "ес",
+      "file": "ес.json",
+      "wordforms_count": 11,
+      "size": 7851
+    },
+    {
+      "prefix": "ет",
+      "file": "ет.json",
+      "wordforms_count": 4,
+      "size": 3274
+    },
+    {
+      "prefix": "еф",
+      "file": "еф.json",
+      "wordforms_count": 8,
+      "size": 6541
+    },
+    {
+      "prefix": "ец",
+      "file": "ец.json",
+      "wordforms_count": 10,
+      "size": 7088
+    },
+    {
+      "prefix": "еч",
+      "file": "еч.json",
+      "wordforms_count": 4,
+      "size": 3376
+    },
+    {
+      "prefix": "еэ",
+      "file": "еэ.json",
+      "wordforms_count": 1,
+      "size": 746
+    },
+    {
+      "prefix": "жа",
+      "file": "жа.json",
+      "wordforms_count": 1,
+      "size": 2798
+    },
+    {
+      "prefix": "жаб",
+      "file": "жаб.json",
+      "wordforms_count": 1,
+      "size": 590
+    },
+    {
+      "prefix": "жав",
+      "file": "жав.json",
+      "wordforms_count": 24,
+      "size": 35665
+    },
+    {
+      "prefix": "жаг",
+      "file": "жаг.json",
+      "wordforms_count": 74,
+      "size": 61163
+    },
+    {
+      "prefix": "жад",
+      "file": "жад.json",
+      "wordforms_count": 4,
+      "size": 2621
+    },
+    {
+      "prefix": "жаж",
+      "file": "жаж.json",
+      "wordforms_count": 5,
+      "size": 3306
+    },
+    {
+      "prefix": "жаз",
+      "file": "жаз.json",
+      "wordforms_count": 28,
+      "size": 20619
+    },
+    {
+      "prefix": "жай",
+      "file": "жай.json",
+      "wordforms_count": 8,
+      "size": 5812
+    },
+    {
+      "prefix": "жак",
+      "file": "жак.json",
+      "wordforms_count": 16,
+      "size": 64520
+    },
+    {
+      "prefix": "жал",
+      "file": "жал.json",
+      "wordforms_count": 25,
+      "size": 31276
+    },
+    {
+      "prefix": "жам",
+      "file": "жам.json",
+      "wordforms_count": 22,
+      "size": 25580
+    },
+    {
+      "prefix": "жан",
+      "file": "жан.json",
+      "wordforms_count": 109,
+      "size": 129797
+    },
+    {
+      "prefix": "жар",
+      "file": "жар.json",
+      "wordforms_count": 14,
+      "size": 9729
+    },
+    {
+      "prefix": "жас",
+      "file": "жас.json",
+      "wordforms_count": 8,
+      "size": 6741
+    },
+    {
+      "prefix": "жах",
+      "file": "жах.json",
+      "wordforms_count": 23,
+      "size": 19671
+    },
+    {
+      "prefix": "жая",
+      "file": "жая.json",
+      "wordforms_count": 2,
+      "size": 1220
+    },
+    {
+      "prefix": "жв",
+      "file": "жв.json",
+      "wordforms_count": 25,
+      "size": 17355
+    },
+    {
+      "prefix": "же",
+      "file": "же.json",
+      "wordforms_count": 81,
+      "size": 84655
+    },
+    {
+      "prefix": "жиб",
+      "file": "жиб.json",
+      "wordforms_count": 3,
+      "size": 9710
+    },
+    {
+      "prefix": "жив",
+      "file": "жив.json",
+      "wordforms_count": 3,
+      "size": 12913
+    },
+    {
+      "prefix": "жиг",
+      "file": "жиг.json",
+      "wordforms_count": 21,
+      "size": 19387
+    },
+    {
+      "prefix": "жид",
+      "file": "жид.json",
+      "wordforms_count": 4,
+      "size": 3661
+    },
+    {
+      "prefix": "жий",
+      "file": "жий.json",
+      "wordforms_count": 3,
+      "size": 4662
+    },
+    {
+      "prefix": "жил",
+      "file": "жил.json",
+      "wordforms_count": 8,
+      "size": 5966
+    },
+    {
+      "prefix": "жим",
+      "file": "жим.json",
+      "wordforms_count": 6,
+      "size": 4678
+    },
+    {
+      "prefix": "жин",
+      "file": "жин.json",
+      "wordforms_count": 49,
+      "size": 89335
+    },
+    {
+      "prefix": "жип",
+      "file": "жип.json",
+      "wordforms_count": 4,
+      "size": 2573
+    },
+    {
+      "prefix": "жир",
+      "file": "жир.json",
+      "wordforms_count": 28,
+      "size": 19042
+    },
+    {
+      "prefix": "жис",
+      "file": "жис.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "жо",
+      "file": "жо.json",
+      "wordforms_count": 1,
+      "size": 113106
+    },
+    {
+      "prefix": "жов",
+      "file": "жов.json",
+      "wordforms_count": 3,
+      "size": 1856
+    },
+    {
+      "prefix": "жог",
+      "file": "жог.json",
+      "wordforms_count": 9,
+      "size": 8458
+    },
+    {
+      "prefix": "жой",
+      "file": "жой.json",
+      "wordforms_count": 5,
+      "size": 5744
+    },
+    {
+      "prefix": "жок",
+      "file": "жок.json",
+      "wordforms_count": 3,
+      "size": 1898
+    },
+    {
+      "prefix": "жон",
+      "file": "жон.json",
+      "wordforms_count": 23,
+      "size": 18862
+    },
+    {
+      "prefix": "жоя",
+      "file": "жоя.json",
+      "wordforms_count": 8,
+      "size": 12299
+    },
+    {
+      "prefix": "жо…",
+      "file": "жо….json",
+      "wordforms_count": 1,
+      "size": 556
+    },
+    {
+      "prefix": "жуб",
+      "file": "жуб.json",
+      "wordforms_count": 34,
+      "size": 31840
+    },
+    {
+      "prefix": "жув",
+      "file": "жув.json",
+      "wordforms_count": 10,
+      "size": 9105
+    },
+    {
+      "prefix": "жуг",
+      "file": "жуг.json",
+      "wordforms_count": 20,
+      "size": 16782
+    },
+    {
+      "prefix": "жуд",
+      "file": "жуд.json",
+      "wordforms_count": 1,
+      "size": 2226
+    },
+    {
+      "prefix": "жуж",
+      "file": "жуж.json",
+      "wordforms_count": 27,
+      "size": 24727
+    },
+    {
+      "prefix": "жуз",
+      "file": "жуз.json",
+      "wordforms_count": 10,
+      "size": 7103
+    },
+    {
+      "prefix": "жуй",
+      "file": "жуй.json",
+      "wordforms_count": 8,
+      "size": 5549
+    },
+    {
+      "prefix": "жул",
+      "file": "жул.json",
+      "wordforms_count": 19,
+      "size": 16638
+    },
+    {
+      "prefix": "жум",
+      "file": "жум.json",
+      "wordforms_count": 8,
+      "size": 7115
+    },
+    {
+      "prefix": "жун",
+      "file": "жун.json",
+      "wordforms_count": 10,
+      "size": 7879
+    },
+    {
+      "prefix": "жур",
+      "file": "жур.json",
+      "wordforms_count": 40,
+      "size": 35987
+    },
+    {
+      "prefix": "жут",
+      "file": "жут.json",
+      "wordforms_count": 3,
+      "size": 2183
+    },
+    {
+      "prefix": "жух",
+      "file": "жух.json",
+      "wordforms_count": 4,
+      "size": 2431
+    },
+    {
+      "prefix": "жю",
+      "file": "жю.json",
+      "wordforms_count": 3,
+      "size": 2704
+    },
+    {
+      "prefix": "з",
+      "file": "з.json",
+      "wordforms_count": 1,
+      "size": 512
+    },
+    {
+      "prefix": "заб",
+      "file": "заб.json",
+      "wordforms_count": 21,
+      "size": 18486
+    },
+    {
+      "prefix": "зав",
+      "file": "зав.json",
+      "wordforms_count": 41,
+      "size": 56273
+    },
+    {
+      "prefix": "заг",
+      "file": "заг.json",
+      "wordforms_count": 83,
+      "size": 78549
+    },
+    {
+      "prefix": "зад",
+      "file": "зад.json",
+      "wordforms_count": 1,
+      "size": 569
+    },
+    {
+      "prefix": "зае",
+      "file": "зае.json",
+      "wordforms_count": 1,
+      "size": 528
+    },
+    {
+      "prefix": "заз",
+      "file": "заз.json",
+      "wordforms_count": 44,
+      "size": 43864
+    },
+    {
+      "prefix": "зай",
+      "file": "зай.json",
+      "wordforms_count": 12,
+      "size": 9163
+    },
+    {
+      "prefix": "зак",
+      "file": "зак.json",
+      "wordforms_count": 29,
+      "size": 29049
+    },
+    {
+      "prefix": "зал",
+      "file": "зал.json",
+      "wordforms_count": 22,
+      "size": 23218
+    },
+    {
+      "prefix": "зам",
+      "file": "зам.json",
+      "wordforms_count": 62,
+      "size": 118063
+    },
+    {
+      "prefix": "зан",
+      "file": "зан.json",
+      "wordforms_count": 39,
+      "size": 35923
+    },
+    {
+      "prefix": "зао",
+      "file": "зао.json",
+      "wordforms_count": 9,
+      "size": 6616
+    },
+    {
+      "prefix": "зап",
+      "file": "зап.json",
+      "wordforms_count": 23,
+      "size": 19817
+    },
+    {
+      "prefix": "зар",
+      "file": "зар.json",
+      "wordforms_count": 27,
+      "size": 40075
+    },
+    {
+      "prefix": "зас",
+      "file": "зас.json",
+      "wordforms_count": 22,
+      "size": 20027
+    },
+    {
+      "prefix": "зат",
+      "file": "зат.json",
+      "wordforms_count": 5,
+      "size": 3549
+    },
+    {
+      "prefix": "зах",
+      "file": "зах.json",
+      "wordforms_count": 42,
+      "size": 57737
+    },
+    {
+      "prefix": "зач",
+      "file": "зач.json",
+      "wordforms_count": 10,
+      "size": 8048
+    },
+    {
+      "prefix": "защ",
+      "file": "защ.json",
+      "wordforms_count": 12,
+      "size": 9402
+    },
+    {
+      "prefix": "зая",
+      "file": "зая.json",
+      "wordforms_count": 11,
+      "size": 8735
+    },
+    {
+      "prefix": "заё",
+      "file": "заё.json",
+      "wordforms_count": 4,
+      "size": 4105
+    },
+    {
+      "prefix": "зв",
+      "file": "зв.json",
+      "wordforms_count": 100,
+      "size": 77618
+    },
+    {
+      "prefix": "зе",
+      "file": "зе.json",
+      "wordforms_count": 39,
+      "size": 30569
+    },
+    {
+      "prefix": "зи",
+      "file": "зи.json",
+      "wordforms_count": 148,
+      "size": 115470
+    },
+    {
+      "prefix": "зн",
+      "file": "зн.json",
+      "wordforms_count": 5,
+      "size": 3744
+    },
+    {
+      "prefix": "зо",
+      "file": "зо.json",
+      "wordforms_count": 110,
+      "size": 111929
+    },
+    {
+      "prefix": "зу",
+      "file": "зу.json",
+      "wordforms_count": 159,
+      "size": 124057
+    },
+    {
+      "prefix": "и",
+      "file": "и.json",
+      "wordforms_count": 1,
+      "size": 460
+    },
+    {
+      "prefix": "иб",
+      "file": "иб.json",
+      "wordforms_count": 11,
+      "size": 8250
+    },
+    {
+      "prefix": "ив",
+      "file": "ив.json",
+      "wordforms_count": 5,
+      "size": 3720
+    },
+    {
+      "prefix": "иг",
+      "file": "иг.json",
+      "wordforms_count": 28,
+      "size": 21227
+    },
+    {
+      "prefix": "ид",
+      "file": "ид.json",
+      "wordforms_count": 39,
+      "size": 32878
+    },
+    {
+      "prefix": "иж",
+      "file": "иж.json",
+      "wordforms_count": 15,
+      "size": 12057
+    },
+    {
+      "prefix": "из",
+      "file": "из.json",
+      "wordforms_count": 30,
+      "size": 29132
+    },
+    {
+      "prefix": "ик",
+      "file": "ик.json",
+      "wordforms_count": 27,
+      "size": 23833
+    },
+    {
+      "prefix": "ил",
+      "file": "ил.json",
+      "wordforms_count": 50,
+      "size": 43357
+    },
+    {
+      "prefix": "им",
+      "file": "им.json",
+      "wordforms_count": 89,
+      "size": 78116
+    },
+    {
+      "prefix": "ин",
+      "file": "ин.json",
+      "wordforms_count": 1,
+      "size": 1333
+    },
+    {
+      "prefix": "ина",
+      "file": "ина.json",
+      "wordforms_count": 34,
+      "size": 34976
+    },
+    {
+      "prefix": "инв",
+      "file": "инв.json",
+      "wordforms_count": 14,
+      "size": 12856
+    },
+    {
+      "prefix": "инг",
+      "file": "инг.json",
+      "wordforms_count": 20,
+      "size": 14548
+    },
+    {
+      "prefix": "инд",
+      "file": "инд.json",
+      "wordforms_count": 41,
+      "size": 29590
+    },
+    {
+      "prefix": "ине",
+      "file": "ине.json",
+      "wordforms_count": 4,
+      "size": 121254
+    },
+    {
+      "prefix": "инж",
+      "file": "инж.json",
+      "wordforms_count": 37,
+      "size": 35517
+    },
+    {
+      "prefix": "инк",
+      "file": "инк.json",
+      "wordforms_count": 21,
+      "size": 18944
+    },
+    {
+      "prefix": "инс",
+      "file": "инс.json",
+      "wordforms_count": 96,
+      "size": 132909
+    },
+    {
+      "prefix": "инт",
+      "file": "инт.json",
+      "wordforms_count": 44,
+      "size": 39270
+    },
+    {
+      "prefix": "ину",
+      "file": "ину.json",
+      "wordforms_count": 1,
+      "size": 524
+    },
+    {
+      "prefix": "инф",
+      "file": "инф.json",
+      "wordforms_count": 3,
+      "size": 2394
+    },
+    {
+      "prefix": "инч",
+      "file": "инч.json",
+      "wordforms_count": 7,
+      "size": 9348
+    },
+    {
+      "prefix": "инш",
+      "file": "инш.json",
+      "wordforms_count": 1,
+      "size": 997
+    },
+    {
+      "prefix": "ип",
+      "file": "ип.json",
+      "wordforms_count": 3,
+      "size": 1840
+    },
+    {
+      "prefix": "ир",
+      "file": "ир.json",
+      "wordforms_count": 50,
+      "size": 51232
+    },
+    {
+      "prefix": "ис",
+      "file": "ис.json",
+      "wordforms_count": 124,
+      "size": 117414
+    },
+    {
+      "prefix": "ит",
+      "file": "ит.json",
+      "wordforms_count": 39,
+      "size": 32812
+    },
+    {
+      "prefix": "их",
+      "file": "их.json",
+      "wordforms_count": 60,
+      "size": 75186
+    },
+    {
+      "prefix": "иц",
+      "file": "иц.json",
+      "wordforms_count": 38,
+      "size": 43547
+    },
+    {
+      "prefix": "ич",
+      "file": "ич.json",
+      "wordforms_count": 63,
+      "size": 55537
+    },
+    {
+      "prefix": "иш",
+      "file": "иш.json",
+      "wordforms_count": 59,
+      "size": 124256
+    },
+    {
+      "prefix": "ию",
+      "file": "ию.json",
+      "wordforms_count": 14,
+      "size": 11631
+    },
+    {
+      "prefix": "ия",
+      "file": "ия.json",
+      "wordforms_count": 4,
+      "size": 2340
+    },
+    {
+      "prefix": "й",
+      "file": "й.json",
+      "wordforms_count": 1,
+      "size": 787
+    },
+    {
+      "prefix": "йи",
+      "file": "йи.json",
+      "wordforms_count": 64,
+      "size": 114162
+    },
+    {
+      "prefix": "йо",
+      "file": "йо.json",
+      "wordforms_count": 33,
+      "size": 25970
+    },
+    {
+      "prefix": "каб",
+      "file": "каб.json",
+      "wordforms_count": 31,
+      "size": 31206
+    },
+    {
+      "prefix": "кав",
+      "file": "кав.json",
+      "wordforms_count": 40,
+      "size": 42654
+    },
+    {
+      "prefix": "каг",
+      "file": "каг.json",
+      "wordforms_count": 50,
+      "size": 88494
+    },
+    {
+      "prefix": "кад",
+      "file": "кад.json",
+      "wordforms_count": 6,
+      "size": 6843
+    },
+    {
+      "prefix": "каж",
+      "file": "каж.json",
+      "wordforms_count": 1,
+      "size": 644
+    },
+    {
+      "prefix": "каз",
+      "file": "каз.json",
+      "wordforms_count": 21,
+      "size": 15095
+    },
+    {
+      "prefix": "как",
+      "file": "как.json",
+      "wordforms_count": 66,
+      "size": 72851
+    },
+    {
+      "prefix": "кал",
+      "file": "кал.json",
+      "wordforms_count": 55,
+      "size": 55737
+    },
+    {
+      "prefix": "кам",
+      "file": "кам.json",
+      "wordforms_count": 54,
+      "size": 55267
+    },
+    {
+      "prefix": "кан",
+      "file": "кан.json",
+      "wordforms_count": 246,
+      "size": 248423
+    },
+    {
+      "prefix": "кап",
+      "file": "кап.json",
+      "wordforms_count": 114,
+      "size": 100268
+    },
+    {
+      "prefix": "кар",
+      "file": "кар.json",
+      "wordforms_count": 251,
+      "size": 254923
+    },
+    {
+      "prefix": "кас",
+      "file": "кас.json",
+      "wordforms_count": 25,
+      "size": 20309
+    },
+    {
+      "prefix": "кат",
+      "file": "кат.json",
+      "wordforms_count": 39,
+      "size": 37686
+    },
+    {
+      "prefix": "кау",
+      "file": "кау.json",
+      "wordforms_count": 3,
+      "size": 2419
+    },
+    {
+      "prefix": "каф",
+      "file": "каф.json",
+      "wordforms_count": 2,
+      "size": 1309
+    },
+    {
+      "prefix": "кач",
+      "file": "кач.json",
+      "wordforms_count": 4,
+      "size": 4187
+    },
+    {
+      "prefix": "каш",
+      "file": "каш.json",
+      "wordforms_count": 27,
+      "size": 18973
+    },
+    {
+      "prefix": "каю",
+      "file": "каю.json",
+      "wordforms_count": 5,
+      "size": 4037
+    },
+    {
+      "prefix": "ква",
+      "file": "ква.json",
+      "wordforms_count": 357,
+      "size": 448884
+    },
+    {
+      "prefix": "кве",
+      "file": "кве.json",
+      "wordforms_count": 222,
+      "size": 387807
+    },
+    {
+      "prefix": "кви",
+      "file": "кви.json",
+      "wordforms_count": 24,
+      "size": 21806
+    },
+    {
+      "prefix": "кед",
+      "file": "кед.json",
+      "wordforms_count": 1,
+      "size": 552
+    },
+    {
+      "prefix": "кек",
+      "file": "кек.json",
+      "wordforms_count": 6,
+      "size": 4849
+    },
+    {
+      "prefix": "кен",
+      "file": "кен.json",
+      "wordforms_count": 14,
+      "size": 15063
+    },
+    {
+      "prefix": "кеп",
+      "file": "кеп.json",
+      "wordforms_count": 38,
+      "size": 35908
+    },
+    {
+      "prefix": "кер",
+      "file": "кер.json",
+      "wordforms_count": 37,
+      "size": 47689
+    },
+    {
+      "prefix": "кес",
+      "file": "кес.json",
+      "wordforms_count": 12,
+      "size": 14592
+    },
+    {
+      "prefix": "кет",
+      "file": "кет.json",
+      "wordforms_count": 10,
+      "size": 23807
+    },
+    {
+      "prefix": "кеф",
+      "file": "кеф.json",
+      "wordforms_count": 3,
+      "size": 2620
+    },
+    {
+      "prefix": "кеч",
+      "file": "кеч.json",
+      "wordforms_count": 23,
+      "size": 41979
+    },
+    {
+      "prefix": "киб",
+      "file": "киб.json",
+      "wordforms_count": 17,
+      "size": 24597
+    },
+    {
+      "prefix": "кив",
+      "file": "кив.json",
+      "wordforms_count": 13,
+      "size": 20533
+    },
+    {
+      "prefix": "киг",
+      "file": "киг.json",
+      "wordforms_count": 7,
+      "size": 15251
+    },
+    {
+      "prefix": "кид",
+      "file": "кид.json",
+      "wordforms_count": 16,
+      "size": 38447
+    },
+    {
+      "prefix": "кие",
+      "file": "кие.json",
+      "wordforms_count": 3,
+      "size": 2543
+    },
+    {
+      "prefix": "киз",
+      "file": "киз.json",
+      "wordforms_count": 4,
+      "size": 2509
+    },
+    {
+      "prefix": "кий",
+      "file": "кий.json",
+      "wordforms_count": 12,
+      "size": 8346
+    },
+    {
+      "prefix": "кик",
+      "file": "кик.json",
+      "wordforms_count": 4,
+      "size": 2473
+    },
+    {
+      "prefix": "кил",
+      "file": "кил.json",
+      "wordforms_count": 61,
+      "size": 70232
+    },
+    {
+      "prefix": "кин",
+      "file": "кин.json",
+      "wordforms_count": 65,
+      "size": 126610
+    },
+    {
+      "prefix": "кио",
+      "file": "кио.json",
+      "wordforms_count": 5,
+      "size": 3630
+    },
+    {
+      "prefix": "кир",
+      "file": "кир.json",
+      "wordforms_count": 48,
+      "size": 42840
+    },
+    {
+      "prefix": "кис",
+      "file": "кис.json",
+      "wordforms_count": 42,
+      "size": 41279
+    },
+    {
+      "prefix": "кит",
+      "file": "кит.json",
+      "wordforms_count": 24,
+      "size": 17695
+    },
+    {
+      "prefix": "киц",
+      "file": "киц.json",
+      "wordforms_count": 14,
+      "size": 11439
+    },
+    {
+      "prefix": "кич",
+      "file": "кич.json",
+      "wordforms_count": 3,
+      "size": 1898
+    },
+    {
+      "prefix": "киш",
+      "file": "киш.json",
+      "wordforms_count": 3,
+      "size": 1940
+    },
+    {
+      "prefix": "кка",
+      "file": "кка.json",
+      "wordforms_count": 50,
+      "size": 131215
+    },
+    {
+      "prefix": "ккв",
+      "file": "ккв.json",
+      "wordforms_count": 19,
+      "size": 83619
+    },
+    {
+      "prefix": "кке",
+      "file": "кке.json",
+      "wordforms_count": 30,
+      "size": 142257
+    },
+    {
+      "prefix": "кко",
+      "file": "кко.json",
+      "wordforms_count": 27,
+      "size": 90338
+    },
+    {
+      "prefix": "кку",
+      "file": "кку.json",
+      "wordforms_count": 17,
+      "size": 88100
+    },
+    {
+      "prefix": "кл",
+      "file": "кл.json",
+      "wordforms_count": 72,
+      "size": 72763
+    },
+    {
+      "prefix": "кн",
+      "file": "кн.json",
+      "wordforms_count": 17,
+      "size": 14184
+    },
+    {
+      "prefix": "коа",
+      "file": "коа.json",
+      "wordforms_count": 4,
+      "size": 2635
+    },
+    {
+      "prefix": "ког",
+      "file": "ког.json",
+      "wordforms_count": 1,
+      "size": 465
+    },
+    {
+      "prefix": "код",
+      "file": "код.json",
+      "wordforms_count": 31,
+      "size": 42527
+    },
+    {
+      "prefix": "кож",
+      "file": "кож.json",
+      "wordforms_count": 8,
+      "size": 5963
+    },
+    {
+      "prefix": "кой",
+      "file": "кой.json",
+      "wordforms_count": 9,
+      "size": 6748
+    },
+    {
+      "prefix": "кок",
+      "file": "кок.json",
+      "wordforms_count": 14,
+      "size": 11184
+    },
+    {
+      "prefix": "кол",
+      "file": "кол.json",
+      "wordforms_count": 86,
+      "size": 93062
+    },
+    {
+      "prefix": "ком",
+      "file": "ком.json",
+      "wordforms_count": 215,
+      "size": 220251
+    },
+    {
+      "prefix": "кон",
+      "file": "кон.json",
+      "wordforms_count": 217,
+      "size": 203731
+    },
+    {
+      "prefix": "коо",
+      "file": "коо.json",
+      "wordforms_count": 9,
+      "size": 7178
+    },
+    {
+      "prefix": "коп",
+      "file": "коп.json",
+      "wordforms_count": 14,
+      "size": 13644
+    },
+    {
+      "prefix": "кор",
+      "file": "кор.json",
+      "wordforms_count": 62,
+      "size": 59334
+    },
+    {
+      "prefix": "кос",
+      "file": "кос.json",
+      "wordforms_count": 19,
+      "size": 20782
+    },
+    {
+      "prefix": "коф",
+      "file": "коф.json",
+      "wordforms_count": 7,
+      "size": 7094
+    },
+    {
+      "prefix": "коц",
+      "file": "коц.json",
+      "wordforms_count": 27,
+      "size": 19708
+    },
+    {
+      "prefix": "коч",
+      "file": "коч.json",
+      "wordforms_count": 19,
+      "size": 30228
+    },
+    {
+      "prefix": "кр",
+      "file": "кр.json",
+      "wordforms_count": 56,
+      "size": 51703
+    },
+    {
+      "prefix": "куб",
+      "file": "куб.json",
+      "wordforms_count": 24,
+      "size": 16959
+    },
+    {
+      "prefix": "куд",
+      "file": "куд.json",
+      "wordforms_count": 4,
+      "size": 2701
+    },
+    {
+      "prefix": "куз",
+      "file": "куз.json",
+      "wordforms_count": 5,
+      "size": 4022
+    },
+    {
+      "prefix": "куй",
+      "file": "куй.json",
+      "wordforms_count": 12,
+      "size": 21606
+    },
+    {
+      "prefix": "кук",
+      "file": "кук.json",
+      "wordforms_count": 6,
+      "size": 3782
+    },
+    {
+      "prefix": "кул",
+      "file": "кул.json",
+      "wordforms_count": 59,
+      "size": 52719
+    },
+    {
+      "prefix": "кум",
+      "file": "кум.json",
+      "wordforms_count": 26,
+      "size": 43885
+    },
+    {
+      "prefix": "кун",
+      "file": "кун.json",
+      "wordforms_count": 63,
+      "size": 65708
+    },
+    {
+      "prefix": "куп",
+      "file": "куп.json",
+      "wordforms_count": 19,
+      "size": 14584
+    },
+    {
+      "prefix": "кур",
+      "file": "кур.json",
+      "wordforms_count": 91,
+      "size": 83321
+    },
+    {
+      "prefix": "кус",
+      "file": "кус.json",
+      "wordforms_count": 19,
+      "size": 13551
+    },
+    {
+      "prefix": "кут",
+      "file": "кут.json",
+      "wordforms_count": 43,
+      "size": 46874
+    },
+    {
+      "prefix": "кух",
+      "file": "кух.json",
+      "wordforms_count": 12,
+      "size": 9293
+    },
+    {
+      "prefix": "куц",
+      "file": "куц.json",
+      "wordforms_count": 23,
+      "size": 27564
+    },
+    {
+      "prefix": "куч",
+      "file": "куч.json",
+      "wordforms_count": 8,
+      "size": 18312
+    },
+    {
+      "prefix": "къа",
+      "file": "къа.json",
+      "wordforms_count": 953,
+      "size": 1111440
+    },
+    {
+      "prefix": "къв",
+      "file": "къв.json",
+      "wordforms_count": 342,
+      "size": 493452
+    },
+    {
+      "prefix": "къе",
+      "file": "къе.json",
+      "wordforms_count": 207,
+      "size": 214460
+    },
+    {
+      "prefix": "къи",
+      "file": "къи.json",
+      "wordforms_count": 214,
+      "size": 214652
+    },
+    {
+      "prefix": "къо",
+      "file": "къо.json",
+      "wordforms_count": 400,
+      "size": 589900
+    },
+    {
+      "prefix": "къу",
+      "file": "къу.json",
+      "wordforms_count": 337,
+      "size": 324160
+    },
+    {
+      "prefix": "кьа",
+      "file": "кьа.json",
+      "wordforms_count": 239,
+      "size": 251369
+    },
+    {
+      "prefix": "кьв",
+      "file": "кьв.json",
+      "wordforms_count": 183,
+      "size": 170756
+    },
+    {
+      "prefix": "кье",
+      "file": "кье.json",
+      "wordforms_count": 203,
+      "size": 357201
+    },
+    {
+      "prefix": "кьи",
+      "file": "кьи.json",
+      "wordforms_count": 127,
+      "size": 130865
+    },
+    {
+      "prefix": "кьо",
+      "file": "кьо.json",
+      "wordforms_count": 121,
+      "size": 152613
+    },
+    {
+      "prefix": "кьу",
+      "file": "кьу.json",
+      "wordforms_count": 206,
+      "size": 279155
+    },
+    {
+      "prefix": "кӏа",
+      "file": "кӏа.json",
+      "wordforms_count": 518,
+      "size": 680420
+    },
+    {
+      "prefix": "кӏв",
+      "file": "кӏв.json",
+      "wordforms_count": 147,
+      "size": 153207
+    },
+    {
+      "prefix": "кӏе",
+      "file": "кӏе.json",
+      "wordforms_count": 57,
+      "size": 42561
+    },
+    {
+      "prefix": "кӏи",
+      "file": "кӏи.json",
+      "wordforms_count": 365,
+      "size": 385528
+    },
+    {
+      "prefix": "кӏк",
+      "file": "кӏк.json",
+      "wordforms_count": 170,
+      "size": 176977
+    },
+    {
+      "prefix": "кӏо",
+      "file": "кӏо.json",
+      "wordforms_count": 257,
+      "size": 266448
+    },
+    {
+      "prefix": "кӏу",
+      "file": "кӏу.json",
+      "wordforms_count": 250,
+      "size": 345947
+    },
+    {
+      "prefix": "лаб",
+      "file": "лаб.json",
+      "wordforms_count": 54,
+      "size": 43017
+    },
+    {
+      "prefix": "лав",
+      "file": "лав.json",
+      "wordforms_count": 5,
+      "size": 3527
+    },
+    {
+      "prefix": "лаг",
+      "file": "лаг.json",
+      "wordforms_count": 137,
+      "size": 120969
+    },
+    {
+      "prefix": "лаж",
+      "file": "лаж.json",
+      "wordforms_count": 4,
+      "size": 6690
+    },
+    {
+      "prefix": "лаз",
+      "file": "лаз.json",
+      "wordforms_count": 27,
+      "size": 26124
+    },
+    {
+      "prefix": "лай",
+      "file": "лай.json",
+      "wordforms_count": 21,
+      "size": 17055
+    },
+    {
+      "prefix": "лак",
+      "file": "лак.json",
+      "wordforms_count": 18,
+      "size": 15913
+    },
+    {
+      "prefix": "лал",
+      "file": "лал.json",
+      "wordforms_count": 23,
+      "size": 21264
+    },
+    {
+      "prefix": "лам",
+      "file": "лам.json",
+      "wordforms_count": 28,
+      "size": 25801
+    },
+    {
+      "prefix": "лан",
+      "file": "лан.json",
+      "wordforms_count": 8,
+      "size": 10258
+    },
+    {
+      "prefix": "лап",
+      "file": "лап.json",
+      "wordforms_count": 13,
+      "size": 8586
+    },
+    {
+      "prefix": "лар",
+      "file": "лар.json",
+      "wordforms_count": 4,
+      "size": 3121
+    },
+    {
+      "prefix": "лас",
+      "file": "лас.json",
+      "wordforms_count": 4,
+      "size": 2947
+    },
+    {
+      "prefix": "лат",
+      "file": "лат.json",
+      "wordforms_count": 21,
+      "size": 14823
+    },
+    {
+      "prefix": "лау",
+      "file": "лау.json",
+      "wordforms_count": 4,
+      "size": 4497
+    },
+    {
+      "prefix": "лах",
+      "file": "лах.json",
+      "wordforms_count": 69,
+      "size": 65769
+    },
+    {
+      "prefix": "лач",
+      "file": "лач.json",
+      "wordforms_count": 2,
+      "size": 4524
+    },
+    {
+      "prefix": "лд",
+      "file": "лд.json",
+      "wordforms_count": 1,
+      "size": 497
+    },
+    {
+      "prefix": "ле",
+      "file": "ле.json",
+      "wordforms_count": 107,
+      "size": 94858
+    },
+    {
+      "prefix": "ли",
+      "file": "ли.json",
+      "wordforms_count": 175,
+      "size": 146409
+    },
+    {
+      "prefix": "ло",
+      "file": "ло.json",
+      "wordforms_count": 53,
+      "size": 46593
+    },
+    {
+      "prefix": "лу",
+      "file": "лу.json",
+      "wordforms_count": 41,
+      "size": 33135
+    },
+    {
+      "prefix": "лъа",
+      "file": "лъа.json",
+      "wordforms_count": 495,
+      "size": 674869
+    },
+    {
+      "prefix": "лъв",
+      "file": "лъв.json",
+      "wordforms_count": 15,
+      "size": 10939
+    },
+    {
+      "prefix": "лъе",
+      "file": "лъе.json",
+      "wordforms_count": 160,
+      "size": 267349
+    },
+    {
+      "prefix": "лъи",
+      "file": "лъи.json",
+      "wordforms_count": 167,
+      "size": 594363
+    },
+    {
+      "prefix": "лъл",
+      "file": "лъл.json",
+      "wordforms_count": 41,
+      "size": 52015
+    },
+    {
+      "prefix": "лъо",
+      "file": "лъо.json",
+      "wordforms_count": 81,
+      "size": 86549
+    },
+    {
+      "prefix": "лъу",
+      "file": "лъу.json",
+      "wordforms_count": 261,
+      "size": 435972
+    },
+    {
+      "prefix": "лы",
+      "file": "лы.json",
+      "wordforms_count": 5,
+      "size": 4326
+    },
+    {
+      "prefix": "лю",
+      "file": "лю.json",
+      "wordforms_count": 4,
+      "size": 3844
+    },
+    {
+      "prefix": "лё",
+      "file": "лё.json",
+      "wordforms_count": 11,
+      "size": 7504
+    },
+    {
+      "prefix": "ма",
+      "file": "ма.json",
+      "wordforms_count": 1,
+      "size": 2403
+    },
+    {
+      "prefix": "мав",
+      "file": "мав.json",
+      "wordforms_count": 9,
+      "size": 6624
+    },
+    {
+      "prefix": "маг",
+      "file": "маг.json",
+      "wordforms_count": 231,
+      "size": 323775
+    },
+    {
+      "prefix": "мад",
+      "file": "мад.json",
+      "wordforms_count": 75,
+      "size": 96077
+    },
+    {
+      "prefix": "маж",
+      "file": "маж.json",
+      "wordforms_count": 66,
+      "size": 63775
+    },
+    {
+      "prefix": "маз",
+      "file": "маз.json",
+      "wordforms_count": 52,
+      "size": 42819
+    },
+    {
+      "prefix": "маи",
+      "file": "маи.json",
+      "wordforms_count": 1,
+      "size": 540
+    },
+    {
+      "prefix": "май",
+      "file": "май.json",
+      "wordforms_count": 52,
+      "size": 54093
+    },
+    {
+      "prefix": "мак",
+      "file": "мак.json",
+      "wordforms_count": 192,
+      "size": 196397
+    },
+    {
+      "prefix": "мал",
+      "file": "мал.json",
+      "wordforms_count": 153,
+      "size": 151999
+    },
+    {
+      "prefix": "мам",
+      "file": "мам.json",
+      "wordforms_count": 16,
+      "size": 11722
+    },
+    {
+      "prefix": "ман",
+      "file": "ман.json",
+      "wordforms_count": 65,
+      "size": 62028
+    },
+    {
+      "prefix": "мар",
+      "file": "мар.json",
+      "wordforms_count": 162,
+      "size": 143605
+    },
+    {
+      "prefix": "мас",
+      "file": "мас.json",
+      "wordforms_count": 124,
+      "size": 113081
+    },
+    {
+      "prefix": "мат",
+      "file": "мат.json",
+      "wordforms_count": 72,
+      "size": 67245
+    },
+    {
+      "prefix": "мау",
+      "file": "мау.json",
+      "wordforms_count": 9,
+      "size": 6894
+    },
+    {
+      "prefix": "мах",
+      "file": "мах.json",
+      "wordforms_count": 326,
+      "size": 357394
+    },
+    {
+      "prefix": "мац",
+      "file": "мац.json",
+      "wordforms_count": 55,
+      "size": 145821
+    },
+    {
+      "prefix": "мач",
+      "file": "мач.json",
+      "wordforms_count": 73,
+      "size": 71275
+    },
+    {
+      "prefix": "маш",
+      "file": "маш.json",
+      "wordforms_count": 70,
+      "size": 92062
+    },
+    {
+      "prefix": "мащ",
+      "file": "мащ.json",
+      "wordforms_count": 4,
+      "size": 3300
+    },
+    {
+      "prefix": "маъ",
+      "file": "маъ.json",
+      "wordforms_count": 9,
+      "size": 5830
+    },
+    {
+      "prefix": "мая",
+      "file": "мая.json",
+      "wordforms_count": 16,
+      "size": 14347
+    },
+    {
+      "prefix": "маё",
+      "file": "маё.json",
+      "wordforms_count": 5,
+      "size": 3301
+    },
+    {
+      "prefix": "меб",
+      "file": "меб.json",
+      "wordforms_count": 3,
+      "size": 3072
+    },
+    {
+      "prefix": "мег",
+      "file": "мег.json",
+      "wordforms_count": 55,
+      "size": 71653
+    },
+    {
+      "prefix": "мед",
+      "file": "мед.json",
+      "wordforms_count": 18,
+      "size": 19418
+    },
+    {
+      "prefix": "меж",
+      "file": "меж.json",
+      "wordforms_count": 5,
+      "size": 3596
+    },
+    {
+      "prefix": "мек",
+      "file": "мек.json",
+      "wordforms_count": 14,
+      "size": 22168
+    },
+    {
+      "prefix": "мел",
+      "file": "мел.json",
+      "wordforms_count": 10,
+      "size": 7718
+    },
+    {
+      "prefix": "мем",
+      "file": "мем.json",
+      "wordforms_count": 1,
+      "size": 491
+    },
+    {
+      "prefix": "мен",
+      "file": "мен.json",
+      "wordforms_count": 9,
+      "size": 6499
+    },
+    {
+      "prefix": "мер",
+      "file": "мер.json",
+      "wordforms_count": 43,
+      "size": 37286
+    },
+    {
+      "prefix": "мес",
+      "file": "мес.json",
+      "wordforms_count": 47,
+      "size": 68993
+    },
+    {
+      "prefix": "мет",
+      "file": "мет.json",
+      "wordforms_count": 87,
+      "size": 81538
+    },
+    {
+      "prefix": "мех",
+      "file": "мех.json",
+      "wordforms_count": 80,
+      "size": 106456
+    },
+    {
+      "prefix": "меч",
+      "file": "меч.json",
+      "wordforms_count": 3,
+      "size": 2572
+    },
+    {
+      "prefix": "миг",
+      "file": "миг.json",
+      "wordforms_count": 36,
+      "size": 25730
+    },
+    {
+      "prefix": "миз",
+      "file": "миз.json",
+      "wordforms_count": 16,
+      "size": 10110
+    },
+    {
+      "prefix": "мик",
+      "file": "мик.json",
+      "wordforms_count": 85,
+      "size": 88402
+    },
+    {
+      "prefix": "мил",
+      "file": "мил.json",
+      "wordforms_count": 92,
+      "size": 83537
+    },
+    {
+      "prefix": "мим",
+      "file": "мим.json",
+      "wordforms_count": 34,
+      "size": 23522
+    },
+    {
+      "prefix": "мин",
+      "file": "мин.json",
+      "wordforms_count": 88,
+      "size": 117999
+    },
+    {
+      "prefix": "мир",
+      "file": "мир.json",
+      "wordforms_count": 16,
+      "size": 11494
+    },
+    {
+      "prefix": "мис",
+      "file": "мис.json",
+      "wordforms_count": 81,
+      "size": 80231
+    },
+    {
+      "prefix": "мит",
+      "file": "мит.json",
+      "wordforms_count": 11,
+      "size": 7597
+    },
+    {
+      "prefix": "мих",
+      "file": "мих.json",
+      "wordforms_count": 63,
+      "size": 64906
+    },
+    {
+      "prefix": "миц",
+      "file": "миц.json",
+      "wordforms_count": 13,
+      "size": 11649
+    },
+    {
+      "prefix": "мич",
+      "file": "мич.json",
+      "wordforms_count": 35,
+      "size": 31954
+    },
+    {
+      "prefix": "мия",
+      "file": "мия.json",
+      "wordforms_count": 3,
+      "size": 1814
+    },
+    {
+      "prefix": "мог",
+      "file": "мог.json",
+      "wordforms_count": 23,
+      "size": 19476
+    },
+    {
+      "prefix": "мод",
+      "file": "мод.json",
+      "wordforms_count": 7,
+      "size": 6069
+    },
+    {
+      "prefix": "мож",
+      "file": "мож.json",
+      "wordforms_count": 25,
+      "size": 21592
+    },
+    {
+      "prefix": "мок",
+      "file": "мок.json",
+      "wordforms_count": 41,
+      "size": 46069
+    },
+    {
+      "prefix": "мол",
+      "file": "мол.json",
+      "wordforms_count": 16,
+      "size": 11874
+    },
+    {
+      "prefix": "мон",
+      "file": "мон.json",
+      "wordforms_count": 33,
+      "size": 23900
+    },
+    {
+      "prefix": "мор",
+      "file": "мор.json",
+      "wordforms_count": 20,
+      "size": 15236
+    },
+    {
+      "prefix": "мос",
+      "file": "мос.json",
+      "wordforms_count": 13,
+      "size": 9175
+    },
+    {
+      "prefix": "мот",
+      "file": "мот.json",
+      "wordforms_count": 25,
+      "size": 28731
+    },
+    {
+      "prefix": "мох",
+      "file": "мох.json",
+      "wordforms_count": 16,
+      "size": 14576
+    },
+    {
+      "prefix": "моц",
+      "file": "моц.json",
+      "wordforms_count": 47,
+      "size": 70141
+    },
+    {
+      "prefix": "моч",
+      "file": "моч.json",
+      "wordforms_count": 30,
+      "size": 25256
+    },
+    {
+      "prefix": "муг",
+      "file": "муг.json",
+      "wordforms_count": 123,
+      "size": 182391
+    },
+    {
+      "prefix": "муд",
+      "file": "муд.json",
+      "wordforms_count": 19,
+      "size": 14718
+    },
+    {
+      "prefix": "муж",
+      "file": "муж.json",
+      "wordforms_count": 9,
+      "size": 7125
+    },
+    {
+      "prefix": "муз",
+      "file": "муз.json",
+      "wordforms_count": 18,
+      "size": 22808
+    },
+    {
+      "prefix": "муи",
+      "file": "муи.json",
+      "wordforms_count": 1,
+      "size": 907
+    },
+    {
+      "prefix": "мук",
+      "file": "мук.json",
+      "wordforms_count": 73,
+      "size": 71773
+    },
+    {
+      "prefix": "мул",
+      "file": "мул.json",
+      "wordforms_count": 4,
+      "size": 3398
+    },
+    {
+      "prefix": "мум",
+      "file": "мум.json",
+      "wordforms_count": 15,
+      "size": 10902
+    },
+    {
+      "prefix": "мун",
+      "file": "мун.json",
+      "wordforms_count": 52,
+      "size": 174973
+    },
+    {
+      "prefix": "мур",
+      "file": "мур.json",
+      "wordforms_count": 48,
+      "size": 53826
+    },
+    {
+      "prefix": "мус",
+      "file": "мус.json",
+      "wordforms_count": 47,
+      "size": 45323
+    },
+    {
+      "prefix": "мут",
+      "file": "мут.json",
+      "wordforms_count": 30,
+      "size": 24498
+    },
+    {
+      "prefix": "мух",
+      "file": "мух.json",
+      "wordforms_count": 100,
+      "size": 107036
+    },
+    {
+      "prefix": "муц",
+      "file": "муц.json",
+      "wordforms_count": 13,
+      "size": 12982
+    },
+    {
+      "prefix": "муч",
+      "file": "муч.json",
+      "wordforms_count": 28,
+      "size": 26925
+    },
+    {
+      "prefix": "муш",
+      "file": "муш.json",
+      "wordforms_count": 17,
+      "size": 12891
+    },
+    {
+      "prefix": "мущ",
+      "file": "мущ.json",
+      "wordforms_count": 5,
+      "size": 4003
+    },
+    {
+      "prefix": "муъ",
+      "file": "муъ.json",
+      "wordforms_count": 10,
+      "size": 7385
+    },
+    {
+      "prefix": "мя",
+      "file": "мя.json",
+      "wordforms_count": 1,
+      "size": 814
+    },
+    {
+      "prefix": "на",
+      "file": "на.json",
+      "wordforms_count": 1,
+      "size": 2593
+    },
+    {
+      "prefix": "наб",
+      "file": "наб.json",
+      "wordforms_count": 22,
+      "size": 16152
+    },
+    {
+      "prefix": "нав",
+      "file": "нав.json",
+      "wordforms_count": 17,
+      "size": 12848
+    },
+    {
+      "prefix": "наг",
+      "file": "наг.json",
+      "wordforms_count": 43,
+      "size": 43154
+    },
+    {
+      "prefix": "над",
+      "file": "над.json",
+      "wordforms_count": 27,
+      "size": 23464
+    },
+    {
+      "prefix": "наж",
+      "file": "наж.json",
+      "wordforms_count": 24,
+      "size": 18333
+    },
+    {
+      "prefix": "наз",
+      "file": "наз.json",
+      "wordforms_count": 61,
+      "size": 45389
+    },
+    {
+      "prefix": "наи",
+      "file": "наи.json",
+      "wordforms_count": 12,
+      "size": 10277
+    },
+    {
+      "prefix": "най",
+      "file": "най.json",
+      "wordforms_count": 28,
+      "size": 27576
+    },
+    {
+      "prefix": "нак",
+      "file": "нак.json",
+      "wordforms_count": 107,
+      "size": 133655
+    },
+    {
+      "prefix": "нал",
+      "file": "нал.json",
+      "wordforms_count": 48,
+      "size": 46593
+    },
+    {
+      "prefix": "нам",
+      "file": "нам.json",
+      "wordforms_count": 38,
+      "size": 37589
+    },
+    {
+      "prefix": "нан",
+      "file": "нан.json",
+      "wordforms_count": 20,
+      "size": 16346
+    },
+    {
+      "prefix": "нап",
+      "file": "нап.json",
+      "wordforms_count": 21,
+      "size": 19511
+    },
+    {
+      "prefix": "нар",
+      "file": "нар.json",
+      "wordforms_count": 74,
+      "size": 68728
+    },
+    {
+      "prefix": "нас",
+      "file": "нас.json",
+      "wordforms_count": 76,
+      "size": 68851
+    },
+    {
+      "prefix": "нат",
+      "file": "нат.json",
+      "wordforms_count": 31,
+      "size": 27657
+    },
+    {
+      "prefix": "нау",
+      "file": "нау.json",
+      "wordforms_count": 4,
+      "size": 2765
+    },
+    {
+      "prefix": "нах",
+      "file": "нах.json",
+      "wordforms_count": 368,
+      "size": 400773
+    },
+    {
+      "prefix": "нац",
+      "file": "нац.json",
+      "wordforms_count": 16,
+      "size": 14340
+    },
+    {
+      "prefix": "нач",
+      "file": "нач.json",
+      "wordforms_count": 10,
+      "size": 11701
+    },
+    {
+      "prefix": "наш",
+      "file": "наш.json",
+      "wordforms_count": 1,
+      "size": 524
+    },
+    {
+      "prefix": "нащ",
+      "file": "нащ.json",
+      "wordforms_count": 4,
+      "size": 3217
+    },
+    {
+      "prefix": "ная",
+      "file": "ная.json",
+      "wordforms_count": 5,
+      "size": 2906
+    },
+    {
+      "prefix": "не",
+      "file": "не.json",
+      "wordforms_count": 135,
+      "size": 124849
+    },
+    {
+      "prefix": "ниг",
+      "file": "ниг.json",
+      "wordforms_count": 13,
+      "size": 12984
+    },
+    {
+      "prefix": "ниж",
+      "file": "ниж.json",
+      "wordforms_count": 22,
+      "size": 221302
+    },
+    {
+      "prefix": "низ",
+      "file": "низ.json",
+      "wordforms_count": 16,
+      "size": 19086
+    },
+    {
+      "prefix": "ник",
+      "file": "ник.json",
+      "wordforms_count": 32,
+      "size": 25881
+    },
+    {
+      "prefix": "нил",
+      "file": "нил.json",
+      "wordforms_count": 45,
+      "size": 90312
+    },
+    {
+      "prefix": "нип",
+      "file": "нип.json",
+      "wordforms_count": 4,
+      "size": 2937
+    },
+    {
+      "prefix": "нис",
+      "file": "нис.json",
+      "wordforms_count": 47,
+      "size": 35642
+    },
+    {
+      "prefix": "нит",
+      "file": "нит.json",
+      "wordforms_count": 4,
+      "size": 2701
+    },
+    {
+      "prefix": "них",
+      "file": "них.json",
+      "wordforms_count": 26,
+      "size": 20149
+    },
+    {
+      "prefix": "нич",
+      "file": "нич.json",
+      "wordforms_count": 18,
+      "size": 23028
+    },
+    {
+      "prefix": "ниш",
+      "file": "ниш.json",
+      "wordforms_count": 3,
+      "size": 1982
+    },
+    {
+      "prefix": "ния",
+      "file": "ния.json",
+      "wordforms_count": 4,
+      "size": 3105
+    },
+    {
+      "prefix": "но",
+      "file": "но.json",
+      "wordforms_count": 1,
+      "size": 486
+    },
+    {
+      "prefix": "ноб",
+      "file": "ноб.json",
+      "wordforms_count": 1,
+      "size": 504
+    },
+    {
+      "prefix": "нов",
+      "file": "нов.json",
+      "wordforms_count": 25,
+      "size": 17827
+    },
+    {
+      "prefix": "ног",
+      "file": "ног.json",
+      "wordforms_count": 10,
+      "size": 7711
+    },
+    {
+      "prefix": "нод",
+      "file": "нод.json",
+      "wordforms_count": 18,
+      "size": 19427
+    },
+    {
+      "prefix": "нок",
+      "file": "нок.json",
+      "wordforms_count": 8,
+      "size": 5679
+    },
+    {
+      "prefix": "нол",
+      "file": "нол.json",
+      "wordforms_count": 7,
+      "size": 8431
+    },
+    {
+      "prefix": "ном",
+      "file": "ном.json",
+      "wordforms_count": 14,
+      "size": 15269
+    },
+    {
+      "prefix": "нор",
+      "file": "нор.json",
+      "wordforms_count": 31,
+      "size": 27334
+    },
+    {
+      "prefix": "нос",
+      "file": "нос.json",
+      "wordforms_count": 7,
+      "size": 10093
+    },
+    {
+      "prefix": "нот",
+      "file": "нот.json",
+      "wordforms_count": 16,
+      "size": 13852
+    },
+    {
+      "prefix": "нох",
+      "file": "нох.json",
+      "wordforms_count": 19,
+      "size": 26291
+    },
+    {
+      "prefix": "ноц",
+      "file": "ноц.json",
+      "wordforms_count": 13,
+      "size": 9529
+    },
+    {
+      "prefix": "ноя",
+      "file": "ноя.json",
+      "wordforms_count": 8,
+      "size": 8674
+    },
+    {
+      "prefix": "нуг",
+      "file": "нуг.json",
+      "wordforms_count": 12,
+      "size": 13709
+    },
+    {
+      "prefix": "нуж",
+      "file": "нуж.json",
+      "wordforms_count": 42,
+      "size": 75046
+    },
+    {
+      "prefix": "нук",
+      "file": "нук.json",
+      "wordforms_count": 24,
+      "size": 20049
+    },
+    {
+      "prefix": "нун",
+      "file": "нун.json",
+      "wordforms_count": 20,
+      "size": 13299
+    },
+    {
+      "prefix": "нур",
+      "file": "нур.json",
+      "wordforms_count": 17,
+      "size": 25404
+    },
+    {
+      "prefix": "нус",
+      "file": "нус.json",
+      "wordforms_count": 57,
+      "size": 75151
+    },
+    {
+      "prefix": "нух",
+      "file": "нух.json",
+      "wordforms_count": 90,
+      "size": 184340
+    },
+    {
+      "prefix": "нуц",
+      "file": "нуц.json",
+      "wordforms_count": 41,
+      "size": 63159
+    },
+    {
+      "prefix": "ня",
+      "file": "ня.json",
+      "wordforms_count": 4,
+      "size": 2549
+    },
+    {
+      "prefix": "оа",
+      "file": "оа.json",
+      "wordforms_count": 5,
+      "size": 3314
+    },
+    {
+      "prefix": "об",
+      "file": "об.json",
+      "wordforms_count": 138,
+      "size": 125213
+    },
+    {
+      "prefix": "ов",
+      "file": "ов.json",
+      "wordforms_count": 1,
+      "size": 525
+    },
+    {
+      "prefix": "ог",
+      "file": "ог.json",
+      "wordforms_count": 24,
+      "size": 24733
+    },
+    {
+      "prefix": "од",
+      "file": "од.json",
+      "wordforms_count": 16,
+      "size": 14634
+    },
+    {
+      "prefix": "оз",
+      "file": "оз.json",
+      "wordforms_count": 3,
+      "size": 2197
+    },
+    {
+      "prefix": "ок",
+      "file": "ок.json",
+      "wordforms_count": 81,
+      "size": 65321
+    },
+    {
+      "prefix": "ол",
+      "file": "ол.json",
+      "wordforms_count": 15,
+      "size": 12461
+    },
+    {
+      "prefix": "ом",
+      "file": "ом.json",
+      "wordforms_count": 31,
+      "size": 20746
+    },
+    {
+      "prefix": "он",
+      "file": "он.json",
+      "wordforms_count": 27,
+      "size": 19989
+    },
+    {
+      "prefix": "оо",
+      "file": "оо.json",
+      "wordforms_count": 1,
+      "size": 562
+    },
+    {
+      "prefix": "оп",
+      "file": "оп.json",
+      "wordforms_count": 68,
+      "size": 58895
+    },
+    {
+      "prefix": "ор",
+      "file": "ор.json",
+      "wordforms_count": 167,
+      "size": 147051
+    },
+    {
+      "prefix": "ос",
+      "file": "ос.json",
+      "wordforms_count": 22,
+      "size": 16026
+    },
+    {
+      "prefix": "от",
+      "file": "от.json",
+      "wordforms_count": 81,
+      "size": 83080
+    },
+    {
+      "prefix": "оф",
+      "file": "оф.json",
+      "wordforms_count": 31,
+      "size": 29729
+    },
+    {
+      "prefix": "ох",
+      "file": "ох.json",
+      "wordforms_count": 16,
+      "size": 15523
+    },
+    {
+      "prefix": "оц",
+      "file": "оц.json",
+      "wordforms_count": 36,
+      "size": 53334
+    },
+    {
+      "prefix": "оч",
+      "file": "оч.json",
+      "wordforms_count": 21,
+      "size": 17423
+    },
+    {
+      "prefix": "оя",
+      "file": "оя.json",
+      "wordforms_count": 1,
+      "size": 609
+    },
+    {
+      "prefix": "пав",
+      "file": "пав.json",
+      "wordforms_count": 8,
+      "size": 7235
+    },
+    {
+      "prefix": "паг",
+      "file": "паг.json",
+      "wordforms_count": 30,
+      "size": 23728
+    },
+    {
+      "prefix": "пад",
+      "file": "пад.json",
+      "wordforms_count": 24,
+      "size": 23996
+    },
+    {
+      "prefix": "паж",
+      "file": "паж.json",
+      "wordforms_count": 7,
+      "size": 5551
+    },
+    {
+      "prefix": "паз",
+      "file": "паз.json",
+      "wordforms_count": 8,
+      "size": 6557
+    },
+    {
+      "prefix": "пай",
+      "file": "пай.json",
+      "wordforms_count": 15,
+      "size": 25040
+    },
+    {
+      "prefix": "пак",
+      "file": "пак.json",
+      "wordforms_count": 34,
+      "size": 28719
+    },
+    {
+      "prefix": "пал",
+      "file": "пал.json",
+      "wordforms_count": 111,
+      "size": 97336
+    },
+    {
+      "prefix": "пам",
+      "file": "пам.json",
+      "wordforms_count": 23,
+      "size": 20408
+    },
+    {
+      "prefix": "пан",
+      "file": "пан.json",
+      "wordforms_count": 107,
+      "size": 79317
+    },
+    {
+      "prefix": "пап",
+      "file": "пап.json",
+      "wordforms_count": 36,
+      "size": 25708
+    },
+    {
+      "prefix": "пар",
+      "file": "пар.json",
+      "wordforms_count": 435,
+      "size": 374385
+    },
+    {
+      "prefix": "пас",
+      "file": "пас.json",
+      "wordforms_count": 107,
+      "size": 91541
+    },
+    {
+      "prefix": "пат",
+      "file": "пат.json",
+      "wordforms_count": 70,
+      "size": 54377
+    },
+    {
+      "prefix": "пах",
+      "file": "пах.json",
+      "wordforms_count": 41,
+      "size": 38098
+    },
+    {
+      "prefix": "пац",
+      "file": "пац.json",
+      "wordforms_count": 15,
+      "size": 11713
+    },
+    {
+      "prefix": "пач",
+      "file": "пач.json",
+      "wordforms_count": 34,
+      "size": 48484
+    },
+    {
+      "prefix": "паш",
+      "file": "паш.json",
+      "wordforms_count": 27,
+      "size": 26515
+    },
+    {
+      "prefix": "пая",
+      "file": "пая.json",
+      "wordforms_count": 6,
+      "size": 3995
+    },
+    {
+      "prefix": "паё",
+      "file": "паё.json",
+      "wordforms_count": 4,
+      "size": 3989
+    },
+    {
+      "prefix": "пед",
+      "file": "пед.json",
+      "wordforms_count": 43,
+      "size": 37452
+    },
+    {
+      "prefix": "пей",
+      "file": "пей.json",
+      "wordforms_count": 10,
+      "size": 7927
+    },
+    {
+      "prefix": "пек",
+      "file": "пек.json",
+      "wordforms_count": 15,
+      "size": 10912
+    },
+    {
+      "prefix": "пен",
+      "file": "пен.json",
+      "wordforms_count": 42,
+      "size": 35772
+    },
+    {
+      "prefix": "пеп",
+      "file": "пеп.json",
+      "wordforms_count": 4,
+      "size": 2957
+    },
+    {
+      "prefix": "пер",
+      "file": "пер.json",
+      "wordforms_count": 45,
+      "size": 36173
+    },
+    {
+      "prefix": "пес",
+      "file": "пес.json",
+      "wordforms_count": 17,
+      "size": 11985
+    },
+    {
+      "prefix": "пет",
+      "file": "пет.json",
+      "wordforms_count": 28,
+      "size": 18682
+    },
+    {
+      "prefix": "печ",
+      "file": "печ.json",
+      "wordforms_count": 13,
+      "size": 18108
+    },
+    {
+      "prefix": "пеш",
+      "file": "пеш.json",
+      "wordforms_count": 2,
+      "size": 1936
+    },
+    {
+      "prefix": "пещ",
+      "file": "пещ.json",
+      "wordforms_count": 23,
+      "size": 16660
+    },
+    {
+      "prefix": "пиа",
+      "file": "пиа.json",
+      "wordforms_count": 20,
+      "size": 14930
+    },
+    {
+      "prefix": "пив",
+      "file": "пив.json",
+      "wordforms_count": 4,
+      "size": 5125
+    },
+    {
+      "prefix": "пиг",
+      "file": "пиг.json",
+      "wordforms_count": 4,
+      "size": 3285
+    },
+    {
+      "prefix": "пиж",
+      "file": "пиж.json",
+      "wordforms_count": 4,
+      "size": 3074
+    },
+    {
+      "prefix": "пик",
+      "file": "пик.json",
+      "wordforms_count": 29,
+      "size": 43756
+    },
+    {
+      "prefix": "пил",
+      "file": "пил.json",
+      "wordforms_count": 27,
+      "size": 26544
+    },
+    {
+      "prefix": "пин",
+      "file": "пин.json",
+      "wordforms_count": 50,
+      "size": 39701
+    },
+    {
+      "prefix": "пио",
+      "file": "пио.json",
+      "wordforms_count": 22,
+      "size": 22338
+    },
+    {
+      "prefix": "пип",
+      "file": "пип.json",
+      "wordforms_count": 4,
+      "size": 2765
+    },
+    {
+      "prefix": "пир",
+      "file": "пир.json",
+      "wordforms_count": 57,
+      "size": 52178
+    },
+    {
+      "prefix": "пис",
+      "file": "пис.json",
+      "wordforms_count": 6,
+      "size": 3789
+    },
+    {
+      "prefix": "пит",
+      "file": "пит.json",
+      "wordforms_count": 37,
+      "size": 31801
+    },
+    {
+      "prefix": "пих",
+      "file": "пих.json",
+      "wordforms_count": 15,
+      "size": 34812
+    },
+    {
+      "prefix": "пиц",
+      "file": "пиц.json",
+      "wordforms_count": 30,
+      "size": 25470
+    },
+    {
+      "prefix": "пич",
+      "file": "пич.json",
+      "wordforms_count": 7,
+      "size": 5053
+    },
+    {
+      "prefix": "пиш",
+      "file": "пиш.json",
+      "wordforms_count": 26,
+      "size": 20410
+    },
+    {
+      "prefix": "пищ",
+      "file": "пищ.json",
+      "wordforms_count": 1,
+      "size": 715
+    },
+    {
+      "prefix": "пл",
+      "file": "пл.json",
+      "wordforms_count": 130,
+      "size": 126374
+    },
+    {
+      "prefix": "пов",
+      "file": "пов.json",
+      "wordforms_count": 19,
+      "size": 16162
+    },
+    {
+      "prefix": "пог",
+      "file": "пог.json",
+      "wordforms_count": 7,
+      "size": 5477
+    },
+    {
+      "prefix": "под",
+      "file": "под.json",
+      "wordforms_count": 20,
+      "size": 17936
+    },
+    {
+      "prefix": "пое",
+      "file": "пое.json",
+      "wordforms_count": 9,
+      "size": 15848
+    },
+    {
+      "prefix": "пок",
+      "file": "пок.json",
+      "wordforms_count": 4,
+      "size": 3250
+    },
+    {
+      "prefix": "пол",
+      "file": "пол.json",
+      "wordforms_count": 133,
+      "size": 133420
+    },
+    {
+      "prefix": "пом",
+      "file": "пом.json",
+      "wordforms_count": 28,
+      "size": 24896
+    },
+    {
+      "prefix": "пон",
+      "file": "пон.json",
+      "wordforms_count": 4,
+      "size": 3551
+    },
+    {
+      "prefix": "поп",
+      "file": "поп.json",
+      "wordforms_count": 4,
+      "size": 4593
+    },
+    {
+      "prefix": "пор",
+      "file": "пор.json",
+      "wordforms_count": 57,
+      "size": 54760
+    },
+    {
+      "prefix": "пос",
+      "file": "пос.json",
+      "wordforms_count": 53,
+      "size": 50097
+    },
+    {
+      "prefix": "пох",
+      "file": "пох.json",
+      "wordforms_count": 5,
+      "size": 6197
+    },
+    {
+      "prefix": "поч",
+      "file": "поч.json",
+      "wordforms_count": 26,
+      "size": 28705
+    },
+    {
+      "prefix": "поэ",
+      "file": "поэ.json",
+      "wordforms_count": 21,
+      "size": 23462
+    },
+    {
+      "prefix": "пра",
+      "file": "пра.json",
+      "wordforms_count": 41,
+      "size": 39588
+    },
+    {
+      "prefix": "пре",
+      "file": "пре.json",
+      "wordforms_count": 130,
+      "size": 147300
+    },
+    {
+      "prefix": "при",
+      "file": "при.json",
+      "wordforms_count": 107,
+      "size": 100561
+    },
+    {
+      "prefix": "про",
+      "file": "про.json",
+      "wordforms_count": 388,
+      "size": 391078
+    },
+    {
+      "prefix": "пру",
+      "file": "пру.json",
+      "wordforms_count": 6,
+      "size": 5599
+    },
+    {
+      "prefix": "пря",
+      "file": "пря.json",
+      "wordforms_count": 4,
+      "size": 3106
+    },
+    {
+      "prefix": "пс",
+      "file": "пс.json",
+      "wordforms_count": 36,
+      "size": 31207
+    },
+    {
+      "prefix": "пуб",
+      "file": "пуб.json",
+      "wordforms_count": 15,
+      "size": 13126
+    },
+    {
+      "prefix": "пуг",
+      "file": "пуг.json",
+      "wordforms_count": 1,
+      "size": 506
+    },
+    {
+      "prefix": "пуд",
+      "file": "пуд.json",
+      "wordforms_count": 42,
+      "size": 33729
+    },
+    {
+      "prefix": "пуз",
+      "file": "пуз.json",
+      "wordforms_count": 1,
+      "size": 1562
+    },
+    {
+      "prefix": "пуй",
+      "file": "пуй.json",
+      "wordforms_count": 7,
+      "size": 8294
+    },
+    {
+      "prefix": "пук",
+      "file": "пук.json",
+      "wordforms_count": 3,
+      "size": 2019
+    },
+    {
+      "prefix": "пул",
+      "file": "пул.json",
+      "wordforms_count": 71,
+      "size": 60457
+    },
+    {
+      "prefix": "пун",
+      "file": "пун.json",
+      "wordforms_count": 52,
+      "size": 47067
+    },
+    {
+      "prefix": "пур",
+      "file": "пур.json",
+      "wordforms_count": 105,
+      "size": 92248
+    },
+    {
+      "prefix": "пус",
+      "file": "пус.json",
+      "wordforms_count": 16,
+      "size": 11184
+    },
+    {
+      "prefix": "пут",
+      "file": "пут.json",
+      "wordforms_count": 15,
+      "size": 12515
+    },
+    {
+      "prefix": "пух",
+      "file": "пух.json",
+      "wordforms_count": 6,
+      "size": 4475
+    },
+    {
+      "prefix": "пуч",
+      "file": "пуч.json",
+      "wordforms_count": 11,
+      "size": 8514
+    },
+    {
+      "prefix": "пуш",
+      "file": "пуш.json",
+      "wordforms_count": 11,
+      "size": 7682
+    },
+    {
+      "prefix": "пущ",
+      "file": "пущ.json",
+      "wordforms_count": 1,
+      "size": 892
+    },
+    {
+      "prefix": "пуя",
+      "file": "пуя.json",
+      "wordforms_count": 3,
+      "size": 2565
+    },
+    {
+      "prefix": "пы",
+      "file": "пы.json",
+      "wordforms_count": 4,
+      "size": 3172
+    },
+    {
+      "prefix": "пь",
+      "file": "пь.json",
+      "wordforms_count": 4,
+      "size": 7372
+    },
+    {
+      "prefix": "пю",
+      "file": "пю.json",
+      "wordforms_count": 3,
+      "size": 2588
+    },
+    {
+      "prefix": "пя",
+      "file": "пя.json",
+      "wordforms_count": 1,
+      "size": 506
+    },
+    {
+      "prefix": "р",
+      "file": "р.json",
+      "wordforms_count": 1,
+      "size": 527
+    },
+    {
+      "prefix": "раг",
+      "file": "раг.json",
+      "wordforms_count": 277,
+      "size": 516139
+    },
+    {
+      "prefix": "рад",
+      "file": "рад.json",
+      "wordforms_count": 165,
+      "size": 169808
+    },
+    {
+      "prefix": "раж",
+      "file": "раж.json",
+      "wordforms_count": 22,
+      "size": 24349
+    },
+    {
+      "prefix": "раз",
+      "file": "раз.json",
+      "wordforms_count": 82,
+      "size": 92100
+    },
+    {
+      "prefix": "раи",
+      "file": "раи.json",
+      "wordforms_count": 4,
+      "size": 2698
+    },
+    {
+      "prefix": "рай",
+      "file": "рай.json",
+      "wordforms_count": 31,
+      "size": 31359
+    },
+    {
+      "prefix": "рак",
+      "file": "рак.json",
+      "wordforms_count": 789,
+      "size": 869286
+    },
+    {
+      "prefix": "рал",
+      "file": "рал.json",
+      "wordforms_count": 62,
+      "size": 85119
+    },
+    {
+      "prefix": "рам",
+      "file": "рам.json",
+      "wordforms_count": 10,
+      "size": 8957
+    },
+    {
+      "prefix": "ран",
+      "file": "ран.json",
+      "wordforms_count": 7,
+      "size": 11208
+    },
+    {
+      "prefix": "рап",
+      "file": "рап.json",
+      "wordforms_count": 21,
+      "size": 16057
+    },
+    {
+      "prefix": "рар",
+      "file": "рар.json",
+      "wordforms_count": 3,
+      "size": 2227
+    },
+    {
+      "prefix": "рас",
+      "file": "рас.json",
+      "wordforms_count": 136,
+      "size": 172194
+    },
+    {
+      "prefix": "рат",
+      "file": "рат.json",
+      "wordforms_count": 60,
+      "size": 59739
+    },
+    {
+      "prefix": "рау",
+      "file": "рау.json",
+      "wordforms_count": 4,
+      "size": 3006
+    },
+    {
+      "prefix": "раф",
+      "file": "раф.json",
+      "wordforms_count": 3,
+      "size": 1982
+    },
+    {
+      "prefix": "рах",
+      "file": "рах.json",
+      "wordforms_count": 264,
+      "size": 359620
+    },
+    {
+      "prefix": "рац",
+      "file": "рац.json",
+      "wordforms_count": 67,
+      "size": 64977
+    },
+    {
+      "prefix": "рач",
+      "file": "рач.json",
+      "wordforms_count": 80,
+      "size": 122578
+    },
+    {
+      "prefix": "раш",
+      "file": "раш.json",
+      "wordforms_count": 2,
+      "size": 1762
+    },
+    {
+      "prefix": "ращ",
+      "file": "ращ.json",
+      "wordforms_count": 9,
+      "size": 6941
+    },
+    {
+      "prefix": "рая",
+      "file": "рая.json",
+      "wordforms_count": 1,
+      "size": 792
+    },
+    {
+      "prefix": "реа",
+      "file": "реа.json",
+      "wordforms_count": 46,
+      "size": 45186
+    },
+    {
+      "prefix": "рев",
+      "file": "рев.json",
+      "wordforms_count": 72,
+      "size": 65464
+    },
+    {
+      "prefix": "рег",
+      "file": "рег.json",
+      "wordforms_count": 104,
+      "size": 91365
+    },
+    {
+      "prefix": "ред",
+      "file": "ред.json",
+      "wordforms_count": 26,
+      "size": 27795
+    },
+    {
+      "prefix": "рее",
+      "file": "рее.json",
+      "wordforms_count": 6,
+      "size": 4846
+    },
+    {
+      "prefix": "реж",
+      "file": "реж.json",
+      "wordforms_count": 17,
+      "size": 18565
+    },
+    {
+      "prefix": "рез",
+      "file": "рез.json",
+      "wordforms_count": 46,
+      "size": 48067
+    },
+    {
+      "prefix": "рей",
+      "file": "рей.json",
+      "wordforms_count": 13,
+      "size": 12172
+    },
+    {
+      "prefix": "рек",
+      "file": "рек.json",
+      "wordforms_count": 277,
+      "size": 430577
+    },
+    {
+      "prefix": "рел",
+      "file": "рел.json",
+      "wordforms_count": 87,
+      "size": 83871
+    },
+    {
+      "prefix": "рем",
+      "file": "рем.json",
+      "wordforms_count": 24,
+      "size": 22511
+    },
+    {
+      "prefix": "рен",
+      "file": "рен.json",
+      "wordforms_count": 23,
+      "size": 20592
+    },
+    {
+      "prefix": "реп",
+      "file": "реп.json",
+      "wordforms_count": 58,
+      "size": 51905
+    },
+    {
+      "prefix": "рес",
+      "file": "рес.json",
+      "wordforms_count": 60,
+      "size": 67699
+    },
+    {
+      "prefix": "рет",
+      "file": "рет.json",
+      "wordforms_count": 51,
+      "size": 101597
+    },
+    {
+      "prefix": "реф",
+      "file": "реф.json",
+      "wordforms_count": 44,
+      "size": 39891
+    },
+    {
+      "prefix": "рех",
+      "file": "рех.json",
+      "wordforms_count": 96,
+      "size": 176712
+    },
+    {
+      "prefix": "рец",
+      "file": "рец.json",
+      "wordforms_count": 73,
+      "size": 68337
+    },
+    {
+      "prefix": "реч",
+      "file": "реч.json",
+      "wordforms_count": 124,
+      "size": 137665
+    },
+    {
+      "prefix": "рещ",
+      "file": "рещ.json",
+      "wordforms_count": 32,
+      "size": 44383
+    },
+    {
+      "prefix": "риа",
+      "file": "риа.json",
+      "wordforms_count": 1,
+      "size": 527
+    },
+    {
+      "prefix": "риб",
+      "file": "риб.json",
+      "wordforms_count": 10,
+      "size": 6607
+    },
+    {
+      "prefix": "рив",
+      "file": "рив.json",
+      "wordforms_count": 4,
+      "size": 3089
+    },
+    {
+      "prefix": "риг",
+      "file": "риг.json",
+      "wordforms_count": 33,
+      "size": 37907
+    },
+    {
+      "prefix": "рид",
+      "file": "рид.json",
+      "wordforms_count": 2,
+      "size": 3102
+    },
+    {
+      "prefix": "риж",
+      "file": "риж.json",
+      "wordforms_count": 42,
+      "size": 35180
+    },
+    {
+      "prefix": "риз",
+      "file": "риз.json",
+      "wordforms_count": 23,
+      "size": 20468
+    },
+    {
+      "prefix": "рии",
+      "file": "рии.json",
+      "wordforms_count": 11,
+      "size": 33732
+    },
+    {
+      "prefix": "рик",
+      "file": "рик.json",
+      "wordforms_count": 86,
+      "size": 114219
+    },
+    {
+      "prefix": "рил",
+      "file": "рил.json",
+      "wordforms_count": 15,
+      "size": 18316
+    },
+    {
+      "prefix": "рим",
+      "file": "рим.json",
+      "wordforms_count": 9,
+      "size": 5916
+    },
+    {
+      "prefix": "рин",
+      "file": "рин.json",
+      "wordforms_count": 5,
+      "size": 3153
+    },
+    {
+      "prefix": "рис",
+      "file": "рис.json",
+      "wordforms_count": 19,
+      "size": 15346
+    },
+    {
+      "prefix": "рит",
+      "file": "рит.json",
+      "wordforms_count": 45,
+      "size": 50548
+    },
+    {
+      "prefix": "риу",
+      "file": "риу.json",
+      "wordforms_count": 1,
+      "size": 702
+    },
+    {
+      "prefix": "риф",
+      "file": "риф.json",
+      "wordforms_count": 5,
+      "size": 4759
+    },
+    {
+      "prefix": "рих",
+      "file": "рих.json",
+      "wordforms_count": 79,
+      "size": 68286
+    },
+    {
+      "prefix": "риц",
+      "file": "риц.json",
+      "wordforms_count": 32,
+      "size": 29837
+    },
+    {
+      "prefix": "рич",
+      "file": "рич.json",
+      "wordforms_count": 38,
+      "size": 47689
+    },
+    {
+      "prefix": "риш",
+      "file": "риш.json",
+      "wordforms_count": 11,
+      "size": 10988
+    },
+    {
+      "prefix": "рищ",
+      "file": "рищ.json",
+      "wordforms_count": 27,
+      "size": 25971
+    },
+    {
+      "prefix": "рия",
+      "file": "рия.json",
+      "wordforms_count": 7,
+      "size": 5303
+    },
+    {
+      "prefix": "рог",
+      "file": "рог.json",
+      "wordforms_count": 62,
+      "size": 70581
+    },
+    {
+      "prefix": "род",
+      "file": "род.json",
+      "wordforms_count": 6,
+      "size": 5649
+    },
+    {
+      "prefix": "роз",
+      "file": "роз.json",
+      "wordforms_count": 13,
+      "size": 9031
+    },
+    {
+      "prefix": "рок",
+      "file": "рок.json",
+      "wordforms_count": 85,
+      "size": 159621
+    },
+    {
+      "prefix": "рол",
+      "file": "рол.json",
+      "wordforms_count": 25,
+      "size": 42765
+    },
+    {
+      "prefix": "ром",
+      "file": "ром.json",
+      "wordforms_count": 25,
+      "size": 24979
+    },
+    {
+      "prefix": "роо",
+      "file": "роо.json",
+      "wordforms_count": 3,
+      "size": 4018
+    },
+    {
+      "prefix": "рор",
+      "file": "рор.json",
+      "wordforms_count": 53,
+      "size": 49259
+    },
+    {
+      "prefix": "рос",
+      "file": "рос.json",
+      "wordforms_count": 91,
+      "size": 225052
+    },
+    {
+      "prefix": "рот",
+      "file": "рот.json",
+      "wordforms_count": 12,
+      "size": 9868
+    },
+    {
+      "prefix": "рох",
+      "file": "рох.json",
+      "wordforms_count": 152,
+      "size": 169176
+    },
+    {
+      "prefix": "роц",
+      "file": "роц.json",
+      "wordforms_count": 59,
+      "size": 55535
+    },
+    {
+      "prefix": "роч",
+      "file": "роч.json",
+      "wordforms_count": 30,
+      "size": 22149
+    },
+    {
+      "prefix": "рощ",
+      "file": "рощ.json",
+      "wordforms_count": 3,
+      "size": 2004
+    },
+    {
+      "prefix": "роя",
+      "file": "роя.json",
+      "wordforms_count": 4,
+      "size": 2983
+    },
+    {
+      "prefix": "руг",
+      "file": "руг.json",
+      "wordforms_count": 118,
+      "size": 319736
+    },
+    {
+      "prefix": "руд",
+      "file": "руд.json",
+      "wordforms_count": 3,
+      "size": 2562
+    },
+    {
+      "prefix": "руз",
+      "file": "руз.json",
+      "wordforms_count": 26,
+      "size": 26417
+    },
+    {
+      "prefix": "рук",
+      "file": "рук.json",
+      "wordforms_count": 189,
+      "size": 322831
+    },
+    {
+      "prefix": "рул",
+      "file": "рул.json",
+      "wordforms_count": 5,
+      "size": 3839
+    },
+    {
+      "prefix": "рум",
+      "file": "рум.json",
+      "wordforms_count": 22,
+      "size": 15951
+    },
+    {
+      "prefix": "рур",
+      "file": "рур.json",
+      "wordforms_count": 22,
+      "size": 19518
+    },
+    {
+      "prefix": "рус",
+      "file": "рус.json",
+      "wordforms_count": 33,
+      "size": 29811
+    },
+    {
+      "prefix": "рут",
+      "file": "рут.json",
+      "wordforms_count": 3,
+      "size": 1956
+    },
+    {
+      "prefix": "рух",
+      "file": "рух.json",
+      "wordforms_count": 118,
+      "size": 128255
+    },
+    {
+      "prefix": "руц",
+      "file": "руц.json",
+      "wordforms_count": 6,
+      "size": 4215
+    },
+    {
+      "prefix": "руч",
+      "file": "руч.json",
+      "wordforms_count": 23,
+      "size": 36440
+    },
+    {
+      "prefix": "рущ",
+      "file": "рущ.json",
+      "wordforms_count": 21,
+      "size": 15582
+    },
+    {
+      "prefix": "саб",
+      "file": "саб.json",
+      "wordforms_count": 8,
+      "size": 11676
+    },
+    {
+      "prefix": "сав",
+      "file": "сав.json",
+      "wordforms_count": 1,
+      "size": 1129
+    },
+    {
+      "prefix": "саг",
+      "file": "саг.json",
+      "wordforms_count": 14,
+      "size": 21658
+    },
+    {
+      "prefix": "сад",
+      "file": "сад.json",
+      "wordforms_count": 3,
+      "size": 4476
+    },
+    {
+      "prefix": "сай",
+      "file": "сай.json",
+      "wordforms_count": 4,
+      "size": 5758
+    },
+    {
+      "prefix": "сак",
+      "file": "сак.json",
+      "wordforms_count": 2,
+      "size": 1039
+    },
+    {
+      "prefix": "сал",
+      "file": "сал.json",
+      "wordforms_count": 15,
+      "size": 17034
+    },
+    {
+      "prefix": "сам",
+      "file": "сам.json",
+      "wordforms_count": 75,
+      "size": 70204
+    },
+    {
+      "prefix": "сан",
+      "file": "сан.json",
+      "wordforms_count": 168,
+      "size": 143236
+    },
+    {
+      "prefix": "сап",
+      "file": "сап.json",
+      "wordforms_count": 27,
+      "size": 44200
+    },
+    {
+      "prefix": "сар",
+      "file": "сар.json",
+      "wordforms_count": 73,
+      "size": 68297
+    },
+    {
+      "prefix": "сас",
+      "file": "сас.json",
+      "wordforms_count": 42,
+      "size": 36732
+    },
+    {
+      "prefix": "сат",
+      "file": "сат.json",
+      "wordforms_count": 14,
+      "size": 12927
+    },
+    {
+      "prefix": "сах",
+      "file": "сах.json",
+      "wordforms_count": 85,
+      "size": 85057
+    },
+    {
+      "prefix": "сач",
+      "file": "сач.json",
+      "wordforms_count": 5,
+      "size": 3454
+    },
+    {
+      "prefix": "сая",
+      "file": "сая.json",
+      "wordforms_count": 23,
+      "size": 20082
+    },
+    {
+      "prefix": "сб",
+      "file": "сб.json",
+      "wordforms_count": 22,
+      "size": 18109
+    },
+    {
+      "prefix": "сва",
+      "file": "сва.json",
+      "wordforms_count": 111,
+      "size": 99489
+    },
+    {
+      "prefix": "све",
+      "file": "све.json",
+      "wordforms_count": 160,
+      "size": 164035
+    },
+    {
+      "prefix": "сви",
+      "file": "сви.json",
+      "wordforms_count": 24,
+      "size": 29800
+    },
+    {
+      "prefix": "сво",
+      "file": "сво.json",
+      "wordforms_count": 8,
+      "size": 7653
+    },
+    {
+      "prefix": "свя",
+      "file": "свя.json",
+      "wordforms_count": 15,
+      "size": 13121
+    },
+    {
+      "prefix": "сеа",
+      "file": "сеа.json",
+      "wordforms_count": 4,
+      "size": 4468
+    },
+    {
+      "prefix": "сев",
+      "file": "сев.json",
+      "wordforms_count": 14,
+      "size": 15060
+    },
+    {
+      "prefix": "сег",
+      "file": "сег.json",
+      "wordforms_count": 4,
+      "size": 2642
+    },
+    {
+      "prefix": "сед",
+      "file": "сед.json",
+      "wordforms_count": 16,
+      "size": 14296
+    },
+    {
+      "prefix": "сез",
+      "file": "сез.json",
+      "wordforms_count": 14,
+      "size": 14731
+    },
+    {
+      "prefix": "сей",
+      "file": "сей.json",
+      "wordforms_count": 24,
+      "size": 18816
+    },
+    {
+      "prefix": "сек",
+      "file": "сек.json",
+      "wordforms_count": 71,
+      "size": 66905
+    },
+    {
+      "prefix": "сел",
+      "file": "сел.json",
+      "wordforms_count": 27,
+      "size": 21114
+    },
+    {
+      "prefix": "сем",
+      "file": "сем.json",
+      "wordforms_count": 51,
+      "size": 41896
+    },
+    {
+      "prefix": "сен",
+      "file": "сен.json",
+      "wordforms_count": 58,
+      "size": 44669
+    },
+    {
+      "prefix": "сеп",
+      "file": "сеп.json",
+      "wordforms_count": 17,
+      "size": 13691
+    },
+    {
+      "prefix": "сер",
+      "file": "сер.json",
+      "wordforms_count": 35,
+      "size": 27892
+    },
+    {
+      "prefix": "сес",
+      "file": "сес.json",
+      "wordforms_count": 5,
+      "size": 6161
+    },
+    {
+      "prefix": "сет",
+      "file": "сет.json",
+      "wordforms_count": 5,
+      "size": 4410
+    },
+    {
+      "prefix": "си",
+      "file": "си.json",
+      "wordforms_count": 1,
+      "size": 5256
+    },
+    {
+      "prefix": "сиб",
+      "file": "сиб.json",
+      "wordforms_count": 20,
+      "size": 13855
+    },
+    {
+      "prefix": "сив",
+      "file": "сив.json",
+      "wordforms_count": 15,
+      "size": 12547
+    },
+    {
+      "prefix": "сиг",
+      "file": "сиг.json",
+      "wordforms_count": 32,
+      "size": 29451
+    },
+    {
+      "prefix": "сид",
+      "file": "сид.json",
+      "wordforms_count": 1,
+      "size": 626
+    },
+    {
+      "prefix": "сиж",
+      "file": "сиж.json",
+      "wordforms_count": 3,
+      "size": 1898
+    },
+    {
+      "prefix": "сий",
+      "file": "сий.json",
+      "wordforms_count": 5,
+      "size": 4587
+    },
+    {
+      "prefix": "сил",
+      "file": "сил.json",
+      "wordforms_count": 20,
+      "size": 16318
+    },
+    {
+      "prefix": "сим",
+      "file": "сим.json",
+      "wordforms_count": 41,
+      "size": 37271
+    },
+    {
+      "prefix": "син",
+      "file": "син.json",
+      "wordforms_count": 136,
+      "size": 102663
+    },
+    {
+      "prefix": "сио",
+      "file": "сио.json",
+      "wordforms_count": 10,
+      "size": 9297
+    },
+    {
+      "prefix": "сип",
+      "file": "сип.json",
+      "wordforms_count": 11,
+      "size": 9567
+    },
+    {
+      "prefix": "сир",
+      "file": "сир.json",
+      "wordforms_count": 59,
+      "size": 52721
+    },
+    {
+      "prefix": "сис",
+      "file": "сис.json",
+      "wordforms_count": 11,
+      "size": 13382
+    },
+    {
+      "prefix": "сиф",
+      "file": "сиф.json",
+      "wordforms_count": 3,
+      "size": 2750
+    },
+    {
+      "prefix": "сих",
+      "file": "сих.json",
+      "wordforms_count": 63,
+      "size": 59319
+    },
+    {
+      "prefix": "сия",
+      "file": "сия.json",
+      "wordforms_count": 18,
+      "size": 15259
+    },
+    {
+      "prefix": "ск",
+      "file": "ск.json",
+      "wordforms_count": 90,
+      "size": 75281
+    },
+    {
+      "prefix": "сл",
+      "file": "сл.json",
+      "wordforms_count": 80,
+      "size": 74904
+    },
+    {
+      "prefix": "см",
+      "file": "см.json",
+      "wordforms_count": 10,
+      "size": 8948
+    },
+    {
+      "prefix": "сн",
+      "file": "сн.json",
+      "wordforms_count": 9,
+      "size": 7594
+    },
+    {
+      "prefix": "соа",
+      "file": "соа.json",
+      "wordforms_count": 10,
+      "size": 8149
+    },
+    {
+      "prefix": "соб",
+      "file": "соб.json",
+      "wordforms_count": 24,
+      "size": 22226
+    },
+    {
+      "prefix": "сов",
+      "file": "сов.json",
+      "wordforms_count": 49,
+      "size": 51869
+    },
+    {
+      "prefix": "сог",
+      "file": "сог.json",
+      "wordforms_count": 36,
+      "size": 28256
+    },
+    {
+      "prefix": "сод",
+      "file": "сод.json",
+      "wordforms_count": 3,
+      "size": 4758
+    },
+    {
+      "prefix": "сой",
+      "file": "сой.json",
+      "wordforms_count": 1,
+      "size": 496
+    },
+    {
+      "prefix": "сок",
+      "file": "сок.json",
+      "wordforms_count": 16,
+      "size": 13520
+    },
+    {
+      "prefix": "сол",
+      "file": "сол.json",
+      "wordforms_count": 53,
+      "size": 45967
+    },
+    {
+      "prefix": "сон",
+      "file": "сон.json",
+      "wordforms_count": 57,
+      "size": 118987
+    },
+    {
+      "prefix": "сор",
+      "file": "сор.json",
+      "wordforms_count": 52,
+      "size": 91120
+    },
+    {
+      "prefix": "сос",
+      "file": "сос.json",
+      "wordforms_count": 12,
+      "size": 11808
+    },
+    {
+      "prefix": "сот",
+      "file": "сот.json",
+      "wordforms_count": 4,
+      "size": 2613
+    },
+    {
+      "prefix": "соу",
+      "file": "соу.json",
+      "wordforms_count": 4,
+      "size": 3295
+    },
+    {
+      "prefix": "соф",
+      "file": "соф.json",
+      "wordforms_count": 5,
+      "size": 3171
+    },
+    {
+      "prefix": "сох",
+      "file": "сох.json",
+      "wordforms_count": 1,
+      "size": 1239
+    },
+    {
+      "prefix": "соц",
+      "file": "соц.json",
+      "wordforms_count": 39,
+      "size": 42272
+    },
+    {
+      "prefix": "соч",
+      "file": "соч.json",
+      "wordforms_count": 4,
+      "size": 4379
+    },
+    {
+      "prefix": "сою",
+      "file": "сою.json",
+      "wordforms_count": 19,
+      "size": 20474
+    },
+    {
+      "prefix": "сп",
+      "file": "сп.json",
+      "wordforms_count": 95,
+      "size": 102343
+    },
+    {
+      "prefix": "сс",
+      "file": "сс.json",
+      "wordforms_count": 30,
+      "size": 23394
+    },
+    {
+      "prefix": "ста",
+      "file": "ста.json",
+      "wordforms_count": 124,
+      "size": 120590
+    },
+    {
+      "prefix": "сте",
+      "file": "сте.json",
+      "wordforms_count": 25,
+      "size": 21561
+    },
+    {
+      "prefix": "сти",
+      "file": "сти.json",
+      "wordforms_count": 27,
+      "size": 26244
+    },
+    {
+      "prefix": "сто",
+      "file": "сто.json",
+      "wordforms_count": 36,
+      "size": 38945
+    },
+    {
+      "prefix": "стр",
+      "file": "стр.json",
+      "wordforms_count": 25,
+      "size": 23468
+    },
+    {
+      "prefix": "сту",
+      "file": "сту.json",
+      "wordforms_count": 18,
+      "size": 21135
+    },
+    {
+      "prefix": "стю",
+      "file": "стю.json",
+      "wordforms_count": 8,
+      "size": 6753
+    },
+    {
+      "prefix": "суа",
+      "file": "суа.json",
+      "wordforms_count": 11,
+      "size": 25258
+    },
+    {
+      "prefix": "суб",
+      "file": "суб.json",
+      "wordforms_count": 15,
+      "size": 12379
+    },
+    {
+      "prefix": "суг",
+      "file": "суг.json",
+      "wordforms_count": 16,
+      "size": 12997
+    },
+    {
+      "prefix": "суд",
+      "file": "суд.json",
+      "wordforms_count": 31,
+      "size": 36329
+    },
+    {
+      "prefix": "суж",
+      "file": "суж.json",
+      "wordforms_count": 7,
+      "size": 5777
+    },
+    {
+      "prefix": "суз",
+      "file": "суз.json",
+      "wordforms_count": 7,
+      "size": 5349
+    },
+    {
+      "prefix": "суй",
+      "file": "суй.json",
+      "wordforms_count": 5,
+      "size": 5413
+    },
+    {
+      "prefix": "сук",
+      "file": "сук.json",
+      "wordforms_count": 50,
+      "size": 43635
+    },
+    {
+      "prefix": "сул",
+      "file": "сул.json",
+      "wordforms_count": 29,
+      "size": 22705
+    },
+    {
+      "prefix": "сум",
+      "file": "сум.json",
+      "wordforms_count": 42,
+      "size": 36761
+    },
+    {
+      "prefix": "сун",
+      "file": "сун.json",
+      "wordforms_count": 95,
+      "size": 88646
+    },
+    {
+      "prefix": "сур",
+      "file": "сур.json",
+      "wordforms_count": 186,
+      "size": 186374
+    },
+    {
+      "prefix": "сус",
+      "file": "сус.json",
+      "wordforms_count": 24,
+      "size": 17588
+    },
+    {
+      "prefix": "сут",
+      "file": "сут.json",
+      "wordforms_count": 11,
+      "size": 7986
+    },
+    {
+      "prefix": "суф",
+      "file": "суф.json",
+      "wordforms_count": 16,
+      "size": 14197
+    },
+    {
+      "prefix": "сух",
+      "file": "сух.json",
+      "wordforms_count": 35,
+      "size": 35734
+    },
+    {
+      "prefix": "сую",
+      "file": "сую.json",
+      "wordforms_count": 3,
+      "size": 1893
+    },
+    {
+      "prefix": "суя",
+      "file": "суя.json",
+      "wordforms_count": 3,
+      "size": 2471
+    },
+    {
+      "prefix": "сф",
+      "file": "сф.json",
+      "wordforms_count": 3,
+      "size": 2259
+    },
+    {
+      "prefix": "сх",
+      "file": "сх.json",
+      "wordforms_count": 4,
+      "size": 4175
+    },
+    {
+      "prefix": "сц",
+      "file": "сц.json",
+      "wordforms_count": 22,
+      "size": 19324
+    },
+    {
+      "prefix": "сч",
+      "file": "сч.json",
+      "wordforms_count": 19,
+      "size": 19071
+    },
+    {
+      "prefix": "съ",
+      "file": "съ.json",
+      "wordforms_count": 6,
+      "size": 7185
+    },
+    {
+      "prefix": "сю",
+      "file": "сю.json",
+      "wordforms_count": 9,
+      "size": 8416
+    },
+    {
+      "prefix": "сё",
+      "file": "сё.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "таб",
+      "file": "таб.json",
+      "wordforms_count": 41,
+      "size": 34063
+    },
+    {
+      "prefix": "тав",
+      "file": "тав.json",
+      "wordforms_count": 49,
+      "size": 40076
+    },
+    {
+      "prefix": "таг",
+      "file": "таг.json",
+      "wordforms_count": 10,
+      "size": 7808
+    },
+    {
+      "prefix": "тад",
+      "file": "тад.json",
+      "wordforms_count": 9,
+      "size": 9830
+    },
+    {
+      "prefix": "таж",
+      "file": "таж.json",
+      "wordforms_count": 20,
+      "size": 14762
+    },
+    {
+      "prefix": "таз",
+      "file": "таз.json",
+      "wordforms_count": 7,
+      "size": 5436
+    },
+    {
+      "prefix": "тай",
+      "file": "тай.json",
+      "wordforms_count": 39,
+      "size": 42799
+    },
+    {
+      "prefix": "так",
+      "file": "так.json",
+      "wordforms_count": 75,
+      "size": 65967
+    },
+    {
+      "prefix": "тал",
+      "file": "тал.json",
+      "wordforms_count": 114,
+      "size": 107235
+    },
+    {
+      "prefix": "там",
+      "file": "там.json",
+      "wordforms_count": 79,
+      "size": 89105
+    },
+    {
+      "prefix": "тан",
+      "file": "тан.json",
+      "wordforms_count": 88,
+      "size": 94380
+    },
+    {
+      "prefix": "тап",
+      "file": "тап.json",
+      "wordforms_count": 19,
+      "size": 15399
+    },
+    {
+      "prefix": "тар",
+      "file": "тар.json",
+      "wordforms_count": 150,
+      "size": 153661
+    },
+    {
+      "prefix": "тас",
+      "file": "тас.json",
+      "wordforms_count": 22,
+      "size": 22046
+    },
+    {
+      "prefix": "тат",
+      "file": "тат.json",
+      "wordforms_count": 31,
+      "size": 28035
+    },
+    {
+      "prefix": "тах",
+      "file": "тах.json",
+      "wordforms_count": 34,
+      "size": 32302
+    },
+    {
+      "prefix": "тач",
+      "file": "тач.json",
+      "wordforms_count": 4,
+      "size": 4514
+    },
+    {
+      "prefix": "таш",
+      "file": "таш.json",
+      "wordforms_count": 8,
+      "size": 6663
+    },
+    {
+      "prefix": "тая",
+      "file": "тая.json",
+      "wordforms_count": 3,
+      "size": 1821
+    },
+    {
+      "prefix": "тв",
+      "file": "тв.json",
+      "wordforms_count": 16,
+      "size": 13574
+    },
+    {
+      "prefix": "те",
+      "file": "те.json",
+      "wordforms_count": 1,
+      "size": 19070
+    },
+    {
+      "prefix": "теа",
+      "file": "теа.json",
+      "wordforms_count": 7,
+      "size": 12774
+    },
+    {
+      "prefix": "теб",
+      "file": "теб.json",
+      "wordforms_count": 9,
+      "size": 6871
+    },
+    {
+      "prefix": "тег",
+      "file": "тег.json",
+      "wordforms_count": 19,
+      "size": 14733
+    },
+    {
+      "prefix": "тед",
+      "file": "тед.json",
+      "wordforms_count": 1,
+      "size": 646
+    },
+    {
+      "prefix": "тез",
+      "file": "тез.json",
+      "wordforms_count": 13,
+      "size": 51201
+    },
+    {
+      "prefix": "тей",
+      "file": "тей.json",
+      "wordforms_count": 1,
+      "size": 1818
+    },
+    {
+      "prefix": "тек",
+      "file": "тек.json",
+      "wordforms_count": 9,
+      "size": 7583
+    },
+    {
+      "prefix": "тел",
+      "file": "тел.json",
+      "wordforms_count": 121,
+      "size": 124785
+    },
+    {
+      "prefix": "тем",
+      "file": "тем.json",
+      "wordforms_count": 13,
+      "size": 16576
+    },
+    {
+      "prefix": "тен",
+      "file": "тен.json",
+      "wordforms_count": 41,
+      "size": 32296
+    },
+    {
+      "prefix": "тео",
+      "file": "тео.json",
+      "wordforms_count": 19,
+      "size": 19668
+    },
+    {
+      "prefix": "теп",
+      "file": "теп.json",
+      "wordforms_count": 6,
+      "size": 4988
+    },
+    {
+      "prefix": "тер",
+      "file": "тер.json",
+      "wordforms_count": 112,
+      "size": 90704
+    },
+    {
+      "prefix": "тес",
+      "file": "тес.json",
+      "wordforms_count": 5,
+      "size": 3936
+    },
+    {
+      "prefix": "тет",
+      "file": "тет.json",
+      "wordforms_count": 6,
+      "size": 7232
+    },
+    {
+      "prefix": "тех",
+      "file": "тех.json",
+      "wordforms_count": 44,
+      "size": 43327
+    },
+    {
+      "prefix": "теч",
+      "file": "теч.json",
+      "wordforms_count": 6,
+      "size": 11994
+    },
+    {
+      "prefix": "тея",
+      "file": "тея.json",
+      "wordforms_count": 1,
+      "size": 801
+    },
+    {
+      "prefix": "ти",
+      "file": "ти.json",
+      "wordforms_count": 168,
+      "size": 138512
+    },
+    {
+      "prefix": "тоб",
+      "file": "тоб.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "тов",
+      "file": "тов.json",
+      "wordforms_count": 14,
+      "size": 11516
+    },
+    {
+      "prefix": "тог",
+      "file": "тог.json",
+      "wordforms_count": 2,
+      "size": 13266
+    },
+    {
+      "prefix": "тож",
+      "file": "тож.json",
+      "wordforms_count": 4,
+      "size": 2893
+    },
+    {
+      "prefix": "той",
+      "file": "той.json",
+      "wordforms_count": 1,
+      "size": 578
+    },
+    {
+      "prefix": "ток",
+      "file": "ток.json",
+      "wordforms_count": 4,
+      "size": 9590
+    },
+    {
+      "prefix": "тол",
+      "file": "тол.json",
+      "wordforms_count": 25,
+      "size": 31604
+    },
+    {
+      "prefix": "том",
+      "file": "том.json",
+      "wordforms_count": 8,
+      "size": 7323
+    },
+    {
+      "prefix": "тон",
+      "file": "тон.json",
+      "wordforms_count": 5,
+      "size": 4372
+    },
+    {
+      "prefix": "топ",
+      "file": "топ.json",
+      "wordforms_count": 26,
+      "size": 20138
+    },
+    {
+      "prefix": "тор",
+      "file": "тор.json",
+      "wordforms_count": 17,
+      "size": 26501
+    },
+    {
+      "prefix": "тох",
+      "file": "тох.json",
+      "wordforms_count": 41,
+      "size": 43538
+    },
+    {
+      "prefix": "тоя",
+      "file": "тоя.json",
+      "wordforms_count": 3,
+      "size": 1749
+    },
+    {
+      "prefix": "тп",
+      "file": "тп.json",
+      "wordforms_count": 1,
+      "size": 506
+    },
+    {
+      "prefix": "тр",
+      "file": "тр.json",
+      "wordforms_count": 154,
+      "size": 138173
+    },
+    {
+      "prefix": "ту",
+      "file": "ту.json",
+      "wordforms_count": 1,
+      "size": 786
+    },
+    {
+      "prefix": "ту-",
+      "file": "ту-.json",
+      "wordforms_count": 5,
+      "size": 3090
+    },
+    {
+      "prefix": "туб",
+      "file": "туб.json",
+      "wordforms_count": 9,
+      "size": 10027
+    },
+    {
+      "prefix": "тув",
+      "file": "тув.json",
+      "wordforms_count": 20,
+      "size": 14420
+    },
+    {
+      "prefix": "туг",
+      "file": "туг.json",
+      "wordforms_count": 5,
+      "size": 3256
+    },
+    {
+      "prefix": "туд",
+      "file": "туд.json",
+      "wordforms_count": 6,
+      "size": 4367
+    },
+    {
+      "prefix": "туз",
+      "file": "туз.json",
+      "wordforms_count": 5,
+      "size": 6003
+    },
+    {
+      "prefix": "туй",
+      "file": "туй.json",
+      "wordforms_count": 2,
+      "size": 3802
+    },
+    {
+      "prefix": "тук",
+      "file": "тук.json",
+      "wordforms_count": 24,
+      "size": 37884
+    },
+    {
+      "prefix": "тул",
+      "file": "тул.json",
+      "wordforms_count": 34,
+      "size": 25395
+    },
+    {
+      "prefix": "тум",
+      "file": "тум.json",
+      "wordforms_count": 27,
+      "size": 33463
+    },
+    {
+      "prefix": "тун",
+      "file": "тун.json",
+      "wordforms_count": 64,
+      "size": 75055
+    },
+    {
+      "prefix": "туп",
+      "file": "туп.json",
+      "wordforms_count": 4,
+      "size": 3283
+    },
+    {
+      "prefix": "тур",
+      "file": "тур.json",
+      "wordforms_count": 143,
+      "size": 121724
+    },
+    {
+      "prefix": "тус",
+      "file": "тус.json",
+      "wordforms_count": 18,
+      "size": 19761
+    },
+    {
+      "prefix": "тут",
+      "file": "тут.json",
+      "wordforms_count": 16,
+      "size": 12923
+    },
+    {
+      "prefix": "туф",
+      "file": "туф.json",
+      "wordforms_count": 4,
+      "size": 4051
+    },
+    {
+      "prefix": "тух",
+      "file": "тух.json",
+      "wordforms_count": 15,
+      "size": 17856
+    },
+    {
+      "prefix": "туш",
+      "file": "туш.json",
+      "wordforms_count": 46,
+      "size": 67105
+    },
+    {
+      "prefix": "ты",
+      "file": "ты.json",
+      "wordforms_count": 1,
+      "size": 464
+    },
+    {
+      "prefix": "тӏа",
+      "file": "тӏа.json",
+      "wordforms_count": 1329,
+      "size": 1561285
+    },
+    {
+      "prefix": "тӏв",
+      "file": "тӏв.json",
+      "wordforms_count": 23,
+      "size": 22336
+    },
+    {
+      "prefix": "тӏе",
+      "file": "тӏе.json",
+      "wordforms_count": 296,
+      "size": 402713
+    },
+    {
+      "prefix": "тӏи",
+      "file": "тӏи.json",
+      "wordforms_count": 254,
+      "size": 288814
+    },
+    {
+      "prefix": "тӏо",
+      "file": "тӏо.json",
+      "wordforms_count": 362,
+      "size": 427360
+    },
+    {
+      "prefix": "тӏу",
+      "file": "тӏу.json",
+      "wordforms_count": 298,
+      "size": 338107
+    },
+    {
+      "prefix": "у",
+      "file": "у.json",
+      "wordforms_count": 2,
+      "size": 1966
+    },
+    {
+      "prefix": "уа",
+      "file": "уа.json",
+      "wordforms_count": 4,
+      "size": 2637
+    },
+    {
+      "prefix": "уб",
+      "file": "уб.json",
+      "wordforms_count": 16,
+      "size": 15978
+    },
+    {
+      "prefix": "ув",
+      "file": "ув.json",
+      "wordforms_count": 10,
+      "size": 8297
+    },
+    {
+      "prefix": "уг",
+      "file": "уг.json",
+      "wordforms_count": 110,
+      "size": 84911
+    },
+    {
+      "prefix": "уд",
+      "file": "уд.json",
+      "wordforms_count": 44,
+      "size": 38540
+    },
+    {
+      "prefix": "уе",
+      "file": "уе.json",
+      "wordforms_count": 4,
+      "size": 2996
+    },
+    {
+      "prefix": "уж",
+      "file": "уж.json",
+      "wordforms_count": 8,
+      "size": 6232
+    },
+    {
+      "prefix": "уз",
+      "file": "уз.json",
+      "wordforms_count": 67,
+      "size": 51987
+    },
+    {
+      "prefix": "уй",
+      "file": "уй.json",
+      "wordforms_count": 3,
+      "size": 1685
+    },
+    {
+      "prefix": "ук",
+      "file": "ук.json",
+      "wordforms_count": 28,
+      "size": 22676
+    },
+    {
+      "prefix": "ул",
+      "file": "ул.json",
+      "wordforms_count": 44,
+      "size": 42408
+    },
+    {
+      "prefix": "ум",
+      "file": "ум.json",
+      "wordforms_count": 13,
+      "size": 18189
+    },
+    {
+      "prefix": "ун",
+      "file": "ун.json",
+      "wordforms_count": 1,
+      "size": 17696
+    },
+    {
+      "prefix": "уна",
+      "file": "уна.json",
+      "wordforms_count": 9,
+      "size": 20289
+    },
+    {
+      "prefix": "унг",
+      "file": "унг.json",
+      "wordforms_count": 9,
+      "size": 16308
+    },
+    {
+      "prefix": "унд",
+      "file": "унд.json",
+      "wordforms_count": 4,
+      "size": 2453
+    },
+    {
+      "prefix": "уне",
+      "file": "уне.json",
+      "wordforms_count": 10,
+      "size": 29249
+    },
+    {
+      "prefix": "уни",
+      "file": "уни.json",
+      "wordforms_count": 22,
+      "size": 23923
+    },
+    {
+      "prefix": "унк",
+      "file": "унк.json",
+      "wordforms_count": 93,
+      "size": 97456
+    },
+    {
+      "prefix": "унт",
+      "file": "унт.json",
+      "wordforms_count": 54,
+      "size": 143339
+    },
+    {
+      "prefix": "унч",
+      "file": "унч.json",
+      "wordforms_count": 1,
+      "size": 623
+    },
+    {
+      "prefix": "уп",
+      "file": "уп.json",
+      "wordforms_count": 13,
+      "size": 13719
+    },
+    {
+      "prefix": "ур",
+      "file": "ур.json",
+      "wordforms_count": 95,
+      "size": 105277
+    },
+    {
+      "prefix": "ус",
+      "file": "ус.json",
+      "wordforms_count": 20,
+      "size": 34130
+    },
+    {
+      "prefix": "ут",
+      "file": "ут.json",
+      "wordforms_count": 14,
+      "size": 10237
+    },
+    {
+      "prefix": "ух",
+      "file": "ух.json",
+      "wordforms_count": 42,
+      "size": 27921
+    },
+    {
+      "prefix": "уц",
+      "file": "уц.json",
+      "wordforms_count": 6,
+      "size": 4207
+    },
+    {
+      "prefix": "уч",
+      "file": "уч.json",
+      "wordforms_count": 91,
+      "size": 83862
+    },
+    {
+      "prefix": "уш",
+      "file": "уш.json",
+      "wordforms_count": 8,
+      "size": 6499
+    },
+    {
+      "prefix": "уя",
+      "file": "уя.json",
+      "wordforms_count": 1,
+      "size": 1282
+    },
+    {
+      "prefix": "фа",
+      "file": "фа.json",
+      "wordforms_count": 100,
+      "size": 89594
+    },
+    {
+      "prefix": "фе",
+      "file": "фе.json",
+      "wordforms_count": 100,
+      "size": 89732
+    },
+    {
+      "prefix": "фи",
+      "file": "фи.json",
+      "wordforms_count": 144,
+      "size": 132082
+    },
+    {
+      "prefix": "фл",
+      "file": "фл.json",
+      "wordforms_count": 22,
+      "size": 18892
+    },
+    {
+      "prefix": "фой",
+      "file": "фой.json",
+      "wordforms_count": 4,
+      "size": 2932
+    },
+    {
+      "prefix": "фок",
+      "file": "фок.json",
+      "wordforms_count": 4,
+      "size": 3365
+    },
+    {
+      "prefix": "фол",
+      "file": "фол.json",
+      "wordforms_count": 13,
+      "size": 12545
+    },
+    {
+      "prefix": "фон",
+      "file": "фон.json",
+      "wordforms_count": 39,
+      "size": 38568
+    },
+    {
+      "prefix": "фор",
+      "file": "фор.json",
+      "wordforms_count": 47,
+      "size": 47341
+    },
+    {
+      "prefix": "фос",
+      "file": "фос.json",
+      "wordforms_count": 6,
+      "size": 5990
+    },
+    {
+      "prefix": "фот",
+      "file": "фот.json",
+      "wordforms_count": 112,
+      "size": 91494
+    },
+    {
+      "prefix": "фр",
+      "file": "фр.json",
+      "wordforms_count": 64,
+      "size": 54212
+    },
+    {
+      "prefix": "фт",
+      "file": "фт.json",
+      "wordforms_count": 15,
+      "size": 11773
+    },
+    {
+      "prefix": "фу",
+      "file": "фу.json",
+      "wordforms_count": 69,
+      "size": 56023
+    },
+    {
+      "prefix": "фю",
+      "file": "фю.json",
+      "wordforms_count": 11,
+      "size": 7398
+    },
+    {
+      "prefix": "ха",
+      "file": "ха.json",
+      "wordforms_count": 1,
+      "size": 576
+    },
+    {
+      "prefix": "хаб",
+      "file": "хаб.json",
+      "wordforms_count": 69,
+      "size": 136157
+    },
+    {
+      "prefix": "хаг",
+      "file": "хаг.json",
+      "wordforms_count": 13,
+      "size": 9553
+    },
+    {
+      "prefix": "хад",
+      "file": "хад.json",
+      "wordforms_count": 133,
+      "size": 142933
+    },
+    {
+      "prefix": "хаж",
+      "file": "хаж.json",
+      "wordforms_count": 3,
+      "size": 2049
+    },
+    {
+      "prefix": "хаз",
+      "file": "хаз.json",
+      "wordforms_count": 15,
+      "size": 17270
+    },
+    {
+      "prefix": "хаи",
+      "file": "хаи.json",
+      "wordforms_count": 4,
+      "size": 2437
+    },
+    {
+      "prefix": "хай",
+      "file": "хай.json",
+      "wordforms_count": 26,
+      "size": 25021
+    },
+    {
+      "prefix": "хак",
+      "file": "хак.json",
+      "wordforms_count": 15,
+      "size": 10175
+    },
+    {
+      "prefix": "хал",
+      "file": "хал.json",
+      "wordforms_count": 159,
+      "size": 224908
+    },
+    {
+      "prefix": "хам",
+      "file": "хам.json",
+      "wordforms_count": 30,
+      "size": 26965
+    },
+    {
+      "prefix": "хан",
+      "file": "хан.json",
+      "wordforms_count": 70,
+      "size": 104129
+    },
+    {
+      "prefix": "хап",
+      "file": "хап.json",
+      "wordforms_count": 30,
+      "size": 22826
+    },
+    {
+      "prefix": "хар",
+      "file": "хар.json",
+      "wordforms_count": 169,
+      "size": 160536
+    },
+    {
+      "prefix": "хас",
+      "file": "хас.json",
+      "wordforms_count": 76,
+      "size": 111549
+    },
+    {
+      "prefix": "хат",
+      "file": "хат.json",
+      "wordforms_count": 38,
+      "size": 29594
+    },
+    {
+      "prefix": "хах",
+      "file": "хах.json",
+      "wordforms_count": 28,
+      "size": 23207
+    },
+    {
+      "prefix": "хач",
+      "file": "хач.json",
+      "wordforms_count": 37,
+      "size": 27893
+    },
+    {
+      "prefix": "хаш",
+      "file": "хаш.json",
+      "wordforms_count": 18,
+      "size": 14171
+    },
+    {
+      "prefix": "хва",
+      "file": "хва.json",
+      "wordforms_count": 117,
+      "size": 147666
+    },
+    {
+      "prefix": "хве",
+      "file": "хве.json",
+      "wordforms_count": 65,
+      "size": 103754
+    },
+    {
+      "prefix": "хви",
+      "file": "хви.json",
+      "wordforms_count": 1,
+      "size": 595
+    },
+    {
+      "prefix": "хев",
+      "file": "хев.json",
+      "wordforms_count": 10,
+      "size": 6847
+    },
+    {
+      "prefix": "хек",
+      "file": "хек.json",
+      "wordforms_count": 5,
+      "size": 6908
+    },
+    {
+      "prefix": "хел",
+      "file": "хел.json",
+      "wordforms_count": 18,
+      "size": 12838
+    },
+    {
+      "prefix": "хен",
+      "file": "хен.json",
+      "wordforms_count": 23,
+      "size": 17256
+    },
+    {
+      "prefix": "хер",
+      "file": "хер.json",
+      "wordforms_count": 62,
+      "size": 119351
+    },
+    {
+      "prefix": "хех",
+      "file": "хех.json",
+      "wordforms_count": 46,
+      "size": 66909
+    },
+    {
+      "prefix": "хеч",
+      "file": "хеч.json",
+      "wordforms_count": 3,
+      "size": 6142
+    },
+    {
+      "prefix": "хз",
+      "file": "хз.json",
+      "wordforms_count": 1,
+      "size": 498
+    },
+    {
+      "prefix": "хид",
+      "file": "хид.json",
+      "wordforms_count": 7,
+      "size": 4755
+    },
+    {
+      "prefix": "хил",
+      "file": "хил.json",
+      "wordforms_count": 26,
+      "size": 21942
+    },
+    {
+      "prefix": "хим",
+      "file": "хим.json",
+      "wordforms_count": 19,
+      "size": 17437
+    },
+    {
+      "prefix": "хин",
+      "file": "хин.json",
+      "wordforms_count": 61,
+      "size": 79289
+    },
+    {
+      "prefix": "хир",
+      "file": "хир.json",
+      "wordforms_count": 48,
+      "size": 60397
+    },
+    {
+      "prefix": "хис",
+      "file": "хис.json",
+      "wordforms_count": 56,
+      "size": 62332
+    },
+    {
+      "prefix": "хит",
+      "file": "хит.json",
+      "wordforms_count": 5,
+      "size": 3767
+    },
+    {
+      "prefix": "хич",
+      "file": "хич.json",
+      "wordforms_count": 25,
+      "size": 18036
+    },
+    {
+      "prefix": "хия",
+      "file": "хия.json",
+      "wordforms_count": 34,
+      "size": 31301
+    },
+    {
+      "prefix": "хл",
+      "file": "хл.json",
+      "wordforms_count": 9,
+      "size": 6732
+    },
+    {
+      "prefix": "хо",
+      "file": "хо.json",
+      "wordforms_count": 143,
+      "size": 144894
+    },
+    {
+      "prefix": "хр",
+      "file": "хр.json",
+      "wordforms_count": 32,
+      "size": 28257
+    },
+    {
+      "prefix": "хуб",
+      "file": "хуб.json",
+      "wordforms_count": 4,
+      "size": 3425
+    },
+    {
+      "prefix": "худ",
+      "file": "худ.json",
+      "wordforms_count": 13,
+      "size": 13952
+    },
+    {
+      "prefix": "хуз",
+      "file": "хуз.json",
+      "wordforms_count": 1,
+      "size": 2615
+    },
+    {
+      "prefix": "хуй",
+      "file": "хуй.json",
+      "wordforms_count": 2,
+      "size": 1049
+    },
+    {
+      "prefix": "хул",
+      "file": "хул.json",
+      "wordforms_count": 46,
+      "size": 42093
+    },
+    {
+      "prefix": "хум",
+      "file": "хум.json",
+      "wordforms_count": 9,
+      "size": 5999
+    },
+    {
+      "prefix": "хун",
+      "file": "хун.json",
+      "wordforms_count": 66,
+      "size": 54848
+    },
+    {
+      "prefix": "хур",
+      "file": "хур.json",
+      "wordforms_count": 101,
+      "size": 148046
+    },
+    {
+      "prefix": "хут",
+      "file": "хут.json",
+      "wordforms_count": 61,
+      "size": 131875
+    },
+    {
+      "prefix": "хух",
+      "file": "хух.json",
+      "wordforms_count": 7,
+      "size": 5905
+    },
+    {
+      "prefix": "хуч",
+      "file": "хуч.json",
+      "wordforms_count": 7,
+      "size": 5005
+    },
+    {
+      "prefix": "хх",
+      "file": "хх.json",
+      "wordforms_count": 63,
+      "size": 94466
+    },
+    {
+      "prefix": "хъа",
+      "file": "хъа.json",
+      "wordforms_count": 723,
+      "size": 765789
+    },
+    {
+      "prefix": "хъв",
+      "file": "хъв.json",
+      "wordforms_count": 295,
+      "size": 343116
+    },
+    {
+      "prefix": "хъе",
+      "file": "хъе.json",
+      "wordforms_count": 163,
+      "size": 120563
+    },
+    {
+      "prefix": "хъи",
+      "file": "хъи.json",
+      "wordforms_count": 233,
+      "size": 194239
+    },
+    {
+      "prefix": "хъо",
+      "file": "хъо.json",
+      "wordforms_count": 38,
+      "size": 32694
+    },
+    {
+      "prefix": "хъу",
+      "file": "хъу.json",
+      "wordforms_count": 411,
+      "size": 379718
+    },
+    {
+      "prefix": "хьа",
+      "file": "хьа.json",
+      "wordforms_count": 109,
+      "size": 95477
+    },
+    {
+      "prefix": "хьв",
+      "file": "хьв.json",
+      "wordforms_count": 203,
+      "size": 199663
+    },
+    {
+      "prefix": "хье",
+      "file": "хье.json",
+      "wordforms_count": 22,
+      "size": 19445
+    },
+    {
+      "prefix": "хьи",
+      "file": "хьи.json",
+      "wordforms_count": 128,
+      "size": 147372
+    },
+    {
+      "prefix": "хьо",
+      "file": "хьо.json",
+      "wordforms_count": 105,
+      "size": 96429
+    },
+    {
+      "prefix": "хьу",
+      "file": "хьу.json",
+      "wordforms_count": 177,
+      "size": 158842
+    },
+    {
+      "prefix": "хӏа",
+      "file": "хӏа.json",
+      "wordforms_count": 1416,
+      "size": 1694858
+    },
+    {
+      "prefix": "хӏе",
+      "file": "хӏе.json",
+      "wordforms_count": 256,
+      "size": 250473
+    },
+    {
+      "prefix": "хӏи",
+      "file": "хӏи.json",
+      "wordforms_count": 181,
+      "size": 194040
+    },
+    {
+      "prefix": "хӏо",
+      "file": "хӏо.json",
+      "wordforms_count": 98,
+      "size": 97640
+    },
+    {
+      "prefix": "хӏу",
+      "file": "хӏу.json",
+      "wordforms_count": 259,
+      "size": 290051
+    },
+    {
+      "prefix": "ц",
+      "file": "ц.json",
+      "wordforms_count": 1,
+      "size": 475
+    },
+    {
+      "prefix": "ца",
+      "file": "ца.json",
+      "wordforms_count": 121,
+      "size": 139478
+    },
+    {
+      "prefix": "цв",
+      "file": "цв.json",
+      "wordforms_count": 4,
+      "size": 2404
+    },
+    {
+      "prefix": "цеб",
+      "file": "цеб.json",
+      "wordforms_count": 86,
+      "size": 138606
+    },
+    {
+      "prefix": "цев",
+      "file": "цев.json",
+      "wordforms_count": 45,
+      "size": 58854
+    },
+    {
+      "prefix": "цед",
+      "file": "цед.json",
+      "wordforms_count": 5,
+      "size": 3839
+    },
+    {
+      "prefix": "цее",
+      "file": "цее.json",
+      "wordforms_count": 11,
+      "size": 10019
+    },
+    {
+      "prefix": "цез",
+      "file": "цез.json",
+      "wordforms_count": 3,
+      "size": 1940
+    },
+    {
+      "prefix": "цей",
+      "file": "цей.json",
+      "wordforms_count": 27,
+      "size": 19079
+    },
+    {
+      "prefix": "цем",
+      "file": "цем.json",
+      "wordforms_count": 4,
+      "size": 4828
+    },
+    {
+      "prefix": "цен",
+      "file": "цен.json",
+      "wordforms_count": 19,
+      "size": 17355
+    },
+    {
+      "prefix": "цер",
+      "file": "цер.json",
+      "wordforms_count": 21,
+      "size": 29220
+    },
+    {
+      "prefix": "цех",
+      "file": "цех.json",
+      "wordforms_count": 5,
+      "size": 6178
+    },
+    {
+      "prefix": "ци",
+      "file": "ци.json",
+      "wordforms_count": 115,
+      "size": 107533
+    },
+    {
+      "prefix": "цк",
+      "file": "цк.json",
+      "wordforms_count": 1,
+      "size": 582
+    },
+    {
+      "prefix": "цо",
+      "file": "цо.json",
+      "wordforms_count": 2,
+      "size": 132443
+    },
+    {
+      "prefix": "цо-",
+      "file": "цо-.json",
+      "wordforms_count": 6,
+      "size": 15080
+    },
+    {
+      "prefix": "цоа",
+      "file": "цоа.json",
+      "wordforms_count": 1,
+      "size": 2008
+    },
+    {
+      "prefix": "цог",
+      "file": "цог.json",
+      "wordforms_count": 21,
+      "size": 39823
+    },
+    {
+      "prefix": "цод",
+      "file": "цод.json",
+      "wordforms_count": 9,
+      "size": 9258
+    },
+    {
+      "prefix": "цой",
+      "file": "цой.json",
+      "wordforms_count": 8,
+      "size": 7522
+    },
+    {
+      "prefix": "цок",
+      "file": "цок.json",
+      "wordforms_count": 16,
+      "size": 12247
+    },
+    {
+      "prefix": "цол",
+      "file": "цол.json",
+      "wordforms_count": 25,
+      "size": 19805
+    },
+    {
+      "prefix": "цон",
+      "file": "цон.json",
+      "wordforms_count": 9,
+      "size": 13430
+    },
+    {
+      "prefix": "цор",
+      "file": "цор.json",
+      "wordforms_count": 1,
+      "size": 546
+    },
+    {
+      "prefix": "цос",
+      "file": "цос.json",
+      "wordforms_count": 1,
+      "size": 552
+    },
+    {
+      "prefix": "цот",
+      "file": "цот.json",
+      "wordforms_count": 1,
+      "size": 917
+    },
+    {
+      "prefix": "цох",
+      "file": "цох.json",
+      "wordforms_count": 8,
+      "size": 17677
+    },
+    {
+      "prefix": "цоц",
+      "file": "цоц.json",
+      "wordforms_count": 15,
+      "size": 39103
+    },
+    {
+      "prefix": "цощ",
+      "file": "цощ.json",
+      "wordforms_count": 1,
+      "size": 524
+    },
+    {
+      "prefix": "цоя",
+      "file": "цоя.json",
+      "wordforms_count": 15,
+      "size": 22296
+    },
+    {
+      "prefix": "цу",
+      "file": "цу.json",
+      "wordforms_count": 67,
+      "size": 52546
+    },
+    {
+      "prefix": "цц",
+      "file": "цц.json",
+      "wordforms_count": 35,
+      "size": 44142
+    },
+    {
+      "prefix": "цӏа",
+      "file": "цӏа.json",
+      "wordforms_count": 436,
+      "size": 658445
+    },
+    {
+      "prefix": "цӏв",
+      "file": "цӏв.json",
+      "wordforms_count": 64,
+      "size": 62414
+    },
+    {
+      "prefix": "цӏе",
+      "file": "цӏе.json",
+      "wordforms_count": 118,
+      "size": 152687
+    },
+    {
+      "prefix": "цӏи",
+      "file": "цӏи.json",
+      "wordforms_count": 204,
+      "size": 225720
+    },
+    {
+      "prefix": "цӏо",
+      "file": "цӏо.json",
+      "wordforms_count": 153,
+      "size": 198109
+    },
+    {
+      "prefix": "цӏу",
+      "file": "цӏу.json",
+      "wordforms_count": 231,
+      "size": 336061
+    },
+    {
+      "prefix": "цӏц",
+      "file": "цӏц.json",
+      "wordforms_count": 30,
+      "size": 35937
+    },
+    {
+      "prefix": "чаб",
+      "file": "чаб.json",
+      "wordforms_count": 20,
+      "size": 17542
+    },
+    {
+      "prefix": "чав",
+      "file": "чав.json",
+      "wordforms_count": 12,
+      "size": 7859
+    },
+    {
+      "prefix": "чаг",
+      "file": "чаг.json",
+      "wordforms_count": 40,
+      "size": 63991
+    },
+    {
+      "prefix": "чад",
+      "file": "чад.json",
+      "wordforms_count": 28,
+      "size": 34952
+    },
+    {
+      "prefix": "чай",
+      "file": "чай.json",
+      "wordforms_count": 36,
+      "size": 36894
+    },
+    {
+      "prefix": "чак",
+      "file": "чак.json",
+      "wordforms_count": 36,
+      "size": 46596
+    },
+    {
+      "prefix": "чал",
+      "file": "чал.json",
+      "wordforms_count": 55,
+      "size": 43090
+    },
+    {
+      "prefix": "чам",
+      "file": "чам.json",
+      "wordforms_count": 33,
+      "size": 25044
+    },
+    {
+      "prefix": "чан",
+      "file": "чан.json",
+      "wordforms_count": 118,
+      "size": 124327
+    },
+    {
+      "prefix": "чап",
+      "file": "чап.json",
+      "wordforms_count": 19,
+      "size": 14471
+    },
+    {
+      "prefix": "чар",
+      "file": "чар.json",
+      "wordforms_count": 78,
+      "size": 74685
+    },
+    {
+      "prefix": "час",
+      "file": "час.json",
+      "wordforms_count": 15,
+      "size": 10570
+    },
+    {
+      "prefix": "чах",
+      "file": "чах.json",
+      "wordforms_count": 35,
+      "size": 45139
+    },
+    {
+      "prefix": "чач",
+      "file": "чач.json",
+      "wordforms_count": 11,
+      "size": 7325
+    },
+    {
+      "prefix": "чаш",
+      "file": "чаш.json",
+      "wordforms_count": 4,
+      "size": 3045
+    },
+    {
+      "prefix": "чая",
+      "file": "чая.json",
+      "wordforms_count": 3,
+      "size": 3048
+    },
+    {
+      "prefix": "чв",
+      "file": "чв.json",
+      "wordforms_count": 155,
+      "size": 141801
+    },
+    {
+      "prefix": "чег",
+      "file": "чег.json",
+      "wordforms_count": 1,
+      "size": 496
+    },
+    {
+      "prefix": "чед",
+      "file": "чед.json",
+      "wordforms_count": 2,
+      "size": 31925
+    },
+    {
+      "prefix": "чек",
+      "file": "чек.json",
+      "wordforms_count": 6,
+      "size": 4503
+    },
+    {
+      "prefix": "чел",
+      "file": "чел.json",
+      "wordforms_count": 4,
+      "size": 3092
+    },
+    {
+      "prefix": "чем",
+      "file": "чем.json",
+      "wordforms_count": 22,
+      "size": 20863
+    },
+    {
+      "prefix": "чен",
+      "file": "чен.json",
+      "wordforms_count": 26,
+      "size": 18549
+    },
+    {
+      "prefix": "чер",
+      "file": "чер.json",
+      "wordforms_count": 61,
+      "size": 63877
+    },
+    {
+      "prefix": "чес",
+      "file": "чес.json",
+      "wordforms_count": 3,
+      "size": 2411
+    },
+    {
+      "prefix": "чет",
+      "file": "чет.json",
+      "wordforms_count": 4,
+      "size": 3639
+    },
+    {
+      "prefix": "чех",
+      "file": "чех.json",
+      "wordforms_count": 77,
+      "size": 75381
+    },
+    {
+      "prefix": "чи",
+      "file": "чи.json",
+      "wordforms_count": 1,
+      "size": 344587
+    },
+    {
+      "prefix": "чиг",
+      "file": "чиг.json",
+      "wordforms_count": 2,
+      "size": 5513
+    },
+    {
+      "prefix": "чид",
+      "file": "чид.json",
+      "wordforms_count": 4,
+      "size": 3009
+    },
+    {
+      "prefix": "чий",
+      "file": "чий.json",
+      "wordforms_count": 3,
+      "size": 1867
+    },
+    {
+      "prefix": "чил",
+      "file": "чил.json",
+      "wordforms_count": 21,
+      "size": 19040
+    },
+    {
+      "prefix": "чин",
+      "file": "чин.json",
+      "wordforms_count": 48,
+      "size": 38645
+    },
+    {
+      "prefix": "чир",
+      "file": "чир.json",
+      "wordforms_count": 60,
+      "size": 60150
+    },
+    {
+      "prefix": "чис",
+      "file": "чис.json",
+      "wordforms_count": 5,
+      "size": 3914
+    },
+    {
+      "prefix": "чит",
+      "file": "чит.json",
+      "wordforms_count": 19,
+      "size": 15563
+    },
+    {
+      "prefix": "чих",
+      "file": "чих.json",
+      "wordforms_count": 4,
+      "size": 3153
+    },
+    {
+      "prefix": "чия",
+      "file": "чия.json",
+      "wordforms_count": 57,
+      "size": 99634
+    },
+    {
+      "prefix": "чл",
+      "file": "чл.json",
+      "wordforms_count": 15,
+      "size": 20493
+    },
+    {
+      "prefix": "чоб",
+      "file": "чоб.json",
+      "wordforms_count": 14,
+      "size": 10034
+    },
+    {
+      "prefix": "чог",
+      "file": "чог.json",
+      "wordforms_count": 6,
+      "size": 6997
+    },
+    {
+      "prefix": "чод",
+      "file": "чод.json",
+      "wordforms_count": 13,
+      "size": 18164
+    },
+    {
+      "prefix": "чое",
+      "file": "чое.json",
+      "wordforms_count": 1,
+      "size": 1980
+    },
+    {
+      "prefix": "чол",
+      "file": "чол.json",
+      "wordforms_count": 24,
+      "size": 30902
+    },
+    {
+      "prefix": "чор",
+      "file": "чор.json",
+      "wordforms_count": 69,
+      "size": 61302
+    },
+    {
+      "prefix": "чот",
+      "file": "чот.json",
+      "wordforms_count": 6,
+      "size": 7709
+    },
+    {
+      "prefix": "чох",
+      "file": "чох.json",
+      "wordforms_count": 19,
+      "size": 16261
+    },
+    {
+      "prefix": "чоц",
+      "file": "чоц.json",
+      "wordforms_count": 1,
+      "size": 6059
+    },
+    {
+      "prefix": "чу",
+      "file": "чу.json",
+      "wordforms_count": 2,
+      "size": 67010
+    },
+    {
+      "prefix": "чуб",
+      "file": "чуб.json",
+      "wordforms_count": 5,
+      "size": 3387
+    },
+    {
+      "prefix": "чув",
+      "file": "чув.json",
+      "wordforms_count": 10,
+      "size": 6860
+    },
+    {
+      "prefix": "чуг",
+      "file": "чуг.json",
+      "wordforms_count": 6,
+      "size": 6189
+    },
+    {
+      "prefix": "чуд",
+      "file": "чуд.json",
+      "wordforms_count": 5,
+      "size": 5019
+    },
+    {
+      "prefix": "чук",
+      "file": "чук.json",
+      "wordforms_count": 14,
+      "size": 9557
+    },
+    {
+      "prefix": "чул",
+      "file": "чул.json",
+      "wordforms_count": 8,
+      "size": 5302
+    },
+    {
+      "prefix": "чум",
+      "file": "чум.json",
+      "wordforms_count": 22,
+      "size": 14395
+    },
+    {
+      "prefix": "чун",
+      "file": "чун.json",
+      "wordforms_count": 41,
+      "size": 28007
+    },
+    {
+      "prefix": "чуп",
+      "file": "чуп.json",
+      "wordforms_count": 1,
+      "size": 1706
+    },
+    {
+      "prefix": "чур",
+      "file": "чур.json",
+      "wordforms_count": 64,
+      "size": 86985
+    },
+    {
+      "prefix": "чух",
+      "file": "чух.json",
+      "wordforms_count": 51,
+      "size": 39643
+    },
+    {
+      "prefix": "чуч",
+      "file": "чуч.json",
+      "wordforms_count": 65,
+      "size": 56621
+    },
+    {
+      "prefix": "чуя",
+      "file": "чуя.json",
+      "wordforms_count": 8,
+      "size": 15320
+    },
+    {
+      "prefix": "чч",
+      "file": "чч.json",
+      "wordforms_count": 162,
+      "size": 140937
+    },
+    {
+      "prefix": "чӏа",
+      "file": "чӏа.json",
+      "wordforms_count": 445,
+      "size": 496750
+    },
+    {
+      "prefix": "чӏв",
+      "file": "чӏв.json",
+      "wordforms_count": 230,
+      "size": 369900
+    },
+    {
+      "prefix": "чӏе",
+      "file": "чӏе.json",
+      "wordforms_count": 205,
+      "size": 361337
+    },
+    {
+      "prefix": "чӏи",
+      "file": "чӏи.json",
+      "wordforms_count": 224,
+      "size": 194871
+    },
+    {
+      "prefix": "чӏо",
+      "file": "чӏо.json",
+      "wordforms_count": 154,
+      "size": 163204
+    },
+    {
+      "prefix": "чӏу",
+      "file": "чӏу.json",
+      "wordforms_count": 320,
+      "size": 316505
+    },
+    {
+      "prefix": "чӏч",
+      "file": "чӏч.json",
+      "wordforms_count": 30,
+      "size": 26482
+    },
+    {
+      "prefix": "шав",
+      "file": "шав.json",
+      "wordforms_count": 16,
+      "size": 13141
+    },
+    {
+      "prefix": "шаг",
+      "file": "шаг.json",
+      "wordforms_count": 114,
+      "size": 134031
+    },
+    {
+      "prefix": "шад",
+      "file": "шад.json",
+      "wordforms_count": 3,
+      "size": 2411
+    },
+    {
+      "prefix": "шаж",
+      "file": "шаж.json",
+      "wordforms_count": 3,
+      "size": 2024
+    },
+    {
+      "prefix": "шай",
+      "file": "шай.json",
+      "wordforms_count": 47,
+      "size": 44339
+    },
+    {
+      "prefix": "шак",
+      "file": "шак.json",
+      "wordforms_count": 3,
+      "size": 2682
+    },
+    {
+      "prefix": "шал",
+      "file": "шал.json",
+      "wordforms_count": 6,
+      "size": 7460
+    },
+    {
+      "prefix": "шам",
+      "file": "шам.json",
+      "wordforms_count": 13,
+      "size": 13605
+    },
+    {
+      "prefix": "шан",
+      "file": "шан.json",
+      "wordforms_count": 7,
+      "size": 5129
+    },
+    {
+      "prefix": "шап",
+      "file": "шап.json",
+      "wordforms_count": 16,
+      "size": 16591
+    },
+    {
+      "prefix": "шар",
+      "file": "шар.json",
+      "wordforms_count": 78,
+      "size": 72982
+    },
+    {
+      "prefix": "шах",
+      "file": "шах.json",
+      "wordforms_count": 28,
+      "size": 22796
+    },
+    {
+      "prefix": "шаш",
+      "file": "шаш.json",
+      "wordforms_count": 9,
+      "size": 7538
+    },
+    {
+      "prefix": "шв",
+      "file": "шв.json",
+      "wordforms_count": 24,
+      "size": 15516
+    },
+    {
+      "prefix": "ше",
+      "file": "ше.json",
+      "wordforms_count": 34,
+      "size": 25747
+    },
+    {
+      "prefix": "ши",
+      "file": "ши.json",
+      "wordforms_count": 67,
+      "size": 64858
+    },
+    {
+      "prefix": "шк",
+      "file": "шк.json",
+      "wordforms_count": 18,
+      "size": 29285
+    },
+    {
+      "prefix": "шл",
+      "file": "шл.json",
+      "wordforms_count": 12,
+      "size": 12058
+    },
+    {
+      "prefix": "шн",
+      "file": "шн.json",
+      "wordforms_count": 4,
+      "size": 2729
+    },
+    {
+      "prefix": "шо",
+      "file": "шо.json",
+      "wordforms_count": 52,
+      "size": 39687
+    },
+    {
+      "prefix": "шп",
+      "file": "шп.json",
+      "wordforms_count": 25,
+      "size": 18137
+    },
+    {
+      "prefix": "шр",
+      "file": "шр.json",
+      "wordforms_count": 4,
+      "size": 3742
+    },
+    {
+      "prefix": "шт",
+      "file": "шт.json",
+      "wordforms_count": 52,
+      "size": 44388
+    },
+    {
+      "prefix": "шу",
+      "file": "шу.json",
+      "wordforms_count": 60,
+      "size": 44948
+    },
+    {
+      "prefix": "шё",
+      "file": "шё.json",
+      "wordforms_count": 1,
+      "size": 617
+    },
+    {
+      "prefix": "щаг",
+      "file": "щаг.json",
+      "wordforms_count": 26,
+      "size": 23555
+    },
+    {
+      "prefix": "щай",
+      "file": "щай.json",
+      "wordforms_count": 10,
+      "size": 33949
+    },
+    {
+      "prefix": "щак",
+      "file": "щак.json",
+      "wordforms_count": 83,
+      "size": 73046
+    },
+    {
+      "prefix": "щал",
+      "file": "щал.json",
+      "wordforms_count": 12,
+      "size": 12226
+    },
+    {
+      "prefix": "щам",
+      "file": "щам.json",
+      "wordforms_count": 5,
+      "size": 4879
+    },
+    {
+      "prefix": "щан",
+      "file": "щан.json",
+      "wordforms_count": 3,
+      "size": 3055
+    },
+    {
+      "prefix": "щап",
+      "file": "щап.json",
+      "wordforms_count": 17,
+      "size": 14431
+    },
+    {
+      "prefix": "щар",
+      "file": "щар.json",
+      "wordforms_count": 13,
+      "size": 12704
+    },
+    {
+      "prefix": "щва",
+      "file": "щва.json",
+      "wordforms_count": 85,
+      "size": 125421
+    },
+    {
+      "prefix": "щве",
+      "file": "щве.json",
+      "wordforms_count": 45,
+      "size": 110578
+    },
+    {
+      "prefix": "щвз",
+      "file": "щвз.json",
+      "wordforms_count": 1,
+      "size": 554
+    },
+    {
+      "prefix": "щвй",
+      "file": "щвй.json",
+      "wordforms_count": 1,
+      "size": 542
+    },
+    {
+      "prefix": "щво",
+      "file": "щво.json",
+      "wordforms_count": 2,
+      "size": 1758
+    },
+    {
+      "prefix": "щву",
+      "file": "щву.json",
+      "wordforms_count": 1,
+      "size": 885
+    },
+    {
+      "prefix": "ще",
+      "file": "ще.json",
+      "wordforms_count": 29,
+      "size": 30878
+    },
+    {
+      "prefix": "щиб",
+      "file": "щиб.json",
+      "wordforms_count": 20,
+      "size": 116954
+    },
+    {
+      "prefix": "щив",
+      "file": "щив.json",
+      "wordforms_count": 11,
+      "size": 24331
+    },
+    {
+      "prefix": "щиг",
+      "file": "щиг.json",
+      "wordforms_count": 4,
+      "size": 3339
+    },
+    {
+      "prefix": "щий",
+      "file": "щий.json",
+      "wordforms_count": 6,
+      "size": 7609
+    },
+    {
+      "prefix": "щин",
+      "file": "щин.json",
+      "wordforms_count": 23,
+      "size": 19773
+    },
+    {
+      "prefix": "щит",
+      "file": "щит.json",
+      "wordforms_count": 1,
+      "size": 478
+    },
+    {
+      "prefix": "щих",
+      "file": "щих.json",
+      "wordforms_count": 3,
+      "size": 3711
+    },
+    {
+      "prefix": "щия",
+      "file": "щия.json",
+      "wordforms_count": 3,
+      "size": 2305
+    },
+    {
+      "prefix": "що",
+      "file": "що.json",
+      "wordforms_count": 63,
+      "size": 64192
+    },
+    {
+      "prefix": "щу-",
+      "file": "щу-.json",
+      "wordforms_count": 2,
+      "size": 2866
+    },
+    {
+      "prefix": "щуа",
+      "file": "щуа.json",
+      "wordforms_count": 8,
+      "size": 8470
+    },
+    {
+      "prefix": "щуб",
+      "file": "щуб.json",
+      "wordforms_count": 10,
+      "size": 7670
+    },
+    {
+      "prefix": "щуг",
+      "file": "щуг.json",
+      "wordforms_count": 8,
+      "size": 30303
+    },
+    {
+      "prefix": "щуй",
+      "file": "щуй.json",
+      "wordforms_count": 6,
+      "size": 8513
+    },
+    {
+      "prefix": "щук",
+      "file": "щук.json",
+      "wordforms_count": 7,
+      "size": 6186
+    },
+    {
+      "prefix": "щул",
+      "file": "щул.json",
+      "wordforms_count": 27,
+      "size": 26514
+    },
+    {
+      "prefix": "щун",
+      "file": "щун.json",
+      "wordforms_count": 17,
+      "size": 28043
+    },
+    {
+      "prefix": "щур",
+      "file": "щур.json",
+      "wordforms_count": 33,
+      "size": 26662
+    },
+    {
+      "prefix": "щут",
+      "file": "щут.json",
+      "wordforms_count": 1,
+      "size": 905
+    },
+    {
+      "prefix": "щуц",
+      "file": "щуц.json",
+      "wordforms_count": 4,
+      "size": 4391
+    },
+    {
+      "prefix": "щущ",
+      "file": "щущ.json",
+      "wordforms_count": 34,
+      "size": 29966
+    },
+    {
+      "prefix": "щуя",
+      "file": "щуя.json",
+      "wordforms_count": 6,
+      "size": 7860
+    },
+    {
+      "prefix": "щё",
+      "file": "щё.json",
+      "wordforms_count": 4,
+      "size": 6376
+    },
+    {
+      "prefix": "эб",
+      "file": "эб.json",
+      "wordforms_count": 1,
+      "size": 3116
+    },
+    {
+      "prefix": "эбг",
+      "file": "эбг.json",
+      "wordforms_count": 6,
+      "size": 7465
+    },
+    {
+      "prefix": "эбе",
+      "file": "эбе.json",
+      "wordforms_count": 52,
+      "size": 134419
+    },
+    {
+      "prefix": "эв",
+      "file": "эв.json",
+      "wordforms_count": 23,
+      "size": 18062
+    },
+    {
+      "prefix": "эг",
+      "file": "эг.json",
+      "wordforms_count": 6,
+      "size": 7230
+    },
+    {
+      "prefix": "эд",
+      "file": "эд.json",
+      "wordforms_count": 1,
+      "size": 742
+    },
+    {
+      "prefix": "эз",
+      "file": "эз.json",
+      "wordforms_count": 9,
+      "size": 6027
+    },
+    {
+      "prefix": "эи",
+      "file": "эи.json",
+      "wordforms_count": 1,
+      "size": 484
+    },
+    {
+      "prefix": "эй",
+      "file": "эй.json",
+      "wordforms_count": 7,
+      "size": 6691
+    },
+    {
+      "prefix": "эк",
+      "file": "эк.json",
+      "wordforms_count": 130,
+      "size": 120539
+    },
+    {
+      "prefix": "эл",
+      "file": "эл.json",
+      "wordforms_count": 100,
+      "size": 89550
+    },
+    {
+      "prefix": "эм",
+      "file": "эм.json",
+      "wordforms_count": 26,
+      "size": 50112
+    },
+    {
+      "prefix": "эн",
+      "file": "эн.json",
+      "wordforms_count": 20,
+      "size": 16159
+    },
+    {
+      "prefix": "эп",
+      "file": "эп.json",
+      "wordforms_count": 27,
+      "size": 20544
+    },
+    {
+      "prefix": "эр",
+      "file": "эр.json",
+      "wordforms_count": 46,
+      "size": 39704
+    },
+    {
+      "prefix": "эс",
+      "file": "эс.json",
+      "wordforms_count": 64,
+      "size": 48166
+    },
+    {
+      "prefix": "эт",
+      "file": "эт.json",
+      "wordforms_count": 33,
+      "size": 26541
+    },
+    {
+      "prefix": "эу",
+      "file": "эу.json",
+      "wordforms_count": 2,
+      "size": 1106
+    },
+    {
+      "prefix": "эх",
+      "file": "эх.json",
+      "wordforms_count": 45,
+      "size": 51133
+    },
+    {
+      "prefix": "эш",
+      "file": "эш.json",
+      "wordforms_count": 4,
+      "size": 3453
+    },
+    {
+      "prefix": "эщ",
+      "file": "эщ.json",
+      "wordforms_count": 16,
+      "size": 10814
+    },
+    {
+      "prefix": "ээ",
+      "file": "ээ.json",
+      "wordforms_count": 8,
+      "size": 5424
+    },
+    {
+      "prefix": "ю",
+      "file": "ю.json",
+      "wordforms_count": 1,
+      "size": 846
+    },
+    {
+      "prefix": "юб",
+      "file": "юб.json",
+      "wordforms_count": 19,
+      "size": 18999
+    },
+    {
+      "prefix": "юв",
+      "file": "юв.json",
+      "wordforms_count": 4,
+      "size": 2677
+    },
+    {
+      "prefix": "юг",
+      "file": "юг.json",
+      "wordforms_count": 19,
+      "size": 16191
+    },
+    {
+      "prefix": "юк",
+      "file": "юк.json",
+      "wordforms_count": 18,
+      "size": 16042
+    },
+    {
+      "prefix": "юл",
+      "file": "юл.json",
+      "wordforms_count": 1,
+      "size": 536
+    },
+    {
+      "prefix": "юм",
+      "file": "юм.json",
+      "wordforms_count": 3,
+      "size": 2215
+    },
+    {
+      "prefix": "юн",
+      "file": "юн.json",
+      "wordforms_count": 9,
+      "size": 6277
+    },
+    {
+      "prefix": "юр",
+      "file": "юр.json",
+      "wordforms_count": 51,
+      "size": 47476
+    },
+    {
+      "prefix": "юс",
+      "file": "юс.json",
+      "wordforms_count": 6,
+      "size": 4632
+    },
+    {
+      "prefix": "юх",
+      "file": "юх.json",
+      "wordforms_count": 7,
+      "size": 5536
+    },
+    {
+      "prefix": "юц",
+      "file": "юц.json",
+      "wordforms_count": 1,
+      "size": 584
+    },
+    {
+      "prefix": "юш",
+      "file": "юш.json",
+      "wordforms_count": 4,
+      "size": 2574
+    },
+    {
+      "prefix": "я",
+      "file": "я.json",
+      "wordforms_count": 2,
+      "size": 11518
+    },
+    {
+      "prefix": "яа",
+      "file": "яа.json",
+      "wordforms_count": 1,
+      "size": 1365
+    },
+    {
+      "prefix": "яб",
+      "file": "яб.json",
+      "wordforms_count": 18,
+      "size": 15876
+    },
+    {
+      "prefix": "яв",
+      "file": "яв.json",
+      "wordforms_count": 4,
+      "size": 3529
+    },
+    {
+      "prefix": "яг",
+      "file": "яг.json",
+      "wordforms_count": 31,
+      "size": 25984
+    },
+    {
+      "prefix": "яд",
+      "file": "яд.json",
+      "wordforms_count": 8,
+      "size": 6601
+    },
+    {
+      "prefix": "яз",
+      "file": "яз.json",
+      "wordforms_count": 24,
+      "size": 20206
+    },
+    {
+      "prefix": "як",
+      "file": "як.json",
+      "wordforms_count": 61,
+      "size": 49509
+    },
+    {
+      "prefix": "ял",
+      "file": "ял.json",
+      "wordforms_count": 39,
+      "size": 34446
+    },
+    {
+      "prefix": "ям",
+      "file": "ям.json",
+      "wordforms_count": 12,
+      "size": 7519
+    },
+    {
+      "prefix": "ян",
+      "file": "ян.json",
+      "wordforms_count": 30,
+      "size": 26196
+    },
+    {
+      "prefix": "яп",
+      "file": "яп.json",
+      "wordforms_count": 11,
+      "size": 7281
+    },
+    {
+      "prefix": "яр",
+      "file": "яр.json",
+      "wordforms_count": 57,
+      "size": 53512
+    },
+    {
+      "prefix": "яс",
+      "file": "яс.json",
+      "wordforms_count": 61,
+      "size": 140849
+    },
+    {
+      "prefix": "ят",
+      "file": "ят.json",
+      "wordforms_count": 33,
+      "size": 23758
+    },
+    {
+      "prefix": "ях",
+      "file": "ях.json",
+      "wordforms_count": 43,
+      "size": 42658
+    },
+    {
+      "prefix": "яц",
+      "file": "яц.json",
+      "wordforms_count": 38,
+      "size": 53740
+    },
+    {
+      "prefix": "яч",
+      "file": "яч.json",
+      "wordforms_count": 43,
+      "size": 48721
+    },
+    {
+      "prefix": "яш",
+      "file": "яш.json",
+      "wordforms_count": 6,
+      "size": 10026
+    },
+    {
+      "prefix": "ящ",
+      "file": "ящ.json",
+      "wordforms_count": 12,
+      "size": 10911
+    },
+    {
+      "prefix": "ёл",
+      "file": "ёл.json",
+      "wordforms_count": 5,
+      "size": 4594
+    },
+    {
+      "prefix": "ёр",
+      "file": "ёр.json",
+      "wordforms_count": 5,
+      "size": 3272
+    }
+  ]
+}

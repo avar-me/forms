@@ -1,0 +1,134 @@
+{
+  "знак": {
+    "wordform": "знак",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "мягкий",
+            "av": "мягкий знак",
+            "ru": "мягкий зная"
+          },
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "твёрдый",
+            "av": "твёрдый знак",
+            "ru": "твёрдый знак"
+          }
+        ]
+      }
+    }
+  },
+  "значок": {
+    "wordform": "значок",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "значок",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "значок",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "значок",
+              "значокалъ",
+              "значокалъул",
+              "значокал"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "значок",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "значок",
+            "av": "пионерасул значок",
+            "ru": "пионерский значок",
+            "sense": "значок"
+          }
+        ]
+      }
+    }
+  },
+  "значокал": {
+    "wordform": "значокал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "значок",
+            "pos": "существительное",
+            "entry": "значок",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "значок",
+              "значокалъ",
+              "значокалъул",
+              "значокал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "значокалъ": {
+    "wordform": "значокалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "значок",
+            "pos": "существительное",
+            "entry": "значок",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "значок",
+              "значокалъ",
+              "значокалъул",
+              "значокал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "значокалъул": {
+    "wordform": "значокалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "значок",
+            "pos": "существительное",
+            "entry": "значок",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "значок",
+              "значокалъ",
+              "значокалъул",
+              "значокал"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

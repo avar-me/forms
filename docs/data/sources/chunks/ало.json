@@ -1,0 +1,112 @@
+{
+  "алоалло": {
+    "wordform": "алоалло",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "алоалло",
+            "pos": "междометие",
+            "entry": "алоалло",
+            "entry_pos": "междометие",
+            "entry_forms": [
+              "алоалло"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "алоалло",
+            "pos": "междометие",
+            "entry": "алоалло",
+            "av": "алоалло, щив кӏалъалев вугев?",
+            "ru": "алло, кто говорит?",
+            "sense": "алло"
+          }
+        ]
+      }
+    }
+  },
+  "алоэ": {
+    "wordform": "алоэ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "алоэ",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "алоэ",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алоэ",
+              "алоэялъ",
+              "алоэялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "алоэялъ": {
+    "wordform": "алоэялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "алоэ",
+            "pos": "существительное",
+            "entry": "алоэ",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алоэ",
+              "алоэялъ",
+              "алоэялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "алоэялъул": {
+    "wordform": "алоэялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "алоэ",
+            "pos": "существительное",
+            "entry": "алоэ",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алоэ",
+              "алоэялъ",
+              "алоэялъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "алоэ",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "алоэ",
+            "av": "алоэялъул лъим",
+            "ru": "сок алоэ",
+            "sense": "алоэ"
+          }
+        ]
+      }
+    }
+  }
+}

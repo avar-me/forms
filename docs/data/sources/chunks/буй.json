@@ -1,0 +1,44 @@
+{
+  "буй": {
+    "wordform": "буй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "бузе",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "буй",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "буй"
+            ],
+            "from_lemma": "бузе"
+          }
+        ]
+      }
+    }
+  },
+  "Буйнакскиялде": {
+    "wordform": "Буйнакскиялде",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "хьвадизе",
+            "av": "Буйнакскиялде поезд къол кӏицӏул хьвадула",
+            "ru": "поезд делает в Буйнакск по два рейса в день",
+            "sense": "ходить; идти, двигаться; функционировать, (с)делать рейсы, ездить; посещать, посетить"
+          }
+        ]
+      }
+    }
+  }
+}

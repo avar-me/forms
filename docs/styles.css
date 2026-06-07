@@ -206,6 +206,162 @@ a:hover {
   line-height: 1;
 }
 
+.source-link {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(26, 95, 138, 0.35);
+}
+
+.source-link:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+.source-page {
+  margin-top: 1.5rem;
+}
+
+.source-card,
+.source-header {
+  margin-bottom: 1.5rem;
+}
+
+.source-back {
+  margin-bottom: 0.75rem;
+}
+
+.source-back-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.source-back-link:hover {
+  color: var(--link);
+}
+
+.source-filter-note {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.source-empty {
+  color: var(--text-muted);
+  padding: 1rem 0;
+}
+
+.prov-source {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.prov-source-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.prov-source-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.prov-group {
+  margin-top: 1.25rem;
+}
+
+.prov-group-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.prov-mention {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card-hover);
+}
+
+.prov-mention-head {
+  margin-bottom: 0.65rem;
+}
+
+.prov-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+.prov-field {
+  margin-bottom: 0.45rem;
+  font-size: 0.92rem;
+}
+
+.prov-label {
+  display: inline-block;
+  min-width: 7.5rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.prov-sense {
+  font-style: italic;
+  color: var(--text);
+}
+
+.prov-av {
+  margin: 0.65rem 0 0.35rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 3px solid var(--accent);
+  background: var(--bg-card);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.prov-ru {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.35rem;
+}
+
+.prov-forms {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+  columns: 2;
+  gap: 1rem;
+}
+
+.prov-forms code {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.prov-meta {
+  margin-top: 0.65rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
 .relation-badge {
   display: inline-block;
   padding: 0.12rem 0.5rem;

@@ -9,6 +9,7 @@ from typing import Any
 
 from .extractor import SourceExtractor, load_mappings
 from .models import AggregatedRecord, WordFormRecord
+from .provenance import write_provenance
 from .stats import build_gaps, build_stats, is_clear_record, write_gap_filters, write_stats
 
 
@@ -69,8 +70,10 @@ def _merge_resolved_duplicates(records: list[WordFormRecord]) -> list[WordFormRe
                     relation=template.relation,
                     pos=template.pos,
                     source=record.source,
+                    source_id=record.source_id,
                     subsource=record.subsource,
                     confidence="medium",
+                    detail=record.detail,
                 )
             )
     return merged
@@ -127,6 +130,14 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
     csv_path = root / output_cfg.get("csv", "output/wordforms.csv")
     stats_json_path = root / output_cfg.get("stats_json", "output/stats.json")
     stats_txt_path = root / output_cfg.get("stats_txt", "output/stats.txt")
+    provenance_dir = root / output_cfg.get("provenance_dir", "output/sources")
+
+    source_catalog = [
+        {"id": spec["id"], "name": spec["name"]}
+        for spec in config.get("sources", [])
+        if spec.get("enabled", True)
+    ]
+    write_provenance(all_records, provenance_dir, source_catalog=source_catalog)
 
     write_csv(csv_path, aggregated)
     gap_filters, gap_mentions = build_gaps(all_records)
@@ -149,4 +160,5 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
         "stats_json": str(stats_json_path),
         "stats_txt": str(stats_txt_path),
         "gaps_dir": str(gaps_dir),
+        "provenance_dir": str(provenance_dir),
     }

@@ -194,6 +194,18 @@ function dictLemmaUrl(lemma) {
     return `${CONFIG.DICT_BASE}#word=${encodeURIComponent(lemma)}`;
 }
 
+function sourcePageUrl(wordform, lemma) {
+    const params = new URLSearchParams({ form: wordform });
+    if (lemma) params.set('lemma', lemma);
+    return `source/?${params.toString()}`;
+}
+
+function renderSourceLink(sourceName, wordform, lemma) {
+    if (!sourceName) return '—';
+    const href = sourcePageUrl(wordform, lemma);
+    return `<a href="${href}" class="source-link" title="Открыть происхождение">${escapeHtml(sourceName)}</a>`;
+}
+
 function renderLemmaCells(lemma) {
     if (!lemma) {
         return { lemma: '—', dict: '—' };
@@ -247,7 +259,7 @@ function renderWordformCard(data) {
         html += `<td class="col-dict">${lemmaCells.dict}</td>`;
         html += `<td>${entry.relation ? `<span class="relation-badge">${escapeHtml(entry.relation)}</span>` : '—'}</td>`;
         html += `<td>${entry.pos ? escapeHtml(entry.pos) : '—'}</td>`;
-        html += `<td>${entry.source ? escapeHtml(entry.source) : '—'}</td>`;
+        html += `<td>${entry.source ? renderSourceLink(entry.source, data.wordform, entry.lemma) : '—'}</td>`;
         html += `<td class="count-badge">${entry.count}</td>`;
         html += '</tr>';
     }

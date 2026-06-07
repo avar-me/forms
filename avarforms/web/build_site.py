@@ -9,25 +9,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-MAX_CHUNK_SIZE = 100 * 1024
-MAX_WORDFORMS_PER_CHUNK = 500
-
-
-def normalize_word(word: str) -> str:
-    normalized = word.lower().strip()
-    normalized = re.sub(r"[1IiｌlL|!ǀӀІ]", "ӏ", normalized)
-    return normalized
-
-
-def get_prefix(word: str, length: int = 2) -> str:
-    normalized = normalize_word(word)
-    return normalized[: min(length, len(normalized))]
-
-
-def _safe_chunk_filename(prefix: str) -> str:
-    s = prefix.replace("/", "_").replace("\\", "_").replace(":", "_")
-    s = s.strip("._") or "_"
-    return s
+from avarforms.web.chunking import (
+    normalize_word,
+    safe_chunk_filename,
+    split_into_chunks,
+)
 
 
 def load_wordforms_csv(path: Path) -> dict[str, list[dict[str, Any]]]:
@@ -62,33 +48,10 @@ def _browse_entry(entries: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def split_into_chunks(entries: dict[str, dict[str, Any]], wordforms: list[str]) -> dict[str, dict[str, Any]]:
-    chunks: dict[str, dict[str, Any]] = defaultdict(dict)
-    prefix_groups: dict[str, list[str]] = defaultdict(list)
-    for wordform in wordforms:
-        prefix_groups[get_prefix(wordform, 2)].append(wordform)
-
-    for prefix, group_wordforms in sorted(prefix_groups.items()):
-        group_data = {w: entries[w] for w in group_wordforms if w in entries}
-        group_json = json.dumps(group_data, ensure_ascii=False)
-        group_size = len(group_json.encode("utf-8"))
-
-        if group_size > MAX_CHUNK_SIZE or len(group_wordforms) > MAX_WORDFORMS_PER_CHUNK:
-            sub_groups: dict[str, list[str]] = defaultdict(list)
-            for wordform in group_wordforms:
-                sub_groups[get_prefix(wordform, 3)].append(wordform)
-            for sub_prefix, sub_wordforms in sorted(sub_groups.items()):
-                chunk_name = sub_prefix if sub_prefix else prefix
-                chunks[chunk_name] = {w: entries[w] for w in sub_wordforms if w in entries}
-        else:
-            chunks[prefix] = group_data
-    return chunks
-
-
 def _apply_script_cache_bust(docs_dir: Path, build_id: str) -> None:
-    pattern = re.compile(r'(src="(?:app|stats)\.js)(?:\?[^"]*)?"')
+    pattern = re.compile(r'(src="(?:\.\./)?(?:app|stats|source)\.js)(?:\?[^"]*)?"')
     replacement = rf'\1?v={build_id}"'
-    for name in ("index.html", "stats.html"):
+    for name in ("index.html", "stats.html", "source/index.html"):
         path = docs_dir / name
         if not path.is_file():
             continue
@@ -143,7 +106,7 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
 
     chunk_info: list[dict[str, Any]] = []
     for chunk_name, chunk_data in sorted(chunks.items()):
-        safe = _safe_chunk_filename(chunk_name)
+        safe = safe_chunk_filename(chunk_name)
         chunk_file = chunks_dir / f"{safe}.json"
         with chunk_file.open("w", encoding="utf-8") as fh:
             json.dump(chunk_data, fh, ensure_ascii=False, indent=2)
@@ -191,6 +154,22 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
                 gaps_dest.joinpath(path.name).write_text(
                     path.read_text(encoding="utf-8"), encoding="utf-8"
                 )
+
+    sources_src = root / "output" / "sources"
+    sources_dest = docs_dir / "data" / "sources"
+    if sources_src.is_dir():
+        sources_dest.mkdir(parents=True, exist_ok=True)
+        chunks_dest = sources_dest / "chunks"
+        if chunks_dest.is_dir():
+            for old in chunks_dest.iterdir():
+                if old.is_file():
+                    old.unlink()
+        for path in sources_src.rglob("*"):
+            if path.is_file():
+                rel = path.relative_to(sources_src)
+                target = sources_dest / rel
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
 
     site_meta = {
         "build_id": build_id,

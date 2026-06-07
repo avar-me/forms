@@ -1,0 +1,37 @@
+{
+  "врач": {
+    "wordform": "врач",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "санаторий",
+            "av": "санаториялъул врач",
+            "ru": "врач санатория",
+            "sense": "санаторий"
+          },
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "санитарияб",
+            "av": "санитарияв врач",
+            "ru": "санитарный врач",
+            "sense": "санитарный"
+          },
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "участкаялъул",
+            "av": "участкаялъул врач",
+            "ru": "участковый врач",
+            "sense": "участковый"
+          }
+        ]
+      }
+    }
+  }
+}

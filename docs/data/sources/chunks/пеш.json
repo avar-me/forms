@@ -1,0 +1,64 @@
+{
+  "пешка": {
+    "wordform": "пешка",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "пешкеш",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "хъурщизе",
+            "av": "пешка цебе хъурщизе",
+            "ru": "ходить пешкой",
+            "sense": "двигать фигуры при игре в шахматы и шашки"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пешкеш",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "цебе",
+            "av": "пешка цебе хъурще",
+            "ru": "выставь пешку",
+            "sense": "вперёд"
+          }
+        ]
+      }
+    }
+  },
+  "пешкеш": {
+    "wordform": "пешкеш",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "пешкеш",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "пешкеш",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "пешкеш"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пешкеш",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "пешкеш",
+            "av": "пешкеш гьабизе",
+            "ru": "подарить"
+          }
+        ]
+      }
+    }
+  }
+}

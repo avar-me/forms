@@ -1,0 +1,82 @@
+{
+  "озон": {
+    "wordform": "озон",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "озон",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "озон",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "озон",
+              "озоналъ",
+              "озоналъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "озоналъ": {
+    "wordform": "озоналъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "озон",
+            "pos": "существительное",
+            "entry": "озон",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "озон",
+              "озоналъ",
+              "озоналъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "озоналъул": {
+    "wordform": "озоналъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "озон",
+            "pos": "существительное",
+            "entry": "озон",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "озон",
+              "озоналъ",
+              "озоналъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "озон",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "озон",
+            "av": "озоналъул махӏ",
+            "ru": "запах озона",
+            "sense": "озон"
+          }
+        ]
+      }
+    }
+  }
+}

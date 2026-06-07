@@ -1,0 +1,118 @@
+{
+  "алча": {
+    "wordform": "алча",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "алча",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "алча",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алча",
+              "алчаялъ",
+              "алчаялъул",
+              "алчадул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "алчадул": {
+    "wordform": "алчадул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "алча",
+            "pos": "существительное",
+            "entry": "алча",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алча",
+              "алчаялъ",
+              "алчаялъул",
+              "алчадул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "алчаялъ": {
+    "wordform": "алчаялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "алча",
+            "pos": "существительное",
+            "entry": "алча",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алча",
+              "алчаялъ",
+              "алчаялъул",
+              "алчадул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "алчаялъул": {
+    "wordform": "алчаялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "алча",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "алчаялъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "алчаялъул"
+            ],
+            "from_lemma": "алча"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "алча",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "алчаялъул",
+            "av": "алчаялъул гъветӏ",
+            "ru": "алычевое дерево",
+            "sense": "алычевый"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "алча",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "алчаялъул",
+            "av": "алчаялъул мурапа",
+            "ru": "алычевое варенье",
+            "sense": "алычевый"
+          }
+        ]
+      }
+    }
+  }
+}

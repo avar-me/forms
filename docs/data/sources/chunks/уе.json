@@ -1,0 +1,108 @@
+{
+  "уезд": {
+    "wordform": "уезд",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "уезд",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "уезд",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "уезд",
+              "уездалъ",
+              "уездалъул",
+              "уездал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "уездал": {
+    "wordform": "уездал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "уезд",
+            "pos": "существительное",
+            "entry": "уезд",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "уезд",
+              "уездалъ",
+              "уездалъул",
+              "уездал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "уездалъ": {
+    "wordform": "уездалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "уезд",
+            "pos": "существительное",
+            "entry": "уезд",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "уезд",
+              "уездалъ",
+              "уездалъул",
+              "уездал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "уездалъул": {
+    "wordform": "уездалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "уезд",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "уездалъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "уездалъул"
+            ],
+            "from_lemma": "уезд"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "уезд",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "уездалъул",
+            "av": "уездалъул шагьар",
+            "ru": "уездный город",
+            "sense": "уездный"
+          }
+        ]
+      }
+    }
+  }
+}

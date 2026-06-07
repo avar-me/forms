@@ -1,0 +1,82 @@
+{
+  "каучук": {
+    "wordform": "каучук",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "каучук",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "каучук",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "каучук",
+              "каучукалъ",
+              "каучукалъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "каучукалъ": {
+    "wordform": "каучукалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "каучук",
+            "pos": "существительное",
+            "entry": "каучук",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "каучук",
+              "каучукалъ",
+              "каучукалъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "каучукалъул": {
+    "wordform": "каучукалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "каучук",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "каучукалъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "каучукалъул"
+            ],
+            "from_lemma": "каучук"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "каучук",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "каучукалъул",
+            "av": "каучукалъул тӏукъби",
+            "ru": "каучуковые подошвы",
+            "sense": "каучуковый"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "пуч": {
+    "wordform": "пуч",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "пуч",
+            "pos": "существительное",
+            "entry": "пуч",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "пуч"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пуч",
+            "pos": "существительное",
+            "entry": "пуч",
+            "av": "пуч гьабизе",
+            "ru": "тратить, пустить по ветру (на ветер); разоряться, разориться; уничтожить"
+          }
+        ]
+      }
+    }
+  },
+  "пучаб": {
+    "wordform": "пучаб",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "пучаб",
+            "pos": "прилагательное",
+            "entry": "пучаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "пучаб"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пучаб",
+            "pos": "прилагательное",
+            "entry": "пучаб",
+            "av": "пучаб гӏумру",
+            "ru": "разгульная жизнь",
+            "sense": "разнузданный, разгульный"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пучаб",
+            "pos": "прилагательное",
+            "entry": "пучаб",
+            "av": "пучаб гӏумру гьабизе",
+            "ru": "вести разгульную жизнь",
+            "sense": "разнузданный, разгульный"
+          }
+        ]
+      }
+    }
+  },
+  "пучав": {
+    "wordform": "пучав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "пучаб",
+            "pos": "прилагательное",
+            "confidence": "medium",
+            "entry": "пучаб",
+            "av": "пучав чи",
+            "ru": "гулящий человек",
+            "sense": "гулящий, развратный; безнравственный"
+          }
+        ]
+      }
+    }
+  },
+  "пучлъана": {
+    "wordform": "пучлъана",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъизе",
+              "пучлъула",
+              "пучлъила",
+              "пучлъана",
+              "пучлъе"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "пучлъизе",
+            "av": "кинабго гьабурабщинаб жо пучлъана",
+            "ru": "всё, что было сделано, пропало",
+            "sense": "пропадать, пропасть даром; (ис)портиться; превращаться, превратиться в ничто"
+          }
+        ]
+      }
+    }
+  },
+  "пучлъе": {
+    "wordform": "пучлъе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъизе",
+              "пучлъула",
+              "пучлъила",
+              "пучлъана",
+              "пучлъе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "пучлъи": {
+    "wordform": "пучлъи",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "пучлъизе",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "пучлъи",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъи",
+              "пучлъиялъ",
+              "пучлъиялъул"
+            ],
+            "from_lemma": "пучлъизе"
+          }
+        ]
+      }
+    }
+  },
+  "пучлъизе": {
+    "wordform": "пучлъизе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "пучлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "entry": "пучлъизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъизе",
+              "пучлъула",
+              "пучлъила",
+              "пучлъана",
+              "пучлъе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "пучлъила": {
+    "wordform": "пучлъила",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъизе",
+              "пучлъула",
+              "пучлъила",
+              "пучлъана",
+              "пучлъе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "пучлъиялъ": {
+    "wordform": "пучлъиялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъи",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъи",
+              "пучлъиялъ",
+              "пучлъиялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "пучлъиялъул": {
+    "wordform": "пучлъиялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъи",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъи",
+              "пучлъиялъ",
+              "пучлъиялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "пучлъула": {
+    "wordform": "пучлъула",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "пучлъизе",
+            "pos": "глагол",
+            "entry": "пучлъизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "пучлъизе",
+              "пучлъула",
+              "пучлъила",
+              "пучлъана",
+              "пучлъе"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

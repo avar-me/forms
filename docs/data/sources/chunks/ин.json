@@ -1,0 +1,47 @@
+{
+  "ин": {
+    "wordform": "ин",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "ине",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "ин",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "ин",
+              "иналъ",
+              "иналъул"
+            ],
+            "from_lemma": "ине"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ине",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "гӏорхъи",
+            "av": "гӏорхъулъа ин",
+            "ru": "беспредел; эксцес",
+            "sense": "граница, рубеж, предел"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ине",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "хӏал",
+            "av": "хӏаладаса ин",
+            "ru": "а) иступление",
+            "sense": "обстоятельство"
+          }
+        ]
+      }
+    }
+  }
+}

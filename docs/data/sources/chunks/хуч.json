@@ -1,0 +1,179 @@
+{
+  "хучдуз": {
+    "wordform": "хучдуз",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "хеч",
+            "pos": "существительное",
+            "entry": "хучдул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хучдул",
+              "хучдуз",
+              "хучдузул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хучдузул": {
+    "wordform": "хучдузул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "хеч",
+            "pos": "существительное",
+            "entry": "хучдул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хучдул",
+              "хучдуз",
+              "хучдузул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хучдул": {
+    "wordform": "хучдул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "хеч",
+            "relation": "множественное число",
+            "pos": "существительное",
+            "entry": "хучдул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хучдул",
+              "хучдуз",
+              "хучдузул"
+            ],
+            "from_lemma": "хеч"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "хеч",
+            "relation": "множественное число",
+            "pos": "существительное",
+            "entry": "хеч",
+            "av": "наяз хучдул къазарула",
+            "ru": "пчёлы жалят",
+            "sense": "жало"
+          }
+        ]
+      }
+    }
+  },
+  "хучу-ручузе": {
+    "wordform": "хучу-ручузе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "хучу-ручузе",
+            "relation": "учащательная форма",
+            "pos": "глагол",
+            "entry": "хучу-ручузе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "хучу-ручузе",
+              "хучу-ручула",
+              "хучу-ручуна",
+              "хучу-ручуй"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хучу-ручуй": {
+    "wordform": "хучу-ручуй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "хучу-ручузе",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "хучу-ручуй",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "хучу-ручуй"
+            ],
+            "from_lemma": "хучу-ручузе"
+          }
+        ]
+      }
+    }
+  },
+  "хучу-ручула": {
+    "wordform": "хучу-ручула",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "хучу-ручузе",
+            "pos": "глагол",
+            "entry": "хучу-ручузе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "хучу-ручузе",
+              "хучу-ручула",
+              "хучу-ручуна",
+              "хучу-ручуй"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хучу-ручуна": {
+    "wordform": "хучу-ручуна",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "хучу-ручузе",
+            "pos": "глагол",
+            "entry": "хучу-ручузе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "хучу-ручузе",
+              "хучу-ручула",
+              "хучу-ручуна",
+              "хучу-ручуй"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "том": {
+    "wordform": "том",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "том",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "том",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "том",
+              "томалъ",
+              "томалъул",
+              "томал"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "том",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "том",
+            "av": "тӏоцебесеб том",
+            "ru": "первый том",
+            "sense": "том"
+          }
+        ]
+      }
+    }
+  },
+  "томал": {
+    "wordform": "томал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "том",
+            "pos": "существительное",
+            "entry": "том",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "том",
+              "томалъ",
+              "томалъул",
+              "томал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "томалда": {
+    "wordform": "томалда",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "том",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "том",
+            "av": "лъабго томалда хъвараб роман",
+            "ru": "роман в трёх томах",
+            "sense": "том"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "том",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "том",
+            "av": "щуабилеб томалда",
+            "ru": "в пятом томе",
+            "sense": "том"
+          }
+        ]
+      }
+    }
+  },
+  "томалъ": {
+    "wordform": "томалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "том",
+            "pos": "существительное",
+            "entry": "том",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "том",
+              "томалъ",
+              "томалъул",
+              "томал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "томалъул": {
+    "wordform": "томалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "том",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "томалъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "томалъул"
+            ],
+            "from_lemma": "том"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "том",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "томалъул",
+            "av": "кӏиго томалъул",
+            "ru": "двухтомный",
+            "sense": "-томный"
+          }
+        ]
+      }
+    }
+  },
+  "томат": {
+    "wordform": "томат",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "томат",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "томат",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "томат",
+              "томаталъ",
+              "томаталъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "томаталъ": {
+    "wordform": "томаталъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "томат",
+            "pos": "существительное",
+            "entry": "томат",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "томат",
+              "томаталъ",
+              "томаталъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "томаталъул": {
+    "wordform": "томаталъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "томат",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "томаталъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "томаталъул"
+            ],
+            "from_lemma": "томат"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "томат",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "паста",
+            "av": "томаталъул паста",
+            "ru": "томатная паста",
+            "sense": "паста"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "томат",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "соус",
+            "av": "томаталъул соус",
+            "ru": "томатный соус",
+            "sense": "соус"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "томат",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "томаталъул",
+            "av": "томаталъул паста",
+            "ru": "томатная паста",
+            "sense": "томатный"
+          }
+        ]
+      }
+    }
+  }
+}

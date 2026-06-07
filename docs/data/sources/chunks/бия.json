@@ -1,0 +1,129 @@
+{
+  "биял": {
+    "wordform": "биял",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "би",
+            "pos": "наречие",
+            "entry": "би",
+            "entry_pos": "наречие",
+            "entry_forms": [
+              "би",
+              "бица",
+              "бидуца",
+              "биялъ",
+              "бидул",
+              "биял"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "биялъ": {
+    "wordform": "биялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "би",
+            "pos": "наречие",
+            "entry": "би",
+            "entry_pos": "наречие",
+            "entry_forms": [
+              "би",
+              "бица",
+              "бидуца",
+              "биялъ",
+              "бидул",
+              "биял"
+            ]
+          },
+          {
+            "subsource": "forms",
+            "lemma": "би",
+            "pos": "существительное",
+            "entry": "би",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "би",
+              "биялъ",
+              "биялъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "би",
+            "pos": "наречие",
+            "confidence": "medium",
+            "entry": "алип",
+            "av": "алипалъ би кколебила, биялъ ти кколебила",
+            "ru": "“алиф” поддерживает “би”, а “би” поддерживает “ти”",
+            "sense": "алиф"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "би",
+            "pos": "наречие",
+            "confidence": "medium",
+            "entry": "лъалъазе",
+            "av": "биялъ лъалъараб ракь",
+            "ru": "край, где идёт война; орошенная кровью земля",
+            "sense": "орошать, оросить, поливать, полить что-либо"
+          }
+        ]
+      }
+    }
+  },
+  "биялъул": {
+    "wordform": "биялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "би",
+            "pos": "существительное",
+            "entry": "би",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "би",
+              "биялъ",
+              "биялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "биян": {
+    "wordform": "биян",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "би",
+            "pos": "наречие",
+            "confidence": "medium",
+            "entry": "би",
+            "av": "биян абизе лъаларо гъосда",
+            "ru": "он ни аза не знает"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Any, Optional
 
 
 @dataclass(frozen=True, slots=True)
@@ -13,8 +13,10 @@ class WordFormRecord:
     relation: str = ""
     pos: str = ""
     source: str = ""
+    source_id: str = ""
     subsource: str = ""
     confidence: str = "high"  # high | medium | low
+    detail: dict[str, Any] = field(default_factory=dict, compare=False, hash=False)
 
     def key(self) -> tuple[str, str, str, str, str]:
         return (self.wordform, self.lemma, self.relation, self.pos, self.source)

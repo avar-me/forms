@@ -1,0 +1,92 @@
+{
+  "кефир": {
+    "wordform": "кефир",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "кефир",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "кефир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "кефир",
+              "кефиралъ",
+              "кефиралъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "кефир",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "кефир",
+            "av": "кефир гьекъезе",
+            "ru": "(вы)пить кефир",
+            "sense": "кефир"
+          }
+        ]
+      }
+    }
+  },
+  "кефиралъ": {
+    "wordform": "кефиралъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "кефир",
+            "pos": "существительное",
+            "entry": "кефир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "кефир",
+              "кефиралъ",
+              "кефиралъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "кефиралъул": {
+    "wordform": "кефиралъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "кефир",
+            "pos": "существительное",
+            "entry": "кефир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "кефир",
+              "кефиралъ",
+              "кефиралъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "кефир",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "кефир",
+            "av": "кефиралъул шиша",
+            "ru": "бутылка кефира",
+            "sense": "кефир"
+          }
+        ]
+      }
+    }
+  }
+}

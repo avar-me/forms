@@ -1,0 +1,82 @@
+{
+  "юмор": {
+    "wordform": "юмор",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "юмор",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "юмор",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "юмор",
+              "юморалъ",
+              "юморалъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "юмор",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "юмор",
+            "av": "сатира ва юмор",
+            "ru": "сатира и юмор",
+            "sense": "юмор"
+          }
+        ]
+      }
+    }
+  },
+  "юморалъ": {
+    "wordform": "юморалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "юмор",
+            "pos": "существительное",
+            "entry": "юмор",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "юмор",
+              "юморалъ",
+              "юморалъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "юморалъул": {
+    "wordform": "юморалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "юмор",
+            "pos": "существительное",
+            "entry": "юмор",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "юмор",
+              "юморалъ",
+              "юморалъул"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

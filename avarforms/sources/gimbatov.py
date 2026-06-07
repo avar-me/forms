@@ -648,6 +648,18 @@ def _iter_example_tokens(av_text: str) -> Iterator[str]:
             yield token
 
 
+def _entry_detail(entry: dict[str, Any], **extra: Any) -> dict[str, Any]:
+    detail: dict[str, Any] = {"entry": entry.get("word", "")}
+    pos = entry.get("pos") or ""
+    if pos:
+        detail["entry_pos"] = pos
+    forms = entry.get("forms") or []
+    if forms:
+        detail["entry_forms"] = forms
+    detail.update(extra)
+    return detail
+
+
 class GimbatovExtractor(SourceExtractor):
     """Extract word forms from Gimbatov AV-RU dictionary."""
 
@@ -680,6 +692,7 @@ class GimbatovExtractor(SourceExtractor):
         confidence: str = "high",
         mappings: MappingTable,
         allow_self: bool = False,
+        detail: dict[str, Any] | None = None,
     ) -> WordFormRecord | None:
         if not wordform:
             return None
@@ -699,8 +712,10 @@ class GimbatovExtractor(SourceExtractor):
             relation=relation,
             pos=pos,
             source=self.source_name,
+            source_id=self.source_id,
             subsource=subsource,
             confidence=confidence,
+            detail=detail or {},
         )
 
     def _extract_entry(
@@ -725,6 +740,7 @@ class GimbatovExtractor(SourceExtractor):
                 pos=pos,
                 subsource=self.SUB_EXPLICIT,
                 mappings=mappings,
+                detail=_entry_detail(entry, from_lemma=lemma),
             )
             if rec:
                 yield rec
@@ -741,6 +757,7 @@ class GimbatovExtractor(SourceExtractor):
                 subsource=self.SUB_HEADWORD,
                 allow_self=True,
                 mappings=mappings,
+                detail=_entry_detail(entry),
             )
             if rec:
                 yield rec
@@ -759,6 +776,7 @@ class GimbatovExtractor(SourceExtractor):
                 subsource=self.SUB_FORMS,
                 confidence="high",
                 mappings=mappings,
+                detail=_entry_detail(entry),
             )
             if rec:
                 yield rec
@@ -777,6 +795,7 @@ class GimbatovExtractor(SourceExtractor):
                     pos=pos,
                     subsource=self.SUB_GENDER,
                     mappings=mappings,
+                    detail=_entry_detail(entry),
                 )
                 if rec:
                     yield rec
@@ -790,16 +809,25 @@ class GimbatovExtractor(SourceExtractor):
         context_lemma = entry.get("word", "")
 
         for sense in entry.get("senses", []):
+            sense_text = sense.get("text", "") or ""
             for example in sense.get("examples", []):
                 av_text = example.get("av", "")
                 if not av_text:
                     continue
+                example_detail = {
+                    "entry": context_lemma,
+                    "av": av_text,
+                    "ru": example.get("ru", "") or "",
+                }
+                if sense_text:
+                    example_detail["sense"] = sense_text
                 for token in _iter_example_tokens(av_text):
                     if token in mappings:
                         rec = self._record(
                             wordform=token,
                             subsource=self.SUB_EXAMPLES,
                             mappings=mappings,
+                            detail=example_detail,
                         )
                         if rec:
                             yield rec
@@ -824,6 +852,7 @@ class GimbatovExtractor(SourceExtractor):
                         confidence=confidence if lemma or relation else "low",
                         mappings=mappings,
                         allow_self=True,
+                        detail=example_detail,
                     )
                     if rec:
                         yield rec
