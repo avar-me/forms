@@ -10,26 +10,29 @@ from typing import Any
 from .models import AggregatedRecord, WordFormRecord
 
 
+STRUCTURED_SUBSOURCES = frozenset({"headword", "explicit_relation", "forms", "gender_forms"})
+
+
 GAP_FILTER_META: dict[str, dict[str, str]] = {
     "missing_lemma": {
         "label": "Без леммы",
-        "description": "Хотя бы одна запись без леммы",
+        "description": "Нет леммы — нужен маппинг",
     },
     "missing_relation": {
         "label": "Без связи",
-        "description": "Хотя бы одна запись без грамматической связи",
+        "description": "Нет связи и нет уверенного контекста",
     },
     "missing_pos": {
         "label": "Без части речи",
-        "description": "Хотя бы одна запись без части речи",
+        "description": "Нет части речи и нет уверенного контекста",
     },
     "missing_lemma_and_relation": {
         "label": "Без леммы и связи",
-        "description": "Хотя бы одна запись без леммы и без связи",
+        "description": "Нет ни леммы, ни связи — приоритет для ручной работы",
     },
     "ambiguous_examples": {
         "label": "Неоднозначные примеры",
-        "description": "Из примеров av: низкая или средняя уверенность маппинга",
+        "description": "Токен из av без найденного маппинга",
     },
     "low_confidence": {
         "label": "Низкая уверенность",
@@ -37,7 +40,7 @@ GAP_FILTER_META: dict[str, dict[str, str]] = {
     },
     "strange": {
         "label": "Аномалии",
-        "description": "Подозрительные записи для ручной проверки",
+        "description": "Подозрительные записи без ясного контекста",
     },
 }
 
@@ -65,6 +68,28 @@ def _is_missing(value: str) -> bool:
     return not value or not value.strip()
 
 
+def is_clear_record(record: WordFormRecord) -> bool:
+    """Record has enough metadata — no manual mapping work needed."""
+    if record.subsource in STRUCTURED_SUBSOURCES and record.lemma:
+        return True
+    if record.confidence == "high" and record.lemma:
+        return True
+    if record.subsource == "examples" and record.lemma and record.confidence == "medium":
+        return True
+    return False
+
+
+def is_strange_record(record: WordFormRecord) -> bool:
+    """Suspicious pattern that still lacks a clear source context."""
+    if is_clear_record(record):
+        return False
+    return (
+        record.wordform == record.lemma
+        and bool(record.relation)
+        and record.relation != "именительный"
+    )
+
+
 def build_stats(
     raw_records: list[WordFormRecord],
     aggregated: list[AggregatedRecord],
@@ -85,15 +110,15 @@ def build_stats(
         subsource_counter[record.subsource or "unknown"] += 1
         if _is_missing(record.lemma):
             stats.missing_lemma += 1
-        if _is_missing(record.relation):
+        if _is_missing(record.relation) and not is_clear_record(record):
             stats.missing_relation += 1
-        if _is_missing(record.pos):
+        if _is_missing(record.pos) and not is_clear_record(record):
             stats.missing_pos += 1
         if _is_missing(record.lemma) and _is_missing(record.relation):
             stats.missing_lemma_and_relation += 1
         if record.confidence == "low":
             stats.low_confidence += 1
-        if record.subsource == "examples" and record.confidence in {"low", "medium"}:
+        if record.subsource == "examples" and record.confidence == "low":
             stats.ambiguous_examples += 1
         if record.subsource == "examples" and _is_missing(record.lemma):
             stats.unmatched_example_tokens += 1
@@ -104,7 +129,7 @@ def build_stats(
         if record.relation:
             relation_counter[record.relation] += 1
 
-        if record.wordform == record.lemma and record.relation and record.relation != "именительный":
+        if is_strange_record(record):
             stats.strange_records.append(
                 {
                     "wordform": record.wordform,
@@ -129,28 +154,26 @@ def _normalize_sort_key(word: str) -> str:
 
 def build_gap_filters(
     raw_records: list[WordFormRecord],
-    strange_records: list[dict[str, Any]],
+    strange_records: list[dict[str, Any]] | None = None,
 ) -> dict[str, list[str]]:
     buckets: dict[str, set[str]] = {key: set() for key in GAP_FILTER_META}
 
     for record in raw_records:
         wf = record.wordform
+        clear = is_clear_record(record)
         if _is_missing(record.lemma):
             buckets["missing_lemma"].add(wf)
-        if _is_missing(record.relation):
+        if _is_missing(record.relation) and not clear:
             buckets["missing_relation"].add(wf)
-        if _is_missing(record.pos):
+        if _is_missing(record.pos) and not clear:
             buckets["missing_pos"].add(wf)
         if _is_missing(record.lemma) and _is_missing(record.relation):
             buckets["missing_lemma_and_relation"].add(wf)
-        if record.subsource == "examples" and record.confidence in {"low", "medium"}:
+        if record.subsource == "examples" and record.confidence == "low":
             buckets["ambiguous_examples"].add(wf)
         if record.confidence == "low":
             buckets["low_confidence"].add(wf)
-
-    for item in strange_records:
-        wf = item.get("wordform", "")
-        if wf:
+        if is_strange_record(record):
             buckets["strange"].add(wf)
 
     return {

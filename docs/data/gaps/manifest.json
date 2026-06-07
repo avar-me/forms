@@ -3,36 +3,36 @@
     "missing_lemma": {
       "id": "missing_lemma",
       "label": "Без леммы",
-      "description": "Хотя бы одна запись без леммы",
+      "description": "Нет леммы — нужен маппинг",
       "count": 3692,
       "file": "missing_lemma.txt"
     },
     "missing_relation": {
       "id": "missing_relation",
       "label": "Без связи",
-      "description": "Хотя бы одна запись без грамматической связи",
-      "count": 66553,
+      "description": "Нет связи и нет уверенного контекста",
+      "count": 3692,
       "file": "missing_relation.txt"
     },
     "missing_pos": {
       "id": "missing_pos",
       "label": "Без части речи",
-      "description": "Хотя бы одна запись без части речи",
-      "count": 3797,
+      "description": "Нет части речи и нет уверенного контекста",
+      "count": 3692,
       "file": "missing_pos.txt"
     },
     "missing_lemma_and_relation": {
       "id": "missing_lemma_and_relation",
       "label": "Без леммы и связи",
-      "description": "Хотя бы одна запись без леммы и без связи",
+      "description": "Нет ни леммы, ни связи — приоритет для ручной работы",
       "count": 3692,
       "file": "missing_lemma_and_relation.txt"
     },
     "ambiguous_examples": {
       "id": "ambiguous_examples",
       "label": "Неоднозначные примеры",
-      "description": "Из примеров av: низкая или средняя уверенность маппинга",
-      "count": 26687,
+      "description": "Токен из av без найденного маппинга",
+      "count": 3692,
       "file": "ambiguous_examples.txt"
     },
     "low_confidence": {
@@ -45,8 +45,8 @@
     "strange": {
       "id": "strange",
       "label": "Аномалии",
-      "description": "Подозрительные записи для ручной проверки",
-      "count": 3324,
+      "description": "Подозрительные записи без ясного контекста",
+      "count": 0,
       "file": "strange.txt"
     }
   }

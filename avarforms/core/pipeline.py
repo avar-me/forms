@@ -88,7 +88,7 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
     write_stats(stats, stats_json_path, stats_txt_path)
 
     gaps_dir = root / output_cfg.get("gaps_dir", "output/gaps")
-    gap_filters = build_gap_filters(all_records, stats.strange_records)
+    gap_filters = build_gap_filters(all_records)
     write_gap_filters(gap_filters, gaps_dir)
 
     return {
