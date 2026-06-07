@@ -26,6 +26,79 @@ RELATION_FROM_KEYS: dict[str, str] = {
 
 TOKEN_SPLIT_RE = re.compile(r"[\s,;:!?«»\"()\[\]{}]+")
 PUNCT_STRIP = ".,;:!?«»\"()[]{}—–-"
+MIN_MORPH_PREFIX_LEN = 3
+
+
+def _common_prefix_len(a: str, b: str) -> int:
+    length = 0
+    for left, right in zip(a, b):
+        if left != right:
+            break
+        length += 1
+    return length
+
+
+def _iter_article_morph_bases(entry: dict[str, Any]) -> Iterator[str]:
+    """Surface bases for morphology within one dictionary entry."""
+    seen: set[str] = set()
+    for value in (
+        entry.get("stem"),
+        entry.get("word"),
+        _entry_headword(entry),
+    ):
+        text = (value or "").strip()
+        if text and text not in seen:
+            seen.add(text)
+            yield text
+    for form in entry.get("forms", []):
+        text = (form or "").strip()
+        if text and text not in seen:
+            seen.add(text)
+            yield text
+    for form in entry.get("gender_forms", []):
+        text = (form or "").strip()
+        if text and text not in seen:
+            seen.add(text)
+            yield text
+    for sense in entry.get("senses", []):
+        for form in sense.get("forms", []):
+            text = (form or "").strip()
+            if text and text not in seen:
+                seen.add(text)
+                yield text
+
+
+def _lookup_article_morphology(entry: dict[str, Any], token: str) -> str | None:
+    """Map example token to article headword via stem or shared prefix."""
+    headword = _entry_headword(entry)
+    if not headword:
+        return None
+
+    stem = (entry.get("stem") or "").strip()
+    if (
+        stem
+        and len(stem) >= MIN_MORPH_PREFIX_LEN
+        and token.startswith(stem)
+        and len(token) > len(stem)
+    ):
+        return headword
+
+    best_prefix = 0
+    for base in _iter_article_morph_bases(entry):
+        if base == stem:
+            continue
+        prefix_len = _common_prefix_len(token, base)
+        if (
+            prefix_len >= MIN_MORPH_PREFIX_LEN
+            and len(token) > prefix_len
+            and len(base) > prefix_len
+            and prefix_len > best_prefix
+        ):
+            best_prefix = prefix_len
+
+    if best_prefix >= MIN_MORPH_PREFIX_LEN:
+        return headword
+    return None
 
 
 def _entry_headword(entry: dict[str, Any]) -> str:
@@ -107,6 +180,9 @@ class DictionaryIndex:
         lemma = _suffix_match_lemma(token, iter(form_lemmas))
         if lemma:
             return lemma, ""
+        morph_lemma = _lookup_article_morphology(entry, token)
+        if morph_lemma:
+            return morph_lemma, ""
         return None
 
     def _lookup_global_suffix(
