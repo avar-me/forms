@@ -223,6 +223,79 @@ class DictionaryIndex:
 
         return "", "", token_pos, "low"
 
+    def _paradigm_lemma_for_form(self, form: str, candidates: set[str]) -> str | None:
+        """Headword of a main paradigm entry that lists form (not a *from-only article)."""
+        owners: list[str] = []
+        for lemma in candidates:
+            for entry in self.word_to_entry.get(lemma, []):
+                if form not in entry.get("forms", []):
+                    continue
+                if _extract_relation_from_entry(entry):
+                    continue
+                if entry.get("word") == lemma:
+                    owners.append(lemma)
+        unique = list(dict.fromkeys(owners))
+        if len(unique) == 1:
+            return unique[0]
+        return None
+
+    def _lookup_global_shared_prefix(
+        self,
+        token: str,
+        context_lemma: str | None,
+        token_pos: str,
+    ) -> tuple[str, str, str, str] | None:
+        best_len = 0
+        forms_at_best: list[tuple[str, set[str]]] = []
+        for form, lemmas in self.form_to_lemmas.items():
+            if not form:
+                continue
+            prefix_len = _common_prefix_len(token, form)
+            if (
+                prefix_len < MIN_MORPH_PREFIX_LEN
+                or len(token) <= prefix_len
+                or len(form) <= prefix_len
+            ):
+                continue
+            if prefix_len > best_len:
+                best_len = prefix_len
+                forms_at_best = [(form, set(lemmas))]
+            elif prefix_len == best_len:
+                forms_at_best.append((form, set(lemmas)))
+
+        if best_len == 0:
+            return None
+
+        lemmas_at_best: set[str] = set()
+        for _, lemma_set in forms_at_best:
+            lemmas_at_best |= lemma_set
+
+        lemma: str | None = None
+        if len(lemmas_at_best) == 1:
+            lemma = next(iter(lemmas_at_best))
+        else:
+            for form, lemma_set in forms_at_best:
+                pick = self._paradigm_lemma_for_form(form, lemma_set)
+                if pick:
+                    lemma = pick
+                    break
+            if not lemma:
+                for form, _ in forms_at_best:
+                    pick = self._paradigm_lemma_for_form(form, lemmas_at_best)
+                    if pick:
+                        lemma = pick
+                        break
+            if not lemma and context_lemma and context_lemma in lemmas_at_best:
+                lemma = context_lemma
+
+        if not lemma:
+            return "", "", token_pos, "low"
+
+        pos = token_pos or (
+            _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
+        )
+        return lemma, "", pos, "medium"
+
     def lookup_lemma(
         self,
         token: str,
@@ -269,6 +342,10 @@ class DictionaryIndex:
         suffix = self._lookup_global_suffix(token, context_lemma, token_pos)
         if suffix:
             return suffix
+
+        shared = self._lookup_global_shared_prefix(token, context_lemma, token_pos)
+        if shared:
+            return shared
 
         if token in self.word_to_entry and token not in self.word_relations:
             entry = self.word_to_entry[token][0]

@@ -4,42 +4,42 @@
       "id": "missing_lemma",
       "label": "Без леммы",
       "description": "Нет леммы — нужен маппинг",
-      "count": 3071,
+      "count": 1541,
       "file": "missing_lemma.txt"
     },
     "missing_relation": {
       "id": "missing_relation",
       "label": "Без связи",
       "description": "Нет связи и нет уверенного контекста",
-      "count": 3071,
+      "count": 1541,
       "file": "missing_relation.txt"
     },
     "missing_pos": {
       "id": "missing_pos",
       "label": "Без части речи",
       "description": "Нет части речи и нет уверенного контекста",
-      "count": 3071,
+      "count": 1541,
       "file": "missing_pos.txt"
     },
     "missing_lemma_and_relation": {
       "id": "missing_lemma_and_relation",
       "label": "Без леммы и связи",
       "description": "Нет ни леммы, ни связи — приоритет для ручной работы",
-      "count": 3071,
+      "count": 1541,
       "file": "missing_lemma_and_relation.txt"
     },
     "ambiguous_examples": {
       "id": "ambiguous_examples",
       "label": "Неоднозначные примеры",
       "description": "Токен из av без найденного маппинга",
-      "count": 3071,
+      "count": 1541,
       "file": "ambiguous_examples.txt"
     },
     "low_confidence": {
       "id": "low_confidence",
       "label": "Низкая уверенность",
       "description": "Маппинг не найден или неоднозначен",
-      "count": 3071,
+      "count": 1541,
       "file": "low_confidence.txt"
     },
     "strange": {

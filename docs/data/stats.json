@@ -1,6 +1,6 @@
 {
   "total_raw_records": 173998,
-  "total_aggregated_records": 87378,
+  "total_aggregated_records": 87221,
   "per_source_raw": {
     "AV-RU словарь Гимбатова": 173998
   },
@@ -11,11 +11,11 @@
     "gender_forms": 662,
     "examples": 106097
   },
-  "missing_lemma": 9143,
-  "missing_relation": 9143,
-  "missing_pos": 9143,
-  "missing_lemma_and_relation": 9143,
-  "low_confidence": 9143,
+  "missing_lemma": 4882,
+  "missing_relation": 4882,
+  "missing_pos": 4882,
+  "missing_lemma_and_relation": 4882,
+  "low_confidence": 4882,
   "top_lemmas": [
     [
       "буго",
@@ -63,11 +63,15 @@
     ],
     [
       "чӏезе",
-      466
+      484
+    ],
+    [
+      "ругъун",
+      483
     ],
     [
       "кьезе",
-      465
+      468
     ],
     [
       "ниж",
@@ -76,6 +80,10 @@
     [
       "хӏалтӏизе",
       433
+    ],
+    [
+      "бахъизе",
+      427
     ],
     [
       "тӏад",
@@ -87,15 +95,7 @@
     ],
     [
       "лъезе",
-      393
-    ],
-    [
-      "босизе",
-      387
-    ],
-    [
-      "бер",
-      342
+      395
     ]
   ],
   "top_wordforms": [
@@ -258,7 +258,7 @@
       2
     ]
   ],
-  "ambiguous_examples": 9143,
-  "unmatched_example_tokens": 9143,
+  "ambiguous_examples": 4882,
+  "unmatched_example_tokens": 4882,
   "strange_records": []
 }
