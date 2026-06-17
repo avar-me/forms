@@ -33,6 +33,14 @@ TOKEN_SPLIT_RE = re.compile(
 PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-"
 MIN_MORPH_PREFIX_LEN = 3
 LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
+# Endings that mark a verb form (nouns don't take them). Used to disambiguate a token
+# whose stem is shared by a verb and a noun: къечон (= къеч + он) → verb къечезе, not noun къеч.
+VERB_ENDINGS = frozenset({
+    "он", "ун", "ана", "уна", "ина",
+    "улеб", "улел", "олеб", "арал", "араб",
+    "изе", "ине", "езе", "азе", "озе", "узе",
+    "ила", "ани", "анхъе",
+})
 # Palochka variants (capital Ӏ, Latin I/i/l/L, pipe, digit 1, Cyrillic І) → canonical ӏ (U+04CF),
 # matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
 PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
@@ -82,39 +90,16 @@ def _iter_article_morph_bases(entry: dict[str, Any]) -> Iterator[str]:
                 yield text
 
 
-def _iter_entry_example_tokens(entry: dict[str, Any]) -> Iterator[str]:
-    for sense in entry.get("senses", []):
-        for example in sense.get("examples", []):
-            yield from _iter_example_tokens(example.get("av", ""))
-
-
 @dataclass(frozen=True)
 class _EntryCache:
     form_lemmas: tuple[tuple[str, str], ...]
     declared_bases: frozenset[str]
-    example_tokens: frozenset[str]
-
-
-def _has_strict_attested_prefix(
-    token: str,
-    *,
-    declared_bases: frozenset[str],
-    example_tokens: frozenset[str],
-) -> bool:
-    """True when examples attest a shorter token that is not a declared form."""
-    for example_token in example_tokens:
-        if example_token == token or example_token in declared_bases:
-            continue
-        if token.startswith(example_token) and len(example_token) < len(token):
-            return True
-    return False
 
 
 def _build_entry_cache(entry: dict[str, Any], headwords: set[str]) -> _EntryCache:
     return _EntryCache(
         form_lemmas=tuple(_iter_entry_form_lemmas(entry, headwords)),
         declared_bases=frozenset(_iter_article_morph_bases(entry)),
-        example_tokens=frozenset(_iter_entry_example_tokens(entry)),
     )
 
 
@@ -238,10 +223,9 @@ class DictionaryIndex:
     _prefix_by_key: dict[str, list[tuple[str, frozenset[str]]]] = field(
         default_factory=dict, repr=False
     )
-    # lemma -> morphological stem (longest common prefix of its declared forms)
-    _lemma_stem: dict[str, str] = field(default_factory=dict, repr=False)
-    # stem[:MIN_MORPH_PREFIX_LEN] -> list of (stem, lemma)
-    _stem_by_key: dict[str, list[tuple[str, str]]] = field(default_factory=dict, repr=False)
+    # base[:MIN_MORPH_PREFIX_LEN] -> list of (base, lemma, is_headword); base is either a
+    # lemma's headword surface or its stem (longest common prefix of declared forms)
+    _base_by_key: dict[str, list[tuple[str, str, bool]]] = field(default_factory=dict, repr=False)
     _main_paradigm_cache: dict[str, dict[str, Any] | None] = field(default_factory=dict, repr=False)
     _lemma_pick_scores: dict[str, tuple[int, int, str]] = field(default_factory=dict, repr=False)
     _lookup_lemma_cached: Callable[[str, str, int], tuple[str, str, str, str]] | None = field(
@@ -289,24 +273,28 @@ class DictionaryIndex:
         index._suffix_by_initial = dict(suffix_by_initial)
         index._prefix_by_key = dict(prefix_by_key)
 
-        # Stem = longest common prefix of a lemma's declared surface forms. A token is
-        # attached to a lemma by morphology only if it starts with this full stem, so
-        # divergent prefixes (къаданиб vs къандалъ-) never match a coincidental fragment.
-        stem_by_key: dict[str, list[tuple[str, str]]] = defaultdict(list)
+        # Morphological bases for attaching example tokens (token = base + affix). Each lemma
+        # contributes its headword surface and its stem (longest common prefix of declared
+        # forms). Requiring the *full* base as a prefix rejects coincidental fragments
+        # (къаданиб vs къандалъ-); the headword base recovers lemmas whose stem is destroyed
+        # by an irregular form (гӏин, plural гӏундул collapses the LCP).
+        base_by_key: dict[str, list[tuple[str, str, bool]]] = defaultdict(list)
         for lemma, lemma_entries in index.word_to_entry.items():
-            bases: set[str] = {lemma}
+            surfaces: set[str] = {lemma}
             for entry in lemma_entries:
-                bases.update(f for f in entry.get("forms", []) or [] if f)
-                bases.update(f for f in entry.get("gender_forms", []) or [] if f)
+                surfaces.update(f for f in entry.get("forms", []) or [] if f)
+                surfaces.update(f for f in entry.get("gender_forms", []) or [] if f)
                 for sense in entry.get("senses", []):
-                    bases.update(f for f in sense.get("forms", []) or [] if f)
-            stem = _longest_common_prefix(bases)
-            if len(stem) >= MIN_MORPH_PREFIX_LEN:
-                index._lemma_stem[lemma] = stem
-                stem_by_key[stem[:MIN_MORPH_PREFIX_LEN]].append((stem, lemma))
-        for items in stem_by_key.values():
-            items.sort(key=lambda item: len(item[0]), reverse=True)
-        index._stem_by_key = dict(stem_by_key)
+                    surfaces.update(f for f in sense.get("forms", []) or [] if f)
+            bases: set[tuple[str, bool]] = set()
+            if len(lemma) >= MIN_MORPH_PREFIX_LEN:
+                bases.add((lemma, True))
+            stem = _longest_common_prefix(surfaces)
+            if len(stem) >= MIN_MORPH_PREFIX_LEN and stem != lemma:
+                bases.add((stem, False))
+            for base, is_headword in bases:
+                base_by_key[base[:MIN_MORPH_PREFIX_LEN]].append((base, lemma, is_headword))
+        index._base_by_key = dict(base_by_key)
 
         for lemma in index.word_to_entry:
             entry = index._main_paradigm_entry(lemma)
@@ -338,20 +326,6 @@ class DictionaryIndex:
     def _token_declared_for_lemma(self, token: str, lemma: str) -> bool:
         for entry in self.word_to_entry.get(lemma, []):
             if _token_declared_for_entry(entry, token):
-                return True
-        return False
-
-    def _reject_attested_undeclared(self, token: str, lemma: str) -> bool:
-        for entry in self.word_to_entry.get(lemma, []):
-            entry_key = self._entry_id_map.get(id(entry))
-            if entry_key is None:
-                continue
-            cache = self._entry_caches[entry_key]
-            if _has_strict_attested_prefix(
-                token,
-                declared_bases=cache.declared_bases,
-                example_tokens=cache.example_tokens,
-            ):
                 return True
         return False
 
@@ -434,37 +408,58 @@ class DictionaryIndex:
     ) -> tuple[str, str, str, str] | None:
         if len(token) < MIN_MORPH_PREFIX_LEN:
             return None
-        # Strong link: token must start with a lemma's full morphological stem
-        # (token = stem + affix). Prefer the longest matching stem.
-        best_len = 0
-        lemmas_at_best: set[str] = set()
-        for stem, lemma_ in self._stem_by_key.get(token[:MIN_MORPH_PREFIX_LEN], ()):
-            if len(stem) >= len(token) or not token.startswith(stem):
-                continue
-            if len(stem) > best_len:
-                best_len = len(stem)
-                lemmas_at_best = {lemma_}
-            elif len(stem) == best_len:
-                lemmas_at_best.add(lemma_)
-
-        if best_len == 0:
+        # Strong link: token = base + affix, where base is a lemma's headword or stem.
+        # Collect every candidate base that is a proper prefix of the token.
+        candidates: list[tuple[str, str, bool]] = []  # (base, lemma, is_headword)
+        for base, lemma_, is_headword in self._base_by_key.get(token[:MIN_MORPH_PREFIX_LEN], ()):
+            if len(base) < len(token) and token.startswith(base):
+                candidates.append((base, lemma_, is_headword))
+        if not candidates:
             return None
 
-        lemma: str | None
-        if len(lemmas_at_best) == 1:
-            lemma = next(iter(lemmas_at_best))
-        elif context_lemma and context_lemma in lemmas_at_best:
-            lemma = context_lemma
-        else:
-            lemma = self._pick_ambiguous_lemma(lemmas_at_best)
-
-        if not lemma or self._reject_attested_undeclared(token, lemma):
-            return "", "", token_pos, "low"
-
+        lemma = self._resolve_base_candidates(token, candidates, context_lemma)
+        if not lemma:
+            return None
         pos = token_pos or (
             _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
         )
         return lemma, "", pos, "medium"
+
+    def _resolve_base_candidates(
+        self,
+        token: str,
+        candidates: list[tuple[str, str, bool]],
+        context_lemma: str | None,
+    ) -> str | None:
+        # A clearly verbal ending overrides base length: къечон (= къеч + он) is the
+        # converb of verb къечезе, not the noun къеч that merely shares the stem.
+        verbs = [
+            (base, lemma)
+            for base, lemma, _ in candidates
+            if token[len(base):] in VERB_ENDINGS and self._lemma_pos(lemma) == "глагол"
+        ]
+        if verbs:
+            return self._longest_base_lemma(verbs, context_lemma)
+
+        # Otherwise the longest base wins (the most specific morphological match).
+        return self._longest_base_lemma([(base, lemma) for base, lemma, _ in candidates], context_lemma)
+
+    def _longest_base_lemma(
+        self,
+        pairs: list[tuple[str, str]],
+        context_lemma: str | None,
+    ) -> str | None:
+        best = max(len(base) for base, _ in pairs)
+        lemmas = {lemma for base, lemma in pairs if len(base) == best}
+        if len(lemmas) == 1:
+            return next(iter(lemmas))
+        if context_lemma and context_lemma in lemmas:
+            return context_lemma
+        return self._pick_ambiguous_lemma(lemmas)
+
+    def _lemma_pos(self, lemma: str) -> str:
+        entries = self.word_to_entry.get(lemma)
+        return _entry_pos(entries[0]) if entries else ""
 
     def _main_paradigm_entry(self, lemma: str) -> dict[str, Any] | None:
         if lemma in self._main_paradigm_cache:
