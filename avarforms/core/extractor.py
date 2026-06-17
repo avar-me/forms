@@ -27,6 +27,27 @@ class SourceExtractor(ABC):
             return path
         return self.root / path
 
+    def open_data_lines(self) -> Iterator[str]:
+        """Yield raw text lines for this source from a remote URL or local path.
+
+        Sources are fetched fresh from `config["url"]` on every build (no cache).
+        A local `config["path"]` is supported as a fallback for offline data.
+        """
+        url = self.config.get("url")
+        if url:
+            import urllib.request
+
+            request = urllib.request.Request(url, headers={"User-Agent": "avarforms-build"})
+            with urllib.request.urlopen(request) as response:  # noqa: S310 - trusted avar.me source
+                text = response.read().decode("utf-8")
+            yield from text.splitlines()
+            return
+
+        path = self.resolve_path(self.config["path"])
+        with path.open(encoding="utf-8") as fh:
+            for line in fh:
+                yield line
+
 
 def load_mappings(root: Path, mapping_files: list[str]) -> MappingTable:
     table: MappingTable = {}

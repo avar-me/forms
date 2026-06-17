@@ -55,8 +55,6 @@ avar/forms/
 │   └── sources.json            # Реестр всех источников
 ├── mappings/                   # Ручные уточнения маппинга
 │   └── gimbatov.overrides.json
-├── sources/                    # Исходные данные
-│   └── gimbatov.av-ru.enriched.jsonl
 ├── avarforms/                  # Python-фреймворк
 │   ├── core/                   # Модели, пайплайн, статистика
 │   ├── sources/                # Экстракторы по источникам
@@ -65,6 +63,10 @@ avar/forms/
 ```
 
 ## Источники
+
+Исходные данные берутся из реестра **[sources.avar.me](https://sources.avar.me)** —
+источника правды для всей экосистемы avar.me. При каждой сборке `av-ru.jsonl`
+скачивается заново (без локального кэша), поэтому интернет обязателен.
 
 Источники описываются в `config/sources.json`:
 
@@ -76,10 +78,13 @@ avar/forms/
   "module": "avarforms.sources.gimbatov",
   "class": "GimbatovExtractor",
   "config": {
-    "path": "sources/gimbatov.av-ru.enriched.jsonl"
+    "url": "https://sources.avar.me/data/av-ru.jsonl"
   }
 }
 ```
+
+Для офлайн-сборки вместо `url` можно указать локальный `path`
+(относительно корня проекта).
 
 ### AV-RU словарь Гимбатова
 
@@ -106,7 +111,7 @@ avar/forms/
 
 ## Добавление нового источника
 
-1. Положите данные в `sources/`
+1. Залейте данные в реестр [sources.avar.me](https://sources.avar.me) (или используйте локальный `path` для офлайн-данных)
 2. Создайте экстрактор в `avarforms/sources/my_source.py`:
 
 ```python

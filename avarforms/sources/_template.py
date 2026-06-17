@@ -11,10 +11,11 @@ from avarforms.core.models import MappingTable, WordFormRecord
 class TemplateExtractor(SourceExtractor):
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
         mappings = mappings or {}
-        data_path = self.resolve_path(self.config["path"])
+        # Yields raw text lines from config["url"] (sources.avar.me) or local config["path"].
+        lines = self.open_data_lines()
 
-        # TODO: read data_path and yield WordFormRecord instances
-        _ = data_path, mappings
+        # TODO: parse lines and yield WordFormRecord instances
+        _ = lines, mappings
         if False:
             yield WordFormRecord(
                 wordform="",

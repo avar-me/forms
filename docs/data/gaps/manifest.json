@@ -4,32 +4,32 @@
       "id": "needs_work",
       "label": "Нужна ручная работа",
       "description": "Есть упоминания без уверенного маппинга",
-      "count": 3325,
-      "mention_count": 5907,
+      "count": 3298,
+      "mention_count": 5872,
       "file": "needs_work.txt"
     },
     "fully_unmapped": {
       "id": "fully_unmapped",
       "label": "Без маппинга",
       "description": "Нет ни одной записи с найденной леммой",
-      "count": 3309,
-      "mention_count": 5863,
+      "count": 3283,
+      "mention_count": 5830,
       "file": "fully_unmapped.txt"
     },
     "partial": {
       "id": "partial",
       "label": "Частичный маппинг",
       "description": "Есть и ясные записи, и пробелы в других упоминаниях",
-      "count": 16,
-      "mention_count": 44,
+      "count": 15,
+      "mention_count": 42,
       "file": "partial.txt"
     },
     "homograph": {
       "id": "homograph",
       "label": "Омонимы",
       "description": "Несколько лемм для одной словоформы — обычно норма",
-      "count": 1020,
-      "mention_count": 7851,
+      "count": 1018,
+      "mention_count": 7845,
       "file": "homograph.txt"
     },
     "strange": {

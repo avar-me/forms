@@ -5,8 +5,7 @@ import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 from functools import lru_cache
-from pathlib import Path
-from typing import Any, Callable, Iterator
+from typing import Any, Callable, Iterable, Iterator
 
 from avarforms.core.extractor import SourceExtractor
 from avarforms.core.models import MappingTable, WordFormRecord
@@ -33,6 +32,7 @@ TOKEN_SPLIT_RE = re.compile(
 )
 PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-"
 MIN_MORPH_PREFIX_LEN = 3
+LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
 
 
 def _common_prefix_len(a: str, b: str) -> int:
@@ -584,6 +584,22 @@ class DictionaryIndex:
             return lemma, relation, pos, confidence
         return None
 
+    def _lookup_limitative(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
+        """Map verb-infinitive + гӏан (форма предела «пока V») to the verb infinitive.
+
+        Only fires when stripping `гӏан` leaves a `-е` headword whose pos is глагол,
+        so adverbs/postpositions ending in гӏан (their own headwords) are untouched.
+        """
+        if not token.endswith(LIMITATIVE_SUFFIX):
+            return None
+        base = token[: -len(LIMITATIVE_SUFFIX)]
+        if len(base) < MIN_MORPH_PREFIX_LEN or not base.endswith("е"):
+            return None
+        entry = self._main_paradigm_entry(base)
+        if entry is None or _entry_pos(entry) != "глагол":
+            return None
+        return base, "", token_pos or "глагол", "medium"
+
     def _lookup_sentence_case(self, token: str, token_pos: str) -> tuple[str, str, str, str] | None:
         """Map sentence-capitalized tokens when the lowercase form is an exact dictionary hit."""
         folded = _sentence_case_fold(token)
@@ -659,6 +675,10 @@ class DictionaryIndex:
         if sentence_case:
             return sentence_case
 
+        limitative = self._lookup_limitative(token, token_pos)
+        if limitative:
+            return limitative
+
         if context_entry is not None:
             local = self._lookup_in_article(context_entry, token, cache=entry_cache)
             if local:
@@ -725,13 +745,12 @@ def _gram_form_relation(entry: dict[str, Any]) -> str:
     return gram_form
 
 
-def _load_entries(path: Path) -> list[dict[str, Any]]:
+def _load_entries(lines: Iterable[str]) -> list[dict[str, Any]]:
     entries: list[dict[str, Any]] = []
-    with path.open(encoding="utf-8") as fh:
-        for line in fh:
-            line = line.strip()
-            if line:
-                entries.append(json.loads(line))
+    for line in lines:
+        line = line.strip()
+        if line:
+            entries.append(json.loads(line))
     return entries
 
 
@@ -783,8 +802,7 @@ class GimbatovExtractor(SourceExtractor):
 
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
         mappings = mappings or {}
-        data_path = self.resolve_path(self.config["path"])
-        entries = _load_entries(data_path)
+        entries = _load_entries(self.open_data_lines())
         index = DictionaryIndex.from_entries(entries)
 
         for entry in entries:
