@@ -75,7 +75,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏи-кӏи",
+            "pos": "числительное",
+            "confidence": "medium",
             "entry": "-ккун",
             "av": "кӏи-кӏи-ккун рачӏана дол",
             "ru": "они пришли по два",
@@ -447,7 +449,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "-тӏалаяб",
             "av": "кӏи-тӏалаяб мина",
             "ru": "двухэтажный дом",
@@ -701,8 +705,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏиабилеб",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "нус",
             "av": "кӏиабилей нус",
@@ -3583,7 +3587,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏигояб",
+            "lemma": "кӏиго",
             "pos": "числительное",
             "confidence": "medium",
             "entry": "каюта",
@@ -3635,7 +3639,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏигояб",
+            "lemma": "кӏиго",
             "pos": "числительное",
             "confidence": "medium",
             "entry": "сургу",
@@ -3645,7 +3649,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏигояб",
+            "lemma": "кӏиго",
             "pos": "числительное",
             "confidence": "medium",
             "entry": "хъухъадиро",
@@ -4837,8 +4841,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏийил",
-            "pos": "существительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "бикьизабизе",
             "av": "кӏийиде бикьизабизе",
@@ -4847,8 +4851,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏийил",
-            "pos": "существительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "бикьизе",
             "av": "кӏийиде бикьизе",
@@ -4857,8 +4861,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏийил",
-            "pos": "существительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "щуго",
             "av": "щуго кӏийиде бикьун бажаруларо",
@@ -6425,7 +6429,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏиликӏ",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "гъамас",
             "av": "гъансил кӏиликӏич",
             "ru": "крючок с петлей для замка сундука",
@@ -9604,9 +9610,53 @@
           {
             "subsource": "headword",
             "lemma": "кӏицӏулгосеб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "кӏицӏулгосеб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кӏицӏулгосеб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "кӏицӏулгосев": {
+    "wordform": "кӏицӏулгосев",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кӏицӏулгосеб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кӏицӏулгосеб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кӏицӏулгосеб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "кӏицӏулгосей": {
+    "wordform": "кӏицӏулгосей",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кӏицӏулгосеб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кӏицӏулгосеб",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "кӏицӏулгосеб"
             ]
@@ -11591,7 +11641,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏичӏизе",
+            "lemma": "кӏичӏ",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "маркӏачӏуда",
@@ -11897,8 +11947,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏиябго",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "же",
             "av": "же, кӏиявго а гьанже нужедаго малъараб иш гьабизе",
@@ -11907,8 +11957,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏиябго",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "къеркьезе",
             "av": "кӏиявго гугарухъан лъикӏаланго заманаялъ къеркьана",
@@ -11937,8 +11987,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏиябго",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "цинцимаб",
             "av": "цинцимав вачӏун, кӏиявго мадугьалас гьоболлъухъ ахӏана дун",
@@ -11947,8 +11997,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏиябго",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "чӏвазе",
             "av": "Эбелалъул щвараб росда цебе хур, ГӀаршал чӏван къотӏула кӏиявго вацас",
@@ -11968,8 +12018,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏиябго",
-            "pos": "числительное",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "кӏал",
             "av": "дой кӏияйго мадугьалалъ кӏал цоцада цвизабун бугоан",
@@ -11999,7 +12049,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "къокъине",
             "av": "метер нилъ кӏиялго Дербенталде къокъина, гьудул",
             "ru": "завтра мы отправимся, друг, в Дербент",
@@ -12007,7 +12059,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "кьабезе",
             "av": "дол кӏиялго кьабезе журана",
             "ru": "они оба начали драться",
@@ -12015,7 +12069,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "смена",
             "av": "гьел кӏиялго гӏедегӏун рукӏана смена къабул гьабизе",
             "ru": "они оба спешили принимать смену",
@@ -12034,7 +12090,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏибикӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "рекъдизе",
             "av": "кӏиялтӏаго рекъдизе",
             "ru": "хромать на обе ноги",

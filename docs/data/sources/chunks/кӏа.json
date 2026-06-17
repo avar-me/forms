@@ -5338,7 +5338,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалгӏа",
+            "lemma": "кӏал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "рахазе",
@@ -5359,7 +5359,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалгӏа",
+            "lemma": "кӏал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "бацӏцӏине",
@@ -5369,7 +5369,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏалгӏа",
+            "lemma": "кӏал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьакӏкӏазе",
@@ -5399,7 +5399,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏалгӏа",
+            "lemma": "кӏал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "чӏезе",
@@ -7137,8 +7137,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалзухъ",
-            "pos": "выражение",
+            "lemma": "кӏал",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "берцинаб",
             "av": "берцинаб кӏалзуе кӏиго бутӏа щвараб",
@@ -7147,8 +7147,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏалзухъ",
-            "pos": "выражение",
+            "lemma": "кӏал",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "лъазе",
             "av": "“лъаларо” — кӏалзуе бигьаяб, “кӏоларо” — кверзуе бигьаяб",
@@ -8674,7 +8674,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏал",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "рагьизе",
             "av": "нуцӏа кӏалкӏалачӏван рагьун буго",
             "ru": "дверь открыта настежь",
@@ -9850,8 +9852,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалухъ",
-            "pos": "наречие",
+            "lemma": "кӏал",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "мокъокъ",
             "av": "кӏалуца мокъокъ чӏварабила, лъалкӏица гӏанк чӏварабила",
@@ -13499,9 +13501,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалзухъ",
-            "pos": "выражение",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "кӏалзухъ",
             "av": "Дида кӏалъарай мун кӏалзухъ яхъани, КӀутӏби хинлъизедай михъал рижарал",
             "ru": "Если ты станешь притчей во языцех за то, что со мной поговорила, Усы-то я ношу не для того, чтобы губе было тепло"
@@ -13723,9 +13723,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏалъай",
-            "pos": "глагол",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "гванзуч",
             "av": "гьав гванзучида эмен кӏалъаян абе",
             "ru": "пусть с этим грубияном отец поговорит",
@@ -14432,8 +14430,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏанцӏ",
-            "pos": "существительное",
+            "lemma": "кӏанцӏизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "бер",
             "av": "берал къватӏире кӏанцӏаги дур",
@@ -14664,7 +14662,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏанцӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "эхе-эхеде",
             "av": "кигӏан мун эхе-эхеде кӏанцӏаниги, дица дуе яс кьоларо",
             "ru": "хоть ты в клочья разорвёшься, я не выдам за тебя дочь",
@@ -14702,7 +14702,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏанцӏизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "малълъизе",
             "av": "малълъарасул кӏал бекулареб, кӏанцӏарасул бох бекулеб",
             "ru": "у того, кто подучает, рот не рвётся, а у того, кто прыгает, нога ломается",
@@ -15065,9 +15067,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏарччанго",
-            "pos": "наречие",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "кьагӏрихъего",
             "av": "кьагӏрихъего кӏанцӏелеб буго лъимер",
             "ru": "ребёнок весело прыгает",
@@ -15075,9 +15075,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кӏарччанго",
-            "pos": "наречие",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "кӏарччанго",
             "av": "кьегӏер кӏарччанго кӏанцӏелеб буго",
             "ru": "ягнёнок игриво прыгает",
@@ -15899,7 +15897,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏанцӏи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "горен",
             "av": "гореналъубе бацӏ кӏанцӏизехъин букӏана",
             "ru": "волк пытался проникнуть в загон",
@@ -15943,7 +15943,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏанцӏи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "хӏинкъи",
             "av": "тӏаде кӏанцӏилилан хӏинкъи кьезе",
             "ru": "грозить нападением",
@@ -16033,7 +16035,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏанцӏезе",
+            "lemma": "кӏанцӏизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гӏентӏеро",
@@ -17279,8 +17281,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "кӏамури",
-            "pos": "существительное",
+            "lemma": "кӏаризе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "кӏамури",
             "av": "кӏармикь кӏамури чӏун вугоан дов",
@@ -17300,7 +17302,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏаризе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "кӏамури",
             "av": "кӏармикьа къватӏибе бекерун бачӏана бурутӏ",
             "ru": "козлёнок выбежал из арки",
@@ -17319,7 +17323,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "кӏаризе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "кӏамури",
             "av": "рагӏдукье кӏармикье лъугьана ниж",
             "ru": "мы вошли в тень под арку",

@@ -669,7 +669,10 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бакъва-кӏасараб",
+            "relation": "женский род",
+            "pos": "прилагательное",
+            "confidence": "medium",
             "entry": "бакъва-кӏасараб",
             "av": "якъва-кӏасарай кӏодо",
             "ru": "худенькая старушка",
@@ -1329,9 +1332,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "якъут",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "бакъизе",
             "av": "мун якъун йигищ?",
             "ru": "ты голодна?",
@@ -1339,9 +1340,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "якъут",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "хьаг",
             "av": "хьагал рукъунги якъун теларо",
             "ru": "не оставлю тебя голодной, ибо умею лудить",

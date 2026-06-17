@@ -9,9 +9,9 @@
           {
             "subsource": "headword",
             "lemma": "мукагӏаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мукагӏаб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "мукагӏаб"
             ]
@@ -19,11 +19,55 @@
           {
             "subsource": "examples",
             "lemma": "мукагӏаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мукагӏаб",
             "av": "мукагӏаб метр",
             "ru": "кубический метр",
             "sense": "кубический"
+          }
+        ]
+      }
+    }
+  },
+  "мукагӏав": {
+    "wordform": "мукагӏав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мукагӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мукагӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мукагӏаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "мукагӏай": {
+    "wordform": "мукагӏай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мукагӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мукагӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мукагӏаб"
+            ]
           }
         ]
       }
@@ -130,9 +174,9 @@
           {
             "subsource": "headword",
             "lemma": "мукъадасаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мукъадасаб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "мукъадасаб"
             ]
@@ -140,11 +184,55 @@
           {
             "subsource": "examples",
             "lemma": "мукъадасаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мукъадасаб",
             "av": "мукъадасаб рукъ",
             "ru": "свящённый дом, храм",
             "sense": "святой, свящённый"
+          }
+        ]
+      }
+    }
+  },
+  "мукъадасав": {
+    "wordform": "мукъадасав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мукъадасаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мукъадасаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мукъадасаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "мукъадасай": {
+    "wordform": "мукъадасай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мукъадасаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мукъадасаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мукъадасаб"
+            ]
           }
         ]
       }
@@ -1958,7 +2046,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мукӏурлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "бигьа",
             "av": "гьедин бигьаго мукӏурлъизавизе кӏвеларо дуда дов",
             "ru": "так легко не уговоришь ты его",

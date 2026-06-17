@@ -1313,7 +1313,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "маржан",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "цӏал",
             "av": "маржаназул кӏиго цӏал",
             "ru": "две нитки коралловых бус",
@@ -2098,9 +2100,9 @@
           {
             "subsource": "headword",
             "lemma": "марказияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "марказияб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "марказияб"
             ]
@@ -2108,11 +2110,55 @@
           {
             "subsource": "examples",
             "lemma": "марказияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "марказияб",
             "av": "марказияб штаб гӏуцӏизе",
             "ru": "организовать центральный штаб",
             "sense": "центральный"
+          }
+        ]
+      }
+    }
+  },
+  "марказияв": {
+    "wordform": "марказияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "марказияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "марказияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "марказияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "марказияй": {
+    "wordform": "марказияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "марказияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "марказияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "марказияб"
+            ]
           }
         ]
       }

@@ -35,13 +35,18 @@ MIN_MORPH_PREFIX_LEN = 3
 LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
 
 
-def _common_prefix_len(a: str, b: str) -> int:
+def _longest_common_prefix(strings: set[str]) -> str:
+    """Longest common prefix shared by all strings (a lemma's morphological stem)."""
+    items = [s for s in strings if s]
+    if not items:
+        return ""
+    lo, hi = min(items), max(items)
     length = 0
-    for left, right in zip(a, b):
+    for left, right in zip(lo, hi):
         if left != right:
             break
         length += 1
-    return length
+    return lo[:length]
 
 
 def _iter_article_morph_bases(entry: dict[str, Any]) -> Iterator[str]:
@@ -143,44 +148,16 @@ def _lookup_article_morphology(
     ):
         return headword
 
+    # Strong link only: the token must contain a declared base as a prefix
+    # (token = base + affix). Divergent shared prefixes (e.g. къаданиб vs the
+    # къандалъо stem, sharing only «къа») are rejected — defer to honest non-match.
     morph_bases = cache.declared_bases if cache else set(_iter_article_morph_bases(entry))
-    best_prefix = 0
-    via_startswith = False
     for base in morph_bases:
-        if base == stem:
+        if base == stem or len(base) < MIN_MORPH_PREFIX_LEN:
             continue
         if token.startswith(base) and len(token) > len(base):
-            if len(base) > best_prefix:
-                best_prefix = len(base)
-                via_startswith = True
-            continue
-        prefix_len = _common_prefix_len(token, base)
-        if (
-            prefix_len >= MIN_MORPH_PREFIX_LEN
-            and len(token) > prefix_len
-            and len(base) > prefix_len
-            and prefix_len > best_prefix
-        ):
-            best_prefix = prefix_len
-            via_startswith = False
-
-    if best_prefix < MIN_MORPH_PREFIX_LEN:
-        return None
-    if not via_startswith:
-        if cache:
-            if _has_strict_attested_prefix(
-                token,
-                declared_bases=cache.declared_bases,
-                example_tokens=cache.example_tokens,
-            ):
-                return None
-        elif _has_strict_attested_prefix(
-            token,
-            declared_bases=frozenset(_iter_article_morph_bases(entry)),
-            example_tokens=frozenset(_iter_entry_example_tokens(entry)),
-        ):
-            return None
-    return headword
+            return headword
+    return None
 
 
 def _entry_headword(entry: dict[str, Any]) -> str:
@@ -258,6 +235,10 @@ class DictionaryIndex:
     _prefix_by_key: dict[str, list[tuple[str, frozenset[str]]]] = field(
         default_factory=dict, repr=False
     )
+    # lemma -> morphological stem (longest common prefix of its declared forms)
+    _lemma_stem: dict[str, str] = field(default_factory=dict, repr=False)
+    # stem[:MIN_MORPH_PREFIX_LEN] -> list of (stem, lemma)
+    _stem_by_key: dict[str, list[tuple[str, str]]] = field(default_factory=dict, repr=False)
     _main_paradigm_cache: dict[str, dict[str, Any] | None] = field(default_factory=dict, repr=False)
     _lemma_pick_scores: dict[str, tuple[int, int, str]] = field(default_factory=dict, repr=False)
     _lookup_lemma_cached: Callable[[str, str, int], tuple[str, str, str, str]] | None = field(
@@ -304,6 +285,25 @@ class DictionaryIndex:
             items.sort(key=lambda item: len(item[0]), reverse=True)
         index._suffix_by_initial = dict(suffix_by_initial)
         index._prefix_by_key = dict(prefix_by_key)
+
+        # Stem = longest common prefix of a lemma's declared surface forms. A token is
+        # attached to a lemma by morphology only if it starts with this full stem, so
+        # divergent prefixes (къаданиб vs къандалъ-) never match a coincidental fragment.
+        stem_by_key: dict[str, list[tuple[str, str]]] = defaultdict(list)
+        for lemma, lemma_entries in index.word_to_entry.items():
+            bases: set[str] = {lemma}
+            for entry in lemma_entries:
+                bases.update(f for f in entry.get("forms", []) or [] if f)
+                bases.update(f for f in entry.get("gender_forms", []) or [] if f)
+                for sense in entry.get("senses", []):
+                    bases.update(f for f in sense.get("forms", []) or [] if f)
+            stem = _longest_common_prefix(bases)
+            if len(stem) >= MIN_MORPH_PREFIX_LEN:
+                index._lemma_stem[lemma] = stem
+                stem_by_key[stem[:MIN_MORPH_PREFIX_LEN]].append((stem, lemma))
+        for items in stem_by_key.values():
+            items.sort(key=lambda item: len(item[0]), reverse=True)
+        index._stem_by_key = dict(stem_by_key)
 
         for lemma in index.word_to_entry:
             entry = index._main_paradigm_entry(lemma)
@@ -423,22 +423,6 @@ class DictionaryIndex:
 
         return "", "", token_pos, "low"
 
-    def _paradigm_lemma_for_form(self, form: str, candidates: set[str]) -> str | None:
-        """Headword of a main paradigm entry that lists form (not a *from-only article)."""
-        owners: list[str] = []
-        for lemma in candidates:
-            for entry in self.word_to_entry.get(lemma, []):
-                if form not in entry.get("forms", []):
-                    continue
-                if _extract_relation_from_entry(entry):
-                    continue
-                if entry.get("word") == lemma:
-                    owners.append(lemma)
-        unique = list(dict.fromkeys(owners))
-        if len(unique) == 1:
-            return unique[0]
-        return None
-
     def _lookup_global_shared_prefix(
         self,
         token: str,
@@ -447,51 +431,29 @@ class DictionaryIndex:
     ) -> tuple[str, str, str, str] | None:
         if len(token) < MIN_MORPH_PREFIX_LEN:
             return None
+        # Strong link: token must start with a lemma's full morphological stem
+        # (token = stem + affix). Prefer the longest matching stem.
         best_len = 0
-        forms_at_best: list[tuple[str, set[str]]] = []
-        for form, lemmas in self._prefix_by_key.get(token[:MIN_MORPH_PREFIX_LEN], ()):
-            prefix_len = _common_prefix_len(token, form)
-            if (
-                prefix_len < MIN_MORPH_PREFIX_LEN
-                or len(token) <= prefix_len
-                or len(form) <= prefix_len
-            ):
+        lemmas_at_best: set[str] = set()
+        for stem, lemma_ in self._stem_by_key.get(token[:MIN_MORPH_PREFIX_LEN], ()):
+            if len(stem) >= len(token) or not token.startswith(stem):
                 continue
-            if not (token.startswith(form) or form.startswith(token)):
-                tail = max(len(token) - prefix_len, len(form) - prefix_len)
-                if tail > 2:
-                    continue
-            frozen = set(lemmas)
-            if prefix_len > best_len:
-                best_len = prefix_len
-                forms_at_best = [(form, frozen)]
-            elif prefix_len == best_len:
-                forms_at_best.append((form, frozen))
+            if len(stem) > best_len:
+                best_len = len(stem)
+                lemmas_at_best = {lemma_}
+            elif len(stem) == best_len:
+                lemmas_at_best.add(lemma_)
 
         if best_len == 0:
             return None
 
-        lemmas_at_best: set[str] = set()
-        for _, lemma_set in forms_at_best:
-            lemmas_at_best |= lemma_set
-
-        lemma: str | None = None
+        lemma: str | None
         if len(lemmas_at_best) == 1:
             lemma = next(iter(lemmas_at_best))
+        elif context_lemma and context_lemma in lemmas_at_best:
+            lemma = context_lemma
         else:
-            for form, lemma_set in forms_at_best:
-                pick = self._paradigm_lemma_for_form(form, lemma_set)
-                if pick:
-                    lemma = pick
-                    break
-            if not lemma:
-                for form, _ in forms_at_best:
-                    pick = self._paradigm_lemma_for_form(form, lemmas_at_best)
-                    if pick:
-                        lemma = pick
-                        break
-            if not lemma and context_lemma and context_lemma in lemmas_at_best:
-                lemma = context_lemma
+            lemma = self._pick_ambiguous_lemma(lemmas_at_best)
 
         if not lemma or self._reject_attested_undeclared(token, lemma):
             return "", "", token_pos, "low"

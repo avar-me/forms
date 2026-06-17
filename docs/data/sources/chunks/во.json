@@ -1436,7 +1436,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "волейбол",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "сетка",
             "av": "волейболъул сетка",
             "ru": "волейбольная сетка",
@@ -1644,7 +1646,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "воре",
+            "pos": "междометие",
+            "confidence": "medium",
             "entry": "тохлъизе",
             "av": "вореха, мун тохлъизе чӏоге!",
             "ru": "смотри не зевай!",
@@ -1663,7 +1667,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "воре",
+            "pos": "междометие",
+            "confidence": "medium",
             "entry": "борхизе",
             "av": "ворея, цодагьав ворхея",
             "ru": "ну-ка, немного приподнимись-ка",
@@ -3027,9 +3033,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ворчӏухъанлъи",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "къавутӏа",
             "av": "къавутӏа ворчӏухъанлъун Чаландар вукӏана доб сордоялъ",
             "ru": "в ту ночь на стойбище отары Чаландар дежурил",

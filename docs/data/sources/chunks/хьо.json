@@ -243,7 +243,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "хьон",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "нах",
             "av": "хьодутӏа ккараб нах",
             "ru": "льняное масло",
@@ -399,7 +401,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "хьибил",
+            "lemma": "хьон",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "хьибил",
@@ -409,7 +411,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "хьибил",
+            "lemma": "хьон",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "хӏунсизе",
@@ -430,7 +432,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "хьон",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "ккезе",
             "av": "дир квер хьолбокье ккана",
             "ru": "моя рука попала под бок",
@@ -472,7 +476,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "хьибил",
+            "lemma": "хьолбол",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "тункизе",
@@ -512,7 +516,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "хьибил",
+            "lemma": "хьолбол",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "хӏунсизе",
@@ -1231,7 +1235,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "хьон",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "мичӏ",
             "av": "мичӏитӏа хьонгӏан гӏемер",
             "ru": "многочисленно; очень много; столько, сколько на крапиве семян",
@@ -1741,7 +1747,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "хьон",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "гидал",
             "av": "гидал бан гебегун ана бацӏ хьондаса гӏодобе",
             "ru": "по склону горы волк кубарём скатился"
@@ -2232,9 +2240,9 @@
           {
             "subsource": "headword",
             "lemma": "хьопмахӏаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "хьопмахӏаб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "хьопмахӏаб"
             ]
@@ -2251,14 +2259,47 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "хьопмахӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хьопмахӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хьопмахӏаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "хьопмахӏаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "хьопмахӏаб",
             "av": "хьопмахӏав чи",
             "ru": "худой человек; похожий на прут",
             "sense": "тонкий, худой, худощавый"
+          }
+        ]
+      }
+    }
+  },
+  "хьопмахӏай": {
+    "wordform": "хьопмахӏай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "хьопмахӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хьопмахӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хьопмахӏаб"
+            ]
           }
         ]
       }
@@ -2910,7 +2951,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "хьон",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "хьури",
             "av": "берал хьорода гьоркьоса къватӏире раккизаризе",
             "ru": "посадить за решётку; способствовать тому, чтобы глаза выглядели из-за решётки",

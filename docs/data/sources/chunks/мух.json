@@ -225,7 +225,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мухбир",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "рейд",
             "av": "мухбирзабазул рейд",
             "ru": "рейд корреспондентов",
@@ -392,9 +394,9 @@
           {
             "subsource": "headword",
             "lemma": "мухтарияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мухтарияб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "мухтарияб"
             ]
@@ -402,11 +404,55 @@
           {
             "subsource": "examples",
             "lemma": "мухтарияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "мухтарияб",
             "av": "Дагъистан мухтарияб жумгьурият буго",
             "ru": "Дагестан является автономной республикой",
             "sense": "автономный"
+          }
+        ]
+      }
+    }
+  },
+  "мухтарияв": {
+    "wordform": "мухтарияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мухтарияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мухтарияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мухтарияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "мухтарияй": {
+    "wordform": "мухтарияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мухтарияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мухтарияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мухтарияб"
+            ]
           }
         ]
       }
@@ -1727,7 +1773,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мухь",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "хӏалтӏи",
             "av": "хӏалтӏуда рекъарабила мухьги букӏунеб",
             "ru": "по работе и плата",
@@ -2062,7 +2110,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мухӏур",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "бабал",
             "av": "бабал Мухӏама",
             "ru": "маменькин сынок; маменькин Магома",
@@ -2070,14 +2120,18 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мухӏур",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "щокӏол",
             "av": "щокӏол мухӏама лъугьун вуго досул",
             "ru": "он очень похудел, на нём только кожа да кости"
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "мухӏур",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "эбел",
             "av": "эбелалъул мухӏама",
             "ru": "маменькин сынок",

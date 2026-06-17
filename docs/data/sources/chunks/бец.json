@@ -8,7 +8,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "бакь",
@@ -18,7 +18,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гӏедегӏизе",
@@ -28,7 +28,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гӏункӏкӏ",
@@ -38,7 +38,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "капек",
@@ -48,7 +48,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "капек",
@@ -58,7 +58,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "кӏиго",
@@ -68,7 +68,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "ретӏине",
@@ -89,7 +89,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "бецаризе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекъаб",
@@ -436,7 +436,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бецизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "нилъ",
             "av": "нилъеда бихьичӏеб бецасда бихьун батулила, нилъеда рагӏичӏеб гӏинкъасда рагӏун батулила",
             "ru": "то, что мы не видим, видит слепой, то, что мы не слышим, слышит глухой",
@@ -455,7 +457,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "бецизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "операция",
             "av": "бецбакьалъе операция",
             "ru": "операция аппендицита",
@@ -873,7 +877,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "беццлъизабизе",
+            "lemma": "бецизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "беццлъизабизе",
@@ -5552,9 +5556,53 @@
           {
             "subsource": "headword",
             "lemma": "бецӏсурмияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "бецӏсурмияб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "бецӏсурмияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "бецӏсурмияв": {
+    "wordform": "бецӏсурмияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "бецӏсурмияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "бецӏсурмияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "бецӏсурмияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "бецӏсурмияй": {
+    "wordform": "бецӏсурмияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "бецӏсурмияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "бецӏсурмияб",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "бецӏсурмияб"
             ]

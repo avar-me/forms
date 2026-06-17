@@ -1813,9 +1813,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекел",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "цӏороберал",
             "av": "цӏороберал рекун руго",
             "ru": "очки разбиты",
@@ -2225,9 +2223,9 @@
           {
             "subsource": "headword",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "рекъаб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "рекъаб"
             ]
@@ -2235,7 +2233,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "гӏайибияб",
             "av": "дун вачӏинчӏолъиялъе гӏайибияб гьаб дир рекъаб бох буго",
             "ru": "виновница того, что я не пришёл, эта моя хромая нога",
@@ -2244,7 +2242,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "лъабида",
             "av": "лъабида рекъаб",
             "ru": "хромой на три ноги"
@@ -2252,7 +2250,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "лъабида",
             "av": "лъабида рекъаб хӏайван къанагӏатги букӏунаро",
             "ru": "очень редко встречается скотина, хромая на три ноги"
@@ -2260,7 +2258,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "рекъаб",
             "av": "рекъаб гьве",
             "ru": "хромой пёс",
@@ -2269,7 +2267,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "рекъон",
             "av": "рекъон ккун буго рекъаб бацӏие",
             "ru": "так и надо хромому волку",
@@ -2287,9 +2285,20 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "рекъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "рекъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "рекъаб"
+            ]
+          },
+          {
             "subsource": "examples",
-            "lemma": "рекъезе",
-            "pos": "глагол",
+            "lemma": "рекъаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "гурелъул",
             "av": "мун я рекъав, я херав гурелъул, лъелго а",
@@ -2298,8 +2307,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезе",
-            "pos": "глагол",
+            "lemma": "рекъаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "кӏалъазе",
             "av": "кӏалъалаго тӏекъав лъала, вилълъунаго рекъав лъала",
@@ -2309,7 +2318,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "рекъаб",
             "av": "рекъав чи",
@@ -2319,7 +2328,7 @@
           {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "рекъаб",
             "av": "хӏетӏе рекъав",
@@ -2328,8 +2337,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезе",
-            "pos": "глагол",
+            "lemma": "рекъаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "щванкӏи-ланкӏиялда",
             "av": "щванкӏи-ланкӏиялда унев вукӏана рекъав чи къотӏносан",
@@ -2348,9 +2357,20 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "рекъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "рекъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "рекъаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "рекъаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "рекъаб",
             "av": "эбел гьечӏей — бецай, яц гьечӏей — рекъай",
@@ -2370,8 +2390,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекъезе",
-            "pos": "глагол",
+            "lemma": "рекъаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "анкьабго",
             "av": "анкьабго рекъезе рекъайги йиго",
@@ -3532,7 +3552,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гъоркьтӏам",
@@ -3542,7 +3562,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гӏака",
@@ -3552,7 +3572,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекъезабизе",
@@ -3562,7 +3582,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекъезабизе",
@@ -3572,7 +3592,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекъезабизе",
@@ -3582,7 +3602,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рогӏоро",
@@ -3592,7 +3612,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "турба",
@@ -3602,7 +3622,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезабизе",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "цӏадираби",
@@ -3623,7 +3643,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъезе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "кӏалалъбакӏалда",
             "av": "кӏалалъбакӏалда квен-тӏехалъул тӏагӏелал рекъезарулел рукӏана кӏодоца",
             "ru": "бабушка раскладывала у очага посуду и утварь для изготовления еды",
@@ -3642,7 +3664,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъезе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "барщизе",
             "av": "барщарал гьалмагъзаби рекъезаруна нижеца",
             "ru": "мы помирили поссорившихся товарищей",
@@ -3650,7 +3674,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъезе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "цоцалъ",
             "av": "гӏагарлъи цоцалъ балин хӏинкъун, дибирас дол рекъезаруна",
             "ru": "боясь, что родственники передерутся, мулла помирил их",
@@ -3834,7 +3860,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъезе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "нахъа-цебе",
             "av": "нахъа-цере рекъезеги бегьула дол",
             "ru": "возможно, со временем они помирятся",
@@ -4214,7 +4242,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекъечӏеб",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "махӏ",
@@ -4224,7 +4252,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъечӏеб",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "пиша",
@@ -4234,7 +4262,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъечӏеб",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "пурсат",
@@ -4253,7 +4281,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъечӏеб",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "хӏужат",
@@ -4262,7 +4290,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъечӏеб",
+            "lemma": "рекъезе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "хӏужат",
@@ -5662,7 +5690,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъон",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "гӏамал",
             "av": "гӏамал рекъонила къадар хъвалеб",
             "ru": "по характеру и сходятся",
@@ -5670,7 +5700,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъон",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "къадар",
             "av": "гӏамал рекъонила къадар хъвалеб",
             "ru": "по характеру и судьба",
@@ -5689,7 +5721,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекъон",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "ужра",
             "av": "хӏалтӏуда рекъонин ужраги кьолеб",
             "ru": "плотят по работе",
@@ -6013,9 +6047,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьари",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "анищ",
             "av": "анищазул хурзал рекьани, хӏамикӏучӏал рижула",
             "ru": "если поля засеешь мечтами, вырастут ослиные какашки",
@@ -6034,9 +6066,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьари",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "хер",
             "av": "рекьарал хурдул",
             "ru": "сеянные травы",
@@ -6125,9 +6155,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьарулъ",
-            "pos": "наречие",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "заман",
             "av": "рекьарулеб заман букӏана",
             "ru": "было время сева",
@@ -6632,7 +6660,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьул",
+            "lemma": "рекьи",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "байбихьизе",
@@ -6663,9 +6691,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьул",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "бахъине",
             "av": "рекьуде рахъине",
             "ru": "начать пахоту",
@@ -6673,9 +6699,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекьул",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "техника",
             "av": "техника рекьуде хӏадурго буго",
             "ru": "техника готова к севу",
@@ -6757,9 +6781,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекьул",
-            "pos": "существительное",
-            "confidence": "medium",
+            "confidence": "low",
             "entry": "лъедер",
             "av": "хурзал лъедер рекьун руго",
             "ru": "поля засеяны редко",
@@ -7738,8 +7760,9 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "бекӏеда",
+            "relation": "множественное число",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏеда (рекӏелъ) цӏа бакизе",
@@ -7748,8 +7771,9 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "бекӏеда",
+            "relation": "множественное число",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏеда хъатӏизе",
@@ -7758,8 +7782,9 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "бекӏеда",
+            "relation": "множественное число",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏеда хъвазе",
@@ -7890,8 +7915,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее бигьалъи лъугьине",
@@ -7900,8 +7925,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее бокьарабгӏан",
@@ -7910,8 +7935,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее бокьун буго",
@@ -7920,8 +7945,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее бокьухъе",
@@ -7930,8 +7955,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее гӏезе",
@@ -7940,8 +7965,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее гӏечӏо",
@@ -7950,8 +7975,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее гӏуна",
@@ -7960,8 +7985,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее къабуллъана",
@@ -7970,8 +7995,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее хӏалхьи букӏине (лъугьине)",
@@ -7980,8 +8005,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏее хӏинкъи кьезе",
@@ -7990,7 +8015,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекъезе",
+            "lemma": "рекӏине",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекъезе",
@@ -8396,8 +8421,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏекьа бикъизе",
@@ -9968,8 +9993,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏетӏе вачӏине",
@@ -10059,8 +10084,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "ракӏ",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ракӏ",
             "av": "рекӏехъе лъазабизе",
@@ -10426,7 +10451,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекӏинабизе",
+            "lemma": "рекӏине",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекӏинабизе",
@@ -10541,7 +10566,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекӏинабизе",
+            "lemma": "рекӏине",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "рекӏинабизе",
@@ -10562,7 +10587,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекӏин",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "рещтӏине",
             "av": "рекӏиндал рукъ кӏочонтолев, рещтӏиндал чу кӏочонтолев",
             "ru": "на коня сел — дом забыт, опешился — конь забыт",
@@ -11125,7 +11152,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекӏине",
+            "lemma": "рекӏин",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "квер",
@@ -11189,7 +11216,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекӏин",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "бихьизе",
             "av": "вихьичӏого чи лъаларо, рекӏинчӏого чу лъаларо",
             "ru": "человека не узнаёшь пока его не испытаешь, коня не узнаёшь, пока его не объездишь",
@@ -11449,8 +11478,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "авлахъ",
             "av": "авлахъалдаса гӏебеде чуязда рекӏун ана дол",
@@ -11459,8 +11488,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "автобус",
             "av": "автобусалтӏа рекӏун уна дов хӏалтӏизе",
@@ -11469,8 +11498,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "автомобиль",
             "av": "автомобилалтӏа рекӏун ине",
@@ -11479,8 +11508,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "биччизе",
             "av": "виччун чи холаро, рекӏун чу холаро",
@@ -11489,8 +11518,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гуренж",
             "av": "гуренж гӏадин рекӏун чӏун вуго",
@@ -11499,8 +11528,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гӏорцӏен",
             "av": "гӏорцӏматӏа рекӏун ине",
@@ -11509,8 +11538,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ине",
             "av": "поездалтӏа рекӏун ине",
@@ -11519,8 +11548,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ине",
             "av": "самолёталтӏа рекӏун ине",
@@ -11529,8 +11558,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ине",
             "av": "чотӏа рекӏун ине",
@@ -11539,8 +11568,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "къентӏури",
             "av": "къентӏуриялда цӏа рекӏун буго",
@@ -11549,8 +11578,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "машина",
             "av": "машинаялда рекӏун вачӏана дов",
@@ -11559,8 +11588,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "мотоцикл",
             "av": "мотоциклалтӏа рекӏун ана дов",
@@ -11569,8 +11598,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "мугъ",
             "av": "чехь мугъзада рекӏун буго",
@@ -11579,8 +11608,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "никӏкӏ",
             "av": "никӏкӏ гӏадин рекӏун чӏезе",
@@ -11589,8 +11618,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "нукар",
             "av": "нукарзаби чуязтӏа рекӏун росулъе щвана",
@@ -11599,8 +11628,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "пицӏцӏ",
             "av": "пицӏцӏ гӏадин рекӏун чӏана",
@@ -11609,8 +11638,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "раса",
             "av": "росотӏа рекӏун гӏор бахине",
@@ -11619,8 +11648,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "рачӏ",
             "av": "рачӏ гӏадин хадув рекӏун вуго",
@@ -11629,8 +11658,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "рекен",
             "av": "мугъзада рекен рекӏун буго",
@@ -11639,8 +11668,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏарав",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "рекӏарав",
             "av": "рекӏарав рекӏун вукӏина, лъелав лъелго вукӏина",
@@ -11679,8 +11708,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "руруй",
             "av": "цӏа руруялда рекӏун букӏана",
@@ -11689,8 +11718,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "теплоход",
             "av": "теплоходалтӏа рекӏун ине",
@@ -11699,8 +11728,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "тӏасарукъ",
             "av": "тӏасарокъоб чирахъ рекӏун буго",
@@ -11709,8 +11738,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "тӏетӏели",
             "av": "тӏетӏели гӏадин рекӏун чӏезе",
@@ -11719,8 +11748,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "хьамахь",
             "av": "хьамахь гӏадин рекӏун чӏун йиго росасда",
@@ -11729,8 +11758,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "чанагъ",
             "av": "чанагъалтӏа рекӏун ине",
@@ -11739,8 +11768,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "чергес",
             "av": "Гьей дуца ячарай чергес йихьизе, Чу рекӏун ячӏина дун дур росулъе",
@@ -11749,8 +11778,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "чу",
             "av": "чотӏа рекӏун ине",
@@ -11759,8 +11788,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "чӏучӏади",
             "av": "машинаялда рекӏун унаго чӏучӏади",
@@ -11769,8 +11798,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "рекӏен",
-            "pos": "существительное",
+            "lemma": "рекӏине",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "ярагъ",
             "av": "Ярагъ борчун, чу рекӏун",
@@ -11988,7 +12017,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "рекӏине",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "бачибокь",
             "av": "бачибокьоб чирахъ рекӏухъего хутӏун буго",
             "ru": "в телнятнике забыли выключить свет",

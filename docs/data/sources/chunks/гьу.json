@@ -146,7 +146,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьумер",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "ралъдал",
             "av": "ралъдал гьугьен",
             "ru": "морская прохлада",
@@ -154,7 +156,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьумер",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "рогьалил",
             "av": "рогьалил гьугьен",
             "ru": "утренняя прохлада",
@@ -2054,7 +2058,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьудул",
+            "pos": "выражение",
+            "confidence": "medium",
             "entry": "горсвери",
             "av": "гьудулзабазул горсвери",
             "ru": "круг друзей",
@@ -5310,9 +5316,9 @@
           {
             "subsource": "headword",
             "lemma": "гьулияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "гьулияб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "гьулияб"
             ]
@@ -5320,11 +5326,55 @@
           {
             "subsource": "examples",
             "lemma": "гьулияб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "гьулияб",
             "av": "гьулияб маргъал",
             "ru": "драгоценный жемчуг",
             "sense": "драгоценный"
+          }
+        ]
+      }
+    }
+  },
+  "гьулияв": {
+    "wordform": "гьулияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьулияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьулияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьулияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьулияй": {
+    "wordform": "гьулияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьулияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьулияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьулияб"
+            ]
           }
         ]
       }
@@ -7165,8 +7215,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
-            "pos": "существительное",
+            "lemma": "гьумераб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "зодил",
             "av": "зодил гьумералхӏа",
@@ -7315,7 +7365,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьумер",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "гьоро-годозе",
             "av": "гьоро-годон гьумергун вачӏана",
             "ru": "пришёл с опухшим лицом",
@@ -8625,7 +8677,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гьине",
+            "lemma": "гьунизе",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "цедер",
@@ -11398,7 +11450,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11408,7 +11460,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11509,7 +11561,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьурмал",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "гьумер",
             "av": "гьурмадаса гӏуж тӏагӏунаро досул",
             "ru": "его лицо вечно в синяках",
@@ -11538,7 +11592,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11548,7 +11602,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11599,7 +11653,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьурмал",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "мугъ",
             "av": "мугъалдеги гьурмадеги гьури бугеб мехалда",
             "ru": "когда ветер дует то в лицо, то в спину",
@@ -11854,7 +11910,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11875,7 +11931,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гьурмал",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "тӏипало",
             "av": "долъул гьурматӏе тӏипало бан буго",
             "ru": "у неё на лице выступили веснушки",
@@ -11894,7 +11952,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11904,7 +11962,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",
@@ -11914,7 +11972,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьумер",
+            "lemma": "гьурмал",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "гьумер",

@@ -984,7 +984,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъизе",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "медаль-килас",
             "av": "Медаль-киласаца керен берцинлъун, Каранда ругъун щун сахлъарал руго",
             "ru": "У многих грудь украшена медалями, орденами, — Были в грудь ранены, теперь здоровы они",
@@ -1532,7 +1534,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "сахлъизабизе",
+            "lemma": "сахлъи",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "сахлъизабизе",
@@ -1542,7 +1544,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "сахлъизабизе",
+            "lemma": "сахлъи",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "хӏаракат",
@@ -1563,7 +1565,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "госпиталь",
             "av": "дов госпиталалда сахлъизавуна",
             "ru": "его вылечили в госпитали",
@@ -1582,7 +1586,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "хӏарщ",
             "av": "хӏарщуца сахлъизаризе",
             "ru": "лечиться грязями",
@@ -1601,7 +1607,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "амбулаторияб",
             "av": "сахлъизариялъул амбулаторияб низам",
             "ru": "амбулаторный режим лечения",
@@ -1620,7 +1628,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "гъагъай",
             "av": "гъагъай тохтуралъ сахлъизаюна дун",
             "ru": "эта врач вылечила меня",
@@ -1628,7 +1638,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сахлъи",
+            "pos": "глагол",
+            "confidence": "medium",
             "entry": "гъовго",
             "av": "гъовго тохтурас сахлъизаюна дир эбелги",
             "ru": "тот же врач вылечил и мою маму",
@@ -2689,9 +2701,53 @@
           {
             "subsource": "headword",
             "lemma": "сахӏихӏаб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "сахӏихӏаб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "сахӏихӏаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "сахӏихӏав": {
+    "wordform": "сахӏихӏав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "сахӏихӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "сахӏихӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "сахӏихӏаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "сахӏихӏай": {
+    "wordform": "сахӏихӏай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "сахӏихӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "сахӏихӏаб",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "сахӏихӏаб"
             ]

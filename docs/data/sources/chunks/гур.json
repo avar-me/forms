@@ -2953,7 +2953,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гурде",
+            "pos": "выражение",
+            "confidence": "medium",
             "entry": "кӏалдиб",
             "av": "тӏадго тун гурдеда маргъал балаго, кӏалдиб жо кквезе ккола",
             "ru": "примета когда пришиваешь пуговицу к рубашке, не снимая её, надо держать во рту что-нибудь",
@@ -2961,7 +2963,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гурде",
+            "pos": "выражение",
+            "confidence": "medium",
             "entry": "рукӏкӏел",
             "av": "гурдеда ккараб рукӏкӏел",
             "ru": "складка на рубашке",
@@ -2969,7 +2973,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гурде",
+            "pos": "выражение",
+            "confidence": "medium",
             "entry": "чӏвазе",
             "av": "гурдеда иту чӏвазе",
             "ru": "погладить рубашку или платье",
@@ -2988,7 +2994,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "ине",
@@ -2998,7 +3004,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "ххам",
@@ -3008,7 +3014,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "яда",
@@ -3029,7 +3035,7 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "ахалъи",
@@ -3039,7 +3045,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "багӏараб",
@@ -3049,7 +3055,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "бегуниса",
@@ -3059,7 +3065,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "вийгь",
@@ -3069,7 +3075,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "габур",
@@ -3089,7 +3095,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "гъварза",
@@ -3099,7 +3105,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "квенчӏел",
@@ -3109,7 +3115,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "керен",
@@ -3119,7 +3125,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "кквезе",
@@ -3129,7 +3135,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "фасон",
@@ -3139,7 +3145,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурда",
+            "lemma": "гурде",
             "pos": "выражение",
             "confidence": "medium",
             "entry": "чӏалхине",
@@ -3275,9 +3281,9 @@
           {
             "subsource": "headword",
             "lemma": "гуреб",
-            "pos": "выражение",
+            "pos": "прилагательное",
             "entry": "гуреб",
-            "entry_pos": "выражение",
+            "entry_pos": "прилагательное",
             "entry_forms": [
               "гуреб"
             ]
@@ -3744,9 +3750,20 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гуреб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гуреб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гуреб"
+            ]
+          },
+          {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "ахӏи",
             "av": "бараб ахӏулъ гурев, ахӏараб болъ гурев",
@@ -3755,8 +3772,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "буссине",
             "av": "вуссине свери гурев, сверизе тӏокъо гурев",
@@ -3765,8 +3782,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "бусурманлъизе",
             "av": "бусурманлъун как гурев, капурлъун хъанч гурев",
@@ -3775,8 +3792,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "ва",
             "av": "ва гурев, я гурев",
@@ -3785,8 +3802,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "васлъизе",
             "av": "вас гурев васлъуларо, вац гурев вацлъуларо",
@@ -3795,8 +3812,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "вехь",
             "av": "вехь гурев тоге, мухь гуреб кьоге",
@@ -3805,8 +3822,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "годекӏан",
             "av": "годекӏанив гурев, рагъдайин лъалев бахӏарчи",
@@ -3835,8 +3852,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "гӏака",
             "av": "я рагьтӏа гӏака гурев, я гӏиялъ чахъу гурев",
@@ -3845,8 +3862,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "жо",
             "av": "жого гурев жо",
@@ -3855,8 +3872,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "как",
             "av": "как гурев, кӏал гурев",
@@ -3865,8 +3882,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "къабкӏаб",
             "av": "къабкӏаб гурев",
@@ -3875,8 +3892,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "кьихь",
             "av": "чванта гурев, киса гурев, амма кьихь цебе кколев чи",
@@ -3885,8 +3902,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "кӏалдиб",
             "av": "кӏалдиб ца гурев, цайитӏа кӏветӏ гурев",
@@ -3895,8 +3912,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "мухь",
             "av": "мухь гуреб кьоге, вехь гурев тоге",
@@ -3905,8 +3922,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "рагьу",
             "av": "рагьтӏа гӏака гурев, гӏиялъ чахъу гурев",
@@ -3915,8 +3932,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "рохь",
             "av": "гӏощтӏое рохь гурев, рохьдое мегӏер гурев",
@@ -3925,8 +3942,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "руссен",
             "av": "вуссине руссен гурев, сверизе тӏокъо гурев",
@@ -3935,8 +3952,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "ургъел",
             "av": "дуниялалъул ургъел гурев, ахираталъул пикру гурев",
@@ -3945,8 +3962,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "хайир",
             "av": "вукӏун хайир гурев, хун зарал гурев",
@@ -3955,8 +3972,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "я",
             "av": "я хваразулъ гурев, я чӏагоязулъ гурев",
@@ -3965,8 +3982,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "я",
             "av": "я хӏанчӏазулъ гурев, я гъудузулъ гурев",
@@ -3986,8 +4003,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "хӏакъ",
             "av": "хӏакъалде вачӏун гуревани",
@@ -3996,8 +4013,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "чӏвазе",
             "av": "хӏакъалде вачӏун гуревани, чӏван рехилаан дица гьадав мацӏихъан",
@@ -4017,8 +4034,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "мун",
             "av": "мун гуревги, жеги лъабгоявги вачӏуна",
@@ -4038,13 +4055,35 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "гуризе",
-            "pos": "глагол",
+            "lemma": "гуреб",
+            "pos": "послелог",
             "confidence": "medium",
             "entry": "эвгияли",
             "av": "эвгияли хӏажи гуревин",
             "ru": "и этот не святой",
             "sense": "Ⅰ. этот тоже, и этот; он тоже, и он"
+          }
+        ]
+      }
+    }
+  },
+  "гурей": {
+    "wordform": "гурей",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гуреб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гуреб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гуреб"
+            ]
           }
         ]
       }
@@ -5488,7 +5527,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гурищ",
+            "pos": "частица",
+            "confidence": "medium",
             "entry": "гьедин",
             "av": "гьедин гурищха?",
             "ru": "не так ли?",
@@ -5496,7 +5537,9 @@
           },
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "гурищ",
+            "pos": "частица",
+            "confidence": "medium",
             "entry": "гӏайиб",
             "av": "гӏайиб гурищха гьадинал берцинал тӏугьдул тӏезе!",
             "ru": "какая жалость рвать такие красивые цветы!",
@@ -6914,7 +6957,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гуризе",
+            "lemma": "гури",
             "pos": "глагол",
             "confidence": "medium",
             "entry": "гъеж",
@@ -8110,8 +8153,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гурхӏизе",
-            "pos": "глагол",
+            "lemma": "гурхӏел",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "макъам",
             "av": "цебе дур букӏараб макъамалъул пикру гьабун, дун гурхӏун вуго дуда",
