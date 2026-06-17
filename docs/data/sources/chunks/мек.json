@@ -82,6 +82,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "мекъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мекъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мекъаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "мекъаб",
             "pos": "прилагательное",
@@ -110,6 +121,28 @@
             "av": "мекъав чи",
             "ru": "человек с норовом",
             "sense": "упрямый, непослушный, с норовом"
+          }
+        ]
+      }
+    }
+  },
+  "мекъай": {
+    "wordform": "мекъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мекъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мекъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мекъаб"
+            ]
           }
         ]
       }

@@ -1,0 +1,82 @@
+{
+  "лига": {
+    "wordform": "лига",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "лига",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "лига",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "лига",
+              "лигаялъ",
+              "лигаялъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "лига",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "лига",
+            "av": "Миллатазул лига",
+            "ru": "Лига наций",
+            "sense": "лига"
+          }
+        ]
+      }
+    }
+  },
+  "лигаялъ": {
+    "wordform": "лигаялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "лига",
+            "pos": "существительное",
+            "entry": "лига",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "лига",
+              "лигаялъ",
+              "лигаялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "лигаялъул": {
+    "wordform": "лигаялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "лига",
+            "pos": "существительное",
+            "entry": "лига",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "лига",
+              "лигаялъ",
+              "лигаялъул"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -641,6 +641,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "можрикъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "можрикъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "можрикъаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "можрикъаб",
             "pos": "прилагательное",
@@ -649,6 +660,28 @@
             "av": "можрикъав чи",
             "ru": "малорослый человек",
             "sense": "малорослый"
+          }
+        ]
+      }
+    }
+  },
+  "можрикъай": {
+    "wordform": "можрикъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "можрикъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "можрикъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "можрикъаб"
+            ]
           }
         ]
       }

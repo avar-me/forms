@@ -243,9 +243,20 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "хъубаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хъубаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хъубаб"
+            ]
+          },
+          {
             "subsource": "examples",
-            "lemma": "хъуба",
-            "pos": "существительное",
+            "lemma": "хъубаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "кӏал",
             "av": "кӏал хъубав",
@@ -254,8 +265,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "хъуба",
-            "pos": "существительное",
+            "lemma": "хъубаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "тӏабигӏат",
             "av": "тӏабигӏат хъубав чи",
@@ -271,6 +282,28 @@
             "av": "хъубав чи",
             "ru": "неопрятный человек",
             "sense": "неопрятный, нечистоплотный"
+          }
+        ]
+      }
+    }
+  },
+  "хъубай": {
+    "wordform": "хъубай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "хъубаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хъубаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хъубаб"
+            ]
           }
         ]
       }
@@ -4276,6 +4309,50 @@
           {
             "subsource": "headword",
             "lemma": "хъумураб",
+            "pos": "прилагательное",
+            "entry": "хъумураб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хъумураб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хъумурав": {
+    "wordform": "хъумурав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "хъумураб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хъумураб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хъумураб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хъумурай": {
+    "wordform": "хъумурай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "хъумураб",
+            "relation": "родовая форма",
             "pos": "прилагательное",
             "entry": "хъумураб",
             "entry_pos": "прилагательное",

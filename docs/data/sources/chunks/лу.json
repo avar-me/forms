@@ -974,6 +974,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "лумияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "лумияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "лумияб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "лумияб",
             "pos": "прилагательное",
@@ -982,6 +993,28 @@
             "av": "лумияв чи",
             "ru": "умник, умный человек",
             "sense": "умный, разумный"
+          }
+        ]
+      }
+    }
+  },
+  "лумияй": {
+    "wordform": "лумияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "лумияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "лумияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "лумияб"
+            ]
           }
         ]
       }

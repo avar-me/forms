@@ -291,6 +291,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "кутакаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кутакаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кутакаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "кутакаб",
             "pos": "прилагательное",
@@ -299,6 +310,28 @@
             "av": "кутакав чи вуго",
             "ru": "он человек влиятельный",
             "sense": "влиятельный"
+          }
+        ]
+      }
+    }
+  },
+  "кутакай": {
+    "wordform": "кутакай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кутакаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кутакаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кутакаб"
+            ]
           }
         ]
       }

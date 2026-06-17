@@ -427,14 +427,47 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "техникияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "техникияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "техникияб"
+            ]
+          },
+          {
             "subsource": "examples",
-            "lemma": "тезе",
-            "pos": "глагол",
+            "lemma": "техникияб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "редактор",
             "av": "техникияв редактор",
             "ru": "технический редактор",
             "sense": "редактор"
+          }
+        ]
+      }
+    }
+  },
+  "техникияй": {
+    "wordform": "техникияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "техникияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "техникияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "техникияб"
+            ]
           }
         ]
       }
@@ -1037,6 +1070,50 @@
             "av": "технологияб карта",
             "ru": "технологическая карта",
             "sense": "технологический"
+          }
+        ]
+      }
+    }
+  },
+  "технологияв": {
+    "wordform": "технологияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "технологияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "технологияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "технологияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "технологияй": {
+    "wordform": "технологияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "технологияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "технологияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "технологияб"
+            ]
           }
         ]
       }

@@ -477,6 +477,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "аслияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "аслияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "аслияб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "аслияб",
             "pos": "прилагательное",
@@ -485,6 +496,28 @@
             "av": "къисаялъул аслияв багьадурасул образ",
             "ru": "образ основного героя повести",
             "sense": "образ"
+          }
+        ]
+      }
+    }
+  },
+  "аслияй": {
+    "wordform": "аслияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "аслияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "аслияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "аслияб"
+            ]
           }
         ]
       }

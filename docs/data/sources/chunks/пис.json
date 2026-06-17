@@ -28,6 +28,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "писаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "писаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "писаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "писаб",
             "pos": "прилагательное",
@@ -36,6 +47,28 @@
             "av": "писав чи",
             "ru": "пакостник",
             "sense": "пакостный"
+          }
+        ]
+      }
+    }
+  },
+  "писай": {
+    "wordform": "писай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "писаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "писаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "писаб"
+            ]
           }
         ]
       }

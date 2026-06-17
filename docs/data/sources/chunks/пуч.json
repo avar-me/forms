@@ -75,6 +75,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "пучаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "пучаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "пучаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "пучаб",
             "pos": "прилагательное",
@@ -83,6 +94,28 @@
             "av": "пучав чи",
             "ru": "гулящий человек",
             "sense": "гулящий, развратный; безнравственный"
+          }
+        ]
+      }
+    }
+  },
+  "пучай": {
+    "wordform": "пучай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "пучаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "пучаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "пучаб"
+            ]
           }
         ]
       }

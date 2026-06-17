@@ -130,6 +130,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "жигараб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "жигараб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "жигараб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "жигараб",
             "pos": "прилагательное",
@@ -138,6 +149,28 @@
             "av": "жигарав чи",
             "ru": "инициативный человек",
             "sense": "инициативный; предприимчивый"
+          }
+        ]
+      }
+    }
+  },
+  "жигарай": {
+    "wordform": "жигарай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "жигараб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "жигараб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "жигараб"
+            ]
           }
         ]
       }

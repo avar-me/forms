@@ -325,6 +325,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "кепаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кепаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кепаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "кепаб",
             "pos": "прилагательное",
@@ -333,6 +344,28 @@
             "av": "кепав чи",
             "ru": "весёлый человек, весельчак",
             "sense": "весёлый, жизнерадостный, ликующий"
+          }
+        ]
+      }
+    }
+  },
+  "кепай": {
+    "wordform": "кепай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кепаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кепаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кепаб"
+            ]
           }
         ]
       }
@@ -374,8 +407,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кепаб",
-            "pos": "прилагательное",
+            "lemma": "кеп",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "кепаб",
             "av": "кепал васал",

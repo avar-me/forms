@@ -2366,6 +2366,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "бицатаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "бицатаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "бицатаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "бицатаб",
             "pos": "прилагательное",
@@ -2387,8 +2398,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "би",
-            "pos": "наречие",
+            "lemma": "бицатаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "габур",
             "av": "габур бицатав",
@@ -2397,8 +2408,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "би",
-            "pos": "наречие",
+            "lemma": "бицатаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "габур",
             "av": "габур бицатав",
@@ -2407,8 +2418,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "би",
-            "pos": "наречие",
+            "lemma": "бицатаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "гьумер",
             "av": "гьурмал къехь бицатав",
@@ -2417,13 +2428,35 @@
           },
           {
             "subsource": "examples",
-            "lemma": "би",
-            "pos": "наречие",
+            "lemma": "бицатаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "киса",
             "av": "киса бицатав чи",
             "ru": "богатый человек; человек с толстым карманом",
             "sense": "карман"
+          }
+        ]
+      }
+    }
+  },
+  "бицатай": {
+    "wordform": "бицатай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "бицатаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "бицатаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "бицатаб"
+            ]
           }
         ]
       }

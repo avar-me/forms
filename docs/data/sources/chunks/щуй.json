@@ -1,4 +1,30 @@
 {
+  "щуй": {
+    "wordform": "щуй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "щуб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "щуб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "щуб",
+              "щубалъ",
+              "ица",
+              "щубалъул",
+              "щубил"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "щуйиде": {
     "wordform": "щуйиде",
     "sources": {
@@ -160,8 +186,8 @@
         "mentions": [
           {
             "subsource": "examples",
-            "lemma": "щуйилаб",
-            "pos": "числительное",
+            "lemma": "щуб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "табель",
             "av": "табелалда щуйилал руго",
@@ -170,8 +196,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "щуйилаб",
-            "pos": "числительное",
+            "lemma": "щуб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "щуябго",
             "av": "щуяйго цӏалдохъаналъе диктанталъухъ щуйилал щвана",

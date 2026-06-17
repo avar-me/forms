@@ -821,6 +821,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "горбокъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "горбокъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "горбокъаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "горбокъаб",
             "pos": "прилагательное",
@@ -829,6 +840,28 @@
             "av": "горбокъав чи",
             "ru": "краткошеий человек",
             "sense": "краткошеий"
+          }
+        ]
+      }
+    }
+  },
+  "горбокъай": {
+    "wordform": "горбокъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "горбокъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "горбокъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "горбокъаб"
+            ]
           }
         ]
       }

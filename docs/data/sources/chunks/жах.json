@@ -579,6 +579,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "жахӏдаяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "жахӏдаяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "жахӏдаяб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "жахӏдаяб",
             "pos": "прилагательное",
@@ -587,6 +598,28 @@
             "av": "жахӏдаяв чи вуго дов",
             "ru": "он человек завистливый",
             "sense": "завистливый"
+          }
+        ]
+      }
+    }
+  },
+  "жахӏдаяй": {
+    "wordform": "жахӏдаяй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "жахӏдаяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "жахӏдаяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "жахӏдаяб"
+            ]
           }
         ]
       }

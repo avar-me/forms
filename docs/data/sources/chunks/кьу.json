@@ -2459,7 +2459,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кьуру",
+            "lemma": "кьураби",
             "pos": "существительное",
             "confidence": "medium",
             "entry": "кьуру",
@@ -6200,8 +6200,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кьуру",
-            "pos": "существительное",
+            "lemma": "кьурулъ",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "кьуру",
             "av": "кьурулъе ххаризе",
@@ -7446,9 +7446,20 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "кьучӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кьучӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кьучӏаб"
+            ]
+          },
+          {
             "subsource": "examples",
-            "lemma": "кьучӏ",
-            "pos": "глагол",
+            "lemma": "кьучӏаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "гьалмагъ",
             "av": "гьалмагъ кьучӏав ккве, гьудул божарав ккве",
@@ -7483,6 +7494,28 @@
             "av": "федерациялъулал кьучӏазда",
             "ru": "на федеративных началах",
             "sense": "федеративный"
+          }
+        ]
+      }
+    }
+  },
+  "кьучӏай": {
+    "wordform": "кьучӏай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кьучӏаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кьучӏаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кьучӏаб"
+            ]
           }
         ]
       }

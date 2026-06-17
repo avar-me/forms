@@ -75,6 +75,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "чумартаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "чумартаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "чумартаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "чумартаб",
             "pos": "прилагательное",
@@ -83,6 +94,28 @@
             "av": "чумартав чи",
             "ru": "щедрый человек",
             "sense": "щедрый"
+          }
+        ]
+      }
+    }
+  },
+  "чумартай": {
+    "wordform": "чумартай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "чумартаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "чумартаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "чумартаб"
+            ]
           }
         ]
       }

@@ -84,6 +84,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "тулакаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "тулакаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "тулакаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "тулакаб",
             "pos": "прилагательное",
@@ -102,6 +113,28 @@
             "av": "тулакав чи",
             "ru": "расторопный человек",
             "sense": "расторопный, поворотливый; ловкий"
+          }
+        ]
+      }
+    }
+  },
+  "тулакай": {
+    "wordform": "тулакай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "тулакаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "тулакаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "тулакаб"
+            ]
           }
         ]
       }

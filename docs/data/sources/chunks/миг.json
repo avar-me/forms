@@ -54,6 +54,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "мигьаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мигьаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мигьаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "мигьаб",
             "pos": "прилагательное",
@@ -62,6 +73,28 @@
             "av": "мигьав чи вуго дов",
             "ru": "у него глаза на мокром месте; он человек слезливый",
             "sense": "слезливый"
+          }
+        ]
+      }
+    }
+  },
+  "мигьай": {
+    "wordform": "мигьай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "мигьаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "мигьаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "мигьаб"
+            ]
           }
         ]
       }

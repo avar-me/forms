@@ -599,6 +599,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "инжитаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "инжитаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "инжитаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "инжитаб",
             "pos": "прилагательное",
@@ -607,6 +618,28 @@
             "av": "инжитав чи",
             "ru": "подлый человек, подлец",
             "sense": "низкий, подлый"
+          }
+        ]
+      }
+    }
+  },
+  "инжитай": {
+    "wordform": "инжитай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "инжитаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "инжитаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "инжитаб"
+            ]
           }
         ]
       }

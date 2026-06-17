@@ -70,6 +70,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "хамаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хамаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хамаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "хамаб",
             "pos": "прилагательное",
@@ -88,6 +99,28 @@
             "av": "хамав гӏадан",
             "ru": "неотёсанный человек",
             "sense": "неотёсанный"
+          }
+        ]
+      }
+    }
+  },
+  "хамай": {
+    "wordform": "хамай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "хамаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "хамаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "хамаб"
+            ]
           }
         ]
       }

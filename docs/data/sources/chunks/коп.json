@@ -315,6 +315,28 @@
       }
     }
   },
+  "кополай": {
+    "wordform": "кополай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "кополаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "кополаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "кополаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "кополал": {
     "wordform": "кополал",
     "sources": {
@@ -337,8 +359,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "кополаб",
-            "pos": "прилагательное",
+            "lemma": "кополав",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "кополаб",
             "av": "кополал ясал",

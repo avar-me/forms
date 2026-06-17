@@ -367,6 +367,12 @@ class DictionaryIndex:
         for form, lemma in form_lemmas:
             if token == form:
                 return lemma, ""
+        # A token that is itself a declared form/gender-form of another lemma must not be
+        # fuzzily reattached to this article by suffix/shared-prefix morphology (e.g. берцинал,
+        # a gender-form of берцинаб, appearing in the «бер» article — «бер» is a form here, so a
+        # naive suffix match would claim берцинал = бер + цинал). Defer to the global exact lookup.
+        if token in self.form_to_lemmas and _entry_headword(entry) not in self.form_to_lemmas[token]:
+            return None
         lemma = _suffix_match_lemma(token, iter(form_lemmas))
         if lemma:
             return lemma, ""

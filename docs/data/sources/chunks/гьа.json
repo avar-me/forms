@@ -2855,8 +2855,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьадин",
-            "pos": "наречие",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьадин",
             "av": "гьадин гьабе",
@@ -2865,8 +2865,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьалмагъ",
-            "pos": "существительное",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьалмагъ",
             "av": "гьалмагъасе кумек гьабе",
@@ -3576,8 +3576,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьой",
-            "pos": "выражение",
+            "lemma": "гьаби",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "гьой",
             "av": "гьабзазул руккел",
@@ -3586,8 +3586,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьой",
-            "pos": "выражение",
+            "lemma": "гьаби",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "гьой",
             "av": "гьабзазул рукӏун",
@@ -17390,8 +17390,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьанжесала",
-            "pos": "наречие",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьанжесала",
             "av": "гьанжесала нилъеца батӏайиса гьабила",
@@ -20058,8 +20058,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьагъав",
-            "pos": "местоимение",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьагъав",
             "av": "гьагъас гӏадамазе лъикӏлъи гьабула",
@@ -20068,8 +20068,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьадал",
-            "pos": "существительное",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьадал",
             "av": "гьадаз дие кумек гьабула",
@@ -20078,8 +20078,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьай",
-            "pos": "междометие",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьай",
             "av": "гьалъ цӏикӏкӏаразул адаб гьабула",
@@ -22435,8 +22435,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьадаб",
-            "pos": "существительное",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьадаб",
             "av": "гьадаб бусен милъиршоялъ исана ихдал гьабуна",
@@ -22465,8 +22465,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьоко",
-            "pos": "существительное",
+            "lemma": "гьабизе",
+            "pos": "глагол",
             "confidence": "medium",
             "entry": "гьоко",
             "av": "щуго гьоко цӏулал хӏадур гьабуна нижеца",
@@ -25164,6 +25164,50 @@
       }
     }
   },
+  "гьаваяв": {
+    "wordform": "гьаваяв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаваяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаваяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаваяб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьаваяй": {
+    "wordform": "гьаваяй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаваяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаваяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаваяб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьаваялда": {
     "wordform": "гьаваялда",
     "sources": {
@@ -27431,6 +27475,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьагаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьагаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьагаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьагаб",
             "pos": "прилагательное",
@@ -27439,6 +27494,28 @@
             "av": "гьагав чи",
             "ru": "глупый человек, дурак, глупец, простофиля",
             "sense": "глупый, дурной"
+          }
+        ]
+      }
+    }
+  },
+  "гьагай": {
+    "wordform": "гьагай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьагаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьагаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьагаб"
+            ]
           }
         ]
       }
@@ -31827,6 +31904,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьадингояб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьадингояб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьадингояб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьадингояб",
             "pos": "прилагательное",
@@ -31835,6 +31923,28 @@
             "av": "гьадингояв чи",
             "ru": "пустой человек",
             "sense": "пустой, никчемный; ерундовый, чепуховый, пустяковый; неважный"
+          }
+        ]
+      }
+    }
+  },
+  "гьадингояй": {
+    "wordform": "гьадингояй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьадингояб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьадингояб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьадингояб"
+            ]
           }
         ]
       }
@@ -32886,6 +32996,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьайбатаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьайбатаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьайбатаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьайбатаб",
             "pos": "прилагательное",
@@ -32907,6 +33028,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьайбатаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьайбатаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьайбатаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьайбатаб",
             "pos": "прилагательное",
@@ -32918,8 +33050,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьагула",
-            "pos": "выражение",
+            "lemma": "гьайбатаб",
+            "pos": "прилагательное",
             "confidence": "medium",
             "entry": "гьагула",
             "av": "мунги гьечӏин, гьагула, гьедигӏанго гьайбатай",
@@ -35355,6 +35487,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьакьинаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьакьинаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьакьинаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьакьинаб",
             "pos": "прилагательное",
@@ -35363,6 +35506,28 @@
             "av": "гьакьинав гӏолохъанчи",
             "ru": "крепкий парень",
             "sense": "твёрдый, крепкий"
+          }
+        ]
+      }
+    }
+  },
+  "гьакьинай": {
+    "wordform": "гьакьинай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьакьинаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьакьинаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьакьинаб"
+            ]
           }
         ]
       }
@@ -36676,6 +36841,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьалагаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалагаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалагаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьалагаб",
             "pos": "прилагательное",
@@ -36684,6 +36860,28 @@
             "av": "гьалагав чи",
             "ru": "буйный человек",
             "sense": "взволнованный; страстный; буйный"
+          }
+        ]
+      }
+    }
+  },
+  "гьалагай": {
+    "wordform": "гьалагай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьалагаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалагаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалагаб"
+            ]
           }
         ]
       }
@@ -39594,6 +39792,50 @@
       }
     }
   },
+  "гьалмагълъиялъулав": {
+    "wordform": "гьалмагълъиялъулав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьалмагълъиялъулаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалмагълъиялъулаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалмагълъиялъулаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьалмагълъиялъулай": {
+    "wordform": "гьалмагълъиялъулай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьалмагълъиялъулаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалмагълъиялъулаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалмагълъиялъулаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьалмагълъун": {
     "wordform": "гьалмагълъун",
     "sources": {
@@ -40012,6 +40254,28 @@
       }
     }
   },
+  "гьалъав": {
+    "wordform": "гьалъав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьалъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалъаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьалъавеле": {
     "wordform": "гьалъавеле",
     "sources": {
@@ -40028,6 +40292,28 @@
             "entry_pos": "наречие",
             "entry_forms": [
               "гьалъабеле"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьалъай": {
+    "wordform": "гьалъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьалъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьалъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьалъаб"
             ]
           }
         ]
@@ -41623,6 +41909,50 @@
             "av": "гьанакъаб заман",
             "ru": "время, когда испытывается нехватка мяса",
             "sense": "испытывающий нехватку мяса"
+          }
+        ]
+      }
+    }
+  },
+  "гьанакъав": {
+    "wordform": "гьанакъав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьанакъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьанакъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьанакъаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьанакъай": {
+    "wordform": "гьанакъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьанакъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьанакъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьанакъаб"
+            ]
           }
         ]
       }
@@ -43811,6 +44141,28 @@
       }
     }
   },
+  "гьанжесев": {
+    "wordform": "гьанжесев",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьанжесеб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьанжесеб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьанжесеб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьанжесей": {
     "wordform": "гьанжесей",
     "sources": {
@@ -43818,6 +44170,17 @@
         "id": "gimbatov",
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьанжесеб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьанжесеб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьанжесеб"
+            ]
+          },
           {
             "subsource": "examples",
             "lemma": "гьанжесеб",
@@ -44678,7 +45041,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьале",
+            "lemma": "гьаниб",
             "pos": "наречие",
             "confidence": "medium",
             "entry": "гьале",
@@ -51653,6 +52016,50 @@
       }
     }
   },
+  "гьарзаяв": {
+    "wordform": "гьарзаяв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьарзаяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьарзаяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьарзаяб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьарзаяй": {
+    "wordform": "гьарзаяй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьарзаяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьарзаяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьарзаяб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьари": {
     "wordform": "гьари",
     "sources": {
@@ -53700,6 +54107,50 @@
       }
     }
   },
+  "гьаркьикъав": {
+    "wordform": "гьаркьикъав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьикъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьикъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьикъаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьаркьикъай": {
+    "wordform": "гьаркьикъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьикъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьикъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьикъаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьаркьил": {
     "wordform": "гьаркьил",
     "sources": {
@@ -53784,6 +54235,50 @@
       }
     }
   },
+  "гьаркьилав": {
+    "wordform": "гьаркьилав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьилаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьилаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьилаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьаркьилай": {
+    "wordform": "гьаркьилай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьилаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьилаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьилаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гьаркьинаб": {
     "wordform": "гьаркьинаб",
     "sources": {
@@ -53809,6 +54304,50 @@
             "av": "гьаркьинаб гӏазаб",
             "ru": "сильные муки",
             "sense": "сильный, крепкий"
+          }
+        ]
+      }
+    }
+  },
+  "гьаркьинав": {
+    "wordform": "гьаркьинав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьинаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьинаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьинаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьаркьинай": {
+    "wordform": "гьаркьинай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьаркьинаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьаркьинаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьаркьинаб"
+            ]
           }
         ]
       }
@@ -56453,8 +56992,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гьоцӏо",
-            "pos": "существительное",
+            "lemma": "гьав",
+            "pos": "местоимение",
             "confidence": "medium",
             "entry": "гьоцӏо",
             "av": "гьас гьоцӏо гьабиларо",
@@ -57522,6 +58061,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "гьацаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьацаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьацаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "гьацаб",
             "pos": "прилагательное",
@@ -57530,6 +58080,28 @@
             "av": "гьацав чи",
             "ru": "неженка",
             "sense": "слабый, изнеженный"
+          }
+        ]
+      }
+    }
+  },
+  "гьацай": {
+    "wordform": "гьацай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьацаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьацаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьацаб"
+            ]
           }
         ]
       }
@@ -58193,6 +58765,50 @@
             "av": "гьацӏукьераб ххам",
             "ru": "ткань медового цвета",
             "sense": "медового цвета"
+          }
+        ]
+      }
+    }
+  },
+  "гьацӏукьерав": {
+    "wordform": "гьацӏукьерав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьацӏукьераб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьацӏукьераб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьацӏукьераб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гьацӏукьерай": {
+    "wordform": "гьацӏукьерай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гьацӏукьераб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гьацӏукьераб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гьацӏукьераб"
+            ]
           }
         ]
       }

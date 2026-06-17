@@ -1097,6 +1097,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "зулмуяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "зулмуяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "зулмуяб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "зулмуяб",
             "pos": "прилагательное",
@@ -1105,6 +1116,28 @@
             "av": "зулмуяв хан",
             "ru": "хан-угнетатель, тиран",
             "sense": "хан, властитель"
+          }
+        ]
+      }
+    }
+  },
+  "зулмуяй": {
+    "wordform": "зулмуяй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "зулмуяб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "зулмуяб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "зулмуяб"
+            ]
           }
         ]
       }

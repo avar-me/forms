@@ -122,6 +122,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "тохаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "тохаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "тохаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "тохаб",
             "pos": "прилагательное",
@@ -130,6 +141,28 @@
             "av": "тохав чи",
             "ru": "беспечный человек",
             "sense": "не чуткий, беспечный; глуповатый"
+          }
+        ]
+      }
+    }
+  },
+  "тохай": {
+    "wordform": "тохай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "тохаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "тохаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "тохаб"
+            ]
           }
         ]
       }

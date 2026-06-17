@@ -817,6 +817,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "занкияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "занкияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "занкияб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "занкияб",
             "pos": "прилагательное",
@@ -825,6 +836,28 @@
             "av": "занкияв гӏолохъанчи",
             "ru": "сильный парень",
             "sense": "бравый, сильный"
+          }
+        ]
+      }
+    }
+  },
+  "занкияй": {
+    "wordform": "занкияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "занкияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "занкияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "занкияб"
+            ]
           }
         ]
       }

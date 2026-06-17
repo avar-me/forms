@@ -1005,6 +1005,17 @@
         "name": "AV-RU словарь Гимбатова",
         "mentions": [
           {
+            "subsource": "gender_forms",
+            "lemma": "чалухъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "чалухъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "чалухъаб"
+            ]
+          },
+          {
             "subsource": "examples",
             "lemma": "чалухъаб",
             "pos": "прилагательное",
@@ -1013,6 +1024,28 @@
             "av": "чалухъав чи",
             "ru": "влюбчивий мужчина",
             "sense": "влюбчивый"
+          }
+        ]
+      }
+    }
+  },
+  "чалухъай": {
+    "wordform": "чалухъай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "чалухъаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "чалухъаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "чалухъаб"
+            ]
           }
         ]
       }
@@ -1040,8 +1073,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "чалухъаб",
-            "pos": "прилагательное",
+            "lemma": "чалухъ",
+            "pos": "существительное",
             "confidence": "medium",
             "entry": "чалухъаб",
             "av": "чалухъал берал",

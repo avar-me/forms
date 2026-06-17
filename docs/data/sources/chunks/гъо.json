@@ -190,6 +190,28 @@
       }
     }
   },
+  "гъобав": {
+    "wordform": "гъобав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъобаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъобаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъобаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гъобаго": {
     "wordform": "гъобаго",
     "sources": {
@@ -218,6 +240,28 @@
             "av": "гӏака гъобаго гӏодоб чӏун буго",
             "ru": "корова там же (внизу) сидит",
             "sense": "там же внизу"
+          }
+        ]
+      }
+    }
+  },
+  "гъобай": {
+    "wordform": "гъобай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъобаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъобаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъобаб"
+            ]
           }
         ]
       }
@@ -337,8 +381,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гъобаго",
-            "pos": "выражение",
+            "lemma": "гъоба",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "гъобаго",
             "av": "метер вачӏина дун гъобаса",
@@ -6519,8 +6563,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гъветӏ",
-            "pos": "существительное",
+            "lemma": "гъоркь",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "гъветӏ",
             "av": "вас гъотӏодаса гъоркье вортана",
@@ -6529,7 +6573,7 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гъоба",
+            "lemma": "гъоркь",
             "pos": "наречие",
             "confidence": "medium",
             "entry": "гъоба",
@@ -6789,8 +6833,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гъоркьияб",
-            "pos": "прилагательное",
+            "lemma": "гъоркь",
+            "pos": "наречие",
             "confidence": "medium",
             "entry": "гъоркьияб",
             "av": "гъоркьияб тӏаде ккана, тӏасияб гъоркье ккана",
@@ -7698,6 +7742,50 @@
       }
     }
   },
+  "гъоркьияв": {
+    "wordform": "гъоркьияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоркьияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоркьияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоркьияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьияй": {
+    "wordform": "гъоркьияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоркьияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоркьияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоркьияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "гъоркькьибил": {
     "wordform": "гъоркькьибил",
     "sources": {
@@ -8161,6 +8249,50 @@
             "av": "гъоркьсияб хер",
             "ru": "прошлогоднее сено",
             "sense": "прошлогодний"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьсияв": {
+    "wordform": "гъоркьсияв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоркьсияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоркьсияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоркьсияб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьсияй": {
+    "wordform": "гъоркьсияй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоркьсияб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоркьсияб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоркьсияб"
+            ]
           }
         ]
       }
@@ -9839,8 +9971,8 @@
           },
           {
             "subsource": "examples",
-            "lemma": "гъоркьанго",
-            "pos": "наречие",
+            "lemma": "гъов",
+            "pos": "местоимение",
             "confidence": "medium",
             "entry": "гъоркьанго",
             "av": "гъос дие гъоркьанго къор гъолеб букӏана",
@@ -11995,6 +12127,50 @@
             "av": "гъоцӏояб гӏака",
             "ru": "корова с перекрещивающимися рогами",
             "sense": "с перекрещивающимися рогами"
+          }
+        ]
+      }
+    }
+  },
+  "гъоцӏояв": {
+    "wordform": "гъоцӏояв",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоцӏояб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоцӏояб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоцӏояб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоцӏояй": {
+    "wordform": "гъоцӏояй",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "гъоцӏояб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "гъоцӏояб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "гъоцӏояб"
+            ]
           }
         ]
       }
