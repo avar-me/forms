@@ -1,4 +1,74 @@
 {
+  "сага": {
+    "wordform": "сага",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "сага",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "сага",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "сага",
+              "сагал",
+              "сагаби"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "сагаби": {
+    "wordform": "сагаби",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "сага",
+            "pos": "существительное",
+            "entry": "сага",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "сага",
+              "сагал",
+              "сагаби"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "сагал": {
+    "wordform": "сагал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "сага",
+            "pos": "существительное",
+            "entry": "сага",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "сага",
+              "сагал",
+              "сагаби"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "сагаялда": {
     "wordform": "сагаялда",
     "sources": {
@@ -8,7 +78,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сага",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "тезе",
             "av": "боцӏи сагаялда тезе",
             "ru": "оставить скот на лугу",
@@ -27,7 +99,9 @@
         "mentions": [
           {
             "subsource": "examples",
-            "confidence": "low",
+            "lemma": "сага",
+            "pos": "существительное",
+            "confidence": "medium",
             "entry": "биччазе",
             "av": "гӏи сагаялде биччан буго",
             "ru": "отара выпущена на луг",
@@ -66,6 +140,51 @@
             "av": "саглил мачӏал",
             "ru": "верхняя часть тулупа",
             "sense": "верхняя часть горского тулупа"
+          }
+        ]
+      }
+    }
+  },
+  "сагьвил": {
+    "wordform": "сагьвил",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "сагьвил",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "сагьвил",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "сагьвил",
+              "сагьвилалъ"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "сагьвилалъ": {
+    "wordform": "сагьвилалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "сагьвил",
+            "pos": "существительное",
+            "entry": "сагьвил",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "сагьвил",
+              "сагьвилалъ"
+            ]
           }
         ]
       }

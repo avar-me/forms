@@ -33,6 +33,9 @@ TOKEN_SPLIT_RE = re.compile(
 PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-"
 MIN_MORPH_PREFIX_LEN = 3
 LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
+# Palochka variants (capital Ӏ, Latin I/i/l/L, pipe, digit 1, Cyrillic І) → canonical ӏ (U+04CF),
+# matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
+PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
 
 
 def _longest_common_prefix(strings: set[str]) -> str:
@@ -713,12 +716,38 @@ def _gram_form_relation(entry: dict[str, Any]) -> str:
     return gram_form
 
 
+def _normalize_entry_palochka(entry: dict[str, Any]) -> None:
+    """Unify palochka in an entry's Avar match keys so it agrees with token normalization.
+
+    Some headwords/forms carry a capital palochka (ГӀачинух); without this they would
+    not match palochka-normalized example tokens.
+    """
+    def fix(value: str) -> str:
+        return PALOCHKA_RE.sub("ӏ", value)
+
+    if entry.get("word"):
+        entry["word"] = fix(entry["word"])
+    if entry.get("stem"):
+        entry["stem"] = fix(entry["stem"])
+    for key in ("forms", "gender_forms"):
+        if entry.get(key):
+            entry[key] = [fix(f) for f in entry[key]]
+    for sense in entry.get("senses", []):
+        if sense.get("forms"):
+            sense["forms"] = [fix(f) for f in sense["forms"]]
+        for rel_key in RELATION_FROM_KEYS:
+            if rel_key in sense and isinstance(sense[rel_key], str):
+                sense[rel_key] = fix(sense[rel_key])
+
+
 def _load_entries(lines: Iterable[str]) -> list[dict[str, Any]]:
     entries: list[dict[str, Any]] = []
     for line in lines:
         line = line.strip()
         if line:
-            entries.append(json.loads(line))
+            entry = json.loads(line)
+            _normalize_entry_palochka(entry)
+            entries.append(entry)
     return entries
 
 
@@ -731,13 +760,20 @@ def _sentence_case_fold(token: str) -> str | None:
 
 
 def _normalize_example_token(raw: str) -> str:
-    """Strip punctuation and typographic quotes from an example token."""
+    """Strip punctuation/quotes and unify palochka variants to canonical ӏ.
+
+    Palochka is unified only in tokens that contain Cyrillic, so pure
+    Latin/numeric tokens (e.g. «1990») are left intact.
+    """
     token = raw.strip()
     while True:
         stripped = token.strip(PUNCT_STRIP)
         if stripped == token:
-            return token
+            break
         token = stripped
+    if PALOCHKA_RE.search(token) and any("Ѐ" <= ch <= "ӿ" for ch in token):
+        token = PALOCHKA_RE.sub("ӏ", token)
+    return token
 
 
 def _iter_example_tokens(av_text: str) -> Iterator[str]:
