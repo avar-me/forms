@@ -5,3 +5,7 @@ venv/
 output/
 *.egg-info/
 .DS_Store
+
+# Generated site data — built in CI from current sources, not committed.
+# (Static site files docs/*.html, *.js, *.css, docs/CNAME stay tracked.)
+docs/data/

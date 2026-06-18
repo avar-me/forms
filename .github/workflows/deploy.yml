@@ -24,9 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Build docs/data/ from the CURRENT sources (sources.avar.me) on every deploy,
+      # so the site is never a stale snapshot. Static docs/ files are committed; the
+      # build regenerates docs/data/ (gitignored) and cache-busts the HTML.
+      - name: Build site (fetches current sources)
+        run: ./build.sh
+
       - uses: actions/configure-pages@v5
 
-      # docs/ is committed pre-built (incl. docs/CNAME for the custom domain).
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
