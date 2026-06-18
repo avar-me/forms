@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import itertools
 import json
 import re
 from collections import defaultdict
@@ -275,7 +276,9 @@ class DictionaryIndex:
         for form, lemmas in index.form_to_lemmas.items():
             frozen = frozenset(lemmas)
             if form:
-                suffix_by_initial[form[0]].append((form, frozen))
+                # Index by first 2 chars (or 1 for single-char forms) to keep per-bucket
+                # lists ~8× smaller than a 1-char key, reducing scan work in the hot path.
+                suffix_by_initial[form[:2]].append((form, frozen))
             if len(form) >= MIN_MORPH_PREFIX_LEN:
                 prefix_by_key[form[:MIN_MORPH_PREFIX_LEN]].append((form, frozen))
 
@@ -379,16 +382,32 @@ class DictionaryIndex:
             return None
         best_len = 0
         lemmas_at_best: set[str] = set()
-        for form, lemmas in self._suffix_by_initial.get(token[0], ()):
-            if len(form) >= len(token) or not token.startswith(form):
+        token_len = len(token)
+        # Primary bucket: 2-char key covers forms with matching first 2 chars.
+        # Secondary bucket: 1-char key covers single-character forms (very rare).
+        key2 = token[:2]
+        key1 = token[0]
+        buckets = (
+            itertools.chain(
+                self._suffix_by_initial.get(key2, ()),
+                self._suffix_by_initial.get(key1, ()) if key1 != key2 else (),
+            )
+        )
+        for form, lemmas in buckets:
+            form_len = len(form)
+            if form_len >= token_len:
+                continue
+            # List is sorted by length descending; once form is shorter than best, no improvement.
+            if form_len < best_len:
+                break
+            if not token.startswith(form):
                 continue
             if not self._suffix_form_applies(token, form, lemmas):
                 continue
-            form_len = len(form)
             if form_len > best_len:
                 best_len = form_len
                 lemmas_at_best = set(lemmas)
-            elif form_len == best_len:
+            else:
                 lemmas_at_best |= lemmas
 
         if best_len == 0:
