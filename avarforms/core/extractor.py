@@ -1,11 +1,34 @@
 from __future__ import annotations
 
+import http.client
 import json
+import time
+import urllib.error
+import urllib.request
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any, Iterator
 
 from .models import MappingTable, WordFormRecord
+
+
+def fetch_url_text(url: str, *, retries: int = 4, timeout: int = 120) -> str:
+    """Fetch a URL as UTF-8 text, retrying transient network errors.
+
+    Sources are pulled from sources.avar.me at build time (incl. in CI); a single read can
+    fail with IncompleteRead / timeouts on a flaky connection, which must not break the build.
+    """
+    last_error: Exception | None = None
+    for attempt in range(retries):
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": "avarforms-build"})
+            with urllib.request.urlopen(request, timeout=timeout) as response:  # noqa: S310
+                return response.read().decode("utf-8")
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError) as error:
+            last_error = error
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts: {last_error}")
 
 
 class SourceExtractor(ABC):
@@ -35,12 +58,7 @@ class SourceExtractor(ABC):
         """
         url = self.config.get("url")
         if url:
-            import urllib.request
-
-            request = urllib.request.Request(url, headers={"User-Agent": "avarforms-build"})
-            with urllib.request.urlopen(request) as response:  # noqa: S310 - trusted avar.me source
-                text = response.read().decode("utf-8")
-            yield from text.splitlines()
+            yield from fetch_url_text(url).splitlines()
             return
 
         path = self.resolve_path(self.config["path"])
