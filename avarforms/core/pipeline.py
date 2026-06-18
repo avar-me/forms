@@ -138,6 +138,24 @@ def write_csv(path: Path, rows: list[AggregatedRecord]) -> None:
             )
 
 
+def write_lemma_frequencies(path: Path, rows: list[AggregatedRecord]) -> int:
+    """Per-lemma frequency: total wordform occurrences summed over all forms/sources.
+
+    Sorted most-frequent first; the base list an орфограф/spell-checker is built from.
+    """
+    freq: Counter[str] = Counter()
+    for row in rows:
+        if row.lemma:
+            freq[row.lemma] += row.count
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["lemma", "count"])
+        for lemma, count in sorted(freq.items(), key=lambda kv: (-kv[1], kv[0])):
+            writer.writerow([lemma, count])
+    return len(freq)
+
+
 def build_wordforms(root: Path | None = None) -> dict[str, Any]:
     root = root or Path(__file__).resolve().parents[2]
     config = load_sources_config(root)
@@ -171,6 +189,8 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
     write_provenance(all_records, provenance_dir, source_catalog=source_catalog)
 
     write_csv(csv_path, aggregated)
+    lemma_freq_path = root / output_cfg.get("lemma_freq", "output/lemma_frequencies.csv")
+    lemma_count = write_lemma_frequencies(lemma_freq_path, aggregated)
     gap_filters, gap_mentions = build_gaps(all_records)
     stats = build_stats(
         all_records,
@@ -188,6 +208,8 @@ def build_wordforms(root: Path | None = None) -> dict[str, Any]:
         "records_raw": len(all_records),
         "records_aggregated": len(aggregated),
         "csv": str(csv_path),
+        "lemma_freq": str(lemma_freq_path),
+        "lemma_count": lemma_count,
         "stats_json": str(stats_json_path),
         "stats_txt": str(stats_txt_path),
         "gaps_dir": str(gaps_dir),

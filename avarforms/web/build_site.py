@@ -142,6 +142,13 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
     else:
         stats_dest.write_text("{}", encoding="utf-8")
 
+    # Per-lemma frequency list — the downloadable artifact the орфограф is built from.
+    lemma_freq_src = root / "output" / "lemma_frequencies.csv"
+    if lemma_freq_src.exists():
+        (docs_dir / "data" / "lemma_frequencies.csv").write_text(
+            lemma_freq_src.read_text(encoding="utf-8"), encoding="utf-8"
+        )
+
     gaps_src = root / "output" / "gaps"
     gaps_dest = docs_dir / "data" / "gaps"
     if gaps_src.is_dir():

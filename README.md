@@ -11,6 +11,9 @@
 Результат:
 
 - `output/wordforms.csv` — агрегированный список словоформ
+- `output/lemma_frequencies.csv` — **частотность по леммам** (`lemma,count`, по убыванию):
+  суммарное число вхождений всех форм леммы по всем источникам. Главный артефакт для
+  орфографа. Публикуется на сайте: `forms.avar.me/data/lemma_frequencies.csv`.
 - `output/stats.json` — статистика сборки (JSON)
 - `output/stats.txt` — статистика сборки (человекочитаемый отчёт)
 - `docs/` — статический сайт для GitHub Pages
