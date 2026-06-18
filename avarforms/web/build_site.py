@@ -92,17 +92,23 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
         json.dump(browse, fh, ensure_ascii=False, separators=(",", ":"))
 
     by_lemma: dict[str, set[str]] = defaultdict(set)
+    lemma_total: dict[str, int] = defaultdict(int)
     for wordform, records in grouped.items():
         for record in records:
             lemma = record.get("lemma", "")
             if lemma:
                 by_lemma[lemma].add(wordform)
+                lemma_total[lemma] += int(record.get("count", 0) or 0)
     lemma_index = {
         lemma: sorted(wordforms, key=normalize_word)
         for lemma, wordforms in sorted(by_lemma.items())
     }
     with (data_dir / "lemma_index.json").open("w", encoding="utf-8") as fh:
         json.dump(lemma_index, fh, ensure_ascii=False, separators=(",", ":"))
+
+    # lemma -> total wordform occurrences (sum over all forms); for the frequency display.
+    with (data_dir / "lemma_freq.json").open("w", encoding="utf-8") as fh:
+        json.dump(lemma_total, fh, ensure_ascii=False, separators=(",", ":"))
 
     chunk_info: list[dict[str, Any]] = []
     for chunk_name, chunk_data in sorted(chunks.items()):
@@ -121,7 +127,14 @@ def build_site(root: Path | None = None) -> dict[str, Any]:
             }
         )
 
-    build_id = hashlib.md5("".join(c["hash"] for c in chunk_info).encode()).hexdigest()[:12]
+    # Mix the static JS/CSS into build_id so code changes (not just data) bust the ?v= cache.
+    asset_hash = hashlib.md5()
+    asset_hash.update("".join(c["hash"] for c in chunk_info).encode())
+    for asset in ("app.js", "source.js", "stats.js", "styles.css"):
+        asset_path = docs_dir / asset
+        if asset_path.is_file():
+            asset_hash.update(asset_path.read_bytes())
+    build_id = asset_hash.hexdigest()[:12]
     manifest = {
         "version": "1.0.0",
         "source": "wordforms.csv",

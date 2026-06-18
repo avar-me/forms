@@ -26,6 +26,7 @@ const state = {
     gapFilterManifest: null,
     gapWordforms: null,
     lemmaIndex: null,
+    lemmaFreq: null,
     activeLemma: null
 };
 
@@ -122,6 +123,23 @@ async function loadBrowse() {
     const response = await fetch(`${CONFIG.DATA_PREFIX}/browse.json`);
     if (!response.ok) throw new Error('Не удалось загрузить browse.json');
     state.browse = await response.json();
+}
+
+async function loadLemmaFreq() {
+    const response = await fetch(`${CONFIG.DATA_PREFIX}/lemma_freq.json`);
+    if (!response.ok) throw new Error('Не удалось загрузить lemma_freq.json');
+    state.lemmaFreq = await response.json();
+}
+
+function lemmaTotal(lemma) {
+    return (lemma && state.lemmaFreq?.[lemma]) || 0;
+}
+
+function pluralOccurrences(n) {
+    const mod10 = n % 10, mod100 = n % 100;
+    if (mod10 === 1 && mod100 !== 11) return 'вхождение';
+    if (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) return 'вхождения';
+    return 'вхождений';
 }
 
 async function loadManifest() {
@@ -243,6 +261,15 @@ function renderWordformCard(data) {
     html += '<div class="word-header">';
     html += `<h2 class="word-title">${escapeHtml(data.wordform)}</h2>`;
     html += `<p class="entry-meta">${entries.length} ${entries.length === 1 ? 'запись' : 'записей'} в корпусе</p>`;
+    const lemmas = [...new Set(entries.map(e => e.lemma).filter(Boolean))];
+    if (lemmas.length) {
+        const parts = lemmas.map(l => {
+            const total = lemmaTotal(l);
+            return `<a href="${lemmaLocalUrl(l)}" class="lemma-local-link">${escapeHtml(l)}</a>` +
+                (total ? ` — ${total} ${pluralOccurrences(total)}` : '');
+        });
+        html += `<p class="entry-meta lemma-freq-note">Частотность леммы: ${parts.join('; ')}</p>`;
+    }
     html += '</div>';
 
     html += '<div class="result-block">';
@@ -343,9 +370,11 @@ function clearViewState() {
 
 function showLemmaBanner(lemma, count) {
     const statsEl = document.getElementById('searchStats');
+    const total = lemmaTotal(lemma);
+    const freq = total ? ` · ${total} ${pluralOccurrences(total)}` : '';
     statsEl.innerHTML = `
         Лемма: <strong>${escapeHtml(lemma)}</strong>
-        · ${count} ${count === 1 ? 'словоформа' : count < 5 ? 'словоформы' : 'словоформ'}
+        · ${count} ${count === 1 ? 'словоформа' : count < 5 ? 'словоформы' : 'словоформ'}${freq}
         · <a href="index.html">сбросить</a>`;
 }
 
@@ -594,7 +623,7 @@ async function init() {
         const lemma = params.get('lemma');
         const q = params.get('q');
 
-        await Promise.all([loadWordformsIndex(), loadBrowse(), loadManifest()]);
+        await Promise.all([loadWordformsIndex(), loadBrowse(), loadManifest(), loadLemmaFreq()]);
 
         showLoading(false);
 
