@@ -41,6 +41,17 @@ VERB_ENDINGS = frozenset({
     "изе", "ине", "езе", "азе", "озе", "узе",
     "ила", "ани", "анхъе",
 })
+# Nominal case endings that adjectives do NOT take (they agree by class: -ав/-ай/-аб/-ал).
+# Used to prefer a noun's case form over an adjective whose stem is a longer coincidental
+# prefix: гьаваялда (= гьава + ялда, locative) → гьава, not adjective гьаваяб (stem гьавая).
+# Number endings (-ал/-би) are excluded — they are shared with adjective plurals.
+NOUN_ENDINGS = frozenset({
+    "да", "ялда", "лда", "ра", "ахъ", "ахъе", "укь", "укье", "ухъ", "ухъе", "тӏа", "тӏе",
+    "ул", "лъул", "ялъул", "дул", "зул", "алъул",
+    "ца", "алъ", "ялъ", "аз",
+    "лъе", "ялъе",
+    "аса", "ялдаса", "тӏаса", "дасан",
+})
 # Palochka variants (capital Ӏ, Latin I/i/l/L, pipe, digit 1, Cyrillic І) → canonical ӏ (U+04CF),
 # matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
 PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
@@ -441,8 +452,20 @@ class DictionaryIndex:
         if verbs:
             return self._longest_base_lemma(verbs, context_lemma)
 
-        # Otherwise the longest base wins (the most specific morphological match).
-        return self._longest_base_lemma([(base, lemma) for base, lemma, _ in candidates], context_lemma)
+        # The longest base normally wins, but a noun's case form must not be lost to an
+        # adjective whose stem is a longer coincidental prefix (гьаваялда → гьава, not
+        # adjective гьаваяб). If the longest base is an adjective yet a noun candidate carries
+        # a nominal case ending, take that noun.
+        best = self._longest_base_lemma([(base, lemma) for base, lemma, _ in candidates], context_lemma)
+        if best and self._lemma_pos(best) == "прилагательное":
+            nouns = [
+                (base, lemma)
+                for base, lemma, _ in candidates
+                if token[len(base):] in NOUN_ENDINGS and self._lemma_pos(lemma) == "существительное"
+            ]
+            if nouns:
+                return self._longest_base_lemma(nouns, context_lemma)
+        return best
 
     def _longest_base_lemma(
         self,

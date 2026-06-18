@@ -4,8 +4,8 @@
       "id": "needs_work",
       "label": "Нужна ручная работа",
       "description": "Есть упоминания без уверенного маппинга",
-      "count": 1619,
-      "mention_count": 3584,
+      "count": 1618,
+      "mention_count": 3583,
       "file": "needs_work.txt"
     },
     "fully_unmapped": {
@@ -20,16 +20,16 @@
       "id": "partial",
       "label": "Частичный маппинг",
       "description": "Есть и ясные записи, и пробелы в других упоминаниях",
-      "count": 1,
-      "mention_count": 1,
+      "count": 0,
+      "mention_count": 0,
       "file": "partial.txt"
     },
     "homograph": {
       "id": "homograph",
       "label": "Омонимы",
       "description": "Несколько лемм для одной словоформы — обычно норма",
-      "count": 908,
-      "mention_count": 6201,
+      "count": 904,
+      "mention_count": 6188,
       "file": "homograph.txt"
     },
     "strange": {
