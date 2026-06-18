@@ -130,3 +130,26 @@ class TarasBulbaFormsExtractor(MappedFormsExtractor):
         for sentence in data:
             if sentence.get("av"):
                 yield sentence["av"], {"av": sentence["av"], "ru": sentence.get("ru", "")}
+
+
+class IhdalFormsExtractor(MappedFormsExtractor):
+    """«ХӀакъикъат» newspaper issue (JSON array): monolingual Avar sentences."""
+
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
+        data: list[dict[str, Any]] = json.loads("".join(self._own_lines()))
+        for sentence in data:
+            if sentence.get("av"):
+                yield sentence["av"], {"av": sentence["av"]}
+
+
+class HakikatFormsExtractor(MappedFormsExtractor):
+    """«ХӀакъикъат» online archive (JSONL): monolingual Avar article texts."""
+
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
+        for line in self._own_lines():
+            line = line.strip()
+            if not line:
+                continue
+            entry = json.loads(line)
+            if entry.get("text"):
+                yield entry["text"], {"av": entry["text"]}
