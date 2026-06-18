@@ -1,4 +1,22 @@
 {
+  "вакана": {
+    "wordform": "вакана",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вакизе": {
     "wordform": "вакизе",
     "sources": {
@@ -80,6 +98,28 @@
             "sense": "переселенец, эмигрант"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -132,6 +172,69 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вакилзабаз": {
+    "wordform": "вакилзабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вакилзабаздасан": {
+    "wordform": "вакилзабаздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вакилзабазе": {
+    "wordform": "вакилзабазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -151,6 +254,18 @@
             "av": "вакилзабазул составалда гьоркьове Гьашимги вукӏана",
             "ru": "и Гашим был в составе делегации",
             "sense": "состав"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -177,6 +292,18 @@
               "вакилица",
               "вакилил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакил",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -286,6 +413,64 @@
             "sense": "прдставительство, полномочие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакиллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакиллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "вакиллъиялда": {
+    "wordform": "вакиллъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакиллъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вакиллъиялъул": {
+    "wordform": "вакиллъиялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакиллъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -305,6 +490,23 @@
             "av": "вакиллъул кагъат",
             "ru": "доверенность",
             "sense": "прдставительство, полномочие"
+          }
+        ]
+      }
+    }
+  },
+  "вакиллъун": {
+    "wordform": "вакиллъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакиллъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -382,6 +584,24 @@
             "av": "вакилъун вукӏине",
             "ru": "быть представителем, уполномоченным",
             "sense": "уполномоченный; доверенное лицо, доверенный; поручитель; представитель, депутат, делегат, посол"
+          }
+        ]
+      }
+    }
+  },
+  "вакине": {
+    "wordform": "вакине",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -491,6 +711,32 @@
             "sense": "изрубить (на мелкие куски), измельчать (шинкованием)"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -508,6 +754,42 @@
             "av": "вахӏ! мун кисан ваккарав?",
             "ru": "ба! ты откуда?",
             "sense": "увы, ах, ой, о, ба!"
+          }
+        ]
+      }
+    }
+  },
+  "ваккарана": {
+    "wordform": "ваккарана",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккаризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ваккаризе": {
+    "wordform": "ваккаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккаризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -788,6 +1070,37 @@
             "av": "энциклопедиялде ваккизе",
             "ru": "заглянуть в энциклопедию",
             "sense": "энциклопедия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ваккила": {
+    "wordform": "ваккила",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баккизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1165,6 +1478,24 @@
       }
     }
   },
+  "вакъвазе": {
+    "wordform": "вакъвазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакъвазе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вакъвалев": {
     "wordform": "вакъвалев",
     "sources": {
@@ -1374,6 +1705,19 @@
             "sense": "голодать, недоедать; проголодаться, изголодаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакъизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1513,6 +1857,18 @@
               "вакъияялъул",
               "вакъияби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакъия",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2175,6 +2531,32 @@
             "sense": "изнемогать, умирать от чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакъуца",
+            "relation": "мужской род",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакъуца",
+            "relation": "мужской род",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2215,6 +2597,17 @@
             "av": "вацасул вакьад",
             "ru": "тесть брата",
             "sense": "брат"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вакьад",
+            "pos": "существительное"
           }
         ]
       }
@@ -2507,6 +2900,24 @@
             "av": "эбелалъ вас росулъе вакӏарана",
             "ru": "мать вернула сына домой",
             "sense": "стараться вернуть"
+          }
+        ]
+      }
+    }
+  },
+  "вакӏаризе": {
+    "wordform": "вакӏаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бакӏаризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

@@ -144,6 +144,18 @@
             "from_lemma": "квине"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квине",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -322,6 +334,23 @@
       }
     }
   },
+  "квинабурабги": {
+    "wordform": "квинабурабги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "квинаро": {
     "wordform": "квинаро",
     "sources": {
@@ -464,6 +493,30 @@
             "av": "хӏарпица квине",
             "ru": "(за)червиветь",
             "sense": "червь, червяк"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квине",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -633,6 +686,18 @@
             "sense": "квитанция"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квитанция",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -655,6 +720,23 @@
               "квитанциялъул",
               "квитанцияби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "квитанцияги": {
+    "wordform": "квитанцияги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "квитанция",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

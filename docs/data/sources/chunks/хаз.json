@@ -51,6 +51,18 @@
             "sense": "убираться, поспешно убежать, уехать; дать тягу откуда-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -98,6 +110,18 @@
               "хазабуна",
               "хазабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазабизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -183,6 +207,18 @@
             "av": "хазабуна",
             "ru": "был таков",
             "sense": "убираться, поспешно убежать, уехать; дать тягу откуда-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -359,6 +395,18 @@
             "sense": "чесать, расчёсывать, причёсывать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -453,6 +501,30 @@
             "sense": "сокровище"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазина",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазина",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -495,6 +567,35 @@
               "хазинаялъ",
               "хазинаялъул"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазина",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хазинаялъе": {
+    "wordform": "хазинаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазина",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -31,6 +31,18 @@
             "sense": "снаряд"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "снаряд",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -53,6 +65,18 @@
               "снарядалъул",
               "снарядал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "снаряд",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -127,6 +151,23 @@
       }
     }
   },
+  "снаряде": {
+    "wordform": "снаряде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "снаряд",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сноска": {
     "wordform": "сноска",
     "sources": {
@@ -177,6 +218,18 @@
             "av": "сноска кьезе",
             "ru": "дать сноску",
             "sense": "сноска"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сноска",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

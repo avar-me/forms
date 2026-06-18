@@ -1,4 +1,21 @@
 {
+  "гуманизмалъул": {
+    "wordform": "гуманизмалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гуми": {
     "wordform": "гуми",
     "sources": {
@@ -49,6 +66,35 @@
             "av": "гуми рейдалда чӏун руго",
             "ru": "корабли стоят на рейде",
             "sense": "рейд"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гуми-русби": {
+    "wordform": "гуми-русби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -140,6 +186,23 @@
       }
     }
   },
+  "гумпарабазукье": {
+    "wordform": "гумпарабазукье",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гумпара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гумпараби": {
     "wordform": "гумпараби",
     "sources": {
@@ -160,6 +223,18 @@
               "гумпарадул",
               "гумпараби"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гумпара",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -213,6 +288,69 @@
       }
     }
   },
+  "гумузда": {
+    "wordform": "гумузда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гумуздасан": {
+    "wordform": "гумуздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гумузе": {
+    "wordform": "гумузе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гумузул": {
     "wordform": "гумузул",
     "sources": {
@@ -261,6 +399,47 @@
             "av": "гумузул караван",
             "ru": "караван судов",
             "sense": "караван, отряд, группа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гумул": {
+    "wordform": "гумул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гуми",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

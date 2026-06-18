@@ -179,6 +179,40 @@
       }
     }
   },
+  "умумуздасан": {
+    "wordform": "умумуздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "умумузе": {
+    "wordform": "умумузе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "умумузул": {
     "wordform": "умумузул",
     "sources": {
@@ -309,6 +343,47 @@
             "sense": "отцы родители"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "умумузулго": {
+    "wordform": "умумузулго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -353,6 +428,47 @@
             "sense": "отцы родители"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "умумулъанго": {
+    "wordform": "умумулъанго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умумул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -386,6 +502,18 @@
             "av": "умывальник базе",
             "ru": "повесить умывальник",
             "sense": "умывальник"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "умывальник",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

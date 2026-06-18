@@ -243,6 +243,42 @@
             "sense": "экватор"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1027,6 +1063,42 @@
             "sense": "попадать, попасть; угодить в кого-что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1105,6 +1177,23 @@
               "гамачӏ-хӏарщалъ",
               "гамачӏ-хӏарщалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гамачӏалъул": {
+    "wordform": "гамачӏалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1224,6 +1313,23 @@
               "гамачӏлъана",
               "гамачӏлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гамачӏлъараб": {
+    "wordform": "гамачӏлъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1371,6 +1477,18 @@
             "sense": "драгоценности; золото и серебро"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамачӏлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1482,6 +1600,57 @@
             "entry_forms": [
               "гамачӏхӏалаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гамаялда": {
+    "wordform": "гамаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гамаялъ": {
+    "wordform": "гамаялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гамаялъе": {
+    "wordform": "гамаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1687,6 +1856,18 @@
             "sense": "экипаж"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1776,6 +1957,23 @@
             "av": "гамитӏе вахине",
             "ru": "подняться на пароход",
             "sense": "судно, корабль, челн; пароход; ковчег"
+          }
+        ]
+      }
+    }
+  },
+  "гамихъабазул": {
+    "wordform": "гамихъабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамихъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1922,6 +2120,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гама",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1967,6 +2177,18 @@
             "av": "гамущ бечӏчӏизе",
             "ru": "(по)доить буйволицу",
             "sense": "(по)доить кого-либо; надоить чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамущ",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -2019,6 +2241,18 @@
               "ганщил",
               "ганщал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гамущ",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

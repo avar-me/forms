@@ -94,6 +94,17 @@
             "sense": "остаться от чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏа-кӏучараб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -127,6 +138,18 @@
             "av": "кванил хутӏа-кӏучи",
             "ru": "остатки еды",
             "sense": "остатки, последки"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏа-кӏучизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -502,6 +525,30 @@
             "av": "дуца чӏвазегӏан хутӏаги дун",
             "ru": "пусть я доживу до того дня, когда ты убьёшь меня; ты никогда не сможешь меня убить",
             "sense": "убивать, убить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -899,6 +946,47 @@
             "sense": "там же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏани": {
+    "wordform": "хутӏани",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1043,6 +1131,42 @@
             "sense": "оставаться не съеденным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1145,6 +1269,59 @@
             "sense": "слюни глотать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏаразда": {
+    "wordform": "хутӏаразда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1164,6 +1341,18 @@
             "av": "бесдаллъун хутӏаразе талихӏ кьолареб",
             "ru": "сиротам счастье не улыбнётся",
             "sense": "осиротеть, остаться сиротой; лишиться одного из родителей или обоих"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1206,6 +1395,30 @@
             "av": "къороллъун хутӏарай чӏужу",
             "ru": "вдова, вдовая женщина",
             "sense": "жена, супруга"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1257,6 +1470,64 @@
             "av": "эбелдахъачӏужуялъ кумек гьабулеб буго бесдаллъун хутӏарал ТӀагьирил лъималазе",
             "ru": "родственница по матери помогает сиротам Тагира",
             "sense": "родственица по матери"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏаралал": {
+    "wordform": "хутӏаралал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏатараб": {
+    "wordform": "хутӏатараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1412,6 +1683,47 @@
             "sense": "остаток"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏелазул": {
+    "wordform": "хутӏелазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1434,6 +1746,30 @@
               "хутӏелалъул",
               "хутӏелал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1528,6 +1864,30 @@
             "from_lemma": "хутӏизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1576,6 +1936,18 @@
             "from_lemma": "хутӏизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1601,6 +1973,18 @@
               "хутӏизабе"
             ],
             "from_lemma": "хутӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1676,6 +2060,74 @@
               "хутӏизабуна",
               "хутӏизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хутӏизавизе": {
+    "wordform": "хутӏизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏизавулеб": {
+    "wordform": "хутӏизавулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏизаризе": {
+    "wordform": "хутӏизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏизарулеб": {
+    "wordform": "хутӏизарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2369,6 +2821,42 @@
             "sense": "одиноко; в одиночку, в одиночестве"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2397,6 +2885,34 @@
             "av": "мун хутӏизегӏан, киналго рачӏун рукӏана рузманалде",
             "ru": "кроме тебя, все приходили на пятничный намаз",
             "sense": "кроме, исключая, за исключением"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизегӏан",
+            "pos": "послелог"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏизехъинел": {
+    "wordform": "хутӏизехъинел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2434,6 +2950,30 @@
             "sense": "любовь к кому-либо, увлечение кем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2463,6 +3003,23 @@
             "av": "дие къисматаб жо камун хутӏиларо дун",
             "ru": "не останусь обделённым тем, что мне предопределено",
             "sense": "предопределённый"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏилелниги": {
+    "wordform": "хутӏилелниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2716,6 +3273,98 @@
             "ru": "до последнего куска сьели мясо ягнёнка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏиялда": {
+    "wordform": "хутӏиялда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏиялдасаго": {
+    "wordform": "хутӏиялдасаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏиялъ": {
+    "wordform": "хутӏиялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏиялъул": {
+    "wordform": "хутӏиялъул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2914,6 +3563,18 @@
             "sense": "родители; . мать и отец"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2967,6 +3628,35 @@
             "av": "ругъун лъилъаниги, гӏуж хутӏула",
             "ru": "хоть и рана заживает, а рубец остаётся",
             "sense": "шрам, рубец"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏулареб": {
+    "wordform": "хутӏулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3051,6 +3741,47 @@
             "sense": "ленивый; не любящий двигаться, избегающий движения; нерадивый; вялый; ленивый человек, лентяй"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏулебила": {
+    "wordform": "хутӏулебила",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3072,6 +3803,35 @@
             "sense": "навсегда, навеки, навечно, навеки; на вечные времена"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏулей": {
+    "wordform": "хутӏулей",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3091,6 +3851,30 @@
             "av": "кигӏан мехалъ гъол нухда хутӏулел?",
             "ru": "сколько времени они пробудут в пути?",
             "sense": "сколько, в каком количестве"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3374,6 +4158,59 @@
             "av": "дов ялгъуз хутӏун вуго",
             "ru": "он остался один-одиношенек",
             "sense": "одиноко; в одиночку, в одиночестве"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏизе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "хутӏунгутӏизе": {
+    "wordform": "хутӏунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хутӏун",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

@@ -1113,6 +1113,42 @@
             "sense": "кляча"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кквезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кквезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кквезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1464,6 +1500,34 @@
             "av": "кколе-кколелъубе лъазабизе",
             "ru": "сообщить куда следует",
             "sense": "куда следует, кому следует"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кколе-кколелъубе",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "кколе-кколелъублъун": {
+    "wordform": "кколе-кколелъублъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кколе-кколелъубе",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

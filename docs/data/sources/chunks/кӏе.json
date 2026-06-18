@@ -462,6 +462,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏерело",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "кӏерело-машина": {
+    "wordform": "кӏерело-машина",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏерело",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -993,6 +1022,18 @@
             "sense": "ослёнок"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏерт",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1331,6 +1372,18 @@
             "sense": "стукаться обо что-либо; стукать, постукивать, стучать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏетӏезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1417,6 +1470,23 @@
       }
     }
   },
+  "кӏетӏолаго": {
+    "wordform": "кӏетӏолаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏетӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кӏетӏолеб": {
     "wordform": "кӏетӏолеб",
     "sources": {
@@ -1433,6 +1503,35 @@
             "av": "къватӏибе кӏанцӏун бачӏинеб хӏалалъ кӏетӏолеб буго ракӏ",
             "ru": "сердце колотиться учащенно, будто хочет выскочить",
             "sense": "биться, колотиться, стукать учащенно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏетӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кӏетӏолев": {
+    "wordform": "кӏетӏолев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кӏетӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

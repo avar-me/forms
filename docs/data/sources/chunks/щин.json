@@ -17,6 +17,28 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -170,6 +192,35 @@
               "щинкӏи"
             ],
             "from_lemma": "щинкӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "щинкӏида": {
+    "wordform": "щинкӏида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -355,6 +406,17 @@
             "sense": "погружаться во что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏизе",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -400,6 +462,18 @@
             "sense": "копыто"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏил",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -432,6 +506,23 @@
       }
     }
   },
+  "щинкӏил-кӏалалъул": {
+    "wordform": "щинкӏил-кӏалалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏил-кӏал",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щинкӏила": {
     "wordform": "щинкӏила",
     "sources": {
@@ -452,6 +543,23 @@
               "щинкӏана",
               "щинкӏе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "щинкӏилалда": {
+    "wordform": "щинкӏилалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏизе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -530,6 +638,23 @@
       }
     }
   },
+  "щинкӏулаго": {
+    "wordform": "щинкӏулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏизе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щинкӏулеб": {
     "wordform": "щинкӏулеб",
     "sources": {
@@ -598,6 +723,18 @@
             "av": "мун киве щинкӏун вукӏарав?",
             "ru": "куда ты запропастился?",
             "sense": "уходить, уйти, исчезать, исчезнуть; деваться, проваливаться.; запропаститься"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щинкӏизе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

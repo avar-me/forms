@@ -227,6 +227,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хундуз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -318,6 +330,18 @@
             "sense": "бобровый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хундуз",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -372,6 +396,18 @@
             "sense": "газават, борьба за мусульманскую веру, священная война; джихад"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунжрул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -418,6 +454,18 @@
               "хунжрузул"
             ],
             "from_lemma": "ханжар"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ханжар",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -517,6 +565,17 @@
               "хункарица",
               "хункарил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хункар",
+            "pos": "выражение"
           }
         ]
       }
@@ -973,6 +1032,52 @@
             "sense": "выпрямлять, распрямлять, расправлять; (с)делать прямым"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хунтӏел": {
+    "wordform": "хунтӏел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хунтӏелал": {
+    "wordform": "хунтӏелал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1017,6 +1122,18 @@
             "av": "хунтӏи ккана",
             "ru": "образовалась вмятина",
             "sense": "вмятина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1091,6 +1208,18 @@
               "хунтӏизабуна",
               "хунтӏизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1193,6 +1322,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1285,6 +1426,23 @@
               "хунтӏила",
               "хунтӏана"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хунтӏун": {
+    "wordform": "хунтӏун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунтӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1599,6 +1757,40 @@
       }
     }
   },
+  "хунхуниялде": {
+    "wordform": "хунхуниялде",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунхизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хунхуниялъ": {
+    "wordform": "хунхуниялъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунхизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хунчӏруз": {
     "wordform": "хунчӏруз",
     "sources": {
@@ -1617,6 +1809,18 @@
               "хунчӏруз",
               "хунчӏрузул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунчӏрул",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1778,6 +1982,17 @@
             "av": "хунчӏрул рацӏцӏине",
             "ru": "высморкаться; высморкать сопли",
             "sense": "сопли."
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хунчӏрул",
+            "pos": "выражение"
           }
         ]
       }

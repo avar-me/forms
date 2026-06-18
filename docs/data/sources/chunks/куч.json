@@ -68,6 +68,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -87,6 +99,18 @@
             "av": "лъимерлъудаго рокьи букӏана досул халкъиял кучӏдузде",
             "ru": "он с детства любил народные песни",
             "sense": "в детстве, в детском возрасте, ребёнком"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -170,6 +194,30 @@
             "av": "кучӏдузул тӏехь",
             "ru": "сборник стихов",
             "sense": "книга, книжка, сборник, том"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -466,6 +514,47 @@
             "av": "халкъиял кучӏдул",
             "ru": "народные песни",
             "sense": "народный, относящийся к народу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "кучӏдулги": {
+    "wordform": "кучӏдулги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -31,6 +31,47 @@
             "sense": "червы, червы"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "так-рарлъулареб": {
+    "wordform": "так-рарлъулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -53,6 +94,23 @@
               "такалъул",
               "такал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "такалда": {
+    "wordform": "такалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -197,6 +255,42 @@
             "sense": "повтор"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -333,6 +427,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такрарлъараб": {
+    "wordform": "такрарлъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -381,6 +504,18 @@
               "такрарлъиялъул"
             ],
             "from_lemma": "такрарлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -569,6 +704,18 @@
             "sense": "повторяться, повториться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -668,6 +815,40 @@
       }
     }
   },
+  "такрарлъулареб": {
+    "wordform": "такрарлъулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такрарлъулеб": {
+    "wordform": "такрарлъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такрарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "такса": {
     "wordform": "такса",
     "sources": {
@@ -688,6 +869,18 @@
               "таксаялъул",
               "таксаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такса",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -743,6 +936,18 @@
             "av": "таксаялда рекъон босизе",
             "ru": "брать по таксе",
             "sense": "такса"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такса",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -856,6 +1061,18 @@
             "av": "такси кквезе",
             "ru": "взять такси",
             "sense": "такси"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такси",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1059,6 +1276,23 @@
       }
     }
   },
+  "таксиязул": {
+    "wordform": "таксиязул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такси",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "таксиял": {
     "wordform": "таксиял",
     "sources": {
@@ -1135,6 +1369,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такси",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1157,6 +1403,40 @@
               "таксиялъул",
               "таксиял"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "таксомоторазул": {
+    "wordform": "таксомоторазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такталъул": {
+    "wordform": "такталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "так",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1211,6 +1491,42 @@
             "av": "шахматал хӏаялъул тактика",
             "ru": "шахматная тактика",
             "sense": "тактика"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тактика",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тактика",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тактика",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1299,6 +1615,18 @@
             "av": "тактикияб рахъ",
             "ru": "тактическая сторона",
             "sense": "тактический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тактикияб",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1473,6 +1801,18 @@
             "av": "ботӏротӏа такъия лъезе",
             "ru": "надеть на голову тюбетейку",
             "sense": "тюбетейка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъия",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1660,6 +2000,42 @@
             "sense": "вина; преступление"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1715,6 +2091,23 @@
       }
     }
   },
+  "такъсиразул": {
+    "wordform": "такъсиразул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "такъсирай": {
     "wordform": "такъсирай",
     "sources": {
@@ -1758,6 +2151,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такъсиралда": {
+    "wordform": "такъсиралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такъсиралде": {
+    "wordform": "такъсиралде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1780,6 +2219,23 @@
               "такъсиралъул",
               "такъсирал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "такъсиралъе": {
+    "wordform": "такъсиралъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1809,6 +2265,23 @@
       }
     }
   },
+  "такъсирго": {
+    "wordform": "такъсирго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "такъсирияв": {
     "wordform": "такъсирияв",
     "sources": {
@@ -1829,6 +2302,35 @@
               "такъсириясул",
               "такъсириял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирияв",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "такъсириявлъун": {
+    "wordform": "такъсириявлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирияв",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1853,6 +2355,18 @@
               "такъсириясул",
               "такъсириял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирияв",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1906,6 +2420,40 @@
       }
     }
   },
+  "такъсирлъун": {
+    "wordform": "такъсирлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такъсирчагӏазе": {
+    "wordform": "такъсирчагӏазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "такъсирчагӏи": {
     "wordform": "такъсирчагӏи",
     "sources": {
@@ -1925,6 +2473,18 @@
               "такъсирчиясул",
               "такъсирчагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1972,6 +2532,30 @@
             "sense": "виновник; преступник"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2004,6 +2588,18 @@
             "av": "такъсирчилъи дагьлъулеб буго",
             "ru": "преступность уменьшается",
             "sense": "виновность; преступность"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчилъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2073,6 +2669,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчилъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "такъсирчилъиялъулги": {
+    "wordform": "такъсирчилъиялъулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчилъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2095,6 +2720,23 @@
               "такъсирчиясул",
               "такъсирчагӏи"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "такъсирчиясда": {
+    "wordform": "такъсирчиясда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2164,6 +2806,18 @@
               "такъсирчӏужуялъ",
               "такъсирчӏужуялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "такъсирчӏужу",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

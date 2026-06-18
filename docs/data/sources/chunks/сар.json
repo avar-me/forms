@@ -31,6 +31,18 @@
             "sense": "сарай"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сарай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -213,6 +225,23 @@
       }
     }
   },
+  "сараялда": {
+    "wordform": "сараялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сарай",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сараялде": {
     "wordform": "сараялде",
     "sources": {
@@ -229,6 +258,18 @@
             "av": "сараялде рачана",
             "ru": "повели во дворец",
             "sense": "дворец, хоромы; благоустроенное помещение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сарай",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -697,6 +738,18 @@
             "sense": "холодный, морозный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сордо",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -790,6 +843,18 @@
               "сардарасул",
               "сардарал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардар",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -893,6 +958,35 @@
               "сардарасул",
               "сардарал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сардарлъи": {
+    "wordform": "сардарлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1149,6 +1243,36 @@
             "sense": "долгота; протяжённость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сордо",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сордо",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "сардил",
+            "relation": "родительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1186,6 +1310,17 @@
             "av": "сардилаб кьерхен",
             "ru": "ночное ненастье",
             "sense": "вечерний, ночной"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардилаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1370,6 +1505,28 @@
             "sense": "единоутробный брат; единоутробная сестра"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардилъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сардилъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1394,6 +1551,18 @@
               "сардил",
               "сардал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сордо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1985,6 +2154,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сарсахъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2007,6 +2188,18 @@
               "сарсахъасул",
               "сарсахъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сарсахъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

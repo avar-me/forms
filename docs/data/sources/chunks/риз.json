@@ -27,6 +27,17 @@
             "sense": "густо, часто, близко друг к другу"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риз",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -102,6 +113,28 @@
             "sense": "лес, чаща"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -144,6 +177,52 @@
             "entry_forms": [
               "ризаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ризал": {
+    "wordform": "ризал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ризаризе": {
+    "wordform": "ризаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -196,6 +275,47 @@
             "av": "хер ризго баккун букӏана",
             "ru": "трава росла густо",
             "sense": "густо, часто, близко друг к другу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риз",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риз",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ризе": {
+    "wordform": "ризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риз",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -334,6 +454,35 @@
             "sense": "учащаться, участиться; становиться, стать частым или чаще"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ризлъараб": {
+    "wordform": "ризлъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -382,6 +531,18 @@
               "ризлъиялъул"
             ],
             "from_lemma": "ризлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -466,6 +627,18 @@
             "av": "тӏаде хьвади ризлъизабизе",
             "ru": "участить посещения, зачастить",
             "sense": "учащать, участить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризлъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -567,6 +740,18 @@
               "ризлъана",
               "ризлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ризлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

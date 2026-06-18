@@ -72,6 +72,30 @@
             "sense": "привычный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -145,6 +169,23 @@
       }
     }
   },
+  "пиша-махщел": {
+    "wordform": "пиша-махщел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "пишаби": {
     "wordform": "пишаби",
     "sources": {
@@ -180,6 +221,23 @@
       }
     }
   },
+  "пишагун": {
+    "wordform": "пишагун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "пишадукъ": {
     "wordform": "пишадукъ",
     "sources": {
@@ -199,6 +257,18 @@
               "пишадукъица",
               "пишадукъил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пишадукъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -344,6 +414,18 @@
               "пишадукълъиялъ",
               "пишадукълъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пишадукълъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -499,6 +581,23 @@
       }
     }
   },
+  "пишалъун": {
+    "wordform": "пишалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "пишачагӏи": {
     "wordform": "пишачагӏи",
     "sources": {
@@ -543,6 +642,52 @@
               "пишачиясул",
               "пишачагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пишачи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "пишачи-лъиялда": {
+    "wordform": "пишачи-лъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пишачи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пишачигун": {
+    "wordform": "пишачигун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пишачи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -666,6 +811,23 @@
       }
     }
   },
+  "пишаялда": {
+    "wordform": "пишаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "пишаялъ": {
     "wordform": "пишаялъ",
     "sources": {
@@ -686,6 +848,18 @@
               "пишадул",
               "пишаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -711,6 +885,18 @@
               "пишадул",
               "пишаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пиша",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

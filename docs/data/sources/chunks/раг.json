@@ -19,6 +19,18 @@
             "from_lemma": "регел"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регел",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -338,6 +350,42 @@
             "sense": "тунеядство"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -370,6 +418,18 @@
             "av": "рагъ-кьал багъарана",
             "ru": "разразилась война",
             "sense": "помешивать, (по)мешать, перемешивать что-либо; ворошить; болтать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ-кьал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -491,6 +551,227 @@
       }
     }
   },
+  "рагъа-ракарабаздасан": {
+    "wordform": "рагъа-ракарабаздасан",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-ракараби": {
+    "wordform": "рагъа-ракараби",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачариго": {
+    "wordform": "рагъа-рачариго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачаризаризе": {
+    "wordform": "рагъа-рачаризаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачаризаруна": {
+    "wordform": "рагъа-рачаризаруна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачаризе": {
+    "wordform": "рагъа-рачаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачариялдалъун": {
+    "wordform": "рагъа-рачариялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачариялъул": {
+    "wordform": "рагъа-рачариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рачарун": {
+    "wordform": "рагъа-рачарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рашаригун": {
+    "wordform": "рагъа-рашаригун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рашариялъе": {
+    "wordform": "рагъа-рашариялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъа-рашариялъул": {
+    "wordform": "рагъа-рашариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъабазул": {
+    "wordform": "рагъабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагъаби": {
     "wordform": "рагъаби",
     "sources": {
@@ -511,6 +792,120 @@
               "рагъидул",
               "рагъаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагъаги": {
+    "wordform": "рагъаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаз": {
+    "wordform": "рагъаз",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъазда": {
+    "wordform": "рагъазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаздаги": {
+    "wordform": "рагъаздаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъазе": {
+    "wordform": "рагъазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъазул": {
+    "wordform": "рагъазул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -548,6 +943,64 @@
             "sense": "битва, бой, сражение, схватка; брань"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъалги": {
+    "wordform": "рагъалги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъалда": {
+    "wordform": "рагъалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -567,6 +1020,23 @@
             "av": "рагъалдаса рекъел лъикӏаб",
             "ru": "мир лучше войны",
             "sense": "война, фронт"
+          }
+        ]
+      }
+    }
+  },
+  "рагъалде": {
+    "wordform": "рагъалде",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -614,6 +1084,30 @@
             "sense": "война, фронт"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -656,6 +1150,53 @@
             "av": "Гьеб къо къасилдегӏан данде рагъана, Къаси нух бахъизе малъ-хал гьабуна",
             "ru": "До ночи воевали непрестанно, А ночью разведали, как пробиться",
             "sense": "разведка"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаниги": {
+    "wordform": "рагъаниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъараб": {
+    "wordform": "рагъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -703,6 +1244,86 @@
       }
     }
   },
+  "рагъарана": {
+    "wordform": "рагъарана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарахъдизаруна": {
+    "wordform": "рагъарахъдизаруна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарачариялъул": {
+    "wordform": "рагъарачариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарашариялъул": {
+    "wordform": "рагъарашариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагъари": {
     "wordform": "рагъари",
     "sources": {
@@ -743,6 +1364,103 @@
             "sense": "нерв"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаризаричӏого": {
+    "wordform": "рагъаризаричӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаризарулеб": {
+    "wordform": "рагъаризарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаризарулел": {
+    "wordform": "рагъаризарулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаризаруна": {
+    "wordform": "рагъаризаруна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъаризарурал": {
+    "wordform": "рагъаризарурал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -765,6 +1483,32 @@
             "sense": "нерв"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъаризе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъаризе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -784,6 +1528,35 @@
             "av": "рагъаричӏого чӏезе",
             "ru": "стоять на месте, стоять не шевелясь",
             "sense": "бывать, быть, находиться где-либо"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъариялдасан": {
+    "wordform": "рагъариялдасан",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -815,6 +1588,86 @@
             "av": "гъораса рагъаруге нуж",
             "ru": "не уходите оттуда",
             "sense": "там внизу"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарулел": {
+    "wordform": "рагъарулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарун": {
+    "wordform": "рагъарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъарунгутӏиялъго": {
+    "wordform": "рагъарунгутӏиялъго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъги": {
+    "wordform": "рагъги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1058,6 +1911,30 @@
             "sense": "оставаться, остаться где-либо; не возвращаться, не вернуться откуда-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1117,6 +1994,18 @@
             "entry": "лъаббокӏонаб",
             "av": "рагъдаса рачӏарал лъаббокӏонал кагътал",
             "ru": "пришедшие с фронта треугольники"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1188,6 +2077,30 @@
             "av": "рагъде хӏадурлъизе",
             "ru": "подготовиться к войне",
             "sense": "война, фронт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1349,6 +2262,35 @@
             "sense": "узкий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "рагъиги": {
+    "wordform": "рагъиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1408,6 +2350,18 @@
             "av": "эвгонияв чиясе бакӏ букӏунищ рагъида?",
             "ru": "столько людей разве поместятся на веранде?",
             "sense": "столько"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1553,6 +2507,18 @@
             "sense": "комната"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1626,6 +2592,18 @@
             "av": "рагъидул щоб",
             "ru": "край крыши крыльца",
             "sense": "крыльцо; веранда, балкон, навес перед домом"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1736,6 +2714,113 @@
             "sense": "лук, самострел"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багъизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъилел": {
+    "wordform": "рагъилел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъичӏого": {
+    "wordform": "рагъичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъиялдалъун": {
+    "wordform": "рагъиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъиялде": {
+    "wordform": "рагъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1808,6 +2893,40 @@
               "рагъидул",
               "рагъаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагъкьал": {
+    "wordform": "рагъкьал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъу-хъанлъи": {
+    "wordform": "рагъу-хъанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2199,6 +3318,42 @@
             "sense": "пламя"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "relation": "родительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "relation": "родительный",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2508,6 +3663,39 @@
             "sense": "эшелон"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2527,6 +3715,18 @@
             "av": "рагъулабгун промышленнияб комплекс",
             "ru": "военно-промышленный комплекс",
             "sense": "промышленный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2621,6 +3821,30 @@
             "sense": "фельдшер и фельдшерица"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2640,6 +3864,18 @@
             "av": "рагъулаго тӏадруссине",
             "ru": "отступать с боями",
             "sense": "отходить, отойти назад; идти назад; отступать, отступить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2662,6 +3898,18 @@
             "entry_forms": [
               "рагъулаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2695,6 +3943,64 @@
             "sense": "военный, воинский; фронтовой"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъулалде": {
+    "wordform": "рагъулалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъулгун": {
+    "wordform": "рагъулгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2714,6 +4020,35 @@
             "av": "къавукъун тӏаде ана дов гӏолохъаби рагъулеб бакӏалде",
             "ru": "он ринулся туда, где ребята дрались",
             "sense": "ринуться, стремглав броситься на кого-что-либо куда-либо; стремительно летать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъулезул": {
+    "wordform": "рагъулезул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2757,6 +4092,132 @@
             "sense": "всегда, всё время; постоянно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъулъго": {
+    "wordform": "рагъулъго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъулъе": {
+    "wordform": "рагъулъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъун": {
+    "wordform": "рагъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъухъ": {
+    "wordform": "рагъухъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъухъабаз": {
+    "wordform": "рагъухъабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъухъабаздасан": {
+    "wordform": "рагъухъабаздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2796,6 +4257,18 @@
             "av": "рагъухъабазул поход",
             "ru": "войсковый поход",
             "sense": "поход"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2850,6 +4323,47 @@
             "av": "гӏорхъи цӏунулел рагъухъаби заставаялде тӏадруссана",
             "ru": "пограничники возвратились на заставу",
             "sense": "застава"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъухъабиги": {
+    "wordform": "рагъухъабиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2957,6 +4471,42 @@
             "sense": "воин, боец, ратник; военный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2999,6 +4549,18 @@
             "av": "командирасул буюрухъ рагъухъанас тӏадкӏалъачӏого тӏубазабизе ккола",
             "ru": "приказ командира солдат должен выполнить беспрекословно",
             "sense": "приказ, приказание, распоряжение, повеление"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3063,6 +4625,47 @@
             "av": "рагъухъанасул ярагъ",
             "ru": "оружие воина",
             "sense": "воин, боец, ратник; военный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагъухъангун": {
+    "wordform": "рагъухъангун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3135,6 +4738,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъухъанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3191,6 +4806,30 @@
             "sense": "осиротеть, сделать кого-либо сиротой"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3245,6 +4884,18 @@
             "av": "рагь-рагьарал хьитал",
             "ru": "худая обувь",
             "sense": "дырявый, худой"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагь-рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3576,6 +5227,23 @@
       }
     }
   },
+  "рагьабаздаги": {
+    "wordform": "рагьабаздаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагьаби": {
     "wordform": "рагьаби",
     "sources": {
@@ -3678,6 +5346,18 @@
             "sense": "увлажнение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3702,6 +5382,18 @@
               "рагьазабуна",
               "рагьазабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -3860,6 +5552,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3883,6 +5587,30 @@
               "рагьаялъул"
             ],
             "from_lemma": "рагьазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3985,6 +5713,30 @@
             "av": "столовая рагьана",
             "ru": "столовая открылась",
             "sense": "столовая"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4130,6 +5882,35 @@
             "sense": "слог"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "рагьараблъун": {
+    "wordform": "рагьараблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьараб",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4149,6 +5930,18 @@
             "av": "ракӏ рагьарав чи",
             "ru": "человек с открытой душой, душа нараспашку",
             "sense": "сердце, душа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4182,6 +5975,18 @@
             "sense": "редукция"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4203,6 +6008,18 @@
               "рагьаялъ",
               "рагьаялъул"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьай",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4231,6 +6048,35 @@
       }
     }
   },
+  "рагьда": {
+    "wordform": "рагьда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагьдаса": {
     "wordform": "рагьдаса",
     "sources": {
@@ -4247,6 +6093,125 @@
             "av": "рагьдаса гьурал ана, гьороса гурцӏал ана",
             "ru": "на дворе ветры прекратились, с сеновалов жаворонки улетели",
             "sense": "жаворонок"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдател": {
+    "wordform": "рагьдател",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдателаз": {
+    "wordform": "рагьдателаз",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдателазда": {
+    "wordform": "рагьдателазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдателазе": {
+    "wordform": "рагьдателазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдателал": {
+    "wordform": "рагьдателал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдателлъи": {
+    "wordform": "рагьдателлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдахъаравул": {
+    "wordform": "рагьдахъаравул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4281,6 +6246,23 @@
             "av": "рагьдул кӏалтӏа",
             "ru": "у двери, в дверях, у входа",
             "sense": "дверь, двери, вход в помещение"
+          }
+        ]
+      }
+    }
+  },
+  "рагьдухъ": {
+    "wordform": "рагьдухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4328,6 +6310,18 @@
             "sense": "открывать, открыть, раскрывать, раскрыть что-либо; распахивать, распахнуть что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4351,6 +6345,30 @@
               "рагьиялъул"
             ],
             "from_lemma": "рагьизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -4401,6 +6419,18 @@
             "from_lemma": "рагьизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -4426,6 +6456,18 @@
               "рагьизабе"
             ],
             "from_lemma": "рагьизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -4506,6 +6548,23 @@
       }
     }
   },
+  "рагьизаризе": {
+    "wordform": "рагьизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагьизарун": {
     "wordform": "рагьизарун",
     "sources": {
@@ -4522,6 +6581,23 @@
             "av": "хьитазул лабал тӏеренлъун ругони, гьелги рагьизарун, жанире рорчӏулаан чӏинхал ва хӏатӏал унтизарулаан",
             "ru": "если подметки прохудились и продырявились, то камушки попадали внутрь обуви, ноги болели",
             "sense": "подмётка"
+          }
+        ]
+      }
+    }
+  },
+  "рагьизаруна": {
+    "wordform": "рагьизаруна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5040,6 +7116,30 @@
             "sense": "шлюз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5063,6 +7163,40 @@
               "рагьана",
               "рагье"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагьичӏеб": {
+    "wordform": "рагьичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьичӏого": {
+    "wordform": "рагьичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5109,6 +7243,35 @@
               "рагьиялъ",
               "рагьиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьлидасан": {
+    "wordform": "рагьлидасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5218,6 +7381,18 @@
             "sense": "запах"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьел",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5241,6 +7416,18 @@
               "регьелалъул",
               "рагьлил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьел",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5533,6 +7720,18 @@
             "sense": "хан, властитель"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьтӏател",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5557,6 +7756,18 @@
               "рагьтӏателалъул",
               "рагьтӏателал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьтӏател",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5707,6 +7918,18 @@
             "sense": "батрачество; занятие, работа, служба дворового"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьтӏателлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5751,6 +7974,23 @@
               "рагьтӏателлъиялъ",
               "рагьтӏателлъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагьтӏателлъун": {
+    "wordform": "рагьтӏателлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьтӏател",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5892,6 +8132,18 @@
             "sense": "дверь, двери, вход в помещение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5983,6 +8235,17 @@
             "sense": "согласный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьукъаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -6048,6 +8311,18 @@
             "sense": "согласный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьукъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6083,6 +8358,18 @@
             "sense": "распутно, беспутно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6107,6 +8394,23 @@
       }
     }
   },
+  "рагьулеб": {
+    "wordform": "рагьулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагьумахӏаби": {
     "wordform": "рагьумахӏаби",
     "sources": {
@@ -6126,6 +8430,23 @@
               "рагьумахӏуялъул",
               "рагьумахӏаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагьумахӏиялда": {
+    "wordform": "рагьумахӏиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьумахӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6173,6 +8494,18 @@
             "sense": "порог"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьумахӏу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6192,6 +8525,40 @@
             "av": "нилъерго рукъалъул рагьумахӏугӏан бахине захӏматаб мегӏер гьечӏеб",
             "ru": "легче перейти любую гору, чем переступить порог родного дома",
             "sense": "порог"
+          }
+        ]
+      }
+    }
+  },
+  "рагьумахӏуялда": {
+    "wordform": "рагьумахӏуялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьумахӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагьумахӏуялдасан": {
+    "wordform": "рагьумахӏуялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьумахӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6455,6 +8822,36 @@
             "sense": "ящик (выдвижной), ящичек"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьун",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьизе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -6522,6 +8919,17 @@
             "av": "рагьухъе тезе",
             "ru": "оставлять, оставить открытым",
             "sense": "открыто, в открытом виде"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагьухъе",
+            "pos": "наречие"
           }
         ]
       }
@@ -6664,6 +9072,30 @@
             "sense": "до краёв"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6779,6 +9211,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏа-би": {
+    "wordform": "рагӏа-би",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6883,6 +9344,18 @@
             "sense": "край, конец"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏа-ракьан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6932,6 +9405,40 @@
       }
     }
   },
+  "рагӏа-ракьанго": {
+    "wordform": "рагӏа-ракьанго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏа-ракьангье-чӏого": {
+    "wordform": "рагӏа-ракьангье-чӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏа-ракьанде": {
     "wordform": "рагӏа-ракьанде",
     "sources": {
@@ -6958,6 +9465,52 @@
             "av": "рагӏа-ракьанде щвараб ремонт",
             "ru": "капитальный ремонт",
             "sense": "ремонт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏа-ракьандещвей": {
+    "wordform": "рагӏа-ракьандещвей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏа-ракьандещун": {
+    "wordform": "рагӏа-ракьандещун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7003,6 +9556,30 @@
             "sense": "вызывать сомнение или колебание"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7034,6 +9611,18 @@
             "sense": "предложение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7055,6 +9644,30 @@
             "sense": "богатеть, обогащаться чем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7074,6 +9687,86 @@
             "av": "васасул берцинал рагӏабаздаса разилъана эбел",
             "ru": "мать обрадовалась ласковым словам сына",
             "sense": "обрадоваться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏабаздасан": {
+    "wordform": "рагӏабаздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏабазде": {
+    "wordform": "рагӏабазде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏабаздехун": {
+    "wordform": "рагӏабаздехун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏабазе": {
+    "wordform": "рагӏабазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7137,6 +9830,30 @@
             "av": "рагӏабазул указатель",
             "ru": "указатель слов",
             "sense": "указатель"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7385,6 +10102,59 @@
             "sense": "в сочетании с деепричастием другого глагола выражает завершенность действия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏабиги": {
+    "wordform": "рагӏабиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7591,6 +10361,30 @@
             "sense": "тёмный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏад",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏад",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -7613,6 +10407,18 @@
               "рагӏадалъул",
               "рагӏадал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏад",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7682,6 +10488,18 @@
               "рагӏадалъул",
               "рагӏадал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏад",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7920,6 +10738,76 @@
             "sense": "тонкий платок"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏал-де": {
+    "wordform": "рагӏал-де",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏалабазда": {
+    "wordform": "рагӏалабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7944,6 +10832,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7963,6 +10863,18 @@
             "av": "росу рагӏалалда",
             "ru": "на окраине аула",
             "sense": "край, конец, оконечность, окраина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8042,6 +10954,18 @@
             "av": "квархьидул рагӏалги гьурмаде цӏан",
             "ru": "стянув край платка на лицо",
             "sense": "платок"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -8372,6 +11296,47 @@
             "sense": "те, они"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏалдаго": {
+    "wordform": "рагӏалдаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8423,6 +11388,30 @@
             "sense": "край, конец, оконечность, окраина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8472,6 +11461,18 @@
             "av": "нухлул рагӏалдасан чӏваккун бигьародул гъутӏби руго",
             "ru": "на обочине дороги полосою растут тополя",
             "sense": "полоса"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -8655,6 +11656,185 @@
             "sense": "плескать, плескаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏалдехун": {
+    "wordform": "рагӏалдехун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабазда": {
+    "wordform": "рагӏаллъабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабаздаги": {
+    "wordform": "рагӏаллъабаздаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабаздаса": {
+    "wordform": "рагӏаллъабаздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабаздасан": {
+    "wordform": "рагӏаллъабаздасан",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабазде": {
+    "wordform": "рагӏаллъабазде",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъабазул": {
+    "wordform": "рагӏаллъабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8677,6 +11857,30 @@
               "рагӏаллъиялъул",
               "рагӏаллъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаллъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаллъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8712,6 +11916,64 @@
             "av": "шагьаралъул рагӏаллъи",
             "ru": "городская окраина",
             "sense": "городской"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏаллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъиго": {
+    "wordform": "рагӏаллъиго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъияздаса": {
+    "wordform": "рагӏаллъияздаса",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -8765,6 +12027,40 @@
       }
     }
   },
+  "рагӏаллъуда": {
+    "wordform": "рагӏаллъуда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаллъудаса": {
+    "wordform": "рагӏаллъудаса",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏаллъуде": {
     "wordform": "рагӏаллъуде",
     "sources": {
@@ -8805,6 +12101,23 @@
               "рагӏалъул",
               "рагӏал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагӏалъабаздаса": {
+    "wordform": "рагӏалъабаздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8966,6 +12279,30 @@
             "sense": "другой, иной"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9053,6 +12390,45 @@
             "sense": "(у)слышать что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9130,6 +12506,84 @@
             "sense": "известность, популярность; слава"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏарай": {
+    "wordform": "рагӏарай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏараб",
+            "relation": "множественное число",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаракьанде": {
+    "wordform": "рагӏаракьанде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏарал": {
+    "wordform": "рагӏарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9170,6 +12624,105 @@
             "av": "гьаркьал рагӏаралъуре рортана ниж",
             "ru": "мы кинулись туда, откуда слышались крики",
             "sense": "бросаться, броситься; (по)бежать, сбегать, кинуться, рвануться куда-либо"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏарана": {
+    "wordform": "рагӏарана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏаризе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏарарал": {
+    "wordform": "рагӏарарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаризаризе": {
+    "wordform": "рагӏаризаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаризарун": {
+    "wordform": "рагӏаризарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏаризе": {
+    "wordform": "рагӏаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "багӏаризе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -9238,6 +12791,17 @@
             "av": "рагӏдукь гӏодов чӏезе",
             "ru": "сидеть в тени",
             "sense": "в тени"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏдукь",
+            "pos": "наречие"
           }
         ]
       }
@@ -9314,6 +12878,18 @@
             "av": "рагӏдукье ине",
             "ru": "пойти туда, где тень",
             "sense": "в тени"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏдукь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -10689,6 +14265,42 @@
             "sense": "прочный, крепкий; надёжный; неприступный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -10708,6 +14320,18 @@
             "av": "рагӏи-рагӏиккун",
             "ru": "слово в слово",
             "sense": "слово, речь;"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -10764,6 +14388,18 @@
             "sense": "заготавливать, заготовить, наготовить; приготавливать, приготовить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи-хер",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -10808,6 +14444,35 @@
               "рагӏи-хералъ",
               "рагӏи-хералъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи-хер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏи-хербазе": {
+    "wordform": "рагӏи-хербазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи-хер",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -10901,6 +14566,30 @@
             "sense": "добиваться, добиться соответствия чего-либо чему-либо, согласия чего-либо с чем-либо; приводить, привести что-либо в соответствие, в согласие с чем-либо; уладить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -10920,6 +14609,23 @@
             "av": "щакдарухъабаз цо рагӏигицин абичӏо",
             "ru": "колеблющиеся ни слова не промолвили",
             "sense": "колеблющийся"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏигун": {
+    "wordform": "рагӏигун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11073,6 +14779,18 @@
             "from_lemma": "рагӏизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -11129,6 +14847,18 @@
             "sense": "смерть, гибель, кончина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -11152,6 +14882,23 @@
               "рагӏизабуна",
               "рагӏизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагӏизабичӏеб": {
+    "wordform": "рагӏизабичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизаби",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -11246,6 +14993,18 @@
             "sense": "громко говорить, говорить во всеуслишание"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11279,6 +15038,40 @@
             "av": "машгьурав речӏчӏухъан ГӀали ГӀалиевас нилъер Дагъистаналъул цӏар дуниялалдаго рагӏизабуна",
             "ru": "знаменитый борец Али Алиев прославил наш Дагестан на весь мир",
             "sense": "борец"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏизабураб": {
+    "wordform": "рагӏизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏизавизе": {
+    "wordform": "рагӏизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11417,6 +15210,76 @@
             "sense": "известность, популярность; слава"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏизеги": {
+    "wordform": "рагӏизеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏизего": {
+    "wordform": "рагӏизего",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11494,6 +15357,35 @@
             "sense": "бедняк, бедный человек"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиларедухъ": {
+    "wordform": "рагӏиларедухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11528,6 +15420,23 @@
       }
     }
   },
+  "рагӏилеб-рагӏиларедухъ": {
+    "wordform": "рагӏилеб-рагӏиларедухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏиледухъ": {
     "wordform": "рагӏиледухъ",
     "sources": {
@@ -11544,6 +15453,18 @@
             "av": "боржун унеб тӏотӏол гьаракь рагӏиледухъ",
             "ru": "очень тихо; так, что слышно, как муха пролетает",
             "sense": "муха, мухи"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11730,6 +15651,23 @@
       }
     }
   },
+  "рагӏихералъул": {
+    "wordform": "рагӏихералъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏицин": {
     "wordform": "рагӏицин",
     "sources": {
@@ -11787,6 +15725,76 @@
             "av": "цӏам рагӏичӏеб",
             "ru": "недосолённый",
             "sense": "соль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏичӏев": {
+    "wordform": "рагӏичӏев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏичӏел": {
+    "wordform": "рагӏичӏел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11873,6 +15881,86 @@
       }
     }
   },
+  "рагӏичӏого": {
+    "wordform": "рагӏичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏичӏолъи": {
+    "wordform": "рагӏичӏолъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиялда": {
+    "wordform": "рагӏиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиялдалъун": {
+    "wordform": "рагӏиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏиялдаса": {
     "wordform": "рагӏиялдаса",
     "sources": {
@@ -11889,6 +15977,52 @@
             "av": "гӏемераб рагӏиялдаса рагӏ цӏун чӏагӏа лъикӏ",
             "ru": "наполненный бузой сосуд лучше болтовни бесконечной",
             "sense": "сосуд (глиняный); крупный горшок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиялдасан": {
+    "wordform": "рагӏиялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиялде": {
+    "wordform": "рагӏиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11915,6 +16049,35 @@
               "рагӏул",
               "рагӏаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиялъе": {
+    "wordform": "рагӏиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11951,6 +16114,18 @@
             "av": "бегӏераб рагӏиялъул чи",
             "ru": "острослов, острый на язык человек",
             "sense": "острый, проницательный; понятливый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12044,6 +16219,74 @@
       }
     }
   },
+  "рагӏиятлъиялда": {
+    "wordform": "рагӏиятлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏият",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиятлъиялде": {
+    "wordform": "рагӏиятлъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏият",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиятлъудаса": {
+    "wordform": "рагӏиятлъудаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏият",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиятчагӏазул": {
+    "wordform": "рагӏиятчагӏазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рагӏиятчагӏи": {
     "wordform": "рагӏиятчагӏи",
     "sources": {
@@ -12090,6 +16333,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -12114,6 +16369,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчилъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -12135,6 +16402,23 @@
               "рагӏиятчилъиялъ",
               "рагӏиятчилъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиятчилъиялъе": {
+    "wordform": "рагӏиятчилъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчилъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12168,6 +16452,35 @@
             "av": "рагӏиятчилъиялъул заман",
             "ru": "эпоха крепостного права",
             "sense": "крепостничество, крепостное право"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчилъи",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏиятчилъун": {
+    "wordform": "рагӏиятчилъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12218,6 +16531,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏиятчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -12237,6 +16562,52 @@
             "av": "рагӏуда гӏамал гьабизе",
             "ru": "положиться на слово, руководствоваться словом",
             "sense": "действие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏудаго": {
+    "wordform": "рагӏудаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏудалъун": {
+    "wordform": "рагӏудалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -12268,6 +16639,18 @@
             "av": "гӏемераб рагӏудаса, рагӏ цӏун чӏагӏа лъикӏ",
             "ru": "чем много слов, лучше полный сосуд бузы",
             "sense": "буза, брага"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -12310,6 +16693,35 @@
             "av": "жиндирго рагӏуде инкар гьабизе",
             "ru": "отказаться от своего слова",
             "sense": "отказ; отрицание; ослушание; возражение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏуеги": {
+    "wordform": "рагӏуеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -12363,6 +16775,18 @@
             "av": "рагӏукъав чи",
             "ru": "неразговорчивый человек, молчун",
             "sense": "неразговорчивый, молчаливый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏукъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12693,6 +17117,30 @@
             "sense": "этимология"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -12768,6 +17216,30 @@
             "sense": "поездка, путешествие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -12841,6 +17313,52 @@
             "sense": "шум, треск, грохот"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏуларев": {
+    "wordform": "рагӏуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏуларедухъ": {
+    "wordform": "рагӏуларедухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -12891,6 +17409,23 @@
             "av": "хӏалакъаб чахъдал гьаракь рикӏкӏаде рагӏуларо",
             "ru": "блеяние худой овцы далеко не доносится",
             "sense": "худой, худощавый; сухопарый, поджарый; исхудалый, тощий, истощённый; нежирный"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏуларого": {
+    "wordform": "рагӏуларого",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -13453,6 +17988,47 @@
             "sense": "козодой"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏулеб-рагӏулареб": {
+    "wordform": "рагӏулеб-рагӏулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -13472,6 +18048,69 @@
             "av": "мискинчи хун вугилан рагӏилалде рес бугесул килщида заз къан бугилан рагӏулебила",
             "ru": "раньше, чем о смерти бедняка, услишишь, что у имущественного палец укололся о занозу",
             "sense": "бедняк, бедный человек"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏулев": {
+    "wordform": "рагӏулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏуледухъ": {
+    "wordform": "рагӏуледухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏулел": {
+    "wordform": "рагӏулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -13605,6 +18244,47 @@
             "av": "тӏасагъоркье вачӏунев чиясул хӏатӏил гьаракь рагӏун, нахъехун вусана дун",
             "ru": "я обернулся, услышав шаги человека, идущего сверху",
             "sense": "сверху, сверху вниз; вниз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рагӏунгутӏизе": {
+    "wordform": "рагӏунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -13817,6 +18497,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏухъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -13863,6 +18555,23 @@
               "рагӏухъанасул",
               "рагӏухъаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "рагӏухъе": {
+    "wordform": "рагӏухъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рагӏухине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

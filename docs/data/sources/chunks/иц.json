@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "иц",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -69,6 +81,23 @@
       }
     }
   },
+  "ицалъ": {
+    "wordform": "ицалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ици": {
     "wordform": "ици",
     "sources": {
@@ -101,6 +130,35 @@
             "sense": "каменный уголь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ици",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ицидарудал": {
+    "wordform": "ицидарудал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ици",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -123,6 +181,18 @@
               "ициялъул",
               "ицидул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ици",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -396,6 +466,18 @@
             "av": "тӏажу ицица кванан батана",
             "ru": "моль съела брюки",
             "sense": "моль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "иц",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -693,6 +775,42 @@
             "sense": "гравий, щебень"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ицц",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ицц",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ицц",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -790,6 +908,23 @@
             "av": "гӏага-шагардаса гӏебеде иццго гьечӏищ?",
             "ru": "нет ли здесь поблизости родника?",
             "sense": "поблизости, невдалеке"
+          }
+        ]
+      }
+    }
+  },
+  "иццлъун": {
+    "wordform": "иццлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ицц",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1138,6 +1273,18 @@
             "av": "иццул чилчили рагӏулеб букӏана",
             "ru": "слышалось журчание родника",
             "sense": "журчание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ицц",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

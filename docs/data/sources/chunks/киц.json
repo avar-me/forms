@@ -1,4 +1,21 @@
 {
+  "кицабаз": {
+    "wordform": "кицабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кици",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кицабазул": {
     "wordform": "кицабазул",
     "sources": {
@@ -106,6 +123,30 @@
             "av": "кици тӏамизе",
             "ru": "привести пословицу",
             "sense": "(ис)печь; какое-либо дело"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кици",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кици",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -233,6 +274,23 @@
       }
     }
   },
+  "кицилъун": {
+    "wordform": "кицилъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кици",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кицичагӏи": {
     "wordform": "кицичагӏи",
     "sources": {
@@ -350,6 +408,18 @@
               "кицидул",
               "кицаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кици",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

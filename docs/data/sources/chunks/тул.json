@@ -21,6 +21,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тула",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -73,6 +85,17 @@
             "sense": "расторопный, поворотливый; ловкий"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулакаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -115,6 +138,18 @@
             "sense": "расторопный, поворотливый; ловкий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулакаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -135,6 +170,23 @@
             "entry_forms": [
               "тулакаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тулакал": {
+    "wordform": "тулакал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулакаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -234,6 +286,18 @@
             "from_lemma": "тулаклъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулаклъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -282,6 +346,18 @@
             "from_lemma": "тулаклъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулаклъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -307,6 +383,18 @@
               "тулаклъизабе"
             ],
             "from_lemma": "тулаклъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тулаклъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -607,6 +695,30 @@
             "av": "тулеб жо",
             "ru": "мокрота",
             "sense": "(по)плевать, плеваться; (с)плюнуть, выплюнуть; (по)харкать, харкнуть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тула",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тула",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

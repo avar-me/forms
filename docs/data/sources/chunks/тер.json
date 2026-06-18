@@ -502,6 +502,18 @@
             "from_lemma": "терезе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терезе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -603,6 +615,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -661,6 +697,18 @@
             "av": "Терек гӏор бахун ине ккаги",
             "ru": "да придётся тебе переплыть Терек",
             "sense": "переправляться, переправиться через что-либо; переходить, перейти, переезжать, переехать что-л, через что-либо; переходить, перейти вбродь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терек",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -735,6 +783,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терек",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -758,6 +818,57 @@
               "терана",
               "терей"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "терелаго": {
+    "wordform": "терелаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "терелев": {
+    "wordform": "терелев",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "терелел": {
+    "wordform": "терелел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -814,6 +925,18 @@
             "av": "хьитахъе терет бараб гӏадин",
             "ru": "как на [горячих, раскалённых] углях, как на иголках; будто в обувь брошены горячие угли",
             "sense": "обувь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терет",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -947,6 +1070,18 @@
             "sense": "земля, страна"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теркизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -995,6 +1130,18 @@
             "from_lemma": "теркизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теркизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1039,6 +1186,18 @@
             "av": "дуниял теркизе",
             "ru": "исколесить мир",
             "sense": "исколесить, исходить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теркизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1089,6 +1248,40 @@
               "теркана",
               "терке"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "теркулев": {
+    "wordform": "теркулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "теркулей": {
+    "wordform": "теркулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1190,6 +1383,18 @@
             "from_lemma": "теркӏезе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теркӏезе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1238,6 +1443,23 @@
               "теркӏезабуна",
               "теркӏезабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "теркӏезабулеб": {
+    "wordform": "теркӏезабулеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1301,6 +1523,18 @@
             "sense": "приложить силу"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теркӏезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1347,6 +1581,40 @@
               "теркӏана",
               "теркӏей"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "теркӏелеб": {
+    "wordform": "теркӏелеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "теркӏелебго": {
+    "wordform": "теркӏелебго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1417,6 +1685,18 @@
             "av": "чол терлек",
             "ru": "потник лошади",
             "sense": "потник"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терлек",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1516,6 +1796,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1555,6 +1859,18 @@
             "av": "терминазул словарь",
             "ru": "словарь терминов",
             "sense": "термин"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1696,6 +2012,23 @@
       }
     }
   },
+  "терминологиялда": {
+    "wordform": "терминологиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "терминологиялъ": {
     "wordform": "терминологиялъ",
     "sources": {
@@ -1752,6 +2085,57 @@
       }
     }
   },
+  "термита-лъул": {
+    "wordform": "термита-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "термиталдалъун": {
+    "wordform": "термиталдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "термиталъул": {
+    "wordform": "термиталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "термометр": {
     "wordform": "термометр",
     "sources": {
@@ -1802,6 +2186,18 @@
             "av": "термометр лъезе",
             "ru": "поставить градусник",
             "sense": "термометр; градусник"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термометр",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1862,6 +2258,18 @@
             "sense": "термометр; градусник"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термометр",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1884,6 +2292,18 @@
               "термометралъул",
               "термометрал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термометр",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2095,6 +2515,17 @@
             "sense": "термоядерный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "термоядернияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2167,6 +2598,23 @@
       }
     }
   },
+  "теролев": {
+    "wordform": "теролев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "территория": {
     "wordform": "территория",
     "sources": {
@@ -2207,6 +2655,18 @@
             "av": "шагьаралъул территория",
             "ru": "территория города",
             "sense": "территория"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "территория",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2300,6 +2760,18 @@
             "sense": "территориальный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "территория",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2343,6 +2815,18 @@
             "av": "расистазулаб террор",
             "ru": "расистский террор",
             "sense": "террор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "террор",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2751,6 +3235,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терхезабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2829,6 +3325,23 @@
       }
     }
   },
+  "терхезаруна": {
+    "wordform": "терхезаруна",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "терхезе": {
     "wordform": "терхезе",
     "sources": {
@@ -2860,6 +3373,18 @@
             "av": "гьоролгвед гӏадин терхезе",
             "ru": "крутиться словно пустельга",
             "sense": "кобчик, пустельга"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терхезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -2959,6 +3484,18 @@
               "терхероялъул",
               "терхераби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "терхеро",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

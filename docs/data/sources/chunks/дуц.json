@@ -937,6 +937,42 @@
             "sense": "взять в жёны кого-л; пожениться на ком-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "эргативный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "дуца",
+            "relation": "эргативный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "эргативный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "дуца",
+            "relation": "эргативный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -979,6 +1015,30 @@
             "sense": "договор, договорённость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуца",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуца",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1018,6 +1078,18 @@
             "av": "дуцаго пикру гьабун бихьеха!",
             "ru": "сам подумай!, подумай-ка!",
             "sense": "размышление, раздумье, дума; соображение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуца",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

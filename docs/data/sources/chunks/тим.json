@@ -1,0 +1,123 @@
+{
+  "тимар": {
+    "wordform": "тимар",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "тимар",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "тимар",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "тимар",
+              "тимаралъ",
+              "тимаралъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "тимар",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "бекерухъан",
+            "av": "бекерухъаналъе тимар гьабизе",
+            "ru": "гладить, чистить, убрать скакуна",
+            "sense": "скакун, бегун"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "тимар",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "тимар",
+            "av": "чое тимар гьибизе",
+            "ru": "гладить, чистить лошадь",
+            "sense": "чистка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тимар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "тимаралъ": {
+    "wordform": "тимаралъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "тимар",
+            "pos": "существительное",
+            "entry": "тимар",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "тимар",
+              "тимаралъ",
+              "тимаралъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "тимаралъул": {
+    "wordform": "тимаралъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "тимар",
+            "pos": "существительное",
+            "entry": "тимар",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "тимар",
+              "тимаралъ",
+              "тимаралъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "тимур": {
+    "wordform": "тимур",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "ахъсахъ",
+            "av": "ахъсахъ Тимур",
+            "ru": "хромой Тимур, Тамерлан",
+            "sense": "хромой человек, хромец"
+          }
+        ]
+      }
+    }
+  }
+}

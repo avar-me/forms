@@ -90,6 +90,35 @@
             "sense": "синтаксический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разбор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "разбора": {
+    "wordform": "разбора",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разбор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -216,6 +245,18 @@
             "sense": "разведка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведка",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -270,6 +311,35 @@
             "sense": "разведка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведка",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разведкаялъе": {
+    "wordform": "разведкаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведка",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -291,6 +361,18 @@
               "разведкаялъ",
               "разведкаялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведка",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -321,6 +403,17 @@
             "av": "разведкаялъулаб центр",
             "ru": "разведывательный центр",
             "sense": "разведывательный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведкаялъулаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -608,6 +701,18 @@
               "разведчицаялъул",
               "разведчицаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разведчица",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1124,6 +1229,32 @@
             "sense": "струна"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "базе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "базе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1235,6 +1366,56 @@
             "sense": "в состоянии удовлетворения кем-чем-либо; в согласии с кем-чем-либо на что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "рази-лъана": {
+    "wordform": "рази-лъана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1254,6 +1435,17 @@
             "entry_forms": [
               "рази-ракиго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази-ракиго",
+            "pos": "наречие"
           }
         ]
       }
@@ -1632,6 +1824,23 @@
       }
     }
   },
+  "рази-ракияблъун": {
+    "wordform": "рази-ракияблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази-ракияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рази-ракияв": {
     "wordform": "рази-ракияв",
     "sources": {
@@ -1649,6 +1858,18 @@
             "entry_forms": [
               "рази-ракияб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази-ракияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1710,6 +1931,45 @@
             "av": "ракӏ разиго",
             "ru": "радушно, весело",
             "sense": "сердце, душа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разиго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разиго",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "разигьечӏолъи": {
+    "wordform": "разигьечӏолъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рази",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1798,6 +2058,47 @@
             "sense": "быть, стать довольным, удовлетворённым"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъараб": {
+    "wordform": "разилъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1821,6 +2122,18 @@
               "разилъана",
               "разилъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1876,6 +2189,30 @@
             "av": "тӏолалго хӏалтӏухъабазул разилъи",
             "ru": "согласие всех работников",
             "sense": "согласие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2051,6 +2388,23 @@
       }
     }
   },
+  "разилъизавизе": {
+    "wordform": "разилъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "разилъизаруна": {
     "wordform": "разилъизаруна",
     "sources": {
@@ -2135,6 +2489,30 @@
             "sense": "жизнь, существование"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2194,6 +2572,23 @@
       }
     }
   },
+  "разилъичӏеб": {
+    "wordform": "разилъичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "разилъичӏо": {
     "wordform": "разилъичӏо",
     "sources": {
@@ -2210,6 +2605,132 @@
             "av": "гьеб къабихӏаб иш гьабизе дов разилъичӏо",
             "ru": "он не согласился на этот позорный поступок",
             "sense": "скверный, дурной, гадкий, мерзкий, безобразный, отвратительный, позорный, унизительный"
+          }
+        ]
+      }
+    }
+  },
+  "разилъичӏого": {
+    "wordform": "разилъичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъиялда": {
+    "wordform": "разилъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъиялда-лъун": {
+    "wordform": "разилъиялда-лъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъиялдалъун": {
+    "wordform": "разилъиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъиялдаса": {
+    "wordform": "разилъиялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъиялде": {
+    "wordform": "разилъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2258,6 +2779,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2283,6 +2828,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2304,6 +2861,69 @@
             "sense": "почему же, зачем же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъуларого": {
+    "wordform": "разилъуларого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъулев": {
+    "wordform": "разилъулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "разилъулерев": {
+    "wordform": "разилъулерев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2323,6 +2943,30 @@
             "av": "къадаралда разилъун чӏезе ккола бусурманчи",
             "ru": "мусульманин должен смириться со своей судьбой",
             "sense": "судьба, рок, предопределение; божественная детерминированность происходящих в мире явлений"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2359,6 +3003,35 @@
             "sense": "несогласие; недовольствие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъунгутӏи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "разилъунгутӏизе": {
+    "wordform": "разилъунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъунгутӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2380,6 +3053,23 @@
               "разилъунгутӏиялъ",
               "разилъунгутӏиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "разилъунгутӏиялъе": {
+    "wordform": "разилъунгутӏиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъунгутӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2415,6 +3105,18 @@
             "sense": "нота"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разилъунгутӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2443,6 +3145,17 @@
             "av": "лъикӏаб ххъулухъги буго, разияб ставкаги буго",
             "ru": "и работа хорошая, и ставка удовлетворительная",
             "sense": "ставка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2485,6 +3198,18 @@
             "av": "дун гьелда тӏубанго разияв вуго",
             "ru": "я с этим вполне согласен",
             "sense": "согласный с кем-чем-либо на что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2607,6 +3332,23 @@
       }
     }
   },
+  "размера": {
+    "wordform": "размера",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "размер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "размерал": {
     "wordform": "размерал",
     "sources": {
@@ -2686,6 +3428,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "размер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2759,6 +3513,35 @@
             "av": "спортсменасул разряд",
             "ru": "разряд спортсмена",
             "sense": "спортсмен"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разряд",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "разряда-лъул": {
+    "wordform": "разряда-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разряд",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2882,6 +3665,18 @@
             "av": "щуабилеб разрядалъул сварщик",
             "ru": "сварщик пятого разряда",
             "sense": "сварщик и сварщица"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "разряд",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

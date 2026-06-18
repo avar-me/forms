@@ -93,6 +93,17 @@
             "sense": "быть доблестным, храбрым, бесстрашным, мужественным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "додин",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -169,6 +180,17 @@
             "av": "сон хинаб къо букӏана, додинабго къо жакъаги буго",
             "ru": "вчера был тёмлый день, такой же день и сегодня",
             "sense": "такой же"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "додинабго",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -308,6 +330,52 @@
             "av": "додинал чагӏазда аскӏове къазе бегьуларо",
             "ru": "нельзя связываться с такими [как те] людьми",
             "sense": "такой"
+          }
+        ]
+      }
+    }
+  },
+  "додинаса": {
+    "wordform": "додинаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "додинаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "додинги": {
+    "wordform": "додинги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "додин",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "додин",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

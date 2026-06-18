@@ -31,6 +31,18 @@
             "sense": "форель"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масакӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -166,6 +178,17 @@
             "av": "масала, нилъер росулъ лъабго кӏудияв гӏалимчи вахъана",
             "ru": "например, в нашем ауле родились три великих учёных",
             "sense": "например, к примеру"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масала",
+            "pos": "наречие"
           }
         ]
       }
@@ -372,6 +395,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масжид",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -466,6 +501,18 @@
               "масихӏас",
               "масихӏасул"
             ]
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масихӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -580,6 +627,47 @@
             "sense": "противогазный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маска",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маска",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "маскабазда": {
+    "wordform": "маскабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маска",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -642,6 +730,23 @@
       }
     }
   },
+  "маскарада-лъул": {
+    "wordform": "маскарада-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маскарад",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "маскарадал": {
     "wordform": "маскарадал",
     "sources": {
@@ -682,6 +787,23 @@
             "av": "маскарадалда гӏахьаллъизе",
             "ru": "участвовать на маскараде",
             "sense": "маскарад"
+          }
+        ]
+      }
+    }
+  },
+  "маскарадалде": {
+    "wordform": "маскарадалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маскарад",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -739,6 +861,18 @@
             "av": "маскарадалъул ретӏел",
             "ru": "маскарадный костюм",
             "sense": "2 маскарадный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маскарад",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -851,6 +985,18 @@
             "av": "рагъаразе маслахӏат гьабизе гьоркьоре херал чагӏи лъугьана",
             "ru": "старики вмешались, чтобы помирить передравшихся",
             "sense": "примирение, соглашение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслахӏат",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1114,6 +1260,18 @@
             ]
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслахӏатчи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1256,6 +1414,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1275,6 +1445,51 @@
             "entry_forms": [
               "маслигӏатаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏатаб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "маслигӏаталде": {
+    "wordform": "маслигӏаталде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "маслигӏаталлъун": {
+    "wordform": "маслигӏаталлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1298,6 +1513,23 @@
               "маслигӏаталъ",
               "маслигӏаталъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "маслигӏаталъе": {
+    "wordform": "маслигӏаталъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1331,6 +1563,18 @@
             "av": "маслигӏаталъул комиссия",
             "ru": "примирительная комиссия",
             "sense": "комиссия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1380,6 +1624,18 @@
               "маслигӏатчиясул",
               "маслигӏатчагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маслигӏатчи",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1607,6 +1863,18 @@
             "sense": "массаж"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "массаж",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1799,6 +2067,57 @@
       }
     }
   },
+  "массаялда": {
+    "wordform": "массаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масс",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "массаялъе": {
+    "wordform": "массаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масс",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "массаялъулги": {
+    "wordform": "массаялъулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масс",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "массоназул": {
     "wordform": "массоназул",
     "sources": {
@@ -1879,6 +2198,18 @@
             "entry": "спорт",
             "av": "спорталъул мастер",
             "ru": "мастер спорта"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мастер",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2108,6 +2439,18 @@
             "sense": "реставрационный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мастерская",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2130,6 +2473,18 @@
               "мастерскаялъул",
               "мастерскаял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мастерская",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2212,6 +2567,23 @@
             "av": "чӏабаралда мастика бахине",
             "ru": "натирать пол мастикой",
             "sense": "мастика"
+          }
+        ]
+      }
+    }
+  },
+  "мастикаялда": {
+    "wordform": "мастикаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мастика",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2723,6 +3095,23 @@
       }
     }
   },
+  "масхарахочӏалъул": {
+    "wordform": "масхарахочӏалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масхара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "масхарахӏалаб": {
     "wordform": "масхарахӏалаб",
     "sources": {
@@ -2790,6 +3179,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масхарачи",
+            "relation": "повелительное",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2836,6 +3237,23 @@
               "масхарачиясул",
               "масхарачагӏи"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "масхараялда": {
+    "wordform": "масхараялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масхара",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3434,6 +3852,64 @@
             "sense": "раньше кого-чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "масъалабаз": {
+    "wordform": "масъалабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "масъалабазде": {
+    "wordform": "масъалабазде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3453,6 +3929,18 @@
             "av": "биологиялъул масъалабазул хӏакъалъулъ кӏалъай гьабизе",
             "ru": "сделать доклад по биологическим вопросам",
             "sense": "биологический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3499,6 +3987,18 @@
             "sense": "тактический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3518,6 +4018,35 @@
             "av": "масъалаялда тӏад ургъизе",
             "ru": "думать над задачей",
             "sense": "(по)думать, мыслить, размышлять"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "масъалаялде": {
+    "wordform": "масъалаялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3565,6 +4094,18 @@
             "sense": "находить, найти; отыскивать, отыскать; разыскать; обнаруживать, обнаружить; встречать, встретить кого-что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3607,6 +4148,35 @@
             "av": "масъалаялъул магӏнаялде тӏадеккезе",
             "ru": "догадываться об условии задачи",
             "sense": "догадываться, догадаться о чём-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "масъалаялъухъ": {
+    "wordform": "масъалаялъухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "масъала",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

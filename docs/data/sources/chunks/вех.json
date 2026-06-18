@@ -227,6 +227,77 @@
       }
     }
   },
+  "вехъерхъана": {
+    "wordform": "вехъерхъана",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вехъерхъарав": {
+    "wordform": "вехъерхъарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вехизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вехъерхъизе": {
+    "wordform": "вехъерхъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вехъерхъила": {
+    "wordform": "вехъерхъила",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вехъерхъулев": {
     "wordform": "вехъерхъулев",
     "sources": {
@@ -264,6 +335,30 @@
             "av": "мехтарав рокъове вехъерхъун ана",
             "ru": "пьяного потащили домой",
             "sense": "волочить, тянуть, тащить что-л/ (по земле); притащить, утащить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вехизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вехизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -461,6 +556,17 @@
             "av": "щват-квер биччан гӏурдада вегун вуго вехь",
             "ru": "растянувшись всем телом и раскинув руки, лежит на поляне пастух",
             "sense": "туловище и конечности; всё тело"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вехь",
+            "pos": "выражение"
           }
         ]
       }
@@ -934,6 +1040,18 @@
             "av": "вехьасул щвантӏих",
             "ru": "пастушья дудка",
             "sense": "дудка, свирель"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вехь",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

@@ -114,6 +114,35 @@
             "sense": "римский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румал",
+            "relation": "родительный падеж",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "румазулги": {
+    "wordform": "румазулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румал",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -204,6 +233,23 @@
               "румалъ",
               "румалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "руманазул": {
+    "wordform": "руманазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -383,6 +429,18 @@
             "sense": "румынский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румынал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -407,6 +465,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румынай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -429,6 +499,18 @@
               "румыназ",
               "румыназул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румынал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -521,6 +603,23 @@
               "румынас",
               "румынасул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "румыниязул": {
+    "wordform": "румыниязул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "румын",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

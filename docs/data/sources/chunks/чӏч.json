@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чӏчӏвад",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -94,6 +106,35 @@
             "av": "чӏчӏвадил гӏер",
             "ru": "ясеневый шест",
             "sense": "ясеневый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чӏчӏвад",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чӏчӏвадилги": {
+    "wordform": "чӏчӏвадилги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чӏчӏвадил",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

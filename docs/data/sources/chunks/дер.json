@@ -134,6 +134,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дергело",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -550,6 +562,23 @@
               "дергъана",
               "дергъей"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дергъолеб": {
+    "wordform": "дергъолеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дергъезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

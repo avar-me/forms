@@ -185,6 +185,42 @@
             "sense": "срок, пора; время, отрезок времени; период"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -266,6 +302,64 @@
             "sense": "рядом, близко, вблизи, около, в соседстве"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьалдаса": {
+    "wordform": "ригьалдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьалде": {
+    "wordform": "ригьалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -287,6 +381,18 @@
               "ригьалъ",
               "ригьалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -320,6 +426,18 @@
             "av": "гьоркьохъеб гӏумруялъул (ригьалъул) чи",
             "ru": "человек среднего возраста",
             "sense": "средний"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -400,6 +518,17 @@
             "sense": "вовремя, в самое время"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьда",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -437,6 +566,17 @@
             "av": "ригьдаго вахъун вугогури жакъа мун",
             "ru": "рано же ты сегодня встал",
             "sense": "преждевременно, рано"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьдаго",
+            "pos": "наречие"
           }
         ]
       }
@@ -516,6 +656,23 @@
       }
     }
   },
+  "ригьдаса": {
+    "wordform": "ригьдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ригьзал": {
     "wordform": "ригьзал",
     "sources": {
@@ -545,6 +702,35 @@
             "av": "ригьзал разе",
             "ru": "построить дома",
             "sense": "дом, здание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьзахъе": {
+    "wordform": "ригьзахъе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -579,6 +765,18 @@
             "av": "ригьил манзилалъ",
             "ru": "на высоте одного дома",
             "sense": "дом, здание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -665,6 +863,42 @@
             "av": "ригьин гьабизе",
             "ru": "заключить брачный союз; вступить в брак; совершить бракосочетание; (по)жениться",
             "sense": "брак, бракосочетание; брачный союз; женитьба"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -808,6 +1042,64 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьинаризе": {
+    "wordform": "ригьинаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьинарулеб": {
+    "wordform": "ригьинарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -827,6 +1119,23 @@
             "av": "ригьинги баркат бугеб батаги",
             "ru": "да будет благословенным ваш брачный союз",
             "sense": "благословение"
+          }
+        ]
+      }
+    }
+  },
+  "ригьинчӏел": {
+    "wordform": "ригьинчӏел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -872,6 +1181,35 @@
             "av": "ригьнада йигей",
             "ru": "замужная",
             "sense": "брак, бракосочетание; брачный союз; женитьба"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьнадасан": {
+    "wordform": "ригьнадасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -923,6 +1261,35 @@
             "av": "ригьнаде кьезе",
             "ru": "выдать замуж",
             "sense": "брак, бракосочетание; брачный союз; женитьба"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ригьнадул": {
+    "wordform": "ригьнадул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -986,6 +1353,18 @@
             "av": "ригьнакӏо йитӏичӏого тӏубалин кколаро",
             "ru": "без свахи не обойдётся",
             "sense": "сват, сводник; сваха, сводница"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьнакӏо",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1137,6 +1516,18 @@
             "sense": "брак, бракосочетание; брачный союз; женитьба"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1160,6 +1551,23 @@
               "ригьиналъул",
               "ригьнал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ригьунго": {
+    "wordform": "ригьунго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ригьин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

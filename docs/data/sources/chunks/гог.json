@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогаман",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -76,6 +88,18 @@
             "sense": "тёрн"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогаман",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -123,6 +147,17 @@
             "av": "эбелалъ яс гогь гьаюн йиго",
             "ru": "мать разбаловала дочку",
             "sense": "избалованно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогь",
+            "pos": "наречие"
           }
         ]
       }
@@ -173,6 +208,28 @@
             "sense": "избалованный, капризный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -203,6 +260,18 @@
             "av": "гогьав чи",
             "ru": "избалованный человек; баловник, баловень",
             "sense": "избалованный, капризный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -245,6 +314,47 @@
             "av": "гогьай жо",
             "ru": "избалованная женщина, баловница, капризница",
             "sense": "избалованный, капризный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьал": {
+    "wordform": "гогьал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -325,6 +435,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -403,6 +525,18 @@
             "av": "ясалъул гогьдари дида берцин бихьуларо",
             "ru": "мне не по душе кокетничанье девушки",
             "sense": "переводится в разных падежах"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -498,6 +632,18 @@
             "sense": "дитя, ребёнок"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -576,6 +722,57 @@
       }
     }
   },
+  "гогьдаризабураб": {
+    "wordform": "гогьдаризабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьдаризавизе": {
+    "wordform": "гогьдаризавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдари",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьдаризавурав": {
+    "wordform": "гогьдаризавурав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдари",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гогьдаризаризе": {
     "wordform": "гогьдаризаризе",
     "sources": {
@@ -613,6 +810,23 @@
             "av": "гогьдаризаюни чӏужу гордухъан ялагьулей",
             "ru": "жену избалуешь — она смотрит в окно",
             "sense": "(из)баловать кого-либо"
+          }
+        ]
+      }
+    }
+  },
+  "гогьдаризаюрай": {
+    "wordform": "гогьдаризаюрай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдари",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -709,6 +923,18 @@
             "av": "эбел-инсул цохӏо йигей яс гогьдаризе ругьунлъана",
             "ru": "единственная у родителей дочь привыкла баловаться",
             "sense": "быть, стать избалованным, капризным; баловаться, капризничать; шалить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -869,6 +1095,52 @@
             "ru": "ты же не ребёнок, почему балуешься?"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьдарулей": {
+    "wordform": "гогьдарулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьдарун": {
+    "wordform": "гогьдарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьдаризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -955,6 +1227,69 @@
             "from_lemma": "гогьлъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "гогьлъи-гьаглъиялда": {
+    "wordform": "гогьлъи-гьаглъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьлъизабизе": {
+    "wordform": "гогьлъизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гогьлъизабураб": {
+    "wordform": "гогьлъизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -979,6 +1314,18 @@
               "гогьлъана",
               "гогьлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1108,6 +1455,18 @@
             "sense": "быть, стать (из)балованным, (из)баловаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1139,6 +1498,17 @@
             "av": "дир гогьма!",
             "ru": "капризница моя!",
             "sense": "баловень, баловница; кокетка; кокетливый, капризный человек или женщина; капризник и капризница; капризуля; шалопай"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьма",
+            "pos": "выражение"
           }
         ]
       }
@@ -1232,6 +1602,23 @@
               "гогьмал",
               "гогьмаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гогьмаясде": {
+    "wordform": "гогьмаясде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гогьма",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

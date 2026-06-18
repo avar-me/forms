@@ -97,6 +97,18 @@
             "sense": "сбор, сборище, толпа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жундул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -120,6 +132,18 @@
               "жундузул"
             ],
             "from_lemma": "жен"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жен",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -173,6 +197,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жинжра",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "жунжраби": {
+    "wordform": "жунжраби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жинжра",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -194,6 +247,23 @@
               "жуни"
             ],
             "from_lemma": "жунизе"
+          }
+        ]
+      }
+    }
+  },
+  "жунизабизе": {
+    "wordform": "жунизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жуни",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

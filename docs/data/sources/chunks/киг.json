@@ -197,6 +197,45 @@
             "sense": "вверх"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "кигӏанал": {
+    "wordform": "кигӏанал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -216,6 +255,35 @@
             "av": "кигӏаналде дуца чу босраб?",
             "ru": "за сколько ты коня купил?",
             "sense": "купить, покупать; приобретать, приобрести"
+          }
+        ]
+      }
+    }
+  },
+  "кигӏаналиго": {
+    "wordform": "кигӏаналиго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -251,6 +319,23 @@
       }
     }
   },
+  "кигӏанасеб": {
+    "wordform": "кигӏанасеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кигӏанасев": {
     "wordform": "кигӏанасев",
     "sources": {
@@ -267,6 +352,23 @@
             "av": "— Дида лъаларо. — Лъалеб мехалъ кигӏанасев чи вукӏарав?",
             "ru": "Я не знаю. — Сколько лет тебе было, когда знал?; —?",
             "sense": "знать что-либо; получать знание; обладать знаниями; иметь понятие о ком-чём-либо"
+          }
+        ]
+      }
+    }
+  },
+  "кигӏанги": {
+    "wordform": "кигӏанги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -366,6 +468,17 @@
             "entry_forms": [
               "кигӏанниги"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кигӏанниги",
+            "pos": "наречие"
           }
         ]
       }

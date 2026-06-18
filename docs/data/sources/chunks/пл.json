@@ -455,6 +455,18 @@
             "sense": "плакат"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плакат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -871,6 +883,64 @@
             "sense": "пять, пяти"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "планазда": {
+    "wordform": "планазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "планазул": {
+    "wordform": "планазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -903,6 +973,18 @@
             "av": "производственниял планал",
             "ru": "производственные планы",
             "sense": "производственный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -946,6 +1028,18 @@
             "sense": "догадаться предать забвению"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -967,6 +1061,18 @@
             "sense": "план"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -986,6 +1092,18 @@
             "av": "планалде босизе",
             "ru": "планировать, включить в план",
             "sense": "план"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1034,6 +1152,18 @@
               "планалъул",
               "планал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1135,6 +1265,23 @@
             "entry_forms": [
               "планалъулаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "планалъулгун": {
+    "wordform": "планалъулгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "план",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1446,6 +1593,47 @@
             "sense": "планета"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "планетабазда": {
+    "wordform": "планетабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1470,6 +1658,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "планетазда": {
+    "wordform": "планетазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1489,6 +1706,40 @@
             "av": "планетазул тартиб (гӏуцӏи)",
             "ru": "система планет, планетная система",
             "sense": "планета"
+          }
+        ]
+      }
+    }
+  },
+  "планетазулги": {
+    "wordform": "планетазулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "планеталда": {
+    "wordform": "планеталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планета",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2155,6 +2406,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плантация",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2278,6 +2541,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плантация",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2375,6 +2650,18 @@
               "планшеталъул",
               "планшетал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планшет",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2482,6 +2769,18 @@
             "av": "планёр боржине биччазе",
             "ru": "пускать планёр в полёт",
             "sense": "планёр"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "планёр",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2626,6 +2925,17 @@
             "sense": "пластический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластикияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2692,6 +3002,23 @@
               "пластилиналъ",
               "пластилиналъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "пластилина-лъул": {
+    "wordform": "пластилина-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластилин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2815,6 +3142,18 @@
             "sense": "пластинка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластинка",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2837,6 +3176,35 @@
               "пластинкаялъул",
               "пластинкаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластинка",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пластинкаялда": {
+    "wordform": "пластинкаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластинка",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2909,6 +3277,35 @@
               "пластмассаялъ",
               "пластмассаялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластмасса",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "пластмассалъул": {
+    "wordform": "пластмассалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластмасса",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2987,6 +3384,18 @@
             "sense": "пластмассовый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пластмасса",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3030,6 +3439,18 @@
             "av": "политикияб платформа",
             "ru": "политическая платформа",
             "sense": "платформа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "платформа",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3236,6 +3657,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плацкарта",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3258,6 +3691,40 @@
               "плацкартаялъул",
               "плацкартаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "плацкартал": {
+    "wordform": "плацкартал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плацкарта",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "плацкарталъул": {
+    "wordform": "плацкарталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плацкарта",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3404,6 +3871,18 @@
             "sense": "плащ"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плащ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3426,6 +3905,18 @@
               "плащалъул",
               "плащал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плащ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3474,6 +3965,23 @@
               "плащалъул",
               "плащал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "плащги": {
+    "wordform": "плащги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "плащ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3574,6 +4082,17 @@
             "av": "пленарияб данделъи",
             "ru": "пленарное заседание",
             "sense": "пленарный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пленарияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -3717,6 +4236,23 @@
               "пленумалъул",
               "пленумал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "пленумалда": {
+    "wordform": "пленумалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пленум",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3931,6 +4467,18 @@
             "sense": "пломба"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пломба",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3953,6 +4501,18 @@
               "пломбалъул",
               "пломбаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пломба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4101,6 +4661,18 @@
             "av": "пляжалда чвердезе",
             "ru": "купаться на пляже",
             "sense": "пляж"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пляж",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

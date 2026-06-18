@@ -40,6 +40,19 @@
             "sense": "президиум"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -238,6 +251,50 @@
             "sense": "шейх-уль-ислам"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вищила": {
+    "wordform": "вищила",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -255,6 +312,37 @@
             "av": "щивдай долъ тӏаса вищилев?",
             "ru": "кого же она выберет?",
             "sense": "кто же, кого же"
+          }
+        ]
+      }
+    }
+  },
+  "вищун": {
+    "wordform": "вищун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищун",
+            "relation": "мужской род",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бищун",
+            "relation": "мужской род",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

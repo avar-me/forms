@@ -1,4 +1,21 @@
 {
+  "рия-лъулгун": {
+    "wordform": "рия-лъулгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рияъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рияалъ": {
     "wordform": "рияалъ",
     "sources": {
@@ -40,6 +57,42 @@
               "рияалъ",
               "рияалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "риялъ": {
+    "wordform": "риялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "би",
+            "relation": "множественное число",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "риялъул": {
+    "wordform": "риялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "би",
+            "relation": "множественное число",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -133,6 +186,18 @@
               "рияъчиясул",
               "рияъчагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рияъчи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

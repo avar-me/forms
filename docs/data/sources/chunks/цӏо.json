@@ -40,6 +40,18 @@
             "sense": "молозиво"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -92,6 +104,18 @@
             "av": "цӏоб лъезе",
             "ru": "оказывать милость",
             "sense": "милость, милосердие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоб",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -164,6 +188,18 @@
             "av": "чияр цӏобалде ккезе",
             "ru": "нуждаться в чьей-либо помощи, милости",
             "sense": "очутиться, оказаться где-либо; попадать, попасть куда-либо во что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -285,6 +321,23 @@
       }
     }
   },
+  "цӏоварани": {
+    "wordform": "цӏоварани",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏогь": {
     "wordform": "цӏогь",
     "sources": {
@@ -345,6 +398,18 @@
             "av": "доба цӏогь ккун буго",
             "ru": "там произошла кража",
             "sense": "воровство, кража"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -415,6 +480,23 @@
       }
     }
   },
+  "цӏогьазе": {
+    "wordform": "цӏогьазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏогьазул": {
     "wordform": "цӏогьазул",
     "sources": {
@@ -445,6 +527,18 @@
             "sense": "воровской"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -468,6 +562,18 @@
               "цӏогьазул"
             ],
             "from_lemma": "цӏогьор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьор",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -562,6 +668,30 @@
               "цӏогьоди"
             ],
             "from_lemma": "цӏогьодизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -770,6 +900,18 @@
             "sense": "заниматься воровством, воровать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -793,6 +935,40 @@
               "цӏогьодана",
               "цӏогьоде"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьодичӏого": {
+    "wordform": "цӏогьодичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьоди",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьодиялда": {
+    "wordform": "цӏогьодиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьоди",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -833,6 +1009,86 @@
       }
     }
   },
+  "цӏогьодулаго": {
+    "wordform": "цӏогьодулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьодулев": {
+    "wordform": "цӏогьодулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьодун": {
+    "wordform": "цӏогьодун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьодухъанлъи": {
+    "wordform": "цӏогьодухъанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьодизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏогьол": {
     "wordform": "цӏогьол",
     "sources": {
@@ -862,6 +1118,18 @@
             "av": "цӏогьол чи",
             "ru": "воры",
             "sense": "воровство, кража"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -979,6 +1247,30 @@
             "av": "цӏогьор гӏорцӏуларо, цӏалунчи вакъуларо",
             "ru": "вор не насытится, учёный не проголодает",
             "sense": "учёный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьор",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1104,6 +1396,18 @@
               "цӏогьоралъул",
               "цӏогьал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1270,6 +1574,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьормахӏав",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьормахӏго": {
+    "wordform": "цӏогьормахӏго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогьор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1289,6 +1622,23 @@
             "av": "цӏогьотӏа кквезе",
             "ru": "попасться на воровстве",
             "sense": "воровство, кража"
+          }
+        ]
+      }
+    }
+  },
+  "цӏогьохъего": {
+    "wordform": "цӏогьохъего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏогь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1323,6 +1673,23 @@
             "av": "цӏогьоца басралъана досул цӏар",
             "ru": "из-за воровства его имя стало презренным",
             "sense": "(о)срамиться, (о)позориться; унижаться, унизиться; стать, быть осрамленным, униженным, опозоренным, презренным; (по)терять авторитет"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодо-гъодорлъи": {
+    "wordform": "цӏодо-гъодорлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1365,6 +1732,32 @@
             "sense": "умно, разумно; с умом"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодор-лъизе": {
+    "wordform": "цӏодор-лъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1383,6 +1776,44 @@
             "av": "гӏалхул бер цӏодораб, хъурмил гӏамал хъантӏараб",
             "ru": "у природы глаз зоркий, у зверя нрав хищный",
             "sense": "глушь, неосвоенная земля"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодораблъун": {
+    "wordform": "цӏодораблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
           }
         ]
       }
@@ -1450,6 +1881,60 @@
             "sense": "человек, мужчина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодоравлъун": {
+    "wordform": "цӏодоравлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодорай": {
+    "wordform": "цӏодорай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1468,6 +1953,28 @@
             "av": "цӏодорал берал",
             "ru": "зоркие глаза",
             "sense": "глаз, око; чего-либо; свет очей; свет очей; умереть; сна кого-что-либо(древниеаварцы верили тому, что дёргание век правого глаза у мужчин, левого — уженщин ко злу, а если наоборот, то к добру)на ком-либо бранное слово, выражение в переносном значении ласкательная (форма) чьих-либо ласкательная (форма) пословица поговорка поговорка загадкацⅠаддождьбранное слово, выражение в переносном значении бранное слово, выражение поговорка бранное слово, выражение буквально в переносном значении(отгнева)в переносном значении"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
           }
         ]
       }
@@ -1539,6 +2046,28 @@
             "sense": "умно, разумно; с умом"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодор",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1604,6 +2133,18 @@
               "цӏодорлъана",
               "цӏодорлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъизе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1715,6 +2256,64 @@
             "av": "цӏодорлъи гьечӏев",
             "ru": "неосторожный",
             "sense": "осторожность, чуткость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодорлъи-гӏакъиллъи": {
+    "wordform": "цӏодорлъи-гӏакъиллъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏодорлъибегӏерлъи": {
+    "wordform": "цӏодорлъибегӏерлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1870,6 +2469,23 @@
       }
     }
   },
+  "цӏодорлъизавизе": {
+    "wordform": "цӏодорлъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏодорлъизе": {
     "wordform": "цӏодорлъизе",
     "sources": {
@@ -1901,6 +2517,17 @@
             "sense": "становиться, стать умным, сообразительным, благоразумным, понятливым, смыщлённым, смекалистым"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъизе",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -1929,6 +2556,35 @@
       }
     }
   },
+  "цӏодорлъиялда": {
+    "wordform": "цӏодорлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏодорлъиялъ": {
     "wordform": "цӏодорлъиялъ",
     "sources": {
@@ -1952,6 +2608,23 @@
       }
     }
   },
+  "цӏодорлъиялъе": {
+    "wordform": "цӏодорлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏодорлъиялъул": {
     "wordform": "цӏодорлъиялъул",
     "sources": {
@@ -1970,6 +2643,18 @@
               "цӏодорлъиялъ",
               "цӏодорлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏодорлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2309,6 +2994,30 @@
             "sense": "козий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2331,6 +3040,18 @@
               "цӏоко-къехьалъ",
               "цӏоко-къехьалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко-къехь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2379,6 +3100,103 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко-къехь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоко-тӏомалъалъул": {
+    "wordform": "цӏоко-тӏомалъалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоко-тӏомалъул": {
+    "wordform": "цӏоко-тӏомалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоко-тӏоналъул": {
+    "wordform": "цӏоко-тӏоналъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏокобахъ": {
+    "wordform": "цӏокобахъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏокодул": {
+    "wordform": "цӏокодул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2406,6 +3224,74 @@
       }
     }
   },
+  "цӏокоялда": {
+    "wordform": "цӏокоялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏокоялъул": {
+    "wordform": "цӏокоялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоко",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏокӏалал": {
+    "wordform": "цӏокӏалал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏокӏаллъи": {
+    "wordform": "цӏокӏаллъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏола": {
     "wordform": "цӏола",
     "sources": {
@@ -2428,6 +3314,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2447,6 +3345,23 @@
             "av": "хъазил къенероги ханасул чвантаги киданиги цӏоларебила",
             "ru": "зоб гуся и карман хана никогда не наполняются",
             "sense": "зоб"
+          }
+        ]
+      }
+    }
+  },
+  "цӏолбодасан": {
+    "wordform": "цӏолбодасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2633,6 +3548,18 @@
             "sense": "буза, брага"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏибил",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2680,6 +3607,18 @@
               "цӏолбохъанасул",
               "цӏолбохъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏолбохъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2819,6 +3758,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏолбохъанлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2865,6 +3816,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏолбохъанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2886,6 +3849,98 @@
               "цӏолбоца",
               "цӏолбол"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏолеб": {
+    "wordform": "цӏолеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏолев": {
+    "wordform": "цӏолев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏолей": {
+    "wordform": "цӏолей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏолел": {
+    "wordform": "цӏолел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2935,6 +3990,57 @@
               "цӏонкрол",
               "цӏинкрал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏопида": {
+    "wordform": "цӏопида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоралде": {
+    "wordform": "цӏоралде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоралъул": {
+    "wordform": "цӏоралъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3037,6 +4143,57 @@
       }
     }
   },
+  "цӏоро-гъорозабизе": {
+    "wordform": "цӏоро-гъорозабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоро-гъорозабулеб": {
+    "wordform": "цӏоро-гъорозабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоро-гъорозабулеббуго": {
+    "wordform": "цӏоро-гъорозабулеббуго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цӏоро-гъорозе": {
     "wordform": "цӏоро-гъорозе",
     "sources": {
@@ -3056,6 +4213,18 @@
               "цӏоро-гъорола",
               "цӏоро-гъорона"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -3127,6 +4296,30 @@
             "sense": "окаменеть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3148,6 +4341,23 @@
               "цӏоро-гъорола",
               "цӏоро-гъорона"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏоро-гъорорал": {
+    "wordform": "цӏоро-гъорорал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоро-гъорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3282,6 +4492,18 @@
             "sense": "рецепт"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏороберал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3303,6 +4525,18 @@
               "цӏоробераз",
               "цӏороберазул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏороберал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3389,6 +4623,69 @@
             "sense": "очки"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏороберал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "цӏороги": {
+    "wordform": "цӏороги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏорогъорозе": {
+    "wordform": "цӏорогъорозе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏорогъорон": {
+    "wordform": "цӏорогъорон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3408,6 +4705,52 @@
             "av": "цӏорода тӏад",
             "ru": "на льду, на льдине",
             "sense": "лёд"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏородаса": {
+    "wordform": "цӏородаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏородасан": {
+    "wordform": "цӏородасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3447,6 +4790,34 @@
             "av": "цӏородго квана нижеца гьан",
             "ru": "мы съели мясо холодным",
             "sense": "в остившем виде, остывшим"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏородго",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "цӏороде": {
+    "wordform": "цӏороде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3496,6 +4867,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозаби",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3532,6 +4915,18 @@
             "sense": "остужать, остудить; давать остыть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3555,6 +4950,23 @@
               "цӏорозабуна",
               "цӏорозабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏорозабиялъе": {
+    "wordform": "цӏорозабиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозаби",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3603,6 +5015,18 @@
             "sense": "траулер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3626,6 +5050,57 @@
               "цӏорозабуна",
               "цӏорозабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏорозабураб": {
+    "wordform": "цӏорозабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏорозаризе": {
+    "wordform": "цӏорозаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏорозарулеб": {
+    "wordform": "цӏорозарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3691,6 +5166,30 @@
             "av": "февралалда цӏорозе байбихьула",
             "ru": "в феврале начинаются морозы",
             "sense": "в феврале"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -3827,6 +5326,18 @@
             "av": "цӏорой ккана",
             "ru": "заморозки начались",
             "sense": "заморозки"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -4064,6 +5575,30 @@
             "sense": "чернильница"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏер",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏер",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4127,6 +5662,18 @@
             "av": "ражи цӏоролеб моцӏ",
             "ru": "февраль месяц, в котором замерзает чесночный соус",
             "sense": "приправа из чеснока, чесночный соус"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорол",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4221,6 +5768,18 @@
             "sense": "(по)холодеть, (по)мёрзнуть, замёрзнуть; (за)коченеть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4253,6 +5812,18 @@
             "av": "кверал цӏорона",
             "ru": "руки замёрзли",
             "sense": "(по)холодеть, (по)мёрзнуть, замёрзнуть; (за)коченеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4488,6 +6059,42 @@
             "sense": "холодный, морозный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -4528,6 +6135,30 @@
             "av": "цӏорорал сардал",
             "ru": "холодные ночи",
             "sense": "холодный, морозный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4579,6 +6210,18 @@
               "цӏоросарикӏкӏалъ",
               "цӏоросарикӏкӏалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоросарикӏкӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4742,6 +6385,18 @@
             "sense": "шелушить, лущить, рушить; очищать от стружков, от стеблей"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоросоролъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4761,6 +6416,23 @@
             "av": "цӏоросаролъил лъел",
             "ru": "початок кукурузы",
             "sense": "початок"
+          }
+        ]
+      }
+    }
+  },
+  "цӏоросаролъул": {
+    "wordform": "цӏоросаролъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏоросоролъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5428,6 +7100,52 @@
             "sense": "град"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏорочӏого": {
+    "wordform": "цӏорочӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цӏороялда": {
+    "wordform": "цӏороялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5447,6 +7165,18 @@
             "av": "ихдал цӏороялдаса бихӏиндал ракь гьогьлъана",
             "ru": "почва стала рыхлым, когда она растаяла весной",
             "sense": "быть, стать мягким, рыхлым; размягчаться, размягчиться; разрыхляться, разрыхлиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорозе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5482,6 +7212,18 @@
             "sense": "(по)рваться, разрываться, разорваться; лопаться, лопнуть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорой",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5503,6 +7245,18 @@
               "цӏороялъ",
               "цӏороялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏорой",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5726,6 +7480,23 @@
               "цӏохъахӏлъана",
               "цӏохъахӏлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "цӏохӏониги": {
+    "wordform": "цӏохӏониги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цӏо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

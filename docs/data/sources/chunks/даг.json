@@ -653,6 +653,18 @@
             "sense": "шейх-уль-ислам"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -772,6 +784,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагъистанияв",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -842,6 +866,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагъистанияй",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -874,6 +910,18 @@
             "av": "аза-азар дагъистаниял жидеего бокьун унел рукӏана Ватӏан цӏунизе",
             "ru": "дагестанцы тысячами добровольно уходили на защиту Родины",
             "sense": "тысячами"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагъистаниял",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -1155,6 +1203,39 @@
             "sense": "восемь; восьми; ввосьмеро"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1203,6 +1284,62 @@
             "sense": "мало-помалу, постепенно, потихоньку"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь-дагьккун",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь-дагьккун",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "дагь-дагькун": {
+    "wordform": "дагь-дагькун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагь-лъизабизе": {
+    "wordform": "дагь-лъизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1231,6 +1368,17 @@
             "av": "дагьа-дагьаб цӏулакьо кьуна кӏодоца нижее",
             "ru": "бабушка нам дала понемногу орехов",
             "sense": "немного, чуть-чуть, понемногу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-дагьаб",
+            "pos": "наречие"
           }
         ]
       }
@@ -1270,6 +1418,17 @@
             "av": "ругъун дагьа-дагьабккун сахлъизе байбихьана",
             "ru": "рана понемногу начала заживать",
             "sense": "помаленьку, понемногу, мало-помалу; постепенно, медленно, потихоньку"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-дагьабккун",
+            "pos": "наречие"
           }
         ]
       }
@@ -1462,6 +1621,17 @@
             "sense": "(с)уметь, мочь; смекать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-макъаб",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1490,6 +1660,40 @@
             "av": "бетӏер дагьа-макъабго унтулеб буго",
             "ru": "голова чуть-чуть болит",
             "sense": "незначительно, мало, немного; чуть-чуть"
+          }
+        ]
+      }
+    }
+  },
+  "дагьа-макъабгӏаги": {
+    "wordform": "дагьа-макъабгӏаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-макъаб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьа-макъабниги": {
+    "wordform": "дагьа-макъабниги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-макъаб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1555,6 +1759,35 @@
             "av": "дагьа-макъал чагӏи рукӏана данделъиялда",
             "ru": "немного людей было на сходе",
             "sense": "немного, помалу, незначительно; чуть-чуть; в небольшом количестве"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-макъабго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьа-макъалго": {
+    "wordform": "дагьа-макъалго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьа-макъабго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1785,6 +2018,39 @@
             "sense": "крупно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1851,6 +2117,17 @@
             "sense": "ещё"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабги",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1906,6 +2183,28 @@
             "av": "дагьабго цӏикӏкӏа-рикӏкӏана дир харж",
             "ru": "моя зарплата немного увеличилась",
             "sense": "увеличиться, прибавиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабго",
+            "pos": "наречие"
           }
         ]
       }
@@ -1966,6 +2265,28 @@
             "av": "унтарас цо дагьабниги тӏагӏам кваначӏищ?",
             "ru": "больной не поел хоть немножко?",
             "sense": "пища, питание, еда"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабниги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабниги",
+            "pos": "наречие"
           }
         ]
       }
@@ -2120,6 +2441,30 @@
             "sense": "умирать, умереть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2139,6 +2484,18 @@
             "av": "дагьавги кванай",
             "ru": "поешь ещё",
             "sense": "ещё"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2183,6 +2540,18 @@
             "sense": "сгорбиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2223,6 +2592,35 @@
             "av": "кигӏан дагьавниги хӏинкъичӏо дун",
             "ru": "я ничуть не испугался",
             "sense": "с отрицательное (местоимение) глаголом нисколько, ничуть"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабниги",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьазда": {
+    "wordform": "дагьазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2318,6 +2716,18 @@
             "entry_forms": [
               "дагьабго"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьабго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2433,6 +2843,30 @@
             "sense": "кушанье, еда; угощение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2452,6 +2886,47 @@
             "av": "ихдал мугӏрул дагьалги берцинлъана",
             "ru": "весною горы стали ещё красивее",
             "sense": "становиться, стать красивым или краше, пригожим или пригоже; (по)красиветь; (по)хорошеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьалго": {
+    "wordform": "дагьалго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2483,6 +2958,64 @@
             "av": "дагьалда гӏей гьабуларесе гӏемерабги гӏолареб",
             "ru": "кто не умеет ограничиваться малым, тот и многим не будет доволен",
             "sense": "малый, небольшой (по количеству); немногочисленный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьалдасан": {
+    "wordform": "дагьалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьалниги": {
+    "wordform": "дагьалниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2524,6 +3057,28 @@
             "sense": "в сочетании с некоторыми деепричастие выступает в разных значениях"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьалъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьалъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -2557,6 +3112,40 @@
       }
     }
   },
+  "дагьамакъал": {
+    "wordform": "дагьамакъал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьасеб": {
+    "wordform": "дагьасеб",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагьго": {
     "wordform": "дагьго",
     "sources": {
@@ -2584,6 +3173,47 @@
             "av": "гъоркьисаялдаса дагьго бакӏарана исана цӏоросоролъ",
             "ru": "в этом году меньше собрали кукурузы, чем в прошлом году",
             "sense": "мало, немного; меньше"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьдагьккун": {
+    "wordform": "дагьдагьккун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2639,6 +3269,69 @@
             "av": "чвантиниб гӏарац дагьлъана",
             "ru": "в кармане денег стало мало",
             "sense": "уменьшаться, уменшиться; убавляться, убавиться; снижаться; сокращаться, сократиться; убывать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъараб": {
+    "wordform": "дагьлъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъарав": {
+    "wordform": "дагьлъарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъарал": {
+    "wordform": "дагьлъарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2744,6 +3437,47 @@
             "sense": "сила"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъигун": {
+    "wordform": "дагьлъигун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2792,6 +3526,18 @@
             "from_lemma": "дагьлъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2826,6 +3572,18 @@
             "av": "харж дагьлъизабизе",
             "ru": "уменьшить зарплату",
             "sense": "уменьшать, уменшить что-либо чего-либо; убавлять, убавить что-либо чего-либо; (с)делать меньше; сокращать, сократить что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -2881,6 +3639,40 @@
       }
     }
   },
+  "дагьлъизабулеб": {
+    "wordform": "дагьлъизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъизабун": {
+    "wordform": "дагьлъизабун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагьлъизабуна": {
     "wordform": "дагьлъизабуна",
     "sources": {
@@ -2901,6 +3693,52 @@
               "дагьлъизабуна",
               "дагьлъизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъизабураб": {
+    "wordform": "дагьлъизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъизаризе": {
+    "wordform": "дагьлъизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2949,6 +3787,18 @@
             "sense": "сила"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2972,6 +3822,40 @@
               "дагьлъана",
               "дагьлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъичӏого": {
+    "wordform": "дагьлъичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъиялдалъун": {
+    "wordform": "дагьлъиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3009,6 +3893,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3044,6 +3940,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3067,6 +3975,35 @@
               "дагьлъана",
               "дагьлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагьлъулареб": {
+    "wordform": "дагьлъулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3130,6 +4067,18 @@
             "sense": "виновность; преступность"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3169,6 +4118,30 @@
             "av": "экспорт дагьлъун буго",
             "ru": "экспорт уменьшился",
             "sense": "экспорт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагьлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3815,6 +4788,18 @@
             "sense": "неправильный, несправедливый; необоснованный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3930,6 +4915,69 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-къец",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏба-къецал": {
+    "wordform": "дагӏба-къецал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-къец",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏба-къецалда": {
+    "wordform": "дагӏба-къецалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-къец",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏба-къецалде": {
+    "wordform": "дагӏба-къецалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-къец",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3974,6 +5022,23 @@
               "дагӏба-къецалъ",
               "дагӏба-къецалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дагӏба-къецги": {
+    "wordform": "дагӏба-къецги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-къец",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4030,6 +5095,18 @@
             "sense": "ссора; спор; перебранка; неурядица; раздоры, разлад"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-рагӏи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4059,6 +5136,35 @@
             "av": "дагӏба-рагӏиялда унеб буго гьезул заман",
             "ru": "в неурядицах проходит их время",
             "sense": "ссора; спор; перебранка; неурядица; раздоры, разлад"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏба-рагӏиялде": {
+    "wordform": "дагӏба-рагӏиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба-рагӏи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4110,6 +5216,23 @@
       }
     }
   },
+  "дагӏба-рагӏул": {
+    "wordform": "дагӏба-рагӏул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбаби": {
     "wordform": "дагӏбаби",
     "sources": {
@@ -4126,6 +5249,23 @@
             "av": "далил гьечӏел дагӏбаби жалго тун лъикӏ, гьудулзаби",
             "ru": "лучше, друзья, оставим бездоказательные споры",
             "sense": "доказательство, довод, аргумент"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбаго": {
+    "wordform": "дагӏбаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4302,6 +5442,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4360,6 +5512,35 @@
             "sense": "глупость, дурость; неразумие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбадизаризе": {
+    "wordform": "дагӏбадизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбади",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4416,6 +5597,18 @@
             "sense": "пена"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -4444,6 +5637,23 @@
       }
     }
   },
+  "дагӏбадичӏого": {
+    "wordform": "дагӏбадичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбади",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбадул": {
     "wordform": "дагӏбадул",
     "sources": {
@@ -4463,6 +5673,18 @@
               "дагӏбаялъул",
               "дагӏбадул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4512,6 +5734,18 @@
               "дагӏбадулас",
               "дагӏбадуласул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадулав",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4582,6 +5816,18 @@
               "дагӏбадулалъ",
               "дагӏбадулалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадулай",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4658,6 +5904,23 @@
       }
     }
   },
+  "дагӏбадуларев": {
+    "wordform": "дагӏбадуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбадулас": {
     "wordform": "дагӏбадулас",
     "sources": {
@@ -4704,6 +5967,23 @@
       }
     }
   },
+  "дагӏбадулеб": {
+    "wordform": "дагӏбадулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбадулев": {
     "wordform": "дагӏбадулев",
     "sources": {
@@ -4720,6 +6000,64 @@
             "av": "кидаго дагӏбадулев вукӏуна дов",
             "ru": "он постоянно спорит",
             "sense": "всегда, постоянно, бесперывно, всё время, в любое время, когда бы то ни было"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбадулей": {
+    "wordform": "дагӏбадулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбадулел": {
+    "wordform": "дагӏбадулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4764,6 +6102,81 @@
             "sense": "(по)спорить с кем-либо; препираться, (по)вздорить с кем-либо; дебатировать, дискутировать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбакъецалда": {
+    "wordform": "дагӏбакъецалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбакъецалдаса": {
+    "wordform": "дагӏбакъецалдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбакьецалъул": {
+    "wordform": "дагӏбакьецалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4786,6 +6199,18 @@
               "дагӏбачиясул",
               "дагӏбачагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбачи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4960,6 +6385,17 @@
             "sense": "спорный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбаяб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -5007,6 +6443,40 @@
       }
     }
   },
+  "дагӏбаялда": {
+    "wordform": "дагӏбаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дагӏбаялде": {
+    "wordform": "дагӏбаялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏбаяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбаялъ": {
     "wordform": "дагӏбаялъ",
     "sources": {
@@ -5041,6 +6511,23 @@
       }
     }
   },
+  "дагӏбаялъе": {
+    "wordform": "дагӏбаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дагӏбаялъул": {
     "wordform": "дагӏбаялъул",
     "sources": {
@@ -5060,6 +6547,18 @@
               "дагӏбаялъул",
               "дагӏбадул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дагӏба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5124,6 +6623,18 @@
             "av": "дагӏнил цӏоко",
             "ru": "козлиная шкура",
             "sense": "козлиный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дегӏен",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

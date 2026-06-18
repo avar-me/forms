@@ -49,6 +49,23 @@
       }
     }
   },
+  "рурударай": {
+    "wordform": "рурударай",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рурудизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "руруде": {
     "wordform": "руруде",
     "sources": {
@@ -124,6 +141,18 @@
             "av": "гьорол руруди",
             "ru": "завывание ветра",
             "sense": "вой, завывание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рурудизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -321,6 +350,18 @@
             "sense": "по-собачьи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рурудизе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -468,6 +509,18 @@
             "sense": "выть, завывать; поднять вой; издавать воющие звуки, завыть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рурудизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -531,6 +584,18 @@
             "av": "бацӏил руруй рагӏулеб буго",
             "ru": "слышен вой волка",
             "sense": "вой, завывание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "руруй",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

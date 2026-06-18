@@ -199,6 +199,30 @@
             "sense": "надоедать, надоесть кому-либо; становиться скучным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "салам",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "салам",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -248,6 +272,23 @@
       }
     }
   },
+  "саламалъи": {
+    "wordform": "саламалъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "салам",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "саламатав": {
     "wordform": "саламатав",
     "sources": {
@@ -274,6 +315,40 @@
             "av": "саламатав чиясда гъанчдезе рекъон гьечӏо",
             "ru": "солидному человеку некрасиво сквернословить",
             "sense": "грубить; сквернословить; ругаться, браниться; накричать, набрасиваться с руганью; зубоскалить"
+          }
+        ]
+      }
+    }
+  },
+  "саламатго": {
+    "wordform": "саламатго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "салам",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "саламгун": {
+    "wordform": "саламгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "салам",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -442,6 +517,64 @@
             "av": "сали цӏалкӏизе",
             "ru": "просеивать песок",
             "sense": "(про)сеять, просеивать что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сали",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сали",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "салиги": {
+    "wordform": "салиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сали",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "салигун": {
+    "wordform": "салигун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сали",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

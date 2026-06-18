@@ -71,6 +71,18 @@
             "sense": "уравнение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "уравнение",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -231,6 +243,18 @@
             "av": "ураналъул магӏданал",
             "ru": "урановые рудники",
             "sense": "урановый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "уран",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -458,6 +482,18 @@
             "sense": "шерсть весннней стрижки; шерсть-линька"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -531,6 +567,23 @@
       }
     }
   },
+  "ургуялда": {
+    "wordform": "ургуялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ургуялъ": {
     "wordform": "ургуялъ",
     "sources": {
@@ -552,6 +605,23 @@
               "ургил",
               "ургал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ургъ-ун": {
+    "wordform": "ургъ-ун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -683,6 +753,18 @@
             "sense": "горе, горесть; печаль, тоска"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъалаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -737,6 +819,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъалаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -760,6 +854,30 @@
               "ургъалабазул"
             ],
             "from_lemma": "ургъел"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -793,6 +911,30 @@
             "sense": "раздумье, душевное беспокойство, озабоченность; забота"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -816,6 +958,18 @@
             "from_lemma": "ургъел"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -835,6 +989,18 @@
             "av": "ургъалилъе тӏерхьине",
             "ru": "погружаться в печаль",
             "sense": "горе, горесть; печаль, тоска"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъалил",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -859,6 +1025,30 @@
               "ургъалил",
               "ургъалаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -894,6 +1084,74 @@
             "av": "диван ургъана",
             "ru": "совет старейшин совещался",
             "sense": "диван, совет старейшин"
+          }
+        ]
+      }
+    }
+  },
+  "ургъаниги": {
+    "wordform": "ургъаниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъараб": {
+    "wordform": "ургъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъарав": {
+    "wordform": "ургъарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъарай": {
+    "wordform": "ургъарай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -949,6 +1207,18 @@
             "av": "цин ургъе, цинги кӏалъай",
             "ru": "сперва подумай, затем говори",
             "sense": "затем, потом, после того, тогда"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1245,6 +1515,42 @@
             "sense": "ничего"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1287,6 +1593,18 @@
             "av": "ургъел-агъаз гьечӏого",
             "ru": "беззаботно",
             "sense": "раздумья, душевное беспокойствие, озабоченость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел-агъаз",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1338,6 +1656,74 @@
       }
     }
   },
+  "ургъел-пашманлъиялдеги": {
+    "wordform": "ургъел-пашманлъиялдеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъел-пикруги": {
+    "wordform": "ургъел-пикруги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъелал": {
+    "wordform": "ургъелал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъелалда": {
+    "wordform": "ургъелалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ургъелалъ": {
     "wordform": "ургъелалъ",
     "sources": {
@@ -1354,6 +1740,18 @@
             "av": "тӏагӏарав васасул ургъелалъ вухӏарулев вукӏана эмен",
             "ru": "отец горевал, думая о беследно исчезнувшем сыне",
             "sense": "приходить в нетерпение; сильно волноваться; горевать, гореть чем-либо; трепетать о чём-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1375,6 +1773,30 @@
             "av": "ургъелги бикьана, рокьулги бицана",
             "ru": "и душу излили, и о любви говорили",
             "sense": "горе, горесть; печаль, тоска"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1419,6 +1841,35 @@
               "ургъи"
             ],
             "from_lemma": "ургъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "ургъи-чӏого": {
+    "wordform": "ургъи-чӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1527,6 +1978,30 @@
             "sense": "(по)думать, мыслить, размышлять"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1562,6 +2037,47 @@
             "sense": "в следующем году"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъичӏеб": {
+    "wordform": "ургъичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1581,6 +2097,52 @@
             "av": "ургъичӏого борчӏараб рагӏи — ишан кквечӏого речӏчӏараб чӏор",
             "ru": "слово, сказанное необдуманно — стрела, выпущенная не прицеливаясь",
             "sense": "(по)думать, мыслить, размышлять"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъичӏолъи": {
+    "wordform": "ургъичӏолъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъичⅰого": {
+    "wordform": "ургъичⅰого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1627,6 +2189,86 @@
               "ургъана",
               "ургъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ургъулаго": {
+    "wordform": "ургъулаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъулев": {
+    "wordform": "ургъулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъулезул": {
+    "wordform": "ургъулезул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургъулей": {
+    "wordform": "ургъулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1710,6 +2352,30 @@
             "sense": "(раз)жевать, разжёвывать; (по)пробовать на вкус"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1756,6 +2422,28 @@
             "av": "ургъунго гьабураб",
             "ru": "умышленный",
             "sense": "умышленно, нарочно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъунго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургъунго",
+            "pos": "наречие"
           }
         ]
       }
@@ -1809,6 +2497,17 @@
             "sense": "внутри, в утробе; в душе, в уме"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1828,6 +2527,18 @@
             "av": "ургьибго хутӏаги",
             "ru": "чтоб съеденное осталось у тебя в желудке",
             "sense": "внутри, в утробе; в душе, в уме"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1912,6 +2623,47 @@
             "av": "ургьибе цӏа бортизе",
             "ru": "в душе огонь зажечь",
             "sense": "внутри, в утробе; в душе, в уме"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургьибеги": {
+    "wordform": "ургьибеги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2050,6 +2802,18 @@
             "sense": "внутренности, потроха"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьимес",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2072,6 +2836,23 @@
               "ургьимесалъул",
               "ургьимесал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ургьимесалде": {
+    "wordform": "ургьимесалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьимес",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2101,6 +2882,23 @@
       }
     }
   },
+  "ургьимесалъе": {
+    "wordform": "ургьимесалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьимес",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ургьимесалъул": {
     "wordform": "ургьимесалъул",
     "sources": {
@@ -2120,6 +2918,35 @@
               "ургьимесалъул",
               "ургьимесал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьимес",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургьимесгун": {
+    "wordform": "ургьимесгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьимес",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2165,6 +2992,18 @@
               "ургьиса",
               "ургьисан"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2213,6 +3052,17 @@
             "av": "ургьисаго гъов гьединав вуго",
             "ru": "он отроду такой",
             "sense": "от природы, отроду"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьисаго",
+            "pos": "наречие"
           }
         ]
       }
@@ -2337,6 +3187,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьисала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2369,6 +3231,52 @@
             "av": "ургьисалаби режизе",
             "ru": "пожарить почки",
             "sense": "почка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьисала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургьисалабиги": {
+    "wordform": "ургьисалабиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьисала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургьисалаги": {
+    "wordform": "ургьисалаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2419,6 +3327,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьисала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2441,6 +3361,35 @@
               "ургьиса",
               "ургьисан"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ургьисанго": {
+    "wordform": "ургьисанго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ургьиб",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2499,6 +3448,17 @@
             "av": "урду чӏван чӏезе",
             "ru": "стать лагерем, установить лагерь",
             "sense": "военный лагерь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урду",
+            "pos": "выражение"
           }
         ]
       }
@@ -2704,6 +3664,18 @@
             "ru": "пламенный привет"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2803,6 +3775,18 @@
             "av": "урхъи буссине",
             "ru": "тоску утолить",
             "sense": "тоска по кому-чему-либо; большое желание увидеть кого-либо разговаривать, любезничать с кем-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3010,6 +3994,30 @@
             "sense": "тосковать по кому-чему-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3038,6 +4046,23 @@
       }
     }
   },
+  "урхъилареб": {
+    "wordform": "урхъилареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "урхъиялъ": {
     "wordform": "урхъиялъ",
     "sources": {
@@ -3056,6 +4081,18 @@
               "урхъиялъ",
               "урхъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3127,6 +4164,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "урхъулеб": {
+    "wordform": "урхъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "урхъуледухъ": {
+    "wordform": "урхъуледухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3146,6 +4229,18 @@
             "av": "дун дирго ракьалъухъ урхъун вугеб куц",
             "ru": "как я тоскую по краю родному",
             "sense": "тосковать по кому-чему-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "урхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

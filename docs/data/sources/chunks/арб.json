@@ -157,6 +157,30 @@
             "sense": "(у)видеться, встречаться, встретиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "арбагӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "арбагӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -425,6 +449,35 @@
             "av": "арбитражалъул комиссия",
             "ru": "арбитражная комиссия",
             "sense": "арбитражный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "арбитраж",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "арбитраздалъун": {
+    "wordform": "арбитраздалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "арбитр",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

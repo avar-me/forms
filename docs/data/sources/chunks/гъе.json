@@ -54,6 +54,23 @@
       }
     }
   },
+  "гъев": {
+    "wordform": "гъев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъегъ": {
     "wordform": "гъегъ",
     "sources": {
@@ -156,6 +173,18 @@
             "av": "хуриса гъегъ бищизе",
             "ru": "собирать камни с поля",
             "sense": "урожай"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъегъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -375,6 +404,40 @@
       }
     }
   },
+  "гъедо-хӏинчӏалъ": {
+    "wordform": "гъедо-хӏинчӏалъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъедо-хӏинчӏги": {
+    "wordform": "гъедо-хӏинчӏги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъеду": {
     "wordform": "гъеду",
     "sources": {
@@ -467,6 +530,47 @@
             "av": "гъеду хъванкӏдана",
             "ru": "ворона каркнула",
             "sense": "каркать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъеду",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъеду",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гъеду-хӏинчӏалъ": {
+    "wordform": "гъеду-хӏинчӏалъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -618,6 +722,30 @@
             "sense": "растирать, растереть; массировать что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъеж",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъеж",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -686,6 +814,23 @@
               "гъеж-квералъ",
               "гъеж-квералъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъежалдаги": {
+    "wordform": "гъежалдаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -763,6 +908,23 @@
       }
     }
   },
+  "гъежалъулги": {
+    "wordform": "гъежалъулги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъеж",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъежги": {
     "wordform": "гъежги",
     "sources": {
@@ -789,6 +951,93 @@
             "av": "гъежги ккун тӏаде вахъинавизе",
             "ru": "поднимать, держа за руку",
             "sense": "рука (от кисти до локтя); предплечье"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъежда": {
+    "wordform": "гъежда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъеждакӏичӏазда": {
+    "wordform": "гъеждакӏичӏазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъеждакⅰичал": {
+    "wordform": "гъеждакⅰичал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1069,6 +1318,125 @@
             "av": "хулжал гъежтӏе рехизе",
             "ru": "отправиться в путь",
             "sense": "хурджины, чересседельные сумки, перемётные сумы; кому-либо, принимать участие в ком-либо"
+          }
+        ]
+      }
+    }
+  },
+  "гъезаби": {
+    "wordform": "гъезаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезабизе": {
+    "wordform": "гъезабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезабулеб": {
+    "wordform": "гъезабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезабулев": {
+    "wordform": "гъезабулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезабулей": {
+    "wordform": "гъезабулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезаризе": {
+    "wordform": "гъезаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъезариялъул": {
+    "wordform": "гъезариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1555,6 +1923,28 @@
             "sense": "честь; достоинство"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -1630,6 +2020,23 @@
       }
     }
   },
+  "гъезелъун": {
+    "wordform": "гъезелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъей": {
     "wordform": "гъей",
     "sources": {
@@ -1647,6 +2054,18 @@
             "entry_forms": [
               "гъей"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъей",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1683,6 +2102,18 @@
             "av": "цо дагьаб макьилги гьабун, хадув гъела дун нужеда",
             "ru": "поспав немножко, догоню я вас",
             "sense": "сон"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2035,6 +2466,18 @@
             "sense": "струп"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъенезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2130,6 +2573,18 @@
               "гъениялъул",
               "гъенидул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъени",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2246,6 +2701,18 @@
             "sense": "зерно, зёрнышко; зёрна"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2270,6 +2737,23 @@
       }
     }
   },
+  "гъенолел": {
+    "wordform": "гъенолел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъенон": {
     "wordform": "гъенон",
     "sources": {
@@ -2286,6 +2770,18 @@
             "av": "нухде чабах гъенон бачӏунеб буго",
             "ru": "на дорогу сыплется щебень",
             "sense": "(вы)падать; опадать; (о)сыпаться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2898,6 +3394,18 @@
             "sense": "сахар"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъецӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2922,6 +3430,18 @@
               "гъоцӏол",
               "гъуцӏдул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъецӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2989,6 +3509,30 @@
             "av": "метер гъезейилан тараб къоркъода рачӏ гъечӏого хутӏарабила",
             "ru": "лягушке обещали завтра прикрепить хвост, но так и не прикрепили",
             "sense": "хвост"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

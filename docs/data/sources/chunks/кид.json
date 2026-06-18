@@ -143,6 +143,45 @@
             "sense": "вы"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кида",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кида",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "кида-къадги": {
+    "wordform": "кида-къадги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кида",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -416,6 +455,39 @@
             "sense": "свобода; вольность; приволье; раскрепощение, освобождение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -444,6 +516,17 @@
             "av": "кидагосеб гьудуллъи",
             "ru": "постоянная дружба",
             "sense": "постоянный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидагосеб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -488,6 +571,57 @@
             "entry_forms": [
               "кидагосеб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "кидагосел": {
+    "wordform": "кидагосел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидагосеб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кидагоялдаса": {
+    "wordform": "кидагоялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кидагоялъе": {
+    "wordform": "кидагоялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -670,6 +804,17 @@
             "sense": "до каких пор"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидалъизегӏан",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -835,6 +980,39 @@
             "sense": "настолько; такого, такой, таких"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киданиги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киданиги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киданиги",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -916,6 +1094,17 @@
             "sense": "с каких пор, с какого времени, когда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаялдаса",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -983,6 +1172,28 @@
             "av": "кидаялиго дун гьаб росулъе щун вукӏана",
             "ru": "когда-то я был в этом ауле",
             "sense": "когда-то, когда-либо, неизвестно когда; некогда"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаялиго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кидаялиго",
+            "pos": "наречие"
           }
         ]
       }

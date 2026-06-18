@@ -1,4 +1,53 @@
 {
+  "йигеб": {
+    "wordform": "йигеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "йигев": {
+    "wordform": "йигев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "йигей": {
     "wordform": "йигей",
     "sources": {
@@ -126,6 +175,63 @@
             "av": "яс йигей эбелалъул къаданиб жо борхатаб",
             "ru": "у матери, имеющей дочь, подушка высокая",
             "sense": "дочь; дочка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугеб",
+            "relation": "женский род",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "йигелъул": {
+    "wordform": "йигелъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бугелъул",
+            "relation": "женский род",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1810,6 +1916,32 @@
             "av": "дозие яс гьаюн йиго",
             "ru": "у них родилась дочь",
             "sense": "дочь; дочка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буго",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буго",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

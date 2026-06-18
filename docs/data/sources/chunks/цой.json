@@ -26,6 +26,34 @@
             "sense": "вместе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойида",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "цойидаса": {
+    "wordform": "цойидаса",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойида",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -55,6 +83,28 @@
             "av": "цойидасан хъархъазда гьоркьосан бекерун бачӏана бацӏ",
             "ru": "из-за кустов неожиданно выбежал волк",
             "sense": "вдруг, неожиданно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойидасан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойидасан",
+            "pos": "наречие"
           }
         ]
       }
@@ -87,6 +137,18 @@
             "av": "цойидасанго пири пирхана ва цӏад базе байбихьана",
             "ru": "вдруг молния заблеснула, и начался дождь",
             "sense": "вдруг, неожиданно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойидасан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -161,6 +223,18 @@
             "sense": "единица"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойилаб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -183,6 +257,18 @@
               "цойилалъул",
               "цойилал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цойилаб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

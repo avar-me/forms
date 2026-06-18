@@ -20,6 +20,23 @@
       }
     }
   },
+  "тӏу-тӏураб": {
+    "wordform": "тӏу-тӏураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуб": {
     "wordform": "тӏуб",
     "sources": {
@@ -264,6 +281,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуба-гъубазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -287,6 +316,18 @@
               "тӏуба-гъубаялъул"
             ],
             "from_lemma": "тӏуба-гъубазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуба-гъубазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -335,6 +376,18 @@
               "тӏуба-гъубана",
               "тӏуба-гъубай"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуба-гъубазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -439,6 +492,18 @@
             "sense": "использовать что-либо как зацепку, повод, предлог; прибегнуть к оговорке"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -492,6 +557,30 @@
             "av": "план тӏубазаби",
             "ru": "выполнение плана",
             "sense": "выполнение; исполнение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
           }
         ]
       }
@@ -740,6 +829,47 @@
             "sense": "хадж, паломничество мусульман в Мекку, посещение святых мест"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабизесеб": {
+    "wordform": "тӏубазабизесеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -768,6 +898,57 @@
       }
     }
   },
+  "тӏубазабичӏеб": {
+    "wordform": "тӏубазабичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабичӏого": {
+    "wordform": "тӏубазабичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабиялдаса": {
+    "wordform": "тӏубазабиялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏубазабиялъ": {
     "wordform": "тӏубазабиялъ",
     "sources": {
@@ -786,6 +967,23 @@
               "тӏубазабиялъ",
               "тӏубазабиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабиялъе": {
+    "wordform": "тӏубазабиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -811,6 +1009,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабиялъулал": {
+    "wordform": "тӏубазабиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабиялъухъ": {
+    "wordform": "тӏубазабиялъухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазаби",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -834,6 +1078,137 @@
               "тӏубазабуна",
               "тӏубазабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабулареб": {
+    "wordform": "тӏубазабулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабуларев": {
+    "wordform": "тӏубазабуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабулеб": {
+    "wordform": "тӏубазабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабулев": {
+    "wordform": "тӏубазабулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабулей": {
+    "wordform": "тӏубазабулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабулел": {
+    "wordform": "тӏубазабулел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабун": {
+    "wordform": "тӏубазабун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -919,6 +1294,76 @@
             "av": "нилъеда цебе лъураб масъала тӏубазабуна",
             "ru": "поставленная перед нами задача выполнена",
             "sense": "задача"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабунгутӏизе": {
+    "wordform": "тӏубазабунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазабураб": {
+    "wordform": "тӏубазабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1187,6 +1632,59 @@
             "sense": "четверть, четвёртая часть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазеги": {
+    "wordform": "тӏубазеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1206,6 +1704,23 @@
             "av": "Лъагӏел тӏубазегӏан росасе ани, ЧӀвайги дида къоно, къайги дий лахӏду",
             "ru": "Если выйду я замуж, пока не будет годовщина смерти, Пусть выроют мне яму, пусть укроют плитой",
             "sense": "плита"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубазелъун": {
+    "wordform": "тӏубазелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1283,6 +1798,42 @@
             "sense": "выполнение, исполнение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1317,6 +1868,59 @@
             "sense": "легко; запросто"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубалареб": {
+    "wordform": "тӏубалареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1346,6 +1950,52 @@
             "av": "наккдалъ бахчун варани тӏубаларо",
             "ru": "верблюда в мякине не утаишь",
             "sense": "полова, мякина"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубалеб": {
+    "wordform": "тӏубалеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубалев": {
+    "wordform": "тӏубалев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1518,6 +2168,18 @@
             "av": "хӏалтӏи тӏубана",
             "ru": "работа завершилась",
             "sense": "кончаться, (о)кончиться; завершаться, завершиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1773,6 +2435,73 @@
             "av": "хьитал тӏубанго чӏалх-чӏалхун руго",
             "ru": "обувь полностью распоролась",
             "sense": "распороться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубангутӏизе": {
+    "wordform": "тӏубангутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубангутӏиялъе": {
+    "wordform": "тӏубангутӏиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2078,6 +2807,48 @@
             "sense": "там же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубараб",
+            "relation": "причастие",
+            "pos": "глагол"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубазе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2097,6 +2868,103 @@
             "av": "щуго тӏубарабги ункъо бутӏа гьабун лъабго бутӏа",
             "ru": "пять целых три четвёртых",
             "sense": "для связи чисел"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубараб",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубарабго": {
+    "wordform": "тӏубарабго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубараб",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубараблъун": {
+    "wordform": "тӏубараблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубараб",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубарав": {
+    "wordform": "тӏубарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубарал": {
+    "wordform": "тӏубарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубаралъул": {
+    "wordform": "тӏубаралъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2130,6 +2998,35 @@
             "sense": "исполняться, исполниться; выполняться, выполниться; сбиваться, сбиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубачӏев": {
+    "wordform": "тӏубачӏев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2149,6 +3046,69 @@
             "av": "тӏубачӏого гӏолареб проблема",
             "ru": "актуальная проблема",
             "sense": "проблема"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубачӏолъи": {
+    "wordform": "тӏубачӏолъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубаялда": {
+    "wordform": "тӏубаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏубаялдаса": {
+    "wordform": "тӏубаялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2172,6 +3132,23 @@
               "тӏубаялъ",
               "тӏубаялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏубаялъе": {
+    "wordform": "тӏубаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубай",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2205,6 +3182,18 @@
             "av": "шагьаралъ нусго сон тӏубаялъул юбилей",
             "ru": "столетний юбилей города",
             "sense": "юбилей"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубай",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2447,6 +3436,30 @@
             "sense": "совершенно, окончательно, абсолютно, полностью, исчерпывающе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2594,6 +3607,18 @@
             "sense": "быть, стать пёстрым; пестреть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2613,6 +3638,57 @@
             "av": "гьалакӏачал тӏугьдузда тӏад роржанхъулел руго",
             "ru": "бабочки порхают над цветами",
             "sense": "бабочка"
+          }
+        ]
+      }
+    }
+  },
+  "тӏугьдуздасан": {
+    "wordform": "тӏугьдуздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏугьдузде": {
+    "wordform": "тӏугьдузде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏугьдузе": {
+    "wordform": "тӏугьдузе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2736,6 +3812,30 @@
             "av": "юшаналъул ва батӏи-батӏиял тӏугьдузул кутакаб махӏ чӏвалеб букӏана",
             "ru": "крепко пахло полынью и разными цветами",
             "sense": "полынь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2931,6 +4031,47 @@
             "av": "хъахӏилкьерал тӏугьдул",
             "ru": "синеватые цветы",
             "sense": "синеватый, синего цвета"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏегь",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏегь",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "тӏугьдулги": {
+    "wordform": "тӏугьдулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏугьдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3330,6 +4471,35 @@
             "sense": "набивать, набить; насаждать, насадить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏикъва",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "тӏукъбиги": {
+    "wordform": "тӏукъбиги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏукъби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3351,6 +4521,18 @@
               "тӏукъбуз",
               "тӏукъбузул"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏукъби",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3463,6 +4645,18 @@
             "sense": "печень"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3526,6 +4720,18 @@
             "sense": "внутренности (животного); ливер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул-ракӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3570,6 +4776,18 @@
               "тӏул-ракӏалъ",
               "тӏул-ракӏалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул-ракӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3619,6 +4837,17 @@
             "av": "тӏулакьераб ххам",
             "ru": "коричневая ткань",
             "sense": "коричневый, коричневого цвета"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏулакьераб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -3691,6 +4920,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3743,6 +4984,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3786,6 +5039,18 @@
             "av": "найил тӏулби",
             "ru": "пчелиные ульи",
             "sense": "улей"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏала",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -3832,6 +5097,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏулби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3853,6 +5130,23 @@
               "тӏулбуз",
               "тӏулбузул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏулев": {
+    "wordform": "тӏулев",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3889,6 +5183,18 @@
             "av": "ЧӀвае, тӏулил яцал, дие кагӏакал, Лъугьизе ккун йиго вацасда хадуй",
             "ru": "Сёстры, лепёшки испечь я прошу, За братом поехать придётся мне",
             "sense": "небольшой круглый хлеб, лепёшка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4124,6 +5430,23 @@
               "тӏулил",
               "тӏулал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏулракӏалъул": {
+    "wordform": "тӏулракӏалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4387,6 +5710,30 @@
             "sense": "чайная ложка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4520,6 +5867,81 @@
             "av": "щаринах суркӏинибе тӏуна",
             "ru": "сметану налили в чашку",
             "sense": "сметана"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуналъ": {
+    "wordform": "тӏуналъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏунгу-тӏизе": {
+    "wordform": "тӏунгу-тӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏунгутӏизе": {
+    "wordform": "тӏунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -4671,6 +6093,23 @@
       }
     }
   },
+  "тӏунтӏудулеб": {
+    "wordform": "тӏунтӏудулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏунцаб": {
     "wordform": "тӏунцаб",
     "sources": {
@@ -4687,6 +6126,17 @@
             "entry_forms": [
               "тӏунцаб"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏунцаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -4741,6 +6191,74 @@
             "entry_forms": [
               "тӏунцаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏунцараб": {
+    "wordform": "тӏунцараб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏунцаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏунцго": {
+    "wordform": "тӏунцго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏунцун": {
+    "wordform": "тӏунцун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏупа-къазе": {
+    "wordform": "тӏупа-къазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4806,6 +6324,18 @@
             "av": "тӏупан тӏолеб буго",
             "ru": "дождь льёт ливмя",
             "sense": "сильный дождь, ливень, потоп"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4992,6 +6522,18 @@
             "from_lemma": "тӏупизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5061,6 +6603,18 @@
             "from_lemma": "тӏупизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5086,6 +6640,18 @@
               "тӏупизабе"
             ],
             "from_lemma": "тӏупизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -5219,6 +6785,18 @@
             "sense": "укутывать, укутить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5318,6 +6896,23 @@
       }
     }
   },
+  "тӏупулеб": {
+    "wordform": "тӏупулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏупун": {
     "wordform": "тӏупун",
     "sources": {
@@ -5344,6 +6939,18 @@
             "av": "магӏарда накӏкӏ тӏупун буго",
             "ru": "гора окуталась туманом",
             "sense": "окутываться, окутиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏупизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5516,6 +7123,30 @@
             "sense": "битум, асфальт"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5583,6 +7214,35 @@
             "av": "гӏагарлъиялдаса тӏурав чи",
             "ru": "человек, порвавший с родней",
             "sense": "родня; родные, родственники"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуравлъун": {
+    "wordform": "тӏуравлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5656,6 +7316,69 @@
             "sense": "уставный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуразарулеб": {
+    "wordform": "тӏуразарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуразарулев": {
+    "wordform": "тӏуразарулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуразарулей": {
+    "wordform": "тӏуразарулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5675,6 +7398,18 @@
             "av": "хӏалтӏухъабаз жидерго тӏадеросиял тӏуразаруна",
             "ru": "рабочие выполнили свои обязательства",
             "sense": "обязательство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5708,6 +7443,64 @@
             "sense": "коровы и телята"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуразелъун": {
+    "wordform": "тӏуразелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурай": {
+    "wordform": "тӏурай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5737,6 +7530,81 @@
             "av": "кун тӏурал маххал гӏодоре щущан ана",
             "ru": "ниточка порвалась и бусинки разбросались по полу",
             "sense": "быть разбросанным"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏураларел": {
+    "wordform": "тӏураларел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуралдаса": {
+    "wordform": "тӏуралдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуралел": {
+    "wordform": "тӏуралел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5784,6 +7652,76 @@
             "sense": "(за)болеть бешенством, беситься"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуранго": {
+    "wordform": "тӏуранго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурани": {
+    "wordform": "тӏурани",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5825,6 +7763,98 @@
             "av": "тӏурараб гьой",
             "ru": "бешеная собака",
             "sense": "бешеный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурарав": {
+    "wordform": "тӏурарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏураразул": {
+    "wordform": "тӏураразул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурарал": {
+    "wordform": "тӏурарал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурарасда": {
+    "wordform": "тӏурарасда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6149,6 +8179,103 @@
       }
     }
   },
+  "тӏурачӏел": {
+    "wordform": "тӏурачӏел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурачӏого": {
+    "wordform": "тӏурачӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏураялъе": {
+    "wordform": "тӏураялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏураялъул": {
+    "wordform": "тӏураялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурдрагунасул": {
+    "wordform": "тӏурдрагунасул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуре": {
     "wordform": "тӏуре",
     "sources": {
@@ -6379,6 +8506,18 @@
             "sense": "ярость, бешенство, сильный гнев"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -6587,6 +8726,23 @@
       }
     }
   },
+  "тӏуризаризе": {
+    "wordform": "тӏуризаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏури",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуризе": {
     "wordform": "тӏуризе",
     "sources": {
@@ -6629,6 +8785,18 @@
             "sense": "тюрьма"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -6652,6 +8820,40 @@
               "тӏурана",
               "тӏуре"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏурищвей": {
+    "wordform": "тӏурищвей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏури",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуриялда": {
+    "wordform": "тӏуриялда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏури",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6690,6 +8892,18 @@
               "тӏуридул",
               "тӏураби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏури",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6763,6 +8977,18 @@
             "av": "бахъаяб бер тӏуркӏана жакъаги",
             "ru": "и сегодня дёрнулся глаз — да выколется он",
             "sense": "глаз, око; чего-либо; свет очей; свет очей; умереть; сна кого-что-либо(древниеаварцы верили тому, что дёргание век правого глаза у мужчин, левого — уженщин ко злу, а если наоборот, то к добру)на ком-либо бранное слово, выражение в переносном значении ласкательная (форма) чьих-либо ласкательная (форма) пословица поговорка поговорка загадкацⅠаддождьбранное слово, выражение в переносном значении бранное слово, выражение поговорка бранное слово, выражение буквально в переносном значении(отгнева)в переносном значении"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6988,6 +9214,23 @@
       }
     }
   },
+  "тӏуркӏизаруна": {
+    "wordform": "тӏуркӏизаруна",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуркӏизе": {
     "wordform": "тӏуркӏизе",
     "sources": {
@@ -7029,6 +9272,18 @@
             "av": "ракӏ тӏуркӏизе",
             "ru": "ёкнуть",
             "sense": "вздрогнуть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -7151,6 +9406,40 @@
       }
     }
   },
+  "тӏуркӏулеб": {
+    "wordform": "тӏуркӏулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏуркӏулев": {
+    "wordform": "тӏуркӏулев",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуркӏун": {
     "wordform": "тӏуркӏун",
     "sources": {
@@ -7167,6 +9456,18 @@
             "av": "тӏуркӏун ворчӏизе",
             "ru": "вздрогнув проснуться",
             "sense": "вздрогнуть"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуркӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7242,6 +9543,18 @@
               "тӏуртӏудиялъул"
             ],
             "from_lemma": "тӏуртӏудизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуртӏудизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -7418,6 +9731,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуртӏудизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -7517,6 +9842,23 @@
       }
     }
   },
+  "тӏуртӏудулаго": {
+    "wordform": "тӏуртӏудулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуртӏудизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуртӏудулеб": {
     "wordform": "тӏуртӏудулеб",
     "sources": {
@@ -7533,6 +9875,18 @@
             "av": "тӏуртӏудулеб квералъ ккуна херас къалам",
             "ru": "старик дрожащей рукой держал карандаш",
             "sense": "(за)дрожать, вздрагивать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуртӏудизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7586,6 +9940,17 @@
             "sense": "непослушный, необузданный, настроенный куда-то убежать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурузаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -7608,6 +9973,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурузаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурузавлъун": {
+    "wordform": "тӏурузавлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурузаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7628,6 +10022,69 @@
             "entry_forms": [
               "тӏурузаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурузаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурузго": {
+    "wordform": "тӏурузго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурузлъи": {
+    "wordform": "тӏурузлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏурузлъизе": {
+    "wordform": "тӏурузлъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7731,6 +10188,18 @@
             "sense": "бешенство"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7754,6 +10223,23 @@
               "тӏурана",
               "тӏуре"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏурулей": {
+    "wordform": "тӏурулей",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7835,6 +10321,30 @@
             "av": "тӏурун ворчӏизе",
             "ru": "спастись бегством",
             "sense": "(у)бежать, убегать, ускакать откуда-либо; мчаться, нестись"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7931,6 +10441,18 @@
             "sense": "древесный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурччи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -7953,6 +10475,17 @@
               "тӏурччибухъил",
               "тӏурччибухъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурччибухъ",
+            "pos": "выражение"
           }
         ]
       }
@@ -8049,6 +10582,18 @@
               "тӏурччибухӏица",
               "тӏурччибухӏил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏурччибухӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -8308,6 +10853,18 @@
             "sense": "муха, мухи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8350,6 +10907,18 @@
             "av": "хьванутӏе тӏутӏ-кӏкӏара тӏаделъула",
             "ru": "на лошадей кидаются слепни",
             "sense": "лошады, мулы"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏ-кӏкӏара",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -8417,6 +10986,17 @@
             "entry_forms": [
               "тӏутӏаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -8492,6 +11072,52 @@
             "sense": "муха, мухи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏутӏазда": {
+    "wordform": "тӏутӏазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏутӏазе": {
+    "wordform": "тӏутӏазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8511,6 +11137,30 @@
             "av": "тӏутӏазул загьру",
             "ru": "отрава для мух",
             "sense": "яд, отрава"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8567,6 +11217,18 @@
             "av": "тӏутӏал тӏаделъана",
             "ru": "мухи набросились",
             "sense": "муха, мухи"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -9144,6 +11806,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏу-хъухъузе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -9165,6 +11839,18 @@
               "тӏутӏу-хъухъуй"
             ],
             "from_lemma": "тӏутӏу-хъухъузе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏу-хъухъузе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -9190,6 +11876,23 @@
               "тӏутӏу-хъухъуна",
               "тӏутӏу-хъухъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тӏутӏу-хъухъун": {
+    "wordform": "тӏутӏу-хъухъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏу-хъухъузе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -9236,6 +11939,18 @@
             "av": "тӏутӏу-хъухъураб ретӏел",
             "ru": "одежда в лохмотьях, разорванная одежда",
             "sense": "разрывать на клочья"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏу-хъухъузе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -9310,6 +12025,18 @@
               "тӏутӏузабе"
             ],
             "from_lemma": "тӏутӏузе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -9412,6 +12139,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -9435,6 +12174,18 @@
               "тӏутӏуялъул"
             ],
             "from_lemma": "тӏутӏузе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -9502,6 +12253,18 @@
             "sense": "разрываться, разорваться; рассекаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9545,6 +12308,35 @@
             "av": "гьесда тӏад букӏана тӏутӏураб ретӏел",
             "ru": "он был одет в лохмотья; на нём были лохмотья",
             "sense": "с на, над, наверху чего-либо; на поверхности чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏутӏурал": {
+    "wordform": "тӏутӏурал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏутӏузе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -9639,6 +12431,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏухьдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9704,6 +12508,35 @@
             "av": "тӏухьидул гулла",
             "ru": "свинцовая пуля",
             "sense": "пуля, снаряд"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тӏухьиялъ": {
+    "wordform": "тӏухьиялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏубанго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -9785,6 +12618,17 @@
             "sense": "низкий, невысокий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуцаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -9832,6 +12676,23 @@
       }
     }
   },
+  "тӏуцал": {
+    "wordform": "тӏуцал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуцаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тӏуцго": {
     "wordform": "тӏуцго",
     "sources": {
@@ -9859,6 +12720,18 @@
             "av": "гьаниб тӏуцго буго",
             "ru": "здесь низко",
             "sense": "низко"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тӏуц",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

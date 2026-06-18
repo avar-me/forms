@@ -58,6 +58,39 @@
             "sense": "то есть, то есть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ай",
+            "pos": "союз"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ай",
+            "pos": "союз"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ай",
+            "pos": "союз"
+          }
+        ]
       }
     }
   },
@@ -377,6 +410,18 @@
             "sense": "(о)седлать кого-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "айгъир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -399,6 +444,18 @@
               "айгъиралъул",
               "айгъирал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "айгъир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -489,6 +546,17 @@
             "entry_forms": [
               "айгъураб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "айгъураб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -755,6 +823,18 @@
               "айраналъ",
               "айраналъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "айран",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

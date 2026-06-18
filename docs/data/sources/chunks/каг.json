@@ -881,6 +881,30 @@
             "sense": "сестра, сестрёнка, сестрица."
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1024,6 +1048,57 @@
       }
     }
   },
+  "кагъатазухъ": {
+    "wordform": "кагъатазухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кагъаталда": {
+    "wordform": "кагъаталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кагъатги": {
+    "wordform": "кагъатги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кагъатгӏарац": {
     "wordform": "кагъатгӏарац",
     "sources": {
@@ -1043,6 +1118,18 @@
               "кагъатгӏарацалъ",
               "кагъатгӏарацалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъатгӏарац",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1089,6 +1176,23 @@
               "кагъатгӏарацалъ",
               "кагъатгӏарацалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "кагъатгӏарцул": {
+    "wordform": "кагъатгӏарцул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1145,6 +1249,18 @@
             "sense": "карта"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагътал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1164,6 +1280,18 @@
             "av": "кагътазда скрепка чӏвазе",
             "ru": "скрепить бумаги скрепкой",
             "sense": "скрепка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагътал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1207,6 +1335,18 @@
             "av": "кагътазул отдел",
             "ru": "отдел писем",
             "sense": "отдел"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагътал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1423,6 +1563,18 @@
             "sense": "деревянная миска; чаша"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1462,6 +1614,64 @@
             "av": "кагътида хъвазе",
             "ru": "сообщать письмом",
             "sense": "(на)писать, сообщать, сообщить письменно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кагътидалъун": {
+    "wordform": "кагътидалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кагътиде": {
+    "wordform": "кагътиде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1629,6 +1839,35 @@
             "sense": "полоска"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кагътилбакⅰалда": {
+    "wordform": "кагътилбакⅰалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1672,6 +1911,18 @@
               "кагътил",
               "кагътал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагъат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1769,6 +2020,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагьин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1840,6 +2103,18 @@
               "кагьруялъул",
               "кагьрудул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагьру",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1962,6 +2237,18 @@
             "from_lemma": "кагьру"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагьру",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2078,6 +2365,18 @@
               "кагьруялъул",
               "кагьрудул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагьру",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2264,6 +2563,23 @@
               "Кагӏбаялъ",
               "Кагӏбаялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "кагӏидаялъ": {
+    "wordform": "кагӏидаялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кагӏак",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

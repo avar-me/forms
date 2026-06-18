@@ -49,6 +49,35 @@
             "ru": "автозаправочная станция"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бензин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "бензина-лъул": {
+    "wordform": "бензина-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бензин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -70,6 +99,23 @@
               "бензиналъ",
               "бензиналъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бензиналъе": {
+    "wordform": "бензиналъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бензин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -133,6 +179,18 @@
             "av": "бензиналъул талон",
             "ru": "талон на бензин",
             "sense": "талон"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бензин",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

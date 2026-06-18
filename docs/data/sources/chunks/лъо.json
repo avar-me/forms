@@ -60,6 +60,18 @@
             "sense": "указывает на предмет, находящийся выше говорящего, включая и одушевлённые, кроме людей тот, та, то"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоб",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -99,6 +111,17 @@
             "entry": "лъоба",
             "av": "лъоба накӏкӏ буго",
             "ru": "там туча"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоба",
+            "pos": "наречие"
           }
         ]
       }
@@ -571,6 +594,18 @@
             "sense": "там наверху"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -635,6 +670,18 @@
             "av": "сон вуссана дун лъоваса",
             "ru": "я вчера вернулся оттуда",
             "sense": "там же наверху"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -866,6 +913,17 @@
             "entry_forms": [
               "лъодин"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъодин",
+            "pos": "наречие"
           }
         ]
       }
@@ -1353,6 +1411,18 @@
             "sense": "выступает определением имя существительное во мн. и не склоняется те"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоб",
+            "relation": "местный падеж",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -1396,6 +1466,74 @@
             "av": "хварасул къаданиб лахӏтуялъуб гӏерекъ лъола",
             "ru": "под голову покойника в яме могилы ложат куски терна",
             "sense": "узкая яма"
+          }
+        ]
+      }
+    }
+  },
+  "лъолаго": {
+    "wordform": "лъолаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолареб": {
+    "wordform": "лъолареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъоларев": {
+    "wordform": "лъоларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъоларел": {
+    "wordform": "лъоларел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъезе",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1693,6 +1831,81 @@
             "sense": "полка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолеб-бахъулеб": {
+    "wordform": "лъолеб-бахъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолеб-рахъулеб": {
+    "wordform": "лъолеб-рахъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолебниги": {
+    "wordform": "лъолебниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1722,6 +1935,93 @@
             "av": "хӏакимасде иман лъолев чи вукӏинчӏо Султӏан",
             "ru": "Султан не бывал благосклонным к начальнику",
             "sense": "выпивать, закладывать (спиртное)"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолей": {
+    "wordform": "лъолей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолел": {
+    "wordform": "лъолел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лъолелъул": {
+    "wordform": "лъолелъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъоле",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1915,6 +2215,18 @@
             "sense": "льняной"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъелъ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1937,6 +2249,18 @@
               "лъолъохьоналъ",
               "лъолъохьоналъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъолъохьон",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2028,6 +2352,18 @@
             "av": "лъолъул вас дида цадахъ цӏалулев вуго",
             "ru": "её сын учится со мной",
             "sense": "та, она"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъой",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2187,6 +2523,18 @@
             "sense": "яйцо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2264,6 +2612,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2306,6 +2666,18 @@
               "лъорил"
             ],
             "from_lemma": "лъор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъор",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -2365,6 +2737,17 @@
             "av": "лъороб лъезе",
             "ru": "положить за пазухой",
             "sense": "за пазухой"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъороб",
+            "pos": "наречие"
           }
         ]
       }
@@ -2612,6 +2995,18 @@
               "лъос",
               "лъосул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лъов",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }

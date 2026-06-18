@@ -273,6 +273,32 @@
             "sense": "в поле, в полях"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буссине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буссине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -355,6 +381,24 @@
             "av": "анкь бахъана дов вуссаралдаса",
             "ru": "прошла неделя, как он вернулся",
             "sense": "проходить, пройти, протекать; проводить, провести"
+          }
+        ]
+      }
+    }
+  },
+  "вуссина": {
+    "wordform": "вуссина",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буссине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -676,6 +720,19 @@
             "av": "школалдаса вуссине",
             "ru": "возвратиться из школы",
             "sense": "школа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буссине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

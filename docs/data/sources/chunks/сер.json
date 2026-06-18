@@ -105,6 +105,18 @@
             "from_lemma": "сербал"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сербал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -129,6 +141,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сербай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -151,6 +175,18 @@
               "сербаз",
               "сербазул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сербал",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -367,6 +403,18 @@
             "sense": "сервиз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сервиз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -441,6 +489,40 @@
       }
     }
   },
+  "сердца": {
+    "wordform": "сердца",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сердцевина": {
+    "wordform": "сердцевина",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сержант": {
     "wordform": "сержант",
     "sources": {
@@ -493,6 +575,18 @@
             "av": "кӏудияв сержант",
             "ru": "старший сержант",
             "sense": "сержант"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сержант",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -781,6 +875,30 @@
             "sense": "серия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серия",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серия",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -803,6 +921,35 @@
               "сериялъъул",
               "сериял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сериялда": {
+    "wordform": "сериялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -871,6 +1018,23 @@
             "av": "ункъо сериялъулъул фильм",
             "ru": "четырёхсерийный фильм",
             "sense": "-серийный"
+          }
+        ]
+      }
+    }
+  },
+  "сериялъун": {
+    "wordform": "сериялъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "серия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -952,6 +1116,18 @@
             "av": "качествоялъул сертификат",
             "ru": "сертификат качества",
             "sense": "сертификат"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сертификат",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

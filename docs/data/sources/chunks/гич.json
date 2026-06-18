@@ -1,0 +1,82 @@
+{
+  "гичир": {
+    "wordform": "гичир",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "гичир",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "гичир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гичир",
+              "гичиралъ",
+              "гичиралъул"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "гичир",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "гичир",
+            "av": "боцӏуе гичир кьезе",
+            "ru": "скармливать отруби скоту",
+            "sense": "отруби"
+          }
+        ]
+      }
+    }
+  },
+  "гичиралъ": {
+    "wordform": "гичиралъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "гичир",
+            "pos": "существительное",
+            "entry": "гичир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гичир",
+              "гичиралъ",
+              "гичиралъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гичиралъул": {
+    "wordform": "гичиралъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "гичир",
+            "pos": "существительное",
+            "entry": "гичир",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гичир",
+              "гичиралъ",
+              "гичиралъул"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

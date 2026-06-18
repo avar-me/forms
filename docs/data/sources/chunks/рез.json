@@ -32,6 +32,18 @@
             "sense": "бронза"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -55,6 +67,18 @@
               "резалъул",
               "резил"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -88,6 +112,40 @@
             "av": "резалъул гӏеретӏ",
             "ru": "бронзовый кувшин",
             "sense": "кувшин для воды"
+          }
+        ]
+      }
+    }
+  },
+  "резбаги": {
+    "wordform": "резбаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "резги": {
+    "wordform": "резги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -235,6 +293,18 @@
             "sense": "стратегический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резерв",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -269,6 +339,18 @@
             "sense": "резерв"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резерв",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -300,6 +382,18 @@
             "sense": "резерв"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резерв",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -322,6 +416,23 @@
               "резервалъул",
               "резервал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "резервалъе": {
+    "wordform": "резервалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резерв",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -902,6 +1013,36 @@
             "sense": "бронзовый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рез",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "резил",
+            "relation": "родительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -944,6 +1085,86 @@
             "av": "тамахаб резин",
             "ru": "мягкая резинка; резина",
             "sense": "резинка (для продёржки и тому подобное)"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "резина": {
+    "wordform": "резина",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "резина-лъулхъал": {
+    "wordform": "резина-лъулхъал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "резинаги": {
+    "wordform": "резинаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "резинадул": {
+    "wordform": "резинадул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1102,6 +1323,52 @@
             "sense": "сапог"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "резинаялде": {
+    "wordform": "резинаялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "резинаялъул": {
+    "wordform": "резинаялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1135,6 +1402,18 @@
             "av": "резинка цӏазе",
             "ru": "растянуть резинку",
             "sense": "(по)тянуть, (по)тащить, вытащить кого-что-либо; протягивать, протянуть; натягивать, натянуть что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резинка",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1287,6 +1566,18 @@
             "av": "собраниялъ резолюция къабул гьабуна",
             "ru": "собрание принял резолюцию",
             "sense": "резолюция"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "резолюция",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

@@ -264,6 +264,18 @@
             "from_lemma": "щуща-хъухъазе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуща-хъухъазе",
+            "relation": "деепричастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -286,6 +298,23 @@
               "щуща-хъухъана",
               "щуща-хъухъай"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "щущававурав": {
+    "wordform": "щущававурав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -355,6 +384,18 @@
               "щущазаби"
             ],
             "from_lemma": "щущазабизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
           }
         ]
       }
@@ -432,6 +473,18 @@
             "sense": "разбрасывать, разбросать что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -485,6 +538,57 @@
       }
     }
   },
+  "щущазабулеб": {
+    "wordform": "щущазабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазабулев": {
+    "wordform": "щущазабулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазабун": {
+    "wordform": "щущазабун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щущазабуна": {
     "wordform": "щущазабуна",
     "sources": {
@@ -505,6 +609,120 @@
               "щущазабуна",
               "щущазабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "щущазабураб": {
+    "wordform": "щущазабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазавизе": {
+    "wordform": "щущазавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазавурав": {
+    "wordform": "щущазавурав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазаризе": {
+    "wordform": "щущазаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазарулев": {
+    "wordform": "щущазарулев",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущазаруна": {
+    "wordform": "щущазаруна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -552,6 +770,47 @@
             "sense": "сердце, душа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "щущазеги": {
+    "wordform": "щущазеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -573,6 +832,18 @@
               "щущай"
             ],
             "from_lemma": "щущазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -737,6 +1008,40 @@
       }
     }
   },
+  "щущараб": {
+    "wordform": "щущараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щущарал": {
+    "wordform": "щущарал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щущахъ": {
     "wordform": "щущахъ",
     "sources": {
@@ -797,6 +1102,28 @@
             "ru": "разрушить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущахъ",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущахъ",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -825,6 +1152,23 @@
       }
     }
   },
+  "щущизе": {
+    "wordform": "щущизе",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щущин": {
     "wordform": "щущин",
     "sources": {
@@ -845,6 +1189,18 @@
               "щущиналъул"
             ],
             "from_lemma": "щущине"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -962,6 +1318,35 @@
             "av": "бусен щущине",
             "ru": "вить гнездо",
             "sense": "вить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "щущун": {
+    "wordform": "щущун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щущине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

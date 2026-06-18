@@ -52,6 +52,30 @@
             "sense": "что он"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиб",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиб",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -71,6 +95,35 @@
             "av": "жиб-жибго биччани, ябучги бергьунеб",
             "ru": "если нет соперника, и кляча первым прибежит к финишу",
             "sense": "кляча"
+          }
+        ]
+      }
+    }
+  },
+  "жибги": {
+    "wordform": "жибги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиб",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиб",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -236,6 +289,76 @@
             "av": "жибго кьвагьулеб фугас",
             "ru": "самодействующий фугас",
             "sense": "фугас"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жибго",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жибго",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жибго",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      }
+    }
+  },
+  "жибгоги": {
+    "wordform": "жибгоги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жибго",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "жибгун": {
+    "wordform": "жибгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиб",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }

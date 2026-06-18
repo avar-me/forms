@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хина",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -239,6 +251,39 @@
             "sense": "полушубок; шуба"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -385,6 +430,35 @@
             "sense": "хинкалы"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хиналъи": {
+    "wordform": "хиналъи",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -513,6 +587,28 @@
             "av": "гьаниб хинго буго",
             "ru": "здесь тепло",
             "sense": "тепло"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинго",
+            "pos": "наречие"
           }
         ]
       }
@@ -722,6 +818,40 @@
               "хинкӏаз",
               "хинкӏазул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хинкӏазда": {
+    "wordform": "хинкӏазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинкӏал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинкӏазе": {
+    "wordform": "хинкӏазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинкӏал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -952,6 +1082,18 @@
             "sense": "зелень"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинкӏ",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1065,6 +1207,17 @@
             "av": "хинкӏбахъ къараб шал",
             "ru": "платок с особым видом тесьмы",
             "sense": "вид завязки тесьми"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинкӏбахъ",
+            "pos": "выражение"
           }
         ]
       }
@@ -1580,6 +1733,18 @@
             "sense": "отапливаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1753,6 +1918,30 @@
             "sense": "(по)чувствовать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1772,6 +1961,57 @@
             "av": "гьаваялъул хинлъи-цӏорой",
             "ru": "температура воздуха",
             "sense": "воздух"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъи-цӏороялъул": {
+    "wordform": "хинлъи-цӏороялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъиги": {
+    "wordform": "хинлъиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъигун": {
+    "wordform": "хинлъигун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1843,6 +2083,18 @@
             "from_lemma": "хинлъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1907,6 +2159,18 @@
             "av": "рукъ хинлъизабизе",
             "ru": "отапливать комнату",
             "sense": "отапливать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1983,6 +2247,23 @@
       }
     }
   },
+  "хинлъизабулеб": {
+    "wordform": "хинлъизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хинлъизабуна": {
     "wordform": "хинлъизабуна",
     "sources": {
@@ -2003,6 +2284,35 @@
               "хинлъизабуна",
               "хинлъизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъизабураб": {
+    "wordform": "хинлъизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2047,6 +2357,69 @@
             "sense": "(со)греть, нагревать, нагреть что-либо; обогревать, обогреть кого-что-либо; давать, дать кому-либо согреться, обогреться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъизариялъе": {
+    "wordform": "хинлъизариялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъизарулареб": {
+    "wordform": "хинлъизарулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъизарулеб": {
+    "wordform": "хинлъизарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2081,6 +2454,18 @@
             "av": "хинлъизе лъезе",
             "ru": "ставить [на огонь], чтобы греться",
             "sense": "(со)греться, нагреваться, нагреться; обогреваться, обогреться; становиться, стать тёплым или теплее; (по)теплеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -2158,6 +2543,17 @@
             "sense": "в тёплом виде, в горячем виде; в совершенно свежем виде, в парном виде"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъилаго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -2177,6 +2573,91 @@
             "av": "инсул гъастӏа гӏадинан кивго мун хинлъиларо",
             "ru": "как у родного очага, нигде не почувствуешь ты тепла",
             "sense": "родной"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъине": {
+    "wordform": "хинлъине",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъия-лъул": {
+    "wordform": "хинлъия-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъиялда": {
+    "wordform": "хинлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъиялдалъун": {
+    "wordform": "хинлъиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъиялдасан": {
+    "wordform": "хинлъиялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2212,6 +2693,35 @@
               "хинлъиялъ",
               "хинлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъиялъе": {
+    "wordform": "хинлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2259,6 +2769,18 @@
             "sense": "термометр; градусник"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2278,6 +2800,23 @@
             "av": "хинлъиялъулаб реактор",
             "ru": "тепловой реактор",
             "sense": "реактор"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъул": {
+    "wordform": "хинлъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2308,6 +2847,23 @@
       }
     }
   },
+  "хинлъулаго": {
+    "wordform": "хинлъулаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хинлъуларо": {
     "wordform": "хинлъуларо",
     "sources": {
@@ -2324,6 +2880,23 @@
             "av": "нилъетӏего цӏачӏеб цӏахдаца хинлъуларо",
             "ru": "если на себя не натянешь, под паласом не погреешься",
             "sense": "горский палас"
+          }
+        ]
+      }
+    }
+  },
+  "хинлъулеб": {
+    "wordform": "хинлъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2350,6 +2923,23 @@
       }
     }
   },
+  "хинлъуледухъ": {
+    "wordform": "хинлъуледухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хинлъун": {
     "wordform": "хинлъун",
     "sources": {
@@ -2366,6 +2956,18 @@
             "av": "жакъа къад хинлъун букӏана",
             "ru": "сегодня в дневное время было тепло",
             "sense": "днём; в дневное время"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хинлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

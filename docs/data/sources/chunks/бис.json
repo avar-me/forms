@@ -72,6 +72,18 @@
             "sense": "горный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бис",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -170,6 +182,40 @@
               "бисил",
               "бисал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бисквиталъе": {
+    "wordform": "бисквиталъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бис",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бисквиталъул": {
+    "wordform": "бисквиталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бис",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

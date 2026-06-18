@@ -442,6 +442,18 @@
             "sense": "паровозный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудок",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -490,6 +502,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудок",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -512,6 +536,23 @@
               "гудокалъул",
               "гудокал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гудрада": {
+    "wordform": "гудрада",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудрал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -628,6 +669,18 @@
             "from_lemma": "гудур"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудур",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -713,6 +766,23 @@
             "av": "дие гъураб гудраца мунго кквеги",
             "ru": "да попадёшь ты сам в капкан, который ставишь мне",
             "sense": "капкан"
+          }
+        ]
+      }
+    }
+  },
+  "гудрон": {
+    "wordform": "гудрон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -846,6 +916,35 @@
             "sense": "перед кем-чем-либо, у чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гудуралда": {
+    "wordform": "гудуралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -931,6 +1030,17 @@
             "entry": "гудучӏ",
             "av": "гудучӏ бан ана бацӏ бортун",
             "ru": "волк кувырком полетел"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гудучӏ",
+            "pos": "существительное"
           }
         ]
       }

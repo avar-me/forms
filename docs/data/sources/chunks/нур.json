@@ -211,6 +211,30 @@
             "sense": "синеватый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -484,6 +508,23 @@
       }
     }
   },
+  "нурагъунеб": {
+    "wordform": "нурагъунеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нурагъине",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "нурал": {
     "wordform": "нурал",
     "sources": {
@@ -550,6 +591,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -602,6 +655,18 @@
             "av": "нуралъул хӏуби",
             "ru": "радуга",
             "sense": "стебель; ствол"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -676,6 +741,23 @@
             "entry_forms": [
               "нурдакъаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "нурикълъараб": {
+    "wordform": "нурикълъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

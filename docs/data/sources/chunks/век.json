@@ -37,6 +37,32 @@
             "sense": "тут же, сразу, сразу же, тотчас"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -73,6 +99,24 @@
             "av": "кигӏан хадув векераниги, кквезе кӏолареб жо",
             "ru": "сколько бы ни побежишь, ты его не поймаешь",
             "sense": "сколько, в каком количестве"
+          }
+        ]
+      }
+    }
+  },
+  "векерахъдизе": {
+    "wordform": "векерахъдизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекерахъдизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -188,6 +232,50 @@
             "av": "рогьалилъго вахъун векеризе бокьула дие",
             "ru": "я люблю с утра пораньше побегать",
             "sense": "с утра, с утра пораньше; на рассвете; ещё утром"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "векерила": {
+    "wordform": "векерила",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -326,6 +414,18 @@
               "векерухъанасул",
               "рекерухъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "векерухъан",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -485,6 +585,18 @@
             "sense": "средний"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "векьарухъан",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -508,6 +620,23 @@
               "рекьарухъаби",
               "бекьарухъан"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "векьарухъанасдаса": {
+    "wordform": "векьарухъанасдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "векьарухъан",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -543,6 +672,18 @@
             "av": "дун гьавуна векьарухъанасул хъизамалда",
             "ru": "я родился в семье крестьянина",
             "sense": "землепашец, земледелец, пахарь; крестьянин"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "векьарухъан",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

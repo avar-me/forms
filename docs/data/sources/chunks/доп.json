@@ -51,6 +51,35 @@
             "sense": "дополнение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дополнение",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "дополнениелъун": {
+    "wordform": "дополнениелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дополнение",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -73,6 +102,23 @@
               "дополнениялъул",
               "дополненияби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дополнениялда": {
+    "wordform": "дополнениялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дополнение",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

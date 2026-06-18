@@ -42,6 +42,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -105,6 +117,18 @@
             "av": "сурадул чадал",
             "ru": "лепёшки из забродившего теста",
             "sense": "опара, квашня, забродившее тесто"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чед",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -333,6 +357,18 @@
             "av": "чадикълъи бачӏунгеги, чиякълъи бихьугеги",
             "ru": "да не настигнет бесхлебье, да не настанет одиночество",
             "sense": "неурожай; бесхлебье, бесхлебица"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадикълъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -657,6 +693,30 @@
             "sense": "хлеб"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чед",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чед",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -763,6 +823,18 @@
             "sense": "палатка, шатёр"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -798,6 +870,23 @@
       }
     }
   },
+  "чадирал": {
+    "wordform": "чадирал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадира",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чадиралда": {
     "wordform": "чадиралда",
     "sources": {
@@ -814,6 +903,30 @@
             "av": "чадиралда гъоркь чӏезе",
             "ru": "стоять под зонтиком",
             "sense": "зонтик, зонт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадира",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадира",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -861,6 +974,18 @@
             "entry_forms": [
               "чадиралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чадиралъул",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -980,6 +1105,18 @@
             "av": "я ратӏлица черх бацичӏо, я чадица чехь гӏорцӏичӏо",
             "ru": "не смог ни покрыть тело одеждой, ни насытить желудок хлебом",
             "sense": "или, либо; ни"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чед",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

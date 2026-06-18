@@ -61,6 +61,18 @@
             "sense": "схема"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "схема",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -83,6 +95,23 @@
               "схемаялъул",
               "схемаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "схемалъун": {
+    "wordform": "схемалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "схема",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -131,6 +160,18 @@
               "схемаялъул",
               "схемаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "схема",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

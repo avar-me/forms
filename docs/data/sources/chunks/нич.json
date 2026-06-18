@@ -200,6 +200,30 @@
             "sense": "накрычать, поднимать голос на кого-либо; рассердиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -252,6 +276,18 @@
             "av": "нич-намус гьечӏев",
             "ru": "не имеющий ни стыда ни совевсти",
             "sense": "стыд и совесть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич-намус",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -339,6 +375,28 @@
             "sense": "постыдный, непристойный, срамный; позорный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ничаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ничаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -409,6 +467,23 @@
       }
     }
   },
+  "ничалъе": {
+    "wordform": "ничалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ничалъул": {
     "wordform": "ничалъул",
     "sources": {
@@ -427,6 +502,18 @@
               "ничалъ",
               "ничалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -452,6 +539,18 @@
               "ничбахъил",
               "ничбахъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ничбахъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -529,6 +628,23 @@
       }
     }
   },
+  "ничги": {
+    "wordform": "ничги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ничгьечӏ": {
     "wordform": "ничгьечӏ",
     "sources": {
@@ -549,6 +665,18 @@
               "ничгьечӏил",
               "ничгьечӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ничгьечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -691,6 +819,40 @@
               "ничгьечӏолъиялъ",
               "ничгьечӏолъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ничего": {
+    "wordform": "ничего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ничей": {
+    "wordform": "ничей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нич",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

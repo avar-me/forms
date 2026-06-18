@@ -171,6 +171,18 @@
             "sense": "вдоль"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нодо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -684,6 +696,23 @@
               "надалзул",
               "надал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "нодоялъул": {
+    "wordform": "нодоялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нодо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

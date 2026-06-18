@@ -21,6 +21,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужа-куказе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -90,6 +102,23 @@
               "жужа-кукана",
               "жужа-кукай"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "жужа-кукараб": {
+    "wordform": "жужа-кукараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужа-куказе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -287,6 +316,18 @@
             "sense": "земляной пол"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -310,6 +351,18 @@
               "жужаялъул"
             ],
             "from_lemma": "жужазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -363,6 +416,23 @@
       }
     }
   },
+  "жужараб": {
+    "wordform": "жужараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жужахӏ": {
     "wordform": "жужахӏ",
     "sources": {
@@ -402,6 +472,30 @@
             "av": "нилъерго бакӏ — алжан, чияр бакӏ — жужахӏ",
             "ru": "своя земля — рай, чужая — ад",
             "sense": "свой"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужахӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужахӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -687,6 +781,35 @@
             "sense": "защита"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужахӏ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "жужахӏалъулал": {
+    "wordform": "жужахӏалъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужахӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -756,6 +879,18 @@
               "жужукӏалъул",
               "жужукӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жужукӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

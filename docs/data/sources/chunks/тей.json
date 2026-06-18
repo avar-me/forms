@@ -39,6 +39,35 @@
             "sense": "чваниться, заноситься, зазнаваться; кичиться чем-либо; проявлять, проявить спесь; высокомерничать; задирать нос"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "тейгун": {
+    "wordform": "тейгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   }

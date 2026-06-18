@@ -1,0 +1,106 @@
+{
+  "нейлон": {
+    "wordform": "нейлон",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "нейлон",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "нейлон",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "нейлон",
+              "нейлоналъ",
+              "нейлоналъул"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нейлон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "нейлоналъ": {
+    "wordform": "нейлоналъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нейлон",
+            "pos": "существительное",
+            "entry": "нейлон",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "нейлон",
+              "нейлоналъ",
+              "нейлоналъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нейлоналъул": {
+    "wordform": "нейлоналъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "нейлон",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "нейлоналъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "нейлоналъул"
+            ],
+            "from_lemma": "нейлон"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нейлон",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "нейлоналъул",
+            "av": "нейлоналъул гурде",
+            "ru": "нейлоновая рубашка",
+            "sense": "нейлоновый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нейлон",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -157,6 +157,28 @@
             "sense": "стройный, статный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -408,6 +430,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага-сан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -535,6 +569,35 @@
             "av": "чӏурканаб лага-черхалъул яс",
             "ru": "девушка изящной фигуры",
             "sense": "изысканный, изящный, красивый; грациозный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага-черх",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лага-черхбуго": {
+    "wordform": "лага-черхбуго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага-черх",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -893,6 +956,35 @@
       }
     }
   },
+  "лагаялда": {
+    "wordform": "лагаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лагаялъ": {
     "wordform": "лагаялъ",
     "sources": {
@@ -914,6 +1006,35 @@
               "логол",
               "лугби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лагаялъе": {
+    "wordform": "лагаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -940,6 +1061,18 @@
               "логол",
               "лугби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лага",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -987,6 +1120,18 @@
             "sense": "лагерь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагерь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1006,6 +1151,23 @@
             "av": "лагералдаса лъути",
             "ru": "побег из лагеря",
             "sense": "бегство, побег"
+          }
+        ]
+      }
+    }
+  },
+  "лагералде": {
+    "wordform": "лагералде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагерь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1109,6 +1271,30 @@
             "av": "пионеразул лагерь",
             "ru": "пионерский лагерь",
             "sense": "пионер"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагерь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагерь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1255,6 +1441,56 @@
             "sense": "освобождать, освободить; эмансипировать; раскрепощать, раскрепостить кого-либо; давать, дать волю"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "лагъ-лъиялде": {
+    "wordform": "лагъ-лъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1390,6 +1626,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лагъги": {
+    "wordform": "лагъги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лагъзадерида": {
+    "wordform": "лагъзадерида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъзал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1421,6 +1703,18 @@
             "av": "лагъзадерил чи",
             "ru": "человек рабского происхождения",
             "sense": "невольничий, рабский, рабского происждения"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъзал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -1471,6 +1765,30 @@
             "from_lemma": "лагъ"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1490,6 +1808,30 @@
             "av": "лагъзаллъун гьаризе",
             "ru": "делать рабами, брать в рабство",
             "sense": "раб и раба; невольник и невольница; холоп"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъзал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъзал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1664,6 +2006,18 @@
             "sense": "служение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагълъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1785,6 +2139,18 @@
             "sense": "освобождаться, освободиться; раскрепощаться, раскрепоститься"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагълъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1816,6 +2182,18 @@
             "sense": "рабство, невольничество; кабала"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагълъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1842,6 +2220,23 @@
       }
     }
   },
+  "лагълъиялъе": {
+    "wordform": "лагълъиялъе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагълъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лагълъиялъул": {
     "wordform": "лагълъиялъул",
     "sources": {
@@ -1860,6 +2255,23 @@
               "лагълъиялъ",
               "лагълъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "лагълъуде": {
+    "wordform": "лагълъуде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1911,6 +2323,18 @@
             "av": "лагълъун кквезе",
             "ru": "порабощать, поработить; закабалять, закабалить",
             "sense": "раб и раба; невольник и невольница; холоп"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2029,6 +2453,23 @@
               "лагънаялъул",
               "лагънаял"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "лагъун": {
+    "wordform": "лагъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2464,6 +2905,30 @@
             "sense": "жаркий, знойный, горячий; палящий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагьизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагьизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2517,6 +2982,18 @@
             "av": "лагьи чӏвазе",
             "ru": "(по)чувствовать жару",
             "sense": "(по)чувствовать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагьизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2592,6 +3069,18 @@
               "лагьизабе"
             ],
             "from_lemma": "лагьизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагьизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -2849,6 +3338,23 @@
       }
     }
   },
+  "лагьиялда": {
+    "wordform": "лагьиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагьи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лагьиялъ": {
     "wordform": "лагьиялъ",
     "sources": {
@@ -3015,6 +3521,35 @@
             "av": "пахь лагӏана",
             "ru": "медь покрылась зеленью, патиной",
             "sense": "медь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лагӏараб": {
+    "wordform": "лагӏараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3262,6 +3797,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏдезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3450,6 +3997,18 @@
             "sense": "медь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3534,6 +4093,18 @@
             "sense": "кровь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3587,6 +4158,23 @@
       }
     }
   },
+  "лагӏизабулеб": {
+    "wordform": "лагӏизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лагӏизабуна": {
     "wordform": "лагӏизабуна",
     "sources": {
@@ -3607,6 +4195,40 @@
               "лагӏизабуна",
               "лагӏизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "лагӏизавизе": {
+    "wordform": "лагӏизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лагӏизавулев": {
+    "wordform": "лагӏизавулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3643,6 +4265,18 @@
             "av": "би лагӏизе",
             "ru": "кровью харкать",
             "sense": "кровь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -3852,6 +4486,18 @@
             "av": "лагӏун кӏалбиххана жакъа досул",
             "ru": "из-за рвоты сегодня пост испортился у него",
             "sense": "испортиться — о посте"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лагӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

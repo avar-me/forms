@@ -1009,6 +1009,36 @@
             "sense": "Ⅲ. тот самый, один и тот же; та самая, одна и та же; то самое, одно и тоже"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "дуда",
+            "relation": "местный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1152,6 +1182,30 @@
             "sense": "обязательный, возложенный на кого-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуда",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуда",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1232,6 +1286,47 @@
             "av": "дудаса хирияб жо гьечӏо дие",
             "ru": "у меня нет ничего, дороже тебя",
             "sense": "дорогой, милый, любимый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "отложительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "отложительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "дудаянги": {
+    "wordform": "дудаянги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуда",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1399,6 +1494,45 @@
             "sense": "синий, синего цвета; голубой, голубого цвета"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуде",
+            "pos": "послелог"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуде",
+            "pos": "послелог"
+          }
+        ]
+      }
+    }
+  },
+  "дудеги": {
+    "wordform": "дудеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуде",
+            "pos": "послелог",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1438,6 +1572,18 @@
             "av": "дун дудего къикъидизавуге дуца",
             "ru": "не понуждай меня накричать на тебя",
             "sense": "понуждать к покрикиванию; дать повод (на)кричать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуде",
+            "pos": "послелог",
+            "confidence": "medium"
           }
         ]
       }
@@ -1566,6 +1712,18 @@
             "av": "нижер рахъалдасан дудехун дагӏба гьечӏо",
             "ru": "с нашей стороны к тебе нет претензий",
             "sense": "с, от, с чьей-то стороны, с какой-то стороны"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуде",
+            "pos": "послелог",
+            "confidence": "medium"
           }
         ]
       }

@@ -212,6 +212,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щапизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -287,6 +299,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щапизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -331,6 +355,18 @@
             "av": "ракьалде щапизе",
             "ru": "погибнуть в сражении",
             "sense": "Земля"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щапизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -448,6 +484,18 @@
             "av": "пуни щапулеб хӏалалда",
             "ru": "еле-еле душа в теле, в чём только душа держится; если дунуть, то упадёт",
             "sense": "дуть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щапизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

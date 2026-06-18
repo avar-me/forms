@@ -2064,6 +2064,48 @@
             "sense": "или же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "дида",
+            "relation": "местный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2081,6 +2123,18 @@
             "av": "Дидаги букӏараб бахӏараб заман, Махӏу беканиги, галадулареб",
             "ru": "Был и я молод, в ту пору, Хоть нога сломалась, не хромал я",
             "sense": "нога"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дида",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2122,6 +2176,52 @@
             "av": "дидаго ццин бахъун вуго",
             "ru": "досадую на самого себя",
             "sense": "гнев, ярость, злоба, злость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дида",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дидагоги": {
+    "wordform": "дидагоги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дида",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дидактикаялда": {
+    "wordform": "дидактикаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дида",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2319,6 +2419,30 @@
             "sense": "что-то, что-либо; чего-то, чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "отложительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "отложительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2369,6 +2493,18 @@
             "av": "дидасан кьо лъоге",
             "ru": "не начни с меня",
             "sense": "мост"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дидаса",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2581,6 +2717,30 @@
             "av": "цӏа бачӏун буго диде",
             "ru": "у меня [высокая] температура",
             "sense": "температура, жар"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "диде",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "диде",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

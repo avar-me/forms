@@ -60,6 +60,18 @@
             "sense": "осётровый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икра",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -90,6 +102,45 @@
             "av": "икрам гьабизе",
             "ru": "почтительно поклониться; проявить уважение; бить челом",
             "sense": "поклон; почёт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икрам",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икрам",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "икрамал": {
+    "wordform": "икрамал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икрам",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -136,6 +187,57 @@
               "икрамалъ",
               "икрамалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "икрамги": {
+    "wordform": "икрамги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икрам",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "икраялда": {
+    "wordform": "икраялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икра",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "икраялдасан": {
+    "wordform": "икраялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икра",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -266,6 +368,18 @@
             "av": "кидаго сундулъго икъбал ккола досие",
             "ru": "ему всегда во всем везет",
             "sense": "удача, везение; счастье"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икъбал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -589,6 +703,17 @@
             "av": "гӏурус икълим",
             "ru": "русская сторона",
             "sense": "страна, сторона; зона; пояс; край, область; провинция"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "икълим",
+            "pos": "выражение"
           }
         ]
       }

@@ -31,6 +31,30 @@
             "sense": "лимон"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -73,6 +97,18 @@
             "av": "лимонад гьекъезе",
             "ru": "(вы)пить лимонаду",
             "sense": "лимонад"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимонад",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -153,6 +189,35 @@
               "лимоналъул",
               "лимонал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лимоналдаса": {
+    "wordform": "лимоналдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -240,6 +305,18 @@
             "av": "лимоналъул лъим",
             "ru": "лимонный сок",
             "sense": "лимонный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимон",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -439,6 +516,23 @@
       }
     }
   },
+  "лимхӏарав": {
+    "wordform": "лимхӏарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимхӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лимхӏе": {
     "wordform": "лимхӏе",
     "sources": {
@@ -484,6 +578,18 @@
               "лимхӏиялъул"
             ],
             "from_lemma": "лимхӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимхӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -658,6 +764,23 @@
             "av": "дов дие лимхӏулев вукӏана",
             "ru": "он делал передо мной виноватый вид",
             "sense": "(с)делать виноватый вид"
+          }
+        ]
+      }
+    }
+  },
+  "лимхӏун": {
+    "wordform": "лимхӏун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лимхӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

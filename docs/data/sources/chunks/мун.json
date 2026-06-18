@@ -2534,6 +2534,42 @@
             "sense": "или же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -2648,6 +2684,42 @@
             "av": "щиб мунагь букӏун",
             "ru": "за какие грехи",
             "sense": "грех"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2771,6 +2843,17 @@
             "sense": "грешный; виновный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагьаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2791,6 +2874,18 @@
             "entry_forms": [
               "мунагьаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2822,6 +2917,35 @@
             "av": "мунагьаздаса вацӏцӏалъизе",
             "ru": "очиститься от грехов",
             "sense": "грех"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мунагьазе": {
+    "wordform": "мунагьазе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2968,6 +3092,18 @@
             "av": "мунагьал чураяв дир вац Мухӏамад",
             "ru": "мой покойный брат Магомед",
             "sense": "(по)мыть, вымыть; (по)стирать, выстирать что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3123,6 +3259,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3142,6 +3290,23 @@
             "av": "мунагьалъулъе ккезавизе",
             "ru": "толкнуть на грешный путь, на путь порока",
             "sense": "грех"
+          }
+        ]
+      }
+    }
+  },
+  "мунагьалъухъ": {
+    "wordform": "мунагьалъухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунагь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3200,6 +3365,18 @@
             "av": "ахирарбагӏалъ гьавурав мунапикъ",
             "ru": "негодяй, родившийся в злополучный час",
             "sense": "злополучный час"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунапикъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3405,6 +3582,18 @@
               "мунапикълъиялъул"
             ],
             "from_lemma": "мунапикълъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунапикълъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3702,6 +3891,30 @@
             "sense": "(по)стареть, (со)стариться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3824,6 +4037,30 @@
             "sense": "ты"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3843,6 +4080,18 @@
             "av": "мунгоги азун вугогури, дун анцӏгогӏан цӏакъ",
             "ru": "и ты похудел намного (десять раз) больше, чем я",
             "sense": "(по)худеть, исхудать; осунуться; (о)тощать, истощаться, истощиться; быть худым, тощим"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -3874,6 +4123,18 @@
             "av": "мунгун къелав Къурбанил ярагъ букӏин лъай дуда",
             "ru": "ты знай, что у Курбана, спорящего с тобой, оружие имеется",
             "sense": "спорящий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -3916,6 +4177,23 @@
             "av": "берталъе тӏоцеве вачӏанин мунилан бицунеб букӏана",
             "ru": "говорили, что ты первым пришёл на свадьбу",
             "sense": "сперва, сначала, прежде всего; впервые; во-первых"
+          }
+        ]
+      }
+    }
+  },
+  "муниципалитеталъул": {
+    "wordform": "муниципалитеталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -4147,6 +4425,18 @@
             "sense": "польза, выгода"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4177,6 +4467,17 @@
             "sense": "полезный, выгодный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏатаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -4202,6 +4503,40 @@
       }
     }
   },
+  "мунпагӏатаздаса": {
+    "wordform": "мунпагӏатаздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏатаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мунпагӏатазе": {
+    "wordform": "мунпагӏатазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏатаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мунпагӏатай": {
     "wordform": "мунпагӏатай",
     "sources": {
@@ -4219,6 +4554,40 @@
             "entry_forms": [
               "мунпагӏатаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мунпагӏатал": {
+    "wordform": "мунпагӏатал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏатаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мунпагӏаталда": {
+    "wordform": "мунпагӏаталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏатаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4247,6 +4616,23 @@
       }
     }
   },
+  "мунпагӏаталъе": {
+    "wordform": "мунпагӏаталъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мунпагӏат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мунпагӏаталъул": {
     "wordform": "мунпагӏаталъул",
     "sources": {
@@ -4265,6 +4651,23 @@
               "мунпагӏаталъ",
               "мунпагӏаталъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мунтакьамго": {
+    "wordform": "мунтакьамго",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мун",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }

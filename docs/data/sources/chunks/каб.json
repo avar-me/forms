@@ -94,6 +94,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабардияв",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -160,6 +172,18 @@
             "sense": "кабардинский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабардиял",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -184,6 +208,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабардияй",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -206,6 +242,18 @@
               "кабардияз",
               "кабардиязул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабардиял",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -392,6 +440,40 @@
       }
     }
   },
+  "кабелалда": {
+    "wordform": "кабелалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабель",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кабелалдасан": {
+    "wordform": "кабелалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабель",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кабелалъ": {
     "wordform": "кабелалъ",
     "sources": {
@@ -434,6 +516,18 @@
               "кабелалъул"
             ],
             "from_lemma": "кабель"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабель",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -565,6 +659,18 @@
             "sense": "кабель"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабель",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -618,6 +724,30 @@
             "av": "комментаторасул кабина",
             "ru": "кабина комментатора",
             "sense": "комментатор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабина",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабина",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -868,6 +998,18 @@
             "sense": "хирургический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабинет",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -895,6 +1037,23 @@
       }
     }
   },
+  "кабинеталда": {
+    "wordform": "кабинеталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабинет",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кабинеталъ": {
     "wordform": "кабинеталъ",
     "sources": {
@@ -914,6 +1073,23 @@
               "кабинеталъул",
               "кабинетал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "кабинеталъе": {
+    "wordform": "кабинеталъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабинет",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -947,6 +1123,18 @@
             "av": "кабинеталъул кӏулал",
             "ru": "ключи от кабинета",
             "sense": "кабинет"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кабинет",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

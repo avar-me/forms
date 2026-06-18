@@ -65,6 +65,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гебегахъдизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -116,6 +128,23 @@
       }
     }
   },
+  "гебегахъдизабизе": {
+    "wordform": "гебегахъдизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гебегахъди",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гебегахъдизе": {
     "wordform": "гебегахъдизе",
     "sources": {
@@ -147,6 +176,18 @@
             "av": "хӏурулъ гебегахъдизе",
             "ru": "валяться в пыли",
             "sense": "пыль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гебегахъдизе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -320,6 +361,18 @@
               "гебегизаби"
             ],
             "from_lemma": "гебегизабизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гебегизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
           }
         ]
       }

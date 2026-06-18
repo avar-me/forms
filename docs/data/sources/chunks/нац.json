@@ -103,6 +103,28 @@
             "sense": "нога"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нацӏ",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нацӏ",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -254,6 +276,23 @@
       }
     }
   },
+  "нацӏидасан": {
+    "wordform": "нацӏидасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нацӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "нацӏик": {
     "wordform": "нацӏик",
     "sources": {
@@ -371,6 +410,18 @@
               "нацӏил",
               "нацӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нацӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

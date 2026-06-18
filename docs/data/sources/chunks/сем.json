@@ -231,6 +231,23 @@
       }
     }
   },
+  "семани": {
+    "wordform": "семани",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "семантика": {
     "wordform": "семантика",
     "sources": {
@@ -337,6 +354,17 @@
             "entry_forms": [
               "семантикияб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семантикияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -608,6 +636,23 @@
       }
     }
   },
+  "семена": {
+    "wordform": "семена",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "семестр": {
     "wordform": "семестр",
     "sources": {
@@ -735,6 +780,23 @@
       }
     }
   },
+  "семечкадул": {
+    "wordform": "семечкадул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "семи": {
     "wordform": "семи",
     "sources": {
@@ -753,6 +815,18 @@
               "семи"
             ],
             "from_lemma": "семизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -941,6 +1015,18 @@
             "sense": "прибавляется к целевой форме (инфинитиву) глагола и выражает опасение смотри"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1021,6 +1107,18 @@
             "sense": "семинар"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семинар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1064,6 +1162,18 @@
             "av": "семинаралда гӏахьаллъизе",
             "ru": "участвовать на семинаре",
             "sense": "семинар"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семинар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1142,6 +1252,86 @@
             "av": "семинаралъул тема",
             "ru": "тема семинара",
             "sense": "тема"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семинар",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "семинаристал": {
+    "wordform": "семинаристал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семинар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "семинариялъул": {
+    "wordform": "семинариялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семинар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "семитазул": {
+    "wordform": "семитазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "семитал": {
+    "wordform": "семитал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1278,6 +1468,40 @@
       }
     }
   },
+  "семичӏого": {
+    "wordform": "семичӏого",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "семиялъул": {
+    "wordform": "семиялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "семуге": {
     "wordform": "семуге",
     "sources": {
@@ -1324,6 +1548,23 @@
       }
     }
   },
+  "семулаго": {
+    "wordform": "семулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "семулеб": {
     "wordform": "семулеб",
     "sources": {
@@ -1363,6 +1604,18 @@
             "sense": "(по)ругать, отругать, распекать, пробирать, давать взбучку"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1382,6 +1635,35 @@
             "av": "мадугьалзаби семулел руго",
             "ru": "соседи ругаются",
             "sense": "(по)ругаться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "семулелъул": {
+    "wordform": "семулелъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1424,6 +1706,18 @@
             "av": "семун кӏалъазе",
             "ru": "поругать, повысить голос",
             "sense": "(по)ругать, отругать, распекать, пробирать, давать взбучку"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "семизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

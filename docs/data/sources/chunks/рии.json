@@ -241,6 +241,47 @@
             "sense": "пятый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "риида": {
+    "wordform": "риида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -478,6 +519,17 @@
             "sense": "употребляется в-ка; пожалуйста (располагается в предл. после повелительных форм"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риидал",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -539,6 +591,23 @@
             "av": "риидалалде тӏадагьал хьитал росизе",
             "ru": "приобрести к лету лёгкую обувь",
             "sense": "к лету"
+          }
+        ]
+      }
+    }
+  },
+  "риидалаялде": {
+    "wordform": "риидалаялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риидал",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -702,6 +771,17 @@
             "sense": "турбаза"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риидалил",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -755,6 +835,57 @@
       }
     }
   },
+  "риинаризе": {
+    "wordform": "риинаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "риинарун": {
+    "wordform": "риинарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "рииялда": {
+    "wordform": "рииялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рии",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "рииялъ": {
     "wordform": "рииялъ",
     "sources": {
@@ -781,6 +912,17 @@
             "av": "тӏубараб рииялъ дун ралъдахъе хьвадана",
             "ru": "всё лето я ходил на море",
             "sense": "всё лето, за лето, в течение лета"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рииялъ",
+            "pos": "наречие"
           }
         ]
       }

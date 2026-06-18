@@ -21,6 +21,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -56,6 +68,17 @@
             "entry": "пана",
             "av": "ракӏал пана гьарула гьелъул кочӏоца",
             "ru": "её песня пленяет сердца"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пана",
+            "pos": "существительное"
           }
         ]
       }
@@ -101,6 +124,18 @@
               "панадуниялалъ",
               "панадуниялалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панадуниял",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -152,6 +187,40 @@
       }
     }
   },
+  "паназ": {
+    "wordform": "паназ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пана",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паназул": {
+    "wordform": "паназул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пана",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "панал": {
     "wordform": "панал",
     "sources": {
@@ -171,6 +240,35 @@
               "панасул",
               "панал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панал-вацал": {
+    "wordform": "панал-вацал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -246,6 +344,18 @@
               "паналъиялъул"
             ],
             "from_lemma": "паналъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паналъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -424,6 +534,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паналъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -541,6 +663,35 @@
             "sense": "очаровываться, плениться чем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паналъун": {
+    "wordform": "паналъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -564,6 +715,18 @@
               "панамаялъул",
               "панамаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панама",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -662,6 +825,35 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панасда": {
+    "wordform": "панасда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -684,6 +876,18 @@
               "панасул",
               "панал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -723,6 +927,17 @@
             "av": "панаяб макъан",
             "ru": "за душу берущий мотив",
             "sense": "очаровывающий, пленящий; за душу берущий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панаяб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -767,6 +982,23 @@
             "entry_forms": [
               "панаяб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "панги": {
+    "wordform": "панги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1020,6 +1252,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пандуз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1168,6 +1412,18 @@
             "av": "пандур хъентӏезабизе",
             "ru": "бренчать на пандуре",
             "sense": "(по)бренчать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пандур",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1445,6 +1701,74 @@
       }
     }
   },
+  "панел": {
+    "wordform": "панел",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панелазул": {
+    "wordform": "панелазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панелал": {
+    "wordform": "панелал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панелалъул": {
+    "wordform": "панелалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "панз": {
     "wordform": "панз",
     "sources": {
@@ -1467,6 +1791,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1486,6 +1822,17 @@
             "entry_forms": [
               "панзаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панзаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1578,6 +1925,18 @@
               "панзалъул",
               "панзил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1684,6 +2043,35 @@
             "sense": "рогатый скот"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "панзлъи": {
+    "wordform": "панзлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1767,6 +2155,18 @@
             "av": "панкъ гӏадин чӏинтӏизе",
             "ru": "раздавить в лепёшку",
             "sense": "лепёшка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панкъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1883,6 +2283,18 @@
             "sense": "лепёшка"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панкъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1978,6 +2390,23 @@
               "панкъалаялъул",
               "панкъалаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "панкъалда": {
+    "wordform": "панкъалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "панкъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2123,6 +2552,23 @@
               "панкӏалакӏачалъул",
               "панкӏалакӏачал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "панналъул": {
+    "wordform": "панналъул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2796,6 +3242,23 @@
               "пантографалъул",
               "пантографал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "паншанлъи": {
+    "wordform": "паншанлъи",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

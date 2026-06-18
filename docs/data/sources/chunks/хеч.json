@@ -111,6 +111,47 @@
             "sense": "копьё, пика; штык"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хеч",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хеч",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "хечалъул": {
+    "wordform": "хечалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хеч",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -171,6 +212,23 @@
             "av": "на хечараб квер гьорон буго",
             "ru": "рука, ужаленная пчелой, опухла",
             "sense": "опухать, распухать, пухнуть; отекать, оплывать"
+          }
+        ]
+      }
+    }
+  },
+  "хечгун": {
+    "wordform": "хечгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хеч",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

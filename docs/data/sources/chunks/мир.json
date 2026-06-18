@@ -60,6 +60,23 @@
       }
     }
   },
+  "мирзаги": {
+    "wordform": "мирзаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мирза",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мирзайххам": {
     "wordform": "мирзайххам",
     "sources": {
@@ -357,6 +374,17 @@
             "sense": "совсем, насовсем, навсегда; вовсе, окончательно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миркалъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -377,6 +405,18 @@
               "миркалъ",
               "миркалъго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миркалъ",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

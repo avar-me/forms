@@ -65,6 +65,28 @@
             "sense": "лицо; внешний вид, наружность, облик, лик; физиономия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -97,6 +119,35 @@
             "av": "сипат-сурат гьабизе",
             "ru": "описать, дать описание; образ и картина",
             "sense": "описание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат-сурат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "сипат-сураталдасан": {
+    "wordform": "сипат-сураталдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат-сурат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -143,6 +194,18 @@
               "сипат-сураталъ",
               "сипат-сураталъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат-сурат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -217,6 +280,23 @@
       }
     }
   },
+  "сипатаздалъун": {
+    "wordform": "сипатаздалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сипатал": {
     "wordform": "сипатал",
     "sources": {
@@ -236,6 +316,35 @@
               "сипаталъул",
               "сипатал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сипаталдалъун": {
+    "wordform": "сипаталдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -286,6 +395,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -305,6 +426,17 @@
             "entry_forms": [
               "сипатияб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипатияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -349,6 +481,57 @@
             "entry_forms": [
               "сипатияб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сипатлъи": {
+    "wordform": "сипатлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сипатлъун": {
+    "wordform": "сипатлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сипатсураталъул": {
+    "wordform": "сипатсураталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сипат",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

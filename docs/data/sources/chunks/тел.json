@@ -88,6 +88,28 @@
             "sense": "пролёт (мера длины чего-либо, равная 8 натам —"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тел",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тел",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -123,6 +145,30 @@
             "sense": "вечером, сегодня вечером; ночью, сегодня ночью; в сегодняшнюю ночь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -152,6 +198,23 @@
             "av": "Румав парччахӏ дун ани, Тахалда мун телаан, Дунго цеве чӏелаан",
             "ru": "Был бы я римским императором, На трон тебя посадил бы, А сам стал бы слугой твоим",
             "sense": "римский"
+          }
+        ]
+      }
+    }
+  },
+  "телаби": {
+    "wordform": "телаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -189,6 +252,23 @@
               "телалъул",
               "телал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "телалдалъун": {
+    "wordform": "телалдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тел",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -305,6 +385,18 @@
             "sense": "столб; опора"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тел",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -399,6 +491,23 @@
       }
     }
   },
+  "телев": {
+    "wordform": "телев",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "телевидение": {
     "wordform": "телевидение",
     "sources": {
@@ -470,6 +579,18 @@
             "sense": "телевидение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевидение",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -494,6 +615,23 @@
       }
     }
   },
+  "телевидениялдасан": {
+    "wordform": "телевидениялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "телевидениялъ": {
     "wordform": "телевидениялъ",
     "sources": {
@@ -512,6 +650,18 @@
               "телевидениялъ",
               "телевидениялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевидение",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -575,6 +725,18 @@
             "av": "телевидениялъул ретранслятор",
             "ru": "телевизионный ретранслятор",
             "sense": "ретранслятор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевидение",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -773,6 +935,30 @@
             "sense": "(ис)портиться, выйти из строя"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -839,6 +1025,35 @@
             "sense": "телевизор"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "телевизоралде": {
+    "wordform": "телевизоралде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -861,6 +1076,18 @@
               "телевизоралъул",
               "телевизорал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -917,6 +1144,18 @@
             "sense": "экран"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -936,6 +1175,18 @@
             "av": "телевизоралъухъ ралагьизе",
             "ru": "смотреть телевизор; смотреть по телевизору",
             "sense": "телевизор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телевизор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1023,6 +1274,18 @@
             "sense": "телеграфист"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телеграмма",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1045,6 +1308,18 @@
               "телеграммаялъул",
               "телеграммаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телеграмма",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1174,6 +1449,23 @@
       }
     }
   },
+  "телеграфалдалъул": {
+    "wordform": "телеграфалдалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "телеграфалдалъун": {
     "wordform": "телеграфалдалъун",
     "sources": {
@@ -1190,6 +1482,23 @@
             "av": "телеграфалдалъун лъазабизе",
             "ru": "сообщить по телеграфу",
             "sense": "телеграф"
+          }
+        ]
+      }
+    }
+  },
+  "телеграфалдасан": {
+    "wordform": "телеграфалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1278,6 +1587,18 @@
             "sense": "телеграфный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телеграф",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1311,6 +1632,18 @@
             "av": "телеграфист асул хъулухъ",
             "ru": "должность телеграфиста",
             "sense": "телеграфист"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телеграфист",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1418,6 +1751,18 @@
               "телеграфисткаялъул",
               "телеграфисткаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телеграфистка",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1596,6 +1941,23 @@
       }
     }
   },
+  "телел": {
+    "wordform": "телел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "телемеханик": {
     "wordform": "телемеханик",
     "sources": {
@@ -1748,6 +2110,23 @@
               "телемеханикалъул",
               "телемеханикал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "телемеханикаялъул": {
+    "wordform": "телемеханикаялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2214,6 +2593,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телепередача",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2286,6 +2677,23 @@
       }
     }
   },
+  "телес-копалъул": {
+    "wordform": "телес-копалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "телескоп": {
     "wordform": "телескоп",
     "sources": {
@@ -2306,6 +2714,18 @@
               "телескопалъул",
               "телескопал"
             ]
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телескоп",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2595,6 +3015,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телетайп",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2737,6 +3169,18 @@
             "sense": "телефильм"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефильм",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2844,6 +3288,30 @@
             "sense": "телефон"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2874,6 +3342,18 @@
             "ru": "телефонная станция"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2898,6 +3378,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "телефоналда": {
+    "wordform": "телефоналда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "телефоналдасан": {
+    "wordform": "телефоналдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2917,6 +3443,18 @@
             "av": "телефоналде ахӏулев вуго мун",
             "ru": "тебя вызывают к телефону",
             "sense": "призывать, призвать к чему-либо; требовать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2991,6 +3529,18 @@
             "av": "телефоналъ кӏалъазе",
             "ru": "разговаривать по телефону",
             "sense": "телефон"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3126,6 +3676,18 @@
             "sense": "трубка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефон",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3246,6 +3808,18 @@
               "телефонисткаялъул",
               "телефонисткаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефонистка",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3477,6 +4051,18 @@
             "sense": "телефогорамма"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телефонограмма",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3582,6 +4168,18 @@
             "av": "бакӏалъулаб телецентр",
             "ru": "местный телецентр",
             "sense": "телецентр"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "телецентр",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3755,6 +4353,74 @@
               "телкъаялъ",
               "телкъаялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "телоялдаса": {
+    "wordform": "телоялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "телоялде": {
+    "wordform": "телоялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "телоялъ": {
+    "wordform": "телоялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тельцаби": {
+    "wordform": "тельцаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

@@ -104,6 +104,18 @@
             "sense": "там наверху"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баба",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -255,6 +267,18 @@
               "бабади"
             ],
             "from_lemma": "бабадизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -460,6 +484,23 @@
       }
     }
   },
+  "бабадизабураб": {
+    "wordform": "бабадизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бабадизе": {
     "wordform": "бабадизе",
     "sources": {
@@ -491,6 +532,18 @@
             "av": "мацӏ бабадизе",
             "ru": "заплетаться, коснеть — о языке; заикаться",
             "sense": "язык"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -539,6 +592,18 @@
             "sense": "заикаться; запинаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабади",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -567,6 +632,57 @@
       }
     }
   },
+  "бабадулаго": {
+    "wordform": "бабадулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бабадулеб": {
+    "wordform": "бабадулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бабадулев": {
+    "wordform": "бабадулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бабадун": {
     "wordform": "бабадун",
     "sources": {
@@ -583,6 +699,18 @@
             "av": "мацӏ бабадун, дос бицунеб жо бичӏчӏизе захӏмалъулеб букӏана",
             "ru": "из-за заикания трудно было понимать, о чём он говорит",
             "sense": "заикаться; запинаться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бабадизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -697,6 +825,30 @@
             "av": "Гьабила, бабал вас, дуего бертин, Инсулав бидулав лъугӏизе гьаве",
             "ru": "Сыграю, сынок мой, я свадьбу тебе — Кровника отца сперва со света сживи",
             "sense": "кровник-враг"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баба",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баба",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -838,6 +990,23 @@
               "бабаца",
               "бабал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "баббиталъул": {
+    "wordform": "баббиталъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

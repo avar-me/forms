@@ -38,6 +38,17 @@
             "sense": "соломинка, травинка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -275,6 +286,23 @@
       }
     }
   },
+  "сумазда": {
+    "wordform": "сумазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сумал": {
     "wordform": "сумал",
     "sources": {
@@ -306,6 +334,30 @@
             "sense": "шляпа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -329,6 +381,40 @@
               "сумалодул",
               "сумалаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сумалда": {
+    "wordform": "сумалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "сумалдеги": {
+    "wordform": "сумалдеги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -365,6 +451,18 @@
             "av": "цӏияб сумало",
             "ru": "новая циновка",
             "sense": "циновка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сумало",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -589,6 +687,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сумало",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -611,6 +721,18 @@
               "сумалъул",
               "сумал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сум",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -808,6 +930,23 @@
               "суматӏаргъил"
             ],
             "from_lemma": "суматӏагъур"
+          }
+        ]
+      }
+    }
+  },
+  "суматӏеги": {
+    "wordform": "суматӏеги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "суматӏагъур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1073,6 +1212,18 @@
             "av": "цӏалдохъабазул сумка",
             "ru": "школьная сумка",
             "sense": "сумка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сумка",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

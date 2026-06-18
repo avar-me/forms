@@ -72,6 +72,18 @@
             "sense": "косарь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вецарухъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -123,6 +135,24 @@
       }
     }
   },
+  "веццана": {
+    "wordform": "веццана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "беццизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "веццарав": {
     "wordform": "веццарав",
     "sources": {
@@ -161,6 +191,19 @@
             "sense": "хвастать, хвастаться, похваляться; бахвалиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "беццаризе",
+            "relation": "мужской род",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -183,6 +226,17 @@
               "веццарухъанасул",
               "реццарухъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "веццарухъан",
+            "pos": "выражение"
           }
         ]
       }
@@ -257,6 +311,23 @@
       }
     }
   },
+  "веццарухъанлъи": {
+    "wordform": "веццарухъанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "веццарухъан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "веццизе": {
     "wordform": "веццизе",
     "sources": {
@@ -296,6 +367,19 @@
             "av": "веццизе мустахӏикъав",
             "ru": "достойный похвале",
             "sense": "заслуженный, достойный; хорошая партия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "беццизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -431,6 +515,24 @@
             "av": "гӏетӏуда вецӏцӏарулев вуго дов",
             "ru": "он мокрый от пота, он весь в поту",
             "sense": "пот"
+          }
+        ]
+      }
+    }
+  },
+  "вецӏцӏизе": {
+    "wordform": "вецӏцӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бецӏцӏизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

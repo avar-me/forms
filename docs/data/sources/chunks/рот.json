@@ -51,6 +51,18 @@
             "sense": "рота"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рота",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -169,6 +181,23 @@
       }
     }
   },
+  "ротаялдасан": {
+    "wordform": "ротаялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рота",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ротаялъ": {
     "wordform": "ротаялъ",
     "sources": {
@@ -188,6 +217,18 @@
               "ротаялъул",
               "ротаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рота",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -232,6 +273,18 @@
             "av": "ротаялъул старшина",
             "ru": "старшина роты",
             "sense": "старшина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "рота",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -61,6 +61,35 @@
             "sense": "филармонический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "оркестра": {
+    "wordform": "оркестра",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -88,6 +117,23 @@
       }
     }
   },
+  "оркестралда": {
+    "wordform": "оркестралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "оркестралъ": {
     "wordform": "оркестралъ",
     "sources": {
@@ -109,6 +155,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -128,6 +186,18 @@
             "av": "оркестралъе дирижёрлъи гьабизе",
             "ru": "дирижировать оркестром",
             "sense": "дирижировка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -161,6 +231,18 @@
             "av": "оркестралъул музыка",
             "ru": "оркестровая музыка",
             "sense": "оркестровый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "оркестр",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

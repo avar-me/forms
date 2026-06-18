@@ -31,6 +31,30 @@
             "sense": "прямой, точный, истинный, правдивый, открытый, честный; соответствующий действительности"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ният",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ният",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -53,6 +77,23 @@
               "нияталъул",
               "ниятал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "нияталда": {
+    "wordform": "нияталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ният",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -101,6 +142,18 @@
               "нияталъул",
               "ниятал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ният",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

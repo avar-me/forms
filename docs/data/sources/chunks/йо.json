@@ -137,6 +137,18 @@
             "sense": "йод"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йод",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -158,6 +170,18 @@
               "йодалъ",
               "йодалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йод",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -244,6 +268,32 @@
             "av": "росасул лъади йокьизе",
             "ru": "влюбиться в замужную женщину",
             "sense": "мужнин, мужный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бокьизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бокьизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -358,6 +408,64 @@
             "av": "Кьенсер-бер берцинай цо дир йокьулей",
             "ru": "Возлюбленная моя, красивы твои брови и глаза",
             "sense": "-брови и глаза"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йокьулей",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йокьулей",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "йокьулейгун": {
+    "wordform": "йокьулейгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йокьулей",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "йокьулейлъун": {
+    "wordform": "йокьулейлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йокьулей",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -503,6 +611,18 @@
               "роржарухъаби",
               "ёржарухъан"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "йоржарухъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -711,6 +831,19 @@
             "av": "тукадул йичарухъанлъун йосизе",
             "ru": "принять продавщицей в магазин",
             "sense": "продавщица"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "босизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

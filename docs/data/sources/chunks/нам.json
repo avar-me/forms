@@ -189,6 +189,30 @@
             "sense": "девичий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -389,6 +413,17 @@
             "sense": "постыдный, непристойный; недостойный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намусаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -419,6 +454,18 @@
             "av": "намусав гӏолохъанчи",
             "ru": "совестливый юноша",
             "sense": "стыдливый, совестливый, стеснительный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намусаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -456,6 +503,23 @@
       }
     }
   },
+  "намусал": {
+    "wordform": "намусал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намусаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "намусалда": {
     "wordform": "намусалда",
     "sources": {
@@ -472,6 +536,18 @@
             "av": "намусалда тӏанкӏ лъезе",
             "ru": "запятнять честь",
             "sense": "точка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намусаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -516,6 +592,18 @@
               "намусалъ",
               "намусалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -572,6 +660,52 @@
             "sense": "быть, стать подлым, низким"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "намусбахъ": {
+    "wordform": "намусбахъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "намусго": {
+    "wordform": "намусго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -595,6 +729,18 @@
               "намусгьечӏил",
               "намусгьечӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намусгьечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -694,6 +840,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "намуслъарав": {
+    "wordform": "намуслъарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -752,6 +927,18 @@
             "av": "дир намуслъи бихьун, елъанхъана гьей",
             "ru": "она смеялась, заметив мою робость",
             "sense": "(по)смеяться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -906,6 +1093,23 @@
       }
     }
   },
+  "намуслъизавизе": {
+    "wordform": "намуслъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "намуслъизе": {
     "wordform": "намуслъизе",
     "sources": {
@@ -927,6 +1131,18 @@
               "намуслъана",
               "намуслъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -998,6 +1214,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1044,6 +1272,35 @@
               "намуслъана",
               "намуслъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "намуслъулареб": {
+    "wordform": "намуслъулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1137,6 +1394,18 @@
             "av": "намуслъун холев вукӏана дун",
             "ru": "я умирал от стыда",
             "sense": "изнемогать, умирать от чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "намуслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

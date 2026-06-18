@@ -20,6 +20,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хаин",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -90,6 +101,23 @@
               "хаинассул",
               "хаинзаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хаинлъи": {
+    "wordform": "хаинлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хаин",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

@@ -319,6 +319,30 @@
             "sense": "оружие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чу",
+            "relation": "падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чу",
+            "relation": "падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -342,6 +366,18 @@
               "чолгъоцӏол",
               "чолгъуцӏдул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чолгъецӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -605,6 +641,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чолгьоко",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -766,6 +814,18 @@
             "sense": "загон"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чали",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -795,6 +855,40 @@
             "av": "гӏи чолонибе гъезе",
             "ru": "загнать отару в загон",
             "sense": "загон"
+          }
+        ]
+      }
+    }
+  },
+  "чолонисан": {
+    "wordform": "чолонисан",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чол",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чолрекӏарав": {
+    "wordform": "чолрекӏарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чол",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -892,6 +986,23 @@
               "чолхӏетӏалъул",
               "чолхӏетӏал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чолцⅰал": {
+    "wordform": "чолцⅰал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чол",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

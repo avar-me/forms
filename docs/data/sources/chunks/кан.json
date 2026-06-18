@@ -100,6 +100,30 @@
             "sense": "колено"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -193,6 +217,23 @@
       }
     }
   },
+  "кана": {
+    "wordform": "кана",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канаб": {
     "wordform": "канаб",
     "sources": {
@@ -245,6 +286,17 @@
             "av": "ретӏараб — канаб, квараб — бецаб",
             "ru": "то, во что оделся, зрячее, а то, что поел, слепое",
             "sense": "надевать, надеть что-либо на кого-либо кого-либо во-что-либо или чем-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -325,6 +377,18 @@
               "канавалъул",
               "канавал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канав",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -624,6 +688,40 @@
       }
     }
   },
+  "канадаялъул": {
+    "wordform": "канадаялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канадаялъулал": {
+    "wordform": "канадаялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канай": {
     "wordform": "канай",
     "sources": {
@@ -800,6 +898,76 @@
             "sense": "канал"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "каналаз": {
+    "wordform": "каналаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "каналазул": {
+    "wordform": "каналазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -822,6 +990,35 @@
               "каналалъул",
               "каналал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "каналалда": {
+    "wordform": "каналалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -934,6 +1131,18 @@
             "sense": "канал"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -953,6 +1162,74 @@
             "av": "каналалъуса лъим бачуна нижеца хурзал лъалъазе",
             "ru": "мы приводим воду из канала для полива полей",
             "sense": "канал"
+          }
+        ]
+      }
+    }
+  },
+  "канализациялъе": {
+    "wordform": "канализациялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канализациялъул": {
+    "wordform": "канализациялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канализациялъулал": {
+    "wordform": "канализациялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канализациялъусан": {
+    "wordform": "канализациялъусан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1074,6 +1351,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канарко",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1120,6 +1409,23 @@
               "канаркоялъул",
               "канаркаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канаркӏабиги": {
+    "wordform": "канаркӏабиги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канарко",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1375,6 +1681,57 @@
       }
     }
   },
+  "канбагӏараб": {
+    "wordform": "канбагӏараб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канваялда": {
+    "wordform": "канваялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канго": {
+    "wordform": "канго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кандакмахӏав": {
     "wordform": "кандакмахӏав",
     "sources": {
@@ -1458,6 +1815,47 @@
             "av": "техникиял гӏелмабазул кандидат",
             "ru": "кандидат технических наук",
             "sense": "технический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "кандидатазе": {
+    "wordform": "кандидатазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1590,6 +1988,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1622,6 +2032,40 @@
             "av": "досие кандидатлъи щвана",
             "ru": "он удостоился степени кандидата [наук]",
             "sense": "степень кандидата"
+          }
+        ]
+      }
+    }
+  },
+  "кандидатлъи-ялъул": {
+    "wordform": "кандидатлъи-ялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидатлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кандидатлъиялда": {
+    "wordform": "кандидатлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидатлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1700,6 +2144,18 @@
             "sense": "кандидатский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидатлъи",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1750,6 +2206,18 @@
             "av": "филологиял гӏелмабазул кандидатлъун вахъине",
             "ru": "стать кандидатом филологических наук",
             "sense": "кандидат"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1807,6 +2275,18 @@
             "sense": "кандидатура"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидатура",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1829,6 +2309,23 @@
               "кандидатураялъул",
               "кандидатураби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "кандидатураялда": {
+    "wordform": "кандидатураялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кандидатура",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1961,6 +2458,40 @@
       }
     }
   },
+  "каникулазде": {
+    "wordform": "каникулазде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "каникул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "каникулазул": {
+    "wordform": "каникулазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "каникул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "каникулал": {
     "wordform": "каникулал",
     "sources": {
@@ -1990,6 +2521,18 @@
             "av": "ноябралъулал каникулал",
             "ru": "ноябрьские каникулы",
             "sense": "ноябрьский"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "каникул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2057,6 +2600,18 @@
             "av": "каникулалъул къоял",
             "ru": "каникулярные дни",
             "sense": "каникулярный"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "каникул",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -2701,6 +3256,42 @@
             "sense": "электрический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2723,6 +3314,18 @@
               "канлъи-лъаялъ",
               "канлъи-лъаялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи-лъай",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2795,6 +3398,86 @@
       }
     }
   },
+  "канлъиги": {
+    "wordform": "канлъиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъизе": {
+    "wordform": "канлъизе",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъиялдалъун": {
+    "wordform": "канлъиялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъиялдаса": {
+    "wordform": "канлъиялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канлъиялъ": {
     "wordform": "канлъиялъ",
     "sources": {
@@ -2814,6 +3497,47 @@
               "канлъиялъул",
               "канлъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъиялъе": {
+    "wordform": "канлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2840,6 +3564,69 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъуда": {
+    "wordform": "канлъуда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъудалъун": {
+    "wordform": "канлъудалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъудаса": {
+    "wordform": "канлъудаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2861,6 +3648,18 @@
             "sense": "подносить, поднести; протягивать, протянуть кого-что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2880,6 +3679,17 @@
             "entry_forms": [
               "канлъукъаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъукъаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2904,6 +3714,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъукъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2924,6 +3746,23 @@
             "entry_forms": [
               "канлъукъаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канлъукъал": {
+    "wordform": "канлъукъал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъукъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3367,6 +4206,30 @@
             "sense": "луч"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3436,6 +4299,64 @@
             "av": "шайтӏанчирахъалъул канлъухъе кванана",
             "ru": "поели при свете коптилки",
             "sense": "коптилка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канлъуца": {
+    "wordform": "канлъуца",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канон": {
+    "wordform": "канон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4003,6 +4924,40 @@
       }
     }
   },
+  "кантӏизавизе": {
+    "wordform": "кантӏизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кантӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "кантӏизавуна": {
+    "wordform": "кантӏизавуна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кантӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кантӏизе": {
     "wordform": "кантӏизе",
     "sources": {
@@ -4024,6 +4979,18 @@
               "кантӏана",
               "кантӏе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кантӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -4156,6 +5123,17 @@
             "av": "кантӏогьилаб кьер",
             "ru": "яркожёлтый цвет",
             "sense": "яркожёлтый; жёлтый как марена"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кантӏогьилаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -4581,6 +5559,23 @@
       }
     }
   },
+  "кантӏуларев": {
+    "wordform": "кантӏуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кантӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канцеляр": {
     "wordform": "канцеляр",
     "sources": {
@@ -4635,6 +5630,23 @@
               "канцеляралъул",
               "канцелярал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канцеляралда": {
+    "wordform": "канцеляралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канцеляр",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4702,6 +5714,40 @@
             "av": "канцеляралъул къайи",
             "ru": "канцелярские товары, канцтовары",
             "sense": "канцелярский"
+          }
+        ]
+      }
+    }
+  },
+  "канцеляриялда": {
+    "wordform": "канцеляриялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канцеляр",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канцеляриялъул": {
+    "wordform": "канцеляриялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канцеляр",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4824,6 +5870,23 @@
       }
     }
   },
+  "канчӏ-лъи": {
+    "wordform": "канчӏ-лъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канчӏаб": {
     "wordform": "канчӏаб",
     "sources": {
@@ -4851,6 +5914,45 @@
             "sense": "светлый, яркий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏаб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏабги": {
+    "wordform": "канчӏабги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4873,6 +5975,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4893,6 +6007,23 @@
             "entry_forms": [
               "канчӏаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канчӏал": {
+    "wordform": "канчӏал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4956,6 +6087,17 @@
             "sense": "яркокрасный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏбагӏараб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -4998,6 +6140,23 @@
             "entry_forms": [
               "канчӏбагӏараб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канчӏбагӏарал": {
+    "wordform": "канчӏбагӏарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏбагӏараб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5282,6 +6441,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏбагӏарлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5381,6 +6552,40 @@
       }
     }
   },
+  "канчӏбагӏарлъун": {
+    "wordform": "канчӏбагӏарлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏбагӏарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏго": {
+    "wordform": "канчӏго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канчӏгӏурччин": {
     "wordform": "канчӏгӏурччин",
     "sources": {
@@ -5428,6 +6633,17 @@
             "entry_forms": [
               "канчӏгӏурччинаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏгӏурччинаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -5897,6 +7113,74 @@
       }
     }
   },
+  "канчӏкъагьвадул": {
+    "wordform": "канчӏкъагьвадул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏлъи": {
+    "wordform": "канчӏлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏлъи-бецӏлъи": {
+    "wordform": "канчӏлъи-бецӏлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏлъиялда": {
+    "wordform": "канчӏлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канчӏсурмаго": {
     "wordform": "канчӏсурмаго",
     "sources": {
@@ -6291,6 +7575,17 @@
             "sense": "светлокоричневый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏсурмияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -6394,6 +7689,34 @@
             "av": "канчӏтӏогьилаб гурде",
             "ru": "яркожёлтое платье",
             "sense": "яркожёлтый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏтӏогьилаб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "канчӏтӏогьилабги": {
+    "wordform": "канчӏтӏогьилабги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏтӏогьилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6773,6 +8096,23 @@
       }
     }
   },
+  "канчӏхъа-хӏиллъизе": {
+    "wordform": "канчӏхъа-хӏиллъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канчӏхъахӏил": {
     "wordform": "канчӏхъахӏил",
     "sources": {
@@ -6804,6 +8144,23 @@
       }
     }
   },
+  "канчӏхъахӏилал": {
+    "wordform": "канчӏхъахӏилал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏхъахӏил",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "канчӏхъахӏилго": {
     "wordform": "канчӏхъахӏилго",
     "sources": {
@@ -6821,6 +8178,18 @@
               "канчӏхъахӏил",
               "канчӏхъахӏилго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏхъахӏил",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -6896,6 +8265,18 @@
               "канчӏхъахӏиллъиялъул"
             ],
             "from_lemma": "канчӏхъахӏиллъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏхъахӏиллъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -7167,6 +8548,23 @@
               "канчӏхъахӏиллъана",
               "канчӏхъахӏиллъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "канчӏхъахӏиллъулеб": {
+    "wordform": "канчӏхъахӏиллъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "канчӏхъахӏиллъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

@@ -37,6 +37,19 @@
             "sense": "воровать, заниматься воровством"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бикъаризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -147,6 +160,42 @@
             "av": "гьекъолдухъанги викъарухъанги цого чи",
             "ru": "пьяница и вор — одной масти",
             "sense": "вор"
+          }
+        ]
+      }
+    }
+  },
+  "викъизе": {
+    "wordform": "викъизе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бикъизе",
+            "relation": "мужской род",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "викӏаризе": {
+    "wordform": "викӏаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бикӏаризе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

@@ -52,6 +52,35 @@
             "sense": "сейм"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сейм",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "сеймазда": {
+    "wordform": "сеймазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сейм",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -74,6 +103,23 @@
               "сеймалъул",
               "сеймал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сеймалдаги": {
+    "wordform": "сеймалдаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сейм",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -162,6 +208,17 @@
             "av": "сейсмикияб станция",
             "ru": "сейсмическая станция",
             "sense": "сейсмический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сейсмикияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -529,6 +586,18 @@
             "av": "сейф рахазе",
             "ru": "закрыть, запереть сейф",
             "sense": "сейф"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сейф",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

@@ -41,6 +41,18 @@
             "sense": "яма"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "донг",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -178,6 +190,18 @@
               "донкӏалъул",
               "донкӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "донкӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -399,6 +423,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "донор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -534,6 +570,23 @@
             "av": "донорасул би",
             "ru": "донорская кровь",
             "sense": "донорский"
+          }
+        ]
+      }
+    }
+  },
+  "донорлъи": {
+    "wordform": "донорлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "донор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -71,6 +71,18 @@
             "sense": "почта"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -146,6 +158,18 @@
             "sense": "почта"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -170,6 +194,23 @@
       }
     }
   },
+  "почалдасан": {
+    "wordform": "почалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "почалде": {
     "wordform": "почалде",
     "sources": {
@@ -186,6 +227,18 @@
             "av": "почалде ине",
             "ru": "пойти на почту",
             "sense": "почта"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -210,6 +263,18 @@
               "почалъул",
               "почал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -374,6 +439,18 @@
             "sense": "ящик"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "поч",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -430,6 +507,18 @@
             "av": "росдал почтальон",
             "ru": "сельский почтальон",
             "sense": "почтальон и почтальонка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "почтальон",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

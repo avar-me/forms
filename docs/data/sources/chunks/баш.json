@@ -72,6 +72,23 @@
       }
     }
   },
+  "башалъуда": {
+    "wordform": "башалъуда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баш",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "башалъул": {
     "wordform": "башалъул",
     "sources": {
@@ -91,6 +108,57 @@
               "башалъул",
               "башал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "башдалдасан": {
+    "wordform": "башдалдасан",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баш",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "башдалъ": {
+    "wordform": "башдалъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баш",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "башдалъги": {
+    "wordform": "башдалъги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баш",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -140,6 +208,17 @@
             "av": "башкир мацӏ",
             "ru": "башкирский язык",
             "sense": "башкирский"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башкир",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -212,6 +291,18 @@
             "from_lemma": "башкирал"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башкирал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -236,6 +327,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башкирай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -258,6 +361,18 @@
               "башкираз",
               "башкиразул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башкирал",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -408,6 +523,18 @@
             "av": "башлихъ ретӏине",
             "ru": "надеть башлык",
             "sense": "башлык"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башлихъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -663,6 +790,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башмакъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башмакъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -705,6 +856,40 @@
             "av": "цӏиял башмакъал",
             "ru": "новые башмаки",
             "sense": "башмак"
+          }
+        ]
+      }
+    }
+  },
+  "башмакъалги": {
+    "wordform": "башмакъалги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башмакъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "башмакъалгун": {
+    "wordform": "башмакъалгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "башмакъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -86,6 +86,35 @@
             "sense": "нарочный, гонец; курьер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чапарал": {
+    "wordform": "чапарал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -137,6 +166,23 @@
       }
     }
   },
+  "чапаргун": {
+    "wordform": "чапаргун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чапарзаби": {
     "wordform": "чапарзаби",
     "sources": {
@@ -156,6 +202,23 @@
               "чапарасул",
               "чапарзаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чапарлъун": {
+    "wordform": "чапарлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -216,6 +279,18 @@
             "av": "гӏазул чапи",
             "ru": "рыхлость снега",
             "sense": "рыхлость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -393,6 +468,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -508,6 +595,23 @@
             "av": "гӏазу чапулеб буго",
             "ru": "снег начал таять",
             "sense": "снег"
+          }
+        ]
+      }
+    }
+  },
+  "чапун": {
+    "wordform": "чапун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чапизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

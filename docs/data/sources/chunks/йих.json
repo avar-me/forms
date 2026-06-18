@@ -94,6 +94,32 @@
             "sense": "выступает определением Ⅲ и не склоняется тот, та, то"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бухьине",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бухьине",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -190,6 +216,32 @@
             "av": "Гьей дуца ячарай чергес йихьизе, Чу рекӏун ячӏина дун дур росулъе",
             "ru": "Посмотреть на красотку, на ком ты женился, На коне приеду я в аул твой родной",
             "sense": "фигура, красотка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бихьизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бихьизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

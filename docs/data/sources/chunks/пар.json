@@ -43,6 +43,30 @@
             "sense": "очень малый промежуток времени, миг, момент, мгновение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -119,6 +143,18 @@
               "параболаялъул",
               "параболаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парабола",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -239,6 +275,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "параграф",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "параграфазде": {
+    "wordform": "параграфазде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "параграф",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -314,6 +379,23 @@
       }
     }
   },
+  "параграфги": {
+    "wordform": "параграфги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "параграф",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парад": {
     "wordform": "парад",
     "sources": {
@@ -354,6 +436,35 @@
             "av": "ралъдалаб парад",
             "ru": "морской парад",
             "sense": "парад"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парад",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "парадазе": {
+    "wordform": "парадазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парад",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -470,6 +581,23 @@
       }
     }
   },
+  "парадалъе": {
+    "wordform": "парадалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парад",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парадалъул": {
     "wordform": "парадалъул",
     "sources": {
@@ -500,6 +628,18 @@
             "sense": "парадный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парад",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -523,6 +663,18 @@
               "парадигмаялъул",
               "парадигмаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парадигма",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -849,6 +1001,86 @@
             "from_lemma": "паракъалъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "паракъалъизаби": {
+    "wordform": "паракъалъизаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паракъалъизабизе": {
+    "wordform": "паракъалъизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паракъалъизабулеб": {
+    "wordform": "паракъалъизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паракъалъизабулел": {
+    "wordform": "паракъалъизабулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -873,6 +1105,18 @@
               "паракъалъана",
               "паракъалъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъалъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1011,6 +1255,28 @@
             "sense": "спокойно; безопасно; смирно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъат",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъат",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1041,6 +1307,17 @@
             "sense": "спокойный; безопасный; смирный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъатаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1061,6 +1338,18 @@
             "entry_forms": [
               "паракъатаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паракъатаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1129,6 +1418,18 @@
               "параличалъ",
               "параличалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паралич",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1272,6 +1573,18 @@
               "параллелограммалъул",
               "параллелограммал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "параллелограмм",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1466,6 +1779,18 @@
               "параллелалъул",
               "параллелал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "параллель",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2138,6 +2463,23 @@
       }
     }
   },
+  "парапара": {
+    "wordform": "парапара",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парапет": {
     "wordform": "парапет",
     "sources": {
@@ -2158,6 +2500,18 @@
               "парапеталъул",
               "парапетал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парапет",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2372,6 +2726,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парафин",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2445,6 +2811,74 @@
       }
     }
   },
+  "парахалъана": {
+    "wordform": "парахалъана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парахалъи": {
+    "wordform": "парахалъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парахалъизе": {
+    "wordform": "парахалъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парахатго": {
+    "wordform": "парахатго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парашют": {
     "wordform": "парашют",
     "sources": {
@@ -2465,6 +2899,18 @@
               "парашюталъул",
               "парашютал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парашют",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2525,6 +2971,18 @@
             "sense": "парашют"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парашют",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2559,6 +3017,18 @@
             "sense": "парашют"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парашют",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2578,6 +3048,18 @@
             "av": "парашютгун кӏанцӏизе",
             "ru": "прыгать с парашютом",
             "sense": "парашют"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парашют",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2878,6 +3360,52 @@
       }
     }
   },
+  "параялда": {
+    "wordform": "параялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "параялде": {
+    "wordform": "параялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "параялъ": {
     "wordform": "параялъ",
     "sources": {
@@ -2941,6 +3469,30 @@
             "sense": "очень малый промежуток времени, миг, момент, мгновение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2960,6 +3512,47 @@
             "av": "гъоб параялъго",
             "ru": "ту же пору, сразу же",
             "sense": "указывает на предмет, находящийся ниже говорящего, включая и одушевлённые, кроме людей тот, та, то"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "параялъе": {
+    "wordform": "параялъе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пара",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3021,6 +3614,18 @@
               "паргавалъул",
               "паргавал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паргав",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3103,6 +3708,18 @@
               "паргавалъул",
               "паргавал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паргав",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3344,6 +3961,18 @@
             "sense": "занавеска, портьера; занавес"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пардав",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3366,6 +3995,35 @@
               "пардавалъул",
               "пардавал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пардав",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пардавалда": {
+    "wordform": "пардавалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пардав",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3426,6 +4084,18 @@
             "sense": "действие"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пардав",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3449,6 +4119,18 @@
               "парана",
               "паре"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3490,6 +4172,17 @@
             "av": "исламалъул парз",
             "ru": "требование ислама",
             "sense": "долг, обязанность требование, предписание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парз",
+            "pos": "выражение"
           }
         ]
       }
@@ -3913,6 +4606,23 @@
       }
     }
   },
+  "паризаяблъун": {
+    "wordform": "паризаяблъун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризаяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "паризаяв": {
     "wordform": "паризаяв",
     "sources": {
@@ -4144,6 +4854,18 @@
             "sense": "парикмахер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парикмахер",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4274,6 +4996,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парикмахер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4379,6 +5113,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парикмахерская",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4422,6 +5168,18 @@
             "av": "парикмахерскаялда хӏалтӏизе",
             "ru": "работать в парикмахерской",
             "sense": "парикмахерская"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парикмахерская",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5014,6 +5772,47 @@
             "sense": "троллейбус"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "парказда": {
+    "wordform": "парказда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5069,6 +5868,18 @@
             "sense": "(по)гулять"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5091,6 +5902,23 @@
               "паркалъул",
               "паркал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "паркалъе": {
+    "wordform": "паркалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5150,6 +5978,18 @@
               "паркеталъул",
               "паркетал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркет",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -5222,6 +6062,18 @@
               "паркеталъул",
               "паркетал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркет",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5374,6 +6226,17 @@
             "ru": "смелый, отважный человек"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъ",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5411,6 +6274,35 @@
               "паркъана",
               "паркъе"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паркъараб": {
+    "wordform": "паркъараб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5614,6 +6506,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5639,6 +6543,18 @@
             "from_lemma": "паркъезе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъезе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5662,6 +6578,23 @@
               "паркъана",
               "паркъей"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "паркъелел": {
+    "wordform": "паркъелел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5743,6 +6676,18 @@
             "av": "берда цебеса паркъи",
             "ru": "исчезновение с поля зрения",
             "sense": "мелькание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -5921,6 +6866,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -6048,6 +7005,35 @@
             "sense": "мигать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паркъолел": {
+    "wordform": "паркъолел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6094,6 +7080,47 @@
             "sense": "(за)блестеть, блестнуть; (за)сверкать, сверкнуть; (за)сиять; (за)мелькать, мелькнуть; (за)мерцать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паркъулел": {
+    "wordform": "паркъулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6113,6 +7140,30 @@
             "av": "дов ахикье паркъун ана",
             "ru": "он кинулся в сад",
             "sense": "мчаться, нестись; кинуться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паркъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6160,6 +7211,18 @@
             "sense": "парламент"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6187,6 +7250,40 @@
       }
     }
   },
+  "парламенталда": {
+    "wordform": "парламенталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парламенталде": {
+    "wordform": "парламенталде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парламенталъ": {
     "wordform": "парламенталъ",
     "sources": {
@@ -6206,6 +7303,18 @@
               "парламенталъул",
               "парламентал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6262,6 +7371,18 @@
             "sense": "парламент"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6308,6 +7429,17 @@
             "av": "парламенталъулаб фракция",
             "ru": "парламентская фракция",
             "sense": "фракция"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламенталъулаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -6381,6 +7513,23 @@
       }
     }
   },
+  "парламентаризмалда": {
+    "wordform": "парламентаризмалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламентаризм",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парламентаризмалъ": {
     "wordform": "парламентаризмалъ",
     "sources": {
@@ -6422,6 +7571,23 @@
               "парламентаризмалъ",
               "парламентаризмалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парламентги": {
+    "wordform": "парламентги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парламент",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6473,6 +7639,23 @@
       }
     }
   },
+  "парниказдаса": {
+    "wordform": "парниказдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парник",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парникал": {
     "wordform": "парникал",
     "sources": {
@@ -6492,6 +7675,23 @@
               "парникалъул",
               "парникал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парникалда": {
+    "wordform": "парникалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парник",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6542,6 +7742,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парник",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6577,6 +7789,18 @@
             "sense": "запыхтеть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6606,6 +7830,18 @@
             "av": "паровозазул парк",
             "ru": "паровозный парк",
             "sense": "паровоз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6652,6 +7888,35 @@
             "sense": "паровоз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паровозалда": {
+    "wordform": "паровозалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6674,6 +7939,35 @@
               "паровозалъул",
               "паровозал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "паровозалъе": {
+    "wordform": "паровозалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6719,6 +8013,18 @@
             "sense": "паровозный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паровоз",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6752,6 +8058,18 @@
             "av": "пародия хъвазе",
             "ru": "написать пародию, пародировать",
             "sense": "пародия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пародия",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -6829,6 +8147,40 @@
       }
     }
   },
+  "паролалъе": {
+    "wordform": "паролалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пароходалъ": {
+    "wordform": "пароходалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парпадана": {
     "wordform": "парпадана",
     "sources": {
@@ -6899,6 +8251,18 @@
               "парпадиялъул"
             ],
             "from_lemma": "парпадизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпадизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -6972,6 +8336,18 @@
               "парпадизабуна",
               "парпадизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпадизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -7052,6 +8428,23 @@
       }
     }
   },
+  "парпадизарулел": {
+    "wordform": "парпадизарулел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпади",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парпадизе": {
     "wordform": "парпадизе",
     "sources": {
@@ -7073,6 +8466,18 @@
               "парпадана",
               "парпаде"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпадизе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -7098,6 +8503,23 @@
               "парпадана",
               "парпаде"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парпадилел": {
+    "wordform": "парпадилел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпади",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7192,6 +8614,52 @@
             "sense": "развеваться, веять, реять; колыхаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парпадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парпазабулеб": {
+    "wordform": "парпазабулеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парпалеб": {
+    "wordform": "парпалеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7211,6 +8679,18 @@
             "av": "мажгитазул хъупаязда гӏурччинал байрахъал парпалел руго",
             "ru": "над куполами мечетей реют зелёные знамёна",
             "sense": "знамя, флаг, стяг"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -7256,6 +8736,18 @@
             "av": "парс мацӏ",
             "ru": "персидский язык",
             "sense": "персидский"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парс",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -7304,6 +8796,23 @@
               "парсил",
               "парсал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парсахарал": {
+    "wordform": "парсахарал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парс",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7446,6 +8955,18 @@
             "sense": "край, конец, оконечность, окраина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парс",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7469,6 +8990,18 @@
               "парсцӏулакьоялъул",
               "парсцӏулакьодул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парсцӏулакьо",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -7501,6 +9034,18 @@
             "entry": "парсцӏулакьодул",
             "av": "парсцӏулакьодул рохь",
             "ru": "ореховая роща"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парсцӏулакьо",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -7584,6 +9129,18 @@
             "av": "цӏалдохъабазул парта",
             "ru": "ученическая парта",
             "sense": "парта"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парта",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -7744,6 +9301,18 @@
             "sense": "мыло"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -7887,6 +9456,23 @@
       }
     }
   },
+  "парталалда": {
+    "wordform": "парталалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парталалтӏа": {
     "wordform": "парталалтӏа",
     "sources": {
@@ -7954,6 +9540,23 @@
       }
     }
   },
+  "партамагӏал": {
+    "wordform": "партамагӏал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парта",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "партаялда": {
     "wordform": "партаялда",
     "sources": {
@@ -7970,6 +9573,18 @@
             "av": "партаялда нахъа гӏодов чӏезе",
             "ru": "сесть за парту",
             "sense": "парта"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парта",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8065,6 +9680,18 @@
             "sense": "партбилет"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партбилет",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8150,6 +9777,40 @@
       }
     }
   },
+  "партбюроялъул": {
+    "wordform": "партбюроялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "партвзносал": {
+    "wordform": "партвзносал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "партер": {
     "wordform": "партер",
     "sources": {
@@ -8170,6 +9831,18 @@
               "партералъул",
               "партерал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партер",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -8310,6 +9983,18 @@
             "sense": "партизан"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8349,6 +10034,30 @@
             "av": "партизаназул къукъаялъул командир",
             "ru": "командир партизанского отряда",
             "sense": "партизан"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8469,6 +10178,30 @@
             "sense": "камыш"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8542,6 +10275,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизанка",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8612,6 +10357,23 @@
               "партизанкаялъул",
               "партизанкаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "партизанлъи": {
+    "wordform": "партизанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партизан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8707,6 +10469,40 @@
             "av": "партийниял органал",
             "ru": "парийные органы",
             "sense": "орган"
+          }
+        ]
+      }
+    }
+  },
+  "партилда": {
+    "wordform": "партилда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "партитура": {
+    "wordform": "партитура",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "паризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -8894,6 +10690,35 @@
             "sense": "христианский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "партиябазул": {
+    "wordform": "партиябазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8928,6 +10753,35 @@
             "sense": "политический"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "партиязда": {
+    "wordform": "партиязда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8949,6 +10803,18 @@
             "sense": "партия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8968,6 +10834,18 @@
             "av": "партиялдаса рехизе",
             "ru": "исключить из партии",
             "sense": "увольнять, уволить; исключать, исключить; выгонять, выгнать; снимать, снять"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -9001,6 +10879,18 @@
             "sense": "фракция"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9023,6 +10913,23 @@
               "партиялъул",
               "партияби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "партиялъе": {
+    "wordform": "партиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -9208,6 +11115,18 @@
             "sense": "ячейка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -9302,6 +11221,23 @@
       }
     }
   },
+  "партиялъулги": {
+    "wordform": "партиялъулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "партком": {
     "wordform": "партком",
     "sources": {
@@ -9332,6 +11268,18 @@
             "av": "заводалъул партком",
             "ru": "партком завода",
             "sense": "партком"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партком",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -9632,6 +11580,18 @@
             "sense": "парторг"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парторг",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -9743,6 +11703,18 @@
             "av": "байбихьул парторганизация",
             "ru": "первичная парторганизация",
             "sense": "парторганизация"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парторганизация",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -9867,6 +11839,23 @@
               "парторгалъул",
               "парторгал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парторгги": {
+    "wordform": "парторгги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парторг",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -10003,6 +11992,18 @@
             "av": "партсобрание ахӏизе",
             "ru": "провести партсобрание",
             "sense": "партсобрание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партсобрание",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -10230,6 +12231,18 @@
             "sense": "партсъезд"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партсъезд",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -10345,6 +12358,18 @@
             "av": "дос партшкола лъугӏизабуна",
             "ru": "он окончил партшколу",
             "sense": "партшкола"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партшкола",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -10537,6 +12562,17 @@
             "av": "эбел партӏан тӏаде яхъана",
             "ru": "мать сразу встала",
             "sense": "сразу, моментально, вмиг; неожиданно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "партӏан",
+            "pos": "наречие"
           }
         ]
       }
@@ -10948,6 +12984,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "парусаз": {
+    "wordform": "парусаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11003,6 +13068,30 @@
             "sense": "парус"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11027,6 +13116,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11049,6 +13150,18 @@
               "парусалъул",
               "парусал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парус",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11094,6 +13207,23 @@
               "парфюмериялъ",
               "парфюмериялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парфюмериялда": {
+    "wordform": "парфюмериялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парфюмерия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11152,6 +13282,18 @@
             "sense": "парфюмерный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парфюмерия",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -11196,6 +13338,30 @@
             "sense": "вспыхивать, вспыхнуть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11219,6 +13385,40 @@
               "пархана",
               "пархе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "пархелеб": {
+    "wordform": "пархелеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пархелел": {
+    "wordform": "пархелел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -11309,6 +13509,57 @@
               "пархеналъ",
               "пархеналъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "пархизабизабулеб": {
+    "wordform": "пархизабизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пархизабизе": {
+    "wordform": "пархизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пархизе": {
+    "wordform": "пархизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -11586,6 +13837,23 @@
       }
     }
   },
+  "пархулеб": {
+    "wordform": "пархулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "пархун": {
     "wordform": "пархун",
     "sources": {
@@ -11611,6 +13879,30 @@
             "entry": "пурхан",
             "av": "хӏинчӏ пархун ана, ва чуял пурхан рахъана",
             "ru": "птичка вспорхнула, и кони стали фыркать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пархине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -11718,6 +14010,18 @@
             "sense": "облако"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парча",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -11772,6 +14076,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парча",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11803,6 +14119,40 @@
             "av": "парчадул гурде",
             "ru": "парчовое платье",
             "sense": "парчовый"
+          }
+        ]
+      }
+    }
+  },
+  "парчахарал": {
+    "wordform": "парчахарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парча",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "парчахӏасул": {
+    "wordform": "парчахӏасул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парча",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -11951,6 +14301,18 @@
             "sense": "римский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парччахӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -11973,6 +14335,23 @@
               "парччахӏасул",
               "парччахӏзаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "парччахӏасде": {
+    "wordform": "парччахӏасде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парччахӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12007,6 +14386,18 @@
             "av": "парччахӏасул амру",
             "ru": "повеление царя",
             "sense": "царь, император"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парччахӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -12137,6 +14528,23 @@
       }
     }
   },
+  "парччахⅰасул": {
+    "wordform": "парччахⅰасул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парччо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "парччдул": {
     "wordform": "парччдул",
     "sources": {
@@ -12224,6 +14632,18 @@
             "av": "щагӏил парччи",
             "ru": "глиняный кувшин",
             "sense": "кувшин"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "парччи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

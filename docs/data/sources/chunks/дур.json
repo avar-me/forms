@@ -1913,6 +1913,59 @@
             "sense": "становиться, стать достоверным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      }
+    }
+  },
+  "дура": {
+    "wordform": "дура",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1941,6 +1994,17 @@
             "av": "дираб дие те, дураб духъего босе",
             "ru": "моё оставь мне, а своё забери",
             "sense": "мой, именно мой"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дураб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2011,6 +2075,23 @@
       }
     }
   },
+  "дурал": {
+    "wordform": "дурал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дураб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дурана": {
     "wordform": "дурана",
     "sources": {
@@ -2031,6 +2112,23 @@
               "дурана",
               "дуре"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дурараб": {
+    "wordform": "дурараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2062,6 +2160,18 @@
             "av": "гьениб дурги бутӏа буго",
             "ru": "там и твой пай",
             "sense": "пай"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2319,6 +2429,28 @@
             "sense": "мать; мама"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурго",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурго",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2400,6 +2532,18 @@
             "sense": "изрубить (на мелкие куски), измельчать (шинкованием)"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2444,6 +2588,18 @@
             "av": "жинцаго дургъараб кунал гӏомо гьабулей йиго ГӀайшат",
             "ru": "Айшат делает моток из ниток, которые сама пряла",
             "sense": "прясть, скручивать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2492,6 +2648,18 @@
               "дургъи"
             ],
             "from_lemma": "дургъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2690,6 +2858,18 @@
             "sense": "отходы шерсти; очёс"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2718,6 +2898,23 @@
       }
     }
   },
+  "дургъилалде": {
+    "wordform": "дургъилалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дургъула": {
     "wordform": "дургъула",
     "sources": {
@@ -2738,6 +2935,108 @@
               "дургъана",
               "дургъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дургъулаго": {
+    "wordform": "дургъулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дургъулеб": {
+    "wordform": "дургъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дургъулев": {
+    "wordform": "дургъулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дургъулей": {
+    "wordform": "дургъулей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дургъун": {
+    "wordform": "дургъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дургъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дургьулеб": {
+    "wordform": "дургьулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2796,6 +3095,18 @@
               "дури"
             ],
             "from_lemma": "дуризе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2873,6 +3184,18 @@
             "from_lemma": "дуризе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2926,6 +3249,23 @@
       }
     }
   },
+  "дуризабулеб": {
+    "wordform": "дуризабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дуризабуна": {
     "wordform": "дуризабуна",
     "sources": {
@@ -2946,6 +3286,23 @@
               "дуризабуна",
               "дуризабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "дуризавизе": {
+    "wordform": "дуризавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дури",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2972,6 +3329,18 @@
               "дурана",
               "дуре"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -3042,6 +3411,18 @@
               "дурлъила",
               "дурлъана"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3173,6 +3554,35 @@
             "sense": "бинокль, подзорная труба"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурнаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "дурнабаздасан": {
+    "wordform": "дурнабаздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурнаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3218,6 +3628,35 @@
               "дурнабаз",
               "дурнабазул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурнаби",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "дурнавал": {
+    "wordform": "дурнавал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дур",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -3286,6 +3725,18 @@
             "sense": "(с)делать что-либо быстро; (по)спешить, (по)торопиться; (с)бегать; прибавить скорость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3324,6 +3775,17 @@
             "av": "дурус гьабизе",
             "ru": "уточнить",
             "sense": "подробно, точно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурус",
+            "pos": "наречие"
           }
         ]
       }
@@ -3374,6 +3836,17 @@
             "sense": "формулировка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурусаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -3414,6 +3887,18 @@
             "av": "малъичӏого цӏаларав, цӏаличӏого дурусав",
             "ru": "самоучкой стал учёным, без наставника стал благонадёжным",
             "sense": "надёжный, благонадёжный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурусаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3521,6 +4006,18 @@
             "sense": "штурман"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурус",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3624,6 +4121,18 @@
               "дуруслъиялъул"
             ],
             "from_lemma": "дуруслъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуруслъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3814,6 +4323,23 @@
       }
     }
   },
+  "дуруслъизелъун": {
+    "wordform": "дуруслъизелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дуруслъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дуруслъила": {
     "wordform": "дуруслъила",
     "sources": {
@@ -3910,6 +4436,23 @@
       }
     }
   },
+  "дурусуго": {
+    "wordform": "дурусуго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурус",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дурхьан": {
     "wordform": "дурхьан",
     "sources": {
@@ -3960,6 +4503,18 @@
               "дурцасул",
               "дурцал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дурц",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

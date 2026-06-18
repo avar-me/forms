@@ -101,6 +101,18 @@
             "sense": "пятка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эгъе",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -196,6 +208,23 @@
               "эгъеборлъалъул",
               "эгъеборлъал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эгъеялда": {
+    "wordform": "эгъеялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эгъе",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

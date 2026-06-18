@@ -17,6 +17,17 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏ-анцӏ",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -134,6 +145,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏабизе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -200,6 +222,34 @@
             "sense": "восемьдесят"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏабилеб",
+            "pos": "числительное"
+          }
+        ]
+      }
+    }
+  },
+  "анцӏабилел": {
+    "wordform": "анцӏабилел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏабго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -249,6 +299,17 @@
             "av": "кӏикъоялда анцӏазарабилеб",
             "ru": "пятидесятитысячный",
             "sense": "сорок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏазарабилеб",
+            "pos": "числительное"
           }
         ]
       }
@@ -363,6 +424,45 @@
             "av": "лъабкъоялда анцӏазарго",
             "ru": "семьдесят тысяч",
             "sense": "шестьдесят"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏазарго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏазарго",
+            "pos": "числительное"
+          }
+        ]
+      }
+    }
+  },
+  "анцӏазаргоялде": {
+    "wordform": "анцӏазаргоялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏазарго",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -704,6 +804,39 @@
             "sense": "ящик"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -750,6 +883,23 @@
             "av": "дида анцӏгогӏан цӏикӏкӏун лъала досда",
             "ru": "он знает десять раз больше меня",
             "sense": "около десяти"
+          }
+        ]
+      }
+    }
+  },
+  "анцӏгониги": {
+    "wordform": "анцӏгониги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -807,6 +957,23 @@
       }
     }
   },
+  "анцӏгоялда": {
+    "wordform": "анцӏгоялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "анцӏгоялде": {
     "wordform": "анцӏгоялде",
     "sources": {
@@ -823,6 +990,18 @@
             "av": "анцӏгоялде бахине",
             "ru": "дойти до десяти",
             "sense": "доходить, дойти до какого-либо числа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏго",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -987,6 +1166,17 @@
             "entry": "анцӏил",
             "av": "анцӏил бутӏа",
             "ru": "десятая часть, десятая доля, одна десятых"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏил",
+            "pos": "существительное"
           }
         ]
       }
@@ -1244,6 +1434,39 @@
             "sense": "первый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏила",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏила",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏила",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -1279,6 +1502,18 @@
             "sense": "десятка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏилаб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1301,6 +1536,18 @@
               "анцӏилалъул",
               "анцӏилал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏилаб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1620,6 +1867,17 @@
             "av": "анцӏцӏул такрар гьабизе",
             "ru": "десятикратно повторить",
             "sense": "десятикратно, десять раз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анцӏцӏул",
+            "pos": "числительное"
           }
         ]
       }

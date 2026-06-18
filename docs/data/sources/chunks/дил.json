@@ -136,6 +136,30 @@
             "sense": "во мне, мне"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "местный падеж",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дун",
+            "relation": "местный падеж",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   }

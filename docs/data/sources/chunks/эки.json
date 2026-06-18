@@ -1,0 +1,194 @@
+{
+  "экипаж": {
+    "wordform": "экипаж",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "экипаж",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "экипаж",
+              "экипажалъ",
+              "экипажалъул",
+              "экипажал"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "самолёт",
+            "av": "самолёталъул экипаж",
+            "ru": "экипаж самолёта",
+            "sense": "самолёт"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "танк",
+            "av": "танкалъул экипаж",
+            "ru": "экипаж танка",
+            "sense": "танк"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "экипаж",
+            "av": "гамил экипаж",
+            "ru": "экипаж судна",
+            "sense": "экипаж"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "экипаж",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "экипажал": {
+    "wordform": "экипажал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "entry": "экипаж",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "экипаж",
+              "экипажалъ",
+              "экипажалъул",
+              "экипажал"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "экипажалда": {
+    "wordform": "экипажалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "экипажалъ": {
+    "wordform": "экипажалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "entry": "экипаж",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "экипаж",
+              "экипажалъ",
+              "экипажалъул",
+              "экипажал"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "экипажалъул": {
+    "wordform": "экипажалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "entry": "экипаж",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "экипаж",
+              "экипажалъ",
+              "экипажалъул",
+              "экипажал"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "экипаж",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  }
+}

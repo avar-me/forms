@@ -30,6 +30,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхъ",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -96,6 +107,17 @@
             "sense": "беспризорный, безнадзорный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхъаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -128,6 +150,18 @@
             "sense": "скитание по свету"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -158,6 +192,18 @@
             "av": "саяхъай гӏадан",
             "ru": "распутная женщина, распутница",
             "sense": "распутный, беспутный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -343,6 +389,18 @@
             "from_lemma": "саяхълъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхълъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -496,6 +554,23 @@
       }
     }
   },
+  "саяхълъизавизе": {
+    "wordform": "саяхълъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "саяхълъизе": {
     "wordform": "саяхълъизе",
     "sources": {
@@ -517,6 +592,18 @@
               "саяхълъана",
               "саяхълъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхълъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -568,6 +655,23 @@
       }
     }
   },
+  "саяхълъиялдасан": {
+    "wordform": "саяхълъиялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "саяхълъиялъ": {
     "wordform": "саяхълъиялъ",
     "sources": {
@@ -609,6 +713,23 @@
               "саяхълъиялъ",
               "саяхълъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "саяхълъул": {
+    "wordform": "саяхълъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "саяхълъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

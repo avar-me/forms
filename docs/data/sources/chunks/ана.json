@@ -2181,6 +2181,28 @@
             "sense": "жена, супруга"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -2234,6 +2256,47 @@
             "av": "химикияб анализ",
             "ru": "химический анализ",
             "sense": "химический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анализ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анализ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "анализазда": {
+    "wordform": "анализазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анализ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2315,6 +2378,18 @@
             "sense": "кровь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анализ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2361,6 +2436,18 @@
               "ананасалъ",
               "ананасалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ананас",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2417,6 +2504,81 @@
             "av": "ананасалъул лъим",
             "ru": "ананасный сок",
             "sense": "ананасный, ананасовый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ананас",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "анани": {
+    "wordform": "анани",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "анархизмалъул": {
+    "wordform": "анархизмалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "анархистазул": {
+    "wordform": "анархистазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ана",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2589,6 +2751,18 @@
             "sense": "анатомия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анатомия",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2645,6 +2819,18 @@
             "sense": "анатомия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анатомия",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2693,6 +2879,17 @@
             "sense": "атлас"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анатомиялъулаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2735,6 +2932,23 @@
             "entry_forms": [
               "анатомиялъулаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "анатомиялъулал": {
+    "wordform": "анатомиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "анатомия",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

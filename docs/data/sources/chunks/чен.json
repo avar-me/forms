@@ -413,6 +413,23 @@
       }
     }
   },
+  "ченхъезарулеб": {
+    "wordform": "ченхъезарулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ченхъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ченхъезе": {
     "wordform": "ченхъезе",
     "sources": {
@@ -434,6 +451,18 @@
               "ченхъана",
               "ченхъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ченхъезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
           }
         ]
       }

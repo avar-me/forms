@@ -19,6 +19,18 @@
             "from_lemma": "хазе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хазе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -91,6 +103,23 @@
       }
     }
   },
+  "хайванал": {
+    "wordform": "хайванал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хай",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хайгин": {
     "wordform": "хайгин",
     "sources": {
@@ -131,6 +160,18 @@
             "av": "ялгъавалъуб хайгин гьабизе",
             "ru": "приготовить яичницу на сковородке",
             "sense": "сковорода, сковородка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайгин",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -227,6 +268,18 @@
               "хайиялъ",
               "хайиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -387,6 +440,39 @@
             "sense": "польза; прибыль; выгода; благо; доход; барыш"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -424,6 +510,17 @@
             "av": "хайираб иш",
             "ru": "выгодное, прибыльное дело",
             "sense": "прибыльный, выгодный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайираб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -473,6 +570,57 @@
       }
     }
   },
+  "хайирал": {
+    "wordform": "хайирал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хайиралдалъун": {
+    "wordform": "хайиралдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хайиралдаса": {
+    "wordform": "хайиралдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хайиралъ": {
     "wordform": "хайиралъ",
     "sources": {
@@ -491,6 +639,35 @@
               "хайиралъ",
               "хайиралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хайиралъе": {
+    "wordform": "хайиралъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -514,6 +691,35 @@
               "хайиралъ",
               "хайиралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хайиралъухъ": {
+    "wordform": "хайиралъухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайир",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -585,6 +791,17 @@
               "хайратица",
               "хайратил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хайрат",
+            "pos": "выражение"
           }
         ]
       }

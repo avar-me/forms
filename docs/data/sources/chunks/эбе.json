@@ -801,6 +801,42 @@
             "sense": "взять в жёны кого-л; пожениться на ком-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -945,6 +981,64 @@
             "sense": "родительский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "эбел-инсулмина": {
+    "wordform": "эбел-инсулмина",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-инсул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эбел-инсухъ": {
+    "wordform": "эбел-инсухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -986,6 +1080,18 @@
             "av": "эбел-инсуца гӏадин тӏалаб гьабуна дир гьоболас",
             "ru": "гость заботился обо мне так же, как и родители",
             "sense": "родители; . мать и отец"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1180,6 +1286,30 @@
             "av": "эбел-эмен гьечӏого хутӏугеги лъимал",
             "ru": "да не лишаются дети родителей",
             "sense": "родители; . мать и отец"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел-эмен",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1477,6 +1607,17 @@
             "sense": "матка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбелаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1611,6 +1752,18 @@
             "sense": "быть похожим, схожим, подобным; походить на кого-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбелаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1650,6 +1803,35 @@
             "av": "эбелалдаса цее щвана яс рокъое",
             "ru": "мать пришла домой раньше матери",
             "sense": "раньше кого-чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбелаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эбелалдасан": {
+    "wordform": "эбелалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбелаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1723,6 +1905,18 @@
             "av": "ясалъул эбелалдехун бакка-бахъи гьабуна долъ",
             "ru": "она сделала намёк матери девушки",
             "sense": "намёк"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбелаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2139,6 +2333,30 @@
             "sense": "мать; мама"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2188,6 +2406,18 @@
             "av": "моцӏи-моцӏие эбелалъе гӏарац битӏула дос",
             "ru": "ежемесячно отправляет он деньги матери",
             "sense": "ежемесячно, каждый месяц"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2474,6 +2704,30 @@
             "sense": "двоюродная сестра; кузина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2493,6 +2747,57 @@
             "av": "эбелалъулги рекӏее къабуллъана дица чӏужу ячин",
             "ru": "и мать согласилась с моей женитьбой",
             "sense": "стать, быть принятым, услышанным кем-либо"
+          }
+        ]
+      }
+    }
+  },
+  "эбелалъулниги": {
+    "wordform": "эбелалъулниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эбелалъун": {
+    "wordform": "эбелалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эбелалъухъ": {
+    "wordform": "эбелалъухъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2595,6 +2900,30 @@
             "av": "эбелги, эменги, руцӏцӏалалго лъималги рокъор ругоан",
             "ru": "и мать, и отец, и все дети были дома",
             "sense": "все"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2797,6 +3126,40 @@
       }
     }
   },
+  "эбелелда": {
+    "wordform": "эбелелда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эбелинсул": {
+    "wordform": "эбелинсул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "эбеллъи": {
     "wordform": "эбеллъи",
     "sources": {
@@ -2836,6 +3199,18 @@
             "av": "эбеллъи гьабизе",
             "ru": "стать матерью; заменить мать",
             "sense": "материнство; замена матери"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбеллъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2882,6 +3257,23 @@
               "эбеллъиялъ",
               "эбеллъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эбеллъун": {
+    "wordform": "эбеллъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эбел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

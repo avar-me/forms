@@ -44,6 +44,17 @@
             "sense": "один-два; малое количество"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-кӏиго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -254,6 +265,28 @@
             "sense": "каждый; всякий; любой"
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -305,6 +338,23 @@
             "av": "цо-цоги гӏеч кьуна эбелалъ ясазе",
             "ru": "мать дала дочерям ещё по одному яблоку",
             "sense": "ещё по одному"
+          }
+        ]
+      }
+    }
+  },
+  "цо-цожал": {
+    "wordform": "цо-цожал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -364,6 +414,34 @@
             "sense": "по одному"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цоккун",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "цо-цокун": {
+    "wordform": "цо-цокун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -383,6 +461,40 @@
             "av": "битӏараб бицунев чи гӏадлъун вихьула цо-цоязда",
             "ru": "некоторым кажется смешным тот, кто говорит правду",
             "sense": "(по)казаться смешным, странным"
+          }
+        ]
+      }
+    }
+  },
+  "цо-цоязул": {
+    "wordform": "цо-цоязул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цо-цоялана": {
+    "wordform": "цо-цоялана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цо-цо",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

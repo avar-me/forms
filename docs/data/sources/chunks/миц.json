@@ -161,6 +161,52 @@
             "ru": "полная луна с ущербом на одну-две ночи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "мицӏиралда": {
+    "wordform": "мицӏиралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мицӏиралдасан": {
+    "wordform": "мицӏиралдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -180,6 +226,18 @@
             "av": "тӏохил мицӏиралде гӏагарлъана микки",
             "ru": "голубь приблизился к краю крыши",
             "sense": "край, кромка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -251,6 +309,23 @@
               "моцӏрол",
               "мицӏрал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мицӏирги": {
+    "wordform": "мицӏирги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -343,6 +418,18 @@
               "мицӏразул"
             ],
             "from_lemma": "мицӏир"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мицӏир",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }

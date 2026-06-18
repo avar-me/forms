@@ -123,6 +123,47 @@
             "sense": "ластиковый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гужгатазда": {
+    "wordform": "гужгатазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -146,6 +187,18 @@
               "гужгатул",
               "гужгатал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -172,6 +225,23 @@
       }
     }
   },
+  "гужгаталниги": {
+    "wordform": "гужгаталниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гужгаталъ": {
     "wordform": "гужгаталъ",
     "sources": {
@@ -192,6 +262,18 @@
               "гужгатул",
               "гужгатал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -238,6 +320,23 @@
             "av": "гужгаталъулъ вачӏана дов къватӏиве",
             "ru": "он вышел в бешмете",
             "sense": "бешмет"
+          }
+        ]
+      }
+    }
+  },
+  "гужгатгун": {
+    "wordform": "гужгатгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гужгат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

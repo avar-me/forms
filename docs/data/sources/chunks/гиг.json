@@ -1,0 +1,160 @@
+{
+  "гигиена": {
+    "wordform": "гигиена",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "гигиена",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "гигиена",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гигиена",
+              "гигиенаялъ",
+              "гигиенаялъул"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гигиена",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гигиенаялда": {
+    "wordform": "гигиенаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гигиена",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гигиенаялъ": {
+    "wordform": "гигиенаялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "гигиена",
+            "pos": "существительное",
+            "entry": "гигиена",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гигиена",
+              "гигиенаялъ",
+              "гигиенаялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "гигиенаялъе": {
+    "wordform": "гигиенаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гигиена",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гигиенаялъул": {
+    "wordform": "гигиенаялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "гигиена",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "гигиенаялъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "гигиенаялъул"
+            ],
+            "from_lemma": "гигиена"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "гигиена",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "гигиена",
+            "av": "гигиенаялъул къагӏидаби цӏунизе",
+            "ru": "соблюдать правила гигиены",
+            "sense": "гигиена"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "гигиена",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "гигиенаялъул",
+            "av": "гигиенаялъул нормаби",
+            "ru": "гигиенические нормы",
+            "sense": "гигиенический"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "гигиена",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "гигиенаялъул",
+            "av": "гигиенаялъул тӏалабал",
+            "ru": "гигиенические требования",
+            "sense": "гигиенический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гигиена",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  }
+}

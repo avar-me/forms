@@ -48,6 +48,23 @@
       }
     }
   },
+  "уездалда": {
+    "wordform": "уездалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "уезд",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "уездалъ": {
     "wordform": "уездалъ",
     "sources": {
@@ -100,6 +117,18 @@
             "av": "уездалъул шагьар",
             "ru": "уездный город",
             "sense": "уездный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "уезд",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

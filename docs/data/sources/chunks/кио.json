@@ -31,6 +31,18 @@
             "sense": "киоск"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киоск",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -53,6 +65,23 @@
               "киоскалъул",
               "киоскал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "киоскалда": {
+    "wordform": "киоскалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киоск",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

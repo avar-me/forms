@@ -1,0 +1,398 @@
+{
+  "ясикӏабаз": {
+    "wordform": "ясикӏабаз",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "entry": "ясикӏаби",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏаби",
+              "ясикӏабаз",
+              "ясикӏабазул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏабазда": {
+    "wordform": "ясикӏабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏаби",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏабазул": {
+    "wordform": "ясикӏабазул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "ясикӏаби",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "ясикӏабазул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏабазул"
+            ],
+            "from_lemma": "ясикӏаби"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏаби",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "ясикӏабазул",
+            "av": "ясикӏабазул театр",
+            "ru": "кукольный театр",
+            "sense": "кукольный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏаби",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏаби": {
+    "wordform": "ясикӏаби",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "ясикӏо",
+            "relation": "множественное число",
+            "pos": "существительное",
+            "entry": "ясикӏаби",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏаби",
+              "ясикӏабаз",
+              "ясикӏабазул"
+            ],
+            "from_lemma": "ясикӏо"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "множественное число",
+            "pos": "существительное",
+            "entry": "дол",
+            "av": "дол ясикӏаби",
+            "ru": "те куклы",
+            "sense": "выступает определением имя существительное мн. ч. и не склоняется те"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏо",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏигун": {
+    "wordform": "ясикӏигун",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "ясикӏо",
+            "av": "ясикӏигун ясандизе",
+            "ru": "играть в куклы",
+            "sense": "кукла"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏо": {
+    "wordform": "ясикӏо",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏо",
+              "ясикӏялъ",
+              "ясикӏоялъул",
+              "ясикӏодул",
+              "ясикӏаби"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "гӏурдал",
+            "av": "гӏурдал ясикӏо",
+            "ru": "подорожник"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "чинидул",
+            "av": "чинидул ясикӏо",
+            "ru": "фарфоровая кукла",
+            "sense": "фарфоровый"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "av": "берцинаб ясикӏо",
+            "ru": "красивая кукла",
+            "sense": "кукла"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "av": "хирияб ясикӏо",
+            "ru": "дорогая кукла",
+            "sense": "кукла"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "av": "чӏартил ясикӏо",
+            "ru": "кукла из тряпок",
+            "sense": "кукла"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏогун": {
+    "wordform": "ясикӏогун",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "confidence": "medium",
+            "entry": "басандизе",
+            "av": "эбел кьижун йиго, дунги ясикӏогун ясандиларо",
+            "ru": "мама спить, а я не буду играться с куклой",
+            "sense": "(по)играть, играться, забавляться кем-либо; (по)резвиться; (по)шалить"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏодул": {
+    "wordform": "ясикӏодул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏо",
+              "ясикӏялъ",
+              "ясикӏоялъул",
+              "ясикӏодул",
+              "ясикӏаби"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏоялъул": {
+    "wordform": "ясикӏоялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏо",
+              "ясикӏялъ",
+              "ясикӏоялъул",
+              "ясикӏодул",
+              "ясикӏаби"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏоялъулалда": {
+    "wordform": "ясикӏоялъулалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ясикӏялъ": {
+    "wordform": "ясикӏялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "ясикӏо",
+            "pos": "существительное",
+            "entry": "ясикӏо",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "ясикӏо",
+              "ясикӏялъ",
+              "ясикӏоялъул",
+              "ясикӏодул",
+              "ясикӏаби"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "ясищха": {
+    "wordform": "ясищха",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "confidence": "low",
+            "entry": "къабуллъизе",
+            "av": "рекӏее къабуллъуларей ясищха дой йигей!",
+            "ru": "она девушка такая, что невозможно не понравиться!",
+            "sense": "стать, быть принятым, услышанным кем-либо"
+          }
+        ]
+      }
+    }
+  }
+}

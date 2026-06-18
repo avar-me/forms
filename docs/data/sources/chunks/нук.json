@@ -65,6 +65,18 @@
             "sense": "хан, властитель"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нукар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -478,6 +490,23 @@
               "нукьдуз",
               "нукьдузул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "нукьдуздаса": {
+    "wordform": "нукьдуздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нукьдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

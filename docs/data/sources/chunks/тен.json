@@ -30,6 +30,18 @@
             "sense": "разгильдяйство, халатность в работе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тене-хьеней",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -271,6 +283,18 @@
             "from_lemma": "тенкезе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тенкезе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -324,6 +348,23 @@
       }
     }
   },
+  "тенкезабулеб": {
+    "wordform": "тенкезабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тенкезабуна": {
     "wordform": "тенкезабуна",
     "sources": {
@@ -372,6 +413,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тенкезе",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -397,6 +450,18 @@
             "from_lemma": "тенкезе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тенкезе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -420,6 +485,23 @@
               "тенкана",
               "тенкей"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тенкелел": {
+    "wordform": "тенкелел",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -496,6 +578,40 @@
       }
     }
   },
+  "тенколаго": {
+    "wordform": "тенколаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тенкезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тенколеб": {
+    "wordform": "тенколеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тенколел": {
     "wordform": "тенколел",
     "sources": {
@@ -522,6 +638,23 @@
             "av": "лъимал цоцалъ тенколел рукӏана",
             "ru": "дети толкали друг друга",
             "sense": "подталкиваться, толкаться; толкать друг друга"
+          }
+        ]
+      }
+    }
+  },
+  "тенкон": {
+    "wordform": "тенкон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -566,6 +699,30 @@
             "av": "теннис хӏазе",
             "ru": "играть в теннис",
             "sense": "теннис"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теннис",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теннис",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -642,6 +799,18 @@
             "av": "теннисалъул ракета",
             "ru": "теннисная ракета",
             "sense": "теннисный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "теннис",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -857,6 +1026,23 @@
               "теннисисткаялъул",
               "теннисисткаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "теноралъул": {
+    "wordform": "теноралъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

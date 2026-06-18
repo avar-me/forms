@@ -269,6 +269,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макарон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -713,6 +725,18 @@
             "from_lemma": "макирлъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макирлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -736,6 +760,17 @@
               "макирлъана",
               "макирлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макирлъизе",
+            "pos": "выражение"
           }
         ]
       }
@@ -860,6 +895,40 @@
       }
     }
   },
+  "макказда": {
+    "wordform": "макказда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маккал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макказде": {
+    "wordform": "макказде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маккал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макказе": {
     "wordform": "макказе",
     "sources": {
@@ -909,6 +978,18 @@
             "av": "макказул гъургъуралъ ракӏгъезабуна дир",
             "ru": "воркованье голубей развлекало меня",
             "sense": "воркование, воркованье"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маккал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -993,6 +1074,30 @@
             "av": "сивунир маккал руго",
             "ru": "в башне находятся голуби",
             "sense": "башня"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маккал",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маккал",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -1230,6 +1335,17 @@
             "sense": "маклер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маклер",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1426,6 +1542,18 @@
             "sense": "коварство, лукавство; уловка, хитрость; козни; ухищрение; плутовство; обман"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1489,6 +1617,18 @@
             "av": "макру гьабизе",
             "ru": "(с)хитрить, (по)плутовать",
             "sense": "коварство, лукавство; уловка, хитрость; козни; ухищрение; плутовство; обман"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1564,6 +1704,91 @@
       }
     }
   },
+  "макруго": {
+    "wordform": "макруго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макрулъи": {
+    "wordform": "макрулъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макрумахӏлъи": {
+    "wordform": "макрумахӏлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макрурекӏкӏалдалъун": {
+    "wordform": "макрурекӏкӏалдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макрухӏиллаялда": {
+    "wordform": "макрухӏиллаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макручагӏи": {
     "wordform": "макручагӏи",
     "sources": {
@@ -1609,6 +1834,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макручи",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1631,6 +1867,18 @@
               "макручилъиялъ",
               "макручилъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макручилъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1757,6 +2005,17 @@
             "sense": "коварный, лукавый, хитрый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макруяб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1789,6 +2048,18 @@
             "sense": "коварный, лукавый, хитрый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макруяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1819,6 +2090,23 @@
             "av": "макруяй чӏужугӏадан",
             "ru": "коварная женщина",
             "sense": "коварный, лукавый, хитрый"
+          }
+        ]
+      }
+    }
+  },
+  "макруялдалъун": {
+    "wordform": "макруялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макруяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1864,6 +2152,18 @@
               "макруялъул",
               "макраби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макру",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1953,6 +2253,17 @@
               "максималъ",
               "максималъул"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "максим",
+            "pos": "выражение"
           }
         ]
       }
@@ -2397,6 +2708,30 @@
             "sense": "редакционный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2445,6 +2780,40 @@
       }
     }
   },
+  "макъалаялда": {
+    "wordform": "макъалаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макъалаялдалъун": {
+    "wordform": "макъалаялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макъалаялъ": {
     "wordform": "макъалаялъ",
     "sources": {
@@ -2464,6 +2833,23 @@
               "макъалаялъул",
               "макъалаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "макъалаялъе": {
+    "wordform": "макъалаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2518,6 +2904,18 @@
             "av": "макъалаялъул оригинал",
             "ru": "оригинал статьи",
             "sense": "оригинал"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъала",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2730,6 +3128,18 @@
             "av": "сармил макъан",
             "ru": "песенный мотив",
             "sense": "песенный"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3066,6 +3476,69 @@
             "sense": "хлеб"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "макъара-лъул": {
+    "wordform": "макъара-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макъараб": {
+    "wordform": "макъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макъаралда": {
+    "wordform": "макъаралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3091,6 +3564,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3114,6 +3599,18 @@
               "макърил",
               "макърал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3469,6 +3966,23 @@
       }
     }
   },
+  "макъица": {
+    "wordform": "макъица",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макънагъана": {
     "wordform": "макънагъана",
     "sources": {
@@ -3764,6 +4278,18 @@
             "sense": "магнит"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макънатӏис",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3785,6 +4311,18 @@
               "макънатӏисалъул"
             ],
             "from_lemma": "макънатӏис"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макънатӏис",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -3945,6 +4483,81 @@
             "av": "чакмабазул макърал",
             "ru": "задники сапог",
             "sense": "задник обуви"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макъар",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "макъратӏисалъ": {
+    "wordform": "макъратӏисалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макърал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макъратӏисалъул": {
+    "wordform": "макъратӏисалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макърал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макъратⅰисалъул": {
+    "wordform": "макъратⅰисалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макърал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4219,6 +4832,18 @@
             "sense": "(у)видеть, воспринимать зрением кого-что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4448,6 +5073,18 @@
             "ru": "выспаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьид",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4467,6 +5104,18 @@
             "av": "макьида тӏадагьав",
             "ru": "чуткий",
             "sense": "сон (как состояние), дремота, дрёма"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьид",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4518,6 +5167,47 @@
             "av": "макьидаса вигьине",
             "ru": "просыпаться, проснуться",
             "sense": "сон (как состояние), дремота, дрёма"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьид",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьид",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макьидасан": {
+    "wordform": "макьидасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьид",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4612,6 +5302,18 @@
             "av": "макьил наку",
             "ru": "внешнее проявление сна; мелодия сна",
             "sense": "мелодия, мотив, напев"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьил",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4840,6 +5542,28 @@
             "sense": "представляться, представиться; (при)сниться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьилъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьилъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -4869,6 +5593,30 @@
             "av": "макьилъго гӏадин рагӏулеб букӏана гьелда мадугьалалъул кӏалъай",
             "ru": "как сквозь сон слышала она разговор соседки",
             "sense": "во сне"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьилъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьилъ",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -5018,6 +5766,40 @@
       }
     }
   },
+  "макьихараб": {
+    "wordform": "макьихараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "макьихарал": {
+    "wordform": "макьихарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макьихин": {
     "wordform": "макьихин",
     "sources": {
@@ -5038,6 +5820,18 @@
               "макьихиналъул"
             ],
             "from_lemma": "макьихине"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -5236,6 +6030,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихин",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5284,6 +6090,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -5303,6 +6121,18 @@
             "av": "дун макьихун вуго",
             "ru": "меня клонит ко сну, мне хочется спать",
             "sense": "клонить ко сну, (за)хотеть поспать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5327,6 +6157,23 @@
               "макьихина",
               "макьихана"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "макьихунев": {
+    "wordform": "макьихунев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьихине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5508,6 +6355,18 @@
             "av": "макьица тӏубанго тату хвезабун буго дир",
             "ru": "сон совсем сморил меня, меня совсем одолел сон",
             "sense": "мочь, сила"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5897,6 +6756,59 @@
             "sense": "или, либо; ни"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "макьуги": {
+    "wordform": "макьуги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5970,6 +6882,23 @@
       }
     }
   },
+  "макьуялда": {
+    "wordform": "макьуялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "макьуялъ": {
     "wordform": "макьуялъ",
     "sources": {
@@ -5991,6 +6920,30 @@
               "макьуялъул",
               "макьаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "макьу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

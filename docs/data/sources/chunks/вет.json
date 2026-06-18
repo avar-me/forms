@@ -40,6 +40,28 @@
             "sense": "ветеран"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ветеран",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ветеран",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -501,6 +523,17 @@
             "sense": "ветеринарный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ветеринарияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -599,6 +632,18 @@
               "ветеринариялъ",
               "ветеринариялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ветеринария",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -783,6 +828,24 @@
               "ветӏарухъанасул",
               "ретӏарухъаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ветӏизе": {
+    "wordform": "ветӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

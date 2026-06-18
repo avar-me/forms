@@ -1,0 +1,301 @@
+{
+  "азот": {
+    "wordform": "азот",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "азот",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "азот",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "азот",
+              "азоталъ",
+              "азоталъул"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "азоталъ": {
+    "wordform": "азоталъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "азот",
+            "pos": "существительное",
+            "entry": "азот",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "азот",
+              "азоталъ",
+              "азоталъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азоталъул": {
+    "wordform": "азоталъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "азот",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "азоталъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "азоталъул"
+            ],
+            "from_lemma": "азот"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "азот",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "азот",
+            "av": "азоталъул махӏ букӏунаро",
+            "ru": "азот не имеет запаха",
+            "sense": "азот"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "азот",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "азоталъул",
+            "av": "азоталъул кислота",
+            "ru": "азотная кислота",
+            "sense": "азотный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "азоталъулаб": {
+    "wordform": "азоталъулаб",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "азоталъулаб",
+            "pos": "прилагательное",
+            "entry": "азоталъулаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азоталъулаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азоталъулав": {
+    "wordform": "азоталъулав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "азоталъулаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "азоталъулаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азоталъулаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азоталъулай": {
+    "wordform": "азоталъулай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "азоталъулаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "азоталъулаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азоталъулаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азоталъулал": {
+    "wordform": "азоталъулал",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "азоталъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium",
+            "entry": "азоталъулаб",
+            "av": "азоталъулал ракь беэн гьабулел жал",
+            "ru": "азотные удобрения",
+            "sense": "азотный"
+          }
+        ]
+      }
+    }
+  },
+  "азотияб": {
+    "wordform": "азотияб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "азотиял": {
+    "wordform": "азотиял",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "азотхӏалаб": {
+    "wordform": "азотхӏалаб",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "азотхӏалаб",
+            "pos": "прилагательное",
+            "entry": "азотхӏалаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азотхӏалаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азотхӏалав": {
+    "wordform": "азотхӏалав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "азотхӏалаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "азотхӏалаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азотхӏалаб"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "азотхӏалай": {
+    "wordform": "азотхӏалай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "gender_forms",
+            "lemma": "азотхӏалаб",
+            "relation": "родовая форма",
+            "pos": "прилагательное",
+            "entry": "азотхӏалаб",
+            "entry_pos": "прилагательное",
+            "entry_forms": [
+              "азотхӏалаб"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

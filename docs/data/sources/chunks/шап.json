@@ -271,6 +271,42 @@
             "sense": "награда, вознаграждение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -303,6 +339,18 @@
             "av": "хӏалтӏул церехъабазе шапакъатал щвана",
             "ru": "передовики труда получили награды",
             "sense": "работа, труд, действие, занятие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -350,6 +398,18 @@
             "sense": "удостоиться; быть заслуженным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -372,6 +432,23 @@
               "шапакъаталъул",
               "шапакъатал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "шапакъатлъун": {
+    "wordform": "шапакъатлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шапакъат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

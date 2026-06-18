@@ -41,6 +41,30 @@
             "sense": "кто, кого"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щий",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щий",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -196,6 +220,18 @@
             "av": "щийниги яккичӏо жакъа дихъе",
             "ru": "никто не навестил меня сегодня",
             "sense": "никто, никого"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щийниги",
+            "relation": "именительный",
+            "pos": "местоимение"
           }
         ]
       }

@@ -117,6 +117,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ямб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -139,6 +151,23 @@
               "ямбалъул",
               "ямбал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ямбалда": {
+    "wordform": "ямбалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ямб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -187,6 +216,23 @@
               "ямбалъул",
               "ямбал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ямбалъулал": {
+    "wordform": "ямбалъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ямб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

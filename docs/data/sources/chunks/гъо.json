@@ -1,4 +1,38 @@
 {
+  "гъо-тӏоде": {
+    "wordform": "гъо-тӏоде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъо-тⅰода": {
+    "wordform": "гъо-тⅰода",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъоб": {
     "wordform": "гъоб",
     "sources": {
@@ -124,6 +158,30 @@
             "sense": "быстро, быстрее; живо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -164,6 +222,17 @@
             "av": "гъоба квачан буго",
             "ru": "там внизу холодно",
             "sense": "там внизу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие"
           }
         ]
       }
@@ -534,6 +603,18 @@
             "sense": "тот же, та же, то же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъобго",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -755,6 +836,18 @@
               "гъобсагӏат",
               "гъобсагӏатго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъобсагӏат",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1229,6 +1322,30 @@
             "sense": "раздумываться, быть занятым мыслями; погружаться в раздумье"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -1262,6 +1379,30 @@
             "av": "гъова чи гьечӏо",
             "ru": "там внизу никого нет",
             "sense": "там внизу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1318,6 +1459,35 @@
             "av": "гъоваса кида щварав?",
             "ru": "когда приехал (или пришёл) оттуда?",
             "sense": "там внизу"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъовги": {
+    "wordform": "гъовги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1628,6 +1798,18 @@
             "sense": "куча, груда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъегъ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1713,6 +1895,17 @@
             "av": "кӏодо гъодин гӏажизго тоге нужеца",
             "ru": "не оставляйте бабушку в таком жалком виде",
             "sense": "слабо, немощно; бессильно; жалко; в жалком виде"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъодин",
+            "pos": "наречие"
           }
         ]
       }
@@ -2006,6 +2199,18 @@
             "sense": "мена, обмен"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2058,6 +2263,18 @@
             "av": "гъозда кинабго лъала",
             "ru": "они всё знают",
             "sense": "те, они"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2153,6 +2370,18 @@
             "av": "цин ниж гъозул гьабихъе ана",
             "ru": "сперва мы пошли на их мельницу",
             "sense": "сначада, сперва"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -2292,6 +2521,30 @@
             "sense": "со всхлипом"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъой",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъой",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -2425,6 +2678,40 @@
             "av": "Авар Гъойсу ккола Сулахъалъул цо гӏаркьел",
             "ru": "Аварское Койсу — один из притоков Сулака",
             "sense": "приток"
+          }
+        ]
+      }
+    }
+  },
+  "гъойца": {
+    "wordform": "гъойца",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъой",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъокьеги": {
+    "wordform": "гъокьеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -2572,6 +2859,36 @@
             "sense": "позапрошлый год, в позапрошлом году"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоб",
+            "relation": "местный падеж",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоб",
+            "relation": "местный падеж",
+            "pos": "местоимение"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -2619,6 +2936,47 @@
             "sense": "тайна, секрет; сокровенное"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолареблъун": {
+    "wordform": "гъолареблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2640,6 +2998,35 @@
             "sense": "минута, минутка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоларел": {
+    "wordform": "гъоларел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2659,6 +3046,108 @@
             "av": "гьаб галарахасалда дун хадув гъоларо",
             "ru": "в этой путанице я не могу разобраться",
             "sense": "неразбериха, путаница, запутанное дело; канитель"
+          }
+        ]
+      }
+    }
+  },
+  "гъоларого": {
+    "wordform": "гъоларого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъезе",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолбасал": {
+    "wordform": "гъолбасал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолбасалъ": {
+    "wordform": "гъолбасалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолбасалъул": {
+    "wordform": "гъолбасалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолбасги": {
+    "wordform": "гъолбасги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолбасгун": {
+    "wordform": "гъолбасгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2747,6 +3236,18 @@
             "sense": "та, она"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2825,6 +3326,17 @@
             "sense": "вон там, вот"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоле",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -2856,6 +3368,35 @@
             "sense": "тайно, скрыто, исподтишка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъолев": {
+    "wordform": "гъолев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоле",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2875,6 +3416,18 @@
             "av": "лъица досда малърал гъолел ругелали лъалеб гьечӏо",
             "ru": "не понятно, кто его натравливает",
             "sense": "лопасть"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоле",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3120,6 +3673,18 @@
             "sense": "та, она"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъой",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3217,6 +3782,18 @@
             "sense": "жизнь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоб",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3269,6 +3846,40 @@
             "av": "гъолъухъего битӏе кагъат",
             "ru": "к ней же отправь письмо",
             "sense": "указат. Ⅱ та же, она же"
+          }
+        ]
+      }
+    }
+  },
+  "гъониялда": {
+    "wordform": "гъониялда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоноде": {
+    "wordform": "гъоноде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3369,6 +3980,18 @@
             "av": "гъол гьанжелъизегӏанги гъора гъоркьго руго",
             "ru": "они до сих пор там внизу же остались",
             "sense": "внизу же"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3500,6 +4123,40 @@
               "гъорзелалъ",
               "гъорзелалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркълъел": {
+    "wordform": "гъоркълъел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркъчӏей": {
+    "wordform": "гъоркъчӏей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -4003,6 +4660,39 @@
             "sense": "зонтик, зонт"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -4031,6 +4721,17 @@
             "av": "гъоркь-тӏад ккана",
             "ru": "оказались друг на друге",
             "sense": "друг на друге"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь-тӏад",
+            "pos": "наречие"
           }
         ]
       }
@@ -4165,6 +4866,30 @@
             "av": "хъархъида гъоркьа къватӏибе бекерун бачӏана чӏорбагӏараб цер",
             "ru": "из-под куста выбежала яркобурая лиса",
             "sense": "яркокрасный; яркобурый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -4416,6 +5141,23 @@
             "av": "гъоркьадуниялалда цо бугӏатӏам гӏанасеб рокъоре кканила гьал",
             "ru": "в подземельном царстве они попали в комнату с ковшик, измеряющий побор за помол; то, во что сыпают ячмень",
             "sense": "четырёхугольный ковшик, измеряющий побор за помол"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьажал": {
+    "wordform": "гъоркьажал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -4693,6 +5435,30 @@
             "sense": "проводить, провести; начертить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4796,6 +5562,17 @@
             "sense": "тайно, скрыто, исподтишка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьанго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -4845,6 +5622,18 @@
               "гъоркьангурдел",
               "гъоркьангурдал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьангурде",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -5147,6 +5936,18 @@
             "sense": "мытьё, мойка; стирка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьанретӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5302,6 +6103,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьантӏажу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5401,6 +6214,18 @@
               "гъоркьапалугьанасул",
               "гъоркьапалугьаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьапалугьан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -5662,6 +6487,18 @@
             "sense": "комната на первом нижняя комната этаже"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьарукъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5912,6 +6749,18 @@
             "sense": "(по)щекотать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьахӏетӏе",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6125,6 +6974,17 @@
             "ru": "готовиться к приёму гостей"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьбакӏ",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6164,6 +7024,18 @@
             "av": "гъоркьги лъун мерхьине",
             "ru": "подмять под себя",
             "sense": "сминать, (с)мять; давить, придавливать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -6221,6 +7093,17 @@
             "av": "поездалдаса гъоркьго хутӏизе",
             "ru": "отстать от поезда",
             "sense": "внизу же"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьго",
+            "pos": "наречие"
           }
         ]
       }
@@ -7185,6 +8068,30 @@
             "sense": "лошадь, конь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7240,6 +8147,23 @@
             "av": "гъоркье-тӏаде хьвадизе",
             "ru": "ходить друг к другу, посещать друг друга",
             "sense": "друг к другу, друг друга"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьеги": {
+    "wordform": "гъоркьеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -7302,6 +8226,28 @@
             "sense": "(по)ниже, нижнее кого-чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьегӏан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьегӏан",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -7343,6 +8289,64 @@
             "av": "рацӏцӏиккун гъоркьехун",
             "ru": "ниже стыка",
             "sense": "стык, место стыка, соединения, сочленения, сращения"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьехунисеб": {
+    "wordform": "гъоркьехунисеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьехунисев": {
+    "wordform": "гъоркьехунисев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -7423,6 +8427,23 @@
               "гъоркьечӏеялъ",
               "гъоркьечӏеялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьзобал": {
+    "wordform": "гъоркьзобал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -7543,6 +8564,17 @@
             "av": "гъоркьиса дир кӏодо чӏаго йикӏана",
             "ru": "в прошлом году моя бабушка была ещё жива",
             "sense": "в живых, в живом состоянии"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьиса",
+            "pos": "наречие"
           }
         ]
       }
@@ -7743,6 +8775,28 @@
             "sense": "верхний"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -7785,6 +8839,23 @@
             "entry_forms": [
               "гъоркьияб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркькквел": {
+    "wordform": "гъоркькквел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -8060,6 +9131,18 @@
             "from_lemma": "гъоркьлъел"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьлъел",
+            "relation": "падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8105,6 +9188,69 @@
               "гъоркьлъалица",
               "гъоркьлъалил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьлъел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьлъелалдалъун": {
+    "wordform": "гъоркьлъелалдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьлъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьлъелалъе": {
+    "wordform": "гъоркьлъелалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьлъел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьлъелги": {
+    "wordform": "гъоркьлъелги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьлъел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8201,6 +9347,57 @@
       }
     }
   },
+  "гъоркьоблъи": {
+    "wordform": "гъоркьоблъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьорлъаби": {
+    "wordform": "гъоркьорлъаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьохъеб": {
+    "wordform": "гъоркьохъеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъоркьсияб": {
     "wordform": "гъоркьсияб",
     "sources": {
@@ -8253,6 +9450,17 @@
             "av": "гъоркьсияб хер",
             "ru": "прошлогоднее сено",
             "sense": "прошлогодний"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьсияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -8322,6 +9530,18 @@
               "гъоркьтӏамалъул",
               "гъоркьтӏамал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьтӏам",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -8409,6 +9629,23 @@
       }
     }
   },
+  "гъоркьхъал": {
+    "wordform": "гъоркьхъал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъоркьчӏалида": {
     "wordform": "гъоркьчӏалида",
     "sources": {
@@ -8425,6 +9662,18 @@
             "av": "гъоркьчӏалида тӏаде ккезе",
             "ru": "попасть в засаду, наткнуться на засаду",
             "sense": "засада"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8531,6 +9780,18 @@
             "sense": "саржевый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏвай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8606,6 +9867,35 @@
       }
     }
   },
+  "гъоркьчӏей": {
+    "wordform": "гъоркьчӏей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъоркьчӏел": {
     "wordform": "гъоркьчӏел",
     "sources": {
@@ -8650,6 +9940,30 @@
             "sense": "засада"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8674,6 +9988,23 @@
               "гъоркьчӏалил",
               "гъоркьчӏелал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъоркьчӏелалда": {
+    "wordform": "гъоркьчӏелалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоркьчӏел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8985,6 +10316,39 @@
             "sense": "кусок мяса"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -9059,6 +10423,18 @@
             "sense": "в, среди кого-чего-либо, внутри чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9111,6 +10487,30 @@
             "av": "хъахӏал накӏкӏазда гъорлъан лъедолеб букӏана моцӏ",
             "ru": "луна плыла среди белых облаков",
             "sense": "в, среди кого-чего-либо, внутри чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -9265,6 +10665,23 @@
       }
     }
   },
+  "гъорлъанго": {
+    "wordform": "гъорлъанго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъорлъбоси": {
     "wordform": "гъорлъбоси",
     "sources": {
@@ -9284,6 +10701,18 @@
               "гъорлъвосиялъул"
             ],
             "from_lemma": "гъорлъвосизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъвосизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -9724,6 +11153,42 @@
             "sense": "(по)ложить, вложить, переложить что-либо во что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъорлъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -10044,6 +11509,30 @@
             "sense": "ради шутки, в шутку; шутливо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -10167,6 +11656,47 @@
             "sense": "за кем-чем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъосдаги": {
+    "wordform": "гъосдаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -10186,6 +11716,74 @@
             "av": "гъосдаго цадахъ а",
             "ru": "иди с ним же",
             "sense": "указат. Ⅰ тот же, он же"
+          }
+        ]
+      }
+    }
+  },
+  "гъосдадила": {
+    "wordform": "гъосдадила",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъосдасан": {
+    "wordform": "гъосдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъосде": {
+    "wordform": "гъосде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъосдехун": {
+    "wordform": "гъосдехун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -10764,6 +12362,36 @@
             "from_lemma": "гъов"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъосул",
+            "relation": "родительный",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -10795,6 +12423,40 @@
             "av": "гъосулго чу рекӏана дица",
             "ru": "на его же коне съездил я",
             "sense": "указат. Ⅰ тот же, он же"
+          }
+        ]
+      }
+    }
+  },
+  "гъосулгун": {
+    "wordform": "гъосулгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъосухъ": {
+    "wordform": "гъосухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -10837,6 +12499,18 @@
             "av": "дир иш гьанже гъосухъе ккун буго",
             "ru": "моё дело теперь попало к нему, моё дело теперь зависит от него",
             "sense": "очутиться, оказаться где-либо; попадать, попасть куда-либо во что-либо"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъов",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -11011,6 +12685,30 @@
             "sense": "повреждение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11152,6 +12850,30 @@
             "sense": "пять, пяти"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -11171,6 +12893,30 @@
             "av": "гъотӏодаса гъотӏоде кӏанцӏунилан гъадил лачен лъугьунаро",
             "ru": "оттого, что ворона прыгает с дерева на дерево, она не станет соколом",
             "sense": "дерево"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -11719,6 +13465,30 @@
             "sense": "с треском"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -11799,6 +13569,18 @@
             "av": "гъотӏоркӏо гӏадин цого бакӏалда кӏетӏезе",
             "ru": "стучать словно дятел в одну и ту же точку",
             "sense": "дятел"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъотӏоркӏо",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -11963,6 +13745,69 @@
               "чӏвазе",
               "гъветӏгъезе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъотⅰода": {
+    "wordform": "гъотⅰода",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъотⅰодаса": {
+    "wordform": "гъотⅰодаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъотⅰоляги": {
+    "wordform": "гъотⅰоляги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъоба",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -12137,6 +13982,18 @@
             "av": "гъоцӏоца кквезе",
             "ru": "прихватывать щипцами",
             "sense": "зацеплять, прихватывать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъецӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -41,6 +41,18 @@
             "sense": "где"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -291,6 +303,18 @@
             "av": "кийниги дандчӏвачӏо дида додинай гӏадан",
             "ru": "такую женщину я нигде не встречал",
             "sense": "с отрицательное (местоимение) глаголом нигде"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибниги",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

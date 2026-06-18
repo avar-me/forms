@@ -213,6 +213,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "петер",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -426,6 +437,23 @@
       }
     }
   },
+  "петерчилъун": {
+    "wordform": "петерчилъун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "петерчи",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "петерчияс": {
     "wordform": "петерчияс",
     "sources": {
@@ -494,6 +522,18 @@
               "петиталъул",
               "петитал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "петит",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

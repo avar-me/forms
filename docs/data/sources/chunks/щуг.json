@@ -574,6 +574,39 @@
             "sense": "пятью, пять раз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -688,6 +721,23 @@
       }
     }
   },
+  "щугоялда": {
+    "wordform": "щугоялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "щугоялдаса": {
     "wordform": "щугоялдаса",
     "sources": {
@@ -704,6 +754,47 @@
             "av": "щугоялдаса кӏиго бахъизе",
             "ru": "из пяти вычесть два",
             "sense": "вычитать, вычесть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щугоялде": {
+    "wordform": "щугоялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуго",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -829,6 +920,17 @@
             "av": "щугӏаркьелаб цӏва",
             "ru": "пятиконечная звезда",
             "sense": "пятиконечный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щугӏаркьелаб",
+            "pos": "прилагательное"
           }
         ]
       }

@@ -31,6 +31,18 @@
             "sense": "обращение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хитӏаб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -98,6 +110,23 @@
               "хитӏабалъул",
               "хитӏабал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хитӏабалъе": {
+    "wordform": "хитӏабалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хитӏаб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

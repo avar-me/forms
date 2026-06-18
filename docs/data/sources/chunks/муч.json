@@ -41,6 +41,18 @@
             "sense": "просо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "муч",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -87,6 +99,18 @@
               "мучалъул",
               "мочол"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "муч",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -212,6 +236,30 @@
             "av": "мучари бежизе",
             "ru": "испечь лепёшку",
             "sense": "лепёшка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мучари",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мучари",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -633,6 +681,23 @@
       }
     }
   },
+  "муччулукълъизе": {
+    "wordform": "муччулукълъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "муч",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мучӏаби": {
     "wordform": "мучӏаби",
     "sources": {
@@ -699,6 +764,35 @@
             "sense": "становится, стать отяжелевшим, тучным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мучӏдузде": {
+    "wordform": "мучӏдузде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -720,6 +814,18 @@
               "мучӏдуз",
               "мучӏдузул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мучӏдул",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -795,6 +901,18 @@
             "av": "тӏугьдуз чарлъун рихьула мучӏдул",
             "ru": "луга пестреют цветами",
             "sense": "быть, стать пёстрым; пестреть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мечӏ",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }

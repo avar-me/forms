@@ -91,6 +91,30 @@
             "sense": "ноша; вьюк; груз; поклажа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -113,6 +137,23 @@
               "юкалъул",
               "юкал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "юкалдаса": {
+    "wordform": "юкалдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -142,6 +183,23 @@
       }
     }
   },
+  "юкалъе": {
+    "wordform": "юкалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "юкалъул": {
     "wordform": "юкалъул",
     "sources": {
@@ -161,6 +219,18 @@
               "юкалъул",
               "юкал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -302,6 +372,18 @@
               "юкъарухъаналъул",
               "рукъарухъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "юкъарухъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

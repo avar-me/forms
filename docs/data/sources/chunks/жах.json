@@ -35,6 +35,17 @@
             "sense": "в покое"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏабго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -183,6 +194,18 @@
             "sense": "сердце, душа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏда",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -256,6 +279,18 @@
               "жахӏдалъиялъул"
             ],
             "from_lemma": "жахӏдалъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏдалъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -424,6 +459,16 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏдачи"
+          }
+        ]
       }
     }
   },
@@ -568,6 +613,17 @@
             "sense": "завистливый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏдаяб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -600,6 +656,18 @@
             "sense": "завистливый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏдаяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -620,6 +688,35 @@
             "entry_forms": [
               "жахӏдаяб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏдаяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "жахӏдаялдаса": {
+    "wordform": "жахӏдаялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жахӏда",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

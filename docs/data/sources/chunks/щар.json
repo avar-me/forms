@@ -70,6 +70,18 @@
             "sense": "айран"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щар",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -142,6 +154,18 @@
             "av": "щарил хъаба",
             "ru": "кувшин йогурта",
             "sense": "крупный горшок, кувшин, жбан"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щар",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

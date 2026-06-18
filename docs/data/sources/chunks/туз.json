@@ -51,6 +51,18 @@
             "sense": "туз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "туз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -73,6 +85,23 @@
               "тузалъул",
               "тузал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тузалдасан": {
+    "wordform": "тузалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "туз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -117,6 +146,18 @@
             "av": "тузалъ чӏвазе",
             "ru": "тузом бить",
             "sense": "туз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "туз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -191,6 +232,35 @@
             "entry": "гьеси-гьеси",
             "av": "гьеси-гьеси букӏана гьесда бадибе тузе",
             "ru": "чуть ли не плюнул ему в лицо (в глаза); так хотелось плюнуть ему в лицо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "туз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тузеги": {
+    "wordform": "тузеги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "туз",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

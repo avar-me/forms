@@ -18,6 +18,32 @@
             "sense": "в ущелье, в овраге, в балке"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бегизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бегизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -100,6 +126,36 @@
             "sense": "логовище, нора"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "реги": {
+    "wordform": "реги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "беги",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -119,6 +175,19 @@
             "entry": "хӏетӏе-бетӏер",
             "av": "хӏетӏе-бетӏер гьабун регизе",
             "ru": "ложиться валетом"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бегизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -720,6 +789,30 @@
             "sense": "регистрация"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регистрация",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регистрация",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -766,6 +859,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регистрация",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -794,6 +899,17 @@
             "av": "регистрациялъулаб тӏамач",
             "ru": "регистрационный лист",
             "sense": "регистрационный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регистрациялъулаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -885,6 +1001,18 @@
             "sense": "регламент"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регламент",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -907,6 +1035,23 @@
               "регламенталъул",
               "регламентал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "регламенталда": {
+    "wordform": "регламенталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регламент",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1019,6 +1164,18 @@
             "av": "токалъул регулятор",
             "ru": "регулятор тока",
             "sense": "регулятор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регулятор",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1165,6 +1322,23 @@
               "регъана",
               "регъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "регъараб": {
+    "wordform": "регъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1377,6 +1551,18 @@
             "sense": "(за)паять, спаять что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1398,6 +1584,18 @@
               "регъей"
             ],
             "from_lemma": "регъезе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1519,6 +1717,40 @@
       }
     }
   },
+  "регъеялда": {
+    "wordform": "регъеялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регъеялъул": {
+    "wordform": "регъеялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "регъола": {
     "wordform": "регъола",
     "sources": {
@@ -1539,6 +1771,91 @@
               "регъана",
               "регъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "регъолеб": {
+    "wordform": "регъолеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регъолев": {
+    "wordform": "регъолев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регъолей": {
+    "wordform": "регъолей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регъолелъул": {
+    "wordform": "регъолелъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регъон": {
+    "wordform": "регъон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регъезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1648,6 +1965,23 @@
       }
     }
   },
+  "регьарав": {
+    "wordform": "регьарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "регьел": {
     "wordform": "регьел",
     "sources": {
@@ -1742,6 +2076,17 @@
             "sense": "втягивать, всасывать, впитывать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьел",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1767,6 +2112,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьел",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1790,6 +2147,18 @@
               "регьелалъул",
               "рагьлил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьел",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1900,6 +2269,18 @@
             "sense": "питательность"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьен",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1949,6 +2330,24 @@
       }
     }
   },
+  "регьизе": {
+    "wordform": "регьизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бегьизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "регьин": {
     "wordform": "регьин",
     "sources": {
@@ -1979,6 +2378,18 @@
             "av": "квен регьин",
             "ru": "усвоение пищи",
             "sense": "усвоение пищи организмом"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2235,6 +2646,18 @@
             "sense": "усвоиться — о пище"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2280,6 +2703,23 @@
       }
     }
   },
+  "регьун": {
+    "wordform": "регьун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "регьуна": {
     "wordform": "регьуна",
     "sources": {
@@ -2299,6 +2739,23 @@
               "регьина",
               "регьана"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "регьунеб": {
+    "wordform": "регьунеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регьине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2345,6 +2802,40 @@
               "регӏалица",
               "регӏалил"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "регӏараб": {
+    "wordform": "регӏараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регӏедулеб": {
+    "wordform": "регӏедулеб",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2431,6 +2922,65 @@
             "sense": "досуг, свободное время; от чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "регӏерал": {
+    "wordform": "регӏерал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "регӏеризе": {
+    "wordform": "регӏеризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бегӏеризе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2452,6 +3002,18 @@
               "регӏи"
             ],
             "from_lemma": "регӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2653,6 +3215,18 @@
             "av": "инсул мажбикьгицин ячӏана дун нуха регӏизе",
             "ru": "даже четвероюродная сестра отца приехала меня провожать",
             "sense": "четвероюродный брат или сестра; тот, кому по дележу наследства достаётся ботва"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -2949,6 +3523,23 @@
       }
     }
   },
+  "регӏичӏевлъиги": {
+    "wordform": "регӏичӏевлъиги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "регӏун": {
     "wordform": "регӏун",
     "sources": {
@@ -2985,6 +3576,30 @@
             "av": "накъиталде регӏун гьечӏо дун",
             "ru": "мне недосуг разговаривать",
             "sense": "беседа, разговор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "регӏел",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

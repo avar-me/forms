@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хам",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -104,6 +116,23 @@
       }
     }
   },
+  "хамазул": {
+    "wordform": "хамазул",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хамай": {
     "wordform": "хамай",
     "sources": {
@@ -121,6 +150,23 @@
             "entry_forms": [
               "хамаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хамал": {
+    "wordform": "хамал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -279,6 +325,40 @@
       }
     }
   },
+  "хамелеон": {
+    "wordform": "хамелеон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хам",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хамида": {
+    "wordform": "хамида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хам",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хамиз": {
     "wordform": "хамиз",
     "sources": {
@@ -330,6 +410,30 @@
             "av": "хамиз сордо",
             "ru": "ночь со среды на четверг",
             "sense": "четверг"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамиз",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамиз",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -724,6 +828,52 @@
             "sense": "хорошо месить, мять, разминать что-либо; вымешивать, вымесить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "хамуралда": {
+    "wordform": "хамуралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хамуралде": {
+    "wordform": "хамуралде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -778,6 +928,18 @@
             "av": "тӏад михир бачун эбелалъ хамуралъул панкъал гьарулел руго",
             "ru": "мать раскатывает тесто скалкой на тонкие лепёшки",
             "sense": "скалка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -847,6 +1009,23 @@
               "хамуталъул",
               "хамутал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хамуталда": {
+    "wordform": "хамуталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хамут",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

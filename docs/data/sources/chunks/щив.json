@@ -131,6 +131,64 @@
             "sense": "кто?"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      }
+    }
+  },
+  "щив-вукӏаниги": {
+    "wordform": "щив-вукӏаниги",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щив-лъунниги": {
+    "wordform": "щив-лъунниги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -235,6 +293,39 @@
             "sense": "по пять, по пяти"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -266,6 +357,18 @@
             "sense": "(по)искать, разыскивать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -287,6 +390,47 @@
               "щивас",
               "щивасул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щивасда": {
+    "wordform": "щивасда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -363,6 +507,47 @@
             "sense": "идеал"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щивасухъ": {
+    "wordform": "щивасухъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивав",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -435,6 +620,18 @@
             "sense": "никого"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивго",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -465,6 +662,23 @@
             "av": "щивгоцин ватичӏо гьабихъ",
             "ru": "никого не нашёл на мельнице",
             "sense": "никого"
+          }
+        ]
+      }
+    }
+  },
+  "щивгунниги": {
+    "wordform": "щивгунниги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -520,6 +734,57 @@
             "av": "щивдай жакъа гӏачиязде инев?",
             "ru": "кто же сегодня пойдёт пасти коров?",
             "sense": "кто же, кого же"
+          }
+        ]
+      }
+    }
+  },
+  "щивлиго": {
+    "wordform": "щивлиго",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щивлъун": {
+    "wordform": "щивлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "щивлъунниги": {
+    "wordform": "щивлъунниги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щив",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -597,6 +862,59 @@
             "sense": "никого"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивниги",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивниги",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивниги",
+            "relation": "именительный",
+            "pos": "местоимение"
+          }
+        ]
+      }
+    }
+  },
+  "щивниги-щибниги": {
+    "wordform": "щивниги-щибниги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивниги",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -640,6 +958,18 @@
             "av": "щивха дуе къваригӏарав?",
             "ru": "кто тебе нужен?",
             "sense": "кто; кто же; кого, кого же"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щивха",
+            "relation": "именительный",
+            "pos": "местоимение"
           }
         ]
       }

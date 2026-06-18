@@ -188,6 +188,23 @@
       }
     }
   },
+  "гозна": {
+    "wordform": "гозна",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гоз",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гозо": {
     "wordform": "гозо",
     "sources": {
@@ -259,6 +276,35 @@
             "av": "цӏудул гозо",
             "ru": "орлиный клюв",
             "sense": "орлиный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гозо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гозоги": {
+    "wordform": "гозоги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гозо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -734,6 +780,18 @@
               "газал",
               "гозбал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гозо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

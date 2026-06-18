@@ -170,6 +170,23 @@
       }
     }
   },
+  "абгида": {
+    "wordform": "абгида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "абги",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "абгил": {
     "wordform": "абгил",
     "sources": {
@@ -268,6 +285,18 @@
             "av": "абгил чед",
             "ru": "ржаной хлеб",
             "sense": "хлеб"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "огоб",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -397,6 +426,18 @@
               "абголъулго",
               "абголго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "абго",
+            "relation": "именительный",
+            "pos": "местоимение"
           }
         ]
       }

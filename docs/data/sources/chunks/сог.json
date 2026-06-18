@@ -61,6 +61,28 @@
             "sense": "грубый, необработанный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -91,6 +113,18 @@
             "av": "согӏав чи",
             "ru": "упрямый человек",
             "sense": "неподатливый, упрямый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -157,6 +191,18 @@
             "av": "согӏал лъугьинаризе",
             "ru": "натереть мозоли",
             "sense": "мозоль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -612,6 +658,17 @@
             "sense": "упрямо, неподатливо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -728,6 +785,18 @@
             "sense": "грубость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -800,6 +869,18 @@
               "согӏлъизабуна",
               "согӏлъизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏлъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -880,6 +961,23 @@
       }
     }
   },
+  "согӏлъизавизе": {
+    "wordform": "согӏлъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "согӏлъизе": {
     "wordform": "согӏлъизе",
     "sources": {
@@ -901,6 +999,18 @@
               "согӏлъана",
               "согӏлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "согӏлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

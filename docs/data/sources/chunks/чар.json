@@ -27,6 +27,17 @@
             "sense": "пёстро"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чар",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -111,6 +122,18 @@
             "sense": "выход; исход"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чара",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -130,6 +153,17 @@
             "entry_forms": [
               "чара-гъараб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чара-гъараб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -174,6 +208,23 @@
             "entry_forms": [
               "чара-гъараб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чара-гъарлъизе": {
+    "wordform": "чара-гъарлъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чара",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -269,6 +320,17 @@
             "sense": "пёстрый; пятнистый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чараб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -346,6 +408,30 @@
             "sense": "сорный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чӏар",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарал",
+            "relation": "родительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -377,6 +463,18 @@
             "av": "чарамул хвалчен",
             "ru": "стальной меч",
             "sense": "стальной"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -538,6 +636,35 @@
             "sense": "сталь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чараналда": {
+    "wordform": "чараналда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -564,6 +691,57 @@
               "чараница",
               "чаранил"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чаранбетон": {
+    "wordform": "чаранбетон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чаранбетоналъул": {
+    "wordform": "чаранбетоналъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чарангьецӏоялъул": {
+    "wordform": "чарангьецӏоялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1290,6 +1468,23 @@
       }
     }
   },
+  "чаркаби": {
+    "wordform": "чаркаби",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чарлъана": {
     "wordform": "чарлъана",
     "sources": {
@@ -1320,6 +1515,23 @@
             "av": "цо-цо гьалмагъзаби чарлъана досие",
             "ru": "кое-кто из товарищей изменил ему",
             "sense": "изменять, изменить кому-чему-либо"
+          }
+        ]
+      }
+    }
+  },
+  "чарлъарав": {
+    "wordform": "чарлъарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1381,6 +1593,18 @@
               "чарлъи"
             ],
             "from_lemma": "чарлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1456,6 +1680,18 @@
               "чарлъизабе"
             ],
             "from_lemma": "чарлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1536,6 +1772,23 @@
       }
     }
   },
+  "чарлъизарун": {
+    "wordform": "чарлъизарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чарлъизе": {
     "wordform": "чарлъизе",
     "sources": {
@@ -1557,6 +1810,18 @@
               "чарлъана",
               "чарлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1655,6 +1920,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1674,6 +1951,18 @@
             "av": "тӏугьдуз чарлъун рихьула мучӏдул",
             "ru": "луга пестреют цветами",
             "sense": "быть, стать пёстрым; пестреть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1750,6 +2039,23 @@
       }
     }
   },
+  "чармида": {
+    "wordform": "чармида",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чармил": {
     "wordform": "чармил",
     "sources": {
@@ -1820,6 +2126,30 @@
             "sense": "пружина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1846,6 +2176,23 @@
               "чараница",
               "чаранил"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чародей": {
+    "wordform": "чародей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чаран",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2181,6 +2528,35 @@
             "sense": "колесо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чархазул": {
+    "wordform": "чархазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2205,6 +2581,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чархалъул": {
+    "wordform": "чархалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2222,6 +2627,18 @@
             "av": "Мицӏир меседилал мисрихвалчаби Чархида ккунила ансадерица",
             "ru": "Египетские сабли с золотыми узорами Наточили унцукульцы на точильных камнях",
             "sense": "египетская сабля"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2286,6 +2703,18 @@
             "av": "чархил кун",
             "ru": "катушечные нитки",
             "sense": "катушечный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чарх",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

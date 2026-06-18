@@ -1,4 +1,22 @@
 {
+  "екерила": {
+    "wordform": "екерила",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бекеризе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "екерун": {
     "wordform": "екерун",
     "sources": {
@@ -38,6 +56,18 @@
               "екерухъаналъул",
               "рекерухъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "екерухъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -111,6 +141,18 @@
               "екьарухъаналъул",
               "рекьарухъаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "екьарухъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

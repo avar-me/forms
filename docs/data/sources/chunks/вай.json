@@ -208,6 +208,29 @@
             "sense": "сердце, душа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вазе",
+            "relation": "масдар",
+            "pos": "междометие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вай",
+            "pos": "междометие"
+          }
+        ]
       }
     }
   },
@@ -257,6 +280,40 @@
             "entry_forms": [
               "вайдихъ"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "вайнахазул": {
+    "wordform": "вайнахазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вай",
+            "pos": "междометие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вайнахал": {
+    "wordform": "вайнахал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вай",
+            "pos": "междометие",
+            "confidence": "medium"
           }
         ]
       }

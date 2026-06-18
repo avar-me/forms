@@ -71,6 +71,30 @@
             "sense": "пакет"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакет",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакет",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -93,6 +117,23 @@
               "пакеталъул",
               "пакетал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "пакеталда": {
+    "wordform": "пакеталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакет",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -206,6 +247,18 @@
             "av": "цоцазе кумек гьабиялъул пакт",
             "ru": "пакт о взаимопомощи",
             "sense": "пакт"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакт",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -336,6 +389,17 @@
             "sense": "бедно; жалко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъир",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -355,6 +419,17 @@
             "entry_forms": [
               "пакъираб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъираб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -387,6 +462,18 @@
             "av": "пакъирав чи",
             "ru": "бедный, жалкий, несчастный человек",
             "sense": "бедный, нуждающийся; жалкий; несчастный, горемычный; достойный сожаления, сочувствия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -578,6 +665,35 @@
             "sense": "бедно; жалко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъир",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "пакъирзабазе": {
+    "wordform": "пакъирзабазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъир",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -688,6 +804,18 @@
             "av": "пакъирлъи балагь буго",
             "ru": "бедность — беда",
             "sense": "бедность, жалкое состояние"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пакъирлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }

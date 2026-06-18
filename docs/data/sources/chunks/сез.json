@@ -114,6 +114,17 @@
             "sense": "послезавтра"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сезе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -396,6 +407,18 @@
             "sense": "театральный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сезон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -418,6 +441,23 @@
               "сезоналъул",
               "сезонал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сезоналда": {
+    "wordform": "сезоналда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сезон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -467,6 +507,23 @@
       }
     }
   },
+  "сезоналъе": {
+    "wordform": "сезоналъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сезон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сезоналъул": {
     "wordform": "сезоналъул",
     "sources": {
@@ -505,6 +562,18 @@
             "av": "сезоналъул хӏалтӏи",
             "ru": "сезонная работа",
             "sense": "сезонный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сезон",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

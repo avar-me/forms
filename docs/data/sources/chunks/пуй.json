@@ -46,6 +46,36 @@
             "sense": "метель, вьюга, пурга"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пуйзе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пуйзе",
+            "relation": "масдар",
+            "pos": "глагол"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "пуй",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -261,6 +291,23 @@
             "av": "чирахъалде пуйзе",
             "ru": "задуть лампу",
             "sense": "дуть"
+          }
+        ]
+      }
+    }
+  },
+  "пуйчӏваялъул": {
+    "wordform": "пуйчӏваялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "пуй",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

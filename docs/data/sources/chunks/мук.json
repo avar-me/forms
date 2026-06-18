@@ -191,6 +191,17 @@
             "sense": "святой, свящённый"
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъадасаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -437,6 +448,23 @@
       }
     }
   },
+  "мукърукь": {
+    "wordform": "мукърукь",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мукъсан": {
     "wordform": "мукъсан",
     "sources": {
@@ -472,6 +500,17 @@
             "av": "мукъсан гьабизе",
             "ru": "уменьшить; убавлять, убавить; отсекать, отсечь",
             "sense": "скудно, недостаточно; от чего-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсан",
+            "pos": "наречие"
           }
         ]
       }
@@ -531,6 +570,17 @@
             "sense": "виды оплаты; оплата"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -583,6 +633,18 @@
             "sense": "скудный, недостаточный, неполный; малого размера"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -608,6 +670,23 @@
       }
     }
   },
+  "мукъсанал": {
+    "wordform": "мукъсанал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мукъсанго": {
     "wordform": "мукъсанго",
     "sources": {
@@ -625,6 +704,35 @@
               "мукъсан",
               "мукъсанго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукъсанлъаби": {
+    "wordform": "мукъсанлъаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -746,6 +854,30 @@
             "sense": "недостаток, изьян, дефект; несовершенство, дефектность, недостаточность"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -794,6 +926,18 @@
             "from_lemma": "мукъсанлъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -819,6 +963,18 @@
               "мукъсанлъизабе"
             ],
             "from_lemma": "мукъсанлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -899,6 +1055,23 @@
       }
     }
   },
+  "мукъсанлъизаризе": {
+    "wordform": "мукъсанлъизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мукъсанлъизе": {
     "wordform": "мукъсанлъизе",
     "sources": {
@@ -939,6 +1112,18 @@
             "av": "квен-тӏех мукъсанлъизе",
             "ru": "не хватать еды",
             "sense": "быть, стать скудным; недоставать, недостать; не хватать, не хватить чего-либо; уменьшиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъсанлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1142,6 +1327,18 @@
             "sense": "саднить, драть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1165,6 +1362,23 @@
               "мукъулукъил",
               "мукъулукъал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мукъулукъалде": {
+    "wordform": "мукъулукъалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1215,6 +1429,69 @@
               "мукъулукъил",
               "мукъулукъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукъулукъалъулал": {
+    "wordform": "мукъулукъалъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукъулукъгун": {
+    "wordform": "мукъулукъгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукъулукъидасан": {
+    "wordform": "мукъулукъидасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1282,6 +1559,18 @@
             "sense": "глотка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1310,6 +1599,17 @@
             "av": "мукъулукъилаб гьаракь",
             "ru": "гортанный звук",
             "sense": "гортанный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъилаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1354,6 +1654,23 @@
             "entry_forms": [
               "мукъулукъилаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мукъулукъилал": {
+    "wordform": "мукъулукъилал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъулукъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1463,6 +1780,18 @@
             "av": "хӏелкил мукъур",
             "ru": "зоб петуха",
             "sense": "зоб"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукъур",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1674,6 +2003,28 @@
             "sense": "покорно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏур",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏур",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1713,6 +2064,17 @@
             "sense": "признанный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏураб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1733,6 +2095,18 @@
             "entry_forms": [
               "мукӏураб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏураб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1779,6 +2153,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏур",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1822,6 +2208,18 @@
             "av": "жидер гъалатӏ кканилан мукӏурлъана дол",
             "ru": "они признались, что ошиблись",
             "sense": "признаваться, признаться, сознаваться, сознаться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1882,6 +2280,18 @@
             "av": "гӏайибалъе мукӏурлъи",
             "ru": "признание вины",
             "sense": "признание"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2055,6 +2465,18 @@
             "sense": "легко; запросто"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2091,6 +2513,30 @@
             "sense": "рот, уста"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2114,6 +2560,40 @@
               "мукӏурлъана",
               "мукӏурлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мукӏурлъичӏеб": {
+    "wordform": "мукӏурлъичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукӏурлъичӏого": {
+    "wordform": "мукӏурлъичӏого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2165,6 +2645,23 @@
       }
     }
   },
+  "мукӏурлъиялъухъ": {
+    "wordform": "мукӏурлъиялъухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мукӏурлъула": {
     "wordform": "мукӏурлъула",
     "sources": {
@@ -2185,6 +2682,52 @@
               "мукӏурлъана",
               "мукӏурлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "мукӏурлъуларев": {
+    "wordform": "мукӏурлъуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мукӏурлъулев": {
+    "wordform": "мукӏурлъулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2216,6 +2759,23 @@
             "av": "мукӏурлъун чӏезе",
             "ru": "показать покорность",
             "sense": "покоряться, покориться; соглашаться, согласиться с кем-чем-либо"
+          }
+        ]
+      }
+    }
+  },
+  "мукӏурлъунгутӏизе": {
+    "wordform": "мукӏурлъунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏурлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2376,6 +2936,18 @@
             "av": "мукӏучӏи гӏадин йиго гъой",
             "ru": "она выглядит как камея",
             "sense": "камея"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мукӏучӏи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

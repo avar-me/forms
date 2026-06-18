@@ -151,6 +151,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бас-басине",
+            "relation": "учащательная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -174,6 +186,40 @@
               "бас-басана",
               "бас-басе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "басалдагитеноралдаги": {
+    "wordform": "басалдагитеноралдаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "басалъ": {
+    "wordform": "басалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -368,6 +414,18 @@
             "sense": "заставлять, заставить забавляться, резвиться, играться; забавлять кого-либо; обращаться с кем-либо как с игрушкой; (по)играть с кем-либо; дать поиграть кому-либо; втягивать, втянуть кого-либо в игру"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -421,6 +479,23 @@
       }
     }
   },
+  "басандизабулаго": {
+    "wordform": "басандизабулаго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басандизабулеб": {
     "wordform": "басандизабулеб",
     "sources": {
@@ -437,6 +512,23 @@
             "av": "палугьананас ханжар кодоб басандизабулеб букӏана",
             "ru": "канатоходец жонглировал кинжалом",
             "sense": "заставлять, заставить забавляться, резвиться, играться; забавлять кого-либо; обращаться с кем-либо как с игрушкой; (по)играть с кем-либо; дать поиграть кому-либо; втягивать, втянуть кого-либо в игру"
+          }
+        ]
+      }
+    }
+  },
+  "басандизабулев": {
+    "wordform": "басандизабулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -490,6 +582,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -513,6 +617,23 @@
               "басандана",
               "басанде"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "басандилеб": {
+    "wordform": "басандилеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басанди",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -621,6 +742,23 @@
       }
     }
   },
+  "басандулаго": {
+    "wordform": "басандулаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басандуларо": {
     "wordform": "басандуларо",
     "sources": {
@@ -678,6 +816,47 @@
             "av": "кьолокь басандулеб",
             "ru": "танцующий под седлом",
             "sense": "под седлом"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "басандун": {
+    "wordform": "басандун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басандизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -748,6 +927,23 @@
       }
     }
   },
+  "басарав": {
+    "wordform": "басарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басаралъ": {
     "wordform": "басаралъ",
     "sources": {
@@ -789,6 +985,23 @@
               "басаралъ",
               "басаралъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "басаринабизе": {
+    "wordform": "басаринабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -930,6 +1143,18 @@
             "av": "баси сверизе",
             "ru": "кастрировать бычка",
             "sense": "кастрировать кого-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баси",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1328,6 +1553,18 @@
             "ru": "подписивать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1470,6 +1707,30 @@
             "sense": "баскетбол"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баскетбол",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баскетбол",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1524,6 +1785,18 @@
             "av": "баскетболалъул торгӏо",
             "ru": "баскетбольный мяч",
             "sense": "баскетбольный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баскетбол",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -1778,6 +2051,18 @@
             "sense": "офсетный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1827,6 +2112,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басмахана",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1854,6 +2151,23 @@
       }
     }
   },
+  "басмаханая-лъул": {
+    "wordform": "басмаханая-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басмахана",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басмаханаялда": {
     "wordform": "басмаханаялда",
     "sources": {
@@ -1870,6 +2184,18 @@
             "av": "басмаханаялда хӏалтӏизе",
             "ru": "работать в типографии",
             "sense": "типография"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басмахана",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1929,6 +2255,18 @@
             "sense": "типографский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басмахана",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1980,6 +2318,47 @@
             "sense": "печатание, издание"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "басмаялдасан": {
+    "wordform": "басмаялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1999,6 +2378,18 @@
             "av": "тӏахьал басмаялде рахъизе кагъат",
             "ru": "бумага для печати, типографская бумага",
             "sense": "бумага"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2050,6 +2441,23 @@
       }
     }
   },
+  "басмаялъе": {
+    "wordform": "басмаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басмаялъул": {
     "wordform": "басмаялъул",
     "sources": {
@@ -2091,6 +2499,69 @@
             "av": "басмаялъул станок",
             "ru": "печатный станок",
             "sense": "станок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "баснябазул": {
+    "wordform": "баснябазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "басняби": {
+    "wordform": "басняби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "баснялъул": {
+    "wordform": "баснялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2201,6 +2672,34 @@
             "sense": "род, происхождение; генеология"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басра",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "басра-лъараб": {
+    "wordform": "басра-лъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басра",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2246,6 +2745,23 @@
       }
     }
   },
+  "басралъа-раб": {
+    "wordform": "басралъа-раб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басралъана": {
     "wordform": "басралъана",
     "sources": {
@@ -2278,6 +2794,18 @@
             "sense": "(о)срамиться, (о)позориться; унижаться, унизиться; стать, быть осрамленным, униженным, опозоренным, презренным; (по)терять авторитет"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2297,6 +2825,35 @@
             "av": "басралъараб рагӏи",
             "ru": "устаревшее слово, архаизм",
             "sense": "слово, речь;"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "басралъарал": {
+    "wordform": "басралъарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2359,6 +2916,18 @@
             "sense": "унижение, позор, срам"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2407,6 +2976,18 @@
             "from_lemma": "басралъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2441,6 +3022,18 @@
             "av": "ретӏел басралъизабизе",
             "ru": "износить одежду до ветхости",
             "sense": "изнашивать, износить что-либо до ветхости, привести что-либо в ветхость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -2521,6 +3114,23 @@
       }
     }
   },
+  "басралъизаризе": {
+    "wordform": "басралъизаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басралъизе": {
     "wordform": "басралъизе",
     "sources": {
@@ -2554,6 +3164,18 @@
             "sense": "изнашиваться, износиться; (об)ветшать; быть ветхим, старым, изношенным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2582,6 +3204,23 @@
       }
     }
   },
+  "басралъичӏеб": {
+    "wordform": "басралъичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "басралъиялъ": {
     "wordform": "басралъиялъ",
     "sources": {
@@ -2600,6 +3239,30 @@
               "басралъиялъ",
               "басралъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2650,6 +3313,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2689,6 +3364,30 @@
             "av": "кӏудадал макинтош басралъун буго",
             "ru": "дедушкин макинтош постарел",
             "sense": "макинтош"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басралъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3145,6 +3844,30 @@
             "sense": "одежда, платье, наряд"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басрияб",
+            "relation": "именительный",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басрияб",
+            "relation": "именительный",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -3290,6 +4013,23 @@
             "av": "басриял хьитал",
             "ru": "старая обувь",
             "sense": "обувь"
+          }
+        ]
+      }
+    }
+  },
+  "басриялъул": {
+    "wordform": "басриялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басрияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3469,6 +4209,23 @@
               "бассаризабуна",
               "бассаризабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "басун": {
+    "wordform": "басун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "басине",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

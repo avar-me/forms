@@ -17,6 +17,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуабизе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -126,6 +137,39 @@
             "av": "щуабилеб сордо",
             "ru": "пятая ночь",
             "sense": "пятый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуабилеб",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуабилеб",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуабилеб",
+            "pos": "числительное"
           }
         ]
       }
@@ -261,6 +305,17 @@
             "av": "щуазарго бетӏер чӏегӏерхӏайван",
             "ru": "пять тысяч голов крупного рогатого скота",
             "sense": "пять тысяч"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "щуазарго",
+            "pos": "числительное"
           }
         ]
       }

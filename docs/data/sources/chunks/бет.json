@@ -125,6 +125,18 @@
             "sense": "кровь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -154,6 +166,18 @@
             "av": "бетараб хоно",
             "ru": "яйцо всмятку",
             "sense": "яйцо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -199,6 +223,18 @@
             "av": "хъабиниб бетарахь буго",
             "ru": "в горшке кислое молоко",
             "sense": "крупный горшок, кувшин, жбан"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетарахь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -419,6 +455,23 @@
       }
     }
   },
+  "бетидал": {
+    "wordform": "бетидал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бети",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетизабе": {
     "wordform": "бетизабе",
     "sources": {
@@ -462,6 +515,18 @@
               "бетизаби"
             ],
             "from_lemma": "бетизабизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
           }
         ]
       }
@@ -508,6 +573,18 @@
             "av": "хоно бетизабизе",
             "ru": "сварить яйцо всмятку",
             "sense": "яйцо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -563,6 +640,23 @@
       }
     }
   },
+  "бетизабун": {
+    "wordform": "бетизабун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетизабуна": {
     "wordform": "бетизабуна",
     "sources": {
@@ -583,6 +677,23 @@
               "бетизабуна",
               "бетизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бетизабураб": {
+    "wordform": "бетизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -641,6 +752,18 @@
             "sense": "молоко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -664,6 +787,23 @@
               "бетана",
               "бета"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бетиялдаса": {
+    "wordform": "бетиялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бети",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -715,6 +855,23 @@
       }
     }
   },
+  "беткрги": {
+    "wordform": "беткрги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетон": {
     "wordform": "бетон",
     "sources": {
@@ -756,6 +913,18 @@
             "sense": "бетон"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетон",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -777,6 +946,18 @@
               "бетоналъ",
               "бетоналъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -842,6 +1023,18 @@
             "sense": "бетонный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетон",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -886,6 +1079,18 @@
             "av": "гьангиниб рахь бетун буго",
             "ru": "в горшке молоко свернулось",
             "sense": "широкий глиняный горшок"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1061,6 +1266,40 @@
       }
     }
   },
+  "бетӏtраб": {
+    "wordform": "бетӏtраб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏа": {
+    "wordform": "бетӏа",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетӏана": {
     "wordform": "бетӏана",
     "sources": {
@@ -1081,6 +1320,23 @@
               "бетӏана",
               "бетӏе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бетӏараб": {
+    "wordform": "бетӏараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1435,6 +1691,23 @@
             "av": "бетӏе-бетӏер гӏанасеб",
             "ru": "(величиной) с голову",
             "sense": "голова"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏей": {
+    "wordform": "бетӏей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3261,6 +3534,107 @@
             "sense": "пять тысяч"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏер-гьанги": {
+    "wordform": "бетӏер-гьанги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏер-гьанлъи": {
+    "wordform": "бетӏер-гьанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏер-гьанлъиялъулал": {
+    "wordform": "бетӏер-гьанлъиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏер-гьанлъун": {
+    "wordform": "бетӏер-гьанлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3516,6 +3890,17 @@
             "sense": "ставка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏераб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -3596,6 +3981,18 @@
             "av": "бетӏерав режиссёр",
             "ru": "главный режиссёр",
             "sense": "режиссёр"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏераб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3679,6 +4076,18 @@
             "av": "предложениялъул бетӏерал членал",
             "ru": "главные члены предложения",
             "sense": "член"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3812,6 +4221,30 @@
             "sense": "нежно, мягко; тихо; ласково; вежливо; любезно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3864,6 +4297,30 @@
             "sense": "ум, разум, интеллект"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3895,6 +4352,30 @@
             "av": "бетӏералдасан байбихье",
             "ru": "начни сначала",
             "sense": "снова, с начала"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "relation": "местный падеж",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "relation": "местный падеж",
+            "pos": "наречие"
           }
         ]
       }
@@ -3978,6 +4459,47 @@
             "sense": "нога"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏералдехун": {
+    "wordform": "бетӏералдехун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4056,6 +4578,47 @@
             "sense": "глупый, дурной, дурацкий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏералъе": {
+    "wordform": "бетӏералъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4092,6 +4655,30 @@
             "sense": "большой, крупный (по величине)"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4111,6 +4698,18 @@
             "av": "бетӏер бетӏералъухъ хисизе",
             "ru": "менять одно на другое без доплаты; менять баш на баш",
             "sense": "голова"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏер",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -4134,6 +4733,52 @@
             "sense": "поручать, поручить что-либо кому-либо; возлагать, возложить что-либо на кого-либо; обязывать, обязать кого-либо (сделать что-либо); давать, дать задание кому-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерасдаса": {
+    "wordform": "бетӏерасдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерасул": {
+    "wordform": "бетӏерасул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4153,6 +4798,23 @@
             "av": "бетӏерасухъ гӏенеккизе",
             "ru": "повиноваться главарю",
             "sense": "(по)слушаться кого-чего-либо; повиноваться кому-чему-либо"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерба-хъиялъе": {
+    "wordform": "бетӏерба-хъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4359,6 +5021,30 @@
             "sense": "бедный, скудный, небогатый, жалкий; убогий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -4413,6 +5099,18 @@
             "av": "хӏалица бетӏербахъизе",
             "ru": "концы с концами сводить",
             "sense": "насилу, насильно, с большим трудом; едва-едва, с великим усилием; с грехом пополам"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -4494,6 +5192,30 @@
             "sense": "существование, жизнь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4515,6 +5237,18 @@
               "бетӏербахъиялъ",
               "бетӏербахъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏербахъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4796,6 +5530,30 @@
             "sense": "с деепричастиями других глаголов выступает в роли вспомогательного глагола"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4825,6 +5583,30 @@
             "av": "кӏибикӏахъдизабулаго бетӏергун кӏалъалев вукӏана херав",
             "ru": "старик говорил, качая головой",
             "sense": "способствовать раскачиванию; качать, раскачивать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4877,6 +5659,35 @@
             "av": "бетӏергьаасул чехь унтичӏони, чияр мугъ унтуларо",
             "ru": "если у работодателя нутро (живот) не болит, у работников спина не будет болеть",
             "sense": "собственник и собственница; владелец и владелица; обладатель и обладательница; хозяин и хозяйка; господин и госпожа"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьабаз": {
+    "wordform": "бетӏергьабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4964,6 +5775,23 @@
             "av": "гӏакълуялъул бетӏергьаби",
             "ru": "обладающие умом; умные люди",
             "sense": "ум, разум, интеллект"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьабильун": {
+    "wordform": "бетӏергьабильун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5221,6 +6049,42 @@
             "sense": "о!"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5290,6 +6154,28 @@
             "sense": "собственный; принадлежащий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -5309,6 +6195,18 @@
             "av": "бетӏергьанаблъун лъугьине",
             "ru": "принадлежать кому-чему-либо",
             "sense": "собственный; принадлежащий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5353,6 +6251,52 @@
             "entry_forms": [
               "бетӏергьанаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанал": {
+    "wordform": "бетӏергьанал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьаналда": {
+    "wordform": "бетӏергьаналда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5466,6 +6410,18 @@
             "sense": "благотворный"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5485,6 +6441,18 @@
             "av": "бетӏергьанасда аскӏоб гьве цӏакълъулеб",
             "ru": "рядом с хозяином собака храбрится",
             "sense": "(рас)храбриться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -5538,6 +6506,35 @@
             "av": "Бетӏергьанасул хъвай гьединаб букӏун батила",
             "ru": "так, наверно, было предписано Господом",
             "sense": "предопределение, судьба"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанги": {
+    "wordform": "бетӏергьанги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5594,6 +6591,35 @@
             "sense": "собственность"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанлъиялда": {
+    "wordform": "бетӏергьанлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5613,6 +6639,18 @@
             "av": "бетӏергьанлъиялде кьезе",
             "ru": "давать в чью-либо собственность",
             "sense": "собственность"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5641,6 +6679,23 @@
       }
     }
   },
+  "бетӏергьанлъиялъе": {
+    "wordform": "бетӏергьанлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетӏергьанлъиялъул": {
     "wordform": "бетӏергьанлъиялъул",
     "sources": {
@@ -5659,6 +6714,64 @@
               "бетӏергьанлъиялъ",
               "бетӏергьанлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанлъиялъулал": {
+    "wordform": "бетӏергьанлъиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанлъун": {
+    "wordform": "бетӏергьанлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -5713,6 +6826,18 @@
             "av": "долъул бетӏергьанчи гьабихъе ана",
             "ru": "её муж ушёл на мельницу",
             "sense": "муж"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -5807,6 +6932,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанчиясдаса": {
+    "wordform": "бетӏергьанчиясдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5840,6 +6994,47 @@
             "sense": "владелец, хозяин"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏергьанчиясухъе": {
+    "wordform": "бетӏергьанчиясухъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5862,6 +7057,18 @@
               "бетӏергьанчӏужуялъ",
               "бетӏергьанчӏужуялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏергьанчӏужу",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -6031,6 +7238,18 @@
             "sense": "осёл, ишак"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6094,6 +7313,23 @@
             "entry_forms": [
               "бетӏерияб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерккун": {
+    "wordform": "бетӏерккун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6411,6 +7647,18 @@
             "sense": "тот (та), у кого большая башка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏеркӏодо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6521,6 +7769,30 @@
             "sense": "быть доблестным, храбрым, бесстрашным, мужественным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6551,6 +7823,34 @@
             "sense": "во главе; местнп."
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерлъиялда",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерлъиялдаса": {
+    "wordform": "бетӏерлъиялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6577,6 +7877,23 @@
       }
     }
   },
+  "бетӏерлъиялъе": {
+    "wordform": "бетӏерлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерлъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетӏерлъиялъул": {
     "wordform": "бетӏерлъиялъул",
     "sources": {
@@ -6595,6 +7912,23 @@
               "бетӏерлъиялъ",
               "бетӏерлъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бетӏерлъуда": {
+    "wordform": "бетӏерлъуда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -6648,6 +7982,30 @@
             "sense": "становиться, стать кем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6680,6 +8038,17 @@
             "av": "бетӏерхъахӏ бахъея къватӏибе",
             "ru": "достань(те)-ка белоголовую",
             "sense": "бутылка водки"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерхъахӏ",
+            "pos": "послелог"
           }
         ]
       }
@@ -6913,6 +8282,18 @@
             "sense": "господин; ваше (его) благородие, высочество"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏерчӏахъад",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -7057,6 +8438,18 @@
               "бетӏи"
             ],
             "from_lemma": "бетӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -7635,6 +9028,18 @@
             "sense": "сорняк, сорная трава"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -7709,6 +9114,40 @@
       }
     }
   },
+  "бетӏулеб": {
+    "wordform": "бетӏулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетӏулев": {
+    "wordform": "бетӏулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бетӏун": {
     "wordform": "бетӏун",
     "sources": {
@@ -7725,6 +9164,188 @@
             "av": "бетӏун рас зодобе базе",
             "ru": "на себе волосы рвать и на небо кидать",
             "sense": "срывать что-либо на себе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰер-лъи": {
+    "wordform": "бетⅰер-лъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰераб": {
+    "wordform": "бетⅰераб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰералда": {
+    "wordform": "бетⅰералда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰералъул": {
+    "wordform": "бетⅰералъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰерасул": {
+    "wordform": "бетⅰерасул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰерги": {
+    "wordform": "бетⅰерги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰергьанасда": {
+    "wordform": "бетⅰергьанасда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰергьанлъи": {
+    "wordform": "бетⅰергьанлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰеркъазе": {
+    "wordform": "бетⅰеркъазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бетⅰерлъи": {
+    "wordform": "бетⅰерлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бетизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

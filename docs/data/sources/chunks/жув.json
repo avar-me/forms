@@ -232,6 +232,30 @@
             "sense": "в середине, посредине, (по)среди"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жубазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -264,6 +288,18 @@
             "av": "ханазтӏа къурущ гӏадин кӏусун вукӏинчӏого, хӏалтӏизе жувай",
             "ru": "вместо того, чтобы сидеть как наседка над яйцами, принимайся за работу",
             "sense": "(при)сесть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жубай",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

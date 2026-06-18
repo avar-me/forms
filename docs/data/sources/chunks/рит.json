@@ -50,6 +50,18 @@
             "sense": "ритм"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритм",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -69,6 +81,18 @@
             "av": "ритмалда рекъараб",
             "ru": "ритмический",
             "sense": "ритм"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритм",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -117,6 +141,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритм",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритмаялда": {
+    "wordform": "ритмаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритм",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -159,6 +212,18 @@
             "av": "риторика малъизе",
             "ru": "учить риторике",
             "sense": "риторика"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риторика",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -227,6 +292,18 @@
             "sense": "риторика"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риторика",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -267,6 +344,36 @@
             "av": "риторикияб ударение",
             "ru": "риторическое ударение",
             "sense": "риторический"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "риторикияб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏараб": {
+    "wordform": "ритӏараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏараб",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -371,6 +478,18 @@
             "av": "ритӏел бугеб майдан",
             "ru": "ровная плошадь",
             "sense": "равнина, ровное место"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏел",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -562,6 +681,50 @@
             "sense": "этап"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏила": {
+    "wordform": "ритӏила",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -582,6 +745,32 @@
             "av": "Итни сордоялъ ритӏун эй абизе чи ана, Цинги рузман сордоялъ эй ячарай лъугьана",
             "ru": "В ночь на понедельник сватов к ней послали, А в ночь на пятницу она супругою стала",
             "sense": "жена, супруга"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏун",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "битӏун",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -640,6 +829,17 @@
             "av": "ритӏухъ гьавизе",
             "ru": "оправдать",
             "sense": "верно, преданно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъ",
+            "pos": "наречие"
           }
         ]
       }
@@ -726,6 +926,45 @@
             "sense": "союзник и союзница"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухъаблъун": {
+    "wordform": "ритӏухъаблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -758,6 +997,47 @@
             "sense": "верный, преданный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухъавлъун": {
+    "wordform": "ритӏухъавлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -778,6 +1058,23 @@
             "entry_forms": [
               "ритӏухъаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухъал": {
+    "wordform": "ритӏухъал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -810,6 +1107,47 @@
             "av": "Ватӏаналъе ритӏухъго хъулухъ гьабизе",
             "ru": "преданно служить Родине",
             "sense": "верно, преданно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухъиялда": {
+    "wordform": "ритӏухъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухъ",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -845,6 +1183,18 @@
             "av": "досул пикру ритӏухълъана",
             "ru": "его мнение подтвердилось",
             "sense": "подтверждаться, подтвердиться"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -977,6 +1327,47 @@
             "sense": "забота; о ком-чём-либо; печься; беспокоиться о ком-чём-либо; утруждать себя чем-либо; сделать что-либо предметом своей заботы; чего-либо; стараться получать, иметь, присвоить что-либо; доставать, достать; (по)просить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухълъиго": {
+    "wordform": "ритӏухълъиго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1050,6 +1441,18 @@
               "ритӏухълъизабе"
             ],
             "from_lemma": "ритӏухълъизе"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1163,6 +1566,18 @@
             "sense": "оправдиваться, оправдаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1191,6 +1606,40 @@
       }
     }
   },
+  "ритӏухълъиялда": {
+    "wordform": "ритӏухълъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухълъиялде": {
+    "wordform": "ритӏухълъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ритӏухълъиялъ": {
     "wordform": "ритӏухълъиялъ",
     "sources": {
@@ -1209,6 +1658,40 @@
               "ритӏухълъиялъ",
               "ритӏухълъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухълъиялъе": {
+    "wordform": "ритӏухълъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏухълъиялъеги": {
+    "wordform": "ритӏухълъиялъеги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1242,6 +1725,18 @@
             "av": "ритӏухълъиялъул нух гӏатӏидаб",
             "ru": "у справедливости дорога широка",
             "sense": "справедливость"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏухълъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1333,6 +1828,16 @@
             "sense": "матка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏучӏ"
+          }
+        ]
       }
     }
   },
@@ -1406,6 +1911,33 @@
             "sense": "северный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏучӏ",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ритӏучӏалгун": {
+    "wordform": "ритӏучӏалгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏучӏ",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1461,6 +1993,17 @@
               "ритӏучӏил",
               "ритӏучӏал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏучӏ",
+            "confidence": "medium"
           }
         ]
       }
@@ -1534,6 +2077,18 @@
             "av": "ритӏучӏил цӏоко",
             "ru": "олений мех",
             "sense": "олений"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ритӏучӏ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

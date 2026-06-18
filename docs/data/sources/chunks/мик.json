@@ -30,6 +30,30 @@
             "sense": "дуб"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -186,6 +210,30 @@
             "sense": "коричневый, тёмнокоричневый; коричневого, тёмнокоричневого цвета"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микки",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микки",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -221,6 +269,18 @@
             "sense": "ветвистый, со множеством ветвей, отросков"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккигъветӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -240,6 +300,23 @@
             "av": "болъонал миккигъветӏе хьвадулел руго",
             "ru": "свиньи ходют под дуб",
             "sense": "дуб"
+          }
+        ]
+      }
+    }
+  },
+  "миккигъотӏода": {
+    "wordform": "миккигъотӏода",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккигъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -333,6 +410,18 @@
               "миккигъутӏбузул"
             ],
             "from_lemma": "миккигъветӏ"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккигъветӏ",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -485,6 +574,18 @@
             "sense": "яйцо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микки",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -548,6 +649,47 @@
             "sense": "лист, листва, листья"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микк",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микк",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "миккилги": {
+    "wordform": "миккилги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -571,6 +713,18 @@
               "миккирохьалъул",
               "миккирохьал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккирохь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -691,6 +845,18 @@
               "миккицӏулакьоялъул",
               "миккицӏулакьодул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "миккицӏулакьо",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -931,6 +1097,69 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "микробаз": {
+    "wordform": "микробаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "микробазда": {
+    "wordform": "микробазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "микробаздаса": {
+    "wordform": "микробаздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроб",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -953,6 +1182,18 @@
               "микробалъул",
               "микробал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1195,6 +1436,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроскоп",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1217,6 +1470,40 @@
               "микроскопалъул",
               "микроскопал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "микроскопалдалъун": {
+    "wordform": "микроскопалдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроскоп",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "микроскопалдасан": {
+    "wordform": "микроскопалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроскоп",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1253,6 +1540,18 @@
             "sense": "микроскоп"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроскоп",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1287,6 +1586,18 @@
             "sense": "штатив"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микроскоп",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1310,6 +1621,18 @@
               "микрофоналъул",
               "микрофонал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микрофон",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1339,6 +1662,23 @@
       }
     }
   },
+  "микрофоналда": {
+    "wordform": "микрофоналда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микрофон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "микрофоналдасан": {
     "wordform": "микрофоналдасан",
     "sources": {
@@ -1355,6 +1695,18 @@
             "av": "микрофоналдасан кӏалъазе",
             "ru": "говорить в микрофон",
             "sense": "микрофон"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микрофон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1458,6 +1810,17 @@
             "ru": "не заикнись, не говори ничего"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микъан",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1486,6 +1849,17 @@
             "av": "микь-микь гъурущ бакӏаризе",
             "ru": "собрать по восемь рублей",
             "sense": "по восемь, по восьми"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микь-микь",
+            "pos": "числительное"
           }
         ]
       }
@@ -1569,6 +1943,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьабизе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1606,6 +1991,17 @@
             "av": "микьабилеб март",
             "ru": "восьмое марта",
             "sense": "восьмой"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьабилеб",
+            "pos": "числительное"
           }
         ]
       }
@@ -1854,6 +2250,39 @@
             "sense": "хозяйство, очаг, двор; дым"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -1894,6 +2323,57 @@
             "av": "дозул микьгояв мадрасаялда цӏалулев вуго",
             "ru": "восьмеро из них учатся в медресе",
             "sense": "восемь (из общего числа), восьмеро"
+          }
+        ]
+      }
+    }
+  },
+  "микьгоялда": {
+    "wordform": "микьгоялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "микьгоялдаса": {
+    "wordform": "микьгоялдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "микьгоялдасан": {
+    "wordform": "микьгоялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьго",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1995,6 +2475,18 @@
             "sense": "восьмёрка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьил",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2014,6 +2506,17 @@
             "entry_forms": [
               "микьилаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьилаб",
+            "pos": "числительное"
           }
         ]
       }
@@ -2246,6 +2749,18 @@
             "sense": "пять, пяти"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2394,6 +2909,17 @@
             "sense": "восьмисотый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьнусабилеб",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -2505,6 +3031,28 @@
             "sense": "восемьсот, восьмисот"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьнусго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьнусго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -2565,6 +3113,34 @@
             "sense": "ввосьмеро, в восемь раз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микьцӏул",
+            "pos": "числительное"
+          }
+        ]
+      }
+    }
+  },
+  "микӏ-сал": {
+    "wordform": "микӏ-сал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микӏис",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2599,6 +3175,18 @@
             "av": "квасул микӏис",
             "ru": "клок шерсти",
             "sense": "клок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микӏис",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2720,6 +3308,18 @@
               "микӏсазул"
             ],
             "from_lemma": "микӏис"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "микӏис",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }

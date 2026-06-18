@@ -148,6 +148,40 @@
       }
     }
   },
+  "хагазавизе": {
+    "wordform": "хагазавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хагазаруледухъ": {
+    "wordform": "хагазаруледухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хагазе": {
     "wordform": "хагазе",
     "sources": {
@@ -168,6 +202,18 @@
               "хагана",
               "хагай"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -193,6 +239,18 @@
               "хагаялъул"
             ],
             "from_lemma": "хагазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -282,6 +340,57 @@
               "хагана",
               "хагай"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "хагараб": {
+    "wordform": "хагараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хагарав": {
+    "wordform": "хагарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хагарай": {
+    "wordform": "хагарай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хагазе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

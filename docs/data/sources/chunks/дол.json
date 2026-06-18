@@ -1119,6 +1119,64 @@
             "sense": "осиротеть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб",
+            "relation": "множественное число",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб",
+            "relation": "множественное число",
+            "pos": "местоимение"
+          }
+        ]
+      }
+    }
+  },
+  "долго": {
+    "wordform": "долго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "долгого": {
+    "wordform": "долгого",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дол",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1282,6 +1340,30 @@
             "sense": "трогать, вступать в половой акт"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "местный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1333,6 +1415,18 @@
             "sense": "насколько"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "долда",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1373,6 +1467,18 @@
             "av": "долде хиял буго Батӏалил",
             "ru": "Батал имеет на неё виды",
             "sense": "желание, намерение; идея"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дол",
+            "pos": "местоимение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1441,6 +1547,28 @@
             "sense": "вон, вон там"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доле",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доле",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1464,6 +1592,18 @@
               "долларалъул",
               "долларал"
             ]
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доллар",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1567,6 +1707,18 @@
               "долларалъул",
               "долларал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доллар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2158,6 +2310,36 @@
             "sense": "кто же, кого же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "эргативный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "эргативный падеж",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "долъ",
+            "relation": "эргативный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2704,6 +2886,30 @@
             "sense": "какой же"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "родительный падеж",
+            "pos": "местоимение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "доб и дой",
+            "relation": "родительный падеж",
+            "pos": "местоимение"
+          }
+        ]
       }
     }
   },
@@ -2756,6 +2962,18 @@
             "av": "долъухъ хал ккун чӏа мун",
             "ru": "ты наблюдай за ней",
             "sense": "внимание, забота; кого-либо с."
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "долъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

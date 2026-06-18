@@ -72,6 +72,23 @@
       }
     }
   },
+  "либерализмалъул": {
+    "wordform": "либерализмалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "либерал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "либералияб": {
     "wordform": "либералияб",
     "sources": {
@@ -106,6 +123,28 @@
             "av": "либералияб партия",
             "ru": "либеральная партия",
             "sense": "партия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "либералияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "либералияб",
+            "pos": "прилагательное"
           }
         ]
       }

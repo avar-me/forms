@@ -50,6 +50,35 @@
             "sense": "цемент"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цемент",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "цементалда": {
+    "wordform": "цементалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цемент",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -71,6 +100,18 @@
               "цементалъ",
               "цементалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цемент",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -116,6 +157,18 @@
             "sense": "раствор"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цемент",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -135,6 +188,23 @@
             "av": "цементалъулалъул завод",
             "ru": "цементный завод",
             "sense": "цементный"
+          }
+        ]
+      }
+    }
+  },
+  "цементги": {
+    "wordform": "цементги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цемент",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

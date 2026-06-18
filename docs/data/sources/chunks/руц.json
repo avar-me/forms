@@ -1,4 +1,39 @@
 {
+  "руцӏизе": {
+    "wordform": "руцӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буцӏизе",
+            "relation": "множественное число",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "руцӏцӏалаби": {
+    "wordform": "руцӏцӏалаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "руцӏцӏалалго",
+            "pos": "местоимение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "руцӏцӏалазго": {
     "wordform": "руцӏцӏалазго",
     "sources": {
@@ -125,6 +160,19 @@
             "av": "нуж щай руцӏцӏухӏун чӏарал?",
             "ru": "почему вы молчите?",
             "sense": "молча"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "буцӏцӏухӏун",
+            "relation": "множественное число",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

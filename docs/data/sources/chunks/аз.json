@@ -95,6 +95,17 @@
             "sense": "гестапо"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "аза-азар",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -541,6 +552,18 @@
             "from_lemma": "азине"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азине",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -599,6 +622,17 @@
             "entry_forms": [
               "азарабилеб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарабилеб",
+            "pos": "числительное"
           }
         ]
       }
@@ -832,6 +866,39 @@
             "sense": "долг, заём; кредит, ссуда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарго",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарго",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -877,6 +944,23 @@
       }
     }
   },
+  "азаргониги": {
+    "wordform": "азаргониги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарго",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "азаргояб": {
     "wordform": "азаргояб",
     "sources": {
@@ -907,6 +991,23 @@
             "av": "азаргояб тӏаса бищана гӏиял рехъабазда гъорлъа",
             "ru": "из отар выбрали тысячу овец",
             "sense": "тысяча"
+          }
+        ]
+      }
+    }
+  },
+  "азаргоязул": {
+    "wordform": "азаргоязул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азаргояб",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -964,6 +1065,18 @@
             "av": "азаргоялде гӏунтӏун",
             "ru": "до тысячи",
             "sense": "требует падеж на-де до, вплоть до…"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азаргояб",
+            "pos": "числительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1117,6 +1230,17 @@
             "av": "азарил соназ",
             "ru": "издавна, испокон веку; тысячи лет",
             "sense": "тысячный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азарил",
+            "pos": "числительное"
           }
         ]
       }
@@ -1283,6 +1407,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азаркьераб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1372,6 +1507,45 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азархана",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азархана",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "азарханабазда": {
+    "wordform": "азарханабазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азархана",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1394,6 +1568,23 @@
               "азарханаялъул",
               "азарханаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "азарханая-лъул": {
+    "wordform": "азарханая-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азархана",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1425,6 +1616,18 @@
             "av": "нижер къавутӏаса цо вехь азарханаялда вегун вуго",
             "ru": "один чабан из нашего стойбища лежит в больнице",
             "sense": "на стойбище отары"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азархана",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1826,6 +2029,42 @@
             "sense": "сделаться грязным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1848,6 +2087,18 @@
               "азбар-къоноялъ",
               "азбар-къоноялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар-къоно",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1915,6 +2166,35 @@
               "азбар-къоноялъ",
               "азбар-къоноялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар-къоно",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "азбар-къоноялъулго": {
+    "wordform": "азбар-къоноялъулго",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар-къоно",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2024,6 +2304,30 @@
             "sense": "издавать, создавать шум; шуметь, гомонить, галдеть; щебетать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2074,6 +2378,18 @@
             "av": "халкъ азбаралде гурана",
             "ru": "во дворе собралась толпа",
             "sense": "собираться в толпу, образоваться — о толпе, сборище"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2186,6 +2502,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2257,6 +2585,40 @@
             "av": "бурутӏ азбаралъуса къватӏибе бекерун ана",
             "ru": "козлёнок выбежал со двора на улицу",
             "sense": "(по)бежать, бегать"
+          }
+        ]
+      }
+    }
+  },
+  "азбаралъусан": {
+    "wordform": "азбаралъусан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "азбарги": {
+    "wordform": "азбарги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2362,6 +2724,35 @@
             "av": "нотабазул азбука",
             "ru": "нотная азбука",
             "sense": "азбука"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбука",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "азбукаялда": {
+    "wordform": "азбукаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азбука",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2560,6 +2951,18 @@
             "sense": "убивать, убить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "аздагьо",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2665,6 +3068,17 @@
             "sense": "азербайджанский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азербайжан",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -2686,6 +3100,17 @@
               "азербайжанас",
               "азербайжанасул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азербайжанав",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2744,6 +3169,18 @@
             "sense": "азербайджанский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азербайжанал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2768,6 +3205,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азербайжанай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2790,6 +3239,18 @@
               "азербайжаназ",
               "азербайжаназул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азербайжанал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2996,6 +3457,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азимут",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3098,6 +3571,18 @@
             "sense": "истощённость, худоба; измождённость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азине",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3196,6 +3681,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азинабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3292,6 +3789,18 @@
             "sense": "доводить, довести до похудания; вызывать, вызвать похудение; истощать, истощить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азине",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3371,6 +3880,18 @@
             "av": "яс азине тоге дуца",
             "ru": "не давай девочке худеть",
             "sense": "(по)худеть, исхудать; осунуться; (о)тощать, истощаться, истощиться; быть худым, тощим"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азине",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -3537,6 +4058,42 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азияй",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азияй",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азияй",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3556,6 +4113,17 @@
             "entry_forms": [
               "азиялъулаб"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азиялъулаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -3789,6 +4357,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3853,6 +4433,18 @@
             "av": "азоталъул кислота",
             "ru": "азотная кислота",
             "sense": "азотный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "азот",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }

@@ -31,6 +31,18 @@
             "sense": "шайба"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайба",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -53,6 +65,23 @@
               "шайбаялъул",
               "шайбаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "шайбагун": {
+    "wordform": "шайбагун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайба",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -160,6 +189,18 @@
             "sense": "келья"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайих",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -184,6 +225,18 @@
               "шайихица",
               "шайихил"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайих",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -240,6 +293,18 @@
             "av": "шайихасул хоб",
             "ru": "могила святого, мазар",
             "sense": "шейх, святой"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайих",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -365,6 +430,23 @@
       }
     }
   },
+  "шайихлъун": {
+    "wordform": "шайихлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайих",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "шайка": {
     "wordform": "шайка",
     "sources": {
@@ -385,6 +467,18 @@
               "шайкаялъул",
               "шайкаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайка",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -469,6 +563,35 @@
             "sense": "шайка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайка",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "шайтӏабаз": {
+    "wordform": "шайтӏабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -488,6 +611,30 @@
             "av": "шайтӏабазул руккел",
             "ru": "свора шайтанов",
             "sense": "шайтан, бес, чёрт, сатана, дьявол"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -544,6 +691,18 @@
             "ru": "потомство, родившееся от чертей"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -573,6 +732,18 @@
             "av": "шайтӏадул тӏагъур",
             "ru": "гриб",
             "sense": "шайтан, бес, чёрт, сатана, дьявол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -679,6 +850,30 @@
             "sense": "111 грамматический класс что?; кто?"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -731,6 +926,18 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏанаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -756,6 +963,23 @@
       }
     }
   },
+  "шайтӏаналда": {
+    "wordform": "шайтӏаналда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏанаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "шайтӏаналъ": {
     "wordform": "шайтӏаналъ",
     "sources": {
@@ -775,6 +999,18 @@
               "шайтӏаналъул",
               "шайтӏаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -823,6 +1059,23 @@
       }
     }
   },
+  "шайтӏаналъухъ": {
+    "wordform": "шайтӏаналъухъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "шайтӏаналъухъего": {
     "wordform": "шайтӏаналъухъего",
     "sources": {
@@ -839,6 +1092,23 @@
             "entry_forms": [
               "шайтӏаналъухъего"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "шайтӏанги": {
+    "wordform": "шайтӏанги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1147,6 +1417,18 @@
               "шайтӏанчирахъалъул",
               "шайтӏанчирахъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "шайтӏанчирахъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

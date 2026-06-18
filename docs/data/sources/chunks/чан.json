@@ -216,6 +216,73 @@
             "sense": "сколько"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "чана": {
+    "wordform": "чана",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанабилеб": {
+    "wordform": "чанабилеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -290,6 +357,23 @@
       }
     }
   },
+  "чанавейиланги": {
+    "wordform": "чанавейиланги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чанагъ": {
     "wordform": "чанагъ",
     "sources": {
@@ -341,6 +425,69 @@
             "sense": "челюсть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чанагъаз": {
+    "wordform": "чанагъаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанагъазда": {
+    "wordform": "чанагъазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанагъаздаги": {
+    "wordform": "чанагъаздаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -360,6 +507,23 @@
             "av": "лъимал чанагъазтӏа хъещтӏолел руго",
             "ru": "дети катаются на санях",
             "sense": "(по)кататься на чём-либо"
+          }
+        ]
+      }
+    }
+  },
+  "чанагъазул": {
+    "wordform": "чанагъазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -387,6 +551,35 @@
               "чанагъал",
               "чангъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанагъалда": {
+    "wordform": "чанагъалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -612,6 +805,52 @@
               "чаналъул",
               "чанал"
             ]
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чаналде": {
+    "wordform": "чаналде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чаналиго": {
+    "wordform": "чаналиго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -846,6 +1085,52 @@
       }
     }
   },
+  "чанахъабазе": {
+    "wordform": "чанахъабазе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанахъабазул": {
+    "wordform": "чанахъабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чанахъаби": {
     "wordform": "чанахъаби",
     "sources": {
@@ -1008,6 +1293,64 @@
             "sense": "сминать, (с)мять; давить, придавливать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "чанахъан-лъиялъул": {
+    "wordform": "чанахъан-лъиялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанахъанал": {
+    "wordform": "чанахъанал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1042,6 +1385,18 @@
             "av": "чанахъанас царал картӏида цебе гудур гъуна",
             "ru": "охотник поставил капкан у лисьей норы",
             "sense": "перед кем-чем-либо, у чего-либо"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1093,6 +1448,18 @@
             "av": "чанахъанасда рохьоб кӏудияб ци дандчӏвана",
             "ru": "охотник встретил в лесу огромного медведя",
             "sense": "медведь"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1181,6 +1548,35 @@
             "sense": "щит"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанахъанасун": {
+    "wordform": "чанахъанасун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1213,6 +1609,18 @@
             "av": "чанахъанлъи гьабизе",
             "ru": "заниматься охотничьим промыслом",
             "sense": "охота, охотничий промысел"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъанлъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1259,6 +1667,18 @@
               "чанахъанлъиялъ",
               "чанахъанлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанахъанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1381,6 +1801,28 @@
             "sense": "умереть, погибнуть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанги",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1454,6 +1896,18 @@
             "av": "чода чангит базе",
             "ru": "надеть на лошадь недоуздок",
             "sense": "недоуздок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чангит",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1754,6 +2208,28 @@
             "sense": "несколько"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанго",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанго",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1934,6 +2410,23 @@
       }
     }
   },
+  "чангӏанги": {
+    "wordform": "чангӏанги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чанидагицин": {
     "wordform": "чанидагицин",
     "sources": {
@@ -1997,6 +2490,23 @@
               "чанидагӏнил",
               "чанидугӏби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чаниде": {
+    "wordform": "чаниде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанидегӏен",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2176,6 +2686,30 @@
             "av": "чанил гьве",
             "ru": "охотничья собака",
             "sense": "охотничий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -2394,6 +2928,17 @@
             "sense": "непослушный; своенравный, неподатливый; наглый; упрямый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏараб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2436,6 +2981,18 @@
             "sense": "непослушный; своенравный, неподатливый; наглый; упрямый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏараб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2456,6 +3013,23 @@
             "entry_forms": [
               "чанкӏкӏараб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чанкӏкӏарал": {
+    "wordform": "чанкӏкӏарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2486,6 +3060,23 @@
       }
     }
   },
+  "чанкӏкӏел": {
+    "wordform": "чанкӏкӏел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чанкӏкӏи": {
     "wordform": "чанкӏкӏи",
     "sources": {
@@ -2506,6 +3097,18 @@
               "чанкӏкӏиялъул"
             ],
             "from_lemma": "чанкӏкӏизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2684,6 +3287,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2801,6 +3416,18 @@
             "sense": "не слушаться; быть своенравным, неподатливым, непослушным, наглым, упрямым; (об)наглеть, (за)упрямиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанкӏкӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2849,6 +3476,17 @@
             "sense": "грубый; жёсткий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанлъаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2891,6 +3529,57 @@
             "entry_forms": [
               "чанлъаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чанлълъи": {
+    "wordform": "чанлълъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанлълъизабизе": {
+    "wordform": "чанлълъизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чанлълъизе": {
+    "wordform": "чанлълъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3076,6 +3765,18 @@
             "sense": "струп"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанхъ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -3110,6 +3811,18 @@
             "av": "мугъзада чанхъал тӏамун руго",
             "ru": "спина покрыта струпьями",
             "sense": "вскочить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанхъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3353,6 +4066,23 @@
       }
     }
   },
+  "чанцӏулги": {
+    "wordform": "чанцӏулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанцӏул",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чанцӏулго": {
     "wordform": "чанцӏулго",
     "sources": {
@@ -3378,6 +4108,34 @@
             "av": "чанцӏулго цӏалана дица гьаб тӏехь",
             "ru": "несколько раз прочитал я эту книгу",
             "sense": "многократно, неодноукратно, несколько раз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанцӏулго",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "чанцⅰулго": {
+    "wordform": "чанцⅰулго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чан",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3524,6 +4282,18 @@
             "from_lemma": "чанчахине"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанчахине",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3547,6 +4317,18 @@
               "чанчахиналъул"
             ],
             "from_lemma": "чанчахине"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанчахине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3791,6 +4573,18 @@
               "чанчахина",
               "чанчахана"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чанчахине",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

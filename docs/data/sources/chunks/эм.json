@@ -31,6 +31,18 @@
             "sense": "эмблема"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмблема",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -747,6 +759,42 @@
             "sense": "отец, папа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмен",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмен",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмен",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -806,6 +854,30 @@
             "av": "эбелги, эменги, руцӏцӏалалго лъималги рокъор ругоан",
             "ru": "и мать, и отец, и все дети были дома",
             "sense": "все"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмен",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмен",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -875,6 +947,18 @@
             "av": "эменлъи лъазабизе",
             "ru": "объявить отцовство",
             "sense": "отцовство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эменлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -994,6 +1078,23 @@
               "эменлъила",
               "эменлъана"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эменлъун": {
+    "wordform": "эменлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эменлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1144,6 +1245,23 @@
       }
     }
   },
+  "эмигрантазул": {
+    "wordform": "эмигрантазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмигрант",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "эмигрантал": {
     "wordform": "эмигрантал",
     "sources": {
@@ -1163,6 +1281,18 @@
               "эмигрантасул",
               "эмигрантал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эмигрант",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

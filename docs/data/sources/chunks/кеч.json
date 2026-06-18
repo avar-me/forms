@@ -173,6 +173,23 @@
       }
     }
   },
+  "кечезавурав": {
+    "wordform": "кечезавурав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кечезе": {
     "wordform": "кечезе",
     "sources": {
@@ -994,6 +1011,42 @@
             "sense": "эти тоже, и эти; они тоже, и они"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1016,6 +1069,18 @@
               "кечӏ-бакъаналъ",
               "кечӏ-бакъаналъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ-бакъан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1060,6 +1125,18 @@
             "av": "кечӏ-бакъаналъе бажари",
             "ru": "музикальные способности",
             "sense": "умение, способность что-либо делать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ-бакъан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1137,6 +1214,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1156,6 +1245,18 @@
             "av": "гъагъалъ кечӏги лъикӏ ахӏула",
             "ru": "она и поёт хорошо",
             "sense": "она"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кечӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

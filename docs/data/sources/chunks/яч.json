@@ -91,6 +91,35 @@
             "sense": "жена, супруга"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ячине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ячарав": {
+    "wordform": "ячарав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ячарай",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -143,6 +172,18 @@
             "av": "Итни сордоялъ ритӏун эй абизе чи ана, Цинги рузман сордоялъ эй ячарай лъугьана",
             "ru": "В ночь на понедельник сватов к ней послали, А в ночь на пятницу она супругою стала",
             "sense": "жена, супруга"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ячарай",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -634,6 +675,18 @@
             "sense": "взять в жёны кого-л; пожениться на ком-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ячине",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -997,6 +1050,19 @@
             "sense": "четвероюродный брат или сестра; тот, кому по дележу наследства достаётся ботва"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бачӏине",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1251,6 +1317,18 @@
             "sense": "семинар"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ячӏу",
+            "pos": "междометие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1329,6 +1407,24 @@
       }
     }
   },
+  "ячӏунеб": {
+    "wordform": "ячӏунеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бачӏунеб",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ячӏуней": {
     "wordform": "ячӏуней",
     "sources": {
@@ -1379,6 +1475,19 @@
             "av": "лъоеле лъобеле яц ячӏуней йиго",
             "ru": "вот она сестра идёт",
             "sense": "вот он, вот она, вот оно, вот они"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бачӏунеб",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

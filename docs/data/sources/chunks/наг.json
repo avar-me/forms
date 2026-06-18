@@ -53,6 +53,39 @@
             "sense": "экспресс"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -81,6 +114,17 @@
             "av": "нагагь-надир гурони вачӏунарев гьобол",
             "ru": "редкий гость",
             "sense": "изредка, редко"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь-надир",
+            "pos": "наречие"
           }
         ]
       }
@@ -155,6 +199,23 @@
             "entry_forms": [
               "нагагь-надираб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "нагагь-надирал": {
+    "wordform": "нагагь-надирал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь-надираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -284,6 +345,17 @@
             "sense": "неожиданный, внезапный; нежданный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагьаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -331,6 +403,40 @@
       }
     }
   },
+  "нагагьал": {
+    "wordform": "нагагьал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагьаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нагагьги": {
+    "wordform": "нагагьги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагь",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "нагагьлъи": {
     "wordform": "нагагьлъи",
     "sources": {
@@ -350,6 +456,18 @@
               "нагагьлъиялъ",
               "нагагьлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагьлъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -428,6 +546,28 @@
             "sense": "неожиданно, внезапно; если вдруг; сверх ожидания"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагьлъун",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагагьлъун",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -461,6 +601,18 @@
             "av": "наган таманча",
             "ru": "наган",
             "sense": "наган"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "наган",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -659,6 +811,18 @@
             "sense": "упрямое отрицание; запирательство"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏадала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -706,6 +870,18 @@
               "нагӏадалачиясул",
               "нагӏадалачагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏадалачи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -958,6 +1134,30 @@
             "sense": "изменник, предатель; иуда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏана",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏана",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -980,6 +1180,17 @@
               "нагӏанабатадил",
               "нагӏанабатадал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏанабатад",
+            "pos": "выражение"
           }
         ]
       }
@@ -1079,6 +1290,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏана",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1112,6 +1335,18 @@
             "av": "нагӏанадул гьирал райги дуе!",
             "ru": "да нагрузят тебя тяжёлой ношей проклятий!",
             "sense": "проклятие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏана",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1307,6 +1542,18 @@
             "sense": "бирюза"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏли",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1405,6 +1652,18 @@
               "нагӏлидул",
               "нагӏлиял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нагӏли",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

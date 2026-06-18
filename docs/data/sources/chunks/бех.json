@@ -42,6 +42,17 @@
             ]
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -166,6 +177,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бехъерхъараб": {
+    "wordform": "бехъерхъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -212,6 +252,18 @@
               "бехъерхъи"
             ],
             "from_lemma": "бехъерхъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -262,6 +314,18 @@
             "from_lemma": "бехъерхъизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -296,6 +360,18 @@
             "entry": "бехъерхъизабизе",
             "av": "хадуб бехъерхъизабизе",
             "ru": "чинить волокиту"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -346,6 +422,40 @@
               "бехъерхъизабуна",
               "бехъерхъизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бехъерхъизабулев": {
+    "wordform": "бехъерхъизабулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бехъерхъизабун": {
+    "wordform": "бехъерхъизабун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -448,6 +558,18 @@
             "ru": "лишиться отары овец (от сильных морозов и тому подобное); тащить за собой палку"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -496,6 +618,40 @@
               "бехъерхъана",
               "бехъерхъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бехъерхъулеб": {
+    "wordform": "бехъерхъулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "бехъерхъун": {
+    "wordform": "бехъерхъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бехъерхъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

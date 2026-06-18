@@ -31,6 +31,18 @@
             "sense": "магазин; магазин"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магазин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -74,6 +86,18 @@
             "av": "магазиналда къайи гӏемер буго",
             "ru": "в магазине много товаров",
             "sense": "магазин; магазин"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магазин",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -209,6 +233,18 @@
             "av": "магарич гьабизе",
             "ru": "поставить (сделать) магарыч, вознаградить",
             "sense": "магарыч, вознаграждение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магарич",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -481,6 +517,30 @@
             "sense": "волос; волосы"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мегеж",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мегеж",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -502,6 +562,34 @@
               "магжилас",
               "магжиласул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магжилав",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "магжилал": {
+    "wordform": "магжилал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магжилав",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -594,6 +682,18 @@
             "sense": "(со)старить кого-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мегеж",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -627,6 +727,18 @@
             "av": "репортёрасул магнитофон",
             "ru": "магнитофон репортёра",
             "sense": "репортёр"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магнитофон",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -722,6 +834,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магнитофон",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -796,6 +920,18 @@
             "av": "носол магъ",
             "ru": "рукоятка ножа",
             "sense": "рукоятка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -934,6 +1070,17 @@
             "sense": "пахва, подхвостник"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -966,6 +1113,18 @@
             "av": "магъакь-кӏачар бакӏарулев чи",
             "ru": "сборщик утильсырья",
             "sense": "тряпьё, утильсырьё"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь-кӏачар",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1012,6 +1171,18 @@
               "магъакь-кӏачаралъ",
               "магъакь-кӏачаралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь-кӏачар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1114,6 +1285,23 @@
       }
     }
   },
+  "магъалаби": {
+    "wordform": "магъалаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "магъало": {
     "wordform": "магъало",
     "sources": {
@@ -1187,6 +1375,17 @@
             "av": "магъало лъезе",
             "ru": "обложить данью",
             "sense": "дань, подать, ясак"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъало",
+            "pos": "выражение"
           }
         ]
       }
@@ -1664,6 +1863,18 @@
             "sense": "пашни и сады, обрабатываемая земля; нива"
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мегъ",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1722,6 +1933,17 @@
             "av": "магъилъ чӏоролаби чӏирчӏидулел руго",
             "ru": "в поле чирикают перепёлки",
             "sense": "перепёлка"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъилъ",
+            "pos": "наречие"
           }
         ]
       }
@@ -1857,6 +2079,23 @@
               "магъица",
               "магъил"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "магъишаталъе": {
+    "wordform": "магъишаталъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2059,6 +2298,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магълъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2205,6 +2456,57 @@
             "av": "магърибалъул рахъ",
             "ru": "западная сторона",
             "sense": "западный"
+          }
+        ]
+      }
+    }
+  },
+  "магъул": {
+    "wordform": "магъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магъулазул": {
+    "wordform": "магъулазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магъулал": {
+    "wordform": "магъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магъакь",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2389,6 +2691,18 @@
             "sense": "сено"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2520,6 +2834,35 @@
             "sense": "акт бракосочетания; венчание"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магьари",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "магьариги": {
+    "wordform": "магьариги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магьари",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2573,6 +2916,35 @@
               "магьариялъул",
               "магьаридул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магьари",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магьариялда": {
+    "wordform": "магьариялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магьари",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2820,6 +3192,18 @@
             "from_lemma": "мегьед"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мегьед",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2918,6 +3302,18 @@
               "магьиялъул",
               "магьидул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магьи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -3350,6 +3746,47 @@
             "sense": "вбивать, вбить, забивать, забить что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "магӏ-на": {
+    "wordform": "магӏ-на",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3379,6 +3816,57 @@
       }
     }
   },
+  "магӏаз": {
+    "wordform": "магӏаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏазде": {
+    "wordform": "магӏазде",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏазукъалал": {
+    "wordform": "магӏазукъалал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "магӏазул": {
     "wordform": "магӏазул",
     "sources": {
@@ -3395,6 +3883,30 @@
             "av": "цо чӏвайи магӏазул",
             "ru": "полный комплект гвоздей",
             "sense": "комплект"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3535,6 +4047,98 @@
             "av": "гьаркьил магӏал гӏадин кьерда чӏун руго дол",
             "ru": "они стоять в ряду навытяжку, как гвозди гребня",
             "sense": "чесалка, гребень"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏалги": {
+    "wordform": "магӏалги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏалда": {
+    "wordform": "магӏалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏалъ": {
+    "wordform": "магӏалъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏалъул": {
+    "wordform": "магӏалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏ",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3847,6 +4451,17 @@
             "sense": "Ⅰ. этот тоже, и этот; он тоже, и он"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарда",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -3922,6 +4537,18 @@
             "sense": "спускаться, спуститься; опускаться, опуститься; сходить, сойти (вниз); слезать, слезть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3965,6 +4592,18 @@
               "магӏардаса",
               "магӏардасан"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарда",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -4300,6 +4939,35 @@
             "sense": "экскурсия"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏардехун": {
+    "wordform": "магӏардехун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -4344,6 +5012,18 @@
               "магӏарзукъалаз",
               "магӏарзукъалазул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарзукъалал",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4397,6 +5077,23 @@
             "av": "магӏарзукъалахъан бачӏаги!",
             "ru": "да вытечет через нос!",
             "sense": "нос; ноздри"
+          }
+        ]
+      }
+    }
+  },
+  "магӏарзул": {
+    "wordform": "магӏарзул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -4502,6 +5199,17 @@
             "av": "магӏарзухъан гаргадизе",
             "ru": "говорить через нос, гнусавить, гундосить",
             "sense": "через нос"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарзухъан",
+            "pos": "наречие"
           }
         ]
       }
@@ -4736,6 +5444,18 @@
             "sense": "в некоторые"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарул",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4766,6 +5486,17 @@
             "av": "“Магӏарулав” газеталда рахъун рукӏана ЦӀадаса ХӀамзатил кучӏдул",
             "ru": "в газете “Горец” опубликовались стихотворения Гамзата Цадасы",
             "sense": "горец"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарулав",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -4943,6 +5674,18 @@
             "sense": "писатель и писательница"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарулал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -4965,6 +5708,18 @@
               "магӏарулалъ",
               "магӏарулалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарулай",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -4999,6 +5754,18 @@
             "av": "эркенлъиялъе гӏоло гӏумру кьезе кидаго хӏадурал руго магӏарулал",
             "ru": "горцы всегда готовы отдать жизнь за свободу",
             "sense": "свобода; вольность; приволье; раскрепощение, освобождение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарулал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -5318,6 +6085,17 @@
             "sense": "зимой, зимою"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏарухъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -5635,6 +6413,34 @@
             "sense": "серный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданаздасан": {
+    "wordform": "магӏданаздасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5654,6 +6460,18 @@
             "av": "ракьул магӏданазул разведчикал",
             "ru": "разведчики недр земли",
             "sense": "разведчик"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -5718,6 +6536,69 @@
             "av": "ураналъул магӏданал",
             "ru": "урановые рудники",
             "sense": "урановый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданалги": {
+    "wordform": "магӏданалги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданалда": {
+    "wordform": "магӏданалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданалдасан": {
+    "wordform": "магӏданалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -5798,6 +6679,35 @@
             "sense": "минеральный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданалъулал": {
+    "wordform": "магӏданалъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5838,6 +6748,23 @@
             "av": "магӏданиял беэнлъаби",
             "ru": "мбнеральные удобрения",
             "sense": "удобрение"
+          }
+        ]
+      }
+    }
+  },
+  "магӏданлъиназдалъун": {
+    "wordform": "магӏданлъиназдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏдан",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -5921,6 +6848,30 @@
             "sense": "бок"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -5940,6 +6891,18 @@
             "av": "магӏидаса бахъун лъезе бегьулеб тӏагъур",
             "ru": "шапка, которую можно снять с гвоздя и тут же надеть на голову",
             "sense": "гвоздь; кол"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6342,6 +7305,30 @@
             "av": "берал щап-щапун магӏил цӏуна",
             "ru": "глаза наполнились слезами",
             "sense": "до краёв"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6985,6 +7972,30 @@
             "sense": "слеза, слёзы"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7340,6 +8351,30 @@
             "sense": "приходить, прийти в упадок, в запустение, в состояние разрухи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -7362,6 +8397,35 @@
               "магӏишаталъул",
               "магӏишатал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏишаталда": {
+    "wordform": "магӏишаталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7407,6 +8471,18 @@
             "av": "магӏишаталъе битӏун нухмалъи гьабизе",
             "ru": "умело, правильно руководить хозяйством",
             "sense": "правильно, верно, безошибочно"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7593,6 +8669,18 @@
             "sense": "экономика"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -7612,6 +8700,23 @@
             "av": "росдал магӏишаталъулаб производство",
             "ru": "сельскохозяйственное производство",
             "sense": "производство"
+          }
+        ]
+      }
+    }
+  },
+  "магӏишаталъулги": {
+    "wordform": "магӏишаталъулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -7669,6 +8774,23 @@
       }
     }
   },
+  "магӏишатги": {
+    "wordform": "магӏишатги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "магӏишатияб": {
     "wordform": "магӏишатияб",
     "sources": {
@@ -7695,6 +8817,23 @@
             "av": "магӏишатияб сон",
             "ru": "хозяйственный год",
             "sense": "год (время работ, занятий и тому подобное)"
+          }
+        ]
+      }
+    }
+  },
+  "магӏишатчилъи": {
+    "wordform": "магӏишатчилъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏишат",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8141,6 +9280,42 @@
             "sense": "Ⅲ. тот, та, то"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8195,6 +9370,18 @@
             "sense": "толк"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна-гӏин",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -8244,6 +9431,40 @@
       }
     }
   },
+  "магӏна-мурадго": {
+    "wordform": "магӏна-мурадго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏна-хӏасилалъул": {
+    "wordform": "магӏна-хӏасилалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "магӏнаби": {
     "wordform": "магӏнаби",
     "sources": {
@@ -8264,6 +9485,30 @@
               "магӏнадул",
               "магӏнаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8294,6 +9539,17 @@
             "av": "магӏнавияб рахъ",
             "ru": "моральная сторона",
             "sense": "духовный, моральный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏнавияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -8338,6 +9594,52 @@
             "entry_forms": [
               "магӏнавияб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "магӏнаги": {
+    "wordform": "магӏнаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏнаго": {
+    "wordform": "магӏнаго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8395,6 +9697,17 @@
             "sense": "смысловой"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏнаяб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -8437,6 +9750,40 @@
             "entry_forms": [
               "магӏнаяб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "магӏнаялда": {
+    "wordform": "магӏнаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏнаялдасан": {
+    "wordform": "магӏнаялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏнаяб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -8510,6 +9857,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏна",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -8581,6 +9940,17 @@
             "av": "магӏникъаб рагӏи",
             "ru": "пустое слово",
             "sense": "пустой, беессодержательный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏникъаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -9066,6 +10436,76 @@
             "sense": "горло; гортань; . взять за горло; с ножом к горлу пристать; грубо принудить к чему-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "магӏуги": {
+    "wordform": "магӏуги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "магӏуялда": {
+    "wordform": "магӏуялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9092,6 +10532,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -9116,6 +10580,18 @@
               "магӏуялъул",
               "магӏаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "магӏу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

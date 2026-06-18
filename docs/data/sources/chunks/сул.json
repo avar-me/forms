@@ -42,6 +42,23 @@
       }
     }
   },
+  "сулалда": {
+    "wordform": "сулалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сузе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сулахъ": {
     "wordform": "сулахъ",
     "sources": {
@@ -62,6 +79,18 @@
               "сулахъалъул",
               "сулахъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сулахъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -497,6 +526,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "султан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -591,6 +632,17 @@
             "sense": "выпивать, закладывать (спиртное)"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "султӏан",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -637,6 +689,18 @@
               "султӏанасул",
               "султӏанал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "султӏан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

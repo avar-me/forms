@@ -111,6 +111,18 @@
             "sense": "олимпиада"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "олимпиада",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -262,6 +274,17 @@
             "sense": "олимпийские"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "олимпиялъул",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -305,6 +328,23 @@
               "олифаялъ",
               "олифаялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "олифаялда": {
+    "wordform": "олифаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "олифа",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

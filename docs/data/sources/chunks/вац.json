@@ -434,6 +434,39 @@
             "sense": "раздумываться, быть занятым мыслями; погружаться в раздумье"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -592,6 +625,86 @@
             "av": "вацазда гьоркьоб шайтӏан букӏана",
             "ru": "братья не ладили друг с другом",
             "sense": "вражда, недружелюбие, неприязнь, злоба"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацазе": {
+    "wordform": "вацазе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацазул": {
+    "wordform": "вацазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацазулги": {
+    "wordform": "вацазулги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацазулниги": {
+    "wordform": "вацазулниги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -806,6 +919,30 @@
             "sense": "соглашаться, согласиться с кем-чем-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -825,6 +962,53 @@
             "av": "бищунго цебесеб гӏагарлъи, ай эбел-эмен, вацал-яцал",
             "ru": "самая близкая родня, то есть родители, братья и сёстры",
             "sense": "то есть, то есть"
+          }
+        ]
+      }
+    }
+  },
+  "вацаллъун": {
+    "wordform": "вацаллъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацана": {
+    "wordform": "вацана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бацизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -919,6 +1103,18 @@
             "av": "чӏобого кьуна вацас дие чу",
             "ru": "брат подарил мне коня; брат даром дал мне коня",
             "sense": "бесплатно, безвозмездно, даром; так"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1031,6 +1227,30 @@
             "av": "вацасда пархен буго досул",
             "ru": "у него есть сходство с братом",
             "sense": "сходство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1351,6 +1571,18 @@
             "sense": "жена, супруга"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1488,6 +1720,35 @@
             "sense": "образ жизни, житьё-бытьё"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацасухъего": {
+    "wordform": "вацасухъего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1507,6 +1768,18 @@
             "av": "мацӏица кӏиго вацги цоцадаса ватӏа гьавула",
             "ru": "сплетня два родных брата разлучит",
             "sense": "клевета; донос; кляуза; наговор, навет; ябеда; сплетня"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -1623,6 +1896,30 @@
             "av": "досул къайимлъун лъугьана вацгӏал",
             "ru": "его опекуном стал двоюродный брат",
             "sense": "опекун (над кем-л); попечитель"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацгӏал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацгӏал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1903,6 +2200,24 @@
       }
     }
   },
+  "вацизе": {
+    "wordform": "вацизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бацизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацин": {
     "wordform": "вацин",
     "sources": {
@@ -2017,6 +2332,18 @@
             "sense": "близкая дружба, братское отношение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -2071,6 +2398,23 @@
       }
     }
   },
+  "вацлъиялдаса": {
+    "wordform": "вацлъиялдаса",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацлъиялъ": {
     "wordform": "вацлъиялъ",
     "sources": {
@@ -2089,6 +2433,23 @@
               "вацлъиялъ",
               "вацлъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "вацлъиялъе": {
+    "wordform": "вацлъиялъе",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2122,6 +2483,30 @@
             "av": "вацлъиялъул хабал",
             "ru": "братская могила",
             "sense": "кладбище, погост"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вацлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2256,6 +2641,40 @@
       }
     }
   },
+  "вацоги": {
+    "wordform": "вацоги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацӏизе": {
+    "wordform": "вацӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацӏине": {
     "wordform": "вацӏине",
     "sources": {
@@ -2316,6 +2735,52 @@
             "av": "дов квешго вацӏун вуго",
             "ru": "его сильно отлупили",
             "sense": "(по)бить, избивать, избить; (вы)сечь; (вы)драть; (вы)пороть; (от)лупить кого-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацӏцӏа-вакине": {
+    "wordform": "вацӏцӏа-вакине",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацӏцӏа-вакъадго": {
+    "wordform": "вацӏцӏа-вакъадго",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -2397,6 +2862,23 @@
       }
     }
   },
+  "вацӏцӏадавлъун": {
+    "wordform": "вацӏцӏадавлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацӏцӏадго": {
     "wordform": "вацӏцӏадго",
     "sources": {
@@ -2452,6 +2934,41 @@
       }
     }
   },
+  "вацӏцӏалъи": {
+    "wordform": "вацӏцӏалъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бацӏцӏалъи",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацӏцӏалъизавизе": {
+    "wordform": "вацӏцӏалъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацӏцӏалъизавуна": {
     "wordform": "вацӏцӏалъизавуна",
     "sources": {
@@ -2490,6 +3007,19 @@
             "av": "мунагьаздаса вацӏцӏалъизе",
             "ru": "очиститься от грехов",
             "sense": "грех"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бацӏцӏалъизе",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -2561,6 +3091,23 @@
       }
     }
   },
+  "вацӏцӏарине": {
+    "wordform": "вацӏцӏарине",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "вацӏцӏарулев": {
     "wordform": "вацӏцӏарулев",
     "sources": {
@@ -2599,6 +3146,70 @@
             "av": "имгӏал дун вацӏцӏине лъугьана",
             "ru": "дядя стал меня оправдывать",
             "sense": "оправдывать"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бацӏцӏине",
+            "relation": "мужской род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацⅰизе": {
+    "wordform": "вацⅰизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацⅰцⅰа-вакине": {
+    "wordform": "вацⅰцⅰа-вакине",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "вацⅰцⅰалъизе": {
+    "wordform": "вацⅰцⅰалъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "вац",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

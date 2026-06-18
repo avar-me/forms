@@ -1,0 +1,948 @@
+{
+  "неча": {
+    "wordform": "неча",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезе",
+              "нечола",
+              "нечела",
+              "нечана",
+              "неча"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечадго": {
+    "wordform": "нечадго",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "нечадго",
+            "pos": "наречие",
+            "entry": "нечадго",
+            "entry_pos": "наречие",
+            "entry_forms": [
+              "нечадго"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечадго",
+            "pos": "наречие",
+            "entry": "нечадго",
+            "av": "нечадго квер кьезе",
+            "ru": "робко подать руку",
+            "sense": "стыдливо, пристижённо, сконфуженно, застенчиво, стеснительно; несмело, робко"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечадго",
+            "pos": "наречие",
+            "entry": "нечадго",
+            "av": "нечадго кӏалъазе",
+            "ru": "застенчиво разговаривать",
+            "sense": "стыдливо, пристижённо, сконфуженно, застенчиво, стеснительно; несмело, робко"
+          }
+        ]
+      }
+    }
+  },
+  "нечана": {
+    "wordform": "нечана",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезе",
+              "нечола",
+              "нечела",
+              "нечана",
+              "неча"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "гьумер",
+            "av": "гьумер нечана",
+            "ru": "было стыдно",
+            "sense": "лицо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечараб": {
+    "wordform": "нечараб",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "нечезе",
+            "relation": "причастие",
+            "pos": "глагол",
+            "entry": "нечараб",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечараб"
+            ],
+            "from_lemma": "нечезе"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "relation": "причастие",
+            "pos": "глагол",
+            "entry": "бицине",
+            "av": "бицине нечараб гьабуге, гьикъизе намусаб ургъуге",
+            "ru": "не делай того, о чём стыдно говорить, да не думай о том, о чём неудобно спросить",
+            "sense": "говорить, сказать"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "relation": "причастие",
+            "pos": "глагол",
+            "entry": "нечараб",
+            "av": "нечараб лъимер",
+            "ru": "робкий ребёнок",
+            "sense": "стыдливый, стеснительный, застенчивый; робкий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "нечарав": {
+    "wordform": "нечарав",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечараб",
+            "av": "нечарав чи",
+            "ru": "застенчивый человек",
+            "sense": "стыдливый, стеснительный, застенчивый; робкий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечарай": {
+    "wordform": "нечарай",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечараб",
+            "av": "нечарай яс",
+            "ru": "стеснительная девушка",
+            "sense": "стыдливый, стеснительный, застенчивый; робкий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечего": {
+    "wordform": "нечего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечезабе": {
+    "wordform": "нечезабе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезабизе",
+            "pos": "глагол",
+            "entry": "нечезабизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезабизе",
+              "нечезабула",
+              "нечезабила",
+              "нечезабуна",
+              "нечезабе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечезаби": {
+    "wordform": "нечезаби",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "нечезабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол",
+            "entry": "нечезаби",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезаби"
+            ],
+            "from_lemma": "нечезабизе"
+          }
+        ]
+      }
+    }
+  },
+  "нечезабизе": {
+    "wordform": "нечезабизе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "нечезабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол",
+            "entry": "нечезабизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезабизе",
+              "нечезабула",
+              "нечезабила",
+              "нечезабуна",
+              "нечезабе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечезабила": {
+    "wordform": "нечезабила",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезабизе",
+            "pos": "глагол",
+            "entry": "нечезабизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезабизе",
+              "нечезабула",
+              "нечезабила",
+              "нечезабуна",
+              "нечезабе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечезабула": {
+    "wordform": "нечезабула",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезабизе",
+            "pos": "глагол",
+            "entry": "нечезабизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезабизе",
+              "нечезабула",
+              "нечезабила",
+              "нечезабуна",
+              "нечезабе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечезабуна": {
+    "wordform": "нечезабуна",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезабизе",
+            "pos": "глагол",
+            "entry": "нечезабизе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезабизе",
+              "нечезабула",
+              "нечезабила",
+              "нечезабуна",
+              "нечезабе"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечезавизе": {
+    "wordform": "нечезавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечезавуге": {
+    "wordform": "нечезавуге",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечезабизе",
+            "av": "гӏадамазда цеве нечезавуге дун",
+            "ru": "не стыди меня перед людьми",
+            "sense": "(при)стыдить, устыдить кого-либо; смущать, смутить; вводить, вести кого-либо в смущение; заставлять, заставить краснеть"
+          }
+        ]
+      }
+    }
+  },
+  "нечезавуна": {
+    "wordform": "нечезавуна",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечезарун": {
+    "wordform": "нечезарун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечезе": {
+    "wordform": "нечезе",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "нечезе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезе",
+              "нечола",
+              "нечела",
+              "нечана",
+              "неча"
+            ]
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "relation": "инфинитив",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "av": "мун сабаблъун дун нечезе кколев вуго",
+            "ru": "мне стыдно за тебя",
+            "sense": "(у)стыдиться, стесняться; смущаться, смутиться; робеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "нечей": {
+    "wordform": "нечей",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "нечезе",
+            "relation": "масдар",
+            "pos": "глагол",
+            "entry": "нечей",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечей",
+              "нечеялъ",
+              "нечеялъул"
+            ],
+            "from_lemma": "нечезе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "нечела": {
+    "wordform": "нечела",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезе",
+              "нечола",
+              "нечела",
+              "нечана",
+              "неча"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечечӏого": {
+    "wordform": "нечечӏого",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечезе",
+            "av": "нечечӏого досухъе а, дир яц",
+            "ru": "иди, сестра моя, к нему без стеснения",
+            "sense": "(у)стыдиться, стесняться; смущаться, смутиться; робеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечеялъ": {
+    "wordform": "нечеялъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечей",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечей",
+              "нечеялъ",
+              "нечеялъул"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечей",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечеялъул": {
+    "wordform": "нечеялъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечей",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечей",
+              "нечеялъ",
+              "нечеялъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "нечоге": {
+    "wordform": "нечоге",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "расги",
+            "av": "расги нечоге!",
+            "ru": "ничуть не стесняйся!",
+            "sense": "ничуть, нисколько"
+          }
+        ]
+      }
+    }
+  },
+  "нечола": {
+    "wordform": "нечола",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "entry": "нечезе",
+            "entry_pos": "глагол",
+            "entry_forms": [
+              "нечезе",
+              "нечола",
+              "нечела",
+              "нечана",
+              "неча"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечоларев": {
+    "wordform": "нечоларев",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "беццаб",
+            "av": "в чи чи нечоларев, гӏинкъав чи хӏинкъуларев",
+            "ru": "слепой не стесняется, глухой не боится",
+            "sense": "слепой"
+          }
+        ]
+      }
+    }
+  },
+  "нечоларищ": {
+    "wordform": "нечоларищ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "ичӏабизе",
+            "av": "ичӏабизеги гьебго суалалъ дихъе вачӏине нечоларищ мун?",
+            "ru": "тебе не стыдно в девятый раз приходить ко мне тому же вопросу?",
+            "sense": "в девятый раз; на девятый"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "рецц-бакъ",
+            "av": "гьедин гьересиго цоцазе рецц-бакъ гьабизе нечоларищ нуж?",
+            "ru": "вам не стыдно с таким лицемерием восхвалять друг друга?",
+            "sense": "похвала, хвала; восхваление; прославление"
+          }
+        ]
+      }
+    }
+  },
+  "нечоларо": {
+    "wordform": "нечоларо",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "бодасур",
+            "av": "гьадав бодасур гӏадамазукьа нечоларо",
+            "ru": "этот срамник людей не стесняется",
+            "sense": "срамник и срамница; бестыдник и бестыдница"
+          }
+        ]
+      }
+    }
+  },
+  "нечолев": {
+    "wordform": "нечолев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечолел": {
+    "wordform": "нечолел",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечезе",
+            "av": "щай нуж нечолел?",
+            "ru": "почему вы смущаетесь?",
+            "sense": "(у)стыдиться, стесняться; смущаться, смутиться; робеть"
+          }
+        ]
+      }
+    }
+  },
+  "нечон": {
+    "wordform": "нечон",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "багӏа-бакарлъизе",
+            "av": "нечон багӏа-бакарлъана дов",
+            "ru": "от стыда он покраснел",
+            "sense": "(по)краснеть"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "гӏадамал",
+            "av": "гӏадамаздаса нечон вуго",
+            "ru": "стыдно перед людьми",
+            "sense": "люди"
+          },
+          {
+            "subsource": "examples",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium",
+            "entry": "нечезе",
+            "av": "нечон хвезе",
+            "ru": "сгореть от стыда, провалиться сквоз землю от стыда; от стыда умирать",
+            "sense": "(у)стыдиться, стесняться; смущаться, смутиться; робеть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "нечонхӏинкъун": {
+    "wordform": "нечонхӏинкъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "нечезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  }
+}

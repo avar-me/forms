@@ -1,0 +1,84 @@
+{
+  "хомелег": {
+    "wordform": "хомелег",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "headword",
+            "lemma": "хомелег",
+            "relation": "именительный",
+            "pos": "существительное",
+            "entry": "хомелег",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хомелег",
+              "хомелегалъ",
+              "хомелегалъул"
+            ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хомелег",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "хомелегалъ": {
+    "wordform": "хомелегалъ",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "forms",
+            "lemma": "хомелег",
+            "pos": "существительное",
+            "entry": "хомелег",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хомелег",
+              "хомелегалъ",
+              "хомелегалъул"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "хомелегалъул": {
+    "wordform": "хомелегалъул",
+    "sources": {
+      "gimbatov": {
+        "id": "gimbatov",
+        "name": "AV-RU словарь Гимбатова",
+        "mentions": [
+          {
+            "subsource": "explicit_relation",
+            "lemma": "хомелег",
+            "relation": "родительный падеж",
+            "pos": "существительное",
+            "entry": "хомелегалъул",
+            "entry_pos": "существительное",
+            "entry_forms": [
+              "хомелегалъул"
+            ],
+            "from_lemma": "хомелег"
+          }
+        ]
+      }
+    }
+  }
+}

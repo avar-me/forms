@@ -1,4 +1,21 @@
 {
+  "жира": {
+    "wordform": "жира",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жирана": {
     "wordform": "жирана",
     "sources": {
@@ -24,6 +41,23 @@
       }
     }
   },
+  "жирараб": {
+    "wordform": "жирараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиризе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жираф": {
     "wordform": "жираф",
     "sources": {
@@ -44,6 +78,18 @@
               "жирафалъул",
               "жирафал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жираф",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -562,6 +608,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиризабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -615,6 +673,23 @@
       }
     }
   },
+  "жиризаризе": {
+    "wordform": "жиризаризе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жири",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жиризе": {
     "wordform": "жиризе",
     "sources": {
@@ -636,6 +711,18 @@
               "жирана",
               "жире"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жиризе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

@@ -103,6 +103,17 @@
             "sense": "писатель и писательница"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союз",
+            "pos": "союз"
+          }
+        ]
       }
     }
   },
@@ -179,6 +190,18 @@
             "entry": "союз",
             "av": "цолъизариялъулал союзал",
             "ru": "соединительные союзы"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союз",
+            "pos": "союз",
+            "confidence": "medium"
           }
         ]
       }
@@ -289,6 +312,18 @@
             "sense": "секретариат"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союз",
+            "pos": "союз",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -344,6 +379,17 @@
             "av": "союзияб республика",
             "ru": "союзная республика",
             "sense": "союзный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союзияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -432,6 +478,34 @@
             "av": "ритӏухъаб союзник",
             "ru": "верный союзник",
             "sense": "союзник и союзница"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союзник",
+            "pos": "союз"
+          }
+        ]
+      }
+    }
+  },
+  "союзниказдаса": {
+    "wordform": "союзниказдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "союзник",
+            "pos": "союз",
+            "confidence": "medium"
           }
         ]
       }

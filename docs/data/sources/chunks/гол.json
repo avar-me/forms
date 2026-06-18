@@ -31,6 +31,18 @@
             "sense": "гол"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гол",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -125,6 +137,18 @@
               "голландиявс",
               "голландиявсул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "голландияв",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -229,6 +253,18 @@
             "sense": "голландский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "голландиял",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -251,6 +287,18 @@
               "голландиялъ",
               "голландиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "голландияй",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -391,6 +439,23 @@
       }
     }
   },
+  "голода": {
+    "wordform": "голода",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гол",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "голъек": {
     "wordform": "голъек",
     "sources": {
@@ -487,6 +552,23 @@
       }
     }
   },
+  "голъи": {
+    "wordform": "голъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гол",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гольфаз": {
     "wordform": "гольфаз",
     "sources": {
@@ -562,6 +644,18 @@
             "av": "лъималазул гольфал",
             "ru": "детские гольфы",
             "sense": "гольфы"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гольфал",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }

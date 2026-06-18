@@ -160,6 +160,23 @@
       }
     }
   },
+  "яхтабазул": {
+    "wordform": "яхтабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхта",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "яхтаби": {
     "wordform": "яхтаби",
     "sources": {
@@ -248,6 +265,18 @@
               "яхтаялъул",
               "яхтаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхта",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -376,6 +405,32 @@
             "sense": "совсем, насовсем"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бахъизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бахъизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -430,6 +485,24 @@
             "av": "хваралъуса яхъарай гӏадин йиго дой",
             "ru": "она будто воскресла",
             "sense": "двинуться, выступать, выступить; выходить, выйти; трогаться, тронуться; отправляться, отправиться"
+          }
+        ]
+      }
+    }
+  },
+  "яхъизе": {
+    "wordform": "яхъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бахъизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -550,6 +623,19 @@
             "av": "хъахӏба яхъине",
             "ru": "становиться, стать распутной, развратной; становиться, стать проституткой",
             "sense": "развратница, распутница, блудница, проситутка, шлюха"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бахъине",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -852,6 +938,30 @@
             "sense": "терпение; выносливость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -884,6 +994,18 @@
             "av": "яхӏ-махӏ гьабун чӏун вукӏана",
             "ru": "старался притерпывать",
             "sense": "терпение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-махӏ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -996,6 +1118,64 @@
             "sense": "честь и совесть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "яхӏ-намусалда": {
+    "wordform": "яхӏ-намусалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "яхӏ-намусалдаса": {
+    "wordform": "яхӏ-намусалдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1017,6 +1197,47 @@
               "яхӏ-намусалъ",
               "яхӏ-намусалъул"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "яхӏ-намусалъе": {
+    "wordform": "яхӏ-намусалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1042,6 +1263,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ-намус",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1061,6 +1294,18 @@
             "av": "яхӏалда хӏур хъвазе течӏев",
             "ru": "кристально чистый, не запятнявший чести; не давший пыинке сесть на честь",
             "sense": "честь; достоинство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1109,6 +1354,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "яхӏги": {
+    "wordform": "яхӏги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "яхӏгун": {
+    "wordform": "яхӏгун",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1134,6 +1425,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏгьечӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1156,6 +1459,23 @@
               "яхӏгьечӏил",
               "яхӏгьечӏал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "яхӏгьечӏеб": {
+    "wordform": "яхӏгьечӏеб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "яхӏгьечӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

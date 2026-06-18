@@ -165,6 +165,18 @@
             "sense": "февраль"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "февраль",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -271,6 +283,18 @@
             "av": "къоло щуабилеб февраль",
             "ru": "двадцать пятое февраля",
             "sense": "февраль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "февраль",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -460,6 +484,28 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "федералияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "федералияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -551,6 +597,17 @@
             "av": "федеративияб пачалихъ",
             "ru": "федеративное государство",
             "sense": "федеративный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "федеративияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1300,6 +1357,23 @@
       }
     }
   },
+  "фельдшеразул": {
+    "wordform": "фельдшеразул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фельдшер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "фельдшерал": {
     "wordform": "фельдшерал",
     "sources": {
@@ -1425,6 +1499,18 @@
               "фельдшералъул",
               "фельдшерал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фельдшер",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1712,6 +1798,18 @@
               "фельетоналъул",
               "фельетонал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фельетон",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2043,6 +2141,52 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "феодалазда": {
+    "wordform": "феодалазда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "феодалазул": {
+    "wordform": "феодалазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2115,6 +2259,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2137,6 +2293,23 @@
               "феодализмалъ",
               "феодализмалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "феодализмалда": {
+    "wordform": "феодализмалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодализм",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2195,6 +2368,18 @@
             "sense": "феодализм"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодализм",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2241,6 +2426,17 @@
             "av": "феодалияб формация",
             "ru": "феодальная формация",
             "sense": "формация"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодалияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2290,6 +2486,23 @@
       }
     }
   },
+  "феодалиялгун": {
+    "wordform": "феодалиялгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "феодалияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ферзал": {
     "wordform": "ферзал",
     "sources": {
@@ -2309,6 +2522,23 @@
               "ферзалъул",
               "ферзал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ферзалдалъун": {
+    "wordform": "ферзалдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ферзь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2394,6 +2624,18 @@
             "sense": "ферзь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ферзь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2457,6 +2699,30 @@
             "av": "хӏанчӏазул ферма",
             "ru": "птицеводческая ферма, птицеферма",
             "sense": "птицеводческий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ферма",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ферма",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2593,6 +2859,18 @@
             "sense": "ферма"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ферма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2618,6 +2896,18 @@
               "фермералъул",
               "фермерал"
             ]
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фермер",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2748,6 +3038,18 @@
               "фермералъул",
               "фермерал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фермер",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2942,6 +3244,18 @@
             "av": "фестивалалъул лауреат",
             "ru": "лауреат фестиваля",
             "sense": "фестиваль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "фестиваль",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

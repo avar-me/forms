@@ -1,4 +1,21 @@
 {
+  "хапалги": {
+    "wordform": "хапалги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хапана": {
     "wordform": "хапана",
     "sources": {
@@ -35,6 +52,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -54,6 +83,23 @@
             "av": "хапараб квералъ кквезе",
             "ru": "схватить рукой",
             "sense": "схватить что-либо, схватиться за что-либо"
+          }
+        ]
+      }
+    }
+  },
+  "хапги": {
+    "wordform": "хапги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -685,6 +731,18 @@
             "sense": "схватить что-либо, схватиться за что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -763,6 +821,40 @@
       }
     }
   },
+  "хапулев": {
+    "wordform": "хапулев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "хапулевила": {
+    "wordform": "хапулевила",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "хапун": {
     "wordform": "хапун",
     "sources": {
@@ -820,6 +912,18 @@
             "av": "хапун лълъурдул ккуна оцол",
             "ru": "хап за рога быка",
             "sense": "хвать, хап, цап"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "хапун",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

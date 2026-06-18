@@ -123,6 +123,18 @@
             "sense": "зерно, урожай зерна; хлеб"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -338,6 +350,23 @@
       }
     }
   },
+  "лалда": {
+    "wordform": "лалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лалдезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лалдана": {
     "wordform": "лалдана",
     "sources": {
@@ -383,6 +412,18 @@
               "лалдана",
               "лалде"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лалдезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -432,6 +473,18 @@
               "лалдей"
             ],
             "from_lemma": "лалдезе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лалдезе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -530,6 +583,18 @@
               "лали"
             ],
             "from_lemma": "лализе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лализе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -727,6 +792,40 @@
               "лалудул",
               "лалаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "лалъизе": {
+    "wordform": "лалъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лалу",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лалъул": {
+    "wordform": "лалъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лалу",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

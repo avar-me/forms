@@ -42,6 +42,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гажал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -137,6 +149,18 @@
             "sense": "пила"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гожо",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -203,6 +227,18 @@
             "sense": "колесо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гажахараб",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -224,6 +260,18 @@
               "гажахин"
             ],
             "from_lemma": "гажахине"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гажахине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -480,6 +528,23 @@
             "av": "дур махсара батани, дирги гажи гуребха",
             "ru": "если ты шутишь, и я не всерьёз [говорю]",
             "sense": "серьёзность"
+          }
+        ]
+      }
+    }
+  },
+  "гажилъун": {
+    "wordform": "гажилъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гажи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

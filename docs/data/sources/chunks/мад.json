@@ -282,6 +282,45 @@
             "sense": "культурный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданияб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "маданиябгун": {
+    "wordform": "маданиябгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -329,6 +368,23 @@
       }
     }
   },
+  "маданиялгун": {
+    "wordform": "маданиялгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "маданият": {
     "wordform": "маданият",
     "sources": {
@@ -368,6 +424,64 @@
             "av": "магӏарулазул маданият цебетӏолеб буго",
             "ru": "культура аварцев процветает",
             "sense": "культура"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "маданияталда": {
+    "wordform": "маданияталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "маданияталдаги": {
+    "wordform": "маданияталдаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -424,6 +538,35 @@
             "av": "маданияталъул асар",
             "ru": "культурное влияние; влияние культуры",
             "sense": "влияние, действие, воздействие; эффект"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "маданиятги": {
+    "wordform": "маданиятги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "маданият",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -518,6 +661,30 @@
             "av": "унтарасул мадар лъугьунеб буго, гъов хьвадизе лъугьана",
             "ru": "больной поправляется, он начал ходить",
             "sense": "ходить; идти, двигаться; функционировать, (с)делать рейсы, ездить; посещать, посетить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадар",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадар",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -626,6 +793,18 @@
             "av": "хӏалил мадаралъ",
             "ru": "еле-еле, едва",
             "sense": "обстоятельство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -805,6 +984,18 @@
             "sense": "конвейер"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадиро",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -981,6 +1172,18 @@
             "av": "цӏияб мадраса рагьизе",
             "ru": "открыть новое медресе",
             "sense": "медресе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадраса",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1491,6 +1694,30 @@
             "sense": "угол"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1839,6 +2066,23 @@
       }
     }
   },
+  "мадугьаласда": {
+    "wordform": "мадугьаласда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "мадугьаласде": {
     "wordform": "мадугьаласде",
     "sources": {
@@ -1855,6 +2099,23 @@
             "av": "рукъ мадугьаласде аманат гьабуна",
             "ru": "дом поручил соседу",
             "sense": "поручение, наказ"
+          }
+        ]
+      }
+    }
+  },
+  "мадугьаласдехун": {
+    "wordform": "мадугьаласдехун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2031,6 +2292,35 @@
             "sense": "очень, весьма; сильно, слишком, крайне; страшно, жутко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "мадугьаласулгун": {
+    "wordform": "мадугьаласулгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2115,6 +2405,18 @@
             "sense": "быть в ссоре, поссориться, рассориться; не разговаривать, перестать разговаривать с кем-либо (из-за обиды); обижаться, обидеться на кого-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2144,6 +2446,47 @@
             "av": "доз мадугьалзабазда гьикъана",
             "ru": "они спросили соседей",
             "sense": "спрашивать, спросить кого-что-либо у кого-либо; опрашивать, опросить кого-либо; распрашивать, распросить кого-либо; задавать вопрос кому-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мадугьалзабаздаса": {
+    "wordform": "мадугьалзабаздаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2403,6 +2746,28 @@
             "sense": "аул, деревня, селение, село"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьалихъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьалихъ",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -2539,6 +2904,18 @@
             "sense": "соседи"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьаллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2661,6 +3038,35 @@
               "мадугьаллъиялъ",
               "мадугьаллъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьаллъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "мадугьаллъиялъулал": {
+    "wordform": "мадугьаллъиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мадугьаллъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

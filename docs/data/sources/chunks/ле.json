@@ -116,6 +116,28 @@
             "sense": "да, я слушаю"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ле",
+            "pos": "междометие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ле",
+            "pos": "междометие"
+          }
+        ]
       }
     }
   },
@@ -195,6 +217,17 @@
             "sense": "острый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -237,6 +270,30 @@
             "sense": "простые смертные"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -257,6 +314,47 @@
             "entry_forms": [
               "лебалаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лебалал": {
+    "wordform": "лебалал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебалаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -309,6 +407,30 @@
             "av": "лебалго хӏалтӏичӏони, норма тӏубазабизе кӏоларо",
             "ru": "не поработаешь энергично — не выполнишь норму",
             "sense": "живо, бодро, проворно, подвижно, ловко, энергично, расторопно, поворотливо, шустро"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебал",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебал",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -437,6 +559,18 @@
             "sense": "доблесть, храбрость, бесстрашие, мужественность"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -485,6 +619,23 @@
       }
     }
   },
+  "лебаллъизабизе": {
+    "wordform": "лебаллъизабизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лебаллъизе": {
     "wordform": "лебаллъизе",
     "sources": {
@@ -516,6 +667,18 @@
             "av": "гьитӏинго лебаллъизе ругьун гьаризе ккола лъимал",
             "ru": "детей сызмальства должны приучать энергичности",
             "sense": "быть живым, бодрым, проворным, подвижным, ловким, энергичным, расторопным, поворотливым, шустрым"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -562,6 +725,35 @@
             "av": "додин лебаллъичӏевани, цевехъанасухъа бажарилароан бодуе бетӏерлъи гьабизе",
             "ru": "не был бы таким доблестным, предводитель не сумел бы возглавить ополчение",
             "sense": "быть доблестным, храбрым, бесстрашным, мужественным"
+          }
+        ]
+      }
+    }
+  },
+  "лебаллъиялда": {
+    "wordform": "лебаллъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -640,6 +832,23 @@
       }
     }
   },
+  "лебаллъун": {
+    "wordform": "лебаллъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лебаллъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "лев": {
     "wordform": "лев",
     "sources": {
@@ -681,6 +890,30 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезвие",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезвие",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -713,6 +946,18 @@
             "av": "мегеж кӏкӏвазе лезвиял росизе ун вукӏана тукаде",
             "ru": "ходил в магазин за лезвиями для бритвы",
             "sense": "лезвие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезвие",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -802,6 +1047,17 @@
             "sense": "лезгинский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезги",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -824,6 +1080,18 @@
               "лезгияс",
               "лезгиясул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезгияв",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -896,6 +1164,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезгияй",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -918,6 +1198,18 @@
               "лезгияз",
               "лезгиязул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезгиял",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -1042,6 +1334,17 @@
             "sense": "после-послезавтра, на четвертый день"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лезе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1118,6 +1421,18 @@
             "av": "кӏудияв лейтенант",
             "ru": "старший лейтенант",
             "sense": "лейтенант"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лейтенант",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1305,6 +1620,35 @@
             "sense": "лексика"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лексика",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "лексикаялда": {
+    "wordform": "лексикаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лексика",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1388,6 +1732,17 @@
             "av": "лексикияб синонимия",
             "ru": "лексическая синонимия",
             "sense": "синонимия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лексикияб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1490,6 +1845,35 @@
             "av": "тӏоцеве нижер росулъе лектор вачӏараб заман ракӏалда буго дида",
             "ru": "я помню, когда впервые в наш аул приезжал лектор",
             "sense": "лектор"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лектор",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "лекторазул": {
+    "wordform": "лекторазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лектор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1620,6 +2004,18 @@
               "лекторалъул",
               "лекторал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лектор",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1798,6 +2194,18 @@
             "sense": "философ"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1849,6 +2257,35 @@
             "sense": "стилистика"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лекциязде": {
+    "wordform": "лекциязде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1868,6 +2305,35 @@
             "av": "лекциязул тематика",
             "ru": "тематика лекций",
             "sense": "тематика"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лекциязухъ": {
+    "wordform": "лекциязухъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1892,6 +2358,18 @@
               "лекцияялъул",
               "лекциял"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1951,6 +2429,18 @@
             "sense": "конспект"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1970,6 +2460,18 @@
             "av": "лекциялъухъ гӏенеккизе",
             "ru": "слушать лекцию",
             "sense": "лекция"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лекция",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2244,6 +2746,18 @@
               "леледана",
               "леледе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "леледизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -2654,6 +3168,23 @@
       }
     }
   },
+  "ленинизмалда": {
+    "wordform": "ленинизмалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ленинизм",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ленинизмалъ": {
     "wordform": "ленинизмалъ",
     "sources": {
@@ -2695,6 +3226,18 @@
               "ленинизмалъ",
               "ленинизмалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ленинизм",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2752,6 +3295,30 @@
             "sense": "лента"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2774,6 +3341,137 @@
               "лентаялъул",
               "лентаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лентаги": {
+    "wordform": "лентаги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лентаз": {
+    "wordform": "лентаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лентал": {
+    "wordform": "лентал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ленталгун": {
+    "wordform": "ленталгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ленталда": {
+    "wordform": "ленталда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лентая-лъул": {
+    "wordform": "лентая-лъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "лентаялда": {
+    "wordform": "лентаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лента",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2937,6 +3635,18 @@
             "av": "лепека ххазе",
             "ru": "расчёсывать чёлку",
             "sense": "вихорь (волос на голове); чёлка"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "лепека",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

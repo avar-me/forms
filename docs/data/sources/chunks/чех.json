@@ -76,6 +76,18 @@
             "sense": "чешский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехал",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -100,6 +112,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехай",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -122,6 +146,18 @@
               "чехаз",
               "чехазул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехал",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -168,6 +204,23 @@
               "чехалъ",
               "чехалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чехарда": {
+    "wordform": "чехарда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехал",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -316,6 +369,18 @@
             "sense": "чехол"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехол",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -447,6 +512,17 @@
             "sense": "чахотка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехотка",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -478,6 +554,23 @@
             "av": "чехоткаялъ рехана дов",
             "ru": "он умер от чахотки",
             "sense": "умирать, скончаться"
+          }
+        ]
+      }
+    }
+  },
+  "чехоткаялъе": {
+    "wordform": "чехоткаялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехотка",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }
@@ -526,6 +619,23 @@
               "чехъана",
               "чехъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чехъараб": {
+    "wordform": "чехъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехъезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -768,6 +878,18 @@
             "av": "цӏоросаролъ чехъезе",
             "ru": "лущить кукурузу",
             "sense": "(вы)лущить"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехъезе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -1086,6 +1208,23 @@
               "чехъолдана",
               "чехъолде"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чехъон": {
+    "wordform": "чехъон",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехъезе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1504,6 +1643,42 @@
             "sense": "или, либо; ни"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1526,6 +1701,18 @@
               "чехь-бакьалъ",
               "чехь-бакьалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь-бакь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1577,6 +1764,23 @@
       }
     }
   },
+  "чехьалда": {
+    "wordform": "чехьалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чехьалъ": {
     "wordform": "чехьалъ",
     "sources": {
@@ -1613,6 +1817,23 @@
       }
     }
   },
+  "чехьалъе": {
+    "wordform": "чехьалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чехьалъул": {
     "wordform": "чехьалъул",
     "sources": {
@@ -1634,6 +1855,35 @@
               "чохьол",
               "чахьал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чехьалъухъ": {
+    "wordform": "чехьалъухъ",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1673,6 +1923,28 @@
             "av": "чехьатӏаде ккезе",
             "ru": "упасть навзничь",
             "sense": "навзничь, на-спину; вверх животом"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехьатӏаде",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехьатӏаде",
+            "pos": "наречие"
           }
         ]
       }
@@ -2074,6 +2346,18 @@
             "sense": "спина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехь",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2096,6 +2380,18 @@
               "чехьквешица",
               "чехьквешил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехьквеш",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2243,6 +2539,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехьквешлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2310,6 +2618,17 @@
               "чехькӏодоца",
               "чехькӏодол"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чехькӏодо",
+            "pos": "выражение"
           }
         ]
       }

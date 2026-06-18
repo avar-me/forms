@@ -62,6 +62,34 @@
             "sense": "вверх"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхе-эхеде",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "эхе­де": {
+    "wordform": "эхе­де",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебе",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -173,6 +201,17 @@
             "sense": "вниз"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебе",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -247,6 +286,18 @@
               "эхебемухъалъул",
               "эхебемухъал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебемухъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -334,6 +385,23 @@
       }
     }
   },
+  "эхеберай": {
+    "wordform": "эхеберай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебе",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "эхеберегӏел": {
     "wordform": "эхеберегӏел",
     "sources": {
@@ -354,6 +422,18 @@
               "эхеберегӏелалъул",
               "эхеберегӏелал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеберегӏел",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -509,6 +589,18 @@
             "av": "эхеве вачӏа",
             "ru": "спускайся вниз; приходи вниз",
             "sense": "вниз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебе",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -721,6 +813,45 @@
             "sense": "вверх; наверх"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеде",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеде",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "эхедеги": {
+    "wordform": "эхедеги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеде",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -758,6 +889,51 @@
             "av": "эхедегӏан цо гургинаб гохӏ букӏана",
             "ru": "повыше находился груглый холм",
             "sense": "выше, повыше"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхедегӏан",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "эхедегӏанисан": {
+    "wordform": "эхедегӏанисан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхедегӏан",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эхедегⅰанисан": {
+    "wordform": "эхедегⅰанисан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеде",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -865,6 +1041,23 @@
               "эхедемухъалъул",
               "эхедемухъал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эхедерай": {
+    "wordform": "эхедерай",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхеде",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1065,6 +1258,40 @@
       }
     }
   },
+  "эхетараб": {
+    "wordform": "эхетараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эхетарал": {
+    "wordform": "эхетарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "эхете": {
     "wordform": "эхете",
     "sources": {
@@ -1108,6 +1335,18 @@
               "эхети"
             ],
             "from_lemma": "эхетизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1158,6 +1397,18 @@
             "from_lemma": "эхетизабизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1182,6 +1433,18 @@
               "эхетизабуна",
               "эхетизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -1257,6 +1520,23 @@
               "эхетизабуна",
               "эхетизабе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эхетизабураб": {
+    "wordform": "эхетизабураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1345,6 +1625,18 @@
             "sense": "занимать, занять вертикальное положение; стоять"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1414,6 +1706,74 @@
               "эхетана",
               "эхете"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "эхетун": {
+    "wordform": "эхетун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эхетухъе": {
+    "wordform": "эхетухъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эхетухъего": {
+    "wordform": "эхетухъего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхетизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "эхеэхеде": {
+    "wordform": "эхеэхеде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "эхебе",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

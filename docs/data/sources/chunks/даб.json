@@ -21,6 +21,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "даб",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -84,6 +96,18 @@
             "av": "дабагъ кӏкӏукӏкӏазе",
             "ru": "мять кожу",
             "sense": "(с)мять, измять, размять что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дабагъ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -264,6 +288,23 @@
       }
     }
   },
+  "дабагъхана": {
+    "wordform": "дабагъхана",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дабагъ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "дабазда": {
     "wordform": "дабазда",
     "sources": {
@@ -290,6 +331,18 @@
             "av": "дабазда куц чӏван буго",
             "ru": "зубы готовы прорезаться",
             "sense": "десна"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "даб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -334,6 +387,18 @@
             "av": "дабал унтун руго",
             "ru": "дёсны болят",
             "sense": "десна"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "даб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -502,6 +567,23 @@
               "дабгъил"
             ],
             "from_lemma": "дабагъ"
+          }
+        ]
+      }
+    }
+  },
+  "даби": {
+    "wordform": "даби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "даб",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

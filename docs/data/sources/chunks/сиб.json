@@ -142,6 +142,34 @@
             "sense": "ссылка, каторга"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сибир",
+            "pos": "выражение"
+          }
+        ]
+      }
+    }
+  },
+  "сибирав": {
+    "wordform": "сибирав",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сибир",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -215,6 +243,18 @@
               "сибиралъ",
               "сибиралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сибир",
+            "pos": "выражение",
+            "confidence": "medium"
           }
         ]
       }

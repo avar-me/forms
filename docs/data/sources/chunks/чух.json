@@ -170,6 +170,30 @@
             "sense": "чоха, черкеска"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухъа",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухъа",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -306,6 +330,23 @@
               "чухъбуз",
               "чухъбузул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чухъбузда": {
+    "wordform": "чухъбузда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухъби",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -496,6 +537,57 @@
       }
     }
   },
+  "чухьарлъизе": {
+    "wordform": "чухьарлъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чухьарлъиялдаса": {
+    "wordform": "чухьарлъиялдаса",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "чухьарлъунгутӏизе": {
+    "wordform": "чухьарлъунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухьизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чухье": {
     "wordform": "чухье",
     "sources": {
@@ -647,6 +739,17 @@
             "sense": "густой"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухӏаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -694,6 +797,23 @@
       }
     }
   },
+  "чухӏамаялъ": {
+    "wordform": "чухӏамаялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "чухӏана": {
     "wordform": "чухӏана",
     "sources": {
@@ -714,6 +834,23 @@
               "чухӏана",
               "чухӏе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чухӏараб": {
+    "wordform": "чухӏараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -962,6 +1099,18 @@
             "sense": "размелчать, размельчить, измелчать, измелчить; (по)толочь, истолочь, растолочь что-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухӏизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1056,6 +1205,23 @@
               "чухӏана",
               "чухӏе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "чухӏун": {
+    "wordform": "чухӏун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "чухӏизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }

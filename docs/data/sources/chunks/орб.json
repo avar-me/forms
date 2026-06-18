@@ -41,6 +41,18 @@
             "sense": "орбита"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "орбита",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -142,6 +154,40 @@
       }
     }
   },
+  "орбитаялда": {
+    "wordform": "орбитаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "орбита",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "орбитаялдасан": {
+    "wordform": "орбитаялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "орбита",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "орбитаялде": {
     "wordform": "орбитаялде",
     "sources": {
@@ -158,6 +204,18 @@
             "av": "спутник орбитаялде лъугьана",
             "ru": "спутник вышел на орбиту",
             "sense": "орбита"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "орбита",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -1438,6 +1438,30 @@
             "sense": "укрепление, крепость"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "базе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "базе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1461,6 +1485,18 @@
               "бананалъул",
               "бананал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банан",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1542,6 +1578,18 @@
             "av": "бананалъул хъал",
             "ru": "кожура банана",
             "sense": "банан"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банан",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -1703,6 +1751,18 @@
             "from_lemma": "бандав"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бандав",
+            "relation": "множественное число",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1749,6 +1809,23 @@
               "бандасул",
               "бандал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "бандаялъул": {
+    "wordform": "бандаялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бандав",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1856,6 +1933,18 @@
             "av": "бандероль гьабун битӏизе",
             "ru": "отправить бандеролью",
             "sense": "бандероль"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бандероль",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1974,6 +2063,30 @@
             "av": "коммерциялъул банк",
             "ru": "коммерческий банк",
             "sense": "коммерческий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -2121,6 +2234,18 @@
             "sense": "жестяной"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банка",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2145,6 +2270,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банка",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2167,6 +2304,18 @@
               "банкалъул",
               "банкал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2200,6 +2349,18 @@
             "sense": "расчётный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2219,6 +2380,52 @@
             "av": "банкалдаса къарзалъе гӏарац босизе",
             "ru": "взять деньги в кредит из банка",
             "sense": "банк"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "банкалдасан": {
+    "wordform": "банкалдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "банкалде": {
+    "wordform": "банкалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2316,6 +2523,18 @@
             "av": "банкалъул фондал",
             "ru": "банковские фонды",
             "sense": "фонд"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -2602,6 +2821,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банкир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2768,6 +2999,23 @@
       }
     }
   },
+  "банкротлъи": {
+    "wordform": "банкротлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "банк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "бануисраилаз": {
     "wordform": "бануисраилаз",
     "sources": {
@@ -2858,6 +3106,18 @@
               "банялъул",
               "баняби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "баня",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

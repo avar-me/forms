@@ -64,6 +64,30 @@
             "sense": "поляна"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тала",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -201,6 +225,35 @@
             "sense": "грабёж"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "талавураб": {
+    "wordform": "талавураб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -245,6 +298,23 @@
               "талавуралъ",
               "талавуралъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "талавурчагӏазда": {
+    "wordform": "талавурчагӏазда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавурчи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -327,6 +397,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавурчи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -359,6 +441,18 @@
             "av": "талавурчилъи гьабизе",
             "ru": "грабить, заниматься грабежом, разбоем",
             "sense": "грабительство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавурчилъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -407,6 +501,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талавурчилъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -453,6 +559,23 @@
               "талавурчиясул",
               "талавурчагӏи"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "талагьабураб": {
+    "wordform": "талагьабураб",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талагьизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -564,6 +687,18 @@
             "av": "хъала талагьизе",
             "ru": "разграбить крепость",
             "sense": "(о)грабить, разграбить кого-что-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талагьизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -715,6 +850,18 @@
             "av": "талат къоялъ",
             "ru": "во вторник",
             "sense": "вторник"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талат",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1043,6 +1190,35 @@
             "av": "талган гӏезабизе",
             "ru": "выращивать репу",
             "sense": "редька, репа"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талган",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "талганалдаса": {
+    "wordform": "талганалдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талган",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1394,6 +1570,42 @@
             "sense": "сирота, сиротка; круглый сирота; круглая сирота; сиротинушка."
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1416,6 +1628,18 @@
               "талихӏ-рохелалъ",
               "талихӏ-рохелалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ-рохел",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1569,6 +1793,17 @@
             "sense": "счастливый, удачный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1609,6 +1844,47 @@
             "av": "талихӏав чи",
             "ru": "счастливый человек",
             "sense": "счастливый, удачный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "талихӏавлъун": {
+    "wordform": "талихӏавлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1662,6 +1938,40 @@
             "av": "талихӏал рукӏине",
             "ru": "бывать, быть счастливыми",
             "sense": "счастливый, удачный"
+          }
+        ]
+      }
+    }
+  },
+  "талихӏалда": {
+    "wordform": "талихӏалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "талихӏалде": {
+    "wordform": "талихӏалде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1730,6 +2040,45 @@
             "sense": "(по)кончить, закончить что-либо; отделаться, отвязаться от кого-чего-либо"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏалъ",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏалъ",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "талихӏалъе": {
+    "wordform": "талихӏалъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏалъ",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1751,6 +2100,30 @@
               "талихӏалъ",
               "талихӏалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1842,6 +2215,23 @@
             "entry_forms": [
               "талихӏгьечӏолъи"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "талихӏккей": {
+    "wordform": "талихӏккей",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2052,6 +2442,18 @@
             "sense": "несчастный, злосчастный, злополучный; лишённый счастья"
           }
         ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏкъине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2085,6 +2487,18 @@
             "av": "талихӏкъин бихьуларищ!",
             "ru": "какое несчастье!",
             "sense": "несчастье; беда, бедствие; неудача; злополучие"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏкъине",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -2363,6 +2777,17 @@
               "талихӏкъосил",
               "талихӏкъосал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талихӏкъос",
+            "pos": "существительное"
           }
         ]
       }
@@ -2847,6 +3272,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талма",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "талмаби": {
+    "wordform": "талмаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талма",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3049,6 +3503,18 @@
             "av": "бензиналъул талон",
             "ru": "талон на бензин",
             "sense": "талон"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "талон",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

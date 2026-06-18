@@ -269,6 +269,28 @@
             "sense": "пятак, пятачок, пять копеек, пятикопеечная монета; , десять копеек"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏо",
+            "pos": "числительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏо",
+            "pos": "числительное"
+          }
+        ]
       }
     }
   },
@@ -349,6 +371,28 @@
             "sense": "единственый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏого",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏого",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -373,6 +417,40 @@
       }
     }
   },
+  "цохӏогояблъун": {
+    "wordform": "цохӏогояблъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏого",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "цохӏогӏаги": {
+    "wordform": "цохӏогӏаги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏо",
+            "pos": "числительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "цохӏониги": {
     "wordform": "цохӏониги",
     "sources": {
@@ -389,6 +467,17 @@
             "entry_forms": [
               "цохӏониги"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "цохӏониги",
+            "pos": "прилагательное"
           }
         ]
       }

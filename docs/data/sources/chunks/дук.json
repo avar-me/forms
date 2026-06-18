@@ -30,5 +30,22 @@
         ]
       }
     }
+  },
+  "дукатал": {
+    "wordform": "дукатал",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "дук",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
   }
 }

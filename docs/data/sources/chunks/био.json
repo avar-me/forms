@@ -51,6 +51,18 @@
             "sense": "биография"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биография",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -73,6 +85,23 @@
               "биографиялъул",
               "биографияби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "биографиялда": {
+    "wordform": "биографиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биография",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -431,6 +460,18 @@
             "sense": "биология"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биология",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -507,6 +548,30 @@
             "sense": "учительница"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биология",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биология",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -570,6 +635,23 @@
             "entry_forms": [
               "биологиялъулаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "биологиялъулал": {
+    "wordform": "биологиялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "биология",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

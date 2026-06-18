@@ -308,6 +308,17 @@
             "sense": "корова"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвалаяб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -640,6 +651,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -809,6 +832,18 @@
               "гъваниллъана",
               "гъваниллъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваниллъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -986,6 +1021,17 @@
             "sense": "с грохотом"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванкан",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1028,6 +1074,18 @@
             "av": "гъванки бахъинабизе",
             "ru": "загрохотать",
             "sense": "грохот"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванки",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1129,6 +1187,23 @@
               "гъванки-дваргъиялъ",
               "гъванки-дваргъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъванкиялда": {
+    "wordform": "гъванкиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванки",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1404,6 +1479,18 @@
             "sense": "сзади, позади"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванща",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1423,6 +1510,18 @@
             "av": "гъванщаги ккун ваче гьев гьаниве",
             "ru": "притащи его сюда зашиворот",
             "sense": "затылок"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъванща",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2302,6 +2401,23 @@
       }
     }
   },
+  "гъвар-гъвариги": {
+    "wordform": "гъвар-гъвариги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвар-гъвари",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъвар-гъвариялда": {
     "wordform": "гъвар-гъвариялда",
     "sources": {
@@ -2465,6 +2581,35 @@
             "av": "гъварараб гьаракьалъ абуна",
             "ru": "говорил басистым голосом",
             "sense": "басистый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварараб",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "гъваргъвадизе": {
+    "wordform": "гъваргъвадизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвари",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2767,6 +2912,18 @@
             "sense": "вымя"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваризе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2866,6 +3023,17 @@
             "av": "гъварид гьабизе",
             "ru": "сделать глубоким, углубить",
             "sense": "глубоко"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварид",
+            "pos": "наречие"
           }
         ]
       }
@@ -3123,6 +3291,28 @@
             "sense": "деревянная миска; чаша"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -3155,6 +3345,18 @@
             "sense": "глубокий, основательный, серьёзный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -3175,6 +3377,52 @@
             "entry_forms": [
               "гъваридаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъваридал": {
+    "wordform": "гъваридал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъваридалги": {
+    "wordform": "гъваридалги",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваридаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -3277,6 +3525,42 @@
             "av": "кьучӏ гъваридго бухъун буго",
             "ru": "фундамент вырыт глубоко",
             "sense": "глубоко"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварид",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварид",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварид",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -3454,6 +3738,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваризе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3515,6 +3811,23 @@
       }
     }
   },
+  "гъварилъарав": {
+    "wordform": "гъварилъарав",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъварилъи": {
     "wordform": "гъварилъи",
     "sources": {
@@ -3555,6 +3868,30 @@
             "av": "хӏорил гъварилъи",
             "ru": "глубина озера",
             "sense": "глубина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -3603,6 +3940,18 @@
               "гъварилъизаби"
             ],
             "from_lemma": "гъварилъизабизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизабизе",
+            "relation": "масдар (понудительная)",
+            "pos": "глагол"
           }
         ]
       }
@@ -3659,6 +4008,18 @@
             "av": "хӏор гъварилъизабизе",
             "ru": "углублять пруд",
             "sense": "углублять, углубить что-либо; (с)делать глубже"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -3761,6 +4122,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -3783,6 +4156,35 @@
               "гъварилъила",
               "гъварилъана"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "гъварилъиялда": {
+    "wordform": "гъварилъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3832,6 +4234,23 @@
       }
     }
   },
+  "гъварилъиялъе": {
+    "wordform": "гъварилъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъварилъиялъул": {
     "wordform": "гъварилъиялъул",
     "sources": {
@@ -3850,6 +4269,18 @@
               "гъварилъиялъ",
               "гъварилъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -3881,6 +4312,35 @@
             "av": "рекӏел гъварилъуда",
             "ru": "в глубине души",
             "sense": "глубина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъварилъуде": {
+    "wordform": "гъварилъуде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъварилъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4229,6 +4689,23 @@
       }
     }
   },
+  "гъварулеб": {
+    "wordform": "гъварулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвари",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъварун": {
     "wordform": "гъварун",
     "sources": {
@@ -4245,6 +4722,18 @@
             "av": "досул гьаракь гъварун буго",
             "ru": "он охрип; у него голос хрипит",
             "sense": "хрипеть; охрипнуть"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъваризе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -4907,6 +5396,18 @@
             "sense": "сплетня, пересуды; хула"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвел",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -5084,6 +5585,23 @@
       }
     }
   },
+  "гъвелалда": {
+    "wordform": "гъвелалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвел",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гъвелалъ": {
     "wordform": "гъвелалъ",
     "sources": {
@@ -5251,6 +5769,17 @@
             "sense": "вода"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвес",
+            "pos": "выражение"
+          }
+        ]
       }
     }
   },
@@ -5273,6 +5802,18 @@
               "гъвес-кӏварщалъ",
               "гъвес-кӏварщалъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъвес-кӏварщ",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -6208,6 +6749,42 @@
             "sense": "одинокий"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -6250,6 +6827,103 @@
             "sense": "растения, растительность, флора; дерево и трава"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ-хер",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏ-хералъ": {
+    "wordform": "гъветӏ-хералъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ-хер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏ-хералъе": {
+    "wordform": "гъветӏ-хералъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ-хер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏ-хералъул": {
+    "wordform": "гъветӏ-хералъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ-хер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏ-херцоги": {
+    "wordform": "гъветӏ-херцоги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ-хер",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏ-хъарахъ": {
+    "wordform": "гъветӏ-хъарахъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -6269,6 +6943,18 @@
             "av": "гъветӏалда рекъараб букӏуна пихъ",
             "ru": "по дереву и плоды",
             "sense": "плод и плоды; фрукт и фрукты"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6325,6 +7011,18 @@
               "чӏвазе",
               "гъветӏгъезе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -6395,6 +7093,23 @@
             "av": "бигьародул гъветӏгӏан чӏурканаб лага",
             "ru": "словно тополь стройный стан",
             "sense": "тополь"
+          }
+        ]
+      }
+    }
+  },
+  "гъветӏхералъул": {
+    "wordform": "гъветӏхералъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гъветӏ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

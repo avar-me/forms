@@ -111,6 +111,30 @@
             "sense": "столько"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -143,6 +167,18 @@
             "sense": "шляться, таскаться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб-кибниги",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -163,6 +199,18 @@
             "entry_forms": [
               "кибалиго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибалиго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -195,6 +243,18 @@
             "av": "инсул гъастӏа гӏадинан кивго мун хинлъиларо",
             "ru": "как у родного очага, нигде не почувствуешь ты тепла",
             "sense": "родной"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибго",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -321,6 +381,40 @@
       }
     }
   },
+  "киве-кивениги": {
+    "wordform": "киве-кивениги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "киве-кивенигиккун": {
+    "wordform": "киве-кивенигиккун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "киб",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "кивего": {
     "wordform": "кивего",
     "sources": {
@@ -358,6 +452,18 @@
             "av": "кивего щвана дов",
             "ru": "он везде побывал",
             "sense": "всюду, повсюду, везде и всюду"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибего",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -424,6 +530,18 @@
             "sense": "с отрицательное (местоимение) глаголом никуда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибениги",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -454,6 +572,18 @@
             "av": "кивехун вуссаниги",
             "ru": "куда бы ни смотрел",
             "sense": "куда, в каком направлении; где"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибехун",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -500,6 +630,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибехунниги",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -542,6 +684,18 @@
             "sense": "куда-то, неизвестно куда"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибеялиго",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -572,6 +726,30 @@
             "av": "кивниги гьечӏилан ккола гьев",
             "ru": "кажется, его нигде нет",
             "sense": "с отрицательное (местоимение) глаголом нигде"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибниги",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "кибниги",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

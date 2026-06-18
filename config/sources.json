@@ -9,6 +9,39 @@
       "config": {
         "url": "https://sources.avar.me/data/av-ru.jsonl"
       }
+    },
+    {
+      "id": "ru-av",
+      "name": "RU-AV словарь Алиханова",
+      "enabled": true,
+      "module": "avarforms.sources.mapped",
+      "class": "RuAvFormsExtractor",
+      "config": {
+        "url": "https://sources.avar.me/data/ru-av.jsonl",
+        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
+      }
+    },
+    {
+      "id": "en-av",
+      "name": "EN-AV словарь",
+      "enabled": true,
+      "module": "avarforms.sources.mapped",
+      "class": "EnAvFormsExtractor",
+      "config": {
+        "url": "https://sources.avar.me/data/en-av.jsonl",
+        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
+      }
+    },
+    {
+      "id": "taras-bulba",
+      "name": "Тарас Бульба (параллельный корпус)",
+      "enabled": true,
+      "module": "avarforms.sources.mapped",
+      "class": "TarasBulbaFormsExtractor",
+      "config": {
+        "url": "https://sources.avar.me/data/taras_bulba.json",
+        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
+      }
     }
   ],
   "mappings": [

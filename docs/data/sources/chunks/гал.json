@@ -220,6 +220,23 @@
       }
     }
   },
+  "галабаздалъун": {
+    "wordform": "галабаздалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "галаби": {
     "wordform": "галаби",
     "sources": {
@@ -274,6 +291,18 @@
             "av": "чӏахӏиял галаби",
             "ru": "широкие шаги",
             "sense": "широкий"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -525,6 +554,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галадизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -627,6 +668,35 @@
             "sense": "слегка хромать, прихрамывать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галадизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "галактикаялда": {
+    "wordform": "галактикаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гала",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -677,6 +747,18 @@
               "галамал",
               "галмал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -831,6 +913,18 @@
             "sense": "плотина"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -854,6 +948,23 @@
               "галана",
               "гале"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "галантереялъул": {
+    "wordform": "галантереялъул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галан",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1048,6 +1159,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галгъазабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1096,6 +1219,18 @@
               "галгъаялъул"
             ],
             "from_lemma": "галгъазе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галгъазе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1553,6 +1688,65 @@
             "sense": "ступать, шагнуть"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гализе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гализе",
+            "relation": "масдар",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гализе",
+            "relation": "масдар",
+            "pos": "существительное"
+          },
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "галиги": {
+    "wordform": "галиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1825,6 +2019,18 @@
             "sense": "кувшин для воды"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гел",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1869,6 +2075,18 @@
             "av": "лъабкъого галиялъ добегӏан",
             "ru": "в шестидесяти шагах",
             "sense": "шестьдесят; шестидесяти"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2017,6 +2235,23 @@
               "галамал",
               "галмал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "галогеназул": {
+    "wordform": "галогеназул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2201,6 +2436,18 @@
             "sense": "пионерский"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галстук",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2223,6 +2470,23 @@
               "галстукалъул",
               "галстукал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "галстукалда": {
+    "wordform": "галстукалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "галстук",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2357,6 +2621,18 @@
             "av": "чанго галул манзил",
             "ru": "промежуток в несколько шагов",
             "sense": "расстояние; промежуток; перегон"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гали",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -41,6 +41,18 @@
             "sense": "моток"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габани",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -205,6 +217,17 @@
             "sense": "костра, кострика, очёс"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габанидул",
+            "pos": "послелог"
+          }
+        ]
       }
     }
   },
@@ -227,6 +250,18 @@
               "габаникваралъ",
               "габаникваралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габаниквар",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -273,6 +308,18 @@
               "габаникваралъ",
               "габаникваралъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габаниквар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -587,6 +634,18 @@
             "av": "габардиналъул пальто",
             "ru": "габардиновое пальто",
             "sense": "габардиновый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габардин",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -1199,6 +1258,42 @@
             "sense": "бутылка; флакон; склянка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1292,6 +1387,57 @@
       }
     }
   },
+  "габуралда": {
+    "wordform": "габуралда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "габуралдаса": {
+    "wordform": "габуралдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "габуралде": {
+    "wordform": "габуралде",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "габуралъ": {
     "wordform": "габуралъ",
     "sources": {
@@ -1341,6 +1487,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1374,6 +1532,18 @@
             "av": "габурбухь жемизе",
             "ru": "обмотать шарфом",
             "sense": "шейный платок, шарф, кашне; галстук"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габурбухь",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1467,6 +1637,30 @@
             "av": "габурги тӏеренаб, тӏагъурги хъахӏаб",
             "ru": "шея тонка, шапка бела",
             "sense": "шея"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габур",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1767,6 +1961,18 @@
             "sense": "горный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габурлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1786,6 +1992,23 @@
             "av": "мугӏрул габурлъиялдаса тӏадехун",
             "ru": "выше горного перевала",
             "sense": "выше"
+          }
+        ]
+      }
+    }
+  },
+  "габурлъиялдасан": {
+    "wordform": "габурлъиялдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "габурлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

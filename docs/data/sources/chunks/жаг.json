@@ -31,6 +31,18 @@
             "sense": "в июне"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жага",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -82,6 +94,30 @@
             "av": "жагадул сироп",
             "ru": "вишнёвый сироп",
             "sense": "сироп"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жага",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жага",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -252,6 +288,17 @@
             "sense": "непрочно, ненадёжно"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъал",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -289,6 +336,17 @@
             "av": "жагъалаб кьо",
             "ru": "непрочный мост",
             "sense": "непрочный, ненадёжный"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъалаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -415,6 +473,40 @@
       }
     }
   },
+  "жагъаллъараб": {
+    "wordform": "жагъаллъараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "жагъаллъарал": {
+    "wordform": "жагъаллъарал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жагъаллъе": {
     "wordform": "жагъаллъе",
     "sources": {
@@ -460,6 +552,35 @@
               "жагъаллъиялъул"
             ],
             "from_lemma": "жагъаллъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "жагъаллъиги": {
+    "wordform": "жагъаллъиги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -562,6 +683,18 @@
             "from_lemma": "жагъаллъизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -658,6 +791,18 @@
             "sense": "недоставать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -681,6 +826,23 @@
               "жагъаллъана",
               "жагъаллъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "жагъаллъичӏеб": {
+    "wordform": "жагъаллъичӏеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -785,6 +947,18 @@
             "sense": "приходить, прийти в негодность; (ис)портиться; становиться, стать неисправным"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъаллъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -806,6 +980,23 @@
               "жагъалъ",
               "жагъалъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "жагъалълъизе": {
+    "wordform": "жагъалълъизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагъ",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1051,6 +1242,18 @@
             "ru": "бренный мир"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьандаман",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1103,6 +1306,17 @@
             "av": "жагьандаманалъуб хӏама кӏиго шагьиде букӏунебила",
             "ru": "у черта на куличках осёл стоит два пятака",
             "sense": "на краю света; у чёрта на куличках"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьандаманалъуб",
+            "pos": "наречие"
           }
         ]
       }
@@ -1500,6 +1714,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьил",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1528,6 +1754,17 @@
             "av": "жагьилаб гӏадат",
             "ru": "обычай, порождённый невежеством",
             "sense": "невежественный, порождённый невежеством"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -1562,6 +1799,18 @@
             "sense": "невежественный, порождённый невежеством"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1582,6 +1831,47 @@
             "entry_forms": [
               "жагьилаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "жагьилал": {
+    "wordform": "жагьилал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1627,6 +1917,17 @@
             "entry_forms": [
               "жагьилго"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилго",
+            "pos": "наречие"
           }
         ]
       }
@@ -1772,6 +2073,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьиллъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "жагьиллъиялда": {
+    "wordform": "жагьиллъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьиллъи",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1831,6 +2161,23 @@
       }
     }
   },
+  "жагьиллъуда": {
+    "wordform": "жагьиллъуда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "жагьилсул": {
     "wordform": "жагьилсул",
     "sources": {
@@ -1884,6 +2231,18 @@
             "av": "дун жагьилчи вугилан, гӏелму тӏалаб гьабичӏо",
             "ru": "считая себя неучем, не пристрастился к науке",
             "sense": "невежда; неграмотный, необразованный, невежественный человек; неуч"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "жагьилчи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }

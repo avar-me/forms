@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "афгъанав",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -309,6 +321,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "африкаялъулаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -351,6 +374,23 @@
             "entry_forms": [
               "африкаялъулаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "африкаялъулал": {
+    "wordform": "африкаялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "африкаялъулаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }

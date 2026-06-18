@@ -20,6 +20,35 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "медалазул": {
+    "wordform": "медалазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "медаль",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -42,6 +71,18 @@
               "медалалъул",
               "медалал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "медаль",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -90,6 +131,18 @@
               "медалалъул",
               "медалал"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "медаль",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -223,6 +276,18 @@
             "sense": "юбилейный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "медаль",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -255,6 +320,18 @@
             "av": "Медаль-килас коп буго, Кваназе жо дагь буго",
             "ru": "Много наград, А еды мало",
             "sense": "награды; медали и ордена"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "медаль-килас",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -335,6 +412,57 @@
       }
     }
   },
+  "медицина": {
+    "wordform": "медицина",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "медицинаялда": {
+    "wordform": "медицинаялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "медицинаялъ": {
+    "wordform": "медицинаялъ",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "медицинаялъул": {
     "wordform": "медицинаялъул",
     "sources": {
@@ -401,6 +529,18 @@
             "av": "медицинаялъул учреждение",
             "ru": "медицинское учреждение",
             "sense": "учреждение"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -502,6 +642,23 @@
             "av": "медицинаялъулаб экспертиза",
             "ru": "медицинская экспертиза",
             "sense": "экспертиза"
+          }
+        ]
+      }
+    }
+  },
+  "медицинаялъулал": {
+    "wordform": "медицинаялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -609,6 +766,35 @@
               "медпункталъул",
               "медпунктал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "медсестра": {
+    "wordform": "медсестра",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "мед",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

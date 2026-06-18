@@ -124,6 +124,19 @@
             "sense": "задыхаться, задохнуться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "батизе",
+            "relation": "женский род",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -201,6 +214,17 @@
               "ятимал",
               "ятимзаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ятим",
+            "pos": "выражение"
           }
         ]
       }
@@ -362,6 +386,23 @@
       }
     }
   },
+  "ятимзабазул": {
+    "wordform": "ятимзабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ятим",
+            "pos": "выражение",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "ятимзаби": {
     "wordform": "ятимзаби",
     "sources": {
@@ -469,6 +510,18 @@
               "ятимлъиялъул"
             ],
             "from_lemma": "ятимлъизе"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ятимлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -644,6 +697,18 @@
               "ятимлъана",
               "ятимлъе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ятимлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

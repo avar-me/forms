@@ -27,6 +27,17 @@
             "sense": "беспечно; не уделяя внимания, без внимания; врасплох"
           }
         ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -90,6 +101,28 @@
             "sense": "внезапный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохаб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -143,6 +176,18 @@
             "sense": "не чуткий, беспечный; глуповатый"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -163,6 +208,18 @@
             "entry_forms": [
               "тохаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -227,6 +284,18 @@
             "av": "тохал кквей",
             "ru": "наблюдение",
             "sense": "бдительность"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохал",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -321,6 +390,17 @@
               "тохалчиясул",
               "тохалчагӏи"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохалчи",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -423,6 +503,35 @@
             "sense": "беспечно; не уделяя внимания, без внимания; врасплох"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохкьукьего": {
+    "wordform": "тохкьукьего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -451,6 +560,23 @@
       }
     }
   },
+  "тохлъарав": {
+    "wordform": "тохлъарав",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тохлъаравго": {
     "wordform": "тохлъаравго",
     "sources": {
@@ -467,6 +593,23 @@
             "av": "эмен тохлъаравго, вас къватӏиве ана",
             "ru": "как только отец увлёкся, сын выскочил на улицу",
             "sense": "(про)зевать, упустить из виду; отвлекаться, отвлечься"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъарай": {
+    "wordform": "тохлъарай",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -538,6 +681,18 @@
             "av": "тохлъи ккезе",
             "ru": "(про)зевать, упустить из виду; оплошиться",
             "sense": "упущение, пропуск; небрежность"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -612,6 +767,18 @@
               "тохлъизабуна",
               "тохлъизабе"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
           }
         ]
       }
@@ -692,6 +859,23 @@
       }
     }
   },
+  "тохлъизавизе": {
+    "wordform": "тохлъизавизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тохлъизавуна": {
     "wordform": "тохлъизавуна",
     "sources": {
@@ -708,6 +892,23 @@
             "av": "дос тохлъизавуна дун",
             "ru": "он лишил меня наблюдательности",
             "sense": "отвлекать, отвлечь; лишать, лишить наблюдательности"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъизарун": {
+    "wordform": "тохлъизарун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -766,6 +967,35 @@
             "sense": "(про)зевать, упустить из виду; отвлекаться, отвлечься"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъизелъун": {
+    "wordform": "тохлъизелъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -814,6 +1044,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -835,6 +1077,23 @@
               "тохлъиялъ",
               "тохлъиялъул"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тохлъу-кьего": {
+    "wordform": "тохлъу-кьего",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -895,6 +1154,17 @@
             "sense": "неожиданно, нечаянно, невзначай, внезапно, скоропостижно, нежданно-негаданно; вдруг, резко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъукье",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -927,6 +1197,30 @@
             "sense": "неожиданно, нечаянно, невзначай, внезапно, скоропостижно, нежданно-негаданно; вдруг, резко"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъукье",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъукье",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -950,6 +1244,74 @@
               "тохлъана",
               "тохлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тохлъулареб": {
+    "wordform": "тохлъулареб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъуларев": {
+    "wordform": "тохлъуларев",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъун": {
+    "wordform": "тохлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохлъунгутӏизе": {
+    "wordform": "тохлъунгутӏизе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тохлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1056,6 +1418,40 @@
       }
     }
   },
+  "тохтирасда": {
+    "wordform": "тохтирасда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтирасдасан": {
+    "wordform": "тохтирасдасан",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тохтирасул": {
     "wordform": "тохтирасул",
     "sources": {
@@ -1072,6 +1468,52 @@
             "av": "тохтирасул консультация",
             "ru": "врачебная консультация",
             "sense": "консультация"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтирасухъе": {
+    "wordform": "тохтирасухъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтирзабаз": {
+    "wordform": "тохтирзабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1093,6 +1535,23 @@
             "av": "гьединал кӏигьумерал гӏадамал тохтирзабазда гьоркьор ратилин кколароан дида",
             "ru": "я не думал такие лицемерные люди встречаются среди врачей",
             "sense": "двуличные, лицемерные"
+          }
+        ]
+      }
+    }
+  },
+  "тохтирзабазул": {
+    "wordform": "тохтирзабазул",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }
@@ -1303,6 +1762,23 @@
       }
     }
   },
+  "тохтурасда": {
+    "wordform": "тохтурасда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "тохтурасул": {
     "wordform": "тохтурасул",
     "sources": {
@@ -1341,6 +1817,52 @@
             "sense": "присмотр, надзор, наблюдение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтурасухъе": {
+    "wordform": "тохтурасухъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтурзабаз": {
+    "wordform": "тохтурзабаз",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1360,6 +1882,69 @@
             "av": "тохтурзабазул этика",
             "ru": "врачебная этика",
             "sense": "этика"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтурзаби": {
+    "wordform": "тохтурзаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтурлъи": {
+    "wordform": "тохтурлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "тохтурлъиялъе": {
+    "wordform": "тохтурлъиялъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тох",
+            "pos": "наречие",
+            "confidence": "medium"
           }
         ]
       }

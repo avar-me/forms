@@ -24,6 +24,23 @@
       }
     }
   },
+  "гусаразда": {
+    "wordform": "гусаразда",
+    "sources": {
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гусар",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "гусарал": {
     "wordform": "гусарал",
     "sources": {
@@ -43,6 +60,18 @@
               "гусарасул",
               "гусарал"
             ]
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "гусар",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

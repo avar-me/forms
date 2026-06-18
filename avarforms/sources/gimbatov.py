@@ -635,6 +635,43 @@ class DictionaryIndex:
             self._entry_key(context_entry),
         )
 
+    def lookup_lemma_strict(self, token: str) -> tuple[str, str, str, str] | None:
+        """Exact matches only — explicit relation, headword identity, or a declared form.
+
+        Used for secondary sources: it skips the fuzzy stem/prefix paths so a foreign word
+        cannot attach to an Avar loanword by a shared prefix (расшить↛рас, самолет↛самизе).
+        """
+        token_pos = ""
+        if token in self.word_to_entry:
+            token_pos = _entry_pos(self.word_to_entry[token][0])
+
+        if token in self.word_relations:
+            lemma, relation = self.word_relations[token]
+            if not token_pos and lemma in self.word_to_entry:
+                token_pos = _entry_pos(self.word_to_entry[lemma][0])
+            return lemma, relation, token_pos, "high"
+
+        headword = self._lookup_headword_self(token, token_pos)
+        if headword:
+            return headword
+
+        sentence_case = self._lookup_sentence_case(token, token_pos)
+        if sentence_case:
+            return sentence_case
+
+        if token in self.form_to_lemmas:
+            lemmas = self.form_to_lemmas[token]
+            lemma = next(iter(lemmas)) if len(lemmas) == 1 else self._pick_ambiguous_lemma(lemmas)
+            relation = ""
+            if lemma == token and token in self.word_to_entry and token not in self.word_relations:
+                relation = _gram_form_relation(self.word_to_entry[token][0])
+            pos = token_pos or (
+                _entry_pos(self.word_to_entry[lemma][0]) if lemma in self.word_to_entry else ""
+            )
+            return lemma, relation, pos, "medium"
+
+        return None
+
     def _lookup_lemma_impl(
         self,
         token: str,
@@ -769,6 +806,27 @@ def _load_entries(lines: Iterable[str]) -> list[dict[str, Any]]:
     return entries
 
 
+@lru_cache(maxsize=4)
+def load_dictionary(source: str) -> tuple[tuple[dict[str, Any], ...], DictionaryIndex]:
+    """Load av-ru entries (url or path) and build the lemma index, once per source.
+
+    Cached so the index is built a single time and shared by every extractor that
+    maps wordforms onto av-ru lemmas (gimbatov + the secondary wordform sources).
+    """
+    if source.startswith(("http://", "https://")):
+        import urllib.request
+
+        request = urllib.request.Request(source, headers={"User-Agent": "avarforms-build"})
+        with urllib.request.urlopen(request) as response:  # noqa: S310 - trusted avar.me source
+            text = response.read().decode("utf-8")
+        lines: Iterable[str] = text.splitlines()
+    else:
+        with open(source, encoding="utf-8") as fh:
+            lines = fh.read().splitlines()
+    entries = _load_entries(lines)
+    return tuple(entries), DictionaryIndex.from_entries(entries)
+
+
 def _sentence_case_fold(token: str) -> str | None:
     """Fold sentence-initial uppercase: «Хъахӏилаб» → «хъахӏилаб»."""
     if len(token) < 2 or not token[0].isupper():
@@ -824,8 +882,8 @@ class GimbatovExtractor(SourceExtractor):
 
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
         mappings = mappings or {}
-        entries = _load_entries(self.open_data_lines())
-        index = DictionaryIndex.from_entries(entries)
+        source = self.config.get("url") or str(self.resolve_path(self.config["path"]))
+        entries, index = load_dictionary(source)
 
         for entry in entries:
             yield from self._extract_entry(entry, mappings, index.headwords)

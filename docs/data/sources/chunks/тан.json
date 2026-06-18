@@ -341,6 +341,30 @@
             "sense": "останавливаться, остановиться, приостанавливаться, приостановиться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тезе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -404,6 +428,18 @@
             "av": "ххамил танг",
             "ru": "тюк ткани",
             "sense": "ткань, полотно, холст, мануфактура, материя; отрез"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танг",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -765,6 +801,30 @@
             "sense": "танк"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -788,6 +848,40 @@
               "танкал",
               "танкаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "танказда": {
+    "wordform": "танказда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "танказдаса": {
+    "wordform": "танказдаса",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -842,6 +936,18 @@
             "sense": "рейд"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -870,6 +976,17 @@
             "av": "танказулаб армия",
             "ru": "танковая армия",
             "sense": "армия"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танказулаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -940,6 +1057,23 @@
       }
     }
   },
+  "танказулги": {
+    "wordform": "танказулги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "танкал": {
     "wordform": "танкал",
     "sources": {
@@ -960,6 +1094,35 @@
               "танкал",
               "танкаби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "танкалда": {
+    "wordform": "танкалда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1042,6 +1205,18 @@
             "sense": "танк"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танк",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1097,6 +1272,28 @@
             "av": "щиб къварилъи кканиги, танкан дун ахӏулаан мадугьалас",
             "ru": "при любом затруднении, сразу меня приглашал сосед",
             "sense": "сразу, разом; сходу; моментально, мигом; вдруг"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкан",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкан",
+            "pos": "наречие"
           }
         ]
       }
@@ -1720,6 +1917,18 @@
             "from_lemma": "танкизе"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1825,6 +2034,18 @@
             "sense": "притаптывать, притоптать; уплотнять, уплотнить"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкизабизе",
+            "relation": "понудительная форма",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1878,6 +2099,23 @@
       }
     }
   },
+  "танкизабулеб": {
+    "wordform": "танкизабулеб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкизабизе",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "танкизабуна": {
     "wordform": "танкизабуна",
     "sources": {
@@ -1924,6 +2162,18 @@
               "танкана",
               "танке"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "танкизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }
@@ -2539,6 +2789,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тантрахъ",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -2558,6 +2819,17 @@
             "entry_forms": [
               "тантрахъаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тантрахъаб",
+            "pos": "прилагательное"
           }
         ]
       }
@@ -2580,6 +2852,18 @@
             "entry_forms": [
               "тантрахъаб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тантрахъаб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2648,6 +2932,23 @@
               "тантрахъица",
               "тантрахъил"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "тантрахълъи": {
+    "wordform": "тантрахълъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тантрахъ",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2782,6 +3083,18 @@
             "sense": "кисет"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тамахьо",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2803,6 +3116,18 @@
               "танхьица",
               "танхьил"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "тамахьо",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2905,6 +3230,18 @@
             "av": "танчил хӏара",
             "ru": "дуло пистолета",
             "sense": "ствол, дуло"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "таманча",
+            "relation": "родительный падеж",
+            "pos": "существительное"
           }
         ]
       }
@@ -3027,6 +3364,18 @@
               "таманчатанчил",
               "таманчатунчул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "таманча",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

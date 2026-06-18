@@ -44,6 +44,28 @@
             "sense": "шум, голос"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏ",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏ",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -128,6 +150,18 @@
             "sense": "хитрец"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -203,6 +237,17 @@
             "sense": "лиса, лисица"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏираб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -233,6 +278,30 @@
             "av": "сихӏирав чи",
             "ru": "хитрый человек",
             "sense": "хитрый, лукавый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -286,6 +355,18 @@
             "av": "сихӏирал тушбаби",
             "ru": "лукавые враги",
             "sense": "хитрый, лукавый"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏираб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -356,6 +437,17 @@
             "av": "сихӏирго кӏалъазе",
             "ru": "разговаривать хитро, с хитрецой",
             "sense": "хитро, с хитрецой; лукаво"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирго",
+            "pos": "наречие"
           }
         ]
       }
@@ -438,6 +530,23 @@
               "сихӏирил",
               "сихӏирзаби"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сихӏирлъаби": {
+    "wordform": "сихӏирлъаби",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -553,6 +662,18 @@
             "av": "сихӏирлъи гьечӏеб",
             "ru": "бесхитростный",
             "sense": "хитрость, плутовство, лукавство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -811,6 +932,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъизе",
+            "relation": "инфинитив",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -869,6 +1002,23 @@
       }
     }
   },
+  "сихӏирлъиялде": {
+    "wordform": "сихӏирлъиялде",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сихӏирлъиялъ": {
     "wordform": "сихӏирлъиялъ",
     "sources": {
@@ -887,6 +1037,18 @@
               "сихӏирлъиялъ",
               "сихӏирлъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъи",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -912,6 +1074,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -935,6 +1109,23 @@
               "сихӏирлъана",
               "сихӏирлъе"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "сихӏирлъун": {
+    "wordform": "сихӏирлъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏирлъизе",
+            "pos": "глагол",
+            "confidence": "medium"
           }
         ]
       }
@@ -1056,6 +1247,18 @@
             "sense": "тихий, укромный; спокойный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏкъотӏизе",
+            "relation": "причастие",
+            "pos": "глагол"
+          }
+        ]
       }
     }
   },
@@ -1134,6 +1337,30 @@
             "av": "сихӏкъотӏи биххизабизе",
             "ru": "нарушить тишину",
             "sense": "тишина"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏкъотӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏкъотӏизе",
+            "relation": "масдар",
+            "pos": "глагол"
           }
         ]
       }
@@ -1349,6 +1576,23 @@
       }
     }
   },
+  "сихӏкъотӏиялда": {
+    "wordform": "сихӏкъотӏиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏкъотӏи",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сихӏкъотӏиялъ": {
     "wordform": "сихӏкъотӏиялъ",
     "sources": {
@@ -1485,6 +1729,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1531,6 +1787,18 @@
             "sense": "фокус"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1554,6 +1822,18 @@
               "сихӏрудул",
               "сихӏраби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1624,6 +1904,23 @@
       }
     }
   },
+  "сихӏрумахӏлъи": {
+    "wordform": "сихӏрумахӏлъи",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сихӏручагӏи": {
     "wordform": "сихӏручагӏи",
     "sources": {
@@ -1670,6 +1967,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏручи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1692,6 +2001,18 @@
               "сихӏручилъиялъ",
               "сихӏручилъиялъул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏручилъи",
+            "relation": "именительный",
+            "pos": "существительное"
           }
         ]
       }
@@ -1812,6 +2133,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏручӏужу",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1861,6 +2194,23 @@
       }
     }
   },
+  "сихӏруялдалъун": {
+    "wordform": "сихӏруялдалъун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "сихӏруялъ": {
     "wordform": "сихӏруялъ",
     "sources": {
@@ -1881,6 +2231,18 @@
               "сихӏрудул",
               "сихӏраби"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "сихӏру",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

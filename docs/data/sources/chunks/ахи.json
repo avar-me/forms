@@ -384,6 +384,35 @@
             "sense": "терраса"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ах",
+            "relation": "родительный падеж",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ахилгун": {
+    "wordform": "ахилгун",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахил",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -639,6 +668,42 @@
             "sense": "разговор, беседа"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -676,6 +741,45 @@
             "av": "ахир-къадги ккела мун дир цӏобалде",
             "ru": "в конце концов, попросишь ты милости у меня",
             "sense": "наконец, в конце концов"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир-къадги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир-къадги",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "ахир-къасебалда": {
+    "wordform": "ахир-къасебалда",
+    "sources": {
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -809,6 +913,28 @@
             "sense": "беспредельничать, слишком возгордиться, задирать нос; выходить за рамки дозволенного; высовываться, выпячиваться"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахираб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахираб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -895,6 +1021,30 @@
             "av": "падежазул ахирал",
             "ru": "падежные окончания",
             "sense": "падеж"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -984,6 +1134,17 @@
             "sense": "точка"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахиралда",
+            "pos": "наречие"
+          }
+        ]
       }
     }
   },
@@ -1003,6 +1164,34 @@
             "entry_forms": [
               "ахиралдаги"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахиралдаги",
+            "pos": "наречие"
+          }
+        ]
+      }
+    }
+  },
+  "ахиралдаица": {
+    "wordform": "ахиралдаица",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1149,6 +1338,30 @@
             "sense": "(по)гибнуть, погибать; умирать; пропадать"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахиралда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахиралда",
+            "pos": "наречие",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1171,6 +1384,23 @@
               "ахиралъул",
               "ахирал"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ахиралъе": {
+    "wordform": "ахиралъе",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахир",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1336,6 +1566,18 @@
             "sense": "потусторонний, загробный мир; потусторонняя, загробная жизнь; тот свет; царство небесное; вечная жизнь"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахират",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -1419,6 +1661,18 @@
             "av": "дуниялалъул ургъел гурев, ахираталъул пикру гурев",
             "ru": "ни озабоченности о мирских делах, ни раздумий о загробной жизни",
             "sense": "раздумье, душевное беспокойство, озабоченность; забота"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахират",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1512,6 +1766,28 @@
             "av": "ахирги щвана дие гьеб тӏехь",
             "ru": "наконец достал я эту книгу",
             "sense": "заиметь, доставать, достать что-либо, (за)владеть чем-либо"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирги",
+            "pos": "наречие"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирги",
+            "pos": "наречие"
           }
         ]
       }
@@ -1852,6 +2128,45 @@
             "sense": "вздох, дыхание, дуновение"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное"
+          }
+        ]
+      }
+    }
+  },
+  "ахирисебги": {
+    "wordform": "ахирисебги",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1874,6 +2189,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -1894,6 +2221,40 @@
             "entry_forms": [
               "ахирисеб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "ахирисел": {
+    "wordform": "ахирисел",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
+  "ахириселда": {
+    "wordform": "ахириселда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирисеб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -1935,6 +2296,39 @@
             "sense": "последный, заключительный, конечный, окончательный"
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "en-av": {
+        "id": "en-av",
+        "name": "EN-AV словарь",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирияб",
+            "pos": "прилагательное"
+          }
+        ]
+      },
+      "taras-bulba": {
+        "id": "taras-bulba",
+        "name": "Тарас Бульба (параллельный корпус)",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирияб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -1955,6 +2349,18 @@
             "entry_forms": [
               "ахирияб"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахирияб",
+            "pos": "прилагательное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2260,6 +2666,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахихъан",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -2425,6 +2843,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахихъан",
+            "pos": "существительное",
+            "confidence": "medium"
+          }
+        ]
       }
     }
   },
@@ -2457,6 +2887,35 @@
             "av": "Дагъистаналъул мугӏрузул ракьанлъабазда ругел гӏемерисел росабалъ аслияб магӏишат ахихъанлъи буго",
             "ru": "в сёлах, расположенных в предгорной части Дагестана, садоводство является основной отраслю хозяйства",
             "sense": "садовничество, садоводство"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахихъанлъи",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
+      }
+    }
+  },
+  "ахихъанлъиялда": {
+    "wordform": "ахихъанлъиялда",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахихъанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
@@ -2513,6 +2972,18 @@
             "av": "ахихъанлъиялъул совхоз",
             "ru": "садоводческий совхоз",
             "sense": "совхоз"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "ахихъанлъи",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }

@@ -34,6 +34,23 @@
       }
     }
   },
+  "бущараб": {
+    "wordform": "бущараб",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бущине",
+            "pos": "глагол",
+            "confidence": "medium"
+          }
+        ]
+      }
+    }
+  },
   "буще": {
     "wordform": "буще",
     "sources": {
@@ -298,6 +315,18 @@
             "av": "кинитӏа лъимер бущине",
             "ru": "пеленать ребёнка, уложив в колыбель",
             "sense": "колыбель, люлька"
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "бущине",
+            "relation": "инфинитив",
+            "pos": "глагол"
           }
         ]
       }

@@ -20,6 +20,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "алтаяв",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -100,6 +112,18 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "алтаяй",
+            "relation": "именительный",
+            "pos": "существительное"
+          }
+        ]
       }
     }
   },
@@ -122,6 +146,18 @@
               "алтаяз",
               "алтаязул"
             ]
+          }
+        ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "алтаял",
+            "relation": "множественное число",
+            "pos": "существительное"
           }
         ]
       }
@@ -191,6 +227,17 @@
             ]
           }
         ]
+      },
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "алтаялъулаб",
+            "pos": "прилагательное"
+          }
+        ]
       }
     }
   },
@@ -233,6 +280,23 @@
             "entry_forms": [
               "алтаялъулаб"
             ]
+          }
+        ]
+      }
+    }
+  },
+  "алтаялъулал": {
+    "wordform": "алтаялъулал",
+    "sources": {
+      "ru-av": {
+        "id": "ru-av",
+        "name": "RU-AV словарь Алиханова",
+        "mentions": [
+          {
+            "subsource": "wordforms",
+            "lemma": "алтаяй",
+            "pos": "существительное",
+            "confidence": "medium"
           }
         ]
       }
