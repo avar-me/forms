@@ -814,9 +814,9 @@ def load_dictionary(source: str) -> tuple[tuple[dict[str, Any], ...], Dictionary
     maps wordforms onto av-ru lemmas (gimbatov + the secondary wordform sources).
     """
     if source.startswith(("http://", "https://")):
-        from avarforms.core.extractor import fetch_url_text
+        from avarforms.core.extractor import read_source_text
 
-        lines: Iterable[str] = fetch_url_text(source).splitlines()
+        lines: Iterable[str] = read_source_text(source).splitlines()
     else:
         with open(source, encoding="utf-8") as fh:
             lines = fh.read().splitlines()

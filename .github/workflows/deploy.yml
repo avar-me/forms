@@ -24,14 +24,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Current source data, read locally from a checkout of avar-me/sources instead of
+      # fetching sources.avar.me (GitHub Pages) — fetching the org's own Pages CDN from
+      # Actions is flaky/slow. This is still "no data in our repo": it comes from sources.
+      - uses: actions/checkout@v4
+        with:
+          repository: avar-me/sources
+          path: .sources-mirror
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # Build docs/data/ from the CURRENT sources (sources.avar.me) on every deploy,
-      # so the site is never a stale snapshot. Static docs/ files are committed; the
-      # build regenerates docs/data/ (gitignored) and cache-busts the HTML.
-      - name: Build site (fetches current sources)
+      # Build docs/data/ from the CURRENT sources on every deploy, so the site is never a
+      # stale snapshot. Static docs/ files are committed; the build regenerates docs/data/
+      # (gitignored) and cache-busts the HTML.
+      - name: Build site (current sources)
+        env:
+          AVARFORMS_SOURCES_DIR: .sources-mirror
         run: ./build.sh
 
       - uses: actions/configure-pages@v5

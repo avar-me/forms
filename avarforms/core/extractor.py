@@ -2,14 +2,31 @@ from __future__ import annotations
 
 import http.client
 import json
+import os
 import time
 import urllib.error
 import urllib.request
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any, Iterator
+from urllib.parse import urlparse
 
 from .models import MappingTable, WordFormRecord
+
+
+def read_source_text(url: str) -> str:
+    """Return a source's text, preferring a local mirror over the network.
+
+    If AVARFORMS_SOURCES_DIR is set (e.g. a checkout of the avar-me/sources repo in CI),
+    the file is read from there by its URL path — avoiding flaky GitHub-Pages fetches from
+    GitHub Actions. Otherwise it is fetched from the URL (sources.avar.me) with retries.
+    """
+    mirror = os.environ.get("AVARFORMS_SOURCES_DIR")
+    if mirror:
+        local = Path(mirror) / urlparse(url).path.lstrip("/")
+        if local.is_file():
+            return local.read_text(encoding="utf-8")
+    return fetch_url_text(url)
 
 
 def fetch_url_text(url: str, *, retries: int = 4, timeout: int = 120) -> str:
@@ -58,7 +75,7 @@ class SourceExtractor(ABC):
         """
         url = self.config.get("url")
         if url:
-            yield from fetch_url_text(url).splitlines()
+            yield from read_source_text(url).splitlines()
             return
 
         path = self.resolve_path(self.config["path"])
