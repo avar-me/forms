@@ -145,8 +145,7 @@ def write_lemma_frequencies(path: Path, rows: list[AggregatedRecord]) -> int:
     """
     freq: Counter[str] = Counter()
     for row in rows:
-        if row.lemma:
-            freq[row.lemma] += row.count
+        freq[row.lemma or row.wordform] += row.count
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh)
