@@ -16,7 +16,13 @@ SUBSOURCE_ORDER = {
     "forms": 2,
     "gender_forms": 3,
     "examples": 4,
+    "wordforms": 5,
 }
+
+# Cap mentions kept per (wordform, source) so common words don't blow up provenance size
+# (a frequent form can appear in thousands of secondary-source texts). Kept after sorting,
+# so the high-value subsources (headword/forms) survive and a sample of examples remains.
+MAX_MENTIONS_PER_SOURCE = 10
 
 
 def _mention_key(mention: dict[str, Any]) -> str:
@@ -68,6 +74,10 @@ def build_provenance_entries(records: list[WordFormRecord]) -> dict[str, dict[st
                     mention.get("av", ""),
                 )
             )
+            total = len(source_entry["mentions"])
+            if total > MAX_MENTIONS_PER_SOURCE:
+                source_entry["mentions"] = source_entry["mentions"][:MAX_MENTIONS_PER_SOURCE]
+                source_entry["mentions_truncated"] = total
             del source_entry["_seen"]
 
     return by_form

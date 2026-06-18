@@ -40,7 +40,9 @@ class MappedFormsExtractor(SourceExtractor):
 
     subsource = "wordforms"
 
-    def avar_texts(self) -> Iterator[str]:
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
+        """Yield (avar_text, detail) — `detail` is the provenance context (`av`, optional
+        `ru`) shown on the source page for every token found in `avar_text`."""
         raise NotImplementedError
 
     def _own_lines(self) -> list[str]:
@@ -49,7 +51,7 @@ class MappedFormsExtractor(SourceExtractor):
     def extract(self, mappings: MappingTable | None = None) -> Iterator[WordFormRecord]:
         mappings = mappings or {}
         _, index = load_dictionary(self.config["index_source"])
-        for text in self.avar_texts():
+        for text, detail in self.avar_units():
             for token in _iter_example_tokens(text):
                 wordform = index._canonical_example_wordform(token)
                 # Exact headword/declared-form match is always trusted. A fuzzy stem/prefix
@@ -80,46 +82,51 @@ class MappedFormsExtractor(SourceExtractor):
                     source_id=self.source_id,
                     subsource=self.subsource,
                     confidence=confidence,
+                    detail=dict(detail),
                 )
 
 
 class RuAvFormsExtractor(MappedFormsExtractor):
-    """ru-av dictionary: Avar translations (sense.text), comments, and example.av."""
+    """ru-av dictionary: Avar translations (sense.text), comments, and example.av.
 
-    def avar_texts(self) -> Iterator[str]:
+    Context: `av` is the Avar text the form was found in; `ru` is the Russian headword
+    (for translations/comments) or the example's Russian (for examples)."""
+
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
         for line in self._own_lines():
             line = line.strip()
             if not line:
                 continue
             entry = json.loads(line)
+            word = entry.get("word", "")
             for sense in entry.get("senses", []):
                 if sense.get("text"):
-                    yield sense["text"]
+                    yield sense["text"], {"av": sense["text"], "ru": word}
                 if sense.get("comment"):
-                    yield sense["comment"]
+                    yield sense["comment"], {"av": sense["comment"], "ru": word}
                 for example in sense.get("examples", []):
                     if example.get("av"):
-                        yield example["av"]
+                        yield example["av"], {"av": example["av"], "ru": example.get("ru", "")}
 
 
 class EnAvFormsExtractor(MappedFormsExtractor):
-    """en-av dictionary: only the Avar translation field."""
+    """en-av dictionary: only the Avar translation field (context: English source word)."""
 
-    def avar_texts(self) -> Iterator[str]:
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
         for line in self._own_lines():
             line = line.strip()
             if not line:
                 continue
             entry = json.loads(line)
             if entry.get("avar"):
-                yield entry["avar"]
+                yield entry["avar"], {"av": entry["avar"], "ru": entry.get("word", "")}
 
 
 class TarasBulbaFormsExtractor(MappedFormsExtractor):
-    """Taras Bulba parallel corpus (JSON array): only the Avar sentence (av)."""
+    """Taras Bulba parallel corpus (JSON array): Avar sentence (av) with its Russian (ru)."""
 
-    def avar_texts(self) -> Iterator[str]:
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
         data: list[dict[str, Any]] = json.loads("".join(self._own_lines()))
         for sentence in data:
             if sentence.get("av"):
-                yield sentence["av"]
+                yield sentence["av"], {"av": sentence["av"], "ru": sentence.get("ru", "")}

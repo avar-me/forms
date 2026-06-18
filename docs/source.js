@@ -13,10 +13,11 @@ const SUBSOURCE_LABELS = {
     explicit_relation: 'Явная связь (from)',
     forms: 'Поле forms[]',
     gender_forms: 'Родовые формы',
-    examples: 'Пример av'
+    examples: 'Пример av',
+    wordforms: 'Словоформа из источника'
 };
 
-const SUBSOURCE_ORDER = ['headword', 'explicit_relation', 'forms', 'gender_forms', 'examples'];
+const SUBSOURCE_ORDER = ['headword', 'explicit_relation', 'forms', 'gender_forms', 'examples', 'wordforms'];
 
 const state = {
     manifest: null,
