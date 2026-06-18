@@ -139,19 +139,20 @@ def write_csv(path: Path, rows: list[AggregatedRecord]) -> None:
 
 
 def write_lemma_frequencies(path: Path, rows: list[AggregatedRecord]) -> int:
-    """Per-lemma frequency: total wordform occurrences summed over all forms/sources.
+    """Per-wordform frequency: total occurrences summed over all sources.
 
-    Sorted most-frequent first; the base list an орфограф/spell-checker is built from.
+    Every unique Avar wordform gets an entry. Sorted most-frequent first; this is
+    the base list an орфограф/spell-checker is built from.
     """
     freq: Counter[str] = Counter()
     for row in rows:
-        freq[row.lemma or row.wordform] += row.count
+        freq[row.wordform] += row.count
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh)
         writer.writerow(["lemma", "count"])
-        for lemma, count in sorted(freq.items(), key=lambda kv: (-kv[1], kv[0])):
-            writer.writerow([lemma, count])
+        for wordform, count in sorted(freq.items(), key=lambda kv: (-kv[1], kv[0])):
+            writer.writerow([wordform, count])
     return len(freq)
 
 
