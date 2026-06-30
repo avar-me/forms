@@ -10,9 +10,14 @@ MAX_CHUNK_SIZE = 100 * 1024
 MAX_WORDFORMS_PER_CHUNK = 500
 
 
+_PALOCHKA_SAFE_RE = re.compile(r"[IiｌlL|!ǀӀІ]")
+_PALOCHKA_DIGIT_RE = re.compile(r"(?<=[кгтчхцлКГТЧХЦЛ])1")
+
+
 def normalize_word(word: str) -> str:
     normalized = word.lower().strip()
-    normalized = re.sub(r"[1IiｌlL|!ǀӀІ]", "ӏ", normalized)
+    normalized = _PALOCHKA_SAFE_RE.sub("ӏ", normalized)
+    normalized = _PALOCHKA_DIGIT_RE.sub("ӏ", normalized)
     return normalized
 
 
