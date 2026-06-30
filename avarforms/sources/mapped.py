@@ -7,7 +7,11 @@ English, proper nouns fall away)."""
 from __future__ import annotations
 
 import json
+import re
 from typing import Any, Iterator
+
+# Split on blank lines (paragraph breaks) or after sentence-ending punctuation.
+_SENTENCE_SPLIT_RE = re.compile(r"\n{2,}|(?<=[.!?…])\s+")
 
 from avarforms.core.extractor import SourceExtractor
 from avarforms.core.models import MappingTable, WordFormRecord
@@ -164,11 +168,14 @@ class HakikatFormsExtractor(MappedFormsExtractor):
             entry = json.loads(line)
             if not entry.get("text"):
                 continue
-            detail: dict[str, Any] = {}
+            article: dict[str, Any] = {}
             if entry.get("slug"):
-                detail["slug"] = entry["slug"]
+                article["slug"] = entry["slug"]
             if entry.get("title"):
-                detail["title"] = entry["title"]
+                article["title"] = entry["title"]
             if entry.get("url"):
-                detail["url"] = entry["url"]
-            yield entry["text"], detail
+                article["url"] = entry["url"]
+            for sentence in _SENTENCE_SPLIT_RE.split(entry["text"]):
+                sentence = sentence.strip()
+                if sentence:
+                    yield sentence, {**article, "av": sentence}
