@@ -29,9 +29,9 @@ RELATION_FROM_KEYS: dict[str, str] = {
 }
 
 TOKEN_SPLIT_RE = re.compile(
-    r"[\s,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()\[\]{}—–]+"
+    r"[\s,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()\[\]{}—–\u2026\u2022\u2116]+"
 )
-PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-"
+PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-\u2026\u2022\u2116"
 MIN_MORPH_PREFIX_LEN = 3
 LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
 # Endings that mark a verb form (nouns don't take them). Used to disambiguate a token
@@ -851,13 +851,19 @@ def _sentence_case_fold(token: str) -> str | None:
     return folded if folded != token else None
 
 
+# Zero-width and directional formatting characters that appear in corpus texts:
+# U+200B-U+200F (ZWSP/ZWNJ/ZWJ/LRM/RLM), U+202A-U+202E (directional formatting),
+# U+2060-U+2064 (word joiner etc.), U+FEFF (BOM), U+00AD (soft hyphen)
+_INVISIBLE_RE = re.compile("[​-‏‪-‮⁠-⁤﻿­]")
+
+
 def _normalize_example_token(raw: str) -> str:
     """Strip punctuation/quotes and unify palochka variants to canonical ӏ.
 
     Palochka is unified only in tokens that contain Cyrillic, so pure
     Latin/numeric tokens (e.g. «1990») are left intact.
     """
-    token = raw.strip()
+    token = _INVISIBLE_RE.sub("", raw).strip()
     while True:
         stripped = token.strip(PUNCT_STRIP)
         if stripped == token:
