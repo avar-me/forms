@@ -151,5 +151,13 @@ class HakikatFormsExtractor(MappedFormsExtractor):
             if not line:
                 continue
             entry = json.loads(line)
-            if entry.get("text"):
-                yield entry["text"], {"av": entry["text"]}
+            if not entry.get("text"):
+                continue
+            detail: dict[str, Any] = {}
+            if entry.get("slug"):
+                detail["slug"] = entry["slug"]
+            if entry.get("title"):
+                detail["title"] = entry["title"]
+            if entry.get("url"):
+                detail["url"] = entry["url"]
+            yield entry["text"], detail
