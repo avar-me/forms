@@ -24,6 +24,9 @@ _AVAR_FORM_ENDINGS: tuple[str, ...] = tuple(
         | {
             "еб", "ев", "ей", "ел", "раб", "рал", "рав", "рай", "себ", "сел",
             "на", "го", "ги", "де", "лъун", "лъи", "лъе", "ал", "би", "заби", "дул", "сан",
+            # endings containing palochka (ӏ) — safe to add: palochka is Avar-specific,
+            # no Russian word can end in these
+            "ӏи", "чӏи", "тӏи", "кӏи", "хӏи", "гӏи",
         },
         key=len,
         reverse=True,
@@ -57,10 +60,21 @@ class MappedFormsExtractor(SourceExtractor):
                 # Exact headword/declared-form match is always trusted. A fuzzy stem/prefix
                 # match is trusted only when the token ends in an Avar inflectional ending,
                 # so foreign words can't attach to Avar loanwords by a shared prefix.
+                # Tokens that pass neither check are dropped (non-Avar: Russian, Latin, etc.).
                 resolved = index.lookup_lemma_strict(token)
+                is_avar = resolved is not None
                 if resolved is None:
                     candidate = index.lookup_lemma(token)
-                    resolved = candidate if candidate[0] and _has_avar_ending(token) else None
+                    if candidate[0] and _has_avar_ending(token):
+                        resolved = candidate
+                        is_avar = True
+                    elif _has_avar_ending(token):
+                        # Avar-shaped token but no known lemma — include without mapping
+                        is_avar = True
+
+                if not is_avar:
+                    continue
+
                 lemma, relation, pos, confidence = resolved or ("", "", "", "low")
 
                 if wordform in mappings:
@@ -70,14 +84,11 @@ class MappedFormsExtractor(SourceExtractor):
                     pos = override.pos or pos
                     confidence = "high"
 
-                if not lemma:
-                    continue
-
                 yield WordFormRecord(
                     wordform=wordform,
                     lemma=lemma,
                     relation=relation,
-                    pos=pos if lemma else "",
+                    pos=pos,
                     source=self.source_name,
                     source_id=self.source_id,
                     subsource=self.subsource,
