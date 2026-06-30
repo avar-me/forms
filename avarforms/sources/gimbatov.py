@@ -56,6 +56,11 @@ NOUN_ENDINGS = frozenset({
 # Palochka variants (capital Ӏ, Latin I/i/l/L, pipe, digit 1, Cyrillic І) → canonical ӏ (U+04CF),
 # matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
 PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
+# For token normalization: replace unambiguous variants (not digit 1), then
+# replace digit 1 only after Avar digraph consonants (кӏ гӏ тӏ чӏ хӏ цӏ лӏ)
+# so «100-120-гӏанасев» is not corrupted to «ӏ00-ӏ20-гӏанасев».
+_PALOCHKA_SAFE_RE = re.compile(r"[IiｌlL|ǀӀІ]")
+_PALOCHKA_DIGIT_RE = re.compile(r"(?<=[кКгГтТчЧхХцЦлЛ])1")
 
 
 def _longest_common_prefix(strings: set[str]) -> str:
@@ -870,7 +875,8 @@ def _normalize_example_token(raw: str) -> str:
             break
         token = stripped
     if PALOCHKA_RE.search(token) and any("Ѐ" <= ch <= "ӿ" for ch in token):
-        token = PALOCHKA_RE.sub("ӏ", token)
+        token = _PALOCHKA_SAFE_RE.sub("ӏ", token)
+        token = _PALOCHKA_DIGIT_RE.sub("ӏ", token)
     return token
 
 
