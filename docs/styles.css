@@ -424,6 +424,51 @@ a:hover {
   margin-bottom: 2.5rem;
 }
 
+.stats-note {
+  margin: -0.5rem 0 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted, #5a6570);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+  font-weight: 600;
+  color: var(--text-muted, #5a6570);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.data-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.bar-cell {
+  width: 40%;
+  padding-left: 0.5rem;
+}
+
+.bar-fill {
+  height: 10px;
+  background: #5e7a6f;
+  border-radius: 3px;
+  min-width: 2px;
+}
+
 .stats-heading {
   font-family: var(--font-serif);
   font-size: 1.25rem;

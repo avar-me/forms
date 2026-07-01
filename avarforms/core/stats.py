@@ -31,7 +31,7 @@ GAP_FILTER_META: dict[str, dict[str, str]] = {
     },
     "strange": {
         "label": "Аномалии",
-        "description": "Подозрительные записи без ясного контекста",
+        "description": "Словоформы с явными проблемами: цифры, посторонние символы, голая палочка в начале",
     },
 }
 
@@ -43,6 +43,22 @@ LEGACY_GAP_FILTERS: dict[str, str] = {
     "ambiguous_examples": "needs_work",
     "low_confidence": "needs_work",
 }
+
+# Characters not expected in Avar wordforms: anything outside Cyrillic, hyphen, palochka.
+# Digits and Latin/special chars embedded in a token signal a bad token.
+_STRANGE_WORDFORM_RE = re.compile(r"[^а-яёА-ЯЁӀӏ\-]")
+
+FREQ_BUCKETS: list[tuple[str, int, int]] = [
+    ("1",       1,   1),
+    ("2",       2,   2),
+    ("3–5",     3,   5),
+    ("6–10",    6,  10),
+    ("11–20",  11,  20),
+    ("21–50",  21,  50),
+    ("51–100", 51, 100),
+    ("101–500",101, 500),
+    ("501+",   501, 10**9),
+]
 
 
 @dataclass
@@ -58,6 +74,8 @@ class BuildStats:
     top_wordforms: list[tuple[str, int]] = field(default_factory=list)
     top_relations: list[tuple[str, int]] = field(default_factory=list)
     strange_records: list[dict[str, Any]] = field(default_factory=list)
+    source_stats: list[dict[str, Any]] = field(default_factory=list)
+    freq_distribution: list[dict[str, Any]] = field(default_factory=list)
 
 
 def _is_missing(value: str) -> bool:
@@ -76,14 +94,15 @@ def is_clear_record(record: WordFormRecord) -> bool:
 
 
 def is_strange_record(record: WordFormRecord) -> bool:
-    """Suspicious pattern that still lacks a clear source context."""
-    if is_clear_record(record):
+    """Wordform has an obvious structural problem."""
+    w = record.wordform
+    if not w:
         return False
-    return (
-        record.wordform == record.lemma
-        and bool(record.relation)
-        and record.relation != "именительный"
-    )
+    if w[0] == "ӏ":
+        return True
+    if _STRANGE_WORDFORM_RE.search(w):
+        return True
+    return False
 
 
 def _group_by_wordform(records: list[WordFormRecord]) -> dict[str, list[WordFormRecord]]:
@@ -148,6 +167,50 @@ def build_gap_mentions(
     return mention_counts
 
 
+def _build_source_stats(aggregated: list[AggregatedRecord]) -> list[dict[str, Any]]:
+    """Per-source: unique wordforms, total occurrences, exclusive wordforms."""
+    # wordform -> set of sources that have it
+    wordform_sources: dict[str, set[str]] = defaultdict(set)
+    source_wordforms: dict[str, set[str]] = defaultdict(set)
+    source_total: dict[str, int] = defaultdict(int)
+
+    for rec in aggregated:
+        wordform_sources[rec.wordform].add(rec.source)
+        source_wordforms[rec.source].add(rec.wordform)
+        source_total[rec.source] += rec.count
+
+    result = []
+    for source, wordforms in source_wordforms.items():
+        exclusive = sum(1 for w in wordforms if len(wordform_sources[w]) == 1)
+        result.append({
+            "source": source,
+            "total": source_total[source],
+            "unique": len(wordforms),
+            "exclusive": exclusive,
+        })
+    result.sort(key=lambda x: -x["total"])
+    return result
+
+
+def _build_freq_distribution(aggregated: list[AggregatedRecord]) -> list[dict[str, Any]]:
+    """Bucket wordforms by total occurrence count across all sources."""
+    wordform_total: dict[str, int] = defaultdict(int)
+    for rec in aggregated:
+        wordform_total[rec.wordform] += rec.count
+
+    bucket_counts = [0] * len(FREQ_BUCKETS)
+    for total in wordform_total.values():
+        for i, (_, lo, hi) in enumerate(FREQ_BUCKETS):
+            if lo <= total <= hi:
+                bucket_counts[i] += 1
+                break
+
+    return [
+        {"label": label, "wordforms": count}
+        for (label, _, _), count in zip(FREQ_BUCKETS, bucket_counts)
+    ]
+
+
 def build_stats(
     raw_records: list[WordFormRecord],
     aggregated: list[AggregatedRecord],
@@ -183,6 +246,11 @@ def build_stats(
             relation_counter[record.relation] += 1
 
         if is_strange_record(record):
+            reason = (
+                "starts_with_palochka"
+                if record.wordform and record.wordform[0] == "ӏ"
+                else "contains_non_avar_chars"
+            )
             stats.strange_records.append(
                 {
                     "wordform": record.wordform,
@@ -190,7 +258,7 @@ def build_stats(
                     "relation": record.relation,
                     "source": record.source,
                     "subsource": record.subsource,
-                    "reason": "lemma_equals_wordform_with_non_nominative_relation",
+                    "reason": reason,
                 }
             )
 
@@ -198,6 +266,8 @@ def build_stats(
     stats.top_lemmas = lemma_counter.most_common(20)
     stats.top_wordforms = wordform_counter.most_common(20)
     stats.top_relations = relation_counter.most_common(20)
+    stats.source_stats = _build_source_stats(aggregated)
+    stats.freq_distribution = _build_freq_distribution(aggregated)
     return stats
 
 

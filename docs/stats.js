@@ -158,6 +158,58 @@ function makeHorizontalBar(canvasId, labels, data, title) {
     });
 }
 
+function renderSourceStatsTable(stats) {
+    const el = document.getElementById('sourceStatsTable');
+    const rows = stats.source_stats || [];
+    if (!rows.length) { el.innerHTML = '<p>Нет данных</p>'; return; }
+    const header = `
+        <table class="data-table">
+            <thead><tr>
+                <th>Источник</th>
+                <th>Уникальных словоформ</th>
+                <th>Всего вхождений</th>
+                <th>Только в этом источнике</th>
+            </tr></thead>
+            <tbody>
+    `;
+    const body = rows.map(r => `
+        <tr>
+            <td>${escapeHtml(r.source)}</td>
+            <td class="num">${formatNumber(r.unique)}</td>
+            <td class="num">${formatNumber(r.total)}</td>
+            <td class="num">${formatNumber(r.exclusive)}</td>
+        </tr>
+    `).join('');
+    el.innerHTML = header + body + '</tbody></table>';
+}
+
+function renderFreqDistTable(stats) {
+    const el = document.getElementById('freqDistTable');
+    const rows = stats.freq_distribution || [];
+    if (!rows.length) { el.innerHTML = '<p>Нет данных</p>'; return; }
+    const maxVal = Math.max(...rows.map(r => r.wordforms), 1);
+    const header = `
+        <table class="data-table">
+            <thead><tr>
+                <th>Раз встречается</th>
+                <th>Словоформ</th>
+                <th></th>
+            </tr></thead>
+            <tbody>
+    `;
+    const body = rows.map(r => {
+        const barW = Math.round((r.wordforms / maxVal) * 100);
+        return `
+            <tr>
+                <td>${escapeHtml(r.label)}</td>
+                <td class="num">${formatNumber(r.wordforms)}</td>
+                <td class="bar-cell"><div class="bar-fill" style="width:${barW}%"></div></td>
+            </tr>
+        `;
+    }).join('');
+    el.innerHTML = header + body + '</tbody></table>';
+}
+
 function renderCoverageDetails(stats, gapManifest) {
     const totalMentions = stats.total_raw_records || 1;
     const manifestFilters = gapManifest?.filters || {};
@@ -250,6 +302,8 @@ async function initStats() {
             'Топ-12 словоформ по частоте'
         );
 
+        renderSourceStatsTable(stats);
+        renderFreqDistTable(stats);
         renderCoverageDetails(stats, gapManifest);
     } catch (err) {
         loading.style.display = 'none';
