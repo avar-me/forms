@@ -857,10 +857,11 @@ def _sentence_case_fold(token: str) -> str | None:
     return folded if folded != token else None
 
 
-# Zero-width and directional formatting characters that appear in corpus texts:
+# C0 control characters (U+0001-U+001F, excluding tab/newline handled by tokenizer),
+# zero-width and directional formatting chars:
 # U+200B-U+200F (ZWSP/ZWNJ/ZWJ/LRM/RLM), U+202A-U+202E (directional formatting),
 # U+2060-U+2064 (word joiner etc.), U+FEFF (BOM), U+00AD (soft hyphen)
-_INVISIBLE_RE = re.compile("[​-‏‪-‮⁠-⁤﻿­]")
+_INVISIBLE_RE = re.compile("[\x01-\x08\x0b-\x1f​-‏‪-‮⁠-⁤﻿­]")
 
 
 def _normalize_example_token(raw: str) -> str:
