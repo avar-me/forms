@@ -57,10 +57,10 @@ NOUN_ENDINGS = frozenset({
 # matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
 PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
 # For token normalization: replace unambiguous palochka glyphs unconditionally;
-# replace I/i only when adjacent to Cyrillic so Latin abbreviations (IT, Instagram)
-# and Roman numerals (II, III) are left intact.
+# replace I/i/L/l only when adjacent to Cyrillic so Latin words (call, digital, IT)
+# are left intact while Avar digraphs (гlадаб, хIал) still normalize correctly.
 # Digit 1 is replaced only after Avar digraph consonants to avoid corrupting numbers.
-_PALOCHKA_SAFE_RE = re.compile(r"[ｌlL|ǀӀІ]|(?<=[а-яёА-ЯЁӏ])[Ii]|[Ii](?=[а-яёА-ЯЁӏ])")
+_PALOCHKA_SAFE_RE = re.compile(r"[ｌ|ǀӀІ]|(?<=[а-яёА-ЯЁӏ])[IiLl]|[IiLl](?=[а-яёА-ЯЁӏ])")
 _PALOCHKA_DIGIT_RE = re.compile(r"(?<=[кКгГтТчЧхХцЦлЛ])1")
 
 
