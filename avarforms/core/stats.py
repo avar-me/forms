@@ -98,6 +98,8 @@ def is_strange_record(record: WordFormRecord) -> bool:
     w = record.wordform
     if not w:
         return False
+    if w[0].isdigit():
+        return False  # numeric constructions like «3000-гӏанасеб» are normal Avar
     if w[0] == "ӏ":
         return True
     if _STRANGE_WORDFORM_RE.search(w):
