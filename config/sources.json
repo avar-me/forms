@@ -66,6 +66,17 @@
       }
     },
     {
+      "id": "phrase-av-ru",
+      "name": "Аварско-русский фразеологический словарь (Магомедханов)",
+      "enabled": true,
+      "module": "avarforms.sources.mapped",
+      "class": "PhraseAvRuExtractor",
+      "config": {
+        "url": "https://sources.avar.me/data/phrase_av-ru.jsonl",
+        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
+      }
+    },
+    {
       "id": "mukhidinov-library",
       "name": "Библиотека МухӀидиновых (монолингвальный корпус)",
       "enabled": true,

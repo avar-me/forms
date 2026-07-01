@@ -157,6 +157,27 @@ class IhdalFormsExtractor(MappedFormsExtractor):
                 yield sentence["av"], {"av": sentence["av"]}
 
 
+class PhraseAvRuExtractor(MappedFormsExtractor):
+    """Avar-Russian phraseological dictionary (JSONL): phrase headword + sentence examples."""
+
+    def avar_units(self) -> Iterator[tuple[str, dict[str, Any]]]:
+        for line in self._own_lines():
+            line = line.strip()
+            if not line:
+                continue
+            entry = json.loads(line)
+            phrase = entry.get("phrase", "")
+            if phrase:
+                first_ru = ""
+                senses = entry.get("senses", [])
+                if senses:
+                    first_ru = senses[0].get("translation", "")
+                yield phrase, {"av": phrase, "ru": first_ru}
+            for example in entry.get("examples", []):
+                if example.get("av"):
+                    yield example["av"], {"av": example["av"], "ru": example.get("ru", "")}
+
+
 class HakikatFormsExtractor(MappedFormsExtractor):
     """«ХӀакъикъат» online archive (JSONL): monolingual Avar article texts."""
 
