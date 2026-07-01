@@ -33,6 +33,10 @@ GAP_FILTER_META: dict[str, dict[str, str]] = {
         "label": "Аномалии",
         "description": "Словоформы с явными проблемами: цифры, посторонние символы, голая палочка в начале",
     },
+    "foreign_words": {
+        "label": "Иностранные слова",
+        "description": "Латинские слова/аббревиатуры с аварскими окончаниями: COVID, Telegram, IT и т.д.",
+    },
 }
 
 LEGACY_GAP_FILTERS: dict[str, str] = {
@@ -47,6 +51,12 @@ LEGACY_GAP_FILTERS: dict[str, str] = {
 # Characters not expected in Avar wordforms: anything outside Cyrillic, hyphen, palochka.
 # Digits and Latin/special chars embedded in a token signal a bad token.
 _STRANGE_WORDFORM_RE = re.compile(r"[^а-яёА-ЯЁӀӏ\-]")
+
+# Latin chars that are visually identical to Cyrillic (homoglyphs).
+# A Latin prefix made entirely of these chars is a typo (myхӏудада = муxӏудада),
+# not a foreign word. Prefixes that contain at least one non-homoglyph Latin char
+# (f, v, d, g, t, n, s, l, ...) are real foreign words (covid, fpv, digital).
+_LATIN_HOMOGLYPHS = frozenset("aceopxybm")
 
 FREQ_BUCKETS: list[tuple[str, int, int]] = [
     ("1",       1,   1),
@@ -93,13 +103,42 @@ def is_clear_record(record: WordFormRecord) -> bool:
     return False
 
 
+def is_foreign_word_record(record: WordFormRecord) -> bool:
+    """Latin word/abbreviation + Avar suffix: covid-19-ялдаса, telegram-каналалда, it-технологиязухъ.
+
+    Rejected if the Latin prefix consists solely of Cyrillic-homoglyph chars (a,c,e,o,p,x,y,b,m)
+    since those are typos, not real foreign words (myхӏудада = муxӏудада, pyxӏал = рухӏал).
+    """
+    w = record.wordform
+    if not w or not (w[0].isascii() and w[0].isalpha()):
+        return False
+    # Find first Cyrillic character
+    first_cyr = next(
+        (i for i, c in enumerate(w) if "а" <= c <= "я" or "А" <= c <= "Я" or c in "ёЁӏӀ"),
+        -1,
+    )
+    if first_cyr < 0:
+        return False
+    prefix = w[:first_cyr].lower()
+    latin_chars = [c for c in prefix if c.isalpha()]
+    if not latin_chars:
+        return False
+    # If every Latin char is a Cyrillic homoglyph → it's a typo, not a foreign word
+    if all(c in _LATIN_HOMOGLYPHS for c in latin_chars):
+        return False
+    # Foreign: ≥3 Latin chars, or shorter prefix with a hyphen/digit (it-, qr-)
+    return len(latin_chars) >= 3 or "-" in prefix or any(c.isdigit() for c in prefix)
+
+
 def is_strange_record(record: WordFormRecord) -> bool:
-    """Wordform has an obvious structural problem."""
+    """Wordform has an obvious structural problem (homoglyph, bare palochka, garbage chars)."""
     w = record.wordform
     if not w:
         return False
     if w[0].isdigit():
         return False  # numeric constructions like «3000-гӏанасеб» are normal Avar
+    if is_foreign_word_record(record):
+        return False  # foreign words tracked separately
     if w[0] == "ӏ":
         return True
     if _STRANGE_WORDFORM_RE.search(w):
@@ -147,7 +186,11 @@ def build_gaps(raw_records: list[WordFormRecord]) -> tuple[dict[str, list[str]],
         if any(is_strange_record(record) for record in records):
             buckets["strange"].add(wordform)
 
+        if any(is_foreign_word_record(record) for record in records):
+            buckets["foreign_words"].add(wordform)
+
     mention_counts["strange"] = sum(1 for record in raw_records if is_strange_record(record))
+    mention_counts["foreign_words"] = sum(1 for record in raw_records if is_foreign_word_record(record))
 
     gap_filters = {
         key: sorted(words, key=_normalize_sort_key)
