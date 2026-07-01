@@ -29,9 +29,9 @@ RELATION_FROM_KEYS: dict[str, str] = {
 }
 
 TOKEN_SPLIT_RE = re.compile(
-    r"[\s,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()\[\]{}—–\u2026\u2022\u2116]+"
+    r"[\s,;:!?/«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()\[\]{}—–\u2026\u2022\u2116]+"
 )
-PUNCT_STRIP = ".,;:!?«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-\u2026\u2022\u2116"
+PUNCT_STRIP = ".,;:!?/«»\"\"''\u201c\u201d\u2018\u2019\u201a\u201b\u201e\u201f\u2039\u203a()[]{}—–-\u2026\u2022\u2116"
 MIN_MORPH_PREFIX_LEN = 3
 LIMITATIVE_SUFFIX = "гӏан"  # инфинитив на -е + гӏан → форма предела («пока/до тех пор пока V»)
 # Endings that mark a verb form (nouns don't take them). Used to disambiguate a token
@@ -56,10 +56,11 @@ NOUN_ENDINGS = frozenset({
 # Palochka variants (capital Ӏ, Latin I/i/l/L, pipe, digit 1, Cyrillic І) → canonical ӏ (U+04CF),
 # matching normalize_word so example tokens hit dictionary keys (e.g. ГӀурул → гӏурул).
 PALOCHKA_RE = re.compile(r"[1IiｌlL|ǀӀІ]")
-# For token normalization: replace unambiguous variants (not digit 1), then
-# replace digit 1 only after Avar digraph consonants (кӏ гӏ тӏ чӏ хӏ цӏ лӏ)
-# so «100-120-гӏанасев» is not corrupted to «ӏ00-ӏ20-гӏанасев».
-_PALOCHKA_SAFE_RE = re.compile(r"[IiｌlL|ǀӀІ]")
+# For token normalization: replace unambiguous palochka glyphs unconditionally;
+# replace I/i only when adjacent to Cyrillic so Latin abbreviations (IT, Instagram)
+# and Roman numerals (II, III) are left intact.
+# Digit 1 is replaced only after Avar digraph consonants to avoid corrupting numbers.
+_PALOCHKA_SAFE_RE = re.compile(r"[ｌlL|ǀӀІ]|(?<=[а-яёА-ЯЁӏ])[Ii]|[Ii](?=[а-яёА-ЯЁӏ])")
 _PALOCHKA_DIGIT_RE = re.compile(r"(?<=[кКгГтТчЧхХцЦлЛ])1")
 
 

@@ -10,7 +10,7 @@ MAX_CHUNK_SIZE = 100 * 1024
 MAX_WORDFORMS_PER_CHUNK = 500
 
 
-_PALOCHKA_SAFE_RE = re.compile(r"[IiｌlL|!ǀӀІ]")
+_PALOCHKA_SAFE_RE = re.compile(r"[ｌlL|!ǀӀІ]|(?<=[а-яёА-ЯЁӏ])[Ii]|[Ii](?=[а-яёА-ЯЁӏ])")
 _PALOCHKA_DIGIT_RE = re.compile(r"(?<=[кгтчхцлКГТЧХЦЛ])1")
 
 
