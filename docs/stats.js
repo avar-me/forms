@@ -25,9 +25,13 @@ const GAP_LABELS = {
         label: 'Аномалии',
         description: 'Подозрительные записи без ясного контекста',
     },
+    foreign_words: {
+        label: 'Иностранные слова',
+        description: 'Латинские слова/аббревиатуры с аварскими окончаниями: COVID, Telegram, IT и т.д.',
+    },
 };
 
-const GAP_FILTER_ORDER = ['needs_work', 'fully_unmapped', 'partial', 'homograph', 'strange'];
+const GAP_FILTER_ORDER = ['needs_work', 'fully_unmapped', 'partial', 'homograph', 'strange', 'foreign_words'];
 
 const CHART_COLORS = [
     '#5e7a6f', '#1a5f8a', '#6b9080', '#4a6670', '#7a9e8e',
