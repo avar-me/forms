@@ -141,9 +141,13 @@ def is_strange_record(record: WordFormRecord) -> bool:
         return False  # foreign words tracked separately
     if w[0] == "ӏ":
         return True
-    if _STRANGE_WORDFORM_RE.search(w):
-        return True
-    return False
+    bad = _STRANGE_WORDFORM_RE.findall(w)
+    if not bad:
+        return False
+    # Cyrillic word + hyphenated number + Avar suffix (гиа-2022-ялъул, омега-3-ялъ) — normal
+    if all(c.isdigit() for c in bad) and "-" in w:
+        return False
+    return True
 
 
 def _group_by_wordform(records: list[WordFormRecord]) -> dict[str, list[WordFormRecord]]:
