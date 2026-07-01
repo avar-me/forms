@@ -77,6 +77,17 @@
       }
     },
     {
+      "id": "murtazagaliev",
+      "name": "АхӀмад МуртазагӀалиев (монолингвальный корпус)",
+      "enabled": true,
+      "module": "avarforms.sources.mapped",
+      "class": "HakikatFormsExtractor",
+      "config": {
+        "url": "https://sources.avar.me/data/murtazagaliev.jsonl",
+        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
+      }
+    },
+    {
       "id": "mukhidinov-library",
       "name": "Библиотека МухӀидиновых (монолингвальный корпус)",
       "enabled": true,
