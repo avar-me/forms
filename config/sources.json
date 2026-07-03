@@ -44,17 +44,6 @@
       }
     },
     {
-      "id": "ihdal",
-      "name": "Газета «ХӀакъикъат» (номер, монолингвальный корпус)",
-      "enabled": true,
-      "module": "avarforms.sources.mapped",
-      "class": "IhdalFormsExtractor",
-      "config": {
-        "url": "https://sources.avar.me/data/ihdal.json",
-        "index_source": "https://sources.avar.me/data/av-ru.jsonl"
-      }
-    },
-    {
       "id": "hakikat",
       "name": "«ХӀакъикъат» — статьи (монолингвальный корпус)",
       "enabled": true,
